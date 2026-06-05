@@ -84,4 +84,39 @@
 
 ---
 
-*Last updated: 2026-06-04 | Source: Initial framework — add site-specific equipment and process terms as you encounter them*
+---
+
+## Site-Specific Terms (Added from Photos)
+
+| Term | Plain-English Explanation |
+|---|---|
+| **AODD pump** | Air-Operated Double-Diaphragm pump. Runs on compressed air, no electricity. Ideal for sludge and thick slurries. Makes a characteristic rhythmic "chunk-chunk" sound. |
+| **Accu-Tab Blue** | Brand name for calcium hypochlorite tablet chlorinator system. Class 5.1 oxidizer. Used on this site for final disinfection. |
+| **Cal-Hypo** | Short for calcium hypochlorite — a dry or tablet form of chlorine disinfectant. Stronger and more stable than liquid bleach (sodium hypochlorite). |
+| **Carbon vessel / GAC vessel** | A pressure vessel filled with granular activated carbon (GAC). Removes dissolved organics, petroleum hydrocarbons, colour, and odour by adsorption. Cannot be regenerated on-site — media must be replaced when exhausted. |
+| **CD30TIX** | Model name for the ozone generation system on this site. Generates ozone (O₃) from air for iron oxidation and disinfection. |
+| **AERQUS** | Brand name for the ozone diffuser used to introduce ozone into the water stream. |
+| **CK-311** | Product name for the PACl coagulant on this site (Aluminum Hydroxide Chloride Solution), supplied by CARBONeT Holdings through SUMAS. pH 2.2–2.8. |
+| **CL-200** | Product name for the liquid polymer flocculant on this site (aqueous solution of water-soluble polymer), supplied by SUMAS. pH 6.5–7.5. |
+| **Flopham** | Brand name for the dry polyacrylamide-based polymer on this site. Must be pre-dissolved in water before use. |
+| **HaloKlear LiquiFloc** | Brand name for a chitosan acetate flocculant from HaloSource Inc. A natural biopolymer flocculant. |
+| **Fe²⁺ (ferrous iron)** | Dissolved, invisible iron. Cannot be filtered. Must be oxidized (by H₂O₂ or ozone) to Fe³⁺ before it can be removed. |
+| **Fe³⁺ (ferric iron)** | Oxidized iron that forms reddish-brown iron hydroxide precipitate [Fe(OH)₃]. This is the orange staining you see everywhere. Can be filtered. |
+| **Filter cake** | The semi-dry slab of compressed sludge solids that comes out of the filter press after a press cycle. Regulated waste — must be removed by licensed contractor. |
+| **Filter press** | Machine that squeezes water out of sludge by pressing it between a stack of filter plates lined with filter cloth. Produces dry filter cakes and clean filtrate. |
+| **Flocculant** | A chemical that bridges between coagulated particles to make them grow into larger, heavier floc. CL-200 and Flopham are the flocculants on this site. |
+| **Frac tank** | Large portable above-ground steel tank (typically 100,000 L) used for water storage. Originally developed for the oil/gas industry. Used here to store dirty, in-treatment, and treated water. |
+| **Filtrate** | The water that comes out of the filter press after pressing. Usually returned to the head of the treatment system. |
+| **Iron hydroxide** | Fe(OH)₃ — the reddish-brown solid that forms when dissolved ferric iron (Fe³⁺) reacts with water. This is what causes all the orange staining at this facility. |
+| **Kontek APC5** | Model of the filter press on this site. Manufacturer: Kontek Ecology Systems Inc., Burlington, Ontario. 120V, 1-phase. |
+| **LES HALL filter** | Brand of filter bags used in the bag filter housing on this site. Available in 10-micron (fine) and 100-micron (coarse) ratings. |
+| **OWS** | Oil/Water Separator. A chamber that allows petroleum products to float and be skimmed, while heavier water sinks. The Shell Canada system at this site is an OWS. |
+| **PV SERIES** | Brand designation on the SRS-CV-15 carbon vessel. "PV" = pressure vessel. |
+| **Sand filter / SRS-SF-11** | The green pressure vessel sand filter on this site. Removes iron floc and suspended solids. Tagged SRS-SF-11. |
+| **Carbon vessel / SRS-CV-15** | The blue PV Series pressure vessel carbon filter on this site. Tagged SRS-CV-15. |
+| **SUMAS Environmental Services Inc.** | The water treatment contractor managing this system. Contact: 1-250-374-4151. Located in BC. |
+| **Separation cell** | Another name for the wet cell — the indoor concrete settling tanks. |
+| **Stabilization pit / pond** | The outdoor pond that receives oil-contaminated or heavily iron-laden water for primary settling and separation before further treatment. |
+| **Wet cell** | The indoor multi-compartment concrete settling tanks where chemical flocculation occurs and sludge accumulates. A confined space. |
+
+*Last updated: 2026-06-05 | Source: Site photos (IMG_2574–2631), equipment labels, MSDS documents, operational notes*

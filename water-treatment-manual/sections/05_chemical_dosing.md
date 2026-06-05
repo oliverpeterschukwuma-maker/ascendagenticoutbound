@@ -1,200 +1,323 @@
 # Section 5 — Chemical Dosing
 
-> Chemicals are the most powerful tools in your plant — and the most dangerous if used incorrectly. This section explains what each chemical does, how to dose it, how to adjust it, and how to handle it safely.
+> Every chemical in this system has one job. Learn what that job is, what "working correctly" looks like, and what the warning signs of a problem are. Never mix chemicals together — several combinations on this site are dangerous.
 
 ---
 
-## 5.1 Why We Add Chemicals
+## 5.1 The Chemicals On This Site and Why Each One Is Here
 
-Raw water is not a stable, simple substance. The chemicals we add are not "pollution" — they are precision tools. Each one does a specific job:
+This is an iron-removal and hydrocarbon-removal system, not a drinking water plant. The chemicals reflect that:
 
-| Chemical | Job |
-|---|---|
-| Coagulant (alum, PACl) | Neutralizes the electrical charge on particles so they can clump together and settle |
-| Coagulant aid / polymer | Helps small floc particles stick together into larger, heavier floc |
-| pH adjustment (lime, caustic, CO₂) | Keeps pH in the optimal range for coagulation and disinfection |
-| Disinfectant (chlorine, sodium hypochlorite) | Kills pathogens; maintains residual in distribution |
-| Fluoride (sodium fluorosilicate, fluorosilicic acid) | Dental health benefit (where required by jurisdiction) |
-| Corrosion inhibitor (orthophosphate) | Coats pipes to prevent lead and copper leaching |
-| Powdered activated carbon (PAC) | Adsorbs taste and odour compounds during algae events |
-
----
-
-## 5.2 Calculating Chemical Doses
-
-### The Basic Dose Equation
-
-```
-Dose (mg/L) × Flow (L/min) = Mass added per minute (mg/min)
-
-Convert to pump settings:
-mg/min ÷ Chemical concentration (mg/mL) = mL/min pump output
-```
-
-**Example — Chlorine:**
-- Target dose: 2.0 mg/L (as Cl₂)
-- Plant flow: 2,000 L/min
-- Sodium hypochlorite (NaOCl) solution: 12.5% = 125,000 mg/L = 125 mg/mL
-
-```
-2.0 mg/L × 2,000 L/min = 4,000 mg/min needed
-4,000 mg/min ÷ 125 mg/mL = 32 mL/min pump output
-```
-
-`ℹ️ WHY:` You must re-calculate whenever flow changes. Dose is always proportional to flow. A pump running at a fixed rate while flow doubles = half the intended dose.
-
----
-
-## 5.3 Chemical-by-Chemical Guide
-
-### 5.3.1 Coagulant — Alum (Aluminium Sulphate)
-
-**What it is:** Al₂(SO₄)₃ · 14H₂O — a white crystalline solid (or clear liquid solution).
-
-**What it does:** When added to water, alum hydrolyses (reacts with water) to form aluminium hydroxide [Al(OH)₃] — a gelatinous, sticky precipitate that collects suspended particles as it settles.
-
-**Typical dose:** 5–40 mg/L (varies enormously by raw water quality — use jar test to determine).
-
-**Optimal pH:** 6.0–7.5. Outside this range, coagulation efficiency drops sharply.
-
-**Important:** Alum consumes alkalinity. If raw water alkalinity is low (< 50 mg/L as CaCO₃), you may need to add lime or sodium bicarbonate to maintain adequate buffering.
-
-**Signs of under-dosing:**
-- Poor floc formation (pinpoint floc)
-- High turbidity in settled water
-
-**Signs of over-dosing:**
-- High turbidity in settled water (the charge reverses — over-coagulated particles repel again)
-- High aluminium residual in finished water
-- pH drops unexpectedly
-
----
-
-### 5.3.2 Coagulant — PACl (Poly-Aluminium Chloride)
-
-**What it is:** A pre-polymerized aluminium salt — Al_n(OH)_m·Cl_{3n-m}.
-
-**Advantages over alum:** More effective at cold temperatures (important in Canada), wider effective pH range, less sludge production.
-
-**Typical dose:** 5–25 mg/L (lower than alum for equivalent performance).
-
-*Site-specific dosing table to be filled in once your SOPs are provided.*
-
----
-
-### 5.3.3 Disinfectant — Sodium Hypochlorite (Liquid Bleach)
-
-**What it is:** NaOCl — the active ingredient in bleach. Typically 12–15% available chlorine as shipped, degrades over time and with heat/light exposure.
-
-**What it does:** Reacts with water to form hypochlorous acid (HOCl), the primary active disinfectant. HOCl is more effective at lower pH.
-
-**CT concept:**
-- CT = Concentration (mg/L) × Time (minutes)
-- Regulators specify a minimum CT required to inactivate specific pathogens (e.g., Giardia, Cryptosporidium).
-- CT = free chlorine residual at the end of the contact chamber × hydraulic detention time.
-
-**Chlorine demand:** The amount of chlorine consumed by organic matter, metals (iron, manganese), and other reducing substances before a residual is established. You must dose enough to satisfy the demand PLUS achieve the target residual.
-
-**Chlorine demand = Applied dose − Residual**
-
-**Chlorine byproducts (DBPs):** Chlorine reacts with natural organic matter (NOM) to form trihalomethanes (THMs) and haloacetic acids (HAAs) — regulated carcinogens. High NOM in raw water = higher DBP risk = more important to remove NOM before chlorination.
-
-**Typical operating range:**
-- Applied dose: 1–5 mg/L (depends on chlorine demand of your source water)
-- Finished water free chlorine: 0.2–1.5 mg/L (depends on permit and distribution system length)
-
-`⚠️ WARNING:` Sodium hypochlorite is corrosive. Never mix with acids (violent chlorine gas release). Always add to water — never add water to concentrated bleach. Wear face shield, chemical splash goggles, and chemical-resistant gloves when handling.
-
----
-
-### 5.3.4 pH Adjustment — Lime (Calcium Hydroxide)
-
-**What it is:** Ca(OH)₂ — a white powder or slurry. Also called "hydrated lime."
-
-**What it does:** Raises pH. Used to:
-- Restore alkalinity consumed by alum
-- Adjust finished water pH upward for corrosion control
-- Soften water (lime-soda softening)
-
-**Typical dose:** 5–30 mg/L (highly variable — test and titrate).
-
-**Handling:** Lime is caustic (pH > 12). Creates dust when dry. Wears through skin slowly. Goggles and dust mask required.
-
----
-
-### 5.3.5 Fluoride
-
-*If your plant adds fluoride, this section will be expanded with your site-specific target, chemical, and dosing procedure.*
-
-**Typical target:** 0.7 mg/L (Health Canada recommendation; varies by jurisdiction).
-
-`⚠️ WARNING:` Fluoride chemicals (fluorosilicic acid / hydrofluorosilicic acid) are highly corrosive acids. Require face shield, splash goggles, acid-resistant gloves and apron.
-
----
-
-## 5.4 Chemical Dosing Pumps
-
-Chemical dosing pumps are positive-displacement metering pumps. Common types:
-
-| Type | How it works | Common use |
+| Chemical | Container | Job in this system |
 |---|---|---|
-| **Peristaltic** | Rollers squeeze flexible tubing to push liquid | Corrosive chemicals, small flows |
-| **Diaphragm (piston)** | A diaphragm flexes back and forth to draw and push liquid | Accurate metering, most process chemicals |
-
-**Setting the dose:**
-Most pumps have two adjustments:
-1. **Stroke rate** (cycles per minute) — how often it pumps
-2. **Stroke length** (% of full stroke) — how much it pumps per stroke
-
-Output (mL/min) = Stroke rate × Stroke length × Pump capacity per stroke
-
-Always verify the actual output by timing how long it takes to empty a measured volume from a graduated cylinder or by using a calibration column on the pump. Never trust the dial alone.
+| **PACl** (Poly Aluminum Chloride) | White 200L drum, Class 8, SUMAS label | Coagulant — neutralizes particle charge so solids clump |
+| **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc |
+| **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
+| **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
+| **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
+| **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
+| **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
+| **Accu-Tab Blue** (Cal-Hypo tablets) | White pails, Class 5.1, SUMAS label | Disinfectant — final chlorination before discharge |
 
 ---
 
-## 5.5 Dosing Adjustments — When and How
+## 5.2 Critical Compatibility Warning — Read Before Handling Any Chemical
 
-| Trigger | Action |
-|---|---|
-| Raw water turbidity increases (e.g., storm event) | Increase coagulant dose (re-run jar test if available) |
-| Raw water turbidity decreases | May decrease coagulant dose |
-| Settled water turbidity is rising | Increase coagulant, check flocculation, consider polymer |
-| Filter effluent turbidity is rising | Check coagulation, may need backwash |
-| Finished water chlorine residual is low | Increase chlorine dose |
-| Finished water chlorine residual is high (wasting chemical, high DBP risk) | Decrease chlorine dose |
-| Raw water pH changes significantly | May need to adjust pH correction chemical |
-| Plant flow increases | Increase all doses proportionally |
-| Plant flow decreases | Decrease all doses proportionally |
+`⚠️ WARNING:` Several chemicals on this site will react violently if mixed together.
 
-`ℹ️ WHY:` Chemical doses are always relative to flow and raw water quality. A static dose on a variable system means you're over-dosing during low flow and under-dosing during high flow.
-
----
-
-## 5.6 Chemical Inventory Management
-
-- Check chemical tank levels every shift. Record levels in the logbook.
-- Calculate days of supply remaining: `(Tank volume remaining) ÷ (Daily consumption rate) = Days of supply`
-- Reorder threshold: Order when you have ≤ 5 days of supply (or per your site policy).
-- Rotate stock: First in, first out (FIFO). Sodium hypochlorite degrades rapidly — don't let old stock sit.
-- Record every chemical delivery: date, supplier, quantity, lot number, concentration.
-
----
-
-## 5.7 Chemical Safety Summary
-
-> Full chemical safety procedures, including SDS references, spill response, and first aid, are in Section 9 (Safety) and Section 10 (Emergency Response).
-
-| Chemical | Key Hazard | Critical PPE |
+| Never mix... | With... | What happens |
 |---|---|---|
-| Alum (liquid) | Corrosive (pH ~2) | Splash goggles, chemical gloves, apron |
-| PACl (liquid) | Corrosive | Splash goggles, chemical gloves, apron |
-| Sodium hypochlorite | Oxidizer, corrosive, releases chlorine gas if mixed with acid | Face shield, splash goggles, chemical gloves, apron |
-| Lime (powder) | Caustic, lung irritant (dust) | Dust mask/N95, goggles, gloves |
-| Fluorosilicic acid | Highly corrosive acid | Face shield, splash goggles, acid gloves, apron |
-| Polymer/coagulant aid | Slippery when spilled | Gloves; clean up spills immediately |
+| **Hydrogen Peroxide** | **Calcium Hypochlorite (Cal-Hypo)** | Violent decomposition, fire, chlorine gas release |
+| **Hydrogen Peroxide** | Any organic material (rags, wood, oils) | Can ignite spontaneously |
+| **Cal-Hypo** | Any acid (including PACl, which is pH 2.2–2.8) | Chlorine gas released |
+| **CO₂ (as gas)** | Enclosed space without ventilation | Displaces oxygen — asphyxiation risk |
 
-`⚠️ WARNING:` Know the locations of all Safety Data Sheets (SDS) in your chemical storage area. Read the SDS for every chemical before you handle it for the first time.
+**Rule:** Store each chemical in its designated location. Never move containers without supervisor approval. Never decant into an unlabelled container. Never combine leftover chemicals.
 
 ---
 
-*Last updated: 2026-06-04 | Source: Initial framework*
+## 5.3 Chemical 1 — PACl (Poly Aluminum Chloride)
+
+**Product:** CK-311 Coagulant (Aluminum Hydroxide Chloride Solution), supplied by SUMAS Environmental Services  
+**SDS supplier:** CARBONeT Holdings Inc., 604-761-2308  
+**Container:** White 200L drum, Class 8, UN 3264, PG III, pH 2.2–2.8  
+**Pump:** Blue diaphragm dosing pump
+
+### What it does
+Water contains tiny particles that are too small to settle on their own. These particles carry a negative electrical charge, which keeps them suspended and apart — like tiny magnets repelling each other.
+
+PACl is a positively charged aluminum compound. When it's added to the water and mixed, its positive charge neutralizes the negative charge on the particles. Once the charges are neutralized, particles can approach and stick together — this is **coagulation**.
+
+`ℹ️ WHY:` Without coagulation, fine particles pass straight through every filter in this system. Coagulation is always the first chemical step.
+
+### How to dose
+- Typical dose range: 5–40 mg/L (highly variable based on water quality — start with your baseline and adjust)
+- Dose point: add to water with good mixing (turbulent mixing zone or rapid mix)
+- Check: is the pump running and consuming chemical? Watch the tank level — it should visibly drop over a shift.
+
+### Signs of under-dosing
+- Tiny pinpoint particles that don't clump
+- Water stays turbid/cloudy after settling
+- Filters get dirty quickly (loading too much fine solids)
+
+### Signs of over-dosing
+- Turbidity gets WORSE, not better (charge reversal — particles go positive and repel again)
+- Unusually high aluminum in discharge water
+- pH drops sharply (PACl is acidic, pH 2.2–2.8)
+
+### Safety
+- Corrosive (Class 8). Causes skin and eye burns.
+- **PPE:** Chemical splash goggles, chemical-resistant gloves, apron
+- Eye contact: flush immediately at eyewash for 15 minutes
+
+---
+
+## 5.4 Chemical 2 — CL-200 Polymer Flocculant
+
+**Product:** CL-200 Water Treatment Flocculant, aqueous solution of water-soluble polymer  
+**Container:** White drum, "FLOCCULANT / NON-REGULATED MATERIAL" label  
+**Pump:** Yellow LMI diaphragm dosing pump
+
+### What it does
+Coagulation (PACl) creates small particle clusters. Flocculation grows those small clusters into larger, heavier floc that settles faster and is easier to filter. CL-200 polymer is a long-chain molecule that acts like a net — it bridges between coagulated particles, connecting them into larger aggregates.
+
+`ℹ️ WHY:` Coagulation alone produces fine, slow-settling floc ("pinpoint floc"). Adding polymer produces large, fast-settling floc. This is the difference between waiting hours for settling and waiting minutes.
+
+### How to dose
+- Add AFTER PACl and after mixing (polymer is added during slow mixing, not rapid mix — the gentle tumbling lets it bridge particles together)
+- Typical dose range: 0.1–2 mg/L (much lower than coagulant — polymers are very active)
+- Over-dosing polymer is easy and wastes money. Start conservative.
+
+### Signs of under-dosing
+- Floc forms but stays small and slow to settle
+- Settled water still turbid
+
+### Signs of over-dosing
+- Floc may break apart or become sticky ("restabilization")
+- Water can become viscous or stringy
+
+### Safety
+- Non-regulated, pH 6.5–7.5. Low hazard.
+- Can make floors very slippery if spilled — clean up immediately
+- **PPE:** Gloves recommended; mop up spills right away
+
+---
+
+## 5.5 Chemical 3 — Flopham Dry Polymer
+
+**Product:** Flopham water soluble polymer (polyacrylamide-based)  
+**Container:** White bags, "NON-REGULATED MATERIAL" SUMAS label
+
+### What it does
+Same job as CL-200 — a flocculant. Flopham is a dry polymer that must be dissolved in water before use. It is used as a backup or supplement when CL-200 is unavailable or when higher doses are needed.
+
+### Making a polymer solution from dry Flopham
+Dry polymer must NEVER be added directly to the treatment stream — it forms fish-eye lumps and clogs lines.
+
+`[ACTION]`  
+1. Prepare a mixing bucket with clean water (room temperature — cold water slows dissolution).  
+2. Slowly add the dry polymer powder to the water while stirring continuously. **Add powder to water, not water to powder.**  
+3. Stir for 30–60 minutes until fully dissolved and solution is clear/uniform.  
+4. Typical solution concentration: 0.1–0.5% (1–5 g polymer per litre of water).  
+5. Add the prepared solution to the treatment stream via dosing pump or measured addition.
+
+`ℹ️ WHY:` Pre-dissolving eliminates clumping and ensures even distribution. Undissolved polymer lumps pass through the system without doing anything useful.
+
+---
+
+## 5.6 Chemical 4 — HaloKlear LiquiFloc 2% (Chitosan Flocculant)
+
+**Product:** HaloKlear LiquiFloc 2%, HaloSource Inc., Bothell WA  
+**Chemical:** Chitosan Acetate Solution — a natural biopolymer derived from crustacean shells  
+**Appearance:** Clear to pale yellow viscous liquid with a vinegar odor
+
+### What it does
+Chitosan is a natural, biodegradable flocculant that is particularly effective for removing fine clay and silt particles from stormwater. It works similarly to synthetic polymers but is preferred in some applications because it is non-toxic and biodegradable.
+
+### When to use it
+- During high turbidity events (heavy rain, surface runoff)
+- When stormwater contains fine clay that doesn't respond well to PACl alone
+- When an environmentally sensitive application requires a natural flocculant
+
+### Dose
+- Typical: 1–10 mg/L (varies by turbidity and particle type)
+- 100% biodegradable and nontoxic to aquatic life
+
+### Safety
+- Very low hazard. May be mildly irritating to eyes.
+- Smells like vinegar — this is normal.
+- **PPE:** Gloves recommended as good practice.
+
+---
+
+## 5.7 Chemical 5 — Hydrogen Peroxide (H₂O₂)
+
+**Product:** Hydrogen Peroxide, All Grades, Brenntag Canada  
+**Container:** Blue 200L drums, SUMAS label "ORGANIC PEROXIDE TYPE E, LIQUID", Class 5.2 + Class 8  
+**Concentration:** Likely 25–50% (confirm with supervisor and SDS)
+
+### What it does — Iron Oxidation
+
+The source water contains dissolved iron in its **reduced form (Fe²⁺)** — ferrous iron. In this form, iron is invisible in water (clear). You can't filter out dissolved iron — it passes straight through any filter because it's not a particle.
+
+Hydrogen peroxide oxidizes Fe²⁺ to Fe³⁺ (ferric iron):
+
+```
+2 Fe²⁺ + H₂O₂ → 2 Fe³⁺ + 2 OH⁻
+
+Fe³⁺ + 3 OH⁻ → Fe(OH)₃ ↓
+```
+
+Fe(OH)₃ is iron hydroxide — a reddish-brown solid that precipitates out of solution and can now be filtered. This is where the orange staining on every surface comes from.
+
+`ℹ️ WHY:` You cannot filter dissolved iron — you must convert it to a particle first. H₂O₂ does this conversion, and then your sand filter catches the iron particles that result.
+
+### Dose guideline
+- Rule of thumb: **1 mg H₂O₂ per mg of Fe²⁺** (1:1 ratio)
+- In practice, 1–3 mg/L H₂O₂ is common for iron oxidation (confirm actual Fe²⁺ concentration in your source water)
+- Excess H₂O₂ is not harmful in small amounts — it decomposes to water and oxygen
+
+### How to check it's working
+- Orange/rusty precipitate forming in the settling tanks is a good sign
+- If no precipitate forms after adding H₂O₂, check: Is the pump actually running? Is the tank level dropping? Is the pH in the right range (H₂O₂ iron oxidation works best at pH 5–8)?
+
+### `⚠️ WARNING — Hydrogen Peroxide is a serious hazard`
+- **Class 5.2 Organic Peroxide** and **Class 8 Corrosive** — both apply
+- Concentrated H₂O₂ causes severe skin and eye burns on contact
+- Strong oxidizer — reacts violently with organics (rags, wood, fuels), metals (iron, copper, manganese), and strong bases
+- **NEVER mix with Cal-Hypo** — violent reaction
+- Decomposition produces oxygen — sealed/hot containers can over-pressurize
+- **Storage:** Cool, dry, away from all combustibles. No direct sunlight. Keep away from other chemicals. Do not store near Cal-Hypo.
+- **PPE:** Full face shield, chemical splash goggles, chemical-resistant gloves (neoprene or nitrile, check SDS), apron
+
+**First aid — skin contact:** Flush with large amounts of water for 20 minutes. Remove contaminated clothing while flushing.  
+**First aid — eye contact:** Eyewash station for 15 minutes minimum. Seek medical attention.  
+**First aid — inhalation (vapour/mist):** Move to fresh air. Call 911 if breathing affected.
+
+---
+
+## 5.8 Chemical 6 — CO₂ (Carbon Dioxide)
+
+**Product:** Carbon Dioxide Gas/Liquid, Air Liquide Canada  
+**Container:** Pressurized cylinder (high-pressure gas — handle with care)  
+**Emergency contact:** Air Liquide Canada, (514) 878-1667
+
+### What it does — pH Reduction
+When CO₂ dissolves in water, it forms carbonic acid (H₂CO₃), which lowers pH:
+
+```
+CO₂ + H₂O → H₂CO₃ (carbonic acid) → H⁺ + HCO₃⁻
+```
+
+More H⁺ ions = lower pH. CO₂ is a safe, precise pH reducer — unlike strong acids (sulphuric acid), CO₂ is self-limiting (the more you add, the more equilibrium pushes back) and leaves no harmful residual.
+
+### When to use it
+- When incoming water pH is too high (too alkaline) — for example, after lime or concrete contact
+- When you need to bring pH down before a treatment step that requires a certain pH range
+
+### `⚠️ WARNING — CO₂ Cylinder Safety`
+- **High pressure gas** — cylinders must be chained to wall or fixed support. A falling cylinder can rupture and become a projectile.
+- CO₂ gas is heavier than air — in an enclosed/low space, it displaces oxygen without warning (no smell, no colour). **Asphyxiation risk.**
+- Always work in ventilated areas; never enter a CO₂ storage vault alone
+- **PPE:** Safety glasses, gloves. For CO₂ liquid contact: thermal gloves (rapid evaporation causes frostbite)
+
+---
+
+## 5.9 Chemical 7 — pH+ Powder (Summer Smiles Sani Marc)
+
+**Product:** Summer Smiles pH+ (pool-grade sodium carbonate/bicarbonate blend)  
+**Container:** 8 kg pail
+
+### What it does — pH Raising
+Sodium carbonate (Na₂CO₃) is a mild base. When added to water, it raises pH. This is the same product used in swimming pools to raise water pH.
+
+### When to use it
+- When water pH is too low (too acidic) — for example, after heavy PACl dosing (which is acidic, pH 2.2–2.8)
+- When discharge requirements specify a minimum pH (usually ≥ 6.5)
+
+### How to add it
+`[ACTION]`  
+1. Wear gloves — the powder can irritate skin and eyes.  
+2. Add the powder slowly to a turbulent area (flowing water, not a stagnant tank).  
+3. Add a small amount, mix thoroughly, test pH, then add more if needed.  
+4. Do NOT dump in a large amount all at once — pH can overshoot.
+
+`ℹ️ WHY:` pH adjustment requires patience. A little, mix, test, repeat. Overcorrecting costs you time and extra chemicals to correct back.
+
+---
+
+## 5.10 Chemical 8 — Accu-Tab Blue (Calcium Hypochlorite Tablets)
+
+**Product:** Accu-Tab Blue, Calcium Hypochlorite  
+**Container:** White pails, SUMAS label, UN 2880, Class 5.1 (Oxidizer)  
+**Concentration:** Hydrated mixture, 5.5–16% water content
+
+### What it does — Disinfection
+Calcium hypochlorite dissolves in water to release hypochlorous acid (HOCl) — the same active disinfectant as liquid bleach. The tablets dissolve slowly as water passes over them in a tablet chlorinator (or contact chamber with tablets).
+
+Cal-Hypo is the final disinfection step — it kills any remaining bacteria before discharge and provides a measurable free chlorine residual to confirm treatment is complete.
+
+### How to use tablets
+`[ACTION]`  
+1. Confirm the contact vessel/chlorinator is clean and dry before adding new tablets.  
+2. Wear gloves and do NOT inhale dust — the tablets are strong oxidizers and the dust irritates lungs and eyes.  
+3. Add tablets per your dosing SOP — do NOT add to a vessel that has wet residue from a previous chemical batch (especially peroxide residue). Dry vessel = critical.  
+4. Allow water to flow through at the designed rate — tablets dissolve proportionally to flow.  
+5. Test free chlorine residual in the effluent with a DPD test kit to confirm correct dose.
+
+### Target free chlorine for discharge
+*(Confirm with supervisor and permit)* — typical range: 0.1–0.5 mg/L at discharge point.
+
+### `⚠️ WARNING — Cal-Hypo Hazards`
+- **Class 5.1 Oxidizer** — strong oxidizer. Can cause fire on contact with organics (wood, paper, clothing)
+- **NEVER mix with acids** (including PACl solution) — releases chlorine gas
+- **NEVER mix with hydrogen peroxide** — violent decomposition
+- Store in a cool, dry, well-ventilated location, away from all other chemicals
+- **PPE:** Chemical splash goggles, gloves, apron. If handling dusty tablets: N95 or half-face respirator.
+
+---
+
+## 5.11 Chemical Dose Calculation
+
+All doses are proportional to the volume of water being treated. In a batch system (frac tanks):
+
+```
+Dose (mg/L) × Tank volume (L) = Total chemical mass needed (mg)
+
+Convert to volume:
+Total mass (mg) ÷ Chemical concentration (mg/mL) = Volume to add (mL)
+```
+
+**Example — adding PACl to a frac tank:**
+- Target dose: 20 mg/L PACl
+- Frac tank volume: 50,000 L (50 m³)
+- PACl concentration: ≈ 10% = 100 g/L = 100,000 mg/L = 100 mg/mL
+
+```
+20 mg/L × 50,000 L = 1,000,000 mg total
+1,000,000 mg ÷ 100 mg/mL = 10,000 mL = 10 L of PACl solution
+```
+
+`ℹ️ WHY:` In a batch system you're adding a fixed amount to a known volume, not running a continuous feed. Getting the math right matters — too little = poor treatment, too much = wasted chemical and potential exceedances.
+
+---
+
+## 5.12 Chemical Inventory Checklist
+
+Check at the start of every shift:
+
+| Chemical | Current Level | Reorder Threshold | Supplier |
+|---|---|---|---|
+| PACl (white drum) | _______ | < 20% remaining | SUMAS 1-250-374-4151 |
+| CL-200 polymer (white drum) | _______ | < 20% remaining | SUMAS 1-250-374-4151 |
+| Flopham polymer (bags) | _______ | < 2 bags | SUMAS 1-250-374-4151 |
+| Hydrogen peroxide (blue drums) | _______ | < 1 full drum | SUMAS 1-250-374-4151 |
+| Cal-Hypo tablets (white pails) | _______ | < 1 full pail | SUMAS 1-250-374-4151 |
+| CO₂ cylinder | _______ | Cylinder < ¼ full | Air Liquide 1-800-817-7697 |
+| pH+ powder | _______ | < 2 kg | *(confirm supplier)* |
+
+Record inventory in the daily log.
+
+---
+
+*Last updated: 2026-06-05 | Source: MSDS binder photos (IMG_2574–2595), chemical drum labels (IMG_2597, 2600, 2617, 2630, 2631)*

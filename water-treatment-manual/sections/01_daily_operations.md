@@ -14,109 +14,121 @@ Before you leave, your relief operator should be able to open your logbook and u
 
 ## 1.2 Shift Start Routine (First 30 Minutes)
 
-### Step 1 — Sign in and review the logbook
+### Step 1 — Review the logbook and task list
 
-`[ACTION]` Pick up the logbook from the previous shift. Read every entry.
+`[ACTION]` Pick up the logbook and any task notes (e.g., "Brennan's List") from the previous shift. Read every entry.
 
 Look for:
-- Any alarms that fired and how they were resolved
-- Any equipment that is locked out, offline, or running in manual
-- Unusual readings (high turbidity, low pressure, pH excursions)
+- Any equipment that is offline, locked out, or bypassed
+- Frac tank levels and status (clean / dirty / in treatment)
+- Any chemical shortages flagged
+- Ongoing treatment batches in progress — what stage are they at?
+- Unusual water quality (high turbidity, pH out of range, petroleum odour in effluent)
 - Tasks carried over to your shift
-- Chemical levels — were any tanks refilled? Any shortages flagged?
 
-`ℹ️ WHY:` Operators hand off to each other continuously. The logbook is your briefing. Skipping it means you're flying blind.
+`ℹ️ WHY:` This system runs in batches. Water is staged across multiple tanks at different treatment stages. If you don't read the handoff, you won't know where each batch is, and you could mix clean water with dirty water — a costly mistake.
 
 ---
 
-### Step 2 — Check the SCADA / control panel
+### Step 2 — Visual check of control panel and equipment indicators
 
-`[ACTION]` Look at the main control screen (or panel, if your plant has no SCADA).
+`[ACTION]` Walk to each piece of powered equipment and note its status.
 
-`[CHECK]` Verify all of the following:
+`[CHECK]`
 
-| Item | Expected | Actual |
+| Equipment | Expected status | Actual |
 |---|---|---|
-| Active alarms | None (or known/acknowledged) | ______ |
-| Raw water flow rate | Within target range | ______ |
-| Finished water flow rate | Within target range | ______ |
-| Clear well level | Within target range | ______ |
-| All pumps showing "run" status | Per current operating plan | ______ |
-| Chemical dosing pumps running | Per current dosing plan | ______ |
+| PACl dosing pump (blue) | Running / standby per dosing plan | ______ |
+| CL-200 flocculant pump (yellow LMI) | Running / standby per dosing plan | ______ |
+| CD30TIX ozone generator | ON indicator lit; pressure gauge normal | ______ |
+| AERQUS ozone diffuser | Operating (bubbling in contact water) | ______ |
+| Sand filter (SRS-SF-11) pump | Running; no unusual noise | ______ |
+| Kontek filter press (if in cycle) | Status per previous shift note | ______ |
+| H₂O₂ drums | Level — note on log | ______ |
+| Cal-Hypo tablets in chlorinator | Level — confirm not empty | ______ |
 
-`ℹ️ WHY:` The SCADA gives you the plant state from 30,000 feet. It tells you if something changed overnight before you walk out there and find a surprise.
-
----
-
-### Step 3 — Physical rounds
-
-Walk the entire plant, in the same order every time (develop your route with your supervisor). Use your senses:
-
-**See:** Any leaks, overflows, unusual colour in basins, floc settling unevenly, foam, dead equipment indicator lights?
-
-**Hear:** Any unusual pump noises (cavitation sounds like gravel in a blender), grinding, banging, or silence where there should be a hum?
-
-**Smell:** Chlorine stronger or weaker than normal? Rotten-egg smell (hydrogen sulphide)? Musty/algae smell from raw water?
-
-**Feel:** Any pipes or motors unusually hot to the touch?
-
-Record everything you observe, even if it seems fine.
+`ℹ️ WHY:` This system does not have centralized SCADA — you are the monitoring system. Each piece of equipment must be individually checked.
 
 ---
 
-### Step 4 — Take and record morning samples
+### Step 3 — Physical rounds (indoor and outdoor)
 
-*(See Section 4 for full sampling and testing procedures.)*
+Walk the full site in the same order every time. Use all your senses.
 
-At minimum, most plants require:
+**Outdoor:**
+- [ ] Settling ponds: level, oil sheen, debris blocking outlet?
+- [ ] Frac tanks: levels, labels current (clean/dirty/in treatment)?
+- [ ] OWS (oil/water separator): any visible petroleum around the housing?
+- [ ] Any hoses or connections showing leaks?
 
-| Sample Point | Typical Tests |
-|---|---|
-| Raw water | Turbidity, pH, temperature |
-| Post-coagulation / settled | Turbidity, pH |
-| Filter effluent | Turbidity, pH |
-| Finished water (pre-distribution) | Turbidity, free chlorine residual, pH, temperature |
-| Clear well | Free chlorine, total chlorine |
-| Distribution system entry | Free chlorine, pH |
+**Indoor chemical/treatment room:**
+- [ ] Any chemical spills on the floor?
+- [ ] Strong chemical smell other than faint ozone or faint chlorine?
+- [ ] PACl and CL-200 pump tubing — cracked, kinked, or spraying?
+- [ ] Bag filter housing — any drips or leaks at the lid seal?
+- [ ] SRS-CV-15 carbon vessel — petroleum odour coming from effluent?
+- [ ] Wet cell — sludge accumulation visible; water clarity normal?
 
-`[ACTION]` Run tests and record results in the log immediately. Do not wait until the end of the shift.
+**Smell specifically for:**
+- Petroleum/fuel smell in treated water → carbon vessel likely exhausted
+- Rotten egg (H₂S) smell → possible biological activity in an anaerobic sludge pocket
+- Strong bleach → possible Cal-Hypo over-dose or spill
+- Sharp metallic/bleach smell (ozone) → normal near ozone system; strong ozone elsewhere = ventilate
+
+Record everything you observe, normal or not.
+
+---
+
+### Step 4 — Take daily samples
+
+*(See Section 4 for full procedures)*
+
+| Sample Point | Tests to Run | Frequency |
+|---|---|---|
+| Settling pond outlet / wet cell inlet | pH, turbidity (visual OK in field) | Each shift |
+| After chemical dosing (wet cell outflow) | pH, turbidity | Each shift |
+| Sand filter (SRS-SF-11) effluent | pH, turbidity | Each shift |
+| Carbon vessel (SRS-CV-15) effluent | pH, turbidity, petroleum odour check | Each shift |
+| Final treated water (pre-discharge) | pH, free chlorine, turbidity | Each shift — this is your compliance sample |
+| Oil/water separator — weekly dip | Fuel thickness, sludge thickness, liquid level | Weekly (Shell Canada log sheet) |
+
+`[ACTION]` Run tests immediately after collection. Record all results in the log with time.
 
 ---
 
 ## 1.3 Continuous Monitoring During the Shift
 
-You are not just watching a screen — you are the sensor of last resort.
-
-**Every 1–2 hours (or per your SOP):**
-- [ ] Check online turbidity meters — do they match your grab samples?
-- [ ] Check chlorine analyzers — do they match your manual tests?
-- [ ] Check chemical tank levels — are dosing pumps consuming at the expected rate?
-- [ ] Check filter levels and differential pressure (if applicable)
-- [ ] Check flows and pressures against targets
-- [ ] Log everything
+**Every 1–2 hours:**
+- [ ] Check chemical drum/tank levels — are the dosing pumps consuming at the expected rate?
+- [ ] Check frac tank levels and update status labels if any transfers occurred
+- [ ] Check bag filter housing — is flow rate maintained, or is the bag loading up?
+- [ ] Check ozone system — CD30TIX indicator still on? Pressure gauge normal?
+- [ ] Test free chlorine in treated water — confirm residual is maintained
+- [ ] Log everything — even "no change" is worth noting
 
 **If something is out of range:**
-1. Don't panic.
-2. Confirm it's a real reading, not an instrument error (take a manual sample).
-3. Identify the cause (see Section 8 — Troubleshooting).
-4. Make an adjustment or escalate to your supervisor.
-5. Record the deviation, what you did, and the result.
+1. Confirm it's real (re-test manually, don't just trust one reading).
+2. Protect the discharge point first — if treated water quality is in question, stop the discharge valve.
+3. Find the cause (Section 8 — Troubleshooting).
+4. Fix or escalate to supervisor.
+5. Record: time of problem, reading that flagged it, what you did, result.
 
-`ℹ️ WHY:` Regulators require you to log exceedances. If you fix a problem but don't record it, it looks like you were unaware of it — that's a compliance violation.
+`ℹ️ WHY:` BC Ministry of Environment can inspect at any time and ask to see your records. A discharge that exceeds permit limits AND has no log entry looks much worse than one that was caught, logged, and corrected.
 
 ---
 
 ## 1.4 Key Parameters and Target Ranges
 
-> *The table below uses generic regulatory benchmarks. Your site-specific permit limits and operational targets will be filled in once you provide your operating permit and SOPs.*
+> *Operational targets below are typical for industrial discharge treatment. Confirm your site-specific permit limits with your supervisor — your actual permit limits govern.*
 
-| Parameter | Regulatory Maximum | Operational Target | Why It Matters |
+| Parameter | Typical Discharge Limit | Operational Target | Why It Matters |
 |---|---|---|---|
-| Finished water turbidity | ≤ 1 NTU (typical) | ≤ 0.3 NTU (common target) | High turbidity shields pathogens from disinfection |
-| Free chlorine residual (entry point) | ≥ 0.2 mg/L min | 0.5–1.0 mg/L (typical) | Must maintain residual through distribution |
-| pH (finished water) | 6.5–8.5 | 7.0–7.5 (common target) | Affects disinfection efficacy and pipe corrosion |
-| Temperature | N/A | Seasonal variation | Affects chemical dosing rates and CT calculations |
-| Filter turbidity | ≤ 0.3 NTU | ≤ 0.1 NTU | Early warning of filter breakthrough |
+| Turbidity (final discharge) | ≤ 25 NTU (typical BC permit) | ≤ 5 NTU | Turbidity carries other contaminants and harms fish habitat |
+| pH (final discharge) | 6.5–9.5 (typical BC permit) | 7.0–8.5 | Too acidic or alkaline is toxic to aquatic life |
+| Total suspended solids (TSS) | ≤ 25–75 mg/L (varies by permit) | Minimize | Settled solids can smother fish spawning areas |
+| Free chlorine (final discharge) | ≤ 0.1 mg/L (protect aquatic life) | ≤ 0.05 mg/L | Chlorine is toxic to fish even at low levels |
+| Total petroleum hydrocarbons (TPH) | ≤ 1–5 mg/L (varies) | Not detectable | Petroleum is toxic to aquatic life |
+| Iron (total) | ≤ 0.3–1 mg/L (varies by permit) | Minimize | Iron precipitation in receiving waters harms fish |
 
 ---
 
@@ -143,25 +155,30 @@ You are not just watching a screen — you are the sensor of last resort.
 ## 1.6 Sample Logbook Entry
 
 ```
-DATE: 2026-06-04    SHIFT: 07:00–15:00    OPERATOR: [Name]    License #: [___]
+DATE: 2026-06-05    SHIFT: 07:00–15:00    OPERATOR: [Name]
 
-07:15  Morning rounds complete. No alarms. All equipment running normally.
-07:30  Morning samples collected. Results:
-         Raw turbidity: 4.2 NTU | pH 7.1 | Temp 12°C
-         Filter effluent turbidity: 0.08 NTU | pH 7.2
-         Finished water: Turbidity 0.05 NTU | Free Cl2 0.72 mg/L | pH 7.3
-09:45  Filter #2 differential pressure increasing faster than normal.
-         Initiated manual backwash at 09:52. Backwash complete 10:04. 
-         Post-backwash turbidity spike to 0.18 NTU, returned to 0.06 NTU by 10:20. Normal.
-12:00  Midday samples — all within target ranges.
-13:30  Alum tank at approximately 20% — called Chemical Supply Co. (555-0100).
-         Delivery scheduled for tomorrow AM.
-14:50  End-of-shift samples collected. Results within targets.
-15:00  Briefed incoming operator J. Smith on filter #2 and alum delivery.
+07:10  Reviewed previous shift notes. Frac Tank A (dirty), Frac Tank B (in treatment — 
+         PACl + polymer dosed yesterday). Tank C (clean, ~60% full).
+07:20  Morning rounds complete. No leaks. Sand filter pump running. 
+         Ozone generator on, pressure at [X] psi. Bag filter — light flow, due for change.
+07:35  Morning samples:
+         Wet cell outflow:  pH 7.2 | turbidity — visually clear with slight orange tint (normal iron)
+         SRS-SF-11 effluent: pH 7.3 | turbidity clear
+         Final discharge point: pH 7.4 | Free Cl2 0.18 mg/L | turbidity visually clear
+09:00  Changed bag filter (100-micron bag). Old bag heavily loaded with orange iron solids.
+         Installed new bag LHFSPE100PJNBW from stock. Flow restored. Logged bag change.
+10:30  PACl drum at ~25%. Called SUMAS (1-250-374-4151) for delivery. ETA tomorrow.
+12:15  Midday check. All within targets. Free Cl2 confirmed 0.15 mg/L at discharge.
+13:00  Started Kontek filter press cycle — pumped sludge from wet cell. Press full by 13:35.
+         Opened plates at 13:50 — 2 collection bins filled with filter cakes (orange iron sludge).
+         Arranged waste removal — called [contractor], manifest #[___].
+14:45  End-of-shift samples: pH 7.3, Free Cl2 0.14 mg/L. All within targets.
+15:00  Briefed incoming operator — PACl delivery tomorrow, new bag filter installed, 
+         filter press cakes in bins need pickup. Tank B water ready for discharge (confirm pH).
 
 Signature: ________________
 ```
 
 ---
 
-*Last updated: 2026-06-04 | Source: Initial framework*
+*Last updated: 2026-06-05 | Source: Site photos and operational notes (IMG_2614 "Brennan's List", equipment observations)*
