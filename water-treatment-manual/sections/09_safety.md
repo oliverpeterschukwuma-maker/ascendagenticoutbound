@@ -168,20 +168,47 @@ Confined spaces at a water plant include: clear wells, sedimentation basins, fil
 
 ---
 
-## 9.9 Emergency Phone Numbers
+## 9.9 Hydrogen Peroxide Spill — Specific Procedure
 
-> *(Fill in with your site-specific numbers.)*
+Hydrogen peroxide requires different spill treatment than most chemicals. **Do not just flush with water for a large spill.**
+
+**Per the Brenntag Canada MSDS (Date of Revision: 2014 March 31):**
+
+> *"Apply cautiously a dilute solution of a reducing agent such as sodium sulphite or sodium bisulphite to the contained spill. Neutralization is expected to be exothermic. Vigorous effervescence results. Flush spill area with water."*
+
+`[ACTION]` For a H₂O₂ spill:
+1. Put on full PPE: full face shield, chemical splash goggles, neoprene gloves, apron.
+2. Contain the spill — stop it spreading to floor drains or toward combustible material (wood, rags, organic material).
+3. Apply dilute sodium sulphite or sodium bisulphite solution cautiously. *(Confirm neutralizer is stocked on site — check with supervisor.)*
+4. The reaction will bubble/effervesce — this is expected. Stand back.
+5. Flush the neutralized area thoroughly with water.
+6. Dispose of waste material as hazardous waste.
+7. **Never use sawdust, rags, or organic absorbents on concentrated H₂O₂ — fire risk.**
+
+`ℹ️ WHY:` H₂O₂ is an oxidizer. Strong enough concentrations will ignite organic materials on contact. Flushing alone just spreads it. The reducing agent (sodium sulphite/bisulphite) converts H₂O₂ into water and oxygen — safe end products.
+
+**CO₂ inhalation (confirmed from Air Liquide MSDS):**
+- BC TWA (8-hour): 5,000 ppm / 9,000 mg/m³
+- STEL (15-min): 30,000 ppm / 54,000 mg/m³
+- IDLH (immediately dangerous): 40,000 ppm
+- CO₂ has no smell — you will feel dizziness, irregular heartbeat, and shortness of breath before losing consciousness
+- If CO₂ leak suspected in an enclosed area: evacuate immediately, ventilate, do not re-enter without SCBA
+
+---
+
+## 9.10 Emergency Phone Numbers
 
 | Contact | Number |
 |---|---|
 | Emergency services (fire/ambulance) | 911 |
 | Poison control (Canada) | 1-800-268-9017 |
-| Plant supervisor | *(TBD)* |
-| On-call operator | *(TBD)* |
-| Regulatory authority (24-hr) | *(TBD)* |
-| Chemical supplier emergency line | *(TBD)* |
-| Utility/power company | *(TBD)* |
+| SUMAS Environmental Services | **1-250-374-4151** |
+| Air Liquide (CO₂ cylinder emergency) | **1-800-817-7697** |
+| Brenntag Canada (H₂O₂ emergency) | *(confirm from SDS Section 1)* |
+| Site supervisor — Brennan | *(confirm number)* |
+| On-call operators — Rob, Glen | *(confirm numbers)* |
+| Regulatory authority (BC MoE 24-hr) | *(confirm with supervisor)* |
 
 ---
 
-*Last updated: 2026-06-04 | Source: Initial framework*
+*Last updated: 2026-06-05 | Source: H₂O₂ MSDS Brenntag Canada (IMG_2593); CO₂ MSDS Air Liquide (IMG_2585–2587); video safety equipment observations (IMG_2612)*

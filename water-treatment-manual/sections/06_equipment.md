@@ -26,12 +26,28 @@
 
 ---
 
-## 6.2 Wet Cell / Separation Cell (Indoor Settling Tanks)
+## 6.2 Indoor Treatment / Storage Tanks (Large White Cylindrical Tanks)
 
-**What they are:** Multi-compartment concrete tanks inside the building.  
+**What they are:** Two large cylindrical above-ground tanks inside the treatment building. White poly or fibreglass construction, approximately 3–4 metres tall and 1.5–2 metres in diameter. Each has a metal ladder attached to the outside for level checking. Outlet piping and ball valves at the base. One tank is labelled "ANKO2" *(confirm exact tank IDs and capacity with supervisor)*.
+
+**What they do:** These are the main indoor water storage or treatment vessels — likely the primary coagulation/flocculation contact tanks or holding tanks for water at different treatment stages. Water is pumped in, chemical dosing occurs, and the water moves on to the filters.
+
+`[CHECK]` Each shift:
+- [ ] Water level in each tank (visual from ladder or sight glass — *(confirm method)*)
+- [ ] Tank status label current (clean / dirty / in treatment)
+- [ ] No leaks at the base valves or outlet connections
+- [ ] Chemical dosing lines are injecting into the correct tank
+
+`ℹ️ WHY:` Mixing water from a "clean" tank into a "dirty" tank means retreating that water from scratch. Always know which tank contains what.
+
+---
+
+## 6.2a Wet Cell / Separation Cell (Indoor Concrete Settling Tanks)
+
+**What they are:** Multi-compartment concrete tanks inside the building. Distinct from the large white cylindrical tanks — these are lower-profile concrete vessels with baffled partitions.  
 **Appearance:** Heavy orange-brown iron staining on all walls and floor — this is normal, not neglect. It's the visual record of iron removal.
 
-The tanks have internal baffled partitions that divide the flow path into compartments, forcing water to travel a longer path and giving solids more time to settle.
+The baffled partitions divide the flow path into compartments, forcing water to travel a longer path and giving solids more time to settle.
 
 **What they do:** Secondary settling after chemical dosing. Floc formed by PACl and polymer settles to the floor. The sludge accumulates here and must be periodically removed.
 
@@ -114,7 +130,7 @@ Backwash the sand filter when any of the following:
 
 ## 6.5 Carbon Vessel (SRS-CV-15)
 
-**Appearance:** Blue cylindrical pressure vessel, "PV SERIES" label, tagged "SRS-CV-15". Sits on a wooden pallet.
+**Appearance:** Blue cylindrical pressure vessel, "PV SERIES" label, tagged "SRS-CV-15". Sits on a wooden pallet. **Maximum working pressure: 75 PSIG** (marked on the vessel — never exceed this).
 
 **What it does:** Activated carbon adsorption. The vessel is filled with granular activated carbon (GAC) — a highly porous material with enormous surface area. Dissolved petroleum hydrocarbons, colour compounds, and odour-causing organics bind to the carbon surface as water passes through.
 
@@ -388,4 +404,43 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 
 ---
 
-*Last updated: 2026-06-05 | Source: Equipment photos IMG_2597, 2600–2610, 2614–2631; control panel labels; filter press nameplate*
+---
+
+## 6.14 Safety Equipment in the Treatment Room
+
+**Identified from video (IMG_2612):**
+
+| Item | Location | Purpose |
+|---|---|---|
+| **Fire extinguisher** (red, ABC type) | Wall near sand filter (SRS-SF-11) | General fire suppression |
+| **AIR HORN** (blue compressed-air horn) | Wall beside fire extinguisher | Emergency alarm / evacuation signal |
+| **Cylinder hand truck** (black frame, yellow wheels) | Treatment room floor | Moving CO₂ and other gas cylinders safely — always use this; never drag or roll cylinders on their base |
+
+`[CHECK]` Each shift:
+- [ ] Fire extinguisher pressure gauge in the green zone
+- [ ] Air horn is accessible and unobstructed
+- [ ] Yellow inspection tag on fire extinguisher is current (within 1 year)
+
+`ℹ️ WHY:` In the event of a chemical fire (Cal-Hypo or H₂O₂ near ignition sources) or an emergency requiring evacuation, you need to know exactly where these tools are. The air horn is your way of alerting everyone on site when verbal communication won't reach.
+
+**Using the air horn for evacuation:**
+- 3 short blasts = evacuate the building immediately
+
+---
+
+## 6.15 CO₂ Cylinder Handling
+
+**Cylinder hand truck:** Always use the dedicated hand truck to move the CO₂ cylinder. CO₂ cylinders are heavy (~50 kg full) and top-heavy.
+
+`[ACTION]` When moving the CO₂ cylinder:
+1. Close the cylinder valve completely.
+2. Attach the protective cap to the valve.
+3. Tilt the cylinder onto the hand truck. Secure the chain or strap around the cylinder.
+4. Tilt the hand truck back and wheel to the new location.
+5. Secure the cylinder to the wall bracket or fixed support before removing from the hand truck.
+
+`⚠️ WARNING:` **Never move a CO₂ cylinder without the hand truck.** A falling cylinder can rupture the valve — the cylinder becomes a pressurized projectile. Also: CO₂ cylinders must always be chained or strapped to a fixed support when not on the hand truck.
+
+---
+
+*Last updated: 2026-06-05 | Source: Equipment photos IMG_2597, 2600–2610, 2614–2631; video frames IMG_2612; indoor tank photos IMG_2598–2599; control panel labels; filter press nameplate*
