@@ -59,7 +59,7 @@
 
 - All 8 chemicals: names, SDS, hazard classes, safety procedures
 - All major equipment: names, models, serials, operating procedures
-- Full treatment train sequence
+- Full treatment train sequence — **outdoor portion now confirmed by operator:** oil/water separation cell → frac tanks → 2 outdoor blue separator bins → submersible intake pump → two white indoor tanks
 - Site: Kamloops BC, SUMAS Environmental Services (1-250-374-4151)
 - Key contacts: Brennan (supervisor), Rob, Glen
 - Shell Canada OWS weekly inspection procedure and log format
@@ -69,7 +69,19 @@
 - CO₂ exposure limits and hazards
 - SRS-CV-15 max pressure: 75 PSIG
 - Filter press Kontek APC5: full operating sequence, manufacturer contact
+- pH meter calibration buffers (4.0/7.0/10.0) confirmed on site (lab equipment, not a process chemical)
 
 ---
 
-*Saved: 2026-06-06 | Resume here when new information is available*
+## 🆕 New Open Items From Latest Photo/Video Batch
+
+- [ ] **Wet Cell vs. Blue Bins** — is the indoor concrete "Wet Cell / Separation Cell" (Section 6.2a) a separate piece of equipment from the 2 outdoor blue separator bins (Section 6.1a), or are these the same thing described twice? **Critical to resolve before the treatment train order is fully accurate.**
+- [ ] **Dry PACl bag (25kg, made in China)** — is this in active use alongside/instead of the liquid CK-311 PACl? How is it mixed/dosed?
+- [ ] **TEXLOME High Calcium Hydrated Lime** — brand new chemical, not yet documented. What is it used for here (pH raising? metals precipitation?), what's the dose, where's the SDS, what PPE?
+- [ ] **Chemicals next to the two white indoor tanks** — operator is sending these next; needed to finish updating Section 5 (Chemical Dosing) accurately for the indoor dosing stage.
+- [ ] **Play Sand / Sakrete bags seen near H₂O₂ drums** — likely sand filter (SRS-SF-11) replacement media stock; confirm.
+- [ ] **Submersible intake pump spec** — model/capacity of the pump moving water from the blue bins into the building.
+
+---
+
+*Saved: 2026-06-06 | Updated: 2026-06-24 | Resume here when new information is available*

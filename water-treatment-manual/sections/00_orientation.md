@@ -36,41 +36,56 @@ SITE WATER (stormwater, process water, groundwater)
     (gravity pre-settling — heavy solids sink, oil floats)
       │
       ▼
-[2] WET CELL / SEPARATION CELL (indoor)
-    (secondary settling + floc formation after chemical dosing)
+[2] OIL / WATER SEPARATION CELL
+    (petroleum floats and is separated from water)
       │
       ▼
-[3] CHEMICAL DOSING
-    (PACl coagulant + polymer flocculant added — clumps fine particles)
+[3] FRAC TANKS (outdoor storage/settling)
+    (water sits and settles further — oil continues rising to the top,
+     clearer water is drawn off from below)
+      │
+      ▼
+[4] BLUE SEPARATOR BINS — outdoor, 2 units (Section 6.1a)
+    (steel baffled bins — final outdoor polishing separation before
+     water is pumped indoors)
+      │
+      ▼
+[5] INTAKE PUMP (submersible) → pumped indoors
+      │
+      ▼
+[6] TWO WHITE INDOOR TANKS (Section 6.2)
+    (chemical dosing begins here — PACl coagulant + polymer flocculant
+     added; clumps fine particles)
     (Hydrogen peroxide added — oxidizes dissolved iron so it can be filtered)
     (pH adjustment with CO2 or pH+ powder as needed)
       │
       ▼
-[4] OIL / WATER SEPARATOR (Shell Canada system)
-    (petroleum products float and are skimmed; sludge sinks)
+[7] WET CELL / SEPARATION CELL (indoor — *confirm this is a separate
+    step from the blue bins above, see Section 6.2a note*)
+    (secondary settling + floc formation after chemical dosing)
       │
       ▼
-[5] SAND FILTER (SRS-SF-11 — green pressure vessel)
+[8] SAND FILTER (SRS-SF-11 — green pressure vessel)
     (removes fine iron floc and suspended solids)
       │
       ▼
-[6] CARBON VESSEL (SRS-CV-15 — blue PV Series vessel)
+[9] CARBON VESSEL (SRS-CV-15 — blue PV Series vessel)
     (adsorbs dissolved petroleum hydrocarbons, colour, odour)
       │
       ▼
-[7] BAG FILTER HOUSING (blue cartridge housing)
+[10] BAG FILTER HOUSING (blue cartridge housing)
     (100-micron pre-filter + 10-micron polishing filter)
       │
       ▼
-[8] OZONE TREATMENT (AERQUS diffuser + CD30TIX generator)
+[11] OZONE TREATMENT (AERQUS diffuser + CD30TIX generator)
     (ozone oxidizes remaining iron and organics; disinfects)
       │
       ▼
-[9] CHLORINATION (Accu-Tab Cal-Hypo tablets)
+[12] CHLORINATION (Accu-Tab Cal-Hypo tablets)
     (final disinfection; maintains residual)
       │
       ▼
-[10] FRAC TANK STORAGE
+[13] FRAC TANK STORAGE (clean/treated)
      (large portable tanks hold treated water before discharge or reuse)
       │
       ▼
@@ -83,6 +98,8 @@ DISCHARGE (to approved discharge point per permit)
               ↓
               Filter cakes → licensed waste disposal
 ```
+
+`ℹ️ NOTE:` Steps [2]–[6] were confirmed directly by the site operator (oil separation cell → frac tanks → 2 outdoor blue separator bins → intake pump → two white indoor tanks). Step [7] (indoor wet cell) is still pending confirmation — it's unclear whether this is a separate piece of equipment from the blue bins in step [4], or whether earlier notes about an indoor concrete wet cell were actually describing the same blue bins. See Section 6.1a / 6.2a.
 
 > **Your job:** Keep each step running correctly so the water leaving the system always meets discharge standards. If one step fails, the steps after it work harder — and sometimes can't compensate. That's why you monitor everything.
 

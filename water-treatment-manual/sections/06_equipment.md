@@ -42,6 +42,29 @@
 
 ---
 
+## 6.1a Blue Separator Bins (Outdoor, 2 Units)
+
+**What they are:** Two large rectangular steel bins, painted blue, sitting outdoors on raised concrete ecology blocks (for spill containment/drainage underneath). Each has a small viewing window in the door and a round access/vent port on top. At least one has internal angled baffle plates inside (not a flat-bottom bin) and shows heavy orange-brown iron staining — consistent with iron-rich water having flowed through it. One bin has a "NO GARBAGE" sign — these are dedicated process equipment, not waste containers.
+
+**Where they sit in the process:** Confirmed by site operator — water flows: oil/water separation cell → frac tanks (settles, oil rises to top, water drawn from below) → **these 2 blue bins** → submersible intake pump → the two white indoor tanks (Section 6.2).
+
+**What they do:** Final outdoor polishing/separation step before water is pumped indoors for chemical dosing. The internal baffle plates force water to travel a longer path, giving any remaining oil sheen and solids more time and surface area to separate out before the water goes inside.
+
+`[CHECK]` Each shift:
+- [ ] Water level in each bin
+- [ ] Any oil sheen visible through the viewing window
+- [ ] Submersible intake pump (see below) running and not airlocked
+- [ ] No leaks at the base or around the access port
+
+`ℹ️ WHY:` Anything not separated out here gets carried into the indoor tanks and chemical dosing stage — catching oil/solids at this outdoor stage reduces the load on every step downstream.
+
+### Intake Pump
+A submersible pump (blue housing, single discharge port) sits at the wall connection point where piping runs from the blue bins into the building, feeding the two white indoor tanks. `(confirm exact pump model/spec with supervisor)`
+
+`⚠️ NOTE — needs confirmation:` It is unclear whether the "Wet Cell / Separation Cell" described below (Section 6.2a) is a **separate, additional** indoor concrete tank, or whether earlier site notes were actually describing these same blue bins. Confirm with supervisor before treating them as two different pieces of equipment.
+
+---
+
 ## 6.2a Wet Cell / Separation Cell (Indoor Concrete Settling Tanks)
 
 **What they are:** Multi-compartment concrete tanks inside the building. Distinct from the large white cylindrical tanks — these are lower-profile concrete vessels with baffled partitions.  
