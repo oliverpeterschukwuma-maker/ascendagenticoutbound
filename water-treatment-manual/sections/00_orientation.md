@@ -109,7 +109,22 @@ DISCHARGE → HOLDING TANKS → trucked/transferred to lagoon for disposal
 2. **Oil/Water Separation Cell.** A vessel built to make that floating/sinking happen efficiently. The floating oil is skimmed off and disposed of as waste — it never reaches the clean side. `ℹ️ CONFIRMED:` This is also the **first of three points** where **flocculant** (polymer — CL-200) is added on this site. Flocculant acts like a net, bundling tiny stuck-together particles into bigger, heavier clumps called **floc** — big enough to settle out instead of drifting in the water. Starting this here means floc is already forming before the water even reaches the frac tanks.
 3. **Frac Tanks** *(frac tank = a large portable steel storage tank, borrowed from the oil/gas industry)*. More settling time outdoors. The clearer water in the middle of the tank is drawn off to continue; oil and solids stay behind.
 4. **Two Blue Separator Bins.** Steel bins with **baffles** inside *(baffle = an internal divider wall that forces water to take a longer zig-zag path instead of flowing straight through)*. This gives any remaining oil and grit more time and surface area to separate out — the last outdoor cleanup step. `ℹ️ CONFIRMED:` Flocculant is dosed again here — the **second of three points** — to keep building floc as the water gets jostled through the baffles and pumped onward.
-5. **Transfer Pumps.** This system doesn't use one fixed pump bolted in place at every stage — instead, **portable submersible pumps** *(motor and pump sealed together, sits underwater)* are physically moved to wherever water needs to go next. The same style of pump is dropped into a frac tank with a hose run to a blue bin, and later dropped into a blue bin with a hose run into the building. Always check which tank a pump is currently sitting in before assuming a transfer is happening — nothing moves on its own here.
+5. **Transfer Pumps — how water actually moves between outdoor tanks.** It's easy to assume every tank has its own pump built in, like a sink has its own tap. **It doesn't.** This site only has a small number of pumps, and operators carry them to wherever they're needed next.
+
+   A **submersible pump** is a single sealed unit — the motor and the pump are built together inside one waterproof housing, so the whole thing can sit fully underwater while running (unlike a pump that stays on dry ground and sucks water up through a pipe). It has one power cord and one hose connection.
+
+   Here's how a transfer actually happens, step by step:
+   1. An operator carries the pump to the tank that needs to be **emptied** (the "source" tank).
+   2. The pump is lowered in until it's fully underwater — running it dry can damage it.
+   3. A hose is connected from the pump's outlet to the tank that needs to **receive** the water (the "destination" tank).
+   4. The pump is switched on; water moves through the hose from source to destination.
+   5. When the transfer is done, the pump is switched off, pulled out, and carried to wherever it's needed next.
+
+   On this site, the same pumps do double duty:
+   - **Frac tank → Blue bin:** pump goes into a frac tank, hose runs to a blue bin.
+   - **Blue bin → indoors:** the same style of pump goes into a blue bin, hose runs into the building.
+
+   `ℹ️ WHY THIS MATTERS:` Because nothing here is permanently plumbed together, water never moves on its own — it only moves when someone has physically set up a pump and hose for that specific transfer. Before assuming water is flowing somewhere, always check: is a pump actually sitting in a tank right now, and where does its hose go?
 
 **Now the heavier treatment indoors — per a former operator's account (see note below):**
 
