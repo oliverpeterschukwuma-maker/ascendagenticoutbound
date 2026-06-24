@@ -58,8 +58,19 @@
 
 `ℹ️ WHY:` Anything not separated out here gets carried into the indoor tanks and chemical dosing stage — catching oil/solids at this outdoor stage reduces the load on every step downstream.
 
-### Intake Pump
-A submersible pump (blue housing, single discharge port) sits at the wall connection point where piping runs from the blue bins into the building, feeding the two white indoor tanks. `(confirm exact pump model/spec with supervisor)`
+### Transfer Pumps (Portable Submersible)
+**Confirmed by operator:** transfers are NOT done with fixed, permanently-plumbed pumps at each stage. Instead, portable submersible pumps (blue housing, single discharge port, standard electrical plug) are physically dropped into whichever tank needs to be moved next — **both the frac tanks and the blue bins** use the same style of pump — with a hose run to the destination tank.
+
+- **Frac tank → blue bin:** pump dropped into the frac tank, hose run to the blue bin
+- **Blue bin → indoors (white tanks):** pump dropped into the blue bin, hose run into the building
+
+`[CHECK]` Before starting any transfer:
+- [ ] Pump and cord are in good condition (no cracked housing, no exposed wiring)
+- [ ] Hose is connected securely at both ends, no kinks
+- [ ] Destination tank has room for the incoming volume
+- [ ] Pump is fully submerged before powering on (running dry can damage it)
+
+`ℹ️ WHY:` Because the same pumps move between locations, always confirm which tank a pump is currently sitting in and where its hose is routed before assuming a transfer is happening automatically — nothing runs continuously here; every transfer is a deliberate, set-up step. `(confirm exact pump model/spec with supervisor)`
 
 `⚠️ NOTE — needs confirmation:` It is unclear whether the "Wet Cell / Separation Cell" described below (Section 6.2a) is a **separate, additional** indoor concrete tank, or whether earlier site notes were actually describing these same blue bins. Confirm with supervisor before treating them as two different pieces of equipment.
 
