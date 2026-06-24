@@ -101,6 +101,44 @@ DISCHARGE (to approved discharge point per permit)
 
 `ℹ️ NOTE:` Steps [2]–[6] were confirmed directly by the site operator (oil separation cell → frac tanks → 2 outdoor blue separator bins → intake pump → two white indoor tanks). Step [7] (indoor wet cell) is still pending confirmation — it's unclear whether this is a separate piece of equipment from the blue bins in step [4], or whether earlier notes about an indoor concrete wet cell were actually describing the same blue bins. See Section 6.1a / 6.2a.
 
+---
+
+## 0.2a Plain-English Walkthrough — How This System Actually Works
+
+> Read this if the diagram above and the equipment sections feel overwhelming. This is the same information, told as one continuous story, with every term defined the first time it's used. Some details below are still unconfirmed — they're marked clearly so you know what to double check with your supervisor.
+
+**Before the chemistry — pure gravity (no chemicals needed yet):**
+
+1. **Open pit/pond.** Raw dirty water collects here first — dark water, often an oily film on top. It just sits, and because oil is lighter than water, it floats; because solids are heavier, they sink. No equipment needed for this — gravity does the work.
+2. **Oil/Water Separation Cell.** A vessel built to make that floating/sinking happen efficiently. The floating oil is skimmed off and disposed of as waste — it never reaches the clean side.
+3. **Frac Tanks** *(frac tank = a large portable steel storage tank, borrowed from the oil/gas industry)*. More settling time outdoors. The clearer water in the middle of the tank is drawn off to continue; oil and solids stay behind.
+4. **Two Blue Separator Bins.** Steel bins with **baffles** inside *(baffle = an internal divider wall that forces water to take a longer zig-zag path instead of flowing straight through)*. This gives any remaining oil and grit more time and surface area to separate out — the last outdoor cleanup step.
+5. **Intake Pump.** A submersible pump *(motor and pump sealed together, sits underwater)* pulls water from the blue bins and pushes it into the building through pipes.
+
+**Now the chemistry starts — problems gravity alone can't fix:**
+
+6. **Two White Indoor Tanks.** Three things happen here:
+   - **Coagulant (PACl)** cancels out the electrical charge that's been keeping tiny dirt particles apart (like magnets repelling each other) so they can finally stick together. This is called **coagulation**.
+   - **Flocculant (polymer — CL-200 or Flopham)** acts like a net, bundling those small stuck-together clumps into bigger, heavier clumps called **floc**, big enough to settle or get caught by a filter. This is called **flocculation**.
+   - **An oxidizer (hydrogen peroxide, and possibly the peroxyacetic acid blend found on site — use not yet confirmed)** converts **dissolved iron** *(invisible — it's dissolved in the water, not floating as a particle, so no filter can catch it)* into solid rust-colored particles that filters CAN catch. This is why the whole plant is stained orange — that staining is iron being successfully caught, doing exactly what it's supposed to.
+   - `❓ UNCONFIRMED:` There may be a 7th step here — an indoor concrete "wet cell" with baffles for more settling after the chemicals are added. It's not yet clear if this is real separate equipment or the same blue bins from step 4 described twice. Confirm with supervisor.
+
+**Filtering out everything the chemistry created:**
+
+7. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps the iron particles and floc clumps made in step 6 — like a coffee filter for rust.
+8. **Carbon Vessel (SRS-CV-15).** Sand can't catch *dissolved* fuel smell and color (dissolved = mixed into the water like sugar, not filterable). **Activated carbon** is riddled with microscopic pores giving it huge surface area; dissolved hydrocarbons stick to that surface as water flows through (called **adsorption**). This step removes the fuel odour.
+9. **Bag Filters.** Two fabric bags in a row — coarse (100 micron) then fine (10 micron — a micron is a millionth of a metre). Final mechanical catch-all for anything that snuck through.
+
+**Final polish and disinfection:**
+
+10. **Ozone.** Ozone gas (O₃) is an even stronger oxidizer than the peroxide from step 6 — it mops up any remaining iron or organics, and kills bacteria.
+11. **Chlorination (Cal-Hypo tablets).** Tablets dissolve slowly, releasing chlorine — the same disinfectant used in pools — as a final guarantee nothing biological survives before discharge.
+12. **Clean Frac Tank Storage → Discharge.** Treated water is held, sampled and tested against the legal discharge limits, then released.
+
+**Running the whole time, off to the side:** every settling step above (ponds, frac tanks, blue bins, wet cell) builds up **sludge** (thick heavy gunk) at the bottom. The **AODD pump** *(air-powered, no electric motor — gentle enough not to clog on thick sludge)* moves that sludge to the **Kontek filter press**, which squeezes the water out of it like a sponge press. The dry leftover ("filter cake") goes to waste disposal; the squeezed-out water rejoins the system to be treated again.
+
+`ℹ️ WHY THE WHOLE SEQUENCE MATTERS:` Each step only works on one specific problem — gravity removes big stuff, chemicals fix invisible/microscopic stuff, filters catch what the chemicals created, carbon removes dissolved odour, ozone/chlorine handle disinfection. Skip or weaken any one step and the steps after it get overloaded with a problem they weren't designed to handle.
+
 > **Your job:** Keep each step running correctly so the water leaving the system always meets discharge standards. If one step fails, the steps after it work harder — and sometimes can't compensate. That's why you monitor everything.
 
 ---
