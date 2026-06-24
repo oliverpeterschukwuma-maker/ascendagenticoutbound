@@ -131,6 +131,8 @@ If a pump has run dry or been disconnected, it needs priming:
 
 ## 6.4 Sand Filter (SRS-SF-11)
 
+`⚠️ CURRENTLY BROKEN:` A former site operator confirmed this filter is broken and needs to either be repaired or replaced. Until that happens, the bag filter (Section 6.6) downstream is taking on extra load it wasn't designed to handle alone — watch the bag filters more closely and change them more often while the sand filter is down. **Flag this to your supervisor if it hasn't already been raised.**
+
 **Appearance:** Green cylindrical pressure vessel on a metal stand, with a pump mounted below/beside it. Tagged "SRS-SF-11".
 
 **What it does:** Pressurized filtration through a bed of graded sand. Water flows down through the sand, which traps iron hydroxide particles, fine suspended solids, and any remaining floc.
@@ -142,6 +144,9 @@ If a pump has run dry or been disconnected, it needs priming:
 - [ ] Water is flowing through (inlet pressure gauge reading)
 - [ ] Outlet turbidity is lower than inlet turbidity
 - [ ] No unusual vibration or noise from the pump below
+
+### Why backwashing is necessary
+Over time, water flowing through the sand carves the same paths over and over, forming **channels** — narrow worn-in routes that water flows through easily while bypassing the rest of the sand bed. Once channels form, the filter looks like it's running fine (water still flows) but it's actually filtering less and less, because most of the water is taking the path of least resistance instead of passing through clean sand. Backwashing (reversing the flow) breaks up those channels and resets the sand bed. Beyond backwashing, the sand itself also needs to be fully replaced periodically as it gets dirty — how often depends on how much solids loading it sees.
 
 ### When does it need backwashing?
 Backwash the sand filter when any of the following:
@@ -192,7 +197,7 @@ Backwash the sand filter when any of the following:
 - Pre-filter bags: LHFSPE100PJNBW (100 micron) — removes larger particles
 - Polishing bags: LHFSPE10PJNBW (10 micron) — removes fine particles
 
-**What it does:** Final mechanical filtration step. Removes any particles that made it through the sand filter and carbon vessel. The 100-micron bag catches coarse particles; the 10-micron bag polishes the effluent.
+**What it does:** Acts as a safety screen — its job is making sure no dirt reaches the carbon vessel (Section 6.5) downstream. The 100-micron bag catches coarse particles; the 10-micron bag polishes the rest. `ℹ️ ORDER CORRECTION:` A former operator placed this filter **before** the carbon vessel (sand filter → bag filter → carbon vessel), not after it as earlier photo-based notes suggested. Carbon can't be backwashed or easily cleaned (see Section 6.5), so protecting it with a filter ahead of it makes more sense than filtering after it — treat the bag filter→carbon order as the current best understanding until confirmed otherwise. **While the sand filter (Section 6.4) is broken, this bag filter is your main line of defense before the carbon vessel — check and change bags more frequently.**
 
 ### How to change a filter bag
 `[ACTION]`  
@@ -217,17 +222,19 @@ Backwash the sand filter when any of the following:
 
 ## 6.7 Ozone System (AERQUS + CD30TIX)
 
+`ℹ️ POSITION IN THE PROCESS — TWO CONFLICTING ACCOUNTS:` Earlier photo-based notes placed ozone near the END of the process (after carbon, before chlorination). A former operator's direct account places it at the very BEGINNING of the indoor process — the first thing that happens to the water once it's pumped in, before any chemicals are added. **Confirm with your current supervisor which is actually true.** It changes how you think about what ozone is doing: oxidizing raw incoming contaminants (if first) vs. polishing already-treated water (if last).
+
 **Equipment:**
 - **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from ambient air or oxygen supply.
 - **AERQUS Ozone Diffuser** — black box. Distributes ozone into the water stream.
 
 **What ozone does:**  
 Ozone is a powerful oxidizer — much stronger than chlorine or hydrogen peroxide. In this system, it:
-1. **Oxidizes remaining dissolved iron** — converts any Fe²⁺ that H₂O₂ didn't catch into Fe³⁺ particles for filtration
-2. **Oxidizes dissolved organics and hydrocarbons** — breaks down petroleum compounds that carbon may have missed
+1. **Breaks down organic contaminants** — hydrocarbons and other organics
+2. **Breaks down inorganic contaminants** — including oxidizing dissolved iron (Fe²⁺) into filterable Fe³⁺ particles
 3. **Disinfects** — kills bacteria and other pathogens
 
-`ℹ️ WHY:` Ozone complements the H₂O₂ iron oxidation and carbon adsorption steps. It provides a final oxidation polish before chlorination. It also handles odour elimination — ozone destroys the molecules responsible for petroleum smell.
+`ℹ️ WHY:` Whether it runs first or last, ozone's underlying job doesn't change — it's one of the strongest oxidizers available on site, breaking down contaminants that gravity and filters alone can't touch, and handling odour elimination by destroying the molecules responsible for petroleum smell.
 
 ### Normal operation checks
 `[CHECK]`  

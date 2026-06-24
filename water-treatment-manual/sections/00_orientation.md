@@ -55,53 +55,47 @@ SITE WATER (stormwater, process water, groundwater)
 [5] INTAKE PUMP (submersible) → pumped indoors
       │
       ▼
-[6] TWO WHITE INDOOR TANKS (Section 6.2)
-    (PACl coagulant added here for the first time; FLOCCULANT added
-     again — 3rd of 3 dosing points; clumps fine particles)
-    (Hydrogen peroxide added — oxidizes dissolved iron so it can be filtered)
-    (pH adjustment with CO2 or pH+ powder as needed)
+[6] OZONE TREATMENT (AERQUS diffuser + CD30TIX generator)
+    (FIRST thing that happens once water is pumped indoors — per a former
+     site operator's account. Ozone breaks down organic and inorganic
+     contaminants before any chemicals are added.)
       │
       ▼
-[7] WET CELL / SEPARATION CELL (indoor — *confirm this is a separate
-    step from the blue bins above, see Section 6.2a note*)
-    (secondary settling + floc formation after chemical dosing)
+[7] CHEMICAL DOSING — PACl coagulant + flocculant injected
+    (added just before the white settling tanks; this is the 3rd
+     flocculant dosing point, on top of the 2 outdoor points above.
+     Stock solutions are mixed in 200L tanks — see Section 5 for exact
+     ratios — then metered in by dosing pump.)
       │
       ▼
-[8] SAND FILTER (SRS-SF-11 — green pressure vessel)
-    (removes fine iron floc and suspended solids)
+[8] TWO WHITE SETTLING TANKS (Section 6.2)
+    (gravity settling — coagulant + flocculant cause contaminants and
+     dirt to clump and sink to the bottom of the tank)
       │
       ▼
-[9] CARBON VESSEL (SRS-CV-15 — blue PV Series vessel)
-    (adsorbs dissolved petroleum hydrocarbons, colour, odour)
+[9] SAND FILTER (SRS-SF-11 — green pressure vessel)
+    (removes larger debris/floc. ⚠️ CURRENTLY BROKEN — see Section 6.4.
+     Needs periodic backwash and periodic sand replacement even when working.)
       │
       ▼
 [10] BAG FILTER HOUSING (blue cartridge housing)
-    (100-micron pre-filter + 10-micron polishing filter)
+    (safety screen — makes sure no dirt reaches the carbon vessel)
       │
       ▼
-[11] OZONE TREATMENT (AERQUS diffuser + CD30TIX generator)
-    (ozone oxidizes remaining iron and organics; disinfects)
+[11] CARBON VESSEL (SRS-CV-15 — blue PV Series vessel, "the blue vessel")
+    (activated carbon adsorbs dissolved petroleum hydrocarbons; loses
+     effectiveness as it gets dirty/saturated)
       │
       ▼
-[12] CHLORINATION (Accu-Tab Cal-Hypo tablets)
-    (final disinfection; maintains residual)
-      │
-      ▼
-[13] FRAC TANK STORAGE (clean/treated)
-     (large portable tanks hold treated water before discharge or reuse)
-      │
-      ▼
-DISCHARGE (to approved discharge point per permit)
+DISCHARGE → HOLDING TANKS → trucked/transferred to lagoon for disposal
                     │
                     ▼ (parallel process)
               SLUDGE MANAGEMENT
-              Kontek APC5 Filter Press
-              (dewatering sludge from wet cell and separator)
-              ↓
-              Filter cakes → licensed waste disposal
+              (sludge builds up in every settling step;
+               Kontek filter press status unconfirmed — see Section 6.11)
 ```
 
-`ℹ️ NOTE:` Steps [2]–[6] were confirmed directly by the site operator (oil separation cell → frac tanks → 2 outdoor blue separator bins → intake pump → two white indoor tanks). Step [7] (indoor wet cell) is still pending confirmation — it's unclear whether this is a separate piece of equipment from the blue bins in step [4], or whether earlier notes about an indoor concrete wet cell were actually describing the same blue bins. See Section 6.1a / 6.2a.
+`ℹ️ NOTE — TWO SOURCES, NOT FULLY RECONCILED YET:` Steps [2]–[6] (oil separation cell → frac tanks → 2 outdoor blue bins → intake pump → indoors) were confirmed directly by the current site operator. Steps [6]–[11] (ozone first, then chemical dosing, settling, sand filter, bag filter, carbon vessel, discharge to lagoon) come from a **former operator's** detailed account and visibly conflict with what was documented earlier from photos — most notably: **ozone is now placed first indoors instead of near the end**, and **chlorination (Accu-Tab) and hydrogen peroxide dosing were not mentioned at all** in this account. It's possible those steps were removed, were never really used, or were just left out of a "without going in depth" summary. **Confirm with Brennan/Rob/Glen** whether peroxide and chlorination are still part of the live process before you rely on this order being complete.
 
 ---
 
@@ -117,25 +111,24 @@ DISCHARGE (to approved discharge point per permit)
 4. **Two Blue Separator Bins.** Steel bins with **baffles** inside *(baffle = an internal divider wall that forces water to take a longer zig-zag path instead of flowing straight through)*. This gives any remaining oil and grit more time and surface area to separate out — the last outdoor cleanup step. `ℹ️ CONFIRMED:` Flocculant is dosed again here — the **second of three points** — to keep building floc as the water gets jostled through the baffles and pumped onward.
 5. **Transfer Pumps.** This system doesn't use one fixed pump bolted in place at every stage — instead, **portable submersible pumps** *(motor and pump sealed together, sits underwater)* are physically moved to wherever water needs to go next. The same style of pump is dropped into a frac tank with a hose run to a blue bin, and later dropped into a blue bin with a hose run into the building. Always check which tank a pump is currently sitting in before assuming a transfer is happening — nothing moves on its own here.
 
-**Now the heavier chemistry — problems gravity alone can't fix:**
+**Now the heavier treatment indoors — per a former operator's account (see note below):**
 
-6. **Two White Indoor Tanks.** Three things happen here:
-   - **Coagulant (PACl)** is added for the first time here. It cancels out the electrical charge that's been keeping tiny dirt particles apart (like magnets repelling each other) so they can finally stick together. This is called **coagulation**.
-   - **Flocculant (polymer — CL-200 or Flopham)** is added a **third time** here, on top of the two outdoor doses from steps 2 and 4 — the final top-up alongside the fresh coagulant, continuing the same job: bundling clumps into bigger floc. This is called **flocculation**. `ℹ️ WHY THREE DOSING POINTS INSTEAD OF ONE:` Each transfer (pumping, baffles, settling) disturbs floc that's already formed. Re-dosing a little flocculant at each major step keeps floc building continuously along the whole journey, instead of asking one single dose to survive from the pit all the way to the white tanks.
-   - **An oxidizer (hydrogen peroxide, and possibly the peroxyacetic acid blend found on site — use not yet confirmed)** converts **dissolved iron** *(invisible — it's dissolved in the water, not floating as a particle, so no filter can catch it)* into solid rust-colored particles that filters CAN catch. This is why the whole plant is stained orange — that staining is iron being successfully caught, doing exactly what it's supposed to.
-   - `❓ UNCONFIRMED:` There may be a 7th step here — an indoor concrete "wet cell" with baffles for more settling after the chemicals are added. It's not yet clear if this is real separate equipment or the same blue bins from step 4 described twice. Confirm with supervisor.
+6. **Ozone — the FIRST thing that happens once water is pumped indoors.** Ozone gas (O₃) is a strong oxidizer that breaks down organic contaminants (like hydrocarbons) and inorganic contaminants (like dissolved iron) before any chemicals are even added. `ℹ️ CONFLICTS WITH EARLIER NOTES:` Photos earlier suggested ozone happened near the very end of the process, right before chlorination. A former operator's direct account places it here instead, first thing indoors. Confirm with your current supervisor which is actually correct — it's possible the order changed over time, or one account is incomplete.
+7. **Chemical dosing — coagulant and flocculant, injected right before the white settling tanks.** This is the same two chemicals from before:
+   - **PACl coagulant** — neutralizes the electrical charge keeping fine particles apart so they can stick together (**coagulation**).
+   - **Flocculant** — this is the **third** dosing point (after the oil cell and the blue bins outdoors) — nets the stuck-together particles into bigger floc (**flocculation**).
+   - Both are prepared as **stock solutions** in 200L mixing tanks before being metered into the flow — see Section 5 for the exact mixing ratios (2 bags of dry PACl per 200L; about 100g of flocculant per 200L, added very slowly).
+8. **Two White Settling Tanks.** This is where gravity finally takes over again — the coagulant and flocculant have caused contaminants and dirt to clump together, and those clumps settle to the bottom of the tank. `ℹ️ WHY:` You may need to adjust the chemical dosing pump settings to get this right, but you should be able to SEE it working — clear water on top, sludge settling below.
+   - `❓ STILL UNCONFIRMED:` Earlier notes mentioned hydrogen peroxide added here too (a second oxidizer, for dissolved iron) and a possible separate indoor "wet cell." Neither was mentioned in this latest account — confirm whether peroxide dosing still happens.
 
 **Filtering out everything the chemistry created:**
 
-7. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps the iron particles and floc clumps made in step 6 — like a coffee filter for rust.
-8. **Carbon Vessel (SRS-CV-15).** Sand can't catch *dissolved* fuel smell and color (dissolved = mixed into the water like sugar, not filterable). **Activated carbon** is riddled with microscopic pores giving it huge surface area; dissolved hydrocarbons stick to that surface as water flows through (called **adsorption**). This step removes the fuel odour.
-9. **Bag Filters.** Two fabric bags in a row — coarse (100 micron) then fine (10 micron — a micron is a millionth of a metre). Final mechanical catch-all for anything that snuck through.
+9. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps larger debris and the floc clumps made in step 7 — like a coffee filter for rust. `⚠️ CURRENTLY BROKEN — needs repair or replacement.` Even when working, sand filters need two kinds of maintenance: **backwashing** (reversing the flow periodically to break up the channels the water carves through the sand over time, which otherwise let water sneak through without being filtered) and **full sand replacement** every so often as the sand gets dirty.
+10. **Bag Filter.** Acts as a safety net — its only job is making sure no dirt reaches the carbon vessel next. If the sand filter isn't doing its job (especially while broken), this filter takes on extra load.
+11. **Carbon Vessel (SRS-CV-15, "the blue vessel").** Sand and bag filters can't catch *dissolved* fuel smell and color (dissolved = mixed into the water like sugar, not filterable). **Activated carbon** is riddled with microscopic pores giving it huge surface area; dissolved hydrocarbons stick to that surface as water flows through (called **adsorption**). If the carbon gets dirty/saturated, it stops working properly and needs to be changed out.
+12. **Discharge to holding tanks → lagoon.** Treated water goes to holding tanks, then is trucked or transferred to a lagoon for final disposal.
 
-**Final polish and disinfection:**
-
-10. **Ozone.** Ozone gas (O₃) is an even stronger oxidizer than the peroxide from step 6 — it mops up any remaining iron or organics, and kills bacteria.
-11. **Chlorination (Cal-Hypo tablets).** Tablets dissolve slowly, releasing chlorine — the same disinfectant used in pools — as a final guarantee nothing biological survives before discharge.
-12. **Clean Frac Tank Storage → Discharge.** Treated water is held, sampled and tested against the legal discharge limits, then released.
+`ℹ️ OPERATING PHILOSOPHY — worth remembering:` "Make sure the flow coming in isn't too much or there won't be enough time for settling. It's all a balancing process because they never really made a proper treatment facility." This site runs on careful adjustment, not a fully automated/engineered system — watching, adjusting, and using judgment at every step is the actual job.
 
 **Running the whole time, off to the side:** every settling step above (ponds, frac tanks, blue bins, wet cell) builds up **sludge** (thick heavy gunk) at the bottom. The **AODD pump** *(air-powered, no electric motor — gentle enough not to clog on thick sludge)* moves that sludge to the **Kontek filter press**, which squeezes the water out of it like a sponge press. The dry leftover ("filter cake") goes to waste disposal; the squeezed-out water rejoins the system to be treated again.
 
