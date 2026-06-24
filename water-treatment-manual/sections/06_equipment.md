@@ -111,6 +111,9 @@ The chemical dosing room contains drums and dosing pumps for each treatment chem
 - **Pump:** Yellow LMI diaphragm dosing pump
 - **Injection point:** After PACl, before or during slow mixing in the wet cell
 
+### Possible injection manifold spotted on video (IMG_2775, IMG_2776)
+A wall-mounted black manifold/union fitting with several thin tubes converging into it was visually confirmed, mounted near a wire shelf (similar shelving to the ozone equipment in Section 6.7), with heavy red/orange iron staining on the wall around it — consistent with chemical or process water passing through this point regularly. This is a strong candidate for **the actual chemical injection point(s)** referenced above, but it isn't confirmed which chemical(s) feed into it. `(confirm with supervisor or by tracing the tubing back to specific drums: which lines converge here, and what do they inject into?)`
+
 ### Checking a dosing pump is actually working
 `[CHECK]`  
 1. Is the pump making a rhythmic clicking/ticking sound? (Diaphragm pump = audible with each stroke)  
@@ -134,6 +137,8 @@ If a pump has run dry or been disconnected, it needs priming:
 `⚠️ CURRENTLY BROKEN:` A former site operator confirmed this filter is broken and needs to either be repaired or replaced. Until that happens, the bag filter (Section 6.6) downstream is taking on extra load it wasn't designed to handle alone — watch the bag filters more closely and change them more often while the sand filter is down. **Flag this to your supervisor if it hasn't already been raised.**
 
 **Appearance:** Green cylindrical pressure vessel on a metal stand, with a pump mounted below/beside it. Tagged "SRS-SF-11".
+
+`❓ UNCONFIRMED — possible second green vessel:` Video (IMG_2775) shows **two green cylindrical pressure vessels** standing side by side in what looks like a separate room, viewed through a doorway. This may be SRS-SF-11 next to a second, similar-looking vessel (a backup/duplicate sand filter? A different stage entirely?) — or it could be the same single vessel seen at an angle that makes it look like two. This also doesn't fully match an earlier description of "the green one" (singular) as a piece of equipment actually in use on this site. **Confirm: are there really two green vessels, and if so, what does the second one do?**
 
 **What it does:** Pressurized filtration through a bed of graded sand. Water flows down through the sand, which traps iron hydroxide particles, fine suspended solids, and any remaining floc.
 
@@ -466,6 +471,19 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 
 **Using the air horn for evacuation:**
 - 3 short blasts = evacuate the building immediately
+
+### A second safety station — workshop/maintenance area (confirmed via video IMG_2774)
+This is a separate area from the main treatment room — looks like a workshop or maintenance shed with a tool pegboard, work bench, and gas cylinders (appear to be welding gas, not CO₂ — confirm). Confirmed here:
+
+| Item | Location | Purpose |
+|---|---|---|
+| **Eyewash station** (yellow, wall-mounted) | Workshop area, near the exit door | Eye flush for chemical/debris exposure — marked with an "EMERGENCY EYE WASH" sign |
+| **Spill kit** | Workshop area, wall-mounted sign points to it | Containing/cleaning up chemical or fuel spills |
+| **Fire extinguisher** | Workshop area | General fire suppression |
+
+`ℹ️ WHY THIS MATTERS:` The site has **at least two separate safety stations** in two different areas (treatment room, and this workshop area) — don't assume the nearest eyewash/extinguisher to where you're standing is the only one on site. Learn the route to BOTH.
+
+`(confirm with supervisor: is this workshop physically attached to/near the main treatment building, or a separate structure? What other eyewash stations exist elsewhere on site — outdoor pump areas, chemical storage?)`
 
 ---
 
