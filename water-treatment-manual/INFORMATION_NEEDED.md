@@ -19,7 +19,7 @@
 ## 🟠 High Priority — Daily Operations
 
 - [ ] **Actual chemical dose rates currently in use** — PACl, CL-200, H₂O₂, Cl₂ (ask Brennan)
-- [ ] **Chemical injection points** — trace each dosing line: where exactly does PACl inject? Polymer? H₂O₂?
+- [ ] **Chemical injection points** — trace each dosing line: where exactly does PACl inject? H₂O₂? Polymer/flocculant locations now confirmed (see below) — still need exact line/pump for each of the 3 flocculant points, plus PACl and H₂O₂ injection points.
 - [ ] **Frac tank inventory** — how many, what are their IDs, approximate volume each, and which is clean/dirty/in treatment right now
 - [ ] **Indoor white cylindrical tanks** — volume of each? What exactly goes in each? What is the ANKO2 tank used for?
 - [ ] **Sand filter backwash setpoint** — at what pressure differential do you backwash SRS-SF-11?
@@ -60,6 +60,8 @@
 - All 8 chemicals: names, SDS, hazard classes, safety procedures
 - All major equipment: names, models, serials, operating procedures
 - Full treatment train sequence — **outdoor portion now confirmed by operator:** oil/water separation cell → frac tanks → 2 outdoor blue separator bins → submersible intake pump → two white indoor tanks
+- **Flocculant (CL-200/Flopham polymer) dosing points confirmed by operator:** added at 3 separate points — the oil/water separation cell, the 2 outdoor blue bins, AND indoors near the white tanks (not just one dosing point as previously documented)
+- **Transfer pumps confirmed by operator:** portable submersible pumps (not fixed installations) are moved between frac tanks and the 2 blue bins to perform each transfer
 - Site: Kamloops BC, SUMAS Environmental Services (1-250-374-4151)
 - Key contacts: Brennan (supervisor), Rob, Glen
 - Shell Canada OWS weekly inspection procedure and log format

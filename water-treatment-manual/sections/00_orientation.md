@@ -38,6 +38,7 @@ SITE WATER (stormwater, process water, groundwater)
       ▼
 [2] OIL / WATER SEPARATION CELL
     (petroleum floats and is separated from water)
+    (FLOCCULANT added here — chemical dosing starts this early, not just indoors)
       │
       ▼
 [3] FRAC TANKS (outdoor storage/settling)
@@ -48,14 +49,15 @@ SITE WATER (stormwater, process water, groundwater)
 [4] BLUE SEPARATOR BINS — outdoor, 2 units (Section 6.1a)
     (steel baffled bins — final outdoor polishing separation before
      water is pumped indoors)
+    (FLOCCULANT added again here — 2nd of 3 dosing points)
       │
       ▼
 [5] INTAKE PUMP (submersible) → pumped indoors
       │
       ▼
 [6] TWO WHITE INDOOR TANKS (Section 6.2)
-    (chemical dosing begins here — PACl coagulant + polymer flocculant
-     added; clumps fine particles)
+    (PACl coagulant added here for the first time; FLOCCULANT added
+     again — 3rd of 3 dosing points; clumps fine particles)
     (Hydrogen peroxide added — oxidizes dissolved iron so it can be filtered)
     (pH adjustment with CO2 or pH+ powder as needed)
       │
@@ -107,19 +109,19 @@ DISCHARGE (to approved discharge point per permit)
 
 > Read this if the diagram above and the equipment sections feel overwhelming. This is the same information, told as one continuous story, with every term defined the first time it's used. Some details below are still unconfirmed — they're marked clearly so you know what to double check with your supervisor.
 
-**Before the chemistry — pure gravity (no chemicals needed yet):**
+**Mostly gravity outdoors — but flocculant starts early:**
 
 1. **Open pit/pond.** Raw dirty water collects here first — dark water, often an oily film on top. It just sits, and because oil is lighter than water, it floats; because solids are heavier, they sink. No equipment needed for this — gravity does the work.
-2. **Oil/Water Separation Cell.** A vessel built to make that floating/sinking happen efficiently. The floating oil is skimmed off and disposed of as waste — it never reaches the clean side.
+2. **Oil/Water Separation Cell.** A vessel built to make that floating/sinking happen efficiently. The floating oil is skimmed off and disposed of as waste — it never reaches the clean side. `ℹ️ CONFIRMED:` This is also the **first of three points** where **flocculant** (polymer — CL-200) is added on this site. Flocculant acts like a net, bundling tiny stuck-together particles into bigger, heavier clumps called **floc** — big enough to settle out instead of drifting in the water. Starting this here means floc is already forming before the water even reaches the frac tanks.
 3. **Frac Tanks** *(frac tank = a large portable steel storage tank, borrowed from the oil/gas industry)*. More settling time outdoors. The clearer water in the middle of the tank is drawn off to continue; oil and solids stay behind.
-4. **Two Blue Separator Bins.** Steel bins with **baffles** inside *(baffle = an internal divider wall that forces water to take a longer zig-zag path instead of flowing straight through)*. This gives any remaining oil and grit more time and surface area to separate out — the last outdoor cleanup step.
-5. **Intake Pump.** A submersible pump *(motor and pump sealed together, sits underwater)* pulls water from the blue bins and pushes it into the building through pipes.
+4. **Two Blue Separator Bins.** Steel bins with **baffles** inside *(baffle = an internal divider wall that forces water to take a longer zig-zag path instead of flowing straight through)*. This gives any remaining oil and grit more time and surface area to separate out — the last outdoor cleanup step. `ℹ️ CONFIRMED:` Flocculant is dosed again here — the **second of three points** — to keep building floc as the water gets jostled through the baffles and pumped onward.
+5. **Transfer Pumps.** This system doesn't use one fixed pump bolted in place at every stage — instead, **portable submersible pumps** *(motor and pump sealed together, sits underwater)* are physically moved to wherever water needs to go next. The same style of pump is dropped into a frac tank with a hose run to a blue bin, and later dropped into a blue bin with a hose run into the building. Always check which tank a pump is currently sitting in before assuming a transfer is happening — nothing moves on its own here.
 
-**Now the chemistry starts — problems gravity alone can't fix:**
+**Now the heavier chemistry — problems gravity alone can't fix:**
 
 6. **Two White Indoor Tanks.** Three things happen here:
-   - **Coagulant (PACl)** cancels out the electrical charge that's been keeping tiny dirt particles apart (like magnets repelling each other) so they can finally stick together. This is called **coagulation**.
-   - **Flocculant (polymer — CL-200 or Flopham)** acts like a net, bundling those small stuck-together clumps into bigger, heavier clumps called **floc**, big enough to settle or get caught by a filter. This is called **flocculation**.
+   - **Coagulant (PACl)** is added for the first time here. It cancels out the electrical charge that's been keeping tiny dirt particles apart (like magnets repelling each other) so they can finally stick together. This is called **coagulation**.
+   - **Flocculant (polymer — CL-200 or Flopham)** is added a **third time** here, on top of the two outdoor doses from steps 2 and 4 — the final top-up alongside the fresh coagulant, continuing the same job: bundling clumps into bigger floc. This is called **flocculation**. `ℹ️ WHY THREE DOSING POINTS INSTEAD OF ONE:` Each transfer (pumping, baffles, settling) disturbs floc that's already formed. Re-dosing a little flocculant at each major step keeps floc building continuously along the whole journey, instead of asking one single dose to survive from the pit all the way to the white tanks.
    - **An oxidizer (hydrogen peroxide, and possibly the peroxyacetic acid blend found on site — use not yet confirmed)** converts **dissolved iron** *(invisible — it's dissolved in the water, not floating as a particle, so no filter can catch it)* into solid rust-colored particles that filters CAN catch. This is why the whole plant is stained orange — that staining is iron being successfully caught, doing exactly what it's supposed to.
    - `❓ UNCONFIRMED:` There may be a 7th step here — an indoor concrete "wet cell" with baffles for more settling after the chemicals are added. It's not yet clear if this is real separate equipment or the same blue bins from step 4 described twice. Confirm with supervisor.
 
