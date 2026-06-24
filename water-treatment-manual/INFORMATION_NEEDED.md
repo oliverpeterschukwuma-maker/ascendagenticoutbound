@@ -86,7 +86,7 @@
 - [x] **Dry PACl bag (25kg, made in China)** — **resolved by a former operator:** yes, in active use, mixed 2 bags per 200L as a stock solution. Still need: confirm bag size matches the 25kg bags seen in photos, and confirm with current operators this is still the practice.
 - [ ] **TEXLOME High Calcium Hydrated Lime** — brand new chemical, not yet documented. What is it used for here (pH raising? metals precipitation?), what's the dose, where's the SDS, what PPE?
 - [ ] **Chemicals next to the two white indoor tanks** — operator is sending these next; needed to finish updating Section 5 (Chemical Dosing) accurately for the indoor dosing stage.
-- [ ] **Play Sand / Sakrete bags seen near H₂O₂ drums** — likely sand filter (SRS-SF-11) replacement media stock; confirm.
+- [x] **Play Sand / Sakrete bags seen near H₂O₂ drums** — **largely resolved:** photo IMG_2777 shows a matching white bag sitting at the base of the green sand filter vessels, strongly suggesting this is filter media stock kept on hand. Still nice to have: direct confirmation from supervisor.
 - [ ] **Submersible intake pump spec** — model/capacity of the pump moving water from the blue bins into the building.
 
 ---
@@ -101,3 +101,12 @@
 - [ ] **Sand filter repair/replacement status** — is this already scheduled? See 🔴 Critical section above.
 - [ ] **Discharge to a lagoon, not a direct permitted outfall?** — this account says water goes to holding tanks then is trucked/transferred to a lagoon, not described as a direct discharge point. Need to confirm how this reconciles with "discharge permit" questions above — is the lagoon itself the permitted discharge point, or a separate holding step before further treatment/discharge elsewhere?
 - [ ] **Bag size for dry PACl** — confirm the "2 bags per 200L" bags are the same 25kg bags seen in photos (this ratio would be very concentrated if so — worth double-checking the math with whoever currently mixes it).
+
+---
+
+## 🆕🆕🆕 New Open Items — Sand Filter Photos (IMG_2777, IMG_2778)
+
+- [x] **"The green one" is actually two vessels** — **resolved:** photo IMG_2777 confirms two green pressure vessels side by side, sharing a top pipe manifold, each with its own round inspection hatch — looks like a duplex (twin) sand filter setup.
+- [ ] **Which vessel is "broken"?** — Is it one specific vessel in this twin pair, or are both affected? Is this duplex arrangement intentional (one runs while the other backwashes/stands by), or did SUMAS just install two identical units over time?
+- [ ] **IMG_2778 close-up tag check** — this shot shows "SRS-SF-11" clearly on a green vessel with a multi-port control valve/actuator on top. Does this match one of the two vessels in IMG_2777, or is there a third sand filter vessel elsewhere on site?
+- [x] **Kontek filter press location confirmed** — visible right next to/behind the two green sand filter vessels in IMG_2777 (the blue/white finned unit). Matches the "lines like a piano" description and confirms physical layout, even though it's reportedly not used.
