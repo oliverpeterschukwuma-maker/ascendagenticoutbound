@@ -21,7 +21,7 @@
 ## 🟠 High Priority — Daily Operations
 
 - [x] **Actual chemical dose rates currently in use** — **partially resolved by a former operator:** PACl stock = 2 bags dry powder per 200L; flocculant stock = ~100g (half a scoop) per 200L, added slowly, mixed 1hr. Still need: H₂O₂ dose if still in use, and confirmation these ratios match what Brennan/Rob/Glen currently use.
-- [ ] **Chemical injection points** — trace each dosing line: where exactly does PACl inject? H₂O₂? Polymer/flocculant locations now confirmed (see below) — still need exact line/pump for each of the 3 flocculant points, plus PACl and H₂O₂ injection points.
+- [x] **Chemical injection points (indoor stage) — resolved via video IMG_2767:** dosing drums (flocculant + PACl) feed a wall-mounted PVC manifold that drops directly into the settling tank — path confirmed: drums → manifold → settling tank. Still need: the 2 outdoor flocculant injection points (oil cell, blue bins) traced the same way, and H₂O₂ injection point if still in use.
 - [ ] **Frac tank inventory** — how many, what are their IDs, approximate volume each, and which is clean/dirty/in treatment right now
 - [ ] **Indoor white cylindrical tanks** — volume of each? What exactly goes in each? What is the ANKO2 tank used for?
 - [ ] **Sand filter backwash setpoint** — at what pressure differential do you backwash SRS-SF-11?

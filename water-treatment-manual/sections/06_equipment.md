@@ -115,11 +115,11 @@ The chemical dosing room contains drums and dosing pumps for each treatment chem
 - **Pump:** Yellow LMI diaphragm dosing pump
 - **Injection point:** After PACl, before or during slow mixing in the wet cell
 
-### Possible injection manifold spotted on video (IMG_2775, IMG_2776)
-A wall-mounted black manifold/union fitting with several thin tubes converging into it was visually confirmed, mounted near a wire shelf (similar shelving to the ozone equipment in Section 6.7), with heavy red/orange iron staining on the wall around it — consistent with chemical or process water passing through this point regularly. This is a strong candidate for **the actual chemical injection point(s)** referenced above, but it isn't confirmed which chemical(s) feed into it. `(confirm with supervisor or by tracing the tubing back to specific drums: which lines converge here, and what do they inject into?)`
+### Injection manifold — CONFIRMED (video IMG_2767)
+A walking video of the treatment room confirms the full physical path: the dosing drums (flocculant + PACl, same station as IMG_2758, sitting next to a white storage tank) feed a wall-mounted PVC manifold that runs horizontally along the wall with several T-fittings/valves branching off it. At one of those branches, the video clearly shows a pipe **dropping straight down into the settling tank** (the rusted/baffled trough from Section 6.2a). This confirms the injection sequence: **dosing drums → wall manifold → settling tank.** The earlier sighting of a similar black manifold on video (IMG_2775, IMG_2776) is the same system, just a different angle/section of the same wall run.
 
-### Dosing drum station confirmed via photo (IMG_2758)
-Shows the flocculant drum (white, SUMAS label) with its yellow LMI metering pump mounted directly on the drum lid, plus a second blue drum (likely the PACl/coagulant stock mix) right beside it. The floor around this station has heavy **white** crusting — distinct from the orange/iron staining seen everywhere else on site, and consistent with PACl forming a white precipitate where it's mixed/handled. This confirms the dosing room layout described above, but the photo doesn't show the discharge tubing far enough to confirm exactly which downstream tank it injects into — see the wet cell note above for the best current guess (injects into the line feeding the wet cell, before the sand filter).
+### Dosing drum station confirmed via photo (IMG_2758) and video (IMG_2767)
+Flocculant drum (white, SUMAS label) with its yellow LMI metering pump mounted directly on the drum lid, plus a second blue drum (likely the PACl/coagulant stock mix) right beside it, sitting next to a white storage tank for scale. The floor around this station has heavy **white** crusting — distinct from the orange/iron staining seen everywhere else on site, and consistent with PACl forming a white precipitate where it's mixed/handled.
 
 ### Checking a dosing pump is actually working
 `[CHECK]`  
