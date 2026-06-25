@@ -57,6 +57,17 @@
 
 ---
 
+## 🆕🆕🆕🆕🆕🆕 New Open Items — Operator's Real-Time Sequence Walkthrough (in progress)
+
+- [x] **"C Can" confirmed to physically exist on site** — matches the "sea can" Brennan described and the "CAN" stencil spotted on a wood post in IMG_2799/2800. Chemical dosing (coagulant + flocculant + a 3rd chemical) happens inside it.
+- [ ] **Identify the 3rd chemical injected at the C Can** — operator named coagulant + flocculant but forgot the third one; confirm tomorrow.
+- [ ] **Only 1 blue bin ("weir tank") currently in use, not 2** — reconcile with earlier-documented 2-bin series setup. Is the 2nd bin offline, removed, or just not needed right now?
+- [ ] **Dosing location has moved earlier in the sequence** — current account has coagulant/flocculant injected at the C Can (before the weir tank/blue bin), not "indoors near the white tanks" as previously documented. Confirm whether the indoor dosing manifold (Section 6.3, IMG_2767) is still used at all, or if dosing fully happens outdoors now.
+- [ ] **Sequence after ozone is still unconfirmed** — operator said they'll figure out/confirm the rest. Needs: what happens between ozone and the settling tank/sand filter bypass/bag filter/carbon vessel steps already documented.
+- [ ] **More info and pictures promised tomorrow** — resume mapping this once received.
+
+---
+
 ## 🆕🆕🆕🆕🆕 New Open Items — Brennan's Blue Bin Description
 
 - [x] **Blue bins run in series, gravity-fed — confirmed by Brennan.** One bin sits higher (or equal), gravity-feeds the other via 4" hose; 2" pump flow can't overflow it.

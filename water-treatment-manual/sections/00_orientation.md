@@ -26,6 +26,11 @@ The source water is not river or lake water — it is water that has been in con
 
 ## 0.2 The Treatment Train (Overview)
 
+`🆕 IN PROGRESS — newest account, directly from the operator learning the system in real time (not yet fully reconciled with the diagram below):`
+> Oil/water cell → frac tank (settles) → pumped to the **"C Can"** (= the sea can — **confirmed to physically exist on site**) → inside the C Can, water is injected with **coagulant + flocculant + a 3rd chemical (not yet identified — operator forgot, will confirm)** → flows to the **weir tank, which IS one of the blue bins — only 1 blue bin is currently in use**, not 2 → settles in the weir tank/blue bin → pumped out to the intake pump → **ozone** injected → *(steps after this are still being confirmed)*.
+>
+> This differs from the diagram below in two important ways that still need reconciling: **(1)** chemical dosing here happens at the C Can, before the blue bin/weir tank stage — not "indoors near the white tanks" as currently documented in step [7]; **(2)** only **one** blue bin is in current use, not both. Treat this account as the most current/authoritative until the rest of the sequence (post-ozone) is confirmed and the diagram is rebuilt around it.
+
 Water moves through this system in a series of steps. Each step removes something — think of it as a series of increasingly fine sieves. Here is the flow from raw contaminated water to treated water ready for discharge or storage:
 
 ```
