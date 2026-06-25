@@ -60,11 +60,19 @@
 
 `ℹ️ WHY:` Anything not separated out here gets carried into the indoor tanks and chemical dosing stage — catching oil/solids at this outdoor stage reduces the load on every step downstream.
 
+### Bin-to-bin configuration — CONFIRMED BY BRENNAN (series, gravity-fed)
+- The two blue bins run **in series**, not parallel — confirms the settle-then-transfer model, not dual-parallel dosing.
+- One bin sits at a slightly higher (or equal) elevation than the other and **gravity-feeds** into it through a 4" hose — a 2" pump's flow rate cannot overflow a 4" gravity line, so this transfer is passive/safe by design once set up.
+- Brennan also described his typical full design for this kind of series setup: a **"sea can"** (shipping container) housing chemical totes and dosing pumps, with chemical injected via a **flow switch** in the piping, feeding into **weir tanks** where the actual settling happens, then discharging to an **open tote** with a submersible pump inside that pumps water into the building.
+
+`⚠️ NEEDS CONFIRMATION — is this describing OUR site or Brennan's general approach?` Brennan caveated this with "it's just the logistics of setting it up with the power you'd need and the freezing temps in winter" — meaning some of this (especially the sea can and flow-switch dosing) may be his **ideal/typical setup**, not necessarily what's literally installed here. No sea can has been spotted in any site photos so far. Before updating the dosing-point documentation, ask Brennan directly: **"Is there an actual sea can on our site doing the chemical dosing between the two blue bins, or were you describing how you'd set it up elsewhere? On our site specifically, where does the flocculant injection into the blue bins actually happen?"** Until answered, treat "weir tanks" as very likely just referring to the internal baffle (weir) plates already documented inside these same two blue bins — not a third, separate structure.
+
 ### Transfer Pumps (Portable Submersible)
 **Confirmed by operator:** transfers are NOT done with fixed, permanently-plumbed pumps at each stage. Instead, portable submersible pumps (blue housing, single discharge port, standard electrical plug) are physically dropped into whichever tank needs to be moved next — **both the frac tanks and the blue bins** use the same style of pump — with a hose run to the destination tank.
 
 - **Frac tank → blue bin:** pump dropped into the frac tank, hose run to the blue bin
-- **Blue bin → indoors (white tanks):** pump dropped into the blue bin, hose run into the building
+- **Blue bin 1 → blue bin 2:** gravity-fed via 4" hose (see above) — no pump needed for this hop if elevation allows it
+- **Blue bin 2 → indoors (Tank 1 / Tank 2):** per Brennan, discharge lands in an **open tote** with a submersible pump inside, which then pumps water into the building `(confirm: is this open tote actually present on site, or is the pump currently dropped directly into blue bin 2 as earlier documented?)`
 
 `[CHECK]` Before starting any transfer:
 - [ ] Pump and cord are in good condition (no cracked housing, no exposed wiring)
