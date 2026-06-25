@@ -26,11 +26,11 @@
 
 ---
 
-## 6.2 Indoor Treatment / Storage Tanks (Large White Cylindrical Tanks)
+## 6.2 Indoor Storage Tanks (Large White Cylindrical Tanks)
 
-**What they are:** Two large cylindrical above-ground tanks inside the treatment building. White poly or fibreglass construction, approximately 3–4 metres tall and 1.5–2 metres in diameter. Each has a metal ladder attached to the outside for level checking. Outlet piping and ball valves at the base. One tank is labelled "ANKO2" *(confirm exact tank IDs and capacity with supervisor)*.
+**What they are:** Two large cylindrical above-ground tanks inside the treatment building. White poly or fibreglass construction, approximately 3–4 metres tall and 1.5–2 metres in diameter. Each has a metal ladder attached to the outside for level checking. Outlet piping and ball valves at the base. One tank is labelled "ANKO2" *(confirm exact tank IDs and capacity with supervisor)*. Photo IMG_2757 shows both tanks together, with white tote chemical containers and blue chemical drums staged on pallets next to them.
 
-**What they do:** These are the main indoor water storage or treatment vessels — likely the primary coagulation/flocculation contact tanks or holding tanks for water at different treatment stages. Water is pumped in, chemical dosing occurs, and the water moves on to the filters.
+**What they do:** `ℹ️ CONFIRMED — these are STORAGE tanks, not settling tanks.` They hold water at different stages (e.g., raw/incoming vs. treated) rather than being where chemical floc actually forms and settles. Settling happens in a separate baffled structure (see Section 6.2a / IMG_2741, IMG_2742) — do not confuse the two. `(confirm with supervisor: what stage of water is in each of these two tanks — raw, dosed, or treated?)`
 
 `[CHECK]` Each shift:
 - [ ] Water level in each tank (visual from ladder or sight glass — *(confirm method)*)
@@ -78,10 +78,12 @@
 
 ---
 
-## 6.2a Wet Cell / Separation Cell (Indoor Concrete Settling Tanks)
+## 6.2a Wet Cell / Separation Cell (Indoor Settling Tanks)
 
-**What they are:** Multi-compartment concrete tanks inside the building. Distinct from the large white cylindrical tanks — these are lower-profile concrete vessels with baffled partitions.  
-**Appearance:** Heavy orange-brown iron staining on all walls and floor — this is normal, not neglect. It's the visual record of iron removal.
+`ℹ️ CONFIRMED BY OPERATOR (IMG_2740, IMG_2741, IMG_2742, IMG_2745):` These are **the settling tanks** referred to elsewhere in this manual — physically separate from, but located right next to, the white cylindrical storage tanks in Section 6.2 (a white tank is visible at the edge of the frame in these photos/video). Do not confuse the two: storage tanks just hold water; this is where the actual settling happens.
+
+**What they are:** Multi-compartment tanks inside the building, baffled partitions dividing the flow into sections. Construction appears to be welded/rusted **steel**, not poured concrete as earlier notes assumed — confirm which with supervisor.
+**Appearance:** Heavy dark brown/black staining (oil residue mixed with iron staining) on all walls and floor — this is normal, not neglect. It's the visual record of treatment doing its job. Currently shown empty/dry in the latest photos/video.
 
 The baffled partitions divide the flow path into compartments, forcing water to travel a longer path and giving solids more time to settle.
 

@@ -68,7 +68,8 @@ SITE WATER (stormwater, process water, groundwater)
      ratios — then metered in by dosing pump.)
       │
       ▼
-[8] TWO WHITE SETTLING TANKS (Section 6.2)
+[8] SETTLING TANK / WET CELL (Section 6.2a — baffled, NOT the white cylindrical
+    storage tanks in Section 6.2, which is a separate piece of equipment)
     (gravity settling — coagulant + flocculant cause contaminants and
      dirt to clump and sink to the bottom of the tank)
       │
@@ -133,8 +134,8 @@ DISCHARGE → HOLDING TANKS → trucked/transferred to lagoon for disposal
    - **PACl coagulant** — neutralizes the electrical charge keeping fine particles apart so they can stick together (**coagulation**).
    - **Flocculant** — this is the **third** dosing point (after the oil cell and the blue bins outdoors) — nets the stuck-together particles into bigger floc (**flocculation**).
    - Both are prepared as **stock solutions** in 200L mixing tanks before being metered into the flow — see Section 5 for the exact mixing ratios (2 bags of dry PACl per 200L; about 100g of flocculant per 200L, added very slowly).
-8. **Two White Settling Tanks.** This is where gravity finally takes over again — the coagulant and flocculant have caused contaminants and dirt to clump together, and those clumps settle to the bottom of the tank. `ℹ️ WHY:` You may need to adjust the chemical dosing pump settings to get this right, but you should be able to SEE it working — clear water on top, sludge settling below.
-   - `❓ STILL UNCONFIRMED:` Earlier notes mentioned hydrogen peroxide added here too (a second oxidizer, for dissolved iron) and a possible separate indoor "wet cell." Neither was mentioned in this latest account — confirm whether peroxide dosing still happens.
+8. **Settling Tank / Wet Cell.** This is where gravity finally takes over again — the coagulant and flocculant have caused contaminants and dirt to clump together, and those clumps settle to the bottom of the tank. `ℹ️ CONFIRMED:` This is a baffled tank, separate and distinct from the two big white cylindrical tanks in Section 6.2 — those are storage tanks only, not where settling happens. `ℹ️ WHY:` You may need to adjust the chemical dosing pump settings to get this right, but you should be able to SEE it working — clear water on top, sludge settling below.
+   - `❓ STILL UNCONFIRMED:` Earlier notes mentioned hydrogen peroxide added here too (a second oxidizer, for dissolved iron). Not mentioned in the former operator's account — confirm whether peroxide dosing still happens.
 
 **Filtering out everything the chemistry created:**
 

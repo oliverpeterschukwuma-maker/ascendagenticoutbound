@@ -117,4 +117,5 @@
 
 - [x] **Dosing drum station physically confirmed** — IMG_2758 shows the flocculant drum + yellow LMI pump and a second blue drum side by side, sitting on a floor with heavy white crusting (consistent with PACl precipitate, distinct from iron staining elsewhere on site).
 - [ ] **Trace the actual discharge tubing** — photo doesn't show the line far enough to physically confirm which tank the dosing pumps inject into. Get a photo following the tube from the pump to its injection fitting.
-- [ ] **Confirm wet cell construction material** — Section 6.2a describes it as concrete, but IMG_2741/2742 look like rusted welded steel. Confirm with supervisor which is correct, or whether there are both a concrete wet cell AND a separate steel baffled tank.
+- [x] **Storage tanks vs. settling tanks — resolved by operator:** the two white cylindrical tanks (Section 6.2, IMG_2757) are STORAGE only. The baffled steel compartments (Section 6.2a, IMG_2740/2741/2742/2745) are the actual SETTLING tanks — confirmed directly by the operator, and a white storage tank is visible right at the edge of the settling-tank photos, confirming they sit next to each other but are different equipment. Manual corrected throughout.
+- [x] **Wet cell construction material — resolved:** steel, not poured concrete as earlier notes assumed (per IMG_2740/2741/2742/2745).
