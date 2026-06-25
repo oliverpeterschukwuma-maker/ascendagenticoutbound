@@ -481,15 +481,18 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 - PVC primer (IPEX 5, and Weld-On/IPS purple primer per IMG_2797) and cement (Oatey) for plumbing repairs
 - Disposable gloves (Watson brand, 50-count boxes) stocked in the same area
 
+`⚠️ RULE — RINSE WITH CLEAN WATER BEFORE EVERY SINGLE PH TEST, NO EXCEPTIONS:` Always rinse the probe tip with clean/distilled water immediately before dipping it into a buffer OR a sample — every time, between every reading. Skipping this carries residue from the last buffer/sample into the next one and throws off the reading.
+
 ### pH meter calibration (before each use)
 `[ACTION]`  
 1. Remove the pH probe from its storage solution. Rinse with distilled or clean water.  
 2. Blot dry (do not rub).  
 3. Place in pH 7.0 buffer (green liquid). Press CAL. Let it stabilize. Confirm it reads 7.0 ± 0.05.  
-4. Rinse electrode, blot dry.  
+4. **Rinse electrode with clean water**, blot dry.  
 5. Place in pH 4.0 buffer (pink liquid, for acidic water testing). Press CAL. Let stabilize. Confirm reads 4.0 ± 0.05.  
-6. Rinse and blot dry again. Meter is ready to use.  
-7. After use: rinse electrode, store in pH electrode storage solution (not distilled water — distilled water damages the electrode).
+6. **Rinse with clean water** and blot dry again. Meter is ready to use.  
+7. **Rinse with clean water** before dipping into your actual water sample (and again before any subsequent sample).
+8. After use: rinse electrode, store in pH electrode storage solution (not distilled water — distilled water damages the electrode).
 
 ---
 

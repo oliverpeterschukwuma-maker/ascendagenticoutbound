@@ -109,12 +109,15 @@ Multiple grab samples combined over time to get an average. Used for parameters 
 
 **Instrument:** Bench-top or portable pH meter (e.g., Hach HQ series, YSI).
 
+`⚠️ RULE:` Rinse the probe with clean/distilled water immediately before EVERY test — before each buffer during calibration, and before every single sample. No exceptions — skipping this carries residue between readings and throws off the result.
+
 `[ACTION]`  
-1. Calibrate the electrode with pH 7.0 and pH 4.0 (or 10.0) buffer solutions before each shift or as specified.  
+1. Calibrate the electrode with pH 7.0 and pH 4.0 (or 10.0) buffer solutions before each shift or as specified, rinsing the electrode between each buffer.  
 2. Rinse the electrode with distilled water. Blot dry (do not rub).  
 3. Immerse in sample. Wait for the reading to stabilize (typically 30–60 seconds).  
 4. Record the result.  
-5. Rinse electrode with distilled water and store in electrode storage solution (NOT distilled water — this damages the electrode).
+5. Rinse electrode with distilled water before taking the next sample, if any.  
+6. Rinse electrode with distilled water and store in electrode storage solution (NOT distilled water — this damages the electrode).
 
 `ℹ️ WHY:` pH affects almost every process in the plant. Coagulant works best at a specific pH range. Chlorine disinfection is much more effective at lower pH. Too-low or too-high pH corrodes pipes.
 
