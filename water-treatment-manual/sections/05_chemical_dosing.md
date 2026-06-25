@@ -21,6 +21,16 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 ---
 
+## 5.1a pH Drives Coagulant/Flocculant Dosing — CONFIRMED BY OPERATOR
+
+`ℹ️ CONFIRMED:` PACl coagulant and flocculant dosing are not "set and forget" — when the pH of the water changes, the coagulant/flocculant treatment has to be adjusted in response. Operator is sending more specifics on this as they come (exact dose-vs-pH relationship, target ranges, etc. — to be filled in once provided).
+
+`ℹ️ WHY (general water treatment principle, to be replaced with site-specific detail):` Coagulants like PACl work by neutralizing the electrical charge on suspended particles, and that charge-neutralizing reaction is pH-dependent — PACl has an optimal pH window, and outside that window it works poorly even at the correct dose. So if incoming water pH drifts, the coagulant dose (and sometimes the flocculant dose right after it) needs to be re-tuned, not just left on the same setting. This is part of why pH is tested every day — it's not just a compliance number, it's a direct input into how much coagulant/flocculant to run.
+
+`(pending from operator: at what pH do you increase/decrease the PACl dose, and by how much? Does flocculant dose change in the same direction, or independently?)`
+
+---
+
 ## 5.2 Critical Compatibility Warning — Read Before Handling Any Chemical
 
 `⚠️ WARNING:` Several chemicals on this site will react violently if mixed together.
