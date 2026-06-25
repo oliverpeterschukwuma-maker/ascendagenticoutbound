@@ -75,12 +75,15 @@ SITE WATER (stormwater, process water, groundwater)
       │
       ▼
 [9] SAND FILTER (SRS-SF-11 — green pressure vessel)
-    (removes larger debris/floc. ⚠️ CURRENTLY BROKEN — see Section 6.4.
-     Needs periodic backwash and periodic sand replacement even when working.)
+    ⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR. Not in use until repaired
+    (see Section 6.4 — solenoid fault, needs an electrician). Water currently
+    skips this step entirely and goes straight from settling to the bag filter.
+    Needs periodic backwash and periodic sand replacement once back in service.
       │
       ▼
 [10] BAG FILTER HOUSING (blue cartridge housing)
-    (safety screen — makes sure no dirt reaches the carbon vessel)
+    (CURRENTLY the first filtration step while the sand filter is bypassed —
+     normally a safety screen behind the sand filter, now carrying its full load)
       │
       ▼
 [11] CARBON VESSEL (SRS-CV-15 — blue PV Series vessel, "the blue vessel")
@@ -139,8 +142,8 @@ DISCHARGE → HOLDING TANKS → trucked/transferred to lagoon for disposal
 
 **Filtering out everything the chemistry created:**
 
-9. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps larger debris and the floc clumps made in step 7 — like a coffee filter for rust. `⚠️ CURRENTLY BROKEN — needs repair or replacement.` Even when working, sand filters need two kinds of maintenance: **backwashing** (reversing the flow periodically to break up the channels the water carves through the sand over time, which otherwise let water sneak through without being filtered) and **full sand replacement** every so often as the sand gets dirty.
-10. **Bag Filter.** Acts as a safety net — its only job is making sure no dirt reaches the carbon vessel next. If the sand filter isn't doing its job (especially while broken), this filter takes on extra load.
+9. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps larger debris and the floc clumps made in step 7 — like a coffee filter for rust. `⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR.` Not in use right now (solenoid fault — see Section 6.4, needs an electrician). **While bypassed, water flows straight from settling to the bag filter and carbon vessel only.** Even when working, sand filters need two kinds of maintenance: **backwashing** (reversing the flow periodically to break up the channels the water carves through the sand over time, which otherwise let water sneak through without being filtered) and **full sand replacement** every so often as the sand gets dirty.
+10. **Bag Filter.** Normally a safety net whose only job is making sure no dirt reaches the carbon vessel next. **Right now, with the sand filter bypassed, this is the first filtration step the water sees** and is carrying the full solids load alone — check/change this filter more often than usual until the sand filter is back in service.
 11. **Carbon Vessel (SRS-CV-15, "the blue vessel").** Sand and bag filters can't catch *dissolved* fuel smell and color (dissolved = mixed into the water like sugar, not filterable). **Activated carbon** is riddled with microscopic pores giving it huge surface area; dissolved hydrocarbons stick to that surface as water flows through (called **adsorption**). If the carbon gets dirty/saturated, it stops working properly and needs to be changed out.
 12. **Discharge to holding tanks → lagoon.** Treated water goes to holding tanks, then is trucked or transferred to a lagoon for final disposal.
 

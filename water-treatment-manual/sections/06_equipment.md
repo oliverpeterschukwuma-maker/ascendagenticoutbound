@@ -153,7 +153,7 @@ If a pump has run dry or been disconnected, it needs priming:
 
 ## 6.4 Sand Filter (SRS-SF-11)
 
-`⚠️ CURRENTLY BROKEN:` A former site operator confirmed this filter is broken and needs to either be repaired or replaced. Until that happens, the bag filter (Section 6.6) downstream is taking on extra load it wasn't designed to handle alone — watch the bag filters more closely and change them more often while the sand filter is down. **Flag this to your supervisor if it hasn't already been raised.**
+`⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR:` Not in use until repaired (solenoid fault — see "Backwash control box" below; needs an electrician). **Water currently flows straight from settling to the bag filter and carbon vessel only — the sand filter step is skipped entirely**, not just running in a degraded state. Until repaired, the bag filter (Section 6.6) downstream is taking on the full solids load it wasn't designed to handle alone — watch it closely and change it more often while the sand filter is bypassed. **Flag this to your supervisor if it hasn't already been raised.**
 
 **Appearance:** Green cylindrical pressure vessel(s) on a metal stand. Tagged "SRS-SF-11" (confirmed via close-up photo, IMG_2778, on a vessel with a multi-port control valve and actuator on top, plus a pump mounted below/beside it).
 
