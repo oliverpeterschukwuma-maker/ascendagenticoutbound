@@ -471,7 +471,7 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 ## 6.13 pH Meter and Lab Setup
 
 **Equipment visible on site:**
-- Portable pH meter (grey hard-sided case)
+- Portable pH meter (grey hard-sided case) — confirmed via photo IMG_2798 to be an **Apera Instruments** digital pH pen/tester (pen-style probe, digital display showing pH and temperature)
 - pH buffer solutions, confirmed via photo IMG_2797: pH 4.0 (pink liquid), pH 7.0 (green liquid), pH 10.0 (blue liquid) — corrected from earlier note that guessed 7.0 was yellow
 - Sample jars
 - PVC primer (IPEX 5, and Weld-On/IPS purple primer per IMG_2797) and cement (Oatey) for plumbing repairs
