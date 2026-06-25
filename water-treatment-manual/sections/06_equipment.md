@@ -472,17 +472,18 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 
 **Equipment visible on site:**
 - Portable pH meter (grey hard-sided case)
-- pH buffer solutions: pH 4.0 (red), pH 7.0 (yellow), pH 10.0 (blue)
+- pH buffer solutions, confirmed via photo IMG_2797: pH 4.0 (pink liquid), pH 7.0 (green liquid), pH 10.0 (blue liquid) — corrected from earlier note that guessed 7.0 was yellow
 - Sample jars
-- PVC primer (IPEX 5) and cement (Oatey) for plumbing repairs
+- PVC primer (IPEX 5, and Weld-On/IPS purple primer per IMG_2797) and cement (Oatey) for plumbing repairs
+- Disposable gloves (Watson brand, 50-count boxes) stocked in the same area
 
 ### pH meter calibration (before each use)
 `[ACTION]`  
 1. Remove the pH probe from its storage solution. Rinse with distilled or clean water.  
 2. Blot dry (do not rub).  
-3. Place in pH 7.0 buffer. Press CAL. Let it stabilize. Confirm it reads 7.0 ± 0.05.  
+3. Place in pH 7.0 buffer (green liquid). Press CAL. Let it stabilize. Confirm it reads 7.0 ± 0.05.  
 4. Rinse electrode, blot dry.  
-5. Place in pH 4.0 buffer (for acidic water testing). Press CAL. Let stabilize. Confirm reads 4.0 ± 0.05.  
+5. Place in pH 4.0 buffer (pink liquid, for acidic water testing). Press CAL. Let stabilize. Confirm reads 4.0 ± 0.05.  
 6. Rinse and blot dry again. Meter is ready to use.  
 7. After use: rinse electrode, store in pH electrode storage solution (not distilled water — distilled water damages the electrode).
 
