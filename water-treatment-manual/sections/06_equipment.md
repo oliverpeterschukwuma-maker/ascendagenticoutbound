@@ -212,7 +212,9 @@ Backwash the sand filter when any of the following:
 
 ## 6.5 Carbon Vessel (SRS-CV-15)
 
-**Appearance:** Blue cylindrical pressure vessel, "PV SERIES" label, tagged "SRS-CV-15". Sits on a wooden pallet. **Maximum working pressure: 75 PSIG** (marked on the vessel — never exceed this).
+**Appearance:** Blue cylindrical pressure vessel, "PV SERIES" label, tagged "SRS-CV-15". Sits on a wooden pallet. **Maximum working pressure: 75 PSIG** (marked on the vessel — never exceed this). Matches photo IMG_2796 (yellow "...SERIES" tag visible, hose fitting at base, mounted against the wood-stud wall).
+
+`ℹ️ CONFIRMED — currently in active use:` operator confirms the sand filter is bypassed (Section 6.4), so water currently flows straight from settling to the **bag filter, then this carbon vessel** — this is one of the two filtration steps the water actually sees right now.
 
 **What it does:** Activated carbon adsorption. The vessel is filled with granular activated carbon (GAC) — a highly porous material with enormous surface area. Dissolved petroleum hydrocarbons, colour compounds, and odour-causing organics bind to the carbon surface as water passes through.
 
@@ -235,10 +237,12 @@ Backwash the sand filter when any of the following:
 
 ## 6.6 Bag Filter Housing
 
-**Appearance:** Blue cylindrical filter housing, approximately 1 metre tall.  
+**Appearance:** Blue/dark cylindrical filter housing, approximately 1 metre tall, mounted on a stand directly above a white IBC tote (matches photo IMG_2795 — bolted ring clamp on the housing body, pipe fitting dropping down toward the tote underneath).  
 **Filter bags:** Les Hall Filter brand
 - Pre-filter bags: LHFSPE100PJNBW (100 micron) — removes larger particles
 - Polishing bags: LHFSPE10PJNBW (10 micron) — removes fine particles
+
+`ℹ️ CONFIRMED — currently in active use:` operator confirms the sand filter is bypassed (Section 6.4), so this bag filter is currently the **first** filtration step the water hits, ahead of the carbon vessel (Section 6.5) — carrying the full solids load alone. Check/change bags more often than usual until the sand filter is repaired.
 
 **What it does:** Acts as a safety screen — its job is making sure no dirt reaches the carbon vessel (Section 6.5) downstream. The 100-micron bag catches coarse particles; the 10-micron bag polishes the rest. `ℹ️ ORDER CORRECTION:` A former operator placed this filter **before** the carbon vessel (sand filter → bag filter → carbon vessel), not after it as earlier photo-based notes suggested. Carbon can't be backwashed or easily cleaned (see Section 6.5), so protecting it with a filter ahead of it makes more sense than filtering after it — treat the bag filter→carbon order as the current best understanding until confirmed otherwise. **While the sand filter (Section 6.4) is broken, this bag filter is your main line of defense before the carbon vessel — check and change bags more frequently.**
 
