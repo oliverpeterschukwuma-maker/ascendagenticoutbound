@@ -149,6 +149,17 @@ If a pump has run dry or been disconnected, it needs priming:
 
 `(confirm with supervisor: is this a true duplex setup where both vessels are meant to run, or is one of these two the vessel that's currently broken, with the other being the spare/backup? Which one is tagged SRS-SF-11 specifically — IMG_2778's multi-port valve head looks different from the simpler top connections on the pair in IMG_2777, so there may be a 3rd vessel, or IMG_2778 is a closer shot of one of the same two.)`
 
+### Backwash control box (Alex-Tronix Controls, Model F2AC/DC-D, Serial F2-04519)
+Confirmed via photo (IMG_2782, IMG_2783): a separate control timer box mounts near the vessel and automates the backwash cycle on the multi-port valve/actuator. Front panel has 3 timing dials (days between backwash, backwash duration in seconds, a third timed stage), alarm/dwell indicator lights, a digital backwash counter, and three buttons — **MANUAL START/ADVANCE**, **COUNTER RESET**, **ALARM RESET** — plus a **POWER** switch and a **1.6 AMP output fuse**.
+
+`🔧 TROUBLESHOOTING — filter/valve not responding:`
+1. Confirm the **POWER switch** is set to ON.
+2. Check the **1.6A output fuse** — pull and inspect, or test with a multimeter.
+3. Press **MANUAL START/ADVANCE** to force the valve to move right now, bypassing the timer dials. Motor responds → power/board are fine, only the schedule was off. No response → continue.
+4. Confirm the **DAYS dial** (leftmost) isn't set to OFF (this only blocks automatic cycling — manual start should still work regardless).
+5. With power OFF, open the case (IMG_2782) and check the wiring at the transformer and green circuit board for loose, disconnected, or corroded connections.
+6. If the valve motor still doesn't move after all of the above with confirmed power reaching the box, the actuator/motor itself has likely failed. **This may be the actual root cause of the sand filter being reported "broken"** — not the vessel or the sand bed itself. Flag this distinction to your supervisor/SUMAS, since a control box or actuator repair is a much smaller job than vessel replacement.
+
 **What it does:** Pressurized filtration through a bed of graded sand. Water flows down through the sand, which traps iron hydroxide particles, fine suspended solids, and any remaining floc.
 
 `ℹ️ WHY:` After hydrogen peroxide oxidizes dissolved iron into iron hydroxide particles, those particles need to be removed. The sand filter is their primary removal point. The orange staining visible on the exterior of all equipment around the filter confirms how much iron this filter catches.
