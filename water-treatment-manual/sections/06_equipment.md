@@ -164,6 +164,12 @@ Confirmed via photo (IMG_2782, IMG_2783): a separate control timer box mounts ne
 5. With power OFF, open the case (IMG_2782) and check the wiring at the transformer and green circuit board for loose, disconnected, or corroded connections.
 6. If the valve motor still doesn't move after all of the above with confirmed power reaching the box, the actuator/motor itself has likely failed. **This may be the actual root cause of the sand filter being reported "broken"** — not the vessel or the sand bed itself. Flag this distinction to your supervisor/SUMAS, since a control box or actuator repair is a much smaller job than vessel replacement.
 
+`ℹ️ CONFIRMED BY BRENNAN — likely root cause identified:`
+- **Water must be actively flowing through the vessel for the backwash cycle to work** — the cycle is meant to be triggered while water is running through the filter, not with flow stopped.
+- A correctly-working cycle should produce **an audible click** as the **bottom valve** closes, plus visible/audible actuation of the **small grey solenoids with black tubing** coming out of them (these solenoids are the actual valve actuators — distinct from the Alex-Tronix timer board itself, which only sends the signal).
+- Brennan's assessment: **the grey solenoids themselves are most likely the failed component**, not the timer board (consistent with the timer board's logic/counter working fine in earlier testing, but nothing physically moving at the valve).
+- Brennan does not know how to repair the solenoids — at his previous site (Burnaby plant) this was handled by **bringing in an electrician**. Recommend the same here: this is now narrowed down enough to hand directly to an electrician (replace/test the grey solenoids and black tubing) rather than general troubleshooting.
+
 **What it does:** Pressurized filtration through a bed of graded sand. Water flows down through the sand, which traps iron hydroxide particles, fine suspended solids, and any remaining floc.
 
 `ℹ️ WHY:` After hydrogen peroxide oxidizes dissolved iron into iron hydroxide particles, those particles need to be removed. The sand filter is their primary removal point. The orange staining visible on the exterior of all equipment around the filter confirms how much iron this filter catches.
