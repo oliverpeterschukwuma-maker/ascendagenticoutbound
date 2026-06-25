@@ -74,6 +74,8 @@
 
 `⚠️ NOTE — needs confirmation:` It is unclear whether the "Wet Cell / Separation Cell" described below (Section 6.2a) is a **separate, additional** indoor concrete tank, or whether earlier site notes were actually describing these same blue bins. Confirm with supervisor before treating them as two different pieces of equipment.
 
+`ℹ️ PARTIALLY RESOLVED (photos IMG_2741, IMG_2742):` These show rusted, orange-iron-stained, baffled steel compartments **indoors** (OSB stud-wall construction visible behind them, with totes/drums nearby) — NOT outdoors on ecology blocks like these blue bins. That rules out these specific compartments being the blue bins described above; the staining and indoor location instead match the Wet Cell description in Section 6.2a. So there appear to be at least 3 distinct settling structures on site: outdoor blue bins (this section), an indoor baffled "wet cell" (6.2a), and the indoor white cylindrical tanks (6.2) — not 2. Still needs a supervisor walk-through to confirm names/IDs match correctly.
+
 ---
 
 ## 6.2a Wet Cell / Separation Cell (Indoor Concrete Settling Tanks)
@@ -113,6 +115,9 @@ The chemical dosing room contains drums and dosing pumps for each treatment chem
 
 ### Possible injection manifold spotted on video (IMG_2775, IMG_2776)
 A wall-mounted black manifold/union fitting with several thin tubes converging into it was visually confirmed, mounted near a wire shelf (similar shelving to the ozone equipment in Section 6.7), with heavy red/orange iron staining on the wall around it — consistent with chemical or process water passing through this point regularly. This is a strong candidate for **the actual chemical injection point(s)** referenced above, but it isn't confirmed which chemical(s) feed into it. `(confirm with supervisor or by tracing the tubing back to specific drums: which lines converge here, and what do they inject into?)`
+
+### Dosing drum station confirmed via photo (IMG_2758)
+Shows the flocculant drum (white, SUMAS label) with its yellow LMI metering pump mounted directly on the drum lid, plus a second blue drum (likely the PACl/coagulant stock mix) right beside it. The floor around this station has heavy **white** crusting — distinct from the orange/iron staining seen everywhere else on site, and consistent with PACl forming a white precipitate where it's mixed/handled. This confirms the dosing room layout described above, but the photo doesn't show the discharge tubing far enough to confirm exactly which downstream tank it injects into — see the wet cell note above for the best current guess (injects into the line feeding the wet cell, before the sand filter).
 
 ### Checking a dosing pump is actually working
 `[CHECK]`  

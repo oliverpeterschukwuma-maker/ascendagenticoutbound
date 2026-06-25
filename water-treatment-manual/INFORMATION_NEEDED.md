@@ -82,7 +82,7 @@
 
 ## 🆕 New Open Items From Latest Photo/Video Batch
 
-- [ ] **Wet Cell vs. Blue Bins** — is the indoor concrete "Wet Cell / Separation Cell" (Section 6.2a) a separate piece of equipment from the 2 outdoor blue separator bins (Section 6.1a), or are these the same thing described twice? **Critical to resolve before the treatment train order is fully accurate.**
+- [x] **Wet Cell vs. Blue Bins** — **partially resolved (IMG_2741, IMG_2742):** photos show rusted, iron-stained, baffled steel compartments INDOORS (OSB stud-wall construction visible behind them) — rules out them being the outdoor blue bins (those sit outside on ecology blocks). Matches the Wet Cell description instead. Means there are likely 3 distinct settling structures on site (outdoor blue bins, indoor wet cell, indoor white cylindrical tanks), not 2. Still need a supervisor walkthrough to confirm exact names/IDs and confirm the dosing line physically feeds this structure.
 - [x] **Dry PACl bag (25kg, made in China)** — **resolved by a former operator:** yes, in active use, mixed 2 bags per 200L as a stock solution. Still need: confirm bag size matches the 25kg bags seen in photos, and confirm with current operators this is still the practice.
 - [ ] **TEXLOME High Calcium Hydrated Lime** — brand new chemical, not yet documented. What is it used for here (pH raising? metals precipitation?), what's the dose, where's the SDS, what PPE?
 - [ ] **Chemicals next to the two white indoor tanks** — operator is sending these next; needed to finish updating Section 5 (Chemical Dosing) accurately for the indoor dosing stage.
@@ -110,3 +110,11 @@
 - [ ] **Which vessel is "broken"?** — Is it one specific vessel in this twin pair, or are both affected? Is this duplex arrangement intentional (one runs while the other backwashes/stands by), or did SUMAS just install two identical units over time?
 - [ ] **IMG_2778 close-up tag check** — this shot shows "SRS-SF-11" clearly on a green vessel with a multi-port control valve/actuator on top. Does this match one of the two vessels in IMG_2777, or is there a third sand filter vessel elsewhere on site?
 - [x] **Kontek filter press location confirmed** — visible right next to/behind the two green sand filter vessels in IMG_2777 (the blue/white finned unit). Matches the "lines like a piano" description and confirms physical layout, even though it's reportedly not used.
+
+---
+
+## 🆕🆕🆕🆕 New Open Items — Dosing Station & Wet Cell Photos (IMG_2741, IMG_2742, IMG_2758)
+
+- [x] **Dosing drum station physically confirmed** — IMG_2758 shows the flocculant drum + yellow LMI pump and a second blue drum side by side, sitting on a floor with heavy white crusting (consistent with PACl precipitate, distinct from iron staining elsewhere on site).
+- [ ] **Trace the actual discharge tubing** — photo doesn't show the line far enough to physically confirm which tank the dosing pumps inject into. Get a photo following the tube from the pump to its injection fitting.
+- [ ] **Confirm wet cell construction material** — Section 6.2a describes it as concrete, but IMG_2741/2742 look like rusted welded steel. Confirm with supervisor which is correct, or whether there are both a concrete wet cell AND a separate steel baffled tank.
