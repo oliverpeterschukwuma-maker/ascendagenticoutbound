@@ -40,7 +40,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 - **If results show under-dosing** (e.g., poor floc formation, turbidity not dropping — see Section 4 for signs), **add more coagulant or flocculant at the C Can into the weir tank.**
 - **Pump speed/stroke adjustment:** if the dose itself needs to change, this is done by adjusting the **stroke rate and/or stroke length** on the relevant dosing pump (coagulant, flocculant, or lime) — not just by adding chemical by hand.
-- Operator is sending photos of the actual dosing pumps used to inject coagulant, flocculant, and lime at the C Can — once received, this section will be updated with pump make/model and where the stroke rate/length controls are on each one.
+- Operator is sending photos of the actual dosing pumps used to inject coagulant, flocculant, and lime at the C Can — once received, this section will be updated with pump make/model and where the stroke rate/length controls are on each one. **Flocculant pump confirmed (Section 5.4) — coagulant and lime pumps still pending.**
 
 `⚠️ RULE — CONFIRMED BY OPERATOR:` **Coagulant (PACl) dose must never be more than the flocculant dose.** Flocculant ≥ coagulant, always — never the other way around. Keep this in mind any time you're adding more of either one.
 
@@ -115,7 +115,8 @@ PACl is a positively charged aluminum compound. When it's added to the water and
 
 **Product:** CL-200 Water Treatment Flocculant, aqueous solution of water-soluble polymer  
 **Container:** White drum, "FLOCCULANT / NON-REGULATED MATERIAL" label  
-**Pump:** Yellow LMI diaphragm dosing pump
+**Pump (indoor injection point):** Yellow LMI diaphragm dosing pump  
+**Pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue **JCMB Solenoid Dosing Pump**, Model **JCMB55-20/2.5**, Capacity 20 L/H, Pressure 2.5 bar, Power 30W, AC100–240V. Dial sets stroke length (0–100 scale, photographed at roughly 80); `«` `»` buttons adjust stroke rate; `SET` and `ON/OFF` buttons; green MOTOR light confirms it's running. Digital display read "550" in the photo — exact meaning (counter vs. rate readout) `needs confirmation`.
 
 ### What it does
 Coagulation (PACl) creates small particle clusters. Flocculation grows those small clusters into larger, heavier floc that settles faster and is easier to filter. CL-200 polymer is a long-chain molecule that acts like a net — it bridges between coagulated particles, connecting them into larger aggregates.
