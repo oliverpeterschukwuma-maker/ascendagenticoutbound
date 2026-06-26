@@ -14,7 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 3 points: oil/water separation cell, the 2 blue bins, and indoors** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **TEXLOME High Calcium Hydrated Lime** | *(calcium hydroxide)* | The "3rd chemical" injected at the C Can with PACl + flocculant — likely raises pH for coagulation; exact role/dose `(needs confirmation)` |
+| **"3rd chemical" at the C Can — name unconfirmed** | *(likely a strong alkaline/pH-raising product)* | Injected at the C Can with PACl + flocculant — name still unconfirmed (operator gave two answers, retracted both); see Section 5.6a |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -188,17 +188,14 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 
 ---
 
-## 5.6a Chemical 4a — TEXLOME High Calcium Hydrated Lime
+## 5.6a Chemical 4a — "3rd Chemical" at the C Can — NAME NOT YET CONFIRMED
 
-`ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" injected at the C Can alongside PACl coagulant and flocculant — operator had initially forgotten its name, now confirmed as **TEXLOME High Calcium Hydrated Lime**.
+`⚠️ UNRESOLVED — operator gave two different answers, then retracted both:` First said **TEXLOME High Calcium Hydrated Lime**, then corrected to **sodium hydroxide (caustic soda)**, then said "no, I'm wrong" about that correction too. **Do not treat either name as confirmed.** Ask Brennan/Rob/Glen directly: "What is the third chemical injected at the C Can, alongside the PACl coagulant and flocculant?"
 
-**Product:** TEXLOME High Calcium Hydrated Lime  
-**Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product
+### What we know regardless of name
+Whatever this chemical turns out to be, it's injected at the C Can alongside PACl coagulant and flocculant (Section 0.2). Both candidate chemicals (hydrated lime, sodium hydroxide) are strong alkaline products typically used in water treatment to **raise pH** ahead of coagulation — consistent with the pH-driven dosing relationship already noted in Section 5.1a. Both are also corrosive and need proper PPE — don't handle whatever this turns out to be without confirming PPE first.
 
-### What it likely does here (general principle — confirm exact role with supervisor)
-Hydrated lime is most commonly used in water treatment to **raise pH** and to help precipitate dissolved metals out of solution. Added alongside PACl coagulant, it most likely helps bring the water into the optimal pH range for coagulation to work — PACl's effectiveness is pH-dependent (see Section 5.1a), so dosing lime at the same injection point as the coagulant fits the pattern of pH-driven dose adjustment already documented there.
-
-`(still needed: exact dose/ratio, SDS, PPE requirements, and confirmation from supervisor that "raising pH for coagulation" is the actual reason it's used here, not something else like metals precipitation)`
+`(needed: correct chemical name, exact dose/ratio/concentration, SDS, PPE, and where it's stored/staged at the C Can)`
 
 ---
 
