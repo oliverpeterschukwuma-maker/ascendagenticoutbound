@@ -73,6 +73,7 @@
 - **Frac tank → blue bin:** pump dropped into the frac tank, hose run to the blue bin
 - **Blue bin 1 → blue bin 2:** gravity-fed via 4" hose (see above) — no pump needed for this hop if elevation allows it
 - **Blue bin 2 → indoors (Tank 1 / Tank 2):** per Brennan, discharge lands in an **open tote** with a submersible pump inside, which then pumps water into the building `(confirm: is this open tote actually present on site, or is the pump currently dropped directly into blue bin 2 as earlier documented?)`
+- **Weir tank discharge — CONFIRMED BY OPERATOR:** a submersible pump sits at the opposite end of the weir tank from where the C Can hose feeds in, used to pump the water out once it's done settling (whether that pump sits inside an open tote, as Brennan described, is still unconfirmed).
 
 `[CHECK]` Before starting any transfer:
 - [ ] Pump and cord are in good condition (no cracked housing, no exposed wiring)
