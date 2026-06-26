@@ -14,7 +14,8 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 4 points: oil/water separation cell, the 2 blue bins, indoors, and the lagoon** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **TEXLOME High Calcium Hydrated Lime** | Blue 200L drum (at the C Can) | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, counteracting the pH drop caused by the acidic coagulant. **Conditional on pH — confirmed by supervisor (Section 5.6a): only used if the pH is too low.** |
+| **Lime** (label says TEXLOME Hydrated Lime; ⚠️ supervisor calls it quicklime/CaO — see Section 5.6a) | 50 lb bags, mixed 1 bag per 200L in a tank at the C Can | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, also precipitates dissolved metal ions. **Conditional on pH — confirmed by supervisor: only used if the pH is too low.** |
+| **Sodium Hydroxide (NaOH)** — NEW, see Section 5.6b | Big tote bag *(location TBD)* | Alternative pH RAISER to lime — confirmed present on site, not yet confirmed in routine use |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -220,13 +221,18 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 
 ---
 
-## 5.6a Chemical 4a — TEXLOME High Calcium Hydrated Lime
+## 5.6a Chemical 4a — Lime
 
 `ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" at the C Can — lime. (Operator briefly second-guessed the chemical name in favor of "sodium hydroxide," then retracted that and confirmed lime is correct.)
 
-**Product:** TEXLOME High Calcium Hydrated Lime  
-**Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product  
-**Container — CONFIRMED BY OPERATOR (IMG_2803):** Blue 200L drum, staged inside the C Can. `⚠️ NOTE:` Hydrogen peroxide is also kept in blue 200L drums elsewhere on site (Section 5.7) — at the C Can, the blue drum is lime, not peroxide. Identify by location, not colour alone.
+**Product label (photographed, IMG_2803):** TEXLOME High Calcium Hydrated Lime  
+**Chemical — ⚠️ CONFLICTING ACCOUNTS, NOT YET RECONCILED:** The photographed product label says "**Hydrated Lime**," which is calcium hydroxide (Ca(OH)₂). But supervisor Brendan, asked directly what chemical it is, said: **"So it's quicklime which is calcium oxide, the bag we should around and it just says lime."** Quicklime (CaO) and hydrated lime (Ca(OH)₂) are chemically different — quicklime is the unhydrated form, more aggressively reactive/exothermic when it hits water. Since "the bag just says lime" with no further specifics per Brendan, **don't assume which one it actually is — read the bag/SDS directly next time you're at the C Can and confirm against the photographed label.**
+
+**Ratio — CONFIRMED BY SUPERVISOR (Brendan, text message):** **1 bag (50 lbs) per 200L of water.** **Must be kept mixing continuously — it will settle out and harden if you stop.** This matches the dry-bag-mixed-into-a-stock-tank pattern used for PACl/flocculant (Sections 5.3/5.4); the blue 200L drum staged at the C Can (Section 6.1b) is most likely this mixing tank, not a pre-filled liquid drum.
+
+**Alternative chemical — CONFIRMED BY SUPERVISOR (Brendan, text message):** "You can also use sodium hydroxide as well. Which I think they have a big tote bag worth of." Sodium hydroxide (NaOH, caustic soda) is a separate, more hazardous strong base that can substitute for lime as a pH-raiser. Confirmed present on site in a large tote bag, but not yet confirmed as in current routine use — see new chemical entry, Section 5.6b.
+
+`⚠️ Brendan's caution, applies to both:` **"Both raise pH so don't add too much."**
 
 **Dosing logic at the C Can — ✅ RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):**
 
@@ -241,9 +247,23 @@ Lime raises pH. PACl coagulant works well at pH 8 and above, and is itself acidi
 
 **Second function — CONFIRMED BY SUPERVISOR (Brendan, text message):** "If you add the lime it will force any metal ions dissolved to transform into solid particles that can be filtered out in the treatment process if you don't trust the ozone." This is a real, separate mechanism from pH-correction-for-coagulant: raising pH with lime can push dissolved metal ions (like iron) past their solubility limit, so they precipitate out as solid metal hydroxide particles that the filters can then catch — similar end result to what ozone/peroxide does by oxidation (Section 5.7), but via a pH shift instead of an oxidizing reaction. Brendan's framing suggests this is a backup/parallel pathway for metals removal, not a replacement for ozone.
 
-`⚠️ SAFETY:` Hydrated lime is caustic/corrosive — can burn skin and eyes, and the dust is a respiratory irritant. Don't handle without confirmed PPE.
+`⚠️ SAFETY:` Lime (quicklime or hydrated lime — see identity conflict above) is caustic/corrosive — can burn skin and eyes, and the dust is a respiratory irritant. **If this turns out to actually be quicklime (CaO):** quicklime reacts exothermically (releases heat) when wetted — mixing it generates real heat on top of the causticity, which is a meaningfully bigger handling hazard than hydrated lime. Don't handle without confirmed PPE and without confirming which form this actually is.
 
-`(still needed: exact dose/ratio of lime; SDS; PPE requirements; where the lime is stored/staged at the C Can)`
+`(still needed: confirm CaO vs. Ca(OH)₂ from the bag/SDS directly; PPE requirements; where the lime is stored/staged at the C Can)`
+
+---
+
+## 5.6b Chemical 4b — Sodium Hydroxide (NaOH, Caustic Soda) — NEW, NOT YET FULLY DOCUMENTED
+
+`ℹ️ CONFIRMED BY SUPERVISOR (Brendan, text message):` Sodium hydroxide is on site as an alternative pH-raiser to lime — "they have a big tote bag worth of" it. Not yet confirmed whether it's in current routine use or just available as a backup option.
+
+**Chemical:** Sodium hydroxide (NaOH) — a strong, fast-acting base, more hazardous to handle than lime.
+
+`⚠️ SAFETY (general — site-specific SDS still needed):` Caustic soda is highly corrosive to skin, eyes, and respiratory tract — more aggressively so than lime. Dissolving it in water is also exothermic (releases heat). Standard handling requires chemical splash goggles, face shield, chemical-resistant gloves and apron, and care to avoid generating heat too fast in a closed container.
+
+`⚠️ Brendan's caution:` Like lime, this raises pH — **don't add too much.**
+
+`(still needed: exact product/concentration, container type and location, current dose/ratio if actually in use, SDS, PPE confirmation.)`
 
 ---
 
