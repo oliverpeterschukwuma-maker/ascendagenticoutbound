@@ -60,7 +60,7 @@
 ## 🆕🆕🆕🆕🆕🆕 New Open Items — Operator's Real-Time Sequence Walkthrough (in progress)
 
 - [x] **"C Can" confirmed to physically exist on site** — matches the "sea can" Brennan described and the "CAN" stencil spotted on a wood post in IMG_2799/2800. Chemical dosing (coagulant + flocculant + a 3rd chemical) happens inside it.
-- [ ] **3rd chemical at the C Can — name still unconfirmed.** Operator first said TEXLOME High Calcium Hydrated Lime, then corrected to sodium hydroxide, then retracted that correction too. Ask Brennan/Rob/Glen directly rather than guessing further (see Section 5.6a).
+- [x] **3rd chemical at the C Can confirmed: TEXLOME High Calcium Hydrated Lime, dosed FIRST** (before PACl + flocculant). Still need: exact dose, SDS, PPE (see Section 5.6a).
 - [ ] **Only 1 blue bin ("weir tank") currently in use, not 2** — reconcile with earlier-documented 2-bin series setup. Is the 2nd bin offline, removed, or just not needed right now?
 - [ ] **Dosing location has moved earlier in the sequence** — current account has coagulant/flocculant injected at the C Can (before the weir tank/blue bin), not "indoors near the white tanks" as previously documented. Confirm whether the indoor dosing manifold (Section 6.3, IMG_2767) is still used at all, or if dosing fully happens outdoors now.
 - [ ] **Sequence after ozone is still unconfirmed** — operator said they'll figure out/confirm the rest. Needs: what happens between ozone and the settling tank/sand filter bypass/bag filter/carbon vessel steps already documented.
@@ -104,7 +104,7 @@
 
 - [x] **Wet Cell vs. Blue Bins** — **partially resolved (IMG_2741, IMG_2742):** photos show rusted, iron-stained, baffled steel compartments INDOORS (OSB stud-wall construction visible behind them) — rules out them being the outdoor blue bins (those sit outside on ecology blocks). Matches the Wet Cell description instead. Means there are likely 3 distinct settling structures on site (outdoor blue bins, indoor wet cell, indoor white cylindrical tanks), not 2. Still need a supervisor walkthrough to confirm exact names/IDs and confirm the dosing line physically feeds this structure.
 - [x] **Dry PACl bag (25kg, made in China)** — **resolved by a former operator:** yes, in active use, mixed 2 bags per 200L as a stock solution. Still need: confirm bag size matches the 25kg bags seen in photos, and confirm with current operators this is still the practice.
-- [ ] **TEXLOME High Calcium Hydrated Lime** — still a separate open question. Originally guessed to be the "3rd chemical" at the C Can, but that guess was retracted — confirm independently whether this product is used on site at all, and if so, for what and where.
+- [x] **TEXLOME High Calcium Hydrated Lime — confirmed as the "3rd chemical" at the C Can, dosed first.** Still need exact dose, SDS, PPE.
 - [ ] **Chemicals next to the two white indoor tanks** — operator is sending these next; needed to finish updating Section 5 (Chemical Dosing) accurately for the indoor dosing stage.
 - [x] **Play Sand / Sakrete bags seen near H₂O₂ drums** — **largely resolved:** photo IMG_2777 shows a matching white bag sitting at the base of the green sand filter vessels, strongly suggesting this is filter media stock kept on hand. Still nice to have: direct confirmation from supervisor.
 - [ ] **Submersible intake pump spec** — model/capacity of the pump moving water from the blue bins into the building.
