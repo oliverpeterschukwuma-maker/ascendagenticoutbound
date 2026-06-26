@@ -224,7 +224,7 @@ Brendan's direct answer: **"Lime you only need to use if the pH is too low. If i
 
 This confirms lime is **conditional on the pH reading**, not pumped on a fixed every-batch schedule. Earlier statements on this — one matching this conditional logic, and one saying "we pump the lime every time because the coagulant lowers the pH" — are reconciled this way: check pH every time, and add lime whenever that reading comes back below 8. In practice this may often look like "every time" if the pH is consistently low, but the decision point is the reading, not the clock — there is no fixed schedule independent of the pH check.
 
-**How low is "too low" — CONFIRMED BY SUPERVISOR (Brendan, text message):** Asked directly whether 8 or lower counts as "too low," Brendan answered: **"Around 4 pH would be low. 8 is good."** So pH 8 is the good/target reading, and pH ~4 is his example of a clearly low reading that needs lime. The exact cutoff in between where lime becomes necessary isn't pinned to a single number beyond "below 8 is not good" (Section 5.1a) — but a reading anywhere near 4 is unambiguously low and needs lime before coagulant/flocculant go in.
+**How low is "too low":** The working threshold is **pH 8**. Anything less than 8 is not good and needs lime — treat 8 as the hard cutoff, not just a target to aim near.
 
 ### What it does
 Lime raises pH. PACl coagulant works well at pH 8 and above, and is itself acidic — so without lime to counteract it, the coagulant would drag the water's pH down out of its own optimal range.
