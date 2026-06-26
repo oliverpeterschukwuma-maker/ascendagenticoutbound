@@ -14,6 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 3 points: oil/water separation cell, the 2 blue bins, and indoors** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
+| **TEXLOME High Calcium Hydrated Lime** | *(calcium hydroxide)* | The "3rd chemical" injected at the C Can with PACl + flocculant — likely raises pH for coagulation; exact role/dose `(needs confirmation)` |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -184,6 +185,20 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 - Very low hazard. May be mildly irritating to eyes.
 - Smells like vinegar — this is normal.
 - **PPE:** Gloves recommended as good practice.
+
+---
+
+## 5.6a Chemical 4a — TEXLOME High Calcium Hydrated Lime
+
+`ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" injected at the C Can alongside PACl coagulant and flocculant — operator had initially forgotten its name, now confirmed as **TEXLOME High Calcium Hydrated Lime**.
+
+**Product:** TEXLOME High Calcium Hydrated Lime  
+**Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product
+
+### What it likely does here (general principle — confirm exact role with supervisor)
+Hydrated lime is most commonly used in water treatment to **raise pH** and to help precipitate dissolved metals out of solution. Added alongside PACl coagulant, it most likely helps bring the water into the optimal pH range for coagulation to work — PACl's effectiveness is pH-dependent (see Section 5.1a), so dosing lime at the same injection point as the coagulant fits the pattern of pH-driven dose adjustment already documented there.
+
+`(still needed: exact dose/ratio, SDS, PPE requirements, and confirmation from supervisor that "raising pH for coagulation" is the actual reason it's used here, not something else like metals precipitation)`
 
 ---
 
