@@ -25,10 +25,10 @@
 - [ ] **Frac tank inventory** — how many, what are their IDs, approximate volume each, and which is clean/dirty/in treatment right now
 - [ ] **Indoor white cylindrical tanks** — volume of each? What exactly goes in each? What is the ANKO2 tank used for?
 - [ ] **Sand filter backwash setpoint** — at what pressure differential do you backwash SRS-SF-11?
-- [ ] **Carbon vessel changeout** — when was SRS-CV-15 last recharged? How do you know when it's exhausted?
+- [x] **Carbon vessel check frequency — CONFIRMED BY OPERATOR: every 1.5 months.** Still need: when was SRS-CV-15 last recharged, and the specific signs that tell you it's exhausted vs. still good.
 - [ ] **CD30TIX ozone system normal operating pressure** — what does the gauge normally read?
 - [ ] **Dosing pump settings** — current stroke rate and stroke length on each pump
-- [ ] **Bag filter change frequency** — scheduled or condition-based?
+- [x] **Bag filter change frequency — CONFIRMED BY OPERATOR: check every 1–2 weeks** (plus sooner if flow drops noticeably or after a heavy solids event).
 
 ---
 

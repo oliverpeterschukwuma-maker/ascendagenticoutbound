@@ -253,6 +253,9 @@ Backwash the sand filter when any of the following:
 - [ ] Outlet water does not smell of petroleum or fuel
 - [ ] No colour in the effluent (should be essentially clear)
 
+### Check frequency — CONFIRMED BY OPERATOR
+**Check the carbon vessel every 1.5 months.**
+
 ### Signs the carbon is exhausted (needs replacing)
 - Petroleum odour returns in the treated water output
 - Colour (brown/yellow tint) appears in the effluent
@@ -288,8 +291,8 @@ Backwash the sand filter when any of the following:
 11. Record bag change: date, time, which bag (100-micron or 10-micron), appearance of old bag.
 
 ### When to change bags
-- When flow rate through the housing drops noticeably (bag is loaded with solids)
-- On a scheduled frequency *(confirm with supervisor — likely every X days or after treating X cubic metres)*
+- **Check the bag filter every 1–2 weeks — CONFIRMED BY OPERATOR.**
+- Also check sooner if flow rate through the housing drops noticeably (bag is loaded with solids)
 - After any event that puts unusual solids loading through the system (major rain event, wet cell cleanout)
 
 ---
