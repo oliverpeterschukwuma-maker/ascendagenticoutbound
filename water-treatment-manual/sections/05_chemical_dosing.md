@@ -71,7 +71,7 @@ PACl is a positively charged aluminum compound. When it's added to the water and
 ### Preparing the dry PACl stock solution (per a former operator's account)
 `ℹ️ CONFIRMED:` A dry PACl powder (25kg bags) is also used on this site, mixed into a stock/working solution before being metered into the process — this is separate from (or an alternative to) the liquid CK-311 drums described above.
 
-- **Ratio:** 2 bags of dry PACl powder per 200L of water
+- **Ratio:** 2 bags of dry PACl powder per 200L of **clean water — NOT the water being treated** (confirmed by operator)
 - Mix in the 200L tank, then meter the resulting solution into the process via the dosing pump
 - `(confirm with supervisor: exact bag size if different from 25kg, and how long this 200L batch typically lasts)`
 - Indoors, coagulant + flocculant are injected together right before the water reaches the white settling tanks (see Section 0.2/0.2a) — the combination is what causes contaminants and dirt to clump and settle to the bottom of the tank
@@ -123,7 +123,7 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 ### Preparing the flocculant stock solution (per a former operator's account)
 `ℹ️ CONFIRMED:` Before injection, flocculant is mixed into a stock solution in a 200L tank — this matches the dry-mixing approach already documented for Flopham in Section 5.5, with specific numbers now confirmed:
 
-- **Ratio:** around 100g of flocculant per 200L of water — described as "half the scoop" from the white pail on site
+- **Ratio:** around 100g of flocculant per 200L of **clean water — NOT the water being treated** (confirmed by operator) — described as "half the scoop" from the white pail on site
 - **Add VERY slowly — sprinkle it in.** Adding too fast creates masses/clumps that will clog the chemical dosing pumps. This is the single most common way to cause a problem with this chemical.
 - **Mix for about 1 hour** after adding, to fully dissolve before use
 - This stock solution is then metered into the process indoors, right before the white settling tanks, alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle to the bottom of the tank
