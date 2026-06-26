@@ -607,4 +607,23 @@ This is a separate area from the main treatment room — looks like a workshop o
 
 ---
 
+## 6.16 Pneumatic Tote Mixer (Coagulant/Flocculant Stock Mixing)
+
+**Appearance — confirmed via photo (IMG_2820, IMG_2821):** A mixer clamped to the top of an IBC tote (the 1000L/500L tote used to mix PACl and flocculant stock solutions, Sections 5.3/5.4). Mounted on a wood frame above the tote: a gray air-motor housing, a **red-handled valve** at the air motor's inlet, and a long angled shaft running down through the tote lid to a **propeller/impeller blade** submerged in the liquid. A black air supply hose with a quick-connect fitting feeds the motor from below.
+
+### How it works
+This is an **air-driven (pneumatic) mixer**, not electric — it runs off compressed air, not a power cord. The red handle is the air valve: opening it lets compressed air spin the motor, which turns the shaft and propeller inside the tote.
+
+`[ACTION]` To start mixing:
+1. Confirm the air hose is connected to the compressed air supply via the quick-connect fitting.
+2. Open the **red-handled valve** (turn it — typically counter-clockwise opens a valve like this, but confirm the actual direction on this unit before relying on it) to let air into the motor. The propeller will start turning.
+3. Open it gradually rather than all at once, especially when mixing flocculant — Section 5.4 calls for **gentle** mixing while the polymer is added; full-blast air can tear/clump the polymer instead of dissolving it.
+4. To stop, close the red valve — this cuts air supply and the propeller stops.
+
+`(still needs confirming: which way the red handle actually turns to open vs. close on this specific valve; whether there's a separate speed/flow-rate adjustment beyond fully open/closed.)`
+
+`⚠️ NOTE:` A second valve with a cross-shaped handle is visible nearby in the photo (lower part of the frame) — this looks like it belongs to the tote's drain/outlet plumbing, not the mixer itself. Don't confuse the two before opening anything.
+
+---
+
 *Last updated: 2026-06-05 | Source: Equipment photos IMG_2597, 2600–2610, 2614–2631; video frames IMG_2612; indoor tank photos IMG_2598–2599; control panel labels; filter press nameplate*
