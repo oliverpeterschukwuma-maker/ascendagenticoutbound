@@ -14,7 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 3 points: oil/water separation cell, the 2 blue bins, and indoors** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **TEXLOME High Calcium Hydrated Lime** | *(calcium hydroxide)* | Added at the C Can ONLY WHEN pH reading is off, before PACl + flocculant — raises pH for coagulation; trigger threshold/dose `(needs confirmation)` |
+| **TEXLOME High Calcium Hydrated Lime** | *(calcium hydroxide)* | Added at the C Can ONLY WHEN pH is below 8, before PACl + flocculant — raises pH to 8+ for coagulation; exact dose `(needs confirmation)` |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -24,11 +24,13 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 ## 5.1a pH Drives Coagulant/Flocculant Dosing — CONFIRMED BY OPERATOR
 
-`ℹ️ CONFIRMED:` PACl coagulant and flocculant dosing are not "set and forget" — when the pH of the water changes, the coagulant/flocculant treatment has to be adjusted in response. Operator is sending more specifics on this as they come (exact dose-vs-pH relationship, target ranges, etc. — to be filled in once provided).
+`ℹ️ CONFIRMED:` PACl coagulant and flocculant dosing are not "set and forget" — when the pH of the water changes, the coagulant/flocculant treatment has to be adjusted in response.
 
-`ℹ️ WHY (general water treatment principle, to be replaced with site-specific detail):` Coagulants like PACl work by neutralizing the electrical charge on suspended particles, and that charge-neutralizing reaction is pH-dependent — PACl has an optimal pH window, and outside that window it works poorly even at the correct dose. So if incoming water pH drifts, the coagulant dose (and sometimes the flocculant dose right after it) needs to be re-tuned, not just left on the same setting. This is part of why pH is tested every day — it's not just a compliance number, it's a direct input into how much coagulant/flocculant to run.
+`ℹ️ TARGET RANGE — CONFIRMED BY OPERATOR:` **pH 8 or higher is good for the coagulant. Below 8 is not good** — that's the trigger for adding lime first (Section 5.6a) to bring pH up to 8+ before PACl coagulant and flocculant go in.
 
-`(pending from operator: at what pH do you increase/decrease the PACl dose, and by how much? Does flocculant dose change in the same direction, or independently?)`
+`ℹ️ WHY (general water treatment principle, to be replaced with site-specific detail):` Coagulants like PACl work by neutralizing the electrical charge on suspended particles, and that charge-neutralizing reaction is pH-dependent — PACl has an optimal pH window, and outside that window it works poorly even at the correct dose. So if incoming water pH drifts below 8, the coagulant dose (and sometimes the flocculant dose right after it) needs to be re-tuned, not just left on the same setting. This is part of why pH is tested every day — it's not just a compliance number, it's a direct input into how much coagulant/flocculant to run.
+
+`(still pending from operator: by how much does the PACl/flocculant dose itself change once pH is in range — or does hitting pH 8+ via lime mean the PACl/flocculant dose stays the same every time?)`
 
 ---
 
@@ -195,14 +197,14 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 **Product:** TEXLOME High Calcium Hydrated Lime  
 **Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product
 
-**Dosing logic at the C Can — CONFIRMED:** Check pH first. **If pH is off (too low/acidic), dose lime before PACl coagulant and flocculant** to bring it into range. If pH is already fine, skip the lime entirely and go straight to PACl + flocculant. This is the direct, practical application of the pH → dose adjustment relationship in Section 5.1a — lime is one of the actual levers you pull when the pH reading calls for it.
+**Dosing logic at the C Can — CONFIRMED:** Check pH first. **Target is pH 8 or higher — that's good for the coagulant. If pH reads below 8, dose lime before PACl coagulant and flocculant** to bring it up to 8+. If pH is already 8 or higher, skip the lime entirely and go straight to PACl + flocculant. This is the direct, practical application of the pH → dose adjustment relationship in Section 5.1a — lime is the lever you pull when the pH reading is below target.
 
-### What it does (general principle — confirm exact trigger threshold with supervisor)
-Lime raises pH. PACl coagulant works best in a specific pH window (Section 5.1a) — so lime only gets used to correct the water into that window when the day's pH reading is outside it. `(needed: at what pH reading does lime get added — i.e., what's the trigger threshold/target range?)`
+### What it does
+Lime raises pH. PACl coagulant works well at pH 8 and above; below 8 it's not good. So lime gets used to bring the water up to that 8+ range whenever the day's pH reading comes in low.
 
 `⚠️ SAFETY:` Hydrated lime is caustic/corrosive — can burn skin and eyes, and the dust is a respiratory irritant. Don't handle without confirmed PPE.
 
-`(still needed: the pH trigger threshold for adding lime, exact dose/ratio when it IS added, SDS, PPE requirements, and where the lime is stored/staged at the C Can)`
+`(still needed: exact dose/ratio of lime when it IS added — e.g., how much to add to bring pH from a given low reading up to 8+ — plus SDS, PPE requirements, and where the lime is stored/staged at the C Can)`
 
 ---
 

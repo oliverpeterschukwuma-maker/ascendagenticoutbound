@@ -60,7 +60,7 @@
 ## 🆕🆕🆕🆕🆕🆕 New Open Items — Operator's Real-Time Sequence Walkthrough (in progress)
 
 - [x] **"C Can" confirmed to physically exist on site** — matches the "sea can" Brennan described and the "CAN" stencil spotted on a wood post in IMG_2799/2800. Chemical dosing (coagulant + flocculant + a 3rd chemical) happens inside it.
-- [x] **3rd chemical at the C Can confirmed: TEXLOME High Calcium Hydrated Lime — added CONDITIONALLY, only when pH reading is off** (not a fixed step every batch). When used, goes in before PACl + flocculant. Still need: pH trigger threshold, exact dose, SDS, PPE (see Section 5.6a).
+- [x] **3rd chemical at the C Can confirmed: TEXLOME High Calcium Hydrated Lime — added CONDITIONALLY, only when pH is below 8** (not a fixed step every batch). Target: pH 8+ is good for the coagulant; below 8 is not. When used, lime goes in before PACl + flocculant. Still need: exact dose/ratio of lime, SDS, PPE (see Section 5.6a).
 - [ ] **Only 1 blue bin ("weir tank") currently in use, not 2** — reconcile with earlier-documented 2-bin series setup. Is the 2nd bin offline, removed, or just not needed right now?
 - [ ] **Dosing location has moved earlier in the sequence** — current account has coagulant/flocculant injected at the C Can (before the weir tank/blue bin), not "indoors near the white tanks" as previously documented. Confirm whether the indoor dosing manifold (Section 6.3, IMG_2767) is still used at all, or if dosing fully happens outdoors now.
 - [ ] **Sequence after ozone is still unconfirmed** — operator said they'll figure out/confirm the rest. Needs: what happens between ozone and the settling tank/sand filter bypass/bag filter/carbon vessel steps already documented.
