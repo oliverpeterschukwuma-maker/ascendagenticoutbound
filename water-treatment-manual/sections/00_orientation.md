@@ -18,9 +18,9 @@ The source water is not river or lake water — it is water that has been in con
 | pH imbalance (too high or too low) | Affects chemical treatment steps; affects downstream ecology |
 | Fine silts and colloidal particles | Too small to settle on their own — need coagulants and flocculants to clump together |
 
-**The goal:** treated water that meets the site's discharge permit standards, so it can be legally released to the environment or reused on site.
+**The goal:** treated water clear enough to be trucked/transferred to the lagoon for disposal, or reused on site (e.g., dust control). **Note — CONFIRMED BY SUPERVISOR (Brendan):** This site does **not have a permit to discharge to the drain.** That's the reason treated water goes to holding tanks and then is carried to a lagoon instead of a permitted point-source outfall — see Section 0.5 and the discharge step below. The "discharge permit" framing used elsewhere in this manual reflects general industrial water treatment practice and still needs reconciling against this site's actual (permit-less, lagoon-based) reality.
 
-`ℹ️ WHY:` Industrial discharge is regulated under BC's *Environmental Management Act* and the site's specific permit. Discharging water that doesn't meet standards can result in regulatory fines, stop-work orders, and environmental damage. Every step in this system exists to protect that permit.
+`ℹ️ WHY GETTING IT CLEAR STILL MATTERS:` In Brendan's words: **"The main focus is getting the water clear."** Even without a drain-discharge permit driving hard numeric limits, clarity is still the operational target — partly because the carbon vessel at the end of the line "will grab anything [ozone/upstream steps don't]," so getting the water visually clear upstream protects that last line of defense, and partly because clear water is what the lagoon/dust-control reuse actually needs.
 
 ---
 
@@ -150,7 +150,7 @@ DISCHARGE → HOLDING TANKS → trucked/transferred to lagoon for disposal
 9. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps larger debris and the floc clumps made in step 7 — like a coffee filter for rust. `⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR.` Not in use right now (solenoid fault — see Section 6.4, needs an electrician). **While bypassed, water flows straight from settling to the bag filter and carbon vessel only.** Even when working, sand filters need two kinds of maintenance: **backwashing** (reversing the flow periodically to break up the channels the water carves through the sand over time, which otherwise let water sneak through without being filtered) and **full sand replacement** every so often as the sand gets dirty.
 10. **Bag Filter.** Normally a safety net whose only job is making sure no dirt reaches the carbon vessel next. **Right now, with the sand filter bypassed, this is the first filtration step the water sees** and is carrying the full solids load alone — check/change this filter more often than usual until the sand filter is back in service.
 11. **Carbon Vessel (SRS-CV-15, "the blue vessel").** Sand and bag filters can't catch *dissolved* fuel smell and color (dissolved = mixed into the water like sugar, not filterable). **Activated carbon** is riddled with microscopic pores giving it huge surface area; dissolved hydrocarbons stick to that surface as water flows through (called **adsorption**). If the carbon gets dirty/saturated, it stops working properly and needs to be changed out.
-12. **Discharge to holding tanks → lagoon.** Treated water goes to holding tanks, then is trucked or transferred to a lagoon for final disposal.
+12. **Discharge to holding tanks → lagoon.** Treated water goes to holding tanks, then is trucked or transferred to a lagoon for final disposal. **CONFIRMED BY SUPERVISOR (Brendan):** this is because the site has no permit to discharge to the drain — the lagoon route is the workaround, not a permitted point-source outfall.
 
 `ℹ️ OPERATING PHILOSOPHY — worth remembering:` "Make sure the flow coming in isn't too much or there won't be enough time for settling. It's all a balancing process because they never really made a proper treatment facility." This site runs on careful adjustment, not a fully automated/engineered system — watching, adjusting, and using judgment at every step is the actual job.
 
@@ -191,9 +191,10 @@ The recovered petroleum product and sludge are managed as regulated waste — th
 | Location | Kamloops, BC Interior |
 | Water treatment supplier | SUMAS Environmental Services Inc. |
 | SUMAS contact number | **1-250-374-4151** |
-| Regulatory framework | BC *Environmental Management Act*; site discharge permit |
-| Discharge permit number | *(confirm with supervisor)* |
+| Regulatory framework | BC *Environmental Management Act* |
+| Discharge permit | **CONFIRMED BY SUPERVISOR (Brendan): site has NO permit to discharge to the drain.** Treated water is trucked/transferred to a lagoon instead — not a permitted point-source outfall. `(still needs confirming: is the lagoon itself permitted/authorized in some other way, and is there proper equipment on-site to test dissolved contents — see note below)` |
 | Regulatory authority | BC Ministry of Environment and Climate Change Strategy |
+| Testing equipment limitation | **CONFIRMED BY SUPERVISOR (Brendan): "They don't even have the proper equipment to test for dissolved contents."** This is a known, named gap, not an oversight in this manual — site testing currently relies on visual clarity/turbidity rather than dissolved-analyte lab testing on site. Brendan noted he's requested this repeatedly without it being provided. |
 | Site supervisor | Brennan *(confirm full name and contact)* |
 | On-call operators | Rob, Glen *(confirm contact numbers)* |
 | Emergency contact — regulatory hotline | *(confirm with supervisor)* |
