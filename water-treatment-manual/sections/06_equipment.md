@@ -104,14 +104,14 @@
 ### Interior — CONFIRMED BY PHOTO (IMG_2803, IMG_2805)
 
 Inside the C Can:
-- **Two white 200L drums** with SUMAS labels, sitting side by side — one clearly labelled **"FLOCCULANT."** The second has a SUMAS label as well (exact chemical name not legible in photo — likely PACl coagulant, consistent with the dosing logic in Section 5.6a, but `needs confirmation`).
-- **One blue 200L drum** to the right, with a hose/tubing dipped into the top — role not yet confirmed (possibly the lime mix or a third stock solution).
+- **Two white 200L drums** with SUMAS labels, sitting side by side — one clearly labelled **"FLOCCULANT."** `✅ CONFIRMED BY OPERATOR:` the second drum is the **PACl coagulant**.
+- **One blue 200L drum** to the right, with a hose/tubing dipped into the top. `✅ CONFIRMED BY OPERATOR:` this is the **lime** (TEXLOME High Calcium Hydrated Lime) — kept here as a liquid/slurry in a blue drum, not as a dry bag. `⚠️ NOTE:` Hydrogen peroxide is also stored in blue 200L drums elsewhere on this site (Section 5.7) — at the C Can specifically, the blue drum is lime, not peroxide. Go by location, not just colour.
 - A **blue diaphragm-style dosing pump** mounted on a horizontal grey PVC pipe manifold above the drums, feeding into two large horizontal PVC pipe runs along the wall.
 - An electrical control box and timer mounted on a plywood backing above the drums (red trays visible — possibly drip trays under fittings, not confirmed).
 - IMG_2805 shows the chemical injection detail: small clear tubing taps into the main PVC pipe runs through small fittings/check valves — this is where the dosing pump actually injects chemical into the flow line.
 - A spill kit / eyewash-style station is mounted on the wall to the right (red bottle, white wall-mounted box).
 
-`(still needed: confirm the 2nd white drum's chemical, the blue drum's role, and which pipe run is which — frac tank inflow vs. weir tank discharge)`
+`(still needed: which pipe run is which — frac tank inflow vs. weir tank discharge)`
 
 ---
 

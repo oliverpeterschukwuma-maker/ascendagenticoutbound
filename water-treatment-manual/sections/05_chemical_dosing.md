@@ -14,7 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 3 points: oil/water separation cell, the 2 blue bins, and indoors** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **TEXLOME High Calcium Hydrated Lime** | *(calcium hydroxide)* | Added at the C Can ONLY WHEN pH is below 8, before PACl + flocculant — raises pH to 8+ for coagulation; exact dose `(needs confirmation)` |
+| **TEXLOME High Calcium Hydrated Lime** | Blue 200L drum (at the C Can) | Added at the C Can ONLY WHEN pH is below 8, before PACl + flocculant — raises pH to 8+ for coagulation; exact dose `(needs confirmation)` |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -195,7 +195,8 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 `ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" at the C Can — **lime, added CONDITIONALLY, only when the pH reading shows it's needed** (i.e., when pH is off). It is NOT a fixed step added every single batch regardless of reading. (Operator briefly second-guessed the chemical name in favor of "sodium hydroxide," then retracted that and confirmed lime is correct — separately corrected that lime is conditional, not a fixed first step.)
 
 **Product:** TEXLOME High Calcium Hydrated Lime  
-**Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product
+**Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product  
+**Container — CONFIRMED BY OPERATOR (IMG_2803):** Blue 200L drum, staged inside the C Can. `⚠️ NOTE:` Hydrogen peroxide is also kept in blue 200L drums elsewhere on site (Section 5.7) — at the C Can, the blue drum is lime, not peroxide. Identify by location, not colour alone.
 
 **Dosing logic at the C Can — CONFIRMED:** Check pH first. **Target is pH 8 or higher — that's good for the coagulant. If pH reads below 8, dose lime before PACl coagulant and flocculant** to bring it up to 8+. If pH is already 8 or higher, skip the lime entirely and go straight to PACl + flocculant. This is the direct, practical application of the pH → dose adjustment relationship in Section 5.1a — lime is the lever you pull when the pH reading is below target.
 
