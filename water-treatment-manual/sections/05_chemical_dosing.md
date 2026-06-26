@@ -34,6 +34,18 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 ---
 
+## 5.1b Ongoing Testing Drives Dose Adjustment — CONFIRMED BY OPERATOR
+
+`ℹ️ CONFIRMED:` Dosing at the C Can is not a one-time "set it and walk away" step. The operator tests the water on an ongoing basis and adjusts dosing based on what the results show:
+
+- **If results show under-dosing** (e.g., poor floc formation, turbidity not dropping — see Section 4 for signs), **add more coagulant or flocculant at the C Can into the weir tank.**
+- **Pump speed/stroke adjustment:** if the dose itself needs to change, this is done by adjusting the **stroke rate and/or stroke length** on the relevant dosing pump (coagulant, flocculant, or lime) — not just by adding chemical by hand.
+- Operator is sending photos of the actual dosing pumps used to inject coagulant, flocculant, and lime at the C Can — once received, this section will be updated with pump make/model and where the stroke rate/length controls are on each one.
+
+`(still pending: photos of the 3 dosing pumps at the C Can; current stroke rate/length setting on each; what specific test result triggers a dose increase vs. a pump adjustment)`
+
+---
+
 ## 5.2 Critical Compatibility Warning — Read Before Handling Any Chemical
 
 `⚠️ WARNING:` Several chemicals on this site will react violently if mixed together.
