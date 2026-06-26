@@ -67,6 +67,8 @@
 - [ ] **Dosing location has moved earlier in the sequence** — current account has coagulant/flocculant injected at the C Can (before the weir tank/blue bin), not "indoors near the white tanks" as previously documented. Confirm whether the indoor dosing manifold (Section 6.3, IMG_2767) is still used at all, or if dosing fully happens outdoors now.
 - [ ] **Sequence after ozone is still unconfirmed** — operator said they'll figure out/confirm the rest. Needs: what happens between ozone and the settling tank/sand filter bypass/bag filter/carbon vessel steps already documented.
 - [ ] **More info and pictures promised tomorrow** — resume mapping this once received.
+- [x] **Turbidity (NTU) check point confirmed by operator: bag filter and/or carbon vessel outlet** — not a sand filter effluent, since the sand filter is bypassed (see Section 4.3, 6.5, 6.6).
+- [ ] **Diaphragm pump needed for weir tank sludge — CONFIRMED BY OPERATOR.** Settled sludge at the bottom of the weir tank needs a diaphragm pump to remove (Section 6.1a). Confirm: same AODD pump as the wet cell (Section 6.12), or a separate unit?
 
 ---
 

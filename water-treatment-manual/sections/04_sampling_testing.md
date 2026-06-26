@@ -59,6 +59,7 @@ Multiple grab samples combined over time to get an average. Used for parameters 
 | Clear well | Free chlorine, total chlorine | Every 4 hours | Chlorine: immediate | Verify residual for CT calculation |
 | Distribution system (remote points) | Free chlorine, pH | Per your sampling plan | Chlorine: immediate | Verify residual to end of system |
 | Backwash waste | Turbidity | During backwash | Analyze immediately | Verify when backwash is complete |
+| **Bag filter outlet / Carbon vessel outlet — CONFIRMED BY OPERATOR** | Turbidity (NTU meter) | *(confirm frequency)* | Analyze immediately | Site-specific compliance point — this site checks turbidity at the bag filter or carbon vessel (sand filter is bypassed, Section 6.4), not at a sand filter effluent |
 
 ---
 

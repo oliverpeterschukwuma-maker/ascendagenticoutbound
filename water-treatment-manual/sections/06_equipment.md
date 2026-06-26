@@ -76,6 +76,7 @@
 - **Blue bin 1 → blue bin 2:** gravity-fed via 4" hose (see above) — no pump needed for this hop if elevation allows it
 - **Blue bin 2 → indoors (Tank 1 / Tank 2):** per Brennan, discharge lands in an **open tote** with a submersible pump inside, which then pumps water into the building `(confirm: is this open tote actually present on site, or is the pump currently dropped directly into blue bin 2 as earlier documented?)`
 - **Weir tank discharge — CONFIRMED BY OPERATOR:** a submersible pump sits at the opposite end of the weir tank from where the C Can hose feeds in, used to pump the water out once it's done settling (whether that pump sits inside an open tote, as Brennan described, is still unconfirmed).
+- **Sludge at the weir tank — CONFIRMED BY OPERATOR:** settled sludge accumulates at the bottom of the weir tank and needs a **diaphragm pump** to remove it (thick sludge will clog/destroy a standard submersible pump — same reasoning as the AODD diaphragm pump already used for wet cell sludge, Section 6.12). `(confirm: is this the same AODD pump moved over from the wet cell, or a separate dedicated unit for the weir tank?)`
 
 `[CHECK]` Before starting any transfer:
 - [ ] Pump and cord are in good condition (no cracked housing, no exposed wiring)
@@ -252,6 +253,7 @@ Backwash the sand filter when any of the following:
 - [ ] Water is flowing through (inlet valve open, no unusual pressure)
 - [ ] Outlet water does not smell of petroleum or fuel
 - [ ] No colour in the effluent (should be essentially clear)
+- [ ] **CONFIRMED BY OPERATOR:** check turbidity here with the NTU meter (the bag filter and carbon vessel outlets are the site's turbidity check points — see Section 4.3)
 
 ### Check frequency — CONFIRMED BY OPERATOR
 **Check the carbon vessel every 1.5 months.**
@@ -294,6 +296,7 @@ Backwash the sand filter when any of the following:
 - **Check the bag filter every 1–2 weeks — CONFIRMED BY OPERATOR.**
 - Also check sooner if flow rate through the housing drops noticeably (bag is loaded with solids)
 - After any event that puts unusual solids loading through the system (major rain event, wet cell cleanout)
+- **CONFIRMED BY OPERATOR:** check turbidity here with the NTU meter (the bag filter and carbon vessel outlets are the site's turbidity check points — see Section 4.3)
 
 ---
 
