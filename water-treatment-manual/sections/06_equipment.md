@@ -65,7 +65,7 @@
 - One bin sits at a slightly higher (or equal) elevation than the other and **gravity-feeds** into it through a 4" hose — a 2" pump's flow rate cannot overflow a 4" gravity line, so this transfer is passive/safe by design once set up.
 - Brennan also described his typical full design for this kind of series setup: a **"sea can"** (shipping container) housing chemical totes and dosing pumps, with chemical injected via a **flow switch** in the piping, feeding into **weir tanks** where the actual settling happens, then discharging to an **open tote** with a submersible pump inside that pumps water into the building.
 
-`⚠️ NEEDS CONFIRMATION — is this describing OUR site or Brennan's general approach?` Brennan caveated this with "it's just the logistics of setting it up with the power you'd need and the freezing temps in winter" — meaning some of this (especially the sea can and flow-switch dosing) may be his **ideal/typical setup**, not necessarily what's literally installed here. No sea can has been spotted in any site photos so far. Before updating the dosing-point documentation, ask Brennan directly: **"Is there an actual sea can on our site doing the chemical dosing between the two blue bins, or were you describing how you'd set it up elsewhere? On our site specifically, where does the flocculant injection into the blue bins actually happen?"** Until answered, treat "weir tanks" as very likely just referring to the internal baffle (weir) plates already documented inside these same two blue bins — not a third, separate structure.
+`✅ CONFIRMED BY PHOTO (IMG_2802):` The C Can IS physically present and IS connected directly to one of the blue bins. The photo shows the C Can (tan/white shipping container, serial **CPIU175014**) with a hose at its base running across the ground to the blue bin marked **"NO GARBAGE"** — a direct C Can → blue bin (weir tank) discharge line. This confirms Brennan's design is, at least in part, what's actually built here — it is not purely his idealized/typical setup. Still unconfirmed from the photo alone: what's inside the C Can (totes, pumps, flow switch) and whether an open tote exists at the discharge side of the 2nd bin. See Section 6.1b for the C Can itself.
 
 ### Transfer Pumps (Portable Submersible)
 **Confirmed by operator:** transfers are NOT done with fixed, permanently-plumbed pumps at each stage. Instead, portable submersible pumps (blue housing, single discharge port, standard electrical plug) are physically dropped into whichever tank needs to be moved next — **both the frac tanks and the blue bins** use the same style of pump — with a hose run to the destination tank.
@@ -85,6 +85,16 @@
 `⚠️ NOTE — needs confirmation:` It is unclear whether the "Wet Cell / Separation Cell" described below (Section 6.2a) is a **separate, additional** indoor concrete tank, or whether earlier site notes were actually describing these same blue bins. Confirm with supervisor before treating them as two different pieces of equipment.
 
 `ℹ️ PARTIALLY RESOLVED (photos IMG_2741, IMG_2742):` These show rusted, orange-iron-stained, baffled steel compartments **indoors** (OSB stud-wall construction visible behind them, with totes/drums nearby) — NOT outdoors on ecology blocks like these blue bins. That rules out these specific compartments being the blue bins described above; the staining and indoor location instead match the Wet Cell description in Section 6.2a. So there are 3 distinct structures on site: outdoor blue bins (this section), the indoor baffled "settling bins" (6.2a, operator's term), and the indoor white storage tanks Tank 1 / Tank 2 (6.2) — not 2.
+
+---
+
+## 6.1b The "C Can" (Chemical Dosing Shipping Container)
+
+`✅ CONFIRMED BY PHOTO (IMG_2802):` A tan/white shipping container, serial markings **"CPIU175014"** visible on the side, sitting next to the blue bin marked "NO GARBAGE." A hose runs from a fitting at the base of the container, across the ground, directly into that blue bin — this is the C Can → weir tank (blue bin) connection.
+
+**What it does:** Houses the chemical dosing step (pH check, then lime if needed, then PACl coagulant + flocculant — see Section 5.6a) before water flows on to the blue bin/weir tank for settling.
+
+`(still needed: what's actually inside the C Can — totes, dosing pumps, flow switch — and a photo of the interior; confirm whether the discharge hose seen here is the only line in/out, or if there's a separate intake line from the frac tank)`
 
 ---
 

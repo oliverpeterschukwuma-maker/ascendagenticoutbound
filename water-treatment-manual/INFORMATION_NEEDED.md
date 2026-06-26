@@ -71,7 +71,7 @@
 ## 🆕🆕🆕🆕🆕 New Open Items — Brennan's Blue Bin Description
 
 - [x] **Blue bins run in series, gravity-fed — confirmed by Brennan.** One bin sits higher (or equal), gravity-feeds the other via 4" hose; 2" pump flow can't overflow it.
-- [ ] **"Sea can" chemical dosing station — needs confirmation this exists on OUR site.** Brennan described a shipping-container-housed dosing setup (totes + pumps + flow-switch-triggered injection) as his typical design, but caveated it with power/winter-freeze logistics — may not be literally installed here. No sea can has appeared in any site photo so far. Ask directly: is there a sea can on site, and if not, where does flocculant actually get injected into the blue bins?
+- [x] **"Sea can" (C Can) chemical dosing station — CONFIRMED physically present, photo IMG_2802.** Shows the C Can (tan/white container, serial CPIU175014) hose-connected directly to the blue bin marked "NO GARBAGE." Still need: photo of the C Can interior (totes, pumps, flow switch) to confirm that part of Brennan's description too.
 - [ ] **"Weir tanks" — likely just the blue bins' internal baffle plates, not a 3rd structure.** Confirm this reading with Brennan rather than assuming a new piece of equipment.
 - [ ] **Open tote at blue bin 2 discharge — confirm it's physically present**, or if the submersible pump is still just dropped directly into blue bin 2 as earlier documented.
 
