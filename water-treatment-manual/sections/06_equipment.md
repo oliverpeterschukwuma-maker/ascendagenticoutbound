@@ -305,7 +305,7 @@ Backwash the sand filter when any of the following:
 `ℹ️ POSITION IN THE PROCESS — TWO CONFLICTING ACCOUNTS:` Earlier photo-based notes placed ozone near the END of the process (after carbon, before chlorination). A former operator's direct account places it at the very BEGINNING of the indoor process — the first thing that happens to the water once it's pumped in, before any chemicals are added. **Confirm with your current supervisor which is actually true.** It changes how you think about what ozone is doing: oxidizing raw incoming contaminants (if first) vs. polishing already-treated water (if last).
 
 **Equipment:**
-- **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from ambient air or oxygen supply.
+- **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from ambient air or oxygen supply. **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
 - **AERQUS Ozone Diffuser** — black box. Distributes ozone into the water stream.
 
 **What ozone does:**  
