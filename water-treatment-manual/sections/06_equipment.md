@@ -34,6 +34,10 @@
 
 **What they do:** `ℹ️ CONFIRMED — these are STORAGE tanks, not settling tanks.` They hold water at different stages (e.g., raw/incoming vs. treated) rather than being where chemical floc actually forms and settles. Settling happens in a separate baffled structure (see Section 6.2a / IMG_2741, IMG_2742) — do not confuse the two. `(confirm with supervisor: what stage of water is in each of these two tanks — raw, dosed, or treated?)`
 
+`ℹ️ ADDITIONAL USE — CONFIRMED BY OPERATOR:` Water held in the storage tank is also used on-site for **dust control** (sprayed on roads/yard), separate from the lagoon disposal route (Section 0.2).
+
+**What NTU should this water be?** There's no separate, stricter turbidity spec for dust control — it's a non-discharge reuse, not a permitted release to the environment, so the discharge-permit turbidity limit (Section 3/4, still pending from supervisor/SUMAS) doesn't apply here. By the time water reaches the storage tank it has already passed through the bag filter and/or carbon vessel — the same NTU reading checked at that outlet (Section 4.3) is what you'd expect in the tank. Practically, for dust control the only real requirement is staying low enough turbidity that it doesn't clog the spray nozzles/pump — there's no compliance number to hit. `(if you take an actual NTU reading from the tank, log it here so we have a real baseline instead of an estimate.)`
+
 `[CHECK]` Each shift:
 - [ ] Water level in each tank (visual from ladder or sight glass — *(confirm method)*)
 - [ ] Tank status label current (clean / dirty / in treatment)
