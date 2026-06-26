@@ -91,7 +91,7 @@
 - All 8 chemicals: names, SDS, hazard classes, safety procedures
 - All major equipment: names, models, serials, operating procedures
 - Full treatment train sequence — **outdoor portion now confirmed by operator:** oil/water separation cell → frac tanks → 2 outdoor blue separator bins → submersible intake pump → two white indoor tanks
-- **Flocculant (CL-200/Flopham polymer) dosing points confirmed by operator:** added at 3 separate points — the oil/water separation cell, the 2 outdoor blue bins, AND indoors near the white tanks (not just one dosing point as previously documented)
+- **Flocculant (CL-200/Flopham polymer) dosing points confirmed by operator:** added at 4 separate points — the oil/water separation cell, the 2 outdoor blue bins, indoors near the white tanks, AND a small amount at the lagoon (final disposal point — not just one dosing point as previously documented). `(needs confirming: why dose at the lagoon — settle remaining fines before disposal? — and exact amount)`
 - **Transfer pumps confirmed by operator:** portable submersible pumps (not fixed installations) are moved between frac tanks and the 2 blue bins to perform each transfer
 - **PACl and flocculant stock solution ratios** (former operator): 2 bags dry PACl per 200L; ~100g flocculant per 200L, added slowly, mixed 1hr. Injected together right before the white settling tanks.
 - **Bag filter role clarified** (former operator): acts as a safety screen protecting the carbon vessel — sand filter → bag filter → carbon vessel, not sand → carbon → bag as earlier notes suggested.
