@@ -148,6 +148,7 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 2. **Turn on the mixer.**
 3. Add the **polymer** while adding the **second half of the water** at the same time — pouring the water and polymer in together while mixing lets the polymer disperse instead of clumping.
 4. Keep mixing well until fully dissolved.
+5. **Let it sit for 24 hours before use — CONFIRMED BY OPERATOR.** Don't dose straight from a freshly mixed batch; the stock solution needs a full day to rest/cure before it's ready to inject. Plan batches a day ahead so you don't run out of usable stock mid-shift.
 
 **Batch size confirmed by operator: 500L, not 1000L** — scaled to the same ratio, that's 250L water → mixer on → **500g polymer** added with the second 250L of water. `(scaling assumes the same 1 g/L concentration applies at the smaller batch size — confirm with operator if the polymer amount doesn't simply halve with the batch.)`
 
