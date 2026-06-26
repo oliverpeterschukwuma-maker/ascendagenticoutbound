@@ -20,7 +20,7 @@
 
 ## 🟠 High Priority — Daily Operations
 
-- [x] **Actual chemical dose rates currently in use** — **flocculant ratio updated by current operator:** 1kg polymer per 1000L tote batch (500L water → mixer on → 1kg polymer added with 2nd 500L water). `⚠️ This is ~2x the concentration of the former operator's 100g/200L estimate — discrepancy flagged in Section 5.4, not yet reconciled.` PACl stock (2 bags dry powder per 200L) still per former operator, unconfirmed by current crew. Still need: H₂O₂ dose if still in use.
+- [x] **Actual chemical dose rates currently in use** — **flocculant ratio updated by current operator:** 1kg polymer per 1000L tote batch (500L water → mixer on → 1kg polymer added with 2nd 500L water), 24hr rest before use. `⚠️ This is ~2x the concentration of the former operator's 100g/200L estimate — discrepancy flagged in Section 5.4, not yet reconciled.` **PACl ratio CONFIRMED by current operator: 1 bag per 100L (matches former operator's figure), 3hr rest before use.** Still need: H₂O₂ dose if still in use.
 - [x] **Chemical injection points (indoor stage) — resolved via video IMG_2767:** dosing drums (flocculant + PACl) feed a wall-mounted PVC manifold that drops directly into the settling tank — path confirmed: drums → manifold → settling tank. Still need: the 2 outdoor flocculant injection points (oil cell, blue bins) traced the same way, and H₂O₂ injection point if still in use.
 - [ ] **Frac tank inventory** — how many, what are their IDs, approximate volume each, and which is clean/dirty/in treatment right now
 - [ ] **Indoor white cylindrical tanks** — volume of each? What exactly goes in each? What is the ANKO2 tank used for?

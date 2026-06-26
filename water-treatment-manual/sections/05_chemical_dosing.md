@@ -85,12 +85,13 @@ PACl is a positively charged aluminum compound. When it's added to the water and
 - Dose point: add to water with good mixing (turbulent mixing zone or rapid mix)
 - Check: is the pump running and consuming chemical? Watch the tank level — it should visibly drop over a shift.
 
-### Preparing the dry PACl stock solution (per a former operator's account)
-`ℹ️ CONFIRMED:` A dry PACl powder (25kg bags) is also used on this site, mixed into a stock/working solution before being metered into the process — this is separate from (or an alternative to) the liquid CK-311 drums described above.
+### Preparing the dry PACl stock solution
 
-- **Ratio:** 2 bags of dry PACl powder per 200L of **clean water — NOT the water being treated** (confirmed by operator)
-- Mix in the 200L tank, then meter the resulting solution into the process via the dosing pump
-- `(confirm with supervisor: exact bag size if different from 25kg, and how long this 200L batch typically lasts)`
+`ℹ️ CONFIRMED BY CURRENT OPERATOR:` A dry PACl powder (25kg bags) is mixed into a stock/working solution before being metered into the process — this is separate from (or an alternative to) the liquid CK-311 drums described above.
+
+- **Ratio: 1 bag of dry PACl powder per 100L of clean water — NOT the water being treated** (confirmed by current operator; matches the earlier former-operator figure of 2 bags per 200L — same ratio, now confirmed current)
+- **Let it sit for 3 hours before using — CONFIRMED BY OPERATOR.** Don't dose straight from a freshly mixed batch. Plan ahead like the flocculant stock (Section 5.4, 24-hour rest) so you don't run out of usable stock mid-shift.
+- Mix in the tank, then meter the resulting solution into the process via the dosing pump
 - Indoors, coagulant + flocculant are injected together right before the water reaches the white settling tanks (see Section 0.2/0.2a) — the combination is what causes contaminants and dirt to clump and settle to the bottom of the tank
 - You may need to adjust the dosing pump's stroke rate/length to get the right amount going in — watch visually for good floc formation as your guide
 
