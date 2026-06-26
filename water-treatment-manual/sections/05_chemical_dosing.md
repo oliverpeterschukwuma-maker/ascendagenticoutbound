@@ -116,7 +116,9 @@ PACl is a positively charged aluminum compound. When it's added to the water and
 **Product:** CL-200 Water Treatment Flocculant, aqueous solution of water-soluble polymer  
 **Container:** White drum, "FLOCCULANT / NON-REGULATED MATERIAL" label  
 **Pump (indoor injection point):** Yellow LMI diaphragm dosing pump  
-**Pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue **JCMB Solenoid Dosing Pump**, Model **JCMB55-20/2.5**, Capacity 20 L/H, Pressure 2.5 bar, Power 30W, AC100–240V. Dial sets stroke length (0–100 scale, photographed at roughly 80); `«` `»` buttons adjust stroke rate; `SET` and `ON/OFF` buttons; green MOTOR light confirms it's running. Digital display read "550" in the photo — exact meaning (counter vs. rate readout) `needs confirmation`.
+**Pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue **JCMB Solenoid Dosing Pump**, Model **JCMB55-20/2.5**, Capacity 20 L/H, Pressure 2.5 bar, Power 30W, AC100–240V. Dial sets stroke length; `«` `»` buttons adjust stroke rate; `SET` and `ON/OFF` buttons; green MOTOR light confirms it's running.
+
+**Current setting — CONFIRMED BY OPERATOR:** flocculant pump speed adjusted to **48.0**.
 
 ### What it does
 Coagulation (PACl) creates small particle clusters. Flocculation grows those small clusters into larger, heavier floc that settles faster and is easier to filter. CL-200 polymer is a long-chain molecule that acts like a net — it bridges between coagulated particles, connecting them into larger aggregates.

@@ -27,7 +27,7 @@
 - [ ] **Sand filter backwash setpoint** — at what pressure differential do you backwash SRS-SF-11?
 - [x] **Carbon vessel check frequency — CONFIRMED BY OPERATOR: every 1.5 months.** Still need: when was SRS-CV-15 last recharged, and the specific signs that tell you it's exhausted vs. still good.
 - [ ] **CD30TIX ozone system normal operating pressure** — what does the gauge normally read?
-- [x] **Flocculant dosing pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue JCMB Solenoid Dosing Pump, Model JCMB55-20/2.5, 20 L/H, 2.5 bar, 30W (see Section 5.4). Still need: exact meaning of the digital readout, and current stroke rate/length setting actually in use.
+- [x] **Flocculant dosing pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue JCMB Solenoid Dosing Pump, Model JCMB55-20/2.5, 20 L/H, 2.5 bar, 30W. **Current speed setting confirmed: 48.0** (see Section 5.4).
 - [ ] **Coagulant and lime dosing pumps at the C Can** — photos still coming. Update Sections 5.3 (PACl) and 5.6a (lime) once received.
 - [x] **Bag filter change frequency — CONFIRMED BY OPERATOR: check every 1–2 weeks** (plus sooner if flow drops noticeably or after a heavy solids event).
 
