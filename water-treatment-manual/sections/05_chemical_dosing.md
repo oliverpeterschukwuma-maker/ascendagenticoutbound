@@ -14,7 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 3 points: oil/water separation cell, the 2 blue bins, and indoors** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **TEXLOME High Calcium Hydrated Lime** | Blue 200L drum (at the C Can) | Added at the C Can ONLY WHEN pH is below 8, before PACl + flocculant — raises pH to 8+ for coagulation; exact dose `(needs confirmation)` |
+| **TEXLOME High Calcium Hydrated Lime** | Blue 200L drum (at the C Can) | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, counteracting the pH drop caused by the acidic coagulant. Conditional-on-pH vs. every-time `⚠️ needs reconciling (see Section 5.6a)` |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -26,7 +26,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 `ℹ️ CONFIRMED:` PACl coagulant and flocculant dosing are not "set and forget" — when the pH of the water changes, the coagulant/flocculant treatment has to be adjusted in response.
 
-`ℹ️ TARGET RANGE — CONFIRMED BY OPERATOR:` **pH 8 or higher is good for the coagulant. Below 8 is not good** — that's the trigger for adding lime first (Section 5.6a) to bring pH up to 8+ before PACl coagulant and flocculant go in.
+`ℹ️ TARGET RANGE — CONFIRMED BY OPERATOR:` **pH 8 or higher is good for the coagulant. Below 8 is not good** — lime is used to bring pH up to 8+ before PACl coagulant and flocculant go in. Operator also noted PACl coagulant is itself acidic and lowers pH on its own — see the conditional-vs-every-time question flagged in Section 5.6a.
 
 `ℹ️ WHY (general water treatment principle, to be replaced with site-specific detail):` Coagulants like PACl work by neutralizing the electrical charge on suspended particles, and that charge-neutralizing reaction is pH-dependent — PACl has an optimal pH window, and outside that window it works poorly even at the correct dose. So if incoming water pH drifts below 8, the coagulant dose (and sometimes the flocculant dose right after it) needs to be re-tuned, not just left on the same setting. This is part of why pH is tested every day — it's not just a compliance number, it's a direct input into how much coagulant/flocculant to run.
 
@@ -192,20 +192,24 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 
 ## 5.6a Chemical 4a — TEXLOME High Calcium Hydrated Lime
 
-`ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" at the C Can — **lime, added CONDITIONALLY, only when the pH reading shows it's needed** (i.e., when pH is off). It is NOT a fixed step added every single batch regardless of reading. (Operator briefly second-guessed the chemical name in favor of "sodium hydroxide," then retracted that and confirmed lime is correct — separately corrected that lime is conditional, not a fixed first step.)
+`ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" at the C Can — lime. (Operator briefly second-guessed the chemical name in favor of "sodium hydroxide," then retracted that and confirmed lime is correct.)
 
 **Product:** TEXLOME High Calcium Hydrated Lime  
 **Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product  
 **Container — CONFIRMED BY OPERATOR (IMG_2803):** Blue 200L drum, staged inside the C Can. `⚠️ NOTE:` Hydrogen peroxide is also kept in blue 200L drums elsewhere on site (Section 5.7) — at the C Can, the blue drum is lime, not peroxide. Identify by location, not colour alone.
 
-**Dosing logic at the C Can — CONFIRMED:** Check pH first. **Target is pH 8 or higher — that's good for the coagulant. If pH reads below 8, dose lime before PACl coagulant and flocculant** to bring it up to 8+. If pH is already 8 or higher, skip the lime entirely and go straight to PACl + flocculant. This is the direct, practical application of the pH → dose adjustment relationship in Section 5.1a — lime is the lever you pull when the pH reading is below target.
+**Dosing logic at the C Can — ⚠️ TWO STATEMENTS FROM THE OPERATOR THAT NEED RECONCILING:**
+1. Earlier: lime is added **conditionally** — only when the pH reading is below 8 (target pH 8+ is good for the coagulant; below 8 is not).
+2. Most recent: **"We pump the lime every time because the coagulant lowers the pH"** — i.e., lime is pumped every batch as a standing pre-treatment, since PACl coagulant is itself acidic (pH 2.2–2.8, Section 5.3) and will drag pH back down on its own.
+
+These could both be true (pH usually reads low enough that lime ends up going in "every time" in practice) or the second statement could mean lime is now a fixed step regardless of the reading. **Ask directly: do you check the pH reading every time before deciding whether to add lime, or has it become a fixed step added to every batch?**
 
 ### What it does
-Lime raises pH. PACl coagulant works well at pH 8 and above; below 8 it's not good. So lime gets used to bring the water up to that 8+ range whenever the day's pH reading comes in low.
+Lime raises pH. PACl coagulant works well at pH 8 and above, and is itself acidic — so without lime to counteract it, the coagulant would drag the water's pH down out of its own optimal range.
 
 `⚠️ SAFETY:` Hydrated lime is caustic/corrosive — can burn skin and eyes, and the dust is a respiratory irritant. Don't handle without confirmed PPE.
 
-`(still needed: exact dose/ratio of lime when it IS added — e.g., how much to add to bring pH from a given low reading up to 8+ — plus SDS, PPE requirements, and where the lime is stored/staged at the C Can)`
+`(still needed: resolve conditional-vs-every-time above; exact dose/ratio of lime; SDS; PPE requirements; where the lime is stored/staged at the C Can)`
 
 ---
 
