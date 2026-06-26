@@ -483,7 +483,9 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 
 `⚠️ RULE — RINSE WITH CLEAN WATER BEFORE EVERY SINGLE PH TEST, NO EXCEPTIONS:` Always rinse the probe tip with clean/distilled water immediately before dipping it into a buffer OR a sample — every time, between every reading. Skipping this carries residue from the last buffer/sample into the next one and throws off the reading.
 
-### pH meter calibration (before each use)
+### pH meter calibration — ONCE PER DAY/SHIFT, not before every single test
+`ℹ️ CONFIRMED:` Calibrate the pen **once at the start of each day/shift**. After that, test as many samples as needed that shift without recalibrating — just rinse the probe between every test. Recalibrate again if: it's a new shift, the pen has sat unused for a while, or a buffer check shows it's drifted off (e.g., no longer reading 7.0 in the 7.0 buffer).
+
 `[ACTION]`  
 1. Remove the pH probe from its storage solution. Rinse with distilled or clean water.  
 2. Blot dry (do not rub).  
