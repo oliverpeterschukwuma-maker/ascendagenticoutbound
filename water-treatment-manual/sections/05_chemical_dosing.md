@@ -142,12 +142,14 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 
 ### Preparing the flocculant stock solution
 
-`ℹ️ CONFIRMED BY CURRENT OPERATOR — 1000L tote batch:` In a tote (1000L total capacity):
+`ℹ️ CONFIRMED BY CURRENT OPERATOR:` Ratio is **1 kg polymer per 1000L of clean water (1 g/L)**, added in two half-volume pours:
 
-1. Add the **first 500L of clean water** (NOT the water being treated) to the tote.
+1. Add the **first half of the water** (NOT the water being treated) to the tote.
 2. **Turn on the mixer.**
-3. Add the **1 kg of polymer** while adding the **second 500L of water** at the same time — pouring the water and polymer in together while mixing lets the polymer disperse instead of clumping.
+3. Add the **polymer** while adding the **second half of the water** at the same time — pouring the water and polymer in together while mixing lets the polymer disperse instead of clumping.
 4. Keep mixing well until fully dissolved.
+
+**Batch size confirmed by operator: 500L, not 1000L** — scaled to the same ratio, that's 250L water → mixer on → **500g polymer** added with the second 250L of water. `(scaling assumes the same 1 g/L concentration applies at the smaller batch size — confirm with operator if the polymer amount doesn't simply halve with the batch.)`
 
 `⚠️ DISCREPANCY — not yet reconciled:` A former operator's account (no longer treated as current) described a 200L batch at roughly 100g polymer per 200L (~500 mg/L). The current operator's 1000L/1kg ratio works out to **1000 mg/L — about double that concentration.** Until reconciled, use the current operator's 1kg-per-1000L-tote instructions above as the live procedure; the former operator's ratio is kept here only for reference.
 
