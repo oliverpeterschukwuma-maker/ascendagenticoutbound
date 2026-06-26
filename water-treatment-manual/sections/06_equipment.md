@@ -65,7 +65,9 @@
 - One bin sits at a slightly higher (or equal) elevation than the other and **gravity-feeds** into it through a 4" hose — a 2" pump's flow rate cannot overflow a 4" gravity line, so this transfer is passive/safe by design once set up.
 - Brennan also described his typical full design for this kind of series setup: a **"sea can"** (shipping container) housing chemical totes and dosing pumps, with chemical injected via a **flow switch** in the piping, feeding into **weir tanks** where the actual settling happens, then discharging to an **open tote** with a submersible pump inside that pumps water into the building.
 
-`✅ CONFIRMED BY PHOTO (IMG_2802):` The C Can IS physically present and IS connected directly to one of the blue bins. The photo shows the C Can (tan/white shipping container, serial **CPIU175014**) with a hose at its base running across the ground to the blue bin marked **"NO GARBAGE"** — a direct C Can → blue bin (weir tank) discharge line. This confirms Brennan's design is, at least in part, what's actually built here — it is not purely his idealized/typical setup. Still unconfirmed from the photo alone: what's inside the C Can (totes, pumps, flow switch) and whether an open tote exists at the discharge side of the 2nd bin. See Section 6.1b for the C Can itself.
+`✅ CONFIRMED BY PHOTO (IMG_2802, IMG_2806):` The C Can IS physically present, sitting right next to the blue bin marked **"NO GARBAGE."** This confirms Brennan's design is, at least in part, what's actually built here — it is not purely his idealized/typical setup.
+
+`✏️ CORRECTED BY OPERATOR (IMG_2806):` The hose/check valve at the base of the C Can (visible in both photos) is the **INFLOW from the frac tank into the C Can** — not the C Can's discharge line to the blue bin as earlier noted. So the confirmed path is: frac tank → check valve → into the C Can (dosing happens here) → ??? → blue bin (weir tank). The actual discharge connection from the C Can into the blue bin still needs to be traced/confirmed — it may be a separate, shorter line given how close the two sit together. See Section 6.1b for the C Can itself.
 
 ### Transfer Pumps (Portable Submersible)
 **Confirmed by operator:** transfers are NOT done with fixed, permanently-plumbed pumps at each stage. Instead, portable submersible pumps (blue housing, single discharge port, standard electrical plug) are physically dropped into whichever tank needs to be moved next — **both the frac tanks and the blue bins** use the same style of pump — with a hose run to the destination tank.
@@ -91,11 +93,13 @@
 
 ## 6.1b The "C Can" (Chemical Dosing Shipping Container)
 
-`✅ CONFIRMED BY PHOTO (IMG_2802):` A tan/white shipping container, serial markings **"CPIU175014"** visible on the side, sitting next to the blue bin marked "NO GARBAGE." A hose runs from a fitting at the base of the container, across the ground, directly into that blue bin — this is the C Can → weir tank (blue bin) connection.
+`✅ CONFIRMED BY PHOTO (IMG_2802):` A tan/white shipping container, serial markings **"CPIU175014"** visible on the side, sitting right next to the blue bin marked "NO GARBAGE."
+
+`✅ CONFIRMED BY OPERATOR (IMG_2806):` The hose/check valve at the base of the container is the **inflow** — water comes from the frac tank, through this check valve, into the C Can.
 
 **What it does:** Houses the chemical dosing step (pH check, then lime if needed, then PACl coagulant + flocculant — see Section 5.6a) before water flows on to the blue bin/weir tank for settling.
 
-`(still needed: confirm whether the discharge hose seen in IMG_2802 is the only line in/out, or if there's a separate intake line from the frac tank)`
+`(still needed: trace the discharge side — how does dosed water actually get from the C Can into the adjacent blue bin/weir tank?)`
 
 ### Interior — CONFIRMED BY PHOTO (IMG_2803, IMG_2805)
 
