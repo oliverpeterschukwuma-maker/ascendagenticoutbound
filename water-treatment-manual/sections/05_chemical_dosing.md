@@ -14,7 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 3 points: oil/water separation cell, the 2 blue bins, and indoors** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **TEXLOME High Calcium Hydrated Lime** | Blue 200L drum (at the C Can) | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, counteracting the pH drop caused by the acidic coagulant. Conditional-on-pH vs. every-time `⚠️ needs reconciling (see Section 5.6a)` |
+| **TEXLOME High Calcium Hydrated Lime** | Blue 200L drum (at the C Can) | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, counteracting the pH drop caused by the acidic coagulant. **Conditional on pH — confirmed by supervisor (Section 5.6a): only used if the pH is too low.** |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
 | **pH+ powder** (Summer Smiles Sani Marc) | 8 kg pail | pH RAISER — raises pH when water is too acidic |
@@ -26,11 +26,11 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 `ℹ️ CONFIRMED:` PACl coagulant and flocculant dosing are not "set and forget" — when the pH of the water changes, the coagulant/flocculant treatment has to be adjusted in response.
 
-`ℹ️ TARGET RANGE — CONFIRMED BY OPERATOR:` **pH 8 or higher is good for the coagulant. Below 8 is not good** — lime is used to bring pH up to 8+ before PACl coagulant and flocculant go in. Operator also noted PACl coagulant is itself acidic and lowers pH on its own — see the conditional-vs-every-time question flagged in Section 5.6a.
+`ℹ️ TARGET RANGE — CONFIRMED BY OPERATOR:` **pH 8 or higher is good for the coagulant. Below 8 is not good** — lime is used to bring pH up to 8+ before PACl coagulant and flocculant go in. Operator also noted PACl coagulant is itself acidic and lowers pH on its own. Supervisor (Brendan) confirmed lime is only needed when pH is too low (see Section 5.6a) — it is not a fixed every-batch step.
 
 `ℹ️ WHY (general water treatment principle, to be replaced with site-specific detail):` Coagulants like PACl work by neutralizing the electrical charge on suspended particles, and that charge-neutralizing reaction is pH-dependent — PACl has an optimal pH window, and outside that window it works poorly even at the correct dose. So if incoming water pH drifts below 8, the coagulant dose (and sometimes the flocculant dose right after it) needs to be re-tuned, not just left on the same setting. This is part of why pH is tested every day — it's not just a compliance number, it's a direct input into how much coagulant/flocculant to run.
 
-`(still pending from operator: by how much does the PACl/flocculant dose itself change once pH is in range — or does hitting pH 8+ via lime mean the PACl/flocculant dose stays the same every time?)`
+`ℹ️ CONFIRMED BY SUPERVISOR (Brendan):` **There is no fixed daily target dose (mg/L) for PACl/flocculant.** In his words: "the dose is going to change daily depending what they dump. So you're just going to have to play with it and wait until you see it flocc." Raw water composition varies day to day depending on what's been dumped into the system, so the dose is set by observation each time — watch for floc forming, not a fixed setpoint. This replaces the earlier open question about a fixed target.
 
 ---
 
@@ -218,11 +218,11 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 **Chemical:** Calcium hydroxide (Ca(OH)₂) — a strong alkaline (high pH) product  
 **Container — CONFIRMED BY OPERATOR (IMG_2803):** Blue 200L drum, staged inside the C Can. `⚠️ NOTE:` Hydrogen peroxide is also kept in blue 200L drums elsewhere on site (Section 5.7) — at the C Can, the blue drum is lime, not peroxide. Identify by location, not colour alone.
 
-**Dosing logic at the C Can — ⚠️ TWO STATEMENTS FROM THE OPERATOR THAT NEED RECONCILING:**
-1. Earlier: lime is added **conditionally** — only when the pH reading is below 8 (target pH 8+ is good for the coagulant; below 8 is not).
-2. Most recent: **"We pump the lime every time because the coagulant lowers the pH"** — i.e., lime is pumped every batch as a standing pre-treatment, since PACl coagulant is itself acidic (pH 2.2–2.8, Section 5.3) and will drag pH back down on its own.
+**Dosing logic at the C Can — ✅ RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):**
 
-These could both be true (pH usually reads low enough that lime ends up going in "every time" in practice) or the second statement could mean lime is now a fixed step regardless of the reading. **Ask directly: do you check the pH reading every time before deciding whether to add lime, or has it become a fixed step added to every batch?**
+Brendan's direct answer: **"Lime you only need to use if the pH is too low. If it's too low sometimes the chemicals won't work."**
+
+This confirms lime is **conditional on the pH reading**, not pumped on a fixed every-batch schedule. Earlier statements on this — one matching this conditional logic, and one saying "we pump the lime every time because the coagulant lowers the pH" — are reconciled this way: check pH every time, and add lime whenever that reading comes back below 8. In practice this may often look like "every time" if the pH is consistently low, but the decision point is the reading, not the clock — there is no fixed schedule independent of the pH check.
 
 ### What it does
 Lime raises pH. PACl coagulant works well at pH 8 and above, and is itself acidic — so without lime to counteract it, the coagulant would drag the water's pH down out of its own optimal range.

@@ -307,6 +307,9 @@ Backwash the sand filter when any of the following:
 **Equipment:**
 - **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from ambient air or oxygen supply. **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
 - **AERQUS Ozone Diffuser** — black box. Distributes ozone into the water stream.
+- **Manual output dial — CONFIRMED BY SUPERVISOR (Brendan, text message):** "There is a little dial on one [of the units] that you can turn to increase or decrease the amount." Supervisor said he's "never had issues" with the ozone machine and just plugs it in — he did not specify which unit (CD30TIX cabinet vs. AERQUS diffuser) the dial is on. `(still pending: which unit has the dial; what it's labelled/calibrated in)`
+
+`⚠️ UNRESOLVED — unit reading 0%:` Operator reported the ozone unit displaying **0%** and asked how to get it working. Supervisor's reply did not address what a 0% reading means or how to fix it — he only described the adjustment dial. **Do not assume 0% is normal. Confirm with supervisor: is 0% a real-time output reading (meaning no ozone is currently being generated) or a setpoint dial sitting at zero (meaning it just needs to be turned up)? Which unit shows this %?**
 
 **What ozone does:**  
 Ozone is a powerful oxidizer — much stronger than chlorine or hydrogen peroxide. In this system, it:
