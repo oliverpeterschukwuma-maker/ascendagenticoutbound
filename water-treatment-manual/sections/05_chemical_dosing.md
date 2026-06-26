@@ -239,9 +239,11 @@ This confirms lime is **conditional on the pH reading**, not pumped on a fixed e
 ### What it does
 Lime raises pH. PACl coagulant works well at pH 8 and above, and is itself acidic — so without lime to counteract it, the coagulant would drag the water's pH down out of its own optimal range.
 
+**Second function — CONFIRMED BY SUPERVISOR (Brendan, text message):** "If you add the lime it will force any metal ions dissolved to transform into solid particles that can be filtered out in the treatment process if you don't trust the ozone." This is a real, separate mechanism from pH-correction-for-coagulant: raising pH with lime can push dissolved metal ions (like iron) past their solubility limit, so they precipitate out as solid metal hydroxide particles that the filters can then catch — similar end result to what ozone/peroxide does by oxidation (Section 5.7), but via a pH shift instead of an oxidizing reaction. Brendan's framing suggests this is a backup/parallel pathway for metals removal, not a replacement for ozone.
+
 `⚠️ SAFETY:` Hydrated lime is caustic/corrosive — can burn skin and eyes, and the dust is a respiratory irritant. Don't handle without confirmed PPE.
 
-`(still needed: resolve conditional-vs-every-time above; exact dose/ratio of lime; SDS; PPE requirements; where the lime is stored/staged at the C Can)`
+`(still needed: exact dose/ratio of lime; SDS; PPE requirements; where the lime is stored/staged at the C Can)`
 
 ---
 
