@@ -263,7 +263,24 @@ Backwash the sand filter when any of the following:
 - Colour (brown/yellow tint) appears in the effluent
 - The vessel has been in service for its rated operational volume (*(confirm with supervisor)* — carbon life depends on hydrocarbon loading)
 
-`⚠️ WARNING:` Unlike a sand filter, you **cannot backwash carbon to restore capacity**. Once the carbon is saturated, the media must be physically removed and replaced with fresh carbon. Exhausted carbon is a regulated waste — dispose of through an approved waste contractor.
+`⚠️ WARNING:` Backwashing carbon does **not** restore its adsorption capacity. Once the carbon is chemically saturated (it's adsorbed all it can), no amount of backwashing brings that back — the media must be physically removed and replaced with fresh carbon. Exhausted carbon is a regulated waste — dispose of through an approved waste contractor. Backwashing below is a separate, routine maintenance step — see why below.
+
+### Backwash frequency — CONFIRMED BY OPERATOR
+**Backwash the carbon vessel every week.** This is separate from the 1.5-month check above: the weekly backwash is routine bed maintenance, not a check for exhaustion.
+
+`ℹ️ WHY (general principle):` Even though backwashing can't "recharge" spent carbon, it still matters — water flowing through a carbon bed over time packs fines and trapped solids into the same flow paths, the same channeling problem described for the sand filter (Section 6.4). A weekly backwash fluffs the bed back up, breaks up channels, and flushes out accumulated debris so the full bed surface stays in contact with the water — keeping the carbon that's still active working as effectively as possible until it's actually exhausted and needs replacing.
+
+### Backwash procedure (generic — confirm exact valve positions/timing with supervisor)
+`[ACTION]`
+1. Close the inlet (forward flow) valve.
+2. Close the outlet valve.
+3. Open the backwash drain valve.
+4. Open the backwash supply valve (clean water in from the bottom, up through the carbon bed, lifting and expanding it).
+5. Run until the backwash discharge runs clear of fines/debris.
+6. Close backwash valves, re-open inlet and outlet to return to normal operation.
+7. Record the backwash in the log: time, duration.
+
+`(still pending: exact valve layout on SRS-CV-15, target backwash duration, and whether a "ripening" period like the sand filter's is needed before sending flow forward again.)`
 
 ---
 
