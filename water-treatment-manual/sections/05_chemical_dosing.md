@@ -140,13 +140,18 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 - Over-dosing polymer is easy and wastes money. Start conservative at each point.
 - `(confirm with supervisor: exact dose split across the 3 points, and which pump/line feeds each one)`
 
-### Preparing the flocculant stock solution (per a former operator's account)
-`ℹ️ CONFIRMED:` Before injection, flocculant is mixed into a stock solution in a 200L tank — this matches the dry-mixing approach already documented for Flopham in Section 5.5, with specific numbers now confirmed:
+### Preparing the flocculant stock solution
 
-- **Ratio:** around 100g of flocculant per 200L of **clean water — NOT the water being treated** (confirmed by operator) — described as "half the scoop" from the white pail on site
-- **Add VERY slowly — sprinkle it in.** Adding too fast creates masses/clumps that will clog the chemical dosing pumps. This is the single most common way to cause a problem with this chemical.
-- **Mix for about 1 hour** after adding, to fully dissolve before use
-- This stock solution is then metered into the process indoors, right before the white settling tanks, alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle to the bottom of the tank
+`ℹ️ CONFIRMED BY CURRENT OPERATOR — 1000L tote batch:` In a tote (1000L total capacity):
+
+1. Add the **first 500L of clean water** (NOT the water being treated) to the tote.
+2. **Turn on the mixer.**
+3. Add the **1 kg of polymer** while adding the **second 500L of water** at the same time — pouring the water and polymer in together while mixing lets the polymer disperse instead of clumping.
+4. Keep mixing well until fully dissolved.
+
+`⚠️ DISCREPANCY — not yet reconciled:` A former operator's account (no longer treated as current) described a 200L batch at roughly 100g polymer per 200L (~500 mg/L). The current operator's 1000L/1kg ratio works out to **1000 mg/L — about double that concentration.** Until reconciled, use the current operator's 1kg-per-1000L-tote instructions above as the live procedure; the former operator's ratio is kept here only for reference.
+
+- This stock solution is then metered into the process alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle.
 
 ### Signs of under-dosing
 - Floc forms but stays small and slow to settle
