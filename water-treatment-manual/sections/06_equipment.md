@@ -326,11 +326,12 @@ Backwash the sand filter when any of the following:
 `ℹ️ POSITION IN THE PROCESS — TWO CONFLICTING ACCOUNTS:` Earlier photo-based notes placed ozone near the END of the process (after carbon, before chlorination). A former operator's direct account places it at the very BEGINNING of the indoor process — the first thing that happens to the water once it's pumped in, before any chemicals are added. **Confirm with your current supervisor which is actually true.** It changes how you think about what ozone is doing: oxidizing raw incoming contaminants (if first) vs. polishing already-treated water (if last).
 
 **Equipment:**
-- **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from ambient air or oxygen supply. **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
-- **AERQUS Ozone Diffuser** — black box. Distributes ozone into the water stream.
-- **Manual output dial — CONFIRMED BY SUPERVISOR (Brendan, text message):** "There is a little dial on one [of the units] that you can turn to increase or decrease the amount." Supervisor said he's "never had issues" with the ozone machine and just plugs it in — he did not specify which unit (CD30TIX cabinet vs. AERQUS diffuser) the dial is on. `(still pending: which unit has the dial; what it's labelled/calibrated in)`
+- **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from an oxygen feed gas (see AERQUS below). **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
+- **AERQUS — CORRECTED BY PHOTO (IMG_2823, IMG_2824):** This is **not** a diffuser. The unit is labelled **"AERQUS² — Reliable On-Site Oxygen"** — it's an **on-site oxygen generator/concentrator** that supplies oxygen feed gas to the CD30TIX. `ℹ️ WHY THIS MATTERS:` Corona-discharge ozone generators fed with pure oxygen (instead of ambient air) produce roughly double the ozone concentration for the same unit — this is almost certainly why this site can run 10% ozone gas. Earlier manual entries calling this a "diffuser" were wrong and are corrected here.
+- **AERQUS flow meter / adjustment knob — CONFIRMED BY PHOTO (IMG_2823):** This is the dial Brendan described ("a little dial on one that you can turn to increase or decrease the amount"). It's a rotameter-style flow meter, scale **0–20 SCFH** (standard cubic feet per hour), with a **−/+ knob** on the left side of the tube to adjust oxygen flow to the CD30TIX. Turning it up increases oxygen feed gas (and therefore ozone output); turning it down decreases it.
+- A small digital hour-meter display and a green indicator light also sit on the AERQUS panel — likely run-hours and power/status, not yet confirmed.
 
-`⚠️ UNRESOLVED — unit reading 0%:` Operator reported the ozone unit displaying **0%** and asked how to get it working. Supervisor's reply did not address what a 0% reading means or how to fix it — he only described the adjustment dial. **Do not assume 0% is normal. Confirm with supervisor: is 0% a real-time output reading (meaning no ozone is currently being generated) or a setpoint dial sitting at zero (meaning it just needs to be turned up)? Which unit shows this %?**
+`✅ LIKELY ROOT CAUSE OF THE "0%" READING — connects to the still-unresolved issue above:` If the AERQUS flow meter's float ball is sitting at or near **0 SCFH**, the CD30TIX has no oxygen feed gas reaching it — which would directly explain a 0% ozone output reading. **Check this flow meter ball position first.** If it's low/at zero, turn the −/+ knob up and watch whether the float rises and the ozone output reading responds. This is the most direct test available for the 0% issue — report back what the float reads and whether turning the knob changes the downstream ozone reading.
 
 **What ozone does:**  
 Ozone is a powerful oxidizer — much stronger than chlorine or hydrogen peroxide. In this system, it:
@@ -344,7 +345,7 @@ Ozone is a powerful oxidizer — much stronger than chlorine or hydrogen peroxid
 `[CHECK]`  
 - [ ] CD30TIX power indicator light is on
 - [ ] Pressure gauge on CD30TIX reads in normal range *(confirm target with supervisor)*
-- [ ] AERQUS diffuser is bubbling/working in the contact water
+- [ ] AERQUS flow meter float ball reads above 0 SCFH (oxygen is actually feeding the CD30TIX)
 - [ ] Faint ozone smell in the room — this is normal and confirms ozone is being generated
 - [ ] No alarm lights on either unit
 
