@@ -71,7 +71,8 @@
 ## 🆕🆕🆕🆕🆕 New Open Items — Brennan's Blue Bin Description
 
 - [x] **Blue bins run in series, gravity-fed — confirmed by Brennan.** One bin sits higher (or equal), gravity-feeds the other via 4" hose; 2" pump flow can't overflow it.
-- [x] **"Sea can" (C Can) chemical dosing station — CONFIRMED physically present, photo IMG_2802.** Shows the C Can (tan/white container, serial CPIU175014) hose-connected directly to the blue bin marked "NO GARBAGE." Still need: photo of the C Can interior (totes, pumps, flow switch) to confirm that part of Brennan's description too.
+- [x] **"Sea can" (C Can) chemical dosing station — CONFIRMED physically present, photo IMG_2802.** Shows the C Can (tan/white container, serial CPIU175014) hose-connected directly to the blue bin marked "NO GARBAGE."
+- [x] **C Can interior — CONFIRMED by photos IMG_2803, IMG_2805.** Two white drums (one labelled FLOCCULANT, 2nd not legible) + one blue drum, a dosing pump on a PVC manifold, and small tubing injection points tapping into the main pipe runs. Still need: 2nd white drum's chemical name, blue drum's role, and which pipe run is frac-tank inflow vs. weir-tank discharge.
 - [ ] **"Weir tanks" — likely just the blue bins' internal baffle plates, not a 3rd structure.** Confirm this reading with Brennan rather than assuming a new piece of equipment.
 - [ ] **Open tote at blue bin 2 discharge — confirm it's physically present**, or if the submersible pump is still just dropped directly into blue bin 2 as earlier documented.
 

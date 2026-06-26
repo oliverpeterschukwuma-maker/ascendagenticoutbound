@@ -94,7 +94,19 @@
 
 **What it does:** Houses the chemical dosing step (pH check, then lime if needed, then PACl coagulant + flocculant — see Section 5.6a) before water flows on to the blue bin/weir tank for settling.
 
-`(still needed: what's actually inside the C Can — totes, dosing pumps, flow switch — and a photo of the interior; confirm whether the discharge hose seen here is the only line in/out, or if there's a separate intake line from the frac tank)`
+`(still needed: confirm whether the discharge hose seen in IMG_2802 is the only line in/out, or if there's a separate intake line from the frac tank)`
+
+### Interior — CONFIRMED BY PHOTO (IMG_2803, IMG_2805)
+
+Inside the C Can:
+- **Two white 200L drums** with SUMAS labels, sitting side by side — one clearly labelled **"FLOCCULANT."** The second has a SUMAS label as well (exact chemical name not legible in photo — likely PACl coagulant, consistent with the dosing logic in Section 5.6a, but `needs confirmation`).
+- **One blue 200L drum** to the right, with a hose/tubing dipped into the top — role not yet confirmed (possibly the lime mix or a third stock solution).
+- A **blue diaphragm-style dosing pump** mounted on a horizontal grey PVC pipe manifold above the drums, feeding into two large horizontal PVC pipe runs along the wall.
+- An electrical control box and timer mounted on a plywood backing above the drums (red trays visible — possibly drip trays under fittings, not confirmed).
+- IMG_2805 shows the chemical injection detail: small clear tubing taps into the main PVC pipe runs through small fittings/check valves — this is where the dosing pump actually injects chemical into the flow line.
+- A spill kit / eyewash-style station is mounted on the wall to the right (red bottle, white wall-mounted box).
+
+`(still needed: confirm the 2nd white drum's chemical, the blue drum's role, and which pipe run is which — frac tank inflow vs. weir tank discharge)`
 
 ---
 
