@@ -42,6 +42,11 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 - **Pump speed/stroke adjustment:** if the dose itself needs to change, this is done by adjusting the **stroke rate and/or stroke length** on the relevant dosing pump (coagulant, flocculant, or lime) — not just by adding chemical by hand.
 - Operator is sending photos of the actual dosing pumps used to inject coagulant, flocculant, and lime at the C Can — once received, this section will be updated with pump make/model and where the stroke rate/length controls are on each one.
 
+`⚠️ RULE — CONFIRMED BY OPERATOR:` **Coagulant (PACl) dose must never be more than the flocculant dose.** Flocculant ≥ coagulant, always — never the other way around. Keep this in mind any time you're adding more of either one.
+
+### pH check during testing at the C Can
+While testing at the C Can, **check the pH of the water.** Operator will read out the pH value live — based on the target range in Section 5.1a (pH 8+ is good, below 8 is not), confirm whether the reading is off and what to do about it (add lime to bring it up to 8+, per Section 5.6a).
+
 `(still pending: photos of the 3 dosing pumps at the C Can; current stroke rate/length setting on each; what specific test result triggers a dose increase vs. a pump adjustment)`
 
 ---
