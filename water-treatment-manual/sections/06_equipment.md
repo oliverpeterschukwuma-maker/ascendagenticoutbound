@@ -81,7 +81,7 @@
 - **Frac tank → blue bin:** pump dropped into the frac tank, hose run to the blue bin
 - **Blue bin 1 → blue bin 2:** gravity-fed via 4" hose (see above) — no pump needed for this hop if elevation allows it
 - **Blue bin 2 → indoors (Tank 1 / Tank 2):** per Brennan, discharge lands in an **open tote** with a submersible pump inside, which then pumps water into the building `(confirm: is this open tote actually present on site, or is the pump currently dropped directly into blue bin 2 as earlier documented?)`
-- **Weir tank discharge — CONFIRMED BY OPERATOR:** a submersible pump sits at the opposite end of the weir tank from where the C Can hose feeds in, used to pump the water out once it's done settling (whether that pump sits inside an open tote, as Brennan described, is still unconfirmed).
+- **Weir tank discharge — CONFIRMED BY OPERATOR:** a **2-inch submersible pump** is placed **in the middle of the weir tank** (not too close to the floor — avoids the settled sludge; not too high — avoids the oil layer near the top) once the water has settled. It connects directly into the **intake pipe** running indoors. Ozone is turned on as the water flows through this intake pipe (see Section 6.7) — so this pump is also the trigger point for starting ozone treatment.
 - **Sludge at the weir tank — CONFIRMED BY OPERATOR:** settled sludge accumulates at the bottom of the weir tank and needs a **diaphragm pump** to remove it (thick sludge will clog/destroy a standard submersible pump — same reasoning as the AODD diaphragm pump already used for wet cell sludge, Section 6.12). `(confirm: is this the same AODD pump moved over from the wet cell, or a separate dedicated unit for the weir tank?)`
 
 `[CHECK]` Before starting any transfer:
@@ -327,7 +327,17 @@ Backwash the sand filter when any of the following:
 
 ## 6.7 Ozone System (AERQUS + CD30TIX)
 
-`ℹ️ POSITION IN THE PROCESS — TWO CONFLICTING ACCOUNTS:` Earlier photo-based notes placed ozone near the END of the process (after carbon, before chlorination). A former operator's direct account places it at the very BEGINNING of the indoor process — the first thing that happens to the water once it's pumped in, before any chemicals are added. **Confirm with your current supervisor which is actually true.** It changes how you think about what ozone is doing: oxidizing raw incoming contaminants (if first) vs. polishing already-treated water (if last).
+`✅ RESOLVED — CONFIRMED BY OPERATOR:` Ozone is the **first thing that happens once water leaves the weir tank and enters the building** — not a polishing step at the end. This confirms the former operator's account over the earlier photo-based guess that placed it after carbon.
+
+**Confirmed sequence at this transition:**
+1. Water finishes settling in the weir tank (blue bin).
+2. A **2-inch submersible pump** is placed **in the middle of the weir tank** — deliberately not too close to the floor (avoids sucking up settled sludge) and not too high (avoids the oil layer near the top).
+3. That pump connects to the **intake pipe** running indoors.
+4. **Ozone is turned on as the water flows through the intake pipe** — so ozone treats the water on its way in, before the bag filter and carbon vessel.
+
+`ℹ️ WHY pump placement matters:` The weir tank has settled sludge at the bottom and an oil layer near the top — the cleanest water is the middle layer. Placing the pump intake there pulls the best water and avoids re-suspending sludge or pulling in oil.
+
+`ℹ️ WHY ozone first:` This means ozone is oxidizing raw, just-settled water — breaking down hydrocarbons/iron and disinfecting before the bag filter and carbon vessel do their polishing. The carbon vessel is the deliberate backstop for whatever ozone doesn't fully catch (per Brendan, Section 6.7 below).
 
 **Equipment:**
 - **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from an oxygen feed gas (see AERQUS below). **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
