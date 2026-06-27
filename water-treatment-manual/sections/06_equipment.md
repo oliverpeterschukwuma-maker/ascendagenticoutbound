@@ -509,12 +509,28 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 
 **Appearance:** Silver/aluminum body with two large circular end caps, air exhaust port in the centre, bolted flange connections. Labeled "OUT" with handwritten note.
 
+**Likely make/model — identified via image lookup (IMG_2838), not yet confirmed off the physical nameplate:** ARO air-operated double-diaphragm pump, possibly model 6662A3-344-C — 2-inch fluid connections, polypropylene body, PTFE diaphragms. `(confirm against the actual nameplate next time you're at the pump — image-based ID can be wrong.)`
+
 **What it is:** An air-powered pump that uses two flexible diaphragms alternating back and forth to push liquid. No electric motor — runs on compressed air from the shop air supply.
 
 **What it's used for:** Pumping thick sludge and slurries that would destroy a standard centrifugal pump. The AODD can handle:
 - Wet cell sludge transfer to the filter press
 - Sludge from the settling ponds
+- **Weir tank sludge — confirmed need (Section 6.1a):** settled sludge at the bottom of the weir tank needs this pump, not a standard submersible, or it'll clog/destroy a regular pump
 - Any thick, gritty slurry
+
+### Using it to pump sludge into a tote
+`[ACTION]`
+1. Drop/position the suction hose into the sludge at the bottom of the tank you're clearing (weir tank, wet cell, or settling pond).
+2. Run the discharge hose into the tote you're collecting sludge in.
+3. Connect the air supply hose, open the air valve — pump starts cycling ("chunk-chunk-chunk").
+4. Increase air pressure to get a steady flow (up to ~100 psi max).
+5. Watch the source — once you're pulling mostly air/no more sludge coming up, the tank is as clear as this pump will get it. Close the air valve to stop.
+6. Disconnect hoses in reverse order.
+
+`ℹ️ How often:` No fixed daily schedule confirmed for this site — sludge removal is based on how much has actually built up, not a clock. Check visually (look at the bottom of the tank) at the start or end of your day; if there's a meaningful layer, pump it out. **Confirm with Brendan what frequency he actually wants** — daily, weekly, or "whenever you see it."
+
+`⚠️ Where the sludge goes — does NOT go back in the lagoon.` Sludge is settled-out solids and contaminants — exactly what you removed from the water on purpose. Putting it back into the lagoon defeats the treatment and would contaminate the disposal water again. The confirmed process for sludge from this system is: filter press dewaters it → solid filter cake goes out as **regulated waste through a licensed contractor** (Section 6.11) — not the lagoon. If you're filling a tote directly instead of running it through the filter press, **that tote's contents should follow the same regulated-waste route, not the lagoon — confirm this directly with Brendan before disposing of a full tote any other way.**
 
 ### How to operate an AODD pump
 `[ACTION]`  

@@ -79,6 +79,9 @@
 - [ ] **🆕 Exact lime product to order — not a confirmed commercial product.** Brendan says the bag on site "just says lime" with no brand specifics, confirmed as quicklime (CaO). When ordering through SUMAS (1-250-374-4151), ask for quicklime/calcium oxide matching what's currently stocked at the C Can — there's no specific SKU/brand confirmed to give them beyond that. Bag quantity to order depends on actual usage rate (how often pH comes in under 8) — ask Brennan for a typical weekly/monthly bag count rather than guessing.
 - [ ] **🆕 NTU meter — no model confirmed for this site yet.** Needed to actually run the turbidity checks documented in Section 4.3/6.2. Ask SUMAS what model they supply/recommend, since they're the equipment supplier — no specific brand has been confirmed for this site.
 - [ ] **🆕 Intake pipe valve and storage tank pipe valve — exact physical identity/location not confirmed.** Brendan said to open these before running the intake pump / before water reaches the storage tank, to keep pressure from sitting on the pipes (Section 6, Transfer Pumps). Confirm exact valves with him on site.
+- [ ] **🆕 AODD pump brand/model (IMG_2838) — identified via image lookup only, NOT a confirmed nameplate read.** Possibly ARO 6662A3-344-C, 2" connections. Confirm against the actual nameplate (Section 6.12).
+- [ ] **🆕 Where does a tote of sucked-out sludge actually go?** Confirmed process for filter-press sludge is regulated waste via licensed contractor, NOT the lagoon (Section 6.11/6.12). If sludge is being pumped directly into a tote (bypassing the filter press), confirm with Brendan that it still goes the regulated-waste route and not the lagoon.
+- [ ] **🆕 Sludge removal frequency — not confirmed.** No fixed daily schedule established; ask Brendan how often he wants sludge actually pumped out (daily / weekly / visual-judgment).
 
 ---
 
