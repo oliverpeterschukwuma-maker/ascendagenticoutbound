@@ -353,7 +353,7 @@ Backwash the sand filter when any of the following:
 - **The "down" pipe** — carries water from the weir tank, gets fed ozone along the way, and delivers it into the indoor settling bins.
 - **The "up" pipe** — once the water has settled in the indoor settling bins, a submersible pump pushes it through this pipe, on to the bag filter and carbon vessel.
 
-`(pending: operator is sending a photo of these two pipes — confirm exact physical identification/location once received.)`
+`⚠️ STILL OPEN:` Reviewed all 3 walkthrough videos (IMG_2791, IMG_2792, IMG_2748) frame-by-frame — found two bag/carbon-style filter housings (same design, different rooms) but couldn't conclusively trace which specific pipe is the "down" vs. "up" pipe due to motion blur in the footage. A close-up photo of the two pipes themselves (not the whole room) would resolve this.
 
 **Equipment:**
 - **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from an oxygen feed gas (see AERQUS below). **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
