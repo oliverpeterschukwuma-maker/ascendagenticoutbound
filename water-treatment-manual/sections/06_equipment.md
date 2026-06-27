@@ -196,13 +196,13 @@ If a pump has run dry or been disconnected, it needs priming:
 
 ## 6.4 Sand Filter (SRS-SF-11)
 
-`⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR:` Not in use until repaired (solenoid fault — see "Backwash control box" below; needs an electrician). **Water currently flows straight from settling to the bag filter and carbon vessel only — the sand filter step is skipped entirely**, not just running in a degraded state. Until repaired, the bag filter (Section 6.6) downstream is taking on the full solids load it wasn't designed to handle alone — watch it closely and change it more often while the sand filter is bypassed. **Flag this to your supervisor if it hasn't already been raised.**
+`✅ RESOLVED — NOT USED, CONFIRMED BY OPERATOR:` **"We don't use the sand filter."** This is the current, settled operating reality at this site — **water flows straight from settling to the bag filter and carbon vessel only**, and that's the normal process, not a temporary workaround. (Background, for context only: the vessel has a known solenoid fault on the backwash control box — see "Backwash control box" below — but fixing that is not treated as an active to-do here, since the sand filter step isn't part of how this site runs the train.) Because the sand filter step is skipped, the bag filter (Section 6.6) is taking on the full solids load it wasn't designed to handle alone — watch it closely and change it more often.
 
 **Appearance:** Green cylindrical pressure vessel(s) on a metal stand. Tagged "SRS-SF-11" (confirmed via close-up photo, IMG_2778, on a vessel with a multi-port control valve and actuator on top, plus a pump mounted below/beside it).
 
 `✅ RESOLVED — there really are two green vessels:` Photo IMG_2777 confirms two green cylindrical pressure vessels standing side by side, each with its own round bolted inspection/access hatch on the side, connected together by a shared pipe manifold across the top. This looks like a **duplex (twin) sand filter arrangement** — a common design where two vessels share the load, or one runs while the other is backwashed/serviced, or one is a standby spare for the other. Visible right next to them: the blue/white filter-press-looking unit (the one you said "we don't use") and a white bag at the base that's likely sand filter media stock (matches the Play Sand/Sakrete bags spotted near the H₂O₂ drums in earlier photos).
 
-`(confirm with supervisor: is this a true duplex setup where both vessels are meant to run, or is one of these two the vessel that's currently broken, with the other being the spare/backup? Which one is tagged SRS-SF-11 specifically — IMG_2778's multi-port valve head looks different from the simpler top connections on the pair in IMG_2777, so there may be a 3rd vessel, or IMG_2778 is a closer shot of one of the same two.)`
+`(low priority — sand filter isn't used at this site, so this is background curiosity rather than an open operational question: is this a true duplex setup where both vessels are meant to run, or was one of these two the vessel that failed, with the other being the spare/backup? Which one is tagged SRS-SF-11 specifically — IMG_2778's multi-port valve head looks different from the simpler top connections on the pair in IMG_2777, so there may be a 3rd vessel, or IMG_2778 is a closer shot of one of the same two.)`
 
 ### Backwash control box (Alex-Tronix Controls, Model F2AC/DC-D, Serial F2-04519)
 Confirmed via photo (IMG_2782, IMG_2783): a separate control timer box mounts near the vessel and automates the backwash cycle on the multi-port valve/actuator. Front panel has 3 timing dials (days between backwash, backwash duration in seconds, a third timed stage), alarm/dwell indicator lights, a digital backwash counter, and three buttons — **MANUAL START/ADVANCE**, **COUNTER RESET**, **ALARM RESET** — plus a **POWER** switch and a **1.6 AMP output fuse**.
@@ -219,7 +219,9 @@ Confirmed via photo (IMG_2782, IMG_2783): a separate control timer box mounts ne
 - **Water must be actively flowing through the vessel for the backwash cycle to work** — the cycle is meant to be triggered while water is running through the filter, not with flow stopped.
 - A correctly-working cycle should produce **an audible click** as the **bottom valve** closes, plus visible/audible actuation of the **small grey solenoids with black tubing** coming out of them (these solenoids are the actual valve actuators — distinct from the Alex-Tronix timer board itself, which only sends the signal).
 - Brennan's assessment: **the grey solenoids themselves are most likely the failed component**, not the timer board (consistent with the timer board's logic/counter working fine in earlier testing, but nothing physically moving at the valve).
-- Brennan does not know how to repair the solenoids — at his previous site (Burnaby plant) this was handled by **bringing in an electrician**. Recommend the same here: this is now narrowed down enough to hand directly to an electrician (replace/test the grey solenoids and black tubing) rather than general troubleshooting.
+- Brennan does not know how to repair the solenoids — at his previous site (Burnaby plant) this was handled by **bringing in an electrician**.
+
+`ℹ️ NOTE:` This diagnostic background is kept for reference only — since the sand filter isn't used at this site (see top of Section 6.4), getting an electrician in to fix the solenoids is not an active task. If that ever changes, this is where troubleshooting left off.
 
 **What it does:** Pressurized filtration through a bed of graded sand. Water flows down through the sand, which traps iron hydroxide particles, fine suspended solids, and any remaining floc.
 
@@ -257,7 +259,7 @@ Backwash the sand filter when any of the following:
 
 **Appearance:** Blue cylindrical pressure vessel, "PV SERIES" label, tagged "SRS-CV-15". Sits on a wooden pallet. **Maximum working pressure: 75 PSIG** (marked on the vessel — never exceed this). Matches photo IMG_2796 (yellow "...SERIES" tag visible, hose fitting at base, mounted against the wood-stud wall).
 
-`ℹ️ CONFIRMED — currently in active use:` operator confirms the sand filter is bypassed (Section 6.4), so water currently flows straight from settling to the **bag filter, then this carbon vessel** — this is one of the two filtration steps the water actually sees right now.
+`ℹ️ CONFIRMED — currently in active use:` the sand filter isn't used at this site (Section 6.4), so water flows straight from settling to the **bag filter, then this carbon vessel** — this is one of the two filtration steps the water actually sees.
 
 **What it does:** Activated carbon adsorption. The vessel is filled with granular activated carbon (GAC) — a highly porous material with enormous surface area. Dissolved petroleum hydrocarbons, colour compounds, and odour-causing organics bind to the carbon surface as water passes through.
 
@@ -306,9 +308,9 @@ Backwash the sand filter when any of the following:
 - Pre-filter bags: LHFSPE100PJNBW (100 micron) — removes larger particles
 - Polishing bags: LHFSPE10PJNBW (10 micron) — removes fine particles
 
-`ℹ️ CONFIRMED — currently in active use:` operator confirms the sand filter is bypassed (Section 6.4), so this bag filter is currently the **first** filtration step the water hits, ahead of the carbon vessel (Section 6.5) — carrying the full solids load alone. Check/change bags more often than usual until the sand filter is repaired.
+`ℹ️ CONFIRMED — currently in active use:` the sand filter isn't used at this site (Section 6.4), so this bag filter is the **first** filtration step the water hits, ahead of the carbon vessel (Section 6.5) — carrying the full solids load alone. Check/change bags more often as a result.
 
-**What it does:** Acts as a safety screen — its job is making sure no dirt reaches the carbon vessel (Section 6.5) downstream. The 100-micron bag catches coarse particles; the 10-micron bag polishes the rest. `ℹ️ ORDER CORRECTION:` A former operator placed this filter **before** the carbon vessel (sand filter → bag filter → carbon vessel), not after it as earlier photo-based notes suggested. Carbon can't be backwashed or easily cleaned (see Section 6.5), so protecting it with a filter ahead of it makes more sense than filtering after it — treat the bag filter→carbon order as the current best understanding until confirmed otherwise. **While the sand filter (Section 6.4) is broken, this bag filter is your main line of defense before the carbon vessel — check and change bags more frequently.**
+**What it does:** Acts as a safety screen — its job is making sure no dirt reaches the carbon vessel (Section 6.5) downstream. The 100-micron bag catches coarse particles; the 10-micron bag polishes the rest. `ℹ️ ORDER CORRECTION:` A former operator placed this filter **before** the carbon vessel (sand filter → bag filter → carbon vessel), not after it as earlier photo-based notes suggested. Carbon can't be backwashed or easily cleaned (see Section 6.5), so protecting it with a filter ahead of it makes more sense than filtering after it — treat the bag filter→carbon order as the current best understanding until confirmed otherwise. **Since the sand filter (Section 6.4) isn't used, this bag filter is the main line of defense before the carbon vessel — check and change bags more frequently.**
 
 ### How to change a filter bag
 `[ACTION]`  
