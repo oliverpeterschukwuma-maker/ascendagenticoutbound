@@ -98,7 +98,7 @@ SITE WATER (stormwater, process water, groundwater)
 ### Section A — Outdoor: Pond → Oil/Water Separator → Frac Tanks
 
 1. **Open pit/pond.** Raw dirty water collects here first. It just sits — oil floats (it's lighter than water), solids sink. No equipment, gravity does the work.
-2. **Oil/Water Separation Cell.** Floating oil is skimmed off and disposed of as waste — it never reaches the clean side. **A bit of flocculant (CL-200 polymer) is added here too** — the first of the dosing points, so particles already start clumping this early.
+2. **Oil/Water Separation Cell.** A concrete, two-sided channel — one side holds the water, the other side holds the oil that's separated out (shows up as a dark maroon/red liquid, easy to tell apart from the water side at a glance). Floating oil is skimmed off and disposed of as waste — it never reaches the clean side. **A bit of flocculant (CL-200 polymer) is added here too** — the first of the dosing points, so particles already start clumping this early.
 3. **Frac Tanks** (large portable steel tanks, ~100,000 L each, borrowed from the oil/gas industry). More settling time. Clearer water is drawn off the middle/below; oil and solids stay behind. Tanks are labelled clean / dirty / in treatment — know what's in each one before you move anything.
 
 `ℹ️ WHY THIS ORDER:` Oil has to come out first — it's toxic to discharge and fouls everything downstream. Starting the floc dose this early means you're not waiting until indoors to begin clumping fine particles.
