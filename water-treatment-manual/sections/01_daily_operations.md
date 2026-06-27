@@ -152,6 +152,17 @@ Record everything you observe, normal or not.
 
 ---
 
+## 1.6a Log Sheet Columns (Site-Specific)
+
+`ℹ️ Built from confirmed site procedure — use these columns going forward:`
+
+| Date | Time | Operator | Sample point (C Can / weir tank / bag filter / carbon vessel / storage tank) | pH | NTU | Lime added? (Y/N + bags) | PACl added (amount or stroke setting) | Flocculant added (amount or stroke setting) | Intake pipe valve opened? | Storage tank valve opened? | Ozone pressure / AERQUS flow OK? | Observations / issues | Action taken |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+`ℹ️ WHY these columns:` pH and NTU are your two real test numbers at this site (Section 4.3). Lime/PACl/flocculant columns track what was actually dosed, since the dose changes daily by observation, not a fixed number. The two valve columns exist because forgetting to open them lets pressure sit on the pipes (Section 6.1a). The equipment column catches ozone/AERQUS problems early. Observations + action taken is what makes the log useful to the next person, not just a list of numbers.
+
+---
+
 ## 1.6 Sample Logbook Entry
 
 ```

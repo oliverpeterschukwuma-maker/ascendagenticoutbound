@@ -38,6 +38,8 @@
 
 **What NTU should this water be?** There's no separate, stricter turbidity spec for dust control — it's a non-discharge reuse, not a permitted release to the environment, so the discharge-permit turbidity limit (Section 3/4, still pending from supervisor/SUMAS) doesn't apply here. By the time water reaches the storage tank it has already passed through the bag filter and/or carbon vessel — the same NTU reading checked at that outlet (Section 4.3) is what you'd expect in the tank. Practically, for dust control the only real requirement is staying low enough turbidity that it doesn't clog the spray nozzles/pump — there's no compliance number to hit. `(if you take an actual NTU reading from the tank, log it here so we have a real baseline instead of an estimate.)`
 
+`ℹ️ PRACTICAL TARGET (general judgment, not a confirmed site number):` Given there's no permit limit and the main risk is nozzle clogging, **aim for under 10 NTU** — visually clear with no cloudiness. If a reading comes back higher than that: don't send the water on yet. First check whether the weir tank actually finished settling (give it more time if floc is still visibly suspended), then check the dose (more coagulant/flocculant if floc is weak), then check the bag filter for loading (change if it's been sitting near its 1–2 week limit). Re-test after whichever fix applies before calling the batch done.
+
 `[CHECK]` Each shift:
 - [ ] Water level in each tank (visual from ladder or sight glass — *(confirm method)*)
 - [ ] Tank status label current (clean / dirty / in treatment)
@@ -87,6 +89,8 @@
 - [ ] Hose is connected securely at both ends, no kinks
 - [ ] Destination tank has room for the incoming volume
 - [ ] Pump is fully submerged before powering on (running dry can damage it)
+
+`⚠️ VALVE SEQUENCING — CONFIRMED BY SUPERVISOR:` Open the **intake pipe valve** before turning on the submersible intake pump that pushes the weir tank water indoors, and open the **storage tank pipe valve** before water actually reaches the storage tank stage at the end of the process. Reason given: starting a pump against a closed valve lets pressure build up and sit on the pipe with nowhere to go. `(still needed: exact physical location/identity of each valve — confirm with Brennan next time you're there.)`
 
 `ℹ️ WHY:` Because the same pumps move between locations, always confirm which tank a pump is currently sitting in and where its hose is routed before assuming a transfer is happening automatically — nothing runs continuously here; every transfer is a deliberate, set-up step. `(confirm exact pump model/spec with supervisor)`
 

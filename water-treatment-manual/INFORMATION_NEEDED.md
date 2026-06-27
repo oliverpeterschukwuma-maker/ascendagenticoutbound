@@ -75,6 +75,10 @@
 - [ ] **More info and pictures promised tomorrow** — resume mapping this once received.
 - [x] **Turbidity (NTU) check point confirmed by operator: bag filter and/or carbon vessel outlet** — not a sand filter effluent, since the sand filter is bypassed (see Section 4.3, 6.5, 6.6).
 - [ ] **Diaphragm pump needed for weir tank sludge — CONFIRMED BY OPERATOR.** Settled sludge at the bottom of the weir tank needs a diaphragm pump to remove (Section 6.1a). Confirm: same AODD pump as the wet cell (Section 6.12), or a separate unit?
+- [ ] **🆕 Hose for the black "Patron" submersible pump (IMG_2830) — still needed.** Check the nameplate or measure the threaded outlet OD to get the right size (Section 6, Transfer Pumps). Buy once size is confirmed.
+- [ ] **🆕 Exact lime product to order — not a confirmed commercial product.** Brendan says the bag on site "just says lime" with no brand specifics, confirmed as quicklime (CaO). When ordering through SUMAS (1-250-374-4151), ask for quicklime/calcium oxide matching what's currently stocked at the C Can — there's no specific SKU/brand confirmed to give them beyond that. Bag quantity to order depends on actual usage rate (how often pH comes in under 8) — ask Brennan for a typical weekly/monthly bag count rather than guessing.
+- [ ] **🆕 NTU meter — no model confirmed for this site yet.** Needed to actually run the turbidity checks documented in Section 4.3/6.2. Ask SUMAS what model they supply/recommend, since they're the equipment supplier — no specific brand has been confirmed for this site.
+- [ ] **🆕 Intake pipe valve and storage tank pipe valve — exact physical identity/location not confirmed.** Brendan said to open these before running the intake pump / before water reaches the storage tank, to keep pressure from sitting on the pipes (Section 6, Transfer Pumps). Confirm exact valves with him on site.
 
 ---
 
