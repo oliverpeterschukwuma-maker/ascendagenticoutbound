@@ -135,7 +135,7 @@ Inside the C Can:
 
 The baffled partitions divide the flow path into compartments, forcing water to travel a longer path and giving solids more time to settle.
 
-**What they do:** Secondary settling after chemical dosing. Floc formed by PACl and polymer settles to the floor. The sludge accumulates here and must be periodically removed.
+**What they do:** Secondary settling — but `✅ CONFIRMED BY OPERATOR:` this is also where water lands right after ozone treatment (Section 6.7), not just after chemical dosing. Sequence: weir tank (outdoor blue bin) → ozone-fed via the "down" pipe → these settling bins, to settle further → submersible pump pushes it out via the "up" pipe → bag filter → carbon vessel. Floc formed by PACl and polymer settles to the floor here. The sludge accumulates and must be periodically removed.
 
 `[CHECK]` Each shift:
 - [ ] Water level — is it at the normal operating level?
@@ -338,6 +338,13 @@ Backwash the sand filter when any of the following:
 `ℹ️ WHY pump placement matters:` The weir tank has settled sludge at the bottom and an oil layer near the top — the cleanest water is the middle layer. Placing the pump intake there pulls the best water and avoids re-suspending sludge or pulling in oil.
 
 `ℹ️ WHY ozone first:` This means ozone is oxidizing raw, just-settled water — breaking down hydrocarbons/iron and disinfecting before the bag filter and carbon vessel do their polishing. The carbon vessel is the deliberate backstop for whatever ozone doesn't fully catch (per Brendan, Section 6.7 below).
+
+`✅ CONFIRMED BY OPERATOR — what happens right after ozone:` Ozone-fed water doesn't go straight to the bag filter. It first goes into the **indoor settling bins/wet cell** (Section 6.2a) to settle further. Two pipes are involved at this transition:
+
+- **The "down" pipe** — carries water from the weir tank, gets fed ozone along the way, and delivers it into the indoor settling bins.
+- **The "up" pipe** — once the water has settled in the indoor settling bins, a submersible pump pushes it through this pipe, on to the bag filter and carbon vessel.
+
+`(pending: operator is sending a photo of these two pipes — confirm exact physical identification/location once received.)`
 
 **Equipment:**
 - **CD30TIX Ozone Generation System** — stainless steel cabinet with pressure gauge. Generates ozone (O₃) from an oxygen feed gas (see AERQUS below). **Gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.**
