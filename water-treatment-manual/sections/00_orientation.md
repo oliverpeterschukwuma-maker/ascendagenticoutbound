@@ -18,7 +18,7 @@ The source water is not river or lake water — it is water that has been in con
 | pH imbalance (too high or too low) | Affects chemical treatment steps; affects downstream ecology |
 | Fine silts and colloidal particles | Too small to settle on their own — need coagulants and flocculants to clump together |
 
-**The goal:** treated water clear enough to be trucked/transferred to the lagoon for disposal, or reused on site (e.g., dust control). **Note — CONFIRMED BY SUPERVISOR (Brendan):** This site does **not have a permit to discharge to the drain.** That's the reason treated water goes to holding tanks and then is carried to a lagoon instead of a permitted point-source outfall — see Section 0.5 and the discharge step below. The "discharge permit" framing used elsewhere in this manual reflects general industrial water treatment practice and still needs reconciling against this site's actual (permit-less, lagoon-based) reality.
+**The goal:** treated water clear enough to be trucked/transferred to the lagoon for disposal, or reused on site (e.g., dust control). **Note — CONFIRMED BY SUPERVISOR (Brendan):** This site does **not have a permit to discharge to the drain.** That's the reason treated water goes to holding tanks and then is carried to a lagoon instead of a permitted point-source outfall — see Section 0.5 and the discharge step below.
 
 `ℹ️ WHY GETTING IT CLEAR STILL MATTERS:` In Brendan's words: **"The main focus is getting the water clear."** Even without a drain-discharge permit driving hard numeric limits, clarity is still the operational target — partly because the carbon vessel at the end of the line "will grab anything [ozone/upstream steps don't]," so getting the water visually clear upstream protects that last line of defense, and partly because clear water is what the lagoon/dust-control reuse actually needs.
 
@@ -26,24 +26,19 @@ The source water is not river or lake water — it is water that has been in con
 
 ## 0.2 The Treatment Train (Overview)
 
-`🆕 IN PROGRESS — newest account, directly from the operator learning the system in real time (not yet fully reconciled with the diagram below):`
-> Oil/water cell → frac tank (settles) → pumped to the **"C Can"** (= the sea can — **confirmed to physically exist on site**) → inside the C Can, lime (TEXLOME High Calcium Hydrated Lime) is added to bring pH up to 8+ (good for the coagulant — below 8 is not) — **confirmed by supervisor: lime is only used if the pH is too low, it is not pumped every batch regardless of the reading (see Section 5.6a)** — before PACl coagulant + flocculant go in → flows to the **weir tank, which IS one of the blue bins — only 1 blue bin is currently in use**, not 2 → settles in the weir tank/blue bin → pumped out to the intake pump → **ozone** injected → *(steps after this are still being confirmed)*.
->
-> This differs from the diagram below in two important ways that still need reconciling: **(1)** chemical dosing here happens at the C Can, before the blue bin/weir tank stage — not "indoors near the white tanks" as currently documented in step [7]; **(2)** only **one** blue bin is in current use, not both. Treat this account as the most current/authoritative until the rest of the sequence (post-ozone) is confirmed and the diagram is rebuilt around it.
-
-Water moves through this system in a series of steps. Each step removes something — think of it as a series of increasingly fine sieves. Here is the flow from raw contaminated water to treated water ready for discharge or storage:
+`✅ CONFIRMED — current, live process`
 
 ```
 SITE WATER (stormwater, process water, groundwater)
       │
       ▼
-[1] OUTDOOR RETENTION / SETTLING PONDS
+[1] OPEN POND
     (gravity pre-settling — heavy solids sink, oil floats)
       │
       ▼
 [2] OIL / WATER SEPARATION CELL
-    (petroleum floats and is separated from water)
-    (FLOCCULANT added here — chemical dosing starts this early, not just indoors)
+    (oil skimmed off as waste)
+    (FLOCCULANT dosed here — 1st dosing point)
       │
       ▼
 [3] FRAC TANKS (outdoor storage/settling)
@@ -51,114 +46,182 @@ SITE WATER (stormwater, process water, groundwater)
      clearer water is drawn off from below)
       │
       ▼
-[4] BLUE SEPARATOR BINS — outdoor, 2 units (Section 6.1a)
-    (steel baffled bins — final outdoor polishing separation before
-     water is pumped indoors)
-    (FLOCCULANT added again here — 2nd of 3 dosing points)
+[4] C CAN (chemical dosing station)
+    Check pH → if below 8, add LIME (quicklime/CaO) →
+    add PACl COAGULANT → add FLOCCULANT (≥ coagulant dose, always)
       │
       ▼
-[5] INTAKE PUMP (submersible) → pumped indoors
+[5] WEIR TANK / BLUE BIN (only 1 in use)
+    (settles — visual check: as clear as tap water)
       │
       ▼
-[6] OZONE TREATMENT (AERQUS diffuser + CD30TIX generator)
-    (FIRST thing that happens once water is pumped indoors — per a former
-     site operator's account. Ozone breaks down organic and inorganic
-     contaminants before any chemicals are added.)
+[6] OZONE ON, then SUBMERSIBLE PUMP starts (in that order)
+    (pump pulls water mid-depth into the intake pipe;
+     ozone injected into the water as it travels that pipe indoors)
       │
       ▼
-[7] CHEMICAL DOSING — PACl coagulant + flocculant injected
-    (added just before the white settling tanks; this is the 3rd
-     flocculant dosing point, on top of the 2 outdoor points above.
-     Stock solutions are mixed in 200L tanks — see Section 5 for exact
-     ratios — then metered in by dosing pump.)
+[7] INDOOR SETTLING BINS / WET CELL
+    (settles again — same visual check)
       │
       ▼
-[8] SETTLING TANK / WET CELL (Section 6.2a — baffled, NOT the white cylindrical
-    storage tanks in Section 6.2, which is a separate piece of equipment)
-    (gravity settling — coagulant + flocculant cause contaminants and
-     dirt to clump and sink to the bottom of the tank)
+[8] BAG FILTER
+    (sand filter is NOT used at this site — this is the first
+     filtration step the water actually hits)
       │
       ▼
-[9] SAND FILTER (SRS-SF-11 — green pressure vessel)
-    ⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR. Not in use until repaired
-    (see Section 6.4 — solenoid fault, needs an electrician). Water currently
-    skips this step entirely and goes straight from settling to the bag filter.
-    Needs periodic backwash and periodic sand replacement once back in service.
+[9] CARBON VESSEL (SRS-CV-15)
+    (activated carbon — last line of defense for dissolved
+     fuel smell/colour)
       │
       ▼
-[10] BAG FILTER HOUSING (blue cartridge housing)
-    (CURRENTLY the first filtration step while the sand filter is bypassed —
-     normally a safety screen behind the sand filter, now carrying its full load)
+[10] STORAGE TANKS (Tank 1 / Tank 2)
+    (also used on-site for dust control)
       │
       ▼
-[11] CARBON VESSEL (SRS-CV-15 — blue PV Series vessel, "the blue vessel")
-    (activated carbon adsorbs dissolved petroleum hydrocarbons; loses
-     effectiveness as it gets dirty/saturated)
-      │
-      ▼
-DISCHARGE → HOLDING TANKS → trucked/transferred to lagoon for disposal
+[11] DISCHARGE → LAGOON
+    (a little extra flocculant added here too; trucked/transferred —
+     no permit to discharge to a drain at this site)
                     │
-                    ▼ (parallel process)
+                    ▼ (parallel process, not part of the main line)
               SLUDGE MANAGEMENT
-              (sludge builds up in every settling step;
-               Kontek filter press status unconfirmed — see Section 6.11)
+              (AODD diaphragm pump → Kontek filter press)
 ```
-
-`ℹ️ NOTE — TWO SOURCES, NOT FULLY RECONCILED YET:` Steps [2]–[6] (oil separation cell → frac tanks → 2 outdoor blue bins → intake pump → indoors) were confirmed directly by the current site operator. Steps [6]–[11] (ozone first, then chemical dosing, settling, sand filter, bag filter, carbon vessel, discharge to lagoon) come from a **former operator's** detailed account and visibly conflict with what was documented earlier from photos — most notably: **ozone is now placed first indoors instead of near the end**, and **chlorination (Accu-Tab) and hydrogen peroxide dosing were not mentioned at all** in this account. It's possible those steps were removed, were never really used, or were just left out of a "without going in depth" summary. **Confirm with Brennan/Rob/Glen** whether peroxide and chlorination are still part of the live process before you rely on this order being complete.
 
 ---
 
-## 0.2a Plain-English Walkthrough — How This System Actually Works
+## 0.2a Plain-English Walkthrough — How This System Actually Works, Section by Section
 
-> Read this if the diagram above and the equipment sections feel overwhelming. This is the same information, told as one continuous story, with every term defined the first time it's used. Some details below are still unconfirmed — they're marked clearly so you know what to double check with your supervisor.
+> `✅ This is the current, confirmed, live process.` Read this top to bottom for the whole picture. Photo requests are listed at the end of each section — send what you can, when you can, so each section can be checked against what's actually on site.
 
-**Mostly gravity outdoors — but flocculant starts early:**
+---
 
-1. **Open pit/pond.** Raw dirty water collects here first — dark water, often an oily film on top. It just sits, and because oil is lighter than water, it floats; because solids are heavier, they sink. No equipment needed for this — gravity does the work.
-2. **Oil/Water Separation Cell.** A vessel built to make that floating/sinking happen efficiently. The floating oil is skimmed off and disposed of as waste — it never reaches the clean side. `ℹ️ CONFIRMED:` This is also the **first of three points** where **flocculant** (polymer — CL-200) is added on this site. Flocculant acts like a net, bundling tiny stuck-together particles into bigger, heavier clumps called **floc** — big enough to settle out instead of drifting in the water. Starting this here means floc is already forming before the water even reaches the frac tanks.
-3. **Frac Tanks** *(frac tank = a large portable steel storage tank, borrowed from the oil/gas industry)*. More settling time outdoors. The clearer water in the middle of the tank is drawn off to continue; oil and solids stay behind.
-4. **Two Blue Separator Bins.** Steel bins with **baffles** inside *(baffle = an internal divider wall that forces water to take a longer zig-zag path instead of flowing straight through)*. This gives any remaining oil and grit more time and surface area to separate out — the last outdoor cleanup step. `ℹ️ CONFIRMED:` Flocculant is dosed again here — the **second of three points** — to keep building floc as the water gets jostled through the baffles and pumped onward.
-5. **Transfer Pumps — how water actually moves between outdoor tanks.** It's easy to assume every tank has its own pump built in, like a sink has its own tap. **It doesn't.** This site only has a small number of pumps, and operators carry them to wherever they're needed next.
+### Section A — Outdoor: Pond → Oil/Water Separator → Frac Tanks
 
-   A **submersible pump** is a single sealed unit — the motor and the pump are built together inside one waterproof housing, so the whole thing can sit fully underwater while running (unlike a pump that stays on dry ground and sucks water up through a pipe). It has one power cord and one hose connection.
+1. **Open pit/pond.** Raw dirty water collects here first. It just sits — oil floats (it's lighter than water), solids sink. No equipment, gravity does the work.
+2. **Oil/Water Separation Cell.** Floating oil is skimmed off and disposed of as waste — it never reaches the clean side. **A bit of flocculant (CL-200 polymer) is added here too** — the first of the dosing points, so particles already start clumping this early.
+3. **Frac Tanks** (large portable steel tanks, ~100,000 L each, borrowed from the oil/gas industry). More settling time. Clearer water is drawn off the middle/below; oil and solids stay behind. Tanks are labelled clean / dirty / in treatment — know what's in each one before you move anything.
 
-   Here's how a transfer actually happens, step by step:
-   1. An operator carries the pump to the tank that needs to be **emptied** (the "source" tank).
-   2. The pump is lowered in until it's fully underwater — running it dry can damage it.
-   3. A hose is connected from the pump's outlet to the tank that needs to **receive** the water (the "destination" tank).
-   4. The pump is switched on; water moves through the hose from source to destination.
-   5. When the transfer is done, the pump is switched off, pulled out, and carried to wherever it's needed next.
+`ℹ️ WHY THIS ORDER:` Oil has to come out first — it's toxic to discharge and fouls everything downstream. Starting the floc dose this early means you're not waiting until indoors to begin clumping fine particles.
 
-   On this site, the same pumps do double duty:
-   - **Frac tank → Blue bin:** pump goes into a frac tank, hose runs to a blue bin.
-   - **Blue bin → indoors:** the same style of pump goes into a blue bin, hose runs into the building.
+📸 **Send photos of:** the pond, the oil/water separator, and the frac tanks (with their clean/dirty/in-treatment labels if visible).
 
-   `ℹ️ WHY THIS MATTERS:` Because nothing here is permanently plumbed together, water never moves on its own — it only moves when someone has physically set up a pump and hose for that specific transfer. Before assuming water is flowing somewhere, always check: is a pump actually sitting in a tank right now, and where does its hose go?
+---
 
-**Now the heavier treatment indoors — per a former operator's account (see note below):**
+### Section B — How Water Actually Moves (no fixed pipes)
 
-6. **Ozone — the FIRST thing that happens once water is pumped indoors.** Ozone gas (O₃) is a strong oxidizer that breaks down organic contaminants (like hydrocarbons) and inorganic contaminants (like dissolved iron) before any chemicals are even added. `ℹ️ CONFLICTS WITH EARLIER NOTES:` Photos earlier suggested ozone happened near the very end of the process, right before chlorination. A former operator's direct account places it here instead, first thing indoors. Confirm with your current supervisor which is actually correct — it's possible the order changed over time, or one account is incomplete.
-7. **Chemical dosing — coagulant and flocculant, injected right before the white settling tanks.** This is the same two chemicals from before:
-   - **PACl coagulant** — neutralizes the electrical charge keeping fine particles apart so they can stick together (**coagulation**).
-   - **Flocculant** — this is the **third** dosing point (after the oil cell and the blue bins outdoors) — nets the stuck-together particles into bigger floc (**flocculation**).
-   - Both are prepared as **stock solutions** in 200L mixing tanks before being metered into the flow — see Section 5 for the exact mixing ratios (2 bags of dry PACl per 200L; about 100g of flocculant per 200L, added very slowly).
-8. **Settling Tank / Wet Cell.** This is where gravity finally takes over again — the coagulant and flocculant have caused contaminants and dirt to clump together, and those clumps settle to the bottom of the tank. `ℹ️ CONFIRMED:` This is a baffled tank, separate and distinct from the two big white cylindrical tanks in Section 6.2 — those are storage tanks only, not where settling happens. `ℹ️ WHY:` You may need to adjust the chemical dosing pump settings to get this right, but you should be able to SEE it working — clear water on top, sludge settling below.
-   - `❓ STILL UNCONFIRMED:` Earlier notes mentioned hydrogen peroxide added here too (a second oxidizer, for dissolved iron). Not mentioned in the former operator's account — confirm whether peroxide dosing still happens.
+Nothing between outdoor tanks is permanently plumbed. A **submersible pump** (motor + pump sealed in one waterproof housing) is physically carried to whichever tank needs to be emptied, dropped in fully underwater, and a hose is run to the tank that needs to receive the water. Same pump style does double duty: frac tank → blue bin, and blue bin → indoors.
 
-**Filtering out everything the chemistry created:**
+`ℹ️ WHY THIS MATTERS:` Before assuming water is flowing somewhere, check — is a pump actually sitting in a tank right now, and where does its hose go? Nothing moves on its own here.
 
-9. **Sand Filter (SRS-SF-11).** A pressure tank full of sand. Water is pushed down through it; the sand traps larger debris and the floc clumps made in step 7 — like a coffee filter for rust. `⚠️ CURRENTLY BYPASSED — CONFIRMED BY OPERATOR.` Not in use right now (solenoid fault — see Section 6.4, needs an electrician). **While bypassed, water flows straight from settling to the bag filter and carbon vessel only.** Even when working, sand filters need two kinds of maintenance: **backwashing** (reversing the flow periodically to break up the channels the water carves through the sand over time, which otherwise let water sneak through without being filtered) and **full sand replacement** every so often as the sand gets dirty.
-10. **Bag Filter.** Normally a safety net whose only job is making sure no dirt reaches the carbon vessel next. **Right now, with the sand filter bypassed, this is the first filtration step the water sees** and is carrying the full solids load alone — check/change this filter more often than usual until the sand filter is back in service.
-11. **Carbon Vessel (SRS-CV-15, "the blue vessel").** Sand and bag filters can't catch *dissolved* fuel smell and color (dissolved = mixed into the water like sugar, not filterable). **Activated carbon** is riddled with microscopic pores giving it huge surface area; dissolved hydrocarbons stick to that surface as water flows through (called **adsorption**). If the carbon gets dirty/saturated, it stops working properly and needs to be changed out.
-12. **Discharge to holding tanks → lagoon.** Treated water goes to holding tanks, then is trucked or transferred to a lagoon for final disposal. **CONFIRMED BY SUPERVISOR (Brendan):** this is because the site has no permit to discharge to the drain — the lagoon route is the workaround, not a permitted point-source outfall.
+---
 
-`ℹ️ OPERATING PHILOSOPHY — worth remembering:` "Make sure the flow coming in isn't too much or there won't be enough time for settling. It's all a balancing process because they never really made a proper treatment facility." This site runs on careful adjustment, not a fully automated/engineered system — watching, adjusting, and using judgment at every step is the actual job.
+### Section C — The C Can: Making and Adding the Chemicals
 
-**Running the whole time, off to the side:** every settling step above (ponds, frac tanks, blue bins, wet cell) builds up **sludge** (thick heavy gunk) at the bottom. The **AODD pump** *(air-powered, no electric motor — gentle enough not to clog on thick sludge)* moves that sludge to the **Kontek filter press**, which squeezes the water out of it like a sponge press. The dry leftover ("filter cake") goes to waste disposal; the squeezed-out water rejoins the system to be treated again.
+Water gets pumped from the frac tank into the **C Can** (the sea can / shipping container parked next to the weir tank). This is where the real chemistry happens.
 
-`ℹ️ WHY THE WHOLE SEQUENCE MATTERS:` Each step only works on one specific problem — gravity removes big stuff, chemicals fix invisible/microscopic stuff, filters catch what the chemicals created, carbon removes dissolved odour, ozone/chlorine handle disinfection. Skip or weaken any one step and the steps after it get overloaded with a problem they weren't designed to handle.
+**Order of operations:**
+1. **Check the pH first.** Below 8 is not good for the next steps.
+2. **If pH is under 8, add lime.** This is quicklime (CaO) — confirmed by Brendan, even though the bag just says "lime." Lime is only added when the pH reading actually comes back low — not every batch automatically.
+3. **Add PACl coagulant.** Neutralizes the charge on fine particles so they can stick together.
+4. **Add flocculant (CL-200) right after.** Nets the coagulated particles into bigger, heavier clumps ("floc") that can settle. **Rule: flocculant dose must always be equal to or more than the coagulant dose — never less.**
 
-> **Your job:** Keep each step running correctly so the water leaving the system always meets discharge standards. If one step fails, the steps after it work harder — and sometimes can't compensate. That's why you monitor everything.
+**How to make each chemical (mixed as stock solutions, not dosed dry):**
+
+- **Lime:** 1 bag (50 lbs) per 200L of water. Must be kept **continuously mixing** the whole time — it settles out and hardens if you stop. Gets hot when wetted (it's caustic) — goggles, chemical gloves, dust mask.
+- **PACl (coagulant):** 1 bag of dry powder per 100L of clean water (not the dirty water you're treating). Mix it, then **let it sit for 3 hours before using it** — don't dose straight from a fresh batch.
+- **Flocculant (CL-200):** Ratio is 1 kg polymer per 1000L of clean water (or 500g per 500L at the smaller batch size you actually use). The mixing order matters:
+  1. Pour in the **first half** of the water.
+  2. **Turn the mixer on.**
+  3. Pour in the **polymer** and the **second half of the water** at the same time, while the mixer is running.
+  4. Keep mixing until it's fully dissolved.
+  5. **Let it sit for 24 hours before using it** — plan a batch a day ahead so you don't run out mid-shift.
+
+`ℹ️ WHY POUR IT THIS WAY:` Adding the polymer with water flowing in around it (instead of dumping it into still water) keeps it from clumping into unusable lumps — this is the same reason dry polymer is never added straight into the treatment stream.
+
+`ℹ️ WHY NO FIXED DOSE NUMBER:` The dose changes daily depending on what's actually come into the system that day. You dose by watching for floc actually forming, not a fixed setpoint — adjust the dosing pump's stroke rate/length to get there.
+
+📸 **Send photos of:** inside the C Can, the three dosing pumps, the lime bags/PACl bags/flocculant drum, and the mixing totes.
+
+---
+
+### Section D — Weir Tank (Blue Bin): Settling
+
+Dosed water flows from the C Can into the blue weir tank (only 1 bin in use). It sits and settles.
+
+`ℹ️ HOW LONG:` No fixed time — it's visual. Water should look **as clear as tap water** before you move on. Without the chemical dosing from Section C, this tank does almost nothing on its own — it just drops the biggest particles.
+
+Sludge collects on the tank floor over time and needs the diaphragm (AODD) pump to remove it — a regular submersible pump would clog on it.
+
+📸 **Send photos of:** the weir tank itself, and the sludge/diaphragm pump if you can get a shot of it in use.
+
+---
+
+### Section E — Ozone, Then Pump Indoors
+
+**Order matters here: ozone ON first, then start the pump.** Turning the pump on first means untreated water gets pulled in before ozone is actually doing anything to it.
+
+1. Turn the ozone generator **on**.
+2. Then start the 2" submersible pump, placed mid-depth in the weir tank (avoids the sludge on the bottom, avoids the oil layer on top — the cleanest water is in the middle).
+3. As water gets pulled through the intake pipe into the building, ozone is injected into it along the way.
+
+`ℹ️ WHY:` Ozone is a strong oxidizer — it breaks down dissolved hydrocarbons and turns dissolved iron into a solid form, while the water is in transit through the pipe.
+
+📸 **Send photos of:** the ozone generator, the submersible pump, and the intake pipe.
+
+---
+
+### Section F — Indoor Settling Bins
+
+Water lands here and settles again — same visual rule as Section D: clear as tap water before moving on. The pump then pushes it onward to filtration. Sludge builds up here too, and gets handled the same way (AODD pump → Kontek filter press, which squeezes the water out; the dry leftover is waste, the squeezed-out water rejoins the system).
+
+📸 **Send photos of:** the indoor settling bins / wet cell.
+
+---
+
+### Section G — Filters: Bag Filter, Then Carbon Filter
+
+**We only use the bag filter and the carbon filter — the sand filter is not used at this site.**
+
+1. **Bag filter** — 100-micron pre-filter bag, then a 10-micron polishing bag. Since the sand filter isn't used, this bag filter alone is catching everything ahead of carbon — check and change bags more often because of that.
+2. **Carbon filter (vessel)** — activated carbon grabs dissolved fuel smell/colour that filters can't catch (dissolved = mixed in like sugar, not a particle). Backwashed weekly as routine maintenance; checked every 1.5 months for exhaustion (smell/colour returning means the carbon needs replacing — backwashing can't fix exhausted carbon).
+
+**Turbidity (NTU) is checked at both the bag filter outlet and the carbon vessel outlet** — these are the site's real compliance check points.
+
+📸 **Send photos of:** the bag filter housing (with bags), and the carbon vessel.
+
+---
+
+### Section H — Storage Tanks
+
+Treated water goes into Tank 1 / Tank 2. It's also the source used for on-site dust control (sprayed on roads/yard).
+
+📸 **Send photos of:** Tank 1 and Tank 2.
+
+---
+
+### Section I — Discharge to the Lagoon
+
+A small extra dose of flocculant goes in one more time at the lagoon. Then water is trucked/transferred there.
+
+`ℹ️ WHY THE LAGOON, NOT A DRAIN:` This site has **no permit** to discharge to a drain — the lagoon is the actual legal disposal route, not a workaround.
+
+📸 **Send photos of:** the lagoon.
+
+---
+
+### Section J — Logbook and Testing
+
+Every shift, you log: date, time, operator, sample point (C Can / weir tank / bag filter / carbon vessel / storage tank), pH, NTU, whether lime was added (and how many bags), how much PACl and flocculant were added (or the stroke setting used), whether the intake pipe valve and storage tank valve were opened, whether ozone pressure/AERQUS flow looked OK, plus your observations and whatever action you took.
+
+`ℹ️ WHY THESE COLUMNS:` pH and NTU are the two real test numbers on this site. The chemical columns track what was actually dosed, since the dose changes daily by observation, not a fixed number. The valve columns exist because forgetting to open them lets pressure sit on the pipes. Observations + action taken is what makes the log useful to whoever reads it after you.
+
+📸 **Send a photo of:** the logbook itself, the pH meter, and the NTU/turbidity meter.
+
+---
+
+`ℹ️ OPERATING PHILOSOPHY — worth remembering:` "Make sure the flow coming in isn't too much or there won't be enough time for settling. It's all a balancing process because they never really made a proper treatment facility." This site runs on careful adjustment, not a fully automated system — watching, adjusting, and using judgment at every step is the actual job.
+
+> **Your job:** Keep each step running correctly so the water leaving the system is clear. If one step fails, the steps after it work harder — and sometimes can't compensate. That's why you monitor everything.
 
 ---
 
@@ -218,7 +281,7 @@ On your first day, physically walk the entire site with a supervisor and locate 
 - [ ] Chemical dosing room — PACl drum (white, Class 8 label) + blue diaphragm pump
 - [ ] Chemical dosing room — CL-200 polymer drum (white, "FLOCCULANT" label) + yellow LMI pump
 - [ ] Other chemical drums (hydrogen peroxide, CO2 cylinder, pH+ powder pail, HaloKlear)
-- [ ] SRS-SF-11 sand filter (green pressure vessel on legs, pump below)
+- [ ] SRS-SF-11 sand filter (green pressure vessel on legs, pump below — present on site but not used, see Section 6.4)
 - [ ] SRS-CV-15 carbon vessel (blue PV Series vessel on pallet)
 - [ ] Bag filter housing (blue cartridge housing with Les Hall filter bags)
 - [ ] CD30TIX ozone generator (stainless steel cabinet with pressure gauge)
@@ -246,7 +309,7 @@ A handwritten operational note on site (referred to as "Brennan's List") capture
 
 In plain terms, the operating cycle is:
 1. **Consolidate dirty water** — move raw/untreated water so it's in the right tanks for processing.
-2. **Filter the wet cell water** — push water from the wet cell through the sand or carbon filter to the clean frac tank.
+2. **Filter the wet cell water** — push water from the wet cell through the bag and carbon filter to the clean frac tank.
 3. **Empty the wet cell** — get it as dry as possible so the accumulated sludge/solids can be pumped out.
 4. **Treat and store** — dose chemicals, run the full treatment train, fill clean storage tanks, collect a compliance sample.
 5. **Move oil and dirty residuals** — transfer separated oil and dirty wet cell water to the stabilization pit for further management.
@@ -277,4 +340,4 @@ In plain terms, the operating cycle is:
 
 ---
 
-*Last updated: 2026-06-05 | Source: Site photo analysis — SUMAS Environmental Services / Shell Canada industrial water treatment system, Kamloops BC*
+*Last updated: 2026-06-27 | Source: Direct operator confirmation (Brendan/Brennan) — supersedes earlier former-operator accounts where they conflicted.*

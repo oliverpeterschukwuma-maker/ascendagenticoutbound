@@ -42,7 +42,7 @@ Look for:
 | CL-200 flocculant pump (yellow LMI) | Running / standby per dosing plan | ______ |
 | CD30TIX ozone generator | ON indicator lit; pressure gauge normal | ______ |
 | AERQUS ozone diffuser | Operating (bubbling in contact water) | ______ |
-| Sand filter (SRS-SF-11) pump | Running; no unusual noise | ______ |
+| Bag filter housing | Flow OK, bag not overloaded | ______ |
 | Kontek filter press (if in cycle) | Status per previous shift note | ______ |
 | H₂O₂ drums | Level — note on log | ______ |
 | Cal-Hypo tablets in chlorinator | Level — confirm not empty | ______ |
@@ -87,7 +87,7 @@ Record everything you observe, normal or not.
 |---|---|---|
 | Settling pond outlet / wet cell inlet | pH, turbidity (visual OK in field) | Each shift |
 | After chemical dosing (wet cell outflow) | pH, turbidity | Each shift |
-| Sand filter (SRS-SF-11) effluent | pH, turbidity | Each shift |
+| Bag filter outlet | pH, turbidity (NTU) | Each shift |
 | Carbon vessel (SRS-CV-15) effluent | pH, turbidity, petroleum odour check | Each shift |
 | Final treated water (pre-discharge) | pH, free chlorine, turbidity | Each shift — this is your compliance sample |
 | Oil/water separator — weekly dip | Fuel thickness, sludge thickness, liquid level | Weekly (Shell Canada log sheet) |
