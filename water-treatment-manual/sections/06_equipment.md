@@ -108,7 +108,7 @@
 
 **What it does:** Houses the chemical dosing step (pH check, then lime if needed, then PACl coagulant + flocculant — see Section 5.6a) before water flows on to the blue bin/weir tank for settling.
 
-`(still needed: trace the discharge side — how does dosed water actually get from the C Can into the adjacent blue bin/weir tank?)`
+`✅ RESOLVED — CONFIRMED BY OPERATOR:` Water treated/dosed at the C Can discharges into the blue weir tank — confirmed as the live operating path. (The exact physical hose/fitting used for this discharge hasn't been visually traced in photos, but the connection and direction — C Can → blue weir tank — is confirmed.)
 
 ### Interior — CONFIRMED BY PHOTO (IMG_2803, IMG_2805)
 
