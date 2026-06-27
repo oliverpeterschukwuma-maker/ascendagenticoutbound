@@ -137,6 +137,13 @@ The baffled partitions divide the flow path into compartments, forcing water to 
 
 **What they do:** Secondary settling — but `✅ CONFIRMED BY OPERATOR:` this is also where water lands right after ozone treatment (Section 6.7), not just after chemical dosing. Sequence: weir tank (outdoor blue bin) → ozone-fed via the "down" pipe → these settling bins, to settle further → submersible pump pushes it out via the "up" pipe → bag filter → carbon vessel. Floc formed by PACl and polymer settles to the floor here. The sludge accumulates and must be periodically removed.
 
+`✅ RESOLVED — how long to settle here before moving to the storage tanks, CONFIRMED BY SUPERVISOR (Brendan, text message):` There's no fixed settle time — **it's visual/judgment-based.** Brendan's exact words: *"If there's no chemicals in the water it's not going to settle out so they haven't been settling just sitting outside in the tanks. Maybe the giant particles but that doesn't matter. The water should be as clear as tap water by the end of settling so it's visual. It depends how much chemicals you put in, how dirty the water is and how long you let it settle."*
+
+`ℹ️ WHAT THIS MEANS IN PRACTICE:`
+- Settling only really happens **after chemical dosing** (PACl + flocculant) — without chemicals in the water, it won't form floc and settle out here; sitting in the outdoor weir tank alone only drops the largest particles, which doesn't matter much.
+- The bar to clear before pumping on to storage: **water should look as clear as tap water.** If it's still cloudy/turbid, give it more time.
+- No stopwatch number to hit — settle time depends on how much chemical was dosed, how dirty the water was going in, and how long it's been given. Use the same visual check each time rather than a fixed clock.
+
 `[CHECK]` Each shift:
 - [ ] Water level — is it at the normal operating level?
 - [ ] Sludge on the floor — is it accumulating faster than usual? Can you see the bottom?
@@ -334,6 +341,8 @@ Backwash the sand filter when any of the following:
 2. A **2-inch submersible pump** is placed **in the middle of the weir tank** — deliberately not too close to the floor (avoids sucking up settled sludge) and not too high (avoids the oil layer near the top).
 3. That pump connects to the **intake pipe** running indoors.
 4. **Ozone is turned on as the water flows through the intake pipe** — so ozone treats the water on its way in, before the bag filter and carbon vessel.
+
+`✅ RESOLVED — ORDER OF OPERATIONS, CONFIRMED BY SUPERVISOR (Brendan, text message):` **Turn the ozone on *before* starting the pump that connects the outdoor blue weir tank to the intake — not after.** Brendan's exact words: *"Turn the ozone on first before pumping."* So the correct startup order is: ozone generator ON → then start the weir tank submersible pump/intake. Don't reverse this — starting the pump first means raw water flows into the intake before ozone is actually treating it.
 
 `ℹ️ WHY pump placement matters:` The weir tank has settled sludge at the bottom and an oil layer near the top — the cleanest water is the middle layer. Placing the pump intake there pulls the best water and avoids re-suspending sludge or pulling in oil.
 
