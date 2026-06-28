@@ -199,7 +199,7 @@ Water arrives here through a white PVC pipe coming down from overhead — that p
 
 ### Section H — Storage Tanks
 
-Treated water goes into Tank 1 / Tank 2. It's also the source used for on-site dust control (sprayed on roads/yard).
+Treated water goes into Tank 1 / Tank 2 — two large white cylindrical tanks, side by side, each with its own ladder, labelled on the side. It's also the source used for on-site dust control (sprayed on roads/yard).
 
 📸 **Send photos of:** Tank 1 and Tank 2.
 
