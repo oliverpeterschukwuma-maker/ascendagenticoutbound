@@ -227,6 +227,8 @@ Every shift, you log: date, time, operator, sample point (C Can / weir tank / ba
 
 `ℹ️ WHY THESE COLUMNS:` pH and NTU are the two real test numbers on this site. The chemical columns track what was actually dosed, since the dose changes daily by observation, not a fixed number. The valve columns exist because forgetting to open them lets pressure sit on the pipes. Observations + action taken is what makes the log useful to whoever reads it after you.
 
+`📄 Ready-to-print version: [`LOGBOOK.md`](../LOGBOOK.md) — print one page per shift, starting Monday.`
+
 📸 **Send a photo of:** the logbook itself, the pH meter, and the NTU/turbidity meter.
 
 ---

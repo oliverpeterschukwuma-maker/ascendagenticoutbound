@@ -35,6 +35,7 @@ The assistant will read every file and update the relevant sections of this manu
 | [10](sections/10_emergency_response.md) | Emergency Response | Chemical spill, power failure, equipment failure, contamination event |
 | [11](sections/11_regulations_reporting.md) | Regulations & Reporting | Permit limits, who to call, what to record, operator certification |
 | [12](sections/12_glossary.md) | Glossary | Plain-English definitions of every technical term used in this manual |
+| [LOGBOOK](LOGBOOK.md) | Daily Logbook | Print-and-fill shift log — start using Monday |
 
 ---
 

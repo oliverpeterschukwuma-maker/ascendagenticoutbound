@@ -156,40 +156,36 @@ Record everything you observe, normal or not.
 
 `ℹ️ Built from confirmed site procedure — use these columns going forward:`
 
-| Date | Time | Operator | Sample point (C Can / weir tank / bag filter / carbon vessel / storage tank) | pH | NTU | Lime added? (Y/N + bags) | PACl added (amount or stroke setting) | Flocculant added (amount or stroke setting) | Intake pipe valve opened? | Storage tank valve opened? | Ozone pressure / AERQUS flow OK? | Observations / issues | Action taken |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Date | Time | Operator | Sample point (C Can / outdoor weir tank / indoor weir tank–settling bins / bag filter / carbon vessel / storage tank) | pH | Clear/cloudy? (or NTU if you have the meter) | Lime added? (Y/N + bags) | PACl added (amount or stroke setting) | Flocculant added (amount or stroke setting) | Ozone turned on before pump? | Intake pipe valve opened? | Storage tank valve opened? | AODD pump used (which tank)? | Observations / issues | Action taken |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 
-`ℹ️ WHY these columns:` pH and NTU are your two real test numbers at this site (Section 4.3). Lime/PACl/flocculant columns track what was actually dosed, since the dose changes daily by observation, not a fixed number. The two valve columns exist because forgetting to open them lets pressure sit on the pipes (Section 6.1a). The equipment column catches ozone/AERQUS problems early. Observations + action taken is what makes the log useful to the next person, not just a list of numbers.
+`ℹ️ WHY these columns:` pH and clarity (or NTU) are your two real test numbers at this site (Section 4.3). Lime/PACl/flocculant columns track what was actually dosed, since the dose changes daily by observation, not a fixed number. The ozone and valve columns exist because forgetting them either skips treatment or lets pressure sit on the pipes (Section 6.1a, 6.7). The AODD column tracks sludge removal — your actual last task each cycle (Section I). Observations + action taken is what makes the log useful to the next person, not just a list of numbers.
+
+`📄 A ready-to-print version of this table is in [`LOGBOOK.md`](../LOGBOOK.md) — print one page per shift starting Monday.`
 
 ---
 
 ## 1.6 Sample Logbook Entry
 
 ```
-DATE: 2026-06-05    SHIFT: 07:00–15:00    OPERATOR: [Name]
+DATE: 2026-06-29    SHIFT: 07:30–16:00    OPERATOR: [Name]
 
-07:10  Reviewed previous shift notes. Frac Tank A (dirty), Frac Tank B (in treatment — 
-         PACl + polymer dosed yesterday). Tank C (clean, ~60% full).
-07:20  Morning rounds complete. No leaks. Sand filter pump running. 
-         Ozone generator on, pressure at [X] psi. Bag filter — light flow, due for change.
-07:35  Morning samples:
-         Wet cell outflow:  pH 7.2 | turbidity — visually clear with slight orange tint (normal iron)
-         SRS-SF-11 effluent: pH 7.3 | turbidity clear
-         Final discharge point: pH 7.4 | Free Cl2 0.18 mg/L | turbidity visually clear
-09:00  Changed bag filter (100-micron bag). Old bag heavily loaded with orange iron solids.
-         Installed new bag LHFSPE100PJNBW from stock. Flow restored. Logged bag change.
-10:30  PACl drum at ~25%. Called SUMAS (1-250-374-4151) for delivery. ETA tomorrow.
-12:15  Midday check. All within targets. Free Cl2 confirmed 0.15 mg/L at discharge.
-13:00  Started Kontek filter press cycle — pumped sludge from wet cell. Press full by 13:35.
-         Opened plates at 13:50 — 2 collection bins filled with filter cakes (orange iron sludge).
-         Arranged waste removal — called [contractor], manifest #[___].
-14:45  End-of-shift samples: pH 7.3, Free Cl2 0.14 mg/L. All within targets.
-15:00  Briefed incoming operator — PACl delivery tomorrow, new bag filter installed, 
-         filter press cakes in bins need pickup. Tank B water ready for discharge (confirm pH).
+07:35  Reviewed previous shift notes. Carbon vessel clean-out [done/in progress].
+07:45  Morning rounds complete. No leaks. C Can drums checked (lime/PACl/flocculant levels OK).
+08:00  C Can check: pH 7.1 (below 8 — added lime, 1 bag). PACl and flocculant dosed per usual setting.
+09:15  Outdoor weir tank: visually clear, settled well overnight. Ozone turned ON, then started
+         intake pump. AERQUS flow meter ball moving, reading [X] SCFH.
+10:30  Indoor weir tank/settling bins: clear as tap water, NTU checked — within range.
+         Submersible pump started, pushing water to bag filter and carbon vessel.
+12:00  Midday check — all within targets.
+13:30  Pumped treated water into storage tank. Job on this batch ends here.
+13:45  Used AODD pump to clear settled sludge from indoor settling bins and outdoor weir tank,
+         ran through Kontek filter press. 1 cake bin filled.
+15:45  Briefed incoming operator — sludge bin needs pickup, PACl drum getting low.
 
 Signature: ________________
 ```
 
 ---
 
-*Last updated: 2026-06-05 | Source: Site photos and operational notes (IMG_2614 "Brennan's List", equipment observations)*
+*Last updated: 2026-06-28 | Source: Site photos and operator-confirmed walkthrough, Sections A-J*
