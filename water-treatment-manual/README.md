@@ -18,6 +18,12 @@ The assistant will read every file and update the relevant sections of this manu
 
 ---
 
+## Full Manual PDF
+
+📄 **[WATER_TREATMENT_MANUAL.pdf](WATER_TREATMENT_MANUAL.pdf)** — every section below (0–11), text-only, in one printable document. (Photo-illustrated steps live separately in [CHEMICAL_MIXING_GUIDE.pdf](CHEMICAL_MIXING_GUIDE.pdf).)
+
+> ⚠️ **Sections 2, 3, 7, 8, and 11 are still generic industry-standard template content** (carried over from the initial framework, not yet confirmed against this site's actual procedures), and **Section 10 is partially generic**. These are clearly flagged with warning banners inside the PDF itself. Everything else (0, 1, 4, 5, 6, 9) has been confirmed against site photos, equipment, and operator/supervisor input. Treat the flagged sections as background reading only until reviewed with a supervisor.
+
 ## Table of Contents
 
 | # | Section | What It Covers |
