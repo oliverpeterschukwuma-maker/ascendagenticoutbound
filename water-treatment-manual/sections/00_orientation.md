@@ -109,7 +109,7 @@ SITE WATER (stormwater, process water, groundwater)
 
 ### Section B — How Water Actually Moves (no fixed pipes)
 
-Nothing between outdoor tanks is permanently plumbed. A **submersible pump** (motor + pump sealed in one waterproof housing) is physically carried to whichever tank needs to be emptied, dropped in fully underwater, and a hose is run to the tank that needs to receive the water. Same pump style does double duty: frac tank → blue bin, and blue bin → indoors.
+Nothing between outdoor tanks is permanently plumbed. A **submersible pump** (motor + pump sealed in one waterproof housing, e.g. the blue Sunsun-style unit on site) is physically carried to whichever tank needs to be emptied, dropped in fully underwater, and a **2" hose** is run to the tank that needs to receive the water. The same pump and 2" hose setup is used in both the frac tank and the weir tank — same equipment, just moved to wherever it's needed.
 
 `ℹ️ WHY THIS MATTERS:` Before assuming water is flowing somewhere, check — is a pump actually sitting in a tank right now, and where does its hose go? Nothing moves on its own here.
 
@@ -117,7 +117,9 @@ Nothing between outdoor tanks is permanently plumbed. A **submersible pump** (mo
 
 ### Section C — The C Can: Making and Adding the Chemicals
 
-Water gets pumped from the frac tank into the **C Can** (the sea can / shipping container parked next to the weir tank). This is where the real chemistry happens.
+Water gets pumped from the frac tank into the **C Can** (the white sea can / shipping container, parked right beside the weir tank and hose-connected to it). This is where the real chemistry happens.
+
+Inside the C Can, three drums hold the made-up stock chemicals, side by side: **far left = flocculant** (white drum), **middle = PACl coagulant** (white drum), **right = lime** (blue drum).
 
 **Order of operations:**
 1. **Check the pH first.** Below 8 is not good for the next steps.
@@ -146,7 +148,7 @@ Water gets pumped from the frac tank into the **C Can** (the sea can / shipping 
 
 ### Section D — Weir Tank (Blue Bin): Settling
 
-Dosed water flows from the C Can into the blue weir tank (only 1 bin in use). It sits and settles.
+Dosed water flows from the C Can into the blue weir tank (only 1 bin in use) — a blue intermodal-style bin/tank parked right next to the C Can, marked "NO GARBAGE" (it's not a waste bin, just repurposed equipment). It sits and settles.
 
 `ℹ️ HOW LONG:` No fixed time — it's visual. Water should look **as clear as tap water** before you move on. Without the chemical dosing from Section C, this tank does almost nothing on its own — it just drops the biggest particles.
 
