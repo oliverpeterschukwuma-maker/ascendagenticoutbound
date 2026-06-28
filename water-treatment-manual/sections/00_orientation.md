@@ -18,9 +18,11 @@ The source water is not river or lake water — it is water that has been in con
 | pH imbalance (too high or too low) | Affects chemical treatment steps; affects downstream ecology |
 | Fine silts and colloidal particles | Too small to settle on their own — need coagulants and flocculants to clump together |
 
-**The goal:** treated water clear enough to be trucked/transferred to the lagoon for disposal, or reused on site (e.g., dust control). **Note — CONFIRMED BY SUPERVISOR (Brendan):** This site does **not have a permit to discharge to the drain.** That's the reason treated water goes to holding tanks and then is carried to a lagoon instead of a permitted point-source outfall — see Section 0.5 and the discharge step below.
+**The goal:** treated water clear enough to go into the storage tanks, where it's reused on site (e.g., dust control) — **the operator's job ends once treated water reaches the storage tank; what happens to it afterward is not the operator's responsibility to track.** **Note — CONFIRMED BY SUPERVISOR (Brendan):** This site does **not have a permit to discharge to the drain.**
 
-`ℹ️ WHY GETTING IT CLEAR STILL MATTERS:` In Brendan's words: **"The main focus is getting the water clear."** Even without a drain-discharge permit driving hard numeric limits, clarity is still the operational target — partly because the carbon vessel at the end of the line "will grab anything [ozone/upstream steps don't]," so getting the water visually clear upstream protects that last line of defense, and partly because clear water is what the lagoon/dust-control reuse actually needs.
+`✏️ CORRECTED BY OPERATOR:` Earlier notes here described a final "trucked to the lagoon for disposal" step after the storage tanks. **"The lagoon" is just another name for the Oil/Water Separation Cell (Section A) — there is no separate final-disposal lagoon step in the operator's job.** See Section I for the operator's actual last task (sludge removal).
+
+`ℹ️ WHY GETTING IT CLEAR STILL MATTERS:` In Brendan's words: **"The main focus is getting the water clear."** Clarity is still the operational target — partly because the carbon vessel at the end of the line "will grab anything [ozone/upstream steps don't]," so getting the water visually clear upstream protects that last line of defense, and partly because clear water is what the dust-control reuse actually needs.
 
 ---
 
@@ -75,17 +77,19 @@ SITE WATER (stormwater, process water, groundwater)
       │
       ▼
 [10] STORAGE TANKS (Tank 1 / Tank 2)
-    (also used on-site for dust control)
+    (also used on-site for dust control — THE OPERATOR'S JOB ENDS HERE.
+     What happens to the water after this point is not the operator's
+     concern/responsibility.)
       │
-      ▼
-[11] DISCHARGE → LAGOON
-    (a little extra flocculant added here too; trucked/transferred —
-     no permit to discharge to a drain at this site)
-                    │
-                    ▼ (parallel process, not part of the main line)
+      ▼ (parallel process, not part of the main line — the operator's
+          actual last task each cycle)
               SLUDGE MANAGEMENT
-              (AODD diaphragm pump → Kontek filter press)
+              (AODD diaphragm pump → Kontek filter press, to clear
+               sludge out of the settling bins/weir tank after treated
+               water has been pumped to the storage tanks)
 ```
+
+`ℹ️ TERMINOLOGY NOTE — "the lagoon":` **"Lagoon" is just another name for the Oil/Water Separation Cell, step [2] above — it is NOT a separate final-disposal destination.** There is no confirmed step where treated water is trucked or dosed at a separate lagoon after the storage tanks; that idea came from an earlier, unconfirmed account and is corrected here.
 
 ---
 
@@ -205,13 +209,15 @@ Treated water goes into Tank 1 / Tank 2 — two large white cylindrical tanks, s
 
 ---
 
-### Section I — Discharge to the Lagoon
+### Section I — Final Task: Sludge Removal
 
-A small extra dose of flocculant goes in one more time at the lagoon. Then water is trucked/transferred there.
+`ℹ️ CONFIRMED BY OPERATOR:` **The job ends once treated water is pumped into the storage tank.** What happens to the water after that is not the operator's responsibility — that's somebody else's call, not something to track or worry about here.
 
-`ℹ️ WHY THE LAGOON, NOT A DRAIN:` This site has **no permit** to discharge to a drain — the lagoon is the actual legal disposal route, not a workaround.
+The actual last task in the cycle is cleaning up: once treated water has been pumped out of the indoor weir tank/settling bins into the storage tank, use the AODD diaphragm pump to pull the settled sludge out of the settling bins (and the outdoor weir tank) and send it through the Kontek filter press (Section 6.11/6.12).
 
-📸 **Send photos of:** the lagoon.
+`ℹ️ TERMINOLOGY NOTE:` **"The lagoon" is just another name for the Oil/Water Separation Cell from Section A** — it is not a separate final-disposal pond. Older notes in this manual describing a final "discharge to the lagoon" step with an extra flocculant dose were based on an earlier, unconfirmed account and are corrected here — there is no such step in the operator's actual job.
+
+📸 **Send photos of:** the sludge pump (AODD) in use, and the filter press during a cycle.
 
 ---
 
@@ -261,7 +267,7 @@ The recovered petroleum product and sludge are managed as regulated waste — th
 | Water treatment supplier | SUMAS Environmental Services Inc. |
 | SUMAS contact number | **1-250-374-4151** |
 | Regulatory framework | BC *Environmental Management Act* |
-| Discharge permit | **CONFIRMED BY SUPERVISOR (Brendan): site has NO permit to discharge to the drain.** Treated water is trucked/transferred to a lagoon instead — not a permitted point-source outfall. `(still needs confirming: is the lagoon itself permitted/authorized in some other way, and is there proper equipment on-site to test dissolved contents — see note below)` |
+| Discharge permit | **CONFIRMED BY SUPERVISOR (Brendan): site has NO permit to discharge to the drain.** Treated water goes to the storage tanks (also used for on-site dust control). `✏️ CORRECTED BY OPERATOR:` There is no separate final "lagoon" disposal step — "the lagoon" is just another name for the Oil/Water Separation Cell (Section A). The operator's job ends at the storage tank; what happens after is not tracked here. |
 | Regulatory authority | BC Ministry of Environment and Climate Change Strategy |
 | Testing equipment limitation | **CONFIRMED BY SUPERVISOR (Brendan): "They don't even have the proper equipment to test for dissolved contents."** This is a known, named gap, not an oversight in this manual — site testing currently relies on visual clarity/turbidity rather than dissolved-analyte lab testing on site. Brendan noted he's requested this repeatedly without it being provided. |
 | Site supervisor | Brennan *(confirm full name and contact)* |

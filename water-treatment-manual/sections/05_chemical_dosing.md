@@ -11,7 +11,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | Chemical | Container | Job in this system |
 |---|---|---|
 | **PACl** (Poly Aluminum Chloride) | White 200L drum, Class 8, SUMAS label | Coagulant — neutralizes particle charge so solids clump |
-| **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 4 points: oil/water separation cell, the 2 blue bins, indoors, and the lagoon** |
+| **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 2 confirmed points: the oil/water separation cell (also called "the lagoon") and the C Can** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
 | **Lime — quicklime (CaO), confirmed by supervisor** (bag label says TEXLOME Hydrated Lime, but supervisor's word overrides — see Section 5.6a) | 50 lb bags, mixed 1 bag per 200L in a tank at the C Can | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, also precipitates dissolved metal ions. **Conditional on pH — confirmed by supervisor: only used if the pH is too low.** |
@@ -127,21 +127,20 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 
 `ℹ️ WHY:` Coagulation alone produces fine, slow-settling floc ("pinpoint floc"). Adding polymer produces large, fast-settling floc. This is the difference between waiting hours for settling and waiting minutes.
 
-### How to dose — FOUR injection points on this site
+### How to dose — TWO confirmed injection points on this site
 
-`ℹ️ CONFIRMED BY OPERATOR:` Unlike PACl (added once, indoors), flocculant on this site is added at **four separate points** along the treatment train, not just one:
+`✏️ CORRECTED BY OPERATOR:` This section previously listed four injection points, including "the lagoon" as a separate final-dosing/disposal location. **That's been corrected — "the lagoon" is just another name for the Oil/Water Separation Cell (point 1 below), not a separate fourth point.** The operator's job ends once treated water reaches the storage tank — there is no dosing step after that. The current confirmed dosing points are:
 
-1. **Oil/Water Separation Cell (outdoor, Step 2)** — added early to start clumping fine particles before the water even reaches the frac tanks
-2. **The two Blue Separator Bins (outdoor, Step 4)** — added again here to keep building floc as the water moves through the baffled bins
-3. **Indoors, near the white tanks (Step 6)** — a final dose alongside the PACl coagulant and peroxide oxidizer
-4. **At the lagoon — CONFIRMED BY OPERATOR:** a small amount ("a little bit") is added at the lagoon — where treated water is ultimately trucked/transferred for disposal (Section 0.2). `(needs confirming: is this dosed before or after water arrives at the lagoon, and why — helping any remaining fines settle out at the final stage, vs. something else? See discharge/lagoon questions in INFORMATION_NEEDED.md.)`
+1. **Oil/Water Separation Cell (outdoor, Step 2 — also called "the lagoon")** — added early to start clumping fine particles before the water even reaches the frac tanks
+2. **The C Can (Section 0.2a, Section C)** — dosed alongside PACl coagulant, right before the outdoor weir tank
 
-`ℹ️ WHY MULTIPLE POINTS, NOT ONE:` Each point is treating water that has already lost some solids to the step before it, but is also picking up disturbance/mixing from pumping and baffles. Re-dosing flocculant at each major transfer point keeps floc forming continuously instead of relying on one dose to last the entire journey from pit to final disposal. Think of it like reapplying glue at each stage of an assembly line, rather than gluing everything once at the very end.
+`(unconfirmed, needs checking with operator: the "two Blue Separator Bins" and "peroxide oxidizer" dosing points listed in older notes — these haven't been confirmed as part of the current live process.)`
+
+`ℹ️ WHY MULTIPLE POINTS, NOT ONE:` Each point is treating water that has already lost some solids to the step before it, but is also picking up disturbance/mixing from pumping. Re-dosing flocculant at each major transfer point keeps floc forming continuously instead of relying on one dose to last the whole way through. Think of it like reapplying glue at each stage of an assembly line, rather than gluing everything once at the very end.
 
 - General rule wherever it's added: dose AFTER any PACl/coagulant has had time to work, and during gentle mixing — not violent/rapid mixing (the gentle tumbling lets the polymer bridge particles together without tearing the floc apart)
 - Typical dose range: 0.1–2 mg/L per injection point (much lower than coagulant — polymers are very active)
 - Over-dosing polymer is easy and wastes money. Start conservative at each point.
-- `(confirm with supervisor: exact dose split across all 4 points, and which pump/line feeds each one)`
 
 ### Preparing the flocculant stock solution
 
