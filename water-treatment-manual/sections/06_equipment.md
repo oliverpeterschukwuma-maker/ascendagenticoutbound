@@ -263,6 +263,8 @@ Backwash the sand filter when any of the following:
 
 `ℹ️ CONFIRMED — currently in active use:` the sand filter isn't used at this site (Section 6.4), so water flows straight from settling to the **bag filter, then this carbon vessel** — this is one of the two filtration steps the water actually sees.
 
+`⚠️ CONFIRMED BY OPERATOR — CURRENT CONDITION (as of this writing):` This vessel has **sludge and buildup inside, with old/spent carbon** still in it. **It must be cleaned out before starting any water treatment.** This is a one-time clean-out of the vessel's current state, separate from the routine weekly backwash and 1.5-month check described below — don't treat this as already covered by those.
+
 **What it does:** Activated carbon adsorption. The vessel is filled with granular activated carbon (GAC) — a highly porous material with enormous surface area. Dissolved petroleum hydrocarbons, colour compounds, and odour-causing organics bind to the carbon surface as water passes through.
 
 `ℹ️ WHY:` Suspended solids are removed by sand filtration. But dissolved hydrocarbons (the ones that give the water a fuel smell or create a downstream sheen) cannot be filtered — they pass through sand. Carbon adsorption is the only way to remove them.

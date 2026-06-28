@@ -186,8 +186,10 @@ Water arrives here through a white PVC pipe coming down from overhead — that p
 
 **We only use the bag filter and the carbon filter — the sand filter is not used at this site.**
 
-1. **Bag filter** — 100-micron pre-filter bag, then a 10-micron polishing bag. Since the sand filter isn't used, this bag filter alone is catching everything ahead of carbon — check and change bags more often because of that.
-2. **Carbon filter (vessel)** — activated carbon grabs dissolved fuel smell/colour that filters can't catch (dissolved = mixed in like sugar, not a particle). Backwashed weekly as routine maintenance; checked every 1.5 months for exhaustion (smell/colour returning means the carbon needs replacing — backwashing can't fix exhausted carbon).
+1. **Bag filter** — black cylindrical housing with a pressure gauge, 100-micron pre-filter bag, then a 10-micron polishing bag. Since the sand filter isn't used, this bag filter alone is catching everything ahead of carbon — check and change bags more often because of that.
+2. **Carbon filter (vessel, SRS-CV-15)** — blue pressure vessel, 75 PSIG max, tagged "PV-SERIES SRS-CV-15." Activated carbon grabs dissolved fuel smell/colour that filters can't catch (dissolved = mixed in like sugar, not a particle). Backwashed weekly as routine maintenance; checked every 1.5 months for exhaustion (smell/colour returning means the carbon needs replacing — backwashing can't fix exhausted carbon).
+
+`⚠️ BEFORE STARTUP:` This carbon vessel currently has **sludge/buildup inside with old, spent carbon.** It needs a full clean-out before any water treatment starts — this is a one-time job, separate from the routine weekly backwash above.
 
 **Turbidity (NTU) is checked at both the bag filter outlet and the carbon vessel outlet** — these are the site's real compliance check points.
 
