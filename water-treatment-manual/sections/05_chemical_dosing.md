@@ -231,6 +231,8 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 
 `⚠️ CRITICAL — CONFIRMED BY OPERATOR:` **The mixer blade on the blue lime drum must be running while you're pumping the lime out, not just while you first mix it.** Lime settles out fast — if the blade stops turning while you're dosing, it won't work well. The mixer is the pneumatic (air-driven) tote mixer, Section 6.16 — open the air valve and keep it running for the whole time you're drawing lime out.
 
+📄 **Photo-illustrated quick steps for mixing lime, PACl, and flocculant (and running the mixer):** [CHEMICAL_MIXING_GUIDE.pdf](../CHEMICAL_MIXING_GUIDE.pdf)
+
 **Alternative chemical — CONFIRMED BY SUPERVISOR (Brendan, text message):** "You can also use sodium hydroxide as well. Which I think they have a big tote bag worth of." Sodium hydroxide (NaOH, caustic soda) is a separate, more hazardous strong base that can substitute for lime as a pH-raiser. Confirmed present on site in a large tote bag, but not yet confirmed as in current routine use — see new chemical entry, Section 5.6b.
 
 `⚠️ Brendan's caution, applies to both:` **"Both raise pH so don't add too much."**

@@ -36,6 +36,7 @@ The assistant will read every file and update the relevant sections of this manu
 | [11](sections/11_regulations_reporting.md) | Regulations & Reporting | Permit limits, who to call, what to record, operator certification |
 | [12](sections/12_glossary.md) | Glossary | Plain-English definitions of every technical term used in this manual |
 | [LOGBOOK](LOGBOOK.pdf) | Daily Logbook | Print-and-fill shift log — start using Monday ([editable source](LOGBOOK.md)) |
+| [MIXING GUIDE](CHEMICAL_MIXING_GUIDE.pdf) | Chemical Mixing Guide | Photo-illustrated steps for mixing lime, PACl, and flocculant, and running the tote mixer |
 
 ---
 

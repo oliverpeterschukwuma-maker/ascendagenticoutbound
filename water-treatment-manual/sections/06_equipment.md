@@ -682,6 +682,8 @@ This is an **air-driven (pneumatic) mixer**, not electric — it runs off compre
 
 `⚠️ CRITICAL — CONFIRMED BY OPERATOR:` **For the blue drum where the lime is, the blade must be running while you're pumping it out — not just while you're initially mixing the batch.** If the blade isn't turning while lime is being pumped, the lime settles out and the dose won't work well (it's a thick slurry that drops out of suspension fast — see Section 5.6a). Same logic applies wherever this mixer is used: open the air valve and keep the propeller turning for as long as you're drawing liquid out, not just during mixing.
 
+📄 **Photo-illustrated quick steps for mixing lime, PACl, and flocculant (and running this mixer):** [CHEMICAL_MIXING_GUIDE.pdf](../CHEMICAL_MIXING_GUIDE.pdf)
+
 ---
 
 *Last updated: 2026-06-05 | Source: Equipment photos IMG_2597, 2600–2610, 2614–2631; video frames IMG_2612; indoor tank photos IMG_2598–2599; control panel labels; filter press nameplate*
