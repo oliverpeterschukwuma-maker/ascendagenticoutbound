@@ -114,7 +114,7 @@
 
 Inside the C Can:
 - **Two white 200L drums** with SUMAS labels, sitting side by side — one clearly labelled **"FLOCCULANT."** `✅ CONFIRMED BY OPERATOR:` the second drum is the **PACl coagulant**.
-- **One blue 200L drum** to the right, with a hose/tubing dipped into the top. `✅ CONFIRMED BY OPERATOR:` this is the **lime** (TEXLOME High Calcium Hydrated Lime) — kept here as a liquid/slurry in a blue drum, not as a dry bag. `⚠️ NOTE:` Hydrogen peroxide is also stored in blue 200L drums elsewhere on this site (Section 5.7) — at the C Can specifically, the blue drum is lime, not peroxide. Go by location, not just colour.
+- **One blue 200L drum** to the right, with a hose/tubing dipped into the top. `✅ CONFIRMED BY OPERATOR:` this is the **lime** (TEXLIME High Calcium Hydrated Lime) — kept here as a liquid/slurry in a blue drum, not as a dry bag. `⚠️ NOTE:` Hydrogen peroxide is also stored in blue 200L drums elsewhere on this site (Section 5.7) — at the C Can specifically, the blue drum is lime, not peroxide. Go by location, not just colour.
 - A **blue diaphragm-style dosing pump** mounted on a horizontal grey PVC pipe manifold above the drums, feeding into two large horizontal PVC pipe runs along the wall.
 - An electrical control box and timer mounted on a plywood backing above the drums (red trays visible — possibly drip trays under fittings, not confirmed).
 - IMG_2805 shows the chemical injection detail: small clear tubing taps into the main PVC pipe runs through small fittings/check valves — this is where the dosing pump actually injects chemical into the flow line.
@@ -663,7 +663,7 @@ This is a separate area from the main treatment room — looks like a workshop o
 
 ---
 
-## 6.16 Pneumatic Tote Mixer (Coagulant/Flocculant Stock Mixing)
+## 6.16 Pneumatic Tote Mixer (Coagulant/Flocculant/Lime Stock Mixing)
 
 **Appearance — confirmed via photo (IMG_2820, IMG_2821):** A mixer clamped to the top of an IBC tote (the 1000L/500L tote used to mix PACl and flocculant stock solutions, Sections 5.3/5.4). Mounted on a wood frame above the tote: a gray air-motor housing, a **red-handled valve** at the air motor's inlet, and a long angled shaft running down through the tote lid to a **propeller/impeller blade** submerged in the liquid. A black air supply hose with a quick-connect fitting feeds the motor from below.
 
@@ -679,6 +679,8 @@ This is an **air-driven (pneumatic) mixer**, not electric — it runs off compre
 `(still needs confirming: which way the red handle actually turns to open vs. close on this specific valve; whether there's a separate speed/flow-rate adjustment beyond fully open/closed.)`
 
 `⚠️ NOTE:` A second valve with a cross-shaped handle is visible nearby in the photo (lower part of the frame) — this looks like it belongs to the tote's drain/outlet plumbing, not the mixer itself. Don't confuse the two before opening anything.
+
+`⚠️ CRITICAL — CONFIRMED BY OPERATOR:` **For the blue drum where the lime is, the blade must be running while you're pumping it out — not just while you're initially mixing the batch.** If the blade isn't turning while lime is being pumped, the lime settles out and the dose won't work well (it's a thick slurry that drops out of suspension fast — see Section 5.6a). Same logic applies wherever this mixer is used: open the air valve and keep the propeller turning for as long as you're drawing liquid out, not just during mixing.
 
 ---
 

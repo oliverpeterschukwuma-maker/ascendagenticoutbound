@@ -14,7 +14,7 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 | **CL-200** (polymer flocculant) | White drum, "FLOCCULANT" label | Flocculant — grows small clumps into big, heavy floc. **Added at 2 confirmed points: the oil/water separation cell (also called "the lagoon") and the C Can** |
 | **Flopham** (dry polymer) | White bags, "NON-REGULATED" label | Backup/supplemental flocculant — same role as CL-200 |
 | **HaloKlear LiquiFloc 2%** | *(chitosan acetate solution)* | Natural chitosan flocculant — used for fine silts, especially stormwater |
-| **Lime — quicklime (CaO), confirmed by supervisor** (bag label says TEXLOME Hydrated Lime, but supervisor's word overrides — see Section 5.6a) | 50 lb bags, mixed 1 bag per 200L in a tank at the C Can | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, also precipitates dissolved metal ions. **Conditional on pH — confirmed by supervisor: only used if the pH is too low.** |
+| **Lime — quicklime (CaO), confirmed by supervisor** (bag label says TEXLIME Hydrated Lime, but supervisor's word overrides — see Section 5.6a) | 50 lb bags, mixed 1 bag per 200L in a tank at the C Can | Added at the C Can before PACl + flocculant — raises pH to 8+ for coagulation, also precipitates dissolved metal ions. **Conditional on pH — confirmed by supervisor: only used if the pH is too low.** |
 | **Sodium Hydroxide (NaOH)** — NEW, see Section 5.6b | Big tote bag *(location TBD)* | Alternative pH RAISER to lime — confirmed present on site, not yet confirmed in routine use |
 | **Hydrogen Peroxide** | Blue 200L drums, Class 5.2/8, SUMAS label | Oxidizer — converts dissolved iron (invisible) to iron hydroxide (filterable) |
 | **CO₂ (Carbon Dioxide)** | Air Liquide gas cylinder | pH REDUCER — lowers pH when water is too alkaline |
@@ -224,10 +224,12 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 
 `ℹ️ CONFIRMED BY OPERATOR:` This is the "3rd chemical" at the C Can — lime. (Operator briefly second-guessed the chemical name in favor of "sodium hydroxide," then retracted that and confirmed lime is correct.)
 
-**Product label (photographed, IMG_2803):** TEXLOME High Calcium Hydrated Lime  
+**Product label (photographed, IMG_2803, IMG_2743):** TEXLIME High Calcium Hydrated Lime  
 **Chemical — ✅ RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):** Brendan, asked directly, said: **"So it's quicklime which is calcium oxide, the bag we should around and it just says lime."** This is **quicklime (CaO)**, not hydrated lime (Ca(OH)₂) as the photographed bag label (IMG_2803) suggests — the supervisor's direct word overrides the label here; the bag itself is apparently just generically marked "lime" with no further specifics. Treat this as **CaO going forward.**
 
-**Ratio — CONFIRMED BY SUPERVISOR (Brendan, text message):** **1 bag (50 lbs) per 200L of water.** **Must be kept mixing continuously — it will settle out and harden if you stop.** This matches the dry-bag-mixed-into-a-stock-tank pattern used for PACl/flocculant (Sections 5.3/5.4); the blue 200L drum staged at the C Can (Section 6.1b) is most likely this mixing tank, not a pre-filled liquid drum.
+**Ratio — CONFIRMED BY SUPERVISOR (Brendan, text message):** **1 bag (50 lbs) per 200L of water.** **Must be kept mixing continuously — it will settle out and harden if you stop.** This matches the dry-bag-mixed-into-a-stock-tank pattern used for PACl/flocculant (Sections 5.3/5.4); the blue drum/tote staged at the C Can (Section 6.1b) is this mixing tank.
+
+`⚠️ CRITICAL — CONFIRMED BY OPERATOR:` **The mixer blade on the blue lime drum must be running while you're pumping the lime out, not just while you first mix it.** Lime settles out fast — if the blade stops turning while you're dosing, it won't work well. The mixer is the pneumatic (air-driven) tote mixer, Section 6.16 — open the air valve and keep it running for the whole time you're drawing lime out.
 
 **Alternative chemical — CONFIRMED BY SUPERVISOR (Brendan, text message):** "You can also use sodium hydroxide as well. Which I think they have a big tote bag worth of." Sodium hydroxide (NaOH, caustic soda) is a separate, more hazardous strong base that can substitute for lime as a pH-raiser. Confirmed present on site in a large tote bag, but not yet confirmed as in current routine use — see new chemical entry, Section 5.6b.
 
