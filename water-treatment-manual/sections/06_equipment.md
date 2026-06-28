@@ -82,7 +82,7 @@
 - **Blue bin 1 → blue bin 2:** gravity-fed via 4" hose (see above) — no pump needed for this hop if elevation allows it
 - **Blue bin 2 → indoors (Tank 1 / Tank 2):** per Brennan, discharge lands in an **open tote** with a submersible pump inside, which then pumps water into the building `(confirm: is this open tote actually present on site, or is the pump currently dropped directly into blue bin 2 as earlier documented?)`
 - **Weir tank discharge — CONFIRMED BY OPERATOR:** a **2-inch submersible pump** is placed **in the middle of the weir tank** (not too close to the floor — avoids the settled sludge; not too high — avoids the oil layer near the top) once the water has settled. It connects directly into the **intake pipe** running indoors. Ozone is turned on as the water flows through this intake pipe (see Section 6.7) — so this pump is also the trigger point for starting ozone treatment.
-- **Sludge at the weir tank — CONFIRMED BY OPERATOR:** settled sludge accumulates at the bottom of the weir tank and needs a **diaphragm pump** to remove it (thick sludge will clog/destroy a standard submersible pump — same reasoning as the AODD diaphragm pump already used for wet cell sludge, Section 6.12). `(confirm: is this the same AODD pump moved over from the wet cell, or a separate dedicated unit for the weir tank?)`
+- **Sludge at the weir tank — CONFIRMED BY OPERATOR:** settled sludge accumulates at the bottom of the weir tank and needs a **diaphragm pump** to remove it (thick sludge will clog/destroy a standard submersible pump). **Confirmed: it's the same AODD pump used for both the outdoor weir tank and the indoor weir tank / settling bins (Section 6.12)** — not a separate dedicated unit.
 
 `[CHECK]` Before starting any transfer:
 - [ ] Pump and cord are in good condition (no cracked housing, no exposed wiring)
@@ -545,15 +545,16 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 
 **What it is:** An air-powered pump that uses two flexible diaphragms alternating back and forth to push liquid. No electric motor — runs on compressed air from the shop air supply.
 
+`ℹ️ CONFIRMED BY OPERATOR:` **This is the one diaphragm pump used to pump out sludge for both the outdoor weir tank and the indoor weir tank / settling bins** — not separate dedicated units for each.
+
 **What it's used for:** Pumping thick sludge and slurries that would destroy a standard centrifugal pump. The AODD can handle:
-- Wet cell sludge transfer to the filter press
-- Sludge from the settling ponds
-- **Weir tank sludge — confirmed need (Section 6.1a):** settled sludge at the bottom of the weir tank needs this pump, not a standard submersible, or it'll clog/destroy a regular pump
+- Indoor weir tank / settling bins sludge transfer to the filter press
+- Outdoor weir tank sludge (Section 6.1a)
 - Any thick, gritty slurry
 
 ### Using it to pump sludge into a tote
 `[ACTION]`
-1. Drop/position the suction hose into the sludge at the bottom of the tank you're clearing (weir tank, wet cell, or settling pond).
+1. Drop/position the suction hose into the sludge at the bottom of the tank you're clearing (outdoor weir tank or indoor weir tank / settling bins).
 2. Run the discharge hose into the tote you're collecting sludge in.
 3. Connect the air supply hose, open the air valve — pump starts cycling ("chunk-chunk-chunk").
 4. Increase air pressure to get a steady flow (up to ~100 psi max).
