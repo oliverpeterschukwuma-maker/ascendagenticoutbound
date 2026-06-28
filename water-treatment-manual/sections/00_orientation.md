@@ -109,7 +109,7 @@ SITE WATER (stormwater, process water, groundwater)
 
 ### Section B — How Water Actually Moves (no fixed pipes)
 
-Nothing between outdoor tanks is permanently plumbed. A **submersible pump** (motor + pump sealed in one waterproof housing, e.g. the blue Sunsun-style unit on site) is physically carried to whichever tank needs to be emptied, dropped in fully underwater, and a **2" hose** is run to the tank that needs to receive the water. The same pump and 2" hose setup is used in both the frac tank and the weir tank — same equipment, just moved to wherever it's needed.
+Nothing between outdoor tanks is permanently plumbed. A **submersible pump** (motor + pump sealed in one waterproof housing, e.g. the blue Sunsun-style unit on site) is physically carried to whichever tank needs to be emptied, dropped in fully underwater, and a **2" hose** is run to the tank that needs to receive the water. The same pump and 2" hose setup is used in both the frac tank and the weir tank — same equipment, just moved to wherever it's needed. Once it's sitting in the bottom of a tank, all you see from outside is the hose fitting at the corner where it connects — that's normal, the pump itself is fully submerged.
 
 `ℹ️ WHY THIS MATTERS:` Before assuming water is flowing somewhere, check — is a pump actually sitting in a tank right now, and where does its hose go? Nothing moves on its own here.
 
