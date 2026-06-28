@@ -124,7 +124,9 @@ Inside the C Can:
 
 ---
 
-## 6.2a Wet Cell / Separation Cell — "Settling Bins" (Indoor Settling Tanks)
+## 6.2a Indoor Weir Tank / Settling Bins — "Wet Cell" / Separation Cell (Indoor Settling Tanks)
+
+`ℹ️ TERMINOLOGY:` The operator calls this the **indoor weir tank / settling bins** — distinct from the **outdoor weir tank** (the blue bin, Section 6.1a). Always specify indoor/outdoor when referring to either one.
 
 `ℹ️ CONFIRMED BY OPERATOR (IMG_2740, IMG_2741, IMG_2742, IMG_2745):` These are **the settling tanks** referred to elsewhere in this manual — physically separate from, but located right next to, the white cylindrical storage tanks (Tank 1 / Tank 2, Section 6.2) (a white tank is visible at the edge of the frame in these photos/video). Do not confuse the two: storage tanks just hold water; this is where the actual settling happens.
 

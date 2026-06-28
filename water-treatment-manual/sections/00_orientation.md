@@ -146,9 +146,11 @@ Inside the C Can, three drums hold the made-up stock chemicals, side by side: **
 
 ---
 
-### Section D — Weir Tank (Blue Bin): Settling
+### Section D — Outdoor Weir Tank (Blue Bin): Settling
 
-Dosed water flows from the C Can into the blue weir tank (only 1 bin in use) — a blue intermodal-style bin/tank parked right next to the C Can, marked "NO GARBAGE" (it's not a waste bin, just repurposed equipment). It sits and settles.
+`ℹ️ TERMINOLOGY:` There are two tanks with "weir" in the name at this site — this **outdoor** one (the blue bin) and an **indoor** one (Section F). Always say "outdoor" or "indoor" when logging or talking about them so it's clear which one you mean.
+
+Dosed water flows from the C Can into the outdoor blue weir tank (only 1 bin in use) — a blue intermodal-style bin/tank parked right next to the C Can, marked "NO GARBAGE" (it's not a waste bin, just repurposed equipment). It sits and settles.
 
 `ℹ️ HOW LONG:` No fixed time — it's visual. Water should look **as clear as tap water** before you move on. Without the chemical dosing from Section C, this tank does almost nothing on its own — it just drops the biggest particles.
 
@@ -163,8 +165,8 @@ Sludge collects on the tank floor over time and needs the diaphragm (AODD) pump 
 **Order matters here: ozone ON first, then start the pump.** Turning the pump on first means untreated water gets pulled in before ozone is actually doing anything to it.
 
 1. Turn the ozone generator **on**.
-2. Then start the 2" submersible pump, placed mid-depth in the weir tank (avoids the sludge on the bottom, avoids the oil layer on top — the cleanest water is in the middle).
-3. As water gets pulled through the intake pipe into the building, ozone is injected into it along the way. The intake pipe itself is white PVC — it's the pipe entering the building wall where the weir tank pump's hose connects to it.
+2. Then start the 2" submersible pump, placed mid-depth in the outdoor weir tank (avoids the sludge on the bottom, avoids the oil layer on top — the cleanest water is in the middle).
+3. As water gets pulled through the intake pipe into the building, ozone is injected into it along the way. The intake pipe itself is white PVC — it's the pipe entering the building wall where the outdoor weir tank pump's hose connects to it.
 
 `ℹ️ WHY:` Ozone is a strong oxidizer — it breaks down dissolved hydrocarbons and turns dissolved iron into a solid form, while the water is in transit through the pipe.
 
@@ -172,11 +174,11 @@ Sludge collects on the tank floor over time and needs the diaphragm (AODD) pump 
 
 ---
 
-### Section F — Indoor Settling Bins
+### Section F — Indoor Weir Tank / Settling Bins
 
-Water arrives here through a white PVC pipe coming down from overhead — that pipe is the delivery point for water that's already been through the C Can, weir tank, and ozone. It lands and settles again — same visual rule as Section D: clear as tap water before moving on, and check NTU here too. Once it settles, a submersible pump is hooked into this tank to push the water onward through the bag filter and carbon filter to the storage tank. Sludge builds up here too, and gets handled the same way (AODD pump → Kontek filter press, which squeezes the water out; the dry leftover is waste, the squeezed-out water rejoins the system).
+Water arrives here through a white PVC pipe coming down from overhead — that pipe is the delivery point for water that's already been through the C Can, outdoor weir tank, and ozone. It lands and settles again — same visual rule as Section D: clear as tap water before moving on, and check NTU here too. Once it settles, a submersible pump is hooked into this tank to push the water onward through the bag filter and carbon filter to the storage tank. Sludge builds up here too, and gets handled the same way (AODD pump → Kontek filter press, which squeezes the water out; the dry leftover is waste, the squeezed-out water rejoins the system).
 
-📸 **Send photos of:** the indoor settling bins / wet cell.
+📸 **Send photos of:** the indoor weir tank / settling bins.
 
 ---
 
