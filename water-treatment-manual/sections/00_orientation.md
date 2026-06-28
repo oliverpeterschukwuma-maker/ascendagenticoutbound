@@ -174,7 +174,7 @@ Sludge collects on the tank floor over time and needs the diaphragm (AODD) pump 
 
 ### Section F — Indoor Settling Bins
 
-Water lands here and settles again — same visual rule as Section D: clear as tap water before moving on. The pump then pushes it onward to filtration. Sludge builds up here too, and gets handled the same way (AODD pump → Kontek filter press, which squeezes the water out; the dry leftover is waste, the squeezed-out water rejoins the system).
+Water arrives here through a white PVC pipe coming down from overhead — that pipe is the delivery point for water that's already been through the C Can, weir tank, and ozone. It lands and settles again — same visual rule as Section D: clear as tap water before moving on, and check NTU here too. Once it settles, a submersible pump is hooked into this tank to push the water onward through the bag filter and carbon filter to the storage tank. Sludge builds up here too, and gets handled the same way (AODD pump → Kontek filter press, which squeezes the water out; the dry leftover is waste, the squeezed-out water rejoins the system).
 
 📸 **Send photos of:** the indoor settling bins / wet cell.
 
