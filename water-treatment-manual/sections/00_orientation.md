@@ -164,7 +164,7 @@ Sludge collects on the tank floor over time and needs the diaphragm (AODD) pump 
 
 1. Turn the ozone generator **on**.
 2. Then start the 2" submersible pump, placed mid-depth in the weir tank (avoids the sludge on the bottom, avoids the oil layer on top — the cleanest water is in the middle).
-3. As water gets pulled through the intake pipe into the building, ozone is injected into it along the way.
+3. As water gets pulled through the intake pipe into the building, ozone is injected into it along the way. The intake pipe itself is white PVC — it's the pipe entering the building wall where the weir tank pump's hose connects to it.
 
 `ℹ️ WHY:` Ozone is a strong oxidizer — it breaks down dissolved hydrocarbons and turns dissolved iron into a solid form, while the water is in transit through the pipe.
 
