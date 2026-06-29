@@ -91,6 +91,8 @@ SITE WATER (stormwater, process water, groundwater)
 
 `ℹ️ TERMINOLOGY NOTE — "the lagoon":` **"Lagoon" is just another name for the Oil/Water Separation Cell, step [2] above — it is NOT a separate final-disposal destination.** There is no confirmed step where treated water is trucked or dosed at a separate lagoon after the storage tanks; that idea came from an earlier, unconfirmed account and is corrected here.
 
+`⚠️ CONFIRMED BY OPERATOR (Oliver) — flow rate vs. settling time:` Don't let the incoming flow rate run too high. If too much water comes in at once, steps [3]–[7] (frac tanks, C Can dosing, weir tank, indoor settling bins) don't get enough time to actually settle before water gets pushed forward — the whole train is a balancing act between flow rate in and settling time needed at each stage, not a fixed setting. This system was never built as a purpose-designed treatment plant, so this balancing has to be actively managed, not assumed.
+
 ---
 
 ## 0.2a Plain-English Walkthrough — How This System Actually Works, Section by Section

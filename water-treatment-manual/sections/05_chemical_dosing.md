@@ -52,6 +52,23 @@ While testing at the C Can, **check the pH of the water.** Operator will read ou
 
 ---
 
+## 5.1c Full Chemical Mixing & Dosing Sequence — Step by Step (CONFIRMED BY OPERATOR, Oliver)
+
+This ties together Sections 5.3, 5.4, and 5.6a into the order they're actually done at the C Can, before water moves on to the weir tank, ozone, bag filter, and carbon vessel (see the full Treatment Train, Section 0.2).
+
+`[ACTION]`
+1. **Test the pH first.** This decides whether lime is needed at all — it is not added every batch by default (Section 5.6a).
+2. **If pH is below 8:** mix lime — **1 bag (50 lbs) per 200L of water** — in the blue lime tote/drum at the C Can. Keep the pneumatic mixer running continuously, both while mixing and while pumping lime out; it settles and hardens fast if the blade stops. Lime raises pH to 8+, which is the range PACl coagulant needs to work, and also helps precipitate dissolved metal ions as a backup to ozone.
+   - **If pH is already 8 or higher, skip lime entirely** and go straight to coagulant.
+3. **Mix the PACl coagulant stock:** **2 bags of dry PACl powder per 200L of clean water** (not the water being treated). Let the mixed stock **sit for 3 hours** before dosing from it — don't dose straight off a fresh batch.
+4. **Mix the flocculant stock:** **100g of flocculant per 200L of water** (half a scoop from the white pail per 200L batch). Add it slowly — sprinkle, don't dump — while mixing, to avoid forming masses that clog the dosing pumps. **Keep mixing for about an hour** before it's ready to use.
+5. **Dose both into the water together**, right before the weir tank — flocculant dose must always be ≥ the coagulant dose, never less (Section 5.1b).
+6. **Watch for floc forming visually.** There's no fixed daily mg/L target — raw water composition changes day to day, so the dose is tuned by what you actually see clumping, not a fixed setpoint. Adjust pump stroke rate/length if needed.
+7. **Don't overload the front end.** Keep the incoming flow rate in check — if too much water comes in at once, there isn't enough time for the floc to actually settle before the water moves on, and the rest of the system gets pushed past what it can handle. This whole process is a balancing act, not a fixed setting you dial in once.
+8. From here the water continues through the rest of the train as already mapped in Section 0.2: weir tank settling → ozone → indoor settling bins → bag filter → carbon vessel → storage tank. (This site does not run a sand filter — bag filter and carbon vessel are the only two filtration steps water actually passes through.)
+
+---
+
 ## 5.2 Critical Compatibility Warning — Read Before Handling Any Chemical
 
 `⚠️ WARNING:` Several chemicals on this site will react violently if mixed together.
@@ -154,9 +171,16 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 
 **Batch size confirmed by operator: 500L, not 1000L** — scaled to the same ratio, that's 250L water → mixer on → **500g polymer** added with the second 250L of water. `(scaling assumes the same 1 g/L concentration applies at the smaller batch size — confirm with operator if the polymer amount doesn't simply halve with the batch.)`
 
-`⚠️ DISCREPANCY — not yet reconciled:` A former operator's account (no longer treated as current) described a 200L batch at roughly 100g polymer per 200L (~500 mg/L). The current operator's 1000L/1kg ratio works out to **1000 mg/L — about double that concentration.** Until reconciled, use the current operator's 1kg-per-1000L-tote instructions above as the live procedure; the former operator's ratio is kept here only for reference.
+`✅ RECONCILED — CONFIRMED BY OPERATOR (Oliver):` The live, in-practice ratio is **100g polymer per 200L of water (~500 mg/L)**, measured as **half a scoop from the white pail** of dry polymer per 200L batch. This is the same figure previously logged as an unreconciled "former operator" account — that flag is now removed; treat **100g/200L** as the going-forward ratio. The earlier 1kg-per-1000L-tote figure (1000 mg/L) may still apply for a larger batch prepared in the tote rather than the pail — not fully reconciled, kept below for reference only if a bigger batch is ever needed.
 
-- This stock solution is then metered into the process alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle.
+`(open question: the white-pail product being scooped and sprinkled in by hand sounds more like a dry powder — possibly the Flopham dry polymer, Section 5.5 — rather than the liquid CL-200 described above. Confirm which product is actually in the white pail.)`
+
+### Mixing technique — CONFIRMED BY OPERATOR (Oliver)
+`[ACTION]`
+1. Start with water in the mixing container, mixer running.
+2. **Add the flocculant very slowly — sprinkle it in, don't dump it.** Adding it too fast forms clumps/masses that will clog the chemical dosing pumps downstream.
+3. **Keep mixing for about an hour** before it's ready to use.
+4. This stock solution is then metered into the process alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle.
 
 ### Signs of under-dosing
 - Floc forms but stays small and slow to settle
@@ -440,4 +464,4 @@ Record inventory in the daily log.
 
 ---
 
-*Last updated: 2026-06-05 | Source: MSDS binder photos (IMG_2574–2595), chemical drum labels (IMG_2597, 2600, 2617, 2630, 2631)*
+*Last updated: 2026-06-29 | Source: MSDS binder photos (IMG_2574–2595), chemical drum labels (IMG_2597, 2600, 2617, 2630, 2631), operator (Oliver) walkthrough of mixing/dosing sequence*
