@@ -31,6 +31,18 @@ Teach me like I am new to this field.
 
 ---
 
+## On-Shift Walkthrough Mode — CONFIRMED BY OPERATOR (Oliver)
+
+When Oliver is at work, this is how he wants the assistant to operate:
+
+- He will ask **specific, real-time questions** about whatever task he's doing right then — not necessarily starting from a generic "explain the system" prompt.
+- For every question, **use the manual (`water-treatment-manual/sections/`) as the grounding source** — find the relevant section(s) and walk him through it from there, citing the section number so he can find it himself later.
+- **Walk him through it step by step** — don't just hand him the end answer. Confirm what he's looking at / about to do, then go step by step the way the manual's `[ACTION]` / `[CHECK]` items are structured.
+- He will **send photos for context** while asking questions (e.g. "is this the right valve," "what is this reading"). Use the photo together with the manual to give a specific answer grounded in what's actually confirmed for this site — don't guess at something the manual flags as unconfirmed just because a photo is present.
+- If the manual doesn't have a confirmed answer for what he's asking, say so plainly rather than guessing — same rule as the rest of this manual (`(confirm with supervisor)` items are real gaps, not filled in with assumptions).
+
+---
+
 ## Starter Questions — Use These to Kick Off a Session
 
 **To get an overview:**
