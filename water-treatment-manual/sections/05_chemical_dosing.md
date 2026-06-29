@@ -41,14 +41,14 @@ This is an iron-removal and hydrocarbon-removal system, not a drinking water pla
 
 - **If results show under-dosing** (e.g., poor floc formation, turbidity not dropping — see Section 4 for signs), **add more coagulant or flocculant at the C Can into the weir tank.**
 - **Pump speed/stroke adjustment:** if the dose itself needs to change, this is done by adjusting the **stroke rate and/or stroke length** on the relevant dosing pump (coagulant, flocculant, or lime) — not just by adding chemical by hand.
-- Operator is sending photos of the actual dosing pumps used to inject coagulant, flocculant, and lime at the C Can — once received, this section will be updated with pump make/model and where the stroke rate/length controls are on each one. **Flocculant pump confirmed (Section 5.4) — coagulant and lime pumps still pending.**
+- Coagulant and flocculant dosing pumps at the C Can are both confirmed JCMB Solenoid Dosing Pumps, same model — current speeds: coagulant **34**, flocculant **56** (Sections 5.3, 5.4). Lime pump/method still pending — lime is mixed in the tote, not metered through one of these dosing pumps (Section 5.6a).
 
 `⚠️ RULE — CONFIRMED BY OPERATOR:` **Coagulant (PACl) dose must never be more than the flocculant dose.** Flocculant ≥ coagulant, always — never the other way around. Keep this in mind any time you're adding more of either one.
 
 ### pH check during testing at the C Can
 While testing at the C Can, **check the pH of the water.** Operator will read out the pH value live — based on the target range in Section 5.1a (pH 8+ is good, below 8 is not), confirm whether the reading is off and what to do about it (add lime to bring it up to 8+, per Section 5.6a).
 
-`(still pending: photos of the 3 dosing pumps at the C Can; current stroke rate/length setting on each; what specific test result triggers a dose increase vs. a pump adjustment)`
+`(still pending: lime pump/dosing method photo at the C Can; what specific test result triggers a dose increase vs. a pump adjustment)`
 
 ---
 
@@ -126,7 +126,10 @@ Put together: empty the tote out, then mix a fresh ~200L batch — timed early e
 **Product:** CK-311 Coagulant (Aluminum Hydroxide Chloride Solution), supplied by SUMAS Environmental Services  
 **SDS supplier:** CARBONeT Holdings Inc., 604-761-2308  
 **Container:** White 200L drum, Class 8, UN 3264, PG III, pH 2.2–2.8  
-**Pump:** Blue diaphragm dosing pump
+**Pump:** Blue diaphragm dosing pump  
+**Pump at the C Can — CONFIRMED BY PHOTO (IMG_2858):** Blue **JCMB Solenoid Dosing Pump** (same model as the flocculant pump, Section 5.4).
+
+**Current setting — CONFIRMED BY OPERATOR:** coagulant pump speed adjusted to **34**.
 
 ### What it does
 Water contains tiny particles that are too small to settle on their own. These particles carry a negative electrical charge, which keeps them suspended and apart — like tiny magnets repelling each other.
@@ -174,7 +177,7 @@ PACl is a positively charged aluminum compound. When it's added to the water and
 **Pump (indoor injection point):** Yellow LMI diaphragm dosing pump  
 **Pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue **JCMB Solenoid Dosing Pump**, Model **JCMB55-20/2.5**, Capacity 20 L/H, Pressure 2.5 bar, Power 30W, AC100–240V. Dial sets stroke length; `«` `»` buttons adjust stroke rate; `SET` and `ON/OFF` buttons; green MOTOR light confirms it's running.
 
-**Current setting — CONFIRMED BY OPERATOR:** flocculant pump speed adjusted to **48.0**.
+**Current setting — CONFIRMED BY OPERATOR:** flocculant pump speed adjusted to **56** (updated from earlier confirmed 48.0).
 
 ### What it does
 Coagulation (PACl) creates small particle clusters. Flocculation grows those small clusters into larger, heavier floc that settles faster and is easier to filter. CL-200 polymer is a long-chain molecule that acts like a net — it bridges between coagulated particles, connecting them into larger aggregates.
