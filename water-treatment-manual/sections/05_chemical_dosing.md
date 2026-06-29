@@ -54,7 +54,7 @@ While testing at the C Can, **check the pH of the water.** Operator will read ou
 
 ## 5.1c Full Chemical Mixing & Dosing Sequence — Step by Step (CONFIRMED BY OPERATOR, Oliver)
 
-This ties together Sections 5.3, 5.4, and 5.6a into the order they're actually done at the C Can, before water moves on to the weir tank, ozone, bag filter, and carbon vessel (see the full Treatment Train, Section 0.2). If you're new, read the "why" line under each step before you do it — knowing why catches mistakes a checklist alone won't.
+This ties together Sections 5.3, 5.5, and 5.6a into the order they're actually done at the C Can, before water moves on to the weir tank, ozone, bag filter, and carbon vessel (see the full Treatment Train, Section 0.2). If you're new, read the "why" line under each step before you do it — knowing why catches mistakes a checklist alone won't.
 
 `[ACTION]`
 
@@ -194,16 +194,7 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 
 **Batch size confirmed by operator: 500L, not 1000L** — scaled to the same ratio, that's 250L water → mixer on → **500g polymer** added with the second 250L of water. `(scaling assumes the same 1 g/L concentration applies at the smaller batch size — confirm with operator if the polymer amount doesn't simply halve with the batch.)`
 
-`✅ RECONCILED — CONFIRMED BY OPERATOR (Oliver):` The live, in-practice ratio is **100g polymer per 200L of water (~500 mg/L)**, measured as **half a scoop from the white pail** of dry polymer per 200L batch. This is the same figure previously logged as an unreconciled "former operator" account — that flag is now removed; treat **100g/200L** as the going-forward ratio. The earlier 1kg-per-1000L-tote figure (1000 mg/L) may still apply for a larger batch prepared in the tote rather than the pail — not fully reconciled, kept below for reference only if a bigger batch is ever needed.
-
-`(open question: the white-pail product being scooped and sprinkled in by hand sounds more like a dry powder — possibly the Flopham dry polymer, Section 5.5 — rather than the liquid CL-200 described above. Confirm which product is actually in the white pail.)`
-
-### Mixing technique — CONFIRMED BY OPERATOR (Oliver)
-`[ACTION]`
-1. Start with water in the mixing container, mixer running.
-2. **Add the flocculant very slowly — sprinkle it in, don't dump it.** Adding it too fast forms clumps/masses that will clog the chemical dosing pumps downstream.
-3. **Keep mixing for about an hour** before it's ready to use.
-4. This stock solution is then metered into the process alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle.
+`✏️ MOVED — CONFIRMED BY OPERATOR (Oliver):` The 100g-per-200L, scoop-from-the-white-pail ratio previously logged here is **the dry Flopham polymer, not CL-200** — moved to Section 5.5 where it now lives with its mixing technique. `(This 1kg/1000L two-pour procedure right above describes a powder being poured in alongside water too — possibly also Flopham rather than liquid CL-200. Not reattributed yet since it hasn't been specifically confirmed either way — flagging for a future check.)`
 
 ### Signs of under-dosing
 - Floc forms but stays small and slow to settle
@@ -226,17 +217,25 @@ Coagulation (PACl) creates small particle clusters. Flocculation grows those sma
 **Container:** White bags, "NON-REGULATED MATERIAL" SUMAS label
 
 ### What it does
-Same job as CL-200 — a flocculant. Flopham is a dry polymer that must be dissolved in water before use. It is used as a backup or supplement when CL-200 is unavailable or when higher doses are needed.
+Same job as CL-200 — a flocculant. Flopham is a dry polymer that must be dissolved in water before use.
 
-### Making a polymer solution from dry Flopham
-Dry polymer must NEVER be added directly to the treatment stream — it forms fish-eye lumps and clogs lines.
+`✏️ CORRECTED BY OPERATOR (Oliver):` This is **not** a backup/supplement to CL-200 — this dry polymer, scooped from the white pail, is the one actually in routine use at the C Can for flocculant dosing (see Section 5.1c for where it fits in the full mixing sequence).
 
-`[ACTION]`  
-1. Prepare a mixing bucket with clean water (room temperature — cold water slows dissolution).  
-2. Slowly add the dry polymer powder to the water while stirring continuously. **Add powder to water, not water to powder.**  
-3. Stir for 30–60 minutes until fully dissolved and solution is clear/uniform.  
-4. Typical solution concentration: 0.1–0.5% (1–5 g polymer per litre of water).  
-5. Add the prepared solution to the treatment stream via dosing pump or measured addition.
+### Ratio and mixing technique — CONFIRMED BY OPERATOR (Oliver)
+
+**Ratio: 100g of dry Flopham per 200L of water (~500 mg/L)** — measured in practice as **half a scoop from the white pail** per 200L batch.
+
+`[ACTION]`
+1. Start with water in the mixing container, mixer running.
+2. **Add the polymer very slowly — sprinkle it in, never dump it.** Adding it too fast (or adding water to powder instead of powder to water) forms clumps/fish-eye lumps that will clog the chemical dosing pumps downstream.
+3. **Keep mixing for about an hour** until fully dissolved and the solution looks clear/uniform.
+4. This stock solution is then metered into the process alongside the PACl coagulant — together they cause contaminants and dirt to clump and settle.
+
+`ℹ️ NOTE:` This 100g/200L ratio (~0.05%) runs lighter than the generic 0.1–0.5% solution-concentration range sometimes quoted for polyacrylamide flocculants — that generic range is kept below for reference, but **100g/200L is the live, operator-confirmed ratio to use.**
+
+`(reference only — generic guidance, not site-specific):`
+- Typical solution concentration range quoted for this polymer type: 0.1–0.5% (1–5 g polymer per litre of water)
+- Add the prepared solution to the treatment stream via dosing pump or measured addition
 
 `ℹ️ WHY:` Pre-dissolving eliminates clumping and ensures even distribution. Undissolved polymer lumps pass through the system without doing anything useful.
 
