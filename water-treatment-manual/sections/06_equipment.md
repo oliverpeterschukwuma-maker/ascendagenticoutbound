@@ -695,4 +695,54 @@ This is an **air-driven (pneumatic) mixer**, not electric — it runs off compre
 
 ---
 
-*Last updated: 2026-06-05 | Source: Equipment photos IMG_2597, 2600–2610, 2614–2631; video frames IMG_2612; indoor tank photos IMG_2598–2599; control panel labels; filter press nameplate*
+## 6.17 Avoiding Trapped Pressure — Pump, Valve, and Hose Shutdown Sequencing
+
+`ℹ️ WHY THIS SECTION EXISTS — CONFIRMED BY OPERATOR (Oliver):` Nothing on this site is a sealed, municipal-style pressurized pipe network. Every run is a **submersible pump pushing water through an open-ended hose or pipe** into the next tank. That means the risk isn't "the pipe is always under pressure" — it's narrower and more specific than that:
+
+1. **Starting a pump against a closed valve** — the pump keeps pushing with nowhere for the water to go, and pressure builds and sits on the pipe.
+2. **Closing a valve while the pump is still running** — same problem, caused in reverse.
+3. **Disconnecting a hose or fitting right after shutoff, before residual water has had a chance to drain back out** — there's a moment after the pump stops where the line is still full and may still have some head pressure on it, even though the pump itself is off.
+
+The fix for all three is the same idea: **pump and valve operations always happen in a deliberate order, never at the same time, and you give the line a moment to drain before you break a connection.** The two runs below are the ones you asked about — work through both the same way every time until it's automatic.
+
+### Run 1 — Indoor PVC Intake Pipe (Weir Tank → Ozone → Indoor Settling Bins)
+
+This is the pipe described in Section 6.1a and Section 6.7: a 2" submersible pump sits mid-depth in the outdoor weir tank and pushes water through the white PVC intake pipe into the building, with ozone injected into it along the way, landing in the indoor settling bins ("down" pipe).
+
+**Starting up (already confirmed, Section 6.1a/6.7 — repeated here for the full sequence):**
+1. `[ACTION]` Open the **intake pipe valve** at the building wall first.
+2. `[ACTION]` Turn the **ozone generator** on.
+3. `[ACTION]` *Then* drop in / power on the **weir tank submersible pump**.
+
+`ℹ️ WHY THIS ORDER:` Per Section 6.1a, starting the pump against a closed valve lets pressure build on the pipe with nowhere to go. Per Section 6.7, starting the pump before ozone means untreated water gets a head start past the point ozone is supposed to treat it. Doing both in this order avoids both problems at once.
+
+**Shutting down once the indoor settling bins are full (the part you asked about):**
+1. `[ACTION]` Turn the **weir tank submersible pump off first.** Do not close the intake pipe valve while the pump is still running — that's the same "closed valve, pump still pushing" problem as starting it backwards, just at the other end of the cycle.
+2. `[ACTION]` Turn the **ozone generator off.**
+3. `[ACTION]` **Wait a moment before touching the valve.** The intake pipe is open at the indoor end (it discharges into the settling bins) — once the pump stops pushing, whatever water is still in the pipe drains forward into the bins by gravity. Give it that moment; you'll typically hear/see the flow at the discharge end taper off to nothing.
+4. `[ACTION]` *Then* close the **intake pipe valve** at the building wall. Closing it after the pump is off and the line has drained means you're sealing an already-depressurized pipe, not trapping pressure inside it.
+5. `[ACTION]` If you ever need to disconnect the pump's hose from the intake pipe fitting itself (not just close the wall valve), do it only after steps 1–3 above. Crack the fitting open slightly first and pause — if any water sprays or sputters out, let it finish before fully separating it. That confirms the line is actually at atmospheric pressure, not just "probably fine."
+
+`⚠️ WARNING:` Never close the intake valve and walk away while the pump is still in the tank powered on. If you're stepping away mid-transfer, pump off first — every time, no exceptions.
+
+### Run 2 — Outdoor Hose (Frac Tank Submersible Pump → C Can)
+
+This is the hose described in Section 6.1a: a submersible pump dropped into the frac tank, hose run to the C Can, connecting at the check valve fitting at the base of the C Can (the confirmed *inflow* point — Section 6.1b).
+
+**Starting up:**
+1. `[ACTION]` Confirm the hose is connected securely at both ends (pump end in the frac tank, check valve end at the C Can) before powering anything on.
+2. `[ACTION]` Drop in / power on the **frac tank submersible pump.** The check valve at the C Can only needs to be physically present and connected — it isn't a manual valve you open by hand, it just lets water in one direction and stops it from running back out.
+
+**Shutting down once the transfer is done (or you're moving the pump to a new tank):**
+1. `[ACTION]` Turn the **frac tank submersible pump off first** — same rule as Run 1, never disconnect a hose while the pump pushing it is still running.
+2. `[ACTION]` **Disconnect at the pump end first, not the C Can end.** The check valve at the C Can is specifically designed to hold water back on that side — if you crack the connection there first, you're opening against whatever residual head the check valve was holding. The pump end has no check valve holding it shut, so breaking the connection there lets the hose gravity-drain back toward the frac tank with nothing trapped on either side.
+3. `[ACTION]` Lift or lower the disconnected hose end so it drains fully before you coil it or set it aside — a hose left lying in a low loop can hold a surprising amount of standing water, which isn't a pressure risk but is worth draining so it's not sloshing around your feet or whoever moves it next.
+4. `[ACTION]` Once you're confident the hose is empty, disconnect the check valve end at the C Can.
+
+`ℹ️ WHY DISCONNECT THE PUMP END FIRST:` The general rule for any hose with a check valve on only one end is: **break the connection on the end *without* the check valve first.** That end was never holding pressure back on its own — it's the safe side to open. The check valve end is the one built to resist backflow, so it's the side most likely to still be holding something back the moment after shutoff.
+
+`(still needed: exact physical location/identity of the intake pipe valve at the building wall — Section 6.1a flags this as unconfirmed. Confirm with Brennan so this section can reference it by name/location instead of just "the wall valve.")`
+
+---
+
+*Last updated: 2026-06-29 | Source: Operator (Oliver) walkthrough of pump/valve shutdown sequencing, cross-referenced against confirmed valve-sequencing notes in Sections 6.1a and 6.7*
