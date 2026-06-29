@@ -292,6 +292,18 @@ Full confirmed path: submersible pump (in settling bins, Section 6.2a) → hose 
 
 `⚠️ WARNING:` Backwashing carbon does **not** restore its adsorption capacity. Once the carbon is chemically saturated (it's adsorbed all it can), no amount of backwashing brings that back — the media must be physically removed and replaced with fresh carbon. Exhausted carbon is a regulated waste — dispose of through an approved waste contractor. Backwashing below is a separate, routine maintenance step — see why below.
 
+### Carbon replacement procedure — CONFIRMED BY SUPERVISOR (Brendan, text message)
+
+Oliver asked directly what the easiest/most efficient way to clean out the carbon vessel is. Brendan's answer: **"You have to vac out all the carbon and put new carbon in once it's dirty."**
+
+`[ACTION]`
+1. Take the vessel out of service (close inlet/outlet, relieve pressure, open the top manway/access lid).
+2. **Vacuum out all of the old/spent carbon** — don't just backwash it out; the saturated media has to be physically removed.
+3. Refill with fresh granular activated carbon (GAC).
+4. Return the vessel to service.
+
+`(still needed: exact vacuum equipment used, how much new carbon goes in (volume/weight), the specific GAC product/supplier, and confirmation of where spent carbon gets disposed of as regulated waste — confirm with Brendan/SUMAS.)`
+
 ### Backwash frequency — CONFIRMED BY OPERATOR
 **Backwash the carbon vessel every week.** This is separate from the 1.5-month check above: the weekly backwash is routine bed maintenance, not a check for exhaustion.
 
@@ -745,4 +757,4 @@ This is the hose described in Section 6.1a: a submersible pump dropped into the 
 
 ---
 
-*Last updated: 2026-06-29 | Source: Operator (Oliver) walkthrough of pump/valve shutdown sequencing, cross-referenced against confirmed valve-sequencing notes in Sections 6.1a and 6.7*
+*Last updated: 2026-06-29 | Source: Operator (Oliver) walkthrough of pump/valve shutdown sequencing, cross-referenced against confirmed valve-sequencing notes in Sections 6.1a and 6.7; supervisor (Brendan) text-message confirmation of carbon vessel replacement procedure*

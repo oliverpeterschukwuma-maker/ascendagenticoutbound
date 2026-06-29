@@ -92,6 +92,20 @@ From here the water continues exactly as mapped in Section 0.2: weir tank settli
 
 ---
 
+## 5.1d Batch Sizing & Timing — When to Mix the Next Batch — CONFIRMED BY SUPERVISOR (Brendan, text message)
+
+Oliver asked directly: *"How much of the chemicals do you normally make — just enough to fill the drums that are injecting the chemicals — and do you wait till the chemicals are finished before you make more?"*
+
+Brendan's answer, combined into the rules below:
+
+1. **Mix about 200L, or just under, per batch.** This matches the per-batch ratios already given for each chemical above (lime, PACl, flocculant — Sections 5.6a, 5.3, 5.5) — you're not filling the tote to its full size, just making one batch's worth at a time.
+2. **Always mix into an empty tote — don't top up on top of what's left.** `ℹ️ WHY:` *"They don't lower at the same rate so you need the tote empty."* Lime, PACl, and flocculant draw down at different speeds depending on dosing rate, so a partly-used tote doesn't have a clean, known concentration left in it. Mixing a fresh 200L batch into that leftover muddies the ratio — empty it out first, then mix the new batch at the full, correct ratio.
+3. **Don't wait until a tote runs completely dry before starting the next batch.** Oliver asked if you wait until the chemical is finished before making more — Brendan's answer: **"No, you don't wait — then you'd have to shut down the whole system while you make more."** `ℹ️ WHY:` PACl needs a 3-hour rest before use and flocculant needs about an hour (Sections 5.3, 5.5) — if you let a tote run bone dry first, you're stuck waiting that whole mixing/rest time with nothing to dose, which means stopping the system. Watch the level and start mixing the next batch with enough lead time that it's ready before the current one is actually used up.
+
+Put together: empty the tote out, then mix a fresh ~200L batch — timed early enough that you're never caught with an empty tote and a system that's still running.
+
+---
+
 ## 5.2 Critical Compatibility Warning — Read Before Handling Any Chemical
 
 `⚠️ WARNING:` Several chemicals on this site will react violently if mixed together.
@@ -486,4 +500,4 @@ Record inventory in the daily log.
 
 ---
 
-*Last updated: 2026-06-29 | Source: MSDS binder photos (IMG_2574–2595), chemical drum labels (IMG_2597, 2600, 2617, 2630, 2631), operator (Oliver) walkthrough of mixing/dosing sequence*
+*Last updated: 2026-06-29 | Source: MSDS binder photos (IMG_2574–2595), chemical drum labels (IMG_2597, 2600, 2617, 2630, 2631), operator (Oliver) walkthrough of mixing/dosing sequence, supervisor (Brendan) text-message confirmations*
