@@ -263,7 +263,11 @@ Backwash the sand filter when any of the following:
 
 `ℹ️ CONFIRMED — currently in active use:` the sand filter isn't used at this site (Section 6.4), so water flows straight from settling to the **bag filter, then this carbon vessel** — this is one of the two filtration steps the water actually sees.
 
-`✅ CONFIRMED BY OPERATOR — hose path:` Once water has passed through the carbon vessel, the **green hose** carries it to the **storage tank** (Section 6.2) — that's the last step before storage. Full confirmed path: submersible pump (in settling bins, Section 6.2a) → black hose → bag filter (Section 6.6) → carbon vessel → green hose → storage tank. The sand filter (Section 6.4) and the Kontek filter press (Section 6.11, used only for sludge dewatering) are **not** part of this water path.
+`✅ CONFIRMED BY OPERATOR (photos IMG_2795, IMG_2796) — hose path, corrected:` The **black hose** is the line between the bag filter and this carbon vessel — it's the carbon vessel's inlet, not the pump's connection to the bag filter (an earlier note had this backwards). Once water has passed through the carbon vessel, the **green hose** carries it via a PVC pipe to the **storage tank** (Section 6.2) — that's the last step before storage.
+
+Full confirmed path: submersible pump (in settling bins, Section 6.2a) → hose → elbow/camlock fitting at the **bottom** of the bag filter housing (Section 6.6) → water flows up into the bag filter, through the bag, back down → **black hose** → carbon vessel (enters near the base) → **green hose** → PVC pipe → storage tank. The sand filter (Section 6.4) and the Kontek filter press (Section 6.11, used only for sludge dewatering) are **not** part of this water path.
+
+`ℹ️ NOTE on backwashing:` Both visible connections on this vessel (the black hose inlet and the green hose/PVC outlet) are at the **base** of the vessel, near each other — no separate backwash supply/drain valves were visible in photo IMG_2796. The only other opening is the top manway/access lid. This supports the theory that backwashing this vessel (if done at all) means manually disconnecting and swapping these two hoses to reverse flow, rather than turning dedicated valves — `still needs confirming with whoever has actually backwashed this vessel before.`
 
 `⚠️ CONFIRMED BY OPERATOR — CURRENT CONDITION (as of this writing):` This vessel has **sludge and buildup inside, with old/spent carbon** still in it. **It must be cleaned out before starting any water treatment.** This is a one-time clean-out of the vessel's current state, separate from the routine weekly backwash and 1.5-month check described below — don't treat this as already covered by those.
 
@@ -311,7 +315,7 @@ Backwash the sand filter when any of the following:
 
 **Appearance:** Blue/dark cylindrical filter housing, approximately 1 metre tall, mounted on a stand directly above a white IBC tote (matches photo IMG_2795 — bolted ring clamp on the housing body, pipe fitting dropping down toward the tote underneath).  
 
-`✅ CONFIRMED BY OPERATOR — hose path (photo IMG_2795):` The **inlet port** is the elbow fitting with the camlock connector at the bottom of the housing, right above the IBC tote. The **black hose** connects here, running back to the submersible pump sitting inside the settling bins (Section 6.2a) — this is how water actually arrives at the bag filter. `(still open: which port on the housing is the outlet toward the carbon vessel — confirm with a photo of the gauge end / top connections.)`
+`✅ CONFIRMED BY OPERATOR (photo IMG_2795) — hose path:` The **inlet port** is the elbow fitting with the camlock connector at the bottom of the housing, right above the IBC tote. A hose from the submersible pump in the settling bins (Section 6.2a) connects here — water is pushed up into the housing through this port, passes through the filter bag, then flows back down and out through a separate **black hose** at the bottom of the housing, which carries it onward to the carbon vessel (Section 6.5).
 
 **Filter bags:** Les Hall Filter brand
 - Pre-filter bags: LHFSPE100PJNBW (100 micron) — removes larger particles
