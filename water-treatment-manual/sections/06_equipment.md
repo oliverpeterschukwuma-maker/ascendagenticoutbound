@@ -200,6 +200,8 @@ If a pump has run dry or been disconnected, it needs priming:
 
 `✅ RESOLVED — NOT USED, CONFIRMED BY OPERATOR:` **"We don't use the sand filter."** This is the current, settled operating reality at this site — **water flows straight from settling to the bag filter and carbon vessel only**, and that's the normal process, not a temporary workaround. (Background, for context only: the vessel has a known solenoid fault on the backwash control box — see "Backwash control box" below — but fixing that is not treated as an active to-do here, since the sand filter step isn't part of how this site runs the train.) Because the sand filter step is skipped, the bag filter (Section 6.6) is taking on the full solids load it wasn't designed to handle alone — watch it closely and change it more often.
 
+`ℹ️ CONFIRMED BY SUPERVISOR (Brendan, text message):` **"You can manually backwash the sand filter but it's a pain."** So a manual backwash is physically possible (the automatic control box's solenoid fault doesn't block it entirely) — it's just not worth doing given the sand filter isn't part of the active process here. More importantly, Brendan was clear that bypassing the sand filter means the bag filter and carbon vessel downstream are relying on the water being clean already — see the carbon vessel warning, Section 6.5.
+
 **Appearance:** Green cylindrical pressure vessel(s) on a metal stand. Tagged "SRS-SF-11" (confirmed via close-up photo, IMG_2778, on a vessel with a multi-port control valve and actuator on top, plus a pump mounted below/beside it).
 
 `✅ RESOLVED — there really are two green vessels:` Photo IMG_2777 confirms two green cylindrical pressure vessels standing side by side, each with its own round bolted inspection/access hatch on the side, connected together by a shared pipe manifold across the top. This looks like a **duplex (twin) sand filter arrangement** — a common design where two vessels share the load, or one runs while the other is backwashed/serviced, or one is a standby spare for the other. Visible right next to them: the blue/white filter-press-looking unit (the one you said "we don't use") and a white bag at the base that's likely sand filter media stock (matches the Play Sand/Sakrete bags spotted near the H₂O₂ drums in earlier photos).
@@ -267,7 +269,9 @@ Backwash the sand filter when any of the following:
 
 Full confirmed path: submersible pump (in settling bins, Section 6.2a) → hose → elbow/camlock fitting at the **bottom** of the bag filter housing (Section 6.6) → water flows up into the bag filter, through the bag, back down → **black hose** → carbon vessel (enters near the base) → **green hose** → PVC pipe → storage tank. The sand filter (Section 6.4) and the Kontek filter press (Section 6.11, used only for sludge dewatering) are **not** part of this water path.
 
-`ℹ️ NOTE on backwashing:` Both visible connections on this vessel (the black hose inlet and the green hose/PVC outlet) are at the **base** of the vessel, near each other — no separate backwash supply/drain valves were visible in photo IMG_2796. The only other opening is the top manway/access lid. This supports the theory that backwashing this vessel (if done at all) means manually disconnecting and swapping these two hoses to reverse flow, rather than turning dedicated valves — `still needs confirming with whoever has actually backwashed this vessel before.`
+`✏️ CORRECTED BY SUPERVISOR (Brendan, text message):` **This vessel is not backwashed at all.** Brendan's direct words: *"The carbon doesn't get backwashed. It just gets replaced."* This overrides the backwashing theory below and the weekly-backwash guidance further down this section — there are no backwash supply/drain valves to operate because there's no backwash step on this vessel. Skip straight to the Carbon replacement procedure when the carbon needs attention.
+
+`ℹ️ NOTE on backwashing (superseded — kept for context only):` Both visible connections on this vessel (the black hose inlet and the green hose/PVC outlet) are at the **base** of the vessel, near each other — no separate backwash supply/drain valves were visible in photo IMG_2796. That absence of dedicated valves is consistent with Brendan's correction above: there was never a backwash circuit on this vessel to find.
 
 `⚠️ CONFIRMED BY OPERATOR — CURRENT CONDITION (as of this writing):` This vessel has **sludge and buildup inside, with old/spent carbon** still in it. **It must be cleaned out before starting any water treatment.** This is a one-time clean-out of the vessel's current state, separate from the routine weekly backwash and 1.5-month check described below — don't treat this as already covered by those.
 
@@ -290,36 +294,28 @@ Full confirmed path: submersible pump (in settling bins, Section 6.2a) → hose 
 - Colour (brown/yellow tint) appears in the effluent
 - The vessel has been in service for its rated operational volume (*(confirm with supervisor)* — carbon life depends on hydrocarbon loading)
 
-`⚠️ WARNING:` Backwashing carbon does **not** restore its adsorption capacity. Once the carbon is chemically saturated (it's adsorbed all it can), no amount of backwashing brings that back — the media must be physically removed and replaced with fresh carbon. Exhausted carbon is a regulated waste — dispose of through an approved waste contractor. Backwashing below is a separate, routine maintenance step — see why below.
+`⚠️ WARNING:` Backwashing carbon does **not** restore its adsorption capacity. Once the carbon is chemically saturated (it's adsorbed all it can), no amount of backwashing brings that back — the media must be physically removed and replaced with fresh carbon. Exhausted carbon is a regulated waste — dispose of through an approved waste contractor.
+
+`⚠️ CRITICAL — CONFIRMED BY SUPERVISOR (Brendan, text message):` Because the sand filter is bypassed (Section 6.4 — it doesn't work), this carbon vessel only has the bag filter (Section 6.6) standing between it and incoming water. Brendan's words: *"If you bypass the sand filter you have to make sure the water is clean or it will ruin the carbon immediately."* Keep a close eye on the bag filter — it is now the only thing protecting this carbon from premature failure.
 
 ### Carbon replacement procedure — CONFIRMED BY SUPERVISOR (Brendan, text message)
 
-Oliver asked directly what the easiest/most efficient way to clean out the carbon vessel is. Brendan's answer: **"You have to vac out all the carbon and put new carbon in once it's dirty."**
+Oliver asked directly what the easiest/most efficient way to clean out the carbon vessel is, and whether pressure-washing the inside after vacuuming it out is a bad idea. Brendan's answers, combined:
+
+> *"The carbon doesn't get backwashed. It just gets replaced."*
+> *"You have to vac out all the carbon and put new carbon in once it's dirty."*
+> *"When they vac out the carbon filter you will have to spray it down inside with the hose anyways so it should be cleaned by the time you're done."*
+
+So spraying down the inside with a hose isn't a separate risky step — it's a normal, expected part of vacuuming the vessel out.
 
 `[ACTION]`
 1. Take the vessel out of service (close inlet/outlet, relieve pressure, open the top manway/access lid).
-2. **Vacuum out all of the old/spent carbon** — don't just backwash it out; the saturated media has to be physically removed.
-3. Refill with fresh granular activated carbon (GAC).
-4. Return the vessel to service.
+2. **Vacuum out all of the old/spent carbon.**
+3. Spray down the inside of the vessel with a hose to clear remaining grease/sludge while you're in there — this is expected, not optional, per Brendan above.
+4. Refill with fresh granular activated carbon (GAC).
+5. Return the vessel to service.
 
 `(still needed: exact vacuum equipment used, how much new carbon goes in (volume/weight), the specific GAC product/supplier, and confirmation of where spent carbon gets disposed of as regulated waste — confirm with Brendan/SUMAS.)`
-
-### Backwash frequency — CONFIRMED BY OPERATOR
-**Backwash the carbon vessel every week.** This is separate from the 1.5-month check above: the weekly backwash is routine bed maintenance, not a check for exhaustion.
-
-`ℹ️ WHY (general principle):` Even though backwashing can't "recharge" spent carbon, it still matters — water flowing through a carbon bed over time packs fines and trapped solids into the same flow paths, the same channeling problem described for the sand filter (Section 6.4). A weekly backwash fluffs the bed back up, breaks up channels, and flushes out accumulated debris so the full bed surface stays in contact with the water — keeping the carbon that's still active working as effectively as possible until it's actually exhausted and needs replacing.
-
-### Backwash procedure (generic — confirm exact valve positions/timing with supervisor)
-`[ACTION]`
-1. Close the inlet (forward flow) valve.
-2. Close the outlet valve.
-3. Open the backwash drain valve.
-4. Open the backwash supply valve (clean water in from the bottom, up through the carbon bed, lifting and expanding it).
-5. Run until the backwash discharge runs clear of fines/debris.
-6. Close backwash valves, re-open inlet and outlet to return to normal operation.
-7. Record the backwash in the log: time, duration.
-
-`(still pending: exact valve layout on SRS-CV-15, target backwash duration, and whether a "ripening" period like the sand filter's is needed before sending flow forward again.)`
 
 ---
 
@@ -757,4 +753,4 @@ This is the hose described in Section 6.1a: a submersible pump dropped into the 
 
 ---
 
-*Last updated: 2026-06-29 | Source: Operator (Oliver) walkthrough of pump/valve shutdown sequencing, cross-referenced against confirmed valve-sequencing notes in Sections 6.1a and 6.7; supervisor (Brendan) text-message confirmation of carbon vessel replacement procedure*
+*Last updated: 2026-06-29 | Source: Operator (Oliver) walkthrough of pump/valve shutdown sequencing, cross-referenced against confirmed valve-sequencing notes in Sections 6.1a and 6.7; supervisor (Brendan) text-message confirmations on carbon vessel replacement (no backwashing — replace only) and sand filter manual backwash*
