@@ -54,18 +54,41 @@ While testing at the C Can, **check the pH of the water.** Operator will read ou
 
 ## 5.1c Full Chemical Mixing & Dosing Sequence — Step by Step (CONFIRMED BY OPERATOR, Oliver)
 
-This ties together Sections 5.3, 5.4, and 5.6a into the order they're actually done at the C Can, before water moves on to the weir tank, ozone, bag filter, and carbon vessel (see the full Treatment Train, Section 0.2).
+This ties together Sections 5.3, 5.4, and 5.6a into the order they're actually done at the C Can, before water moves on to the weir tank, ozone, bag filter, and carbon vessel (see the full Treatment Train, Section 0.2). If you're new, read the "why" line under each step before you do it — knowing why catches mistakes a checklist alone won't.
 
 `[ACTION]`
-1. **Test the pH first.** This decides whether lime is needed at all — it is not added every batch by default (Section 5.6a).
-2. **If pH is below 8:** mix lime — **1 bag (50 lbs) per 200L of water** — in the blue lime tote/drum at the C Can. Keep the pneumatic mixer running continuously, both while mixing and while pumping lime out; it settles and hardens fast if the blade stops. Lime raises pH to 8+, which is the range PACl coagulant needs to work, and also helps precipitate dissolved metal ions as a backup to ozone.
-   - **If pH is already 8 or higher, skip lime entirely** and go straight to coagulant.
-3. **Mix the PACl coagulant stock:** **2 bags of dry PACl powder per 200L of clean water** (not the water being treated). Let the mixed stock **sit for 3 hours** before dosing from it — don't dose straight off a fresh batch.
-4. **Mix the flocculant stock:** **100g of flocculant per 200L of water** (half a scoop from the white pail per 200L batch). Add it slowly — sprinkle, don't dump — while mixing, to avoid forming masses that clog the dosing pumps. **Keep mixing for about an hour** before it's ready to use.
-5. **Dose both into the water together**, right before the weir tank — flocculant dose must always be ≥ the coagulant dose, never less (Section 5.1b).
-6. **Watch for floc forming visually.** There's no fixed daily mg/L target — raw water composition changes day to day, so the dose is tuned by what you actually see clumping, not a fixed setpoint. Adjust pump stroke rate/length if needed.
-7. **Don't overload the front end.** Keep the incoming flow rate in check — if too much water comes in at once, there isn't enough time for the floc to actually settle before the water moves on, and the rest of the system gets pushed past what it can handle. This whole process is a balancing act, not a fixed setting you dial in once.
-8. From here the water continues through the rest of the train as already mapped in Section 0.2: weir tank settling → ozone → indoor settling bins → bag filter → carbon vessel → storage tank. (This site does not run a sand filter — bag filter and carbon vessel are the only two filtration steps water actually passes through.)
+
+**Step 1 — Test the pH first.**
+This single reading decides everything that follows. It tells you whether lime is needed at all — lime is *conditional*, not an every-batch default (Section 5.6a).
+> `ℹ️ WHY:` PACl coagulant only works well at pH 8 or above, and PACl itself is acidic — it drags pH down further once added. If you skip the pH check and the water is already low, you'll dose coagulant into water where it barely works, see no floc forming, and waste chemical chasing a problem that was actually a pH problem.
+
+**Step 2 — Decide on lime.**
+- **If pH reads below 8:** mix lime in the blue lime tote/drum at the C Can — **1 bag (50 lbs) per 200L of water.** Keep the pneumatic mixer running the *entire time* — both while you're first mixing it in and while you're pumping it back out. Lime settles and hardens fast the moment the blade stops turning.
+- **If pH already reads 8 or higher:** skip lime completely and go straight to Step 3.
+> `ℹ️ WHY:` Lime does two things at once — it raises pH into the range PACl needs to work, and separately, the higher pH itself can force dissolved metal ions (like iron) to turn solid so they can be filtered out, acting as a backup to ozone. But it's only needed when the pH reading actually calls for it — adding it every time regardless of pH just means pushing the pH too high (Brendan's caution: "both raise pH so don't add too much").
+
+**Step 3 — Mix the PACl coagulant stock.**
+**2 bags of dry PACl powder per 200L of clean water** — clean water, not the water you're treating. Let the mixed stock **sit for 3 hours** before you start dosing from it.
+> `ℹ️ WHY:` Coagulant works by neutralizing the electrical charge on suspended particles so they can stick together (Section 5.3). A freshly mixed batch hasn't fully dissolved/activated yet — dosing too early means you're injecting partially-mixed powder instead of an effective coagulant, and you won't see good floc form even though you added the "right" amount.
+
+**Step 4 — Mix the flocculant stock.**
+**100g of flocculant per 200L of water** — measured as half a scoop from the white pail per 200L batch. Add it **slowly, sprinkled in, never dumped**, while the water is mixing. **Keep mixing for about an hour** before it's ready to use.
+> `ℹ️ WHY:` Flocculant is a long-chain polymer that works like a net, bridging small coagulated clumps into bigger, faster-settling floc (Section 5.4). Dump it in too fast and it clumps into masses on contact with water — those masses don't disperse, and they're exactly what clogs the chemical dosing pumps downstream. Slow and steady gets it evenly dissolved instead.
+
+**Step 5 — Dose both into the water together,** right before the weir tank.
+**Flocculant dose must always be ≥ the coagulant dose — never less** (Section 5.1b).
+> `ℹ️ WHY:` Flocculant's whole job is to bridge the floc that coagulant just created. If there's more coagulant than flocculant to bridge it, you get lots of small, weak clumps that never grow big enough to settle quickly.
+
+**Step 6 — Watch for floc forming visually, and adjust from there.**
+There is no fixed daily mg/L target for either chemical — raw water composition changes day to day depending on what's gone into the system, so the dose is tuned by what you actually see, not a setpoint you dial in once and forget. If you're not seeing good floc, adjust the dosing pump's stroke rate/length rather than assuming the ratio above is wrong.
+> `ℹ️ WHY:` In Brendan's own words: "the dose is going to change daily depending what they dump. So you're just going to have to play with it and wait until you see it flocc."
+
+**Step 7 — Don't overload the front end.**
+Keep the incoming flow rate in check. If too much water comes in at once, the floc you just worked to create doesn't get enough time to actually settle before it's pushed forward, and every stage downstream inherits a problem it can't fix either.
+> `ℹ️ WHY:` This site was never built as a purpose-designed treatment plant — there's no engineered buffer capacity to absorb a flow spike. Managing flow rate is as much a part of "dosing correctly" as getting the chemical ratios right; a perfect dose into water that never had time to settle still fails.
+
+**Step 8 — Hand off to the rest of the train.**
+From here the water continues exactly as mapped in Section 0.2: weir tank settling → ozone → indoor settling bins → bag filter → carbon vessel → storage tank. This site does not run a sand filter — the bag filter and carbon vessel are the only two filtration steps the water actually passes through, so anything that gets past your chemical dosing here is relying on just those two to catch it.
 
 ---
 
