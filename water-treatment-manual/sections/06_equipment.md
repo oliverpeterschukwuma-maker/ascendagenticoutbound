@@ -696,6 +696,12 @@ This is an **air-driven (pneumatic) mixer**, not electric — it runs off compre
 
 `(still needs confirming: which way the red handle actually turns to open vs. close on this specific valve; whether there's a separate speed/flow-rate adjustment beyond fully open/closed.)`
 
+`🔧 TROUBLESHOOTING — mixer/compressed air not working — CONFIRMED BY SUPERVISOR (Brendan, text message):` If the mixer won't run, work through this before assuming it's broken:
+1. Check the **switch that turns the air compressor on** — confirm it's flipped on.
+2. Check the **breaker for the other air compressor** — there's more than one on site; confirm it's on too.
+3. **If a compressor was off and just got turned on, the mixer may not start spinning on its own** — Brendan: *"sometimes you have to physically help the mixer start as it seizes when it sits too long."* Give the propeller/shaft a manual push to get it going.
+4. Once the compressor is confirmed on, **open the valve that feeds the mixer** (the red-handled valve above) — air won't reach the mixer until this is open.
+
 `⚠️ NOTE:` A second valve with a cross-shaped handle is visible nearby in the photo (lower part of the frame) — this looks like it belongs to the tote's drain/outlet plumbing, not the mixer itself. Don't confuse the two before opening anything.
 
 `⚠️ CRITICAL — CONFIRMED BY OPERATOR:` **For the blue drum where the lime is, the blade must be running while you're pumping it out — not just while you're initially mixing the batch.** If the blade isn't turning while lime is being pumped, the lime settles out and the dose won't work well (it's a thick slurry that drops out of suspension fast — see Section 5.6a). Same logic applies wherever this mixer is used: open the air valve and keep the propeller turning for as long as you're drawing liquid out, not just during mixing.

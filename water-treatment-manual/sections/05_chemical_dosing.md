@@ -302,6 +302,8 @@ Chitosan is a natural, biodegradable flocculant that is particularly effective f
 
 `⚠️ Brendan's caution, applies to both:` **"Both raise pH so don't add too much."**
 
+`ℹ️ CONFIRMED BY SUPERVISOR (Brendan, text message):` Asked for a fixed amount/formula to add to the weir tank to raise pH (in this case using the pH+ powder, Section 5.1): **"It's all dependent on what pH you're at and where you want it. I don't have the math."** There is no fixed dose for pH+ either, same as lime — dose by jar-testing a small sample first, then adding gradually to the full tank while retesting, never one calculated amount all at once.
+
 **Dosing logic at the C Can — ✅ RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):**
 
 Brendan's direct answer: **"Lime you only need to use if the pH is too low. If it's too low sometimes the chemicals won't work."**
