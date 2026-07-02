@@ -150,7 +150,7 @@ PACl is a positively charged aluminum compound. When it's added to the water and
 `ℹ️ CONFIRMED BY CURRENT OPERATOR:` A dry PACl powder (25kg bags) is mixed into a stock/working solution before being metered into the process — this is separate from (or an alternative to) the liquid CK-311 drums described above.
 
 - **Ratio: 1 bag of dry PACl powder per 100L of clean water — NOT the water being treated** (confirmed by current operator; matches the earlier former-operator figure of 2 bags per 200L — same ratio, now confirmed current)
-- **Let it sit for 3 hours before using — CONFIRMED BY OPERATOR.** Don't dose straight from a freshly mixed batch. Plan ahead like the flocculant stock (Section 5.4, 24-hour rest) so you don't run out of usable stock mid-shift.
+- **Mix for 1 hour, then use immediately — CONFIRMED BY SUPERVISOR (Brendan, text message).** For 200L batches or less: *"I just mix it for an hour if it's 200L or less and you can use it immediately."* No additional sit time needed. (Earlier note said 3 hours — Brendan's direct confirmation supersedes this for 200L batches.)
 - Mix in the tank, then meter the resulting solution into the process via the dosing pump
 - Indoors, coagulant + flocculant are injected together right before the water reaches the white settling tanks (see Section 0.2/0.2a) — the combination is what causes contaminants and dirt to clump and settle to the bottom of the tank
 - You may need to adjust the dosing pump's stroke rate/length to get the right amount going in — watch visually for good floc formation as your guide

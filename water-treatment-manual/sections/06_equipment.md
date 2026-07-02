@@ -699,7 +699,7 @@ This is an **air-driven (pneumatic) mixer**, not electric — it runs off compre
 `🔧 TROUBLESHOOTING — mixer/compressed air not working — CONFIRMED BY SUPERVISOR (Brendan, text message):` If the mixer won't run, work through this before assuming it's broken:
 1. Check the **switch that turns the air compressor on** — confirm it's flipped on.
 2. Check the **breaker for the other air compressor** — there's more than one on site; confirm it's on too.
-3. **If a compressor was off and just got turned on, the mixer may not start spinning on its own** — Brendan: *"sometimes you have to physically help the mixer start as it seizes when it sits too long."* Give the propeller/shaft a manual push to get it going.
+3. **If a compressor was off and just got turned on, the mixer may not start spinning on its own** — Brendan: *"It's just seized you need to spin it by hand for a little bit. Don't cap anything."* Spin the shaft/propeller by hand to break it free. Do NOT cap or plug the metal pipe where air is discharging — leave it open.
 4. Once the compressor is confirmed on, **open the valve that feeds the mixer** (the red-handled valve above) — air won't reach the mixer until this is open.
 
 `⚠️ NOTE:` A second valve with a cross-shaped handle is visible nearby in the photo (lower part of the frame) — this looks like it belongs to the tote's drain/outlet plumbing, not the mixer itself. Don't confuse the two before opening anything.
