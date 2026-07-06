@@ -106,6 +106,8 @@ Brendan's answer, combined into the rules below:
 
 Put together: empty the tote out, then mix a fresh ~200L batch — timed early enough that you're never caught with an empty tote and a system that's still running.
 
+`ℹ️ CONFIRMED BY SUPERVISOR (Brendan, text message):` **"You can mix right in the drum"** — for smaller batches you don't need a separate mixing tote. Mix directly in the drum/barrel the chemical came in, then pump from there.
+
 ---
 
 ## 5.2 Critical Compatibility Warning — Read Before Handling Any Chemical

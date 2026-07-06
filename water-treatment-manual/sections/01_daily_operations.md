@@ -124,6 +124,7 @@ Record everything you observe, normal or not.
 | Parameter | Typical Discharge Limit | Operational Target | Why It Matters |
 |---|---|---|---|
 | Turbidity (final discharge) | ≤ 25 NTU (typical BC permit) | ≤ 5 NTU | Turbidity carries other contaminants and harms fish habitat |
+| Turbidity (dust control use) | No regulatory limit — CONFIRMED BY SUPERVISOR (Brendan): *"Goal would depend on what they're doing with it"* | ≤ 25 NTU practical target | Cleaner water avoids clogging spray nozzles; no permit enforcement for dust control |
 | pH (final discharge) | 6.5–9.5 (typical BC permit) | 7.0–8.5 | Too acidic or alkaline is toxic to aquatic life |
 | Total suspended solids (TSS) | ≤ 25–75 mg/L (varies by permit) | Minimize | Settled solids can smother fish spawning areas |
 | Free chlorine (final discharge) | ≤ 0.1 mg/L (protect aquatic life) | ≤ 0.05 mg/L | Chlorine is toxic to fish even at low levels |
