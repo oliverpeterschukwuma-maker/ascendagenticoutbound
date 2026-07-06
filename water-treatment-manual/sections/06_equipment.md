@@ -570,16 +570,28 @@ Two IBC-style bins sit below the press to collect filter cakes. When full, arran
 - Outdoor weir tank sludge (Section 6.1a)
 - Any thick, gritty slurry
 
-### Using it to pump sludge into a tote
-`[ACTION]`
-1. Drop/position the suction hose into the sludge at the bottom of the tank you're clearing (outdoor weir tank or indoor weir tank / settling bins).
-2. Run the discharge hose into the tote you're collecting sludge in.
-3. Connect the air supply hose, open the air valve — pump starts cycling ("chunk-chunk-chunk").
-4. Increase air pressure to get a steady flow (up to ~100 psi max).
-5. Watch the source — once you're pulling mostly air/no more sludge coming up, the tank is as clear as this pump will get it. Close the air valve to stop.
-6. Disconnect hoses in reverse order.
+### Sludge removal — CONFIRMED BY SUPERVISOR (Brendan, text message)
 
-`ℹ️ How often:` No fixed daily schedule confirmed for this site — sludge removal is based on how much has actually built up, not a clock. Check visually (look at the bottom of the tank) at the start or end of your day; if there's a meaningful layer, pump it out. **Confirm with Brendan what frequency he actually wants** — daily, weekly, or "whenever you see it."
+`✏️ CORRECTED BY SUPERVISOR (Brendan):` Sludge from the weir tank is **NOT** pumped out using the AODD pump directly. Confirmed method:
+1. **Pump the water level down** using the submersible pump (remove the water first).
+2. **A vac truck comes and sucks out the remaining sludge.**
+
+`⚠️ WARNING — CONFIRMED BY SUPERVISOR (Brendan):` **"The sludge will probably ruin the pump over time"** — using the AODD pump directly on thick sludge will damage the diaphragms over time. Use the vac truck method instead.
+
+`ℹ️ How often:` Still pending — Oliver asked Brendan whether he vacs after every batch or runs a few batches first. Answer not yet received.
+
+### AODD pump hose setup — CONFIRMED BY SUPERVISOR (Brendan, text message)
+- **Use the green flex hose** for both inlet and outlet ports (2-inch camlock fittings, one on each port).
+- **Do NOT use the black hose** — Brendan confirmed: *"Black is high pressure hose."* Wrong hose for this pump.
+- Liquid flows in one camlock port, out the other — that's why there are 2 camlock fittings.
+
+### Using it to pump water (not sludge)
+`[ACTION]`
+1. Connect **green flex hose** to inlet (bottom camlock port) — goes into the source tank.
+2. Connect **green flex hose** to outlet (top camlock port) — goes to destination.
+3. Connect air supply hose, open air valve — pump starts cycling ("chunk-chunk-chunk").
+4. Increase air pressure for desired flow (up to ~100 psi max).
+5. Close air valve to stop. Disconnect hoses in reverse order.
 
 `⚠️ Where the sludge goes — does NOT go back into the Oil/Water Separation Cell ("the lagoon").` Sludge is settled-out solids and contaminants — exactly what you removed from the water on purpose. Putting it back into the Oil/Water Separation Cell defeats the treatment — it's the start of the process, so the same contaminants would just flow through the whole system again. The confirmed process for sludge from this system is: filter press dewaters it → solid filter cake goes out as **regulated waste through a licensed contractor** (Section 6.11). If you're filling a tote directly instead of running it through the filter press, **that tote's contents should follow the same regulated-waste route — confirm this directly with Brendan before disposing of a full tote any other way.**
 
