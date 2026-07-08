@@ -95,6 +95,33 @@ SITE WATER (stormwater, process water, groundwater)
 
 ---
 
+## 0.2b Brendan's Full System Design (Ideal Two-Tank Series Configuration)
+
+`ℹ️ CONFIRMED BY SUPERVISOR (Brendan):` This is how Brendan intended the system to work at full setup. The current site is a manual version of this — one tank, manual dosing, no flow switch. Understanding the intended design explains why each piece of equipment is here.
+
+**How it works (in series):**
+
+1. **Two blue bins in series** — one bin feeds into the other via gravity through a 4" hose. The first bin can be at the same elevation or slightly higher; doesn't need to be a big height difference. A 2" pump flow rate can't overflow a 4" gravity-feed hose, so the transfer is passive once set up.
+
+2. **Sea can (chemical injection station)** — water flows from the bins through the sea can. Inside the sea can: chemical drums, dosing pumps, all housed in one place. Chemicals are injected into the piping via a **flow switch** — when water is flowing, chemicals dose automatically. No manual dosing needed.
+
+3. **Settling happens in the weir tanks** — after chemical injection, water goes into the weir tanks to settle. Floc forms and drops.
+
+4. **Open tote at the discharge of the second blue tank** — a submersible pump sits inside an open tote at the outlet of the second tank. That pump pushes the settled, treated water indoors for the next stages.
+
+**Why this site isn't fully set up that way yet:**
+- Power requirements (running pumps and compressors for two tanks + the sea can setup needs reliable power)
+- Winter freezing risk (water in hoses/totes outdoors can freeze — needs heat tracing or insulated housing)
+
+**What you're doing instead (manual version):**
+- One blue weir tank (not two in series)
+- Manual chemical dosing (not flow-switch-triggered)
+- Same treatment train after that point — same ozone, filters, carbon vessel
+
+`ℹ️ WHY THIS MATTERS:` When Brendan talks about the system, he's often describing the full intended design. The current site is a simplified version — not broken, just not fully built out yet.
+
+---
+
 ## 0.2a Plain-English Walkthrough — How This System Actually Works, Section by Section
 
 > `✅ This is the current, confirmed, live process.` Read this top to bottom for the whole picture. Photo requests are listed at the end of each section — send what you can, when you can, so each section can be checked against what's actually on site.
