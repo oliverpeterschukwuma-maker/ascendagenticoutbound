@@ -15,6 +15,12 @@ const LEITNER_INTERVALS = { 1:0, 2:1, 3:3, 4:7, 5:16 };
    m = module id, q = question/front, a = answer/back, tag = card category */
 const EXTRA_CARDS = [
   /* ---- Added in content audit ---- */
+  {m:'m4', tag:'concept', q:'What colour and odour indicate healthy activated sludge?', a:'Chocolate-brown with an earthy/musty odour. Black with a rotten-egg smell means septic (no oxygen).'},
+  {m:'m8', tag:'concept', q:'Why exercise standby pumps, motors and generators regularly?', a:'Idle equipment seizes, corrodes, flattens batteries and degrades fuel — it then fails to start when you actually need it. Routine exercising is a core operator duty.'},
+  {m:'m8', tag:'concept', q:'Chemical day tank will run empty over the weekend. What do you do?', a:'Replenish the stock and log the delivery. Never cut the dose to stretch supply — that deliberately under-treats the water.'},
+  {m:'m9', tag:'concept', q:'Name the core routine DAILY operator duties.', a:'Walk the plant and observe each process, take readings and samples, run the quick tests (settleometer, DO, pH), and record everything in the operating log.'},
+  {m:'m3', tag:'trouble', q:'Why must settling basins be cleaned on schedule?', a:'Accumulated sludge steals effective tank volume, shortens detention time and turns septic — releasing odours and dissolved organics back into the flow.'},
+
   {m:'m2', tag:'concept', q:'What is the purpose of flow equalization?', a:'To dampen flow AND load peaks so downstream processes receive a steadier rate — protecting clarifiers, chemical dosing and disinfection contact time.'},
   {m:'m2', tag:'trouble', q:'Equalization basin is odorous with solids on the bottom. Cause?', a:'Inadequate mixing/aeration. Without mixing, solids settle and the basin goes septic.'},
   {m:'m2', tag:'concept', q:'In-line vs side-line equalization?', a:'In-line passes ALL flow through the basin, damping flow and concentration. Side-line diverts only flow above a set rate — smaller and cheaper, but shaves peaks only.'},
