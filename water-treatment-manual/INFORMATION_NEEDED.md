@@ -1,0 +1,164 @@
+# Information Still Needed — Master Checklist
+
+> Use this as your shopping list. Work through it with your supervisor.
+> When you have something, bring it back and the manual will be updated.
+
+---
+
+## 🔴 Critical — Compliance & Safety
+
+- [x] **Sand filter (SRS-SF-11) — RESOLVED, CONFIRMED BY OPERATOR:** "We don't use the sand filter." This is the settled, normal operating setup at this site, not a temporary repair backlog — water flows straight from settling to the bag filter and carbon vessel only. (Background only, no longer an action item: Brennan had narrowed a prior fault down to the grey actuating solenoids likely not firing — board/timer logic tested fine, but no click/valve movement — and an electrician would be needed if this vessel were ever brought back into service.) Because the sand filter step is skipped, the bag filter is carrying the full solids load — check/change bags more frequently.
+- [x] **Ozone position — RESOLVED, CONFIRMED BY OPERATOR:** Ozone is the first thing that happens once water leaves the weir tank — a 2" submersible pump placed mid-depth in the weir tank (avoiding floor sludge and the top oil layer) feeds the intake pipe indoors, and ozone is turned on as water flows through that intake pipe, ahead of the bag filter and carbon vessel (see Section 6.7). Still open: is hydrogen peroxide still dosed? Is chlorination (Accu-Tab) still part of the live process? Ask Brennan/Rob/Glen directly — this affects whether the water is disinfected before final disposal.
+- [x] **Discharge permit — RESOLVED, CONFIRMED BY SUPERVISOR (Brendan):** Site has **NO permit to discharge to the drain.**
+- [x] **"The lagoon" identity — RESOLVED, CONFIRMED BY OPERATOR:** "The lagoon" is just another name for the Oil/Water Separation Cell (Section A) — it is **not** a separate final-disposal destination. There is no "trucked to the lagoon" step or extra flocculant dose after the storage tanks; that came from an earlier, unconfirmed account and has been corrected throughout the manual. **The operator's job ends once treated water is pumped into the storage tank** — what happens to it afterward is not tracked by the operator. The operator's actual last task per cycle is sludge removal (AODD pump → Kontek filter press, Section I).
+- [x] **No dissolved-contents testing equipment on site — CONFIRMED BY SUPERVISOR (Brendan):** "They don't even have the proper equipment to test for dissolved contents." Brendan says he's requested this repeatedly with no response. This is a real, named operational gap — testing here relies on visual clarity/turbidity, not dissolved-analyte lab work. Worth knowing this isn't optional negligence on your part — the equipment to do more simply isn't provided.
+- [ ] **Confined space entry procedure** — written permit system, gas monitor model, trained attendant names
+- [ ] **ALL eyewash station locations** — walk the site and note every one
+- [ ] **Spill kit contents and location** — confirm sodium sulphite/bisulphite is stocked for H₂O₂ spills
+
+---
+
+## 🟠 High Priority — Daily Operations
+
+- [x] **Actual chemical dose rates currently in use** — **flocculant ratio updated by current operator:** 1kg polymer per 1000L tote batch (500L water → mixer on → 1kg polymer added with 2nd 500L water), 24hr rest before use. `⚠️ This is ~2x the concentration of the former operator's 100g/200L estimate — discrepancy flagged in Section 5.4, not yet reconciled.` **PACl ratio CONFIRMED by current operator: 1 bag per 100L (matches former operator's figure), 3hr rest before use.** Still need: H₂O₂ dose if still in use.
+- [x] **Chemical injection points (indoor stage) — resolved via video IMG_2767:** dosing drums (flocculant + PACl) feed a wall-mounted PVC manifold that drops directly into the settling tank — path confirmed: drums → manifold → settling tank. Still need: the 2 outdoor flocculant injection points (oil cell, blue bins) traced the same way, and H₂O₂ injection point if still in use.
+- [ ] **Frac tank inventory** — how many, what are their IDs, approximate volume each, and which is clean/dirty/in treatment right now
+- [ ] **Indoor white cylindrical tanks** — volume of each? What exactly goes in each? What is the ANKO2 tank used for?
+- [ ] **Sand filter backwash setpoint** — at what pressure differential do you backwash SRS-SF-11?
+- [x] **Carbon vessel check frequency — CONFIRMED BY OPERATOR: every 1.5 months.** Still need: when was SRS-CV-15 last recharged, and the specific signs that tell you it's exhausted vs. still good.
+- [x] **CD30TIX ozone gas concentration — CONFIRMED BY OPERATOR: 10% ozone gas.** Still need: normal operating pressure on the gauge.
+- [x] **Flocculant dosing pump at the C Can — CONFIRMED BY PHOTO (IMG_2807, IMG_2808):** Blue JCMB Solenoid Dosing Pump, Model JCMB55-20/2.5, 20 L/H, 2.5 bar, 30W. **Current speed setting confirmed: 48.0** (see Section 5.4).
+- [ ] **Coagulant and lime dosing pumps at the C Can** — photos still coming. Update Sections 5.3 (PACl) and 5.6a (lime) once received.
+- [x] **Bag filter change frequency — CONFIRMED BY OPERATOR: check every 1–2 weeks** (plus sooner if flow drops noticeably or after a heavy solids event).
+
+---
+
+## 🟡 Important — Completeness
+
+- [ ] **What the site actually is** — Shell fuel depot? Bulk terminal? Something else?
+- [ ] **Shift schedule** — how many shifts, what hours, how many operators per shift
+- [ ] **Step-by-step walkthrough of one full treatment batch** — from raw water in pond to discharge. Best done as a video walkthrough or with supervisor narrating.
+- [ ] **Any existing SUMAS SOPs or operating procedures** — should be incorporated into this manual
+- [ ] **External lab name and contact** — who analyzes TPH, metals, bacteriological samples?
+- [ ] **Recent log sheets (last month)** — photograph a few completed pages to see what "normal" looks like
+- [ ] **Typical raw water readings** — what is the usual pH, turbidity, and iron level coming in?
+- [ ] **Operator certification requirements** — what BC certification (if any) is required for this role?
+
+---
+
+## 🟢 Nice to Have — Fine Details
+
+- [ ] **Equipment manuals** — Kontek APC5 filter press, CD30TIX ozone generator, SRS-SF-11 sand filter, dosing pumps
+- [ ] **Process flow diagram or P&ID** — a drawn diagram of how everything connects. Can be hand-sketched — I'll format it.
+- [ ] **Maintenance records** — last backwash date, last carbon changeout, last filter press service
+- [ ] **Chemical delivery slips** — confirms concentrations and lot numbers
+- [ ] **Site emergency plan** — evacuation route, assembly point. May be posted on wall — photograph it.
+- [ ] **Past incident reports** — what has gone wrong before? Goes straight into the troubleshooting section.
+- [ ] **Lab results from last 3 months** — shows monitoring parameters and normal ranges
+
+---
+
+## 🆕🆕🆕🆕🆕🆕 New Open Items — Operator's Real-Time Sequence Walkthrough (in progress)
+
+- [x] **"C Can" confirmed to physically exist on site** — matches the "sea can" Brennan described and the "CAN" stencil spotted on a wood post in IMG_2799/2800. Chemical dosing (coagulant + flocculant + a 3rd chemical) happens inside it.
+- [x] **3rd chemical at the C Can confirmed: TEXLIME High Calcium Hydrated Lime.** Target pH 8+ is good for the coagulant; below 8 is not. Lime goes in before PACl + flocculant.
+- [x] **Lime conditional vs. every-time — RESOLVED BY SUPERVISOR (Brendan, text):** "Lime you only need to use if the pH is too low. If it's too low sometimes the chemicals won't work." Confirms conditional-on-pH, not a fixed every-batch step (see Section 5.6a).
+- [x] **Lime ratio — CONFIRMED BY SUPERVISOR (Brendan, text):** 1 bag (50 lbs) per 200L of water, must keep mixing continuously or it settles/hardens (see Section 5.6a). Still need: SDS, PPE.
+- [x] **Lime chemical identity — RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):** It's quicklime (calcium oxide, CaO), not hydrated lime as the photographed bag label (IMG_2803, "TEXLIME High Calcium Hydrated Lime") suggested — supervisor's direct word overrides the label. "The bag we should have around and it just says lime." Quicklime reacts exothermically (releases heat) when wetted — bigger handling hazard than hydrated lime would have been. PPE/SDS specifics still pending (see Section 5.6a).
+- [ ] **🆕 New chemical — Sodium Hydroxide (NaOH, caustic soda) — CONFIRMED PRESENT, NOT FULLY DOCUMENTED.** Brendan, text: "You can also use sodium hydroxide as well. Which I think they have a big tote bag worth of." Confirmed as an alternative pH-raiser to lime, present in a big tote bag — not yet confirmed whether in current routine use. Still need: exact product/concentration, container/location, current dose if used, SDS, PPE (see Section 5.6b). Brendan's caution applies to both lime and NaOH: "Both raise pH so don't add too much."
+- [x] **PACl/flocculant target dose — RESOLVED BY SUPERVISOR (Brendan, text):** No fixed mg/L target — "the dose is going to change daily depending what they dump. So you're just going to have to play with it and wait until you see it flocc." Dose is set by observation, not a fixed setpoint (see Section 5.1a).
+- [x] **AERQUS identity corrected by photo (IMG_2823, IMG_2824):** Not a "diffuser" — it's labelled "AERQUS² Reliable On-Site Oxygen," an on-site oxygen generator feeding oxygen gas to the CD30TIX (explains the 10% ozone concentration). The dial Brendan described is its flow meter (0–20 SCFH, −/+ knob). Manual corrected throughout Section 6.7.
+- [x] **Ozone reading 0% — RESOLVED, CONFIRMED BY SUPERVISOR (Brendan):** "The ball should move, if it's not moving there might be a blockage somewhere. But as long as it's not at 0 it's injecting into the system." Check the flow meter float: moving + above 0 SCFH = working, regardless of any separate "0%" display. Stuck at 0/not moving = blockage to troubleshoot. (See Section 6.7.)
+- [ ] **Only 1 blue bin ("weir tank") currently in use, not 2** — reconcile with earlier-documented 2-bin series setup. Is the 2nd bin offline, removed, or just not needed right now?
+- [x] **Dosing location confirmed — RESOLVED BY OPERATOR:** coagulant/flocculant/lime are dosed at the C Can, and that treated water flows into the blue weir tank — confirmed as the live operating path (not "indoors near the white tanks" as previously documented). Still open: whether the indoor dosing manifold (Section 6.3, IMG_2767) is still used at all, or is now dead/unused piping.
+- [x] **Sequence after ozone — RESOLVED, CONFIRMED BY OPERATOR:** ozone-fed water (via the "down" pipe) lands in the indoor settling bins/wet cell to settle further, then a submersible pump pushes it out (via the "up" pipe) to the bag filter and carbon vessel (see Section 6.2a, 6.7). `⚠️ Still not pinned down:` reviewed all 3 walkthrough videos (IMG_2791, IMG_2792, IMG_2748) frame-by-frame — found two bag/carbon-style filter housings (same design, different rooms) but couldn't conclusively trace which specific pipe is the "down" (into the settling bins) vs. "up" (to storage tank) due to motion blur in the footage. A close-up photo of the two pipes themselves (not the whole room) would resolve this.
+- [x] **Ozone start order — RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):** "Turn the ozone on first before pumping." Ozone generator must be switched on *before* starting the weir tank intake pump — not after (see Section 6.7).
+- [x] **Settle time in the indoor settling bins before moving to storage tanks — RESOLVED, CONFIRMED BY SUPERVISOR (Brendan, text message):** No fixed time — visual/judgment call. "The water should be as clear as tap water by the end of settling so it's visual. It depends how much chemicals you put in, how dirty the water is and how long you let it settle." Settling only really works once chemical (PACl/flocculant) has been dosed — without it, water sitting in the outdoor weir tank alone won't meaningfully settle beyond the largest particles (see Section 6.2a).
+- [ ] **More info and pictures promised tomorrow** — resume mapping this once received.
+- [x] **Turbidity (NTU) check point confirmed by operator: bag filter and/or carbon vessel outlet** — not a sand filter effluent, since the sand filter is bypassed (see Section 4.3, 6.5, 6.6).
+- [x] **Diaphragm pump needed for weir tank sludge — RESOLVED, CONFIRMED BY OPERATOR.** Settled sludge at the bottom of the weir tank needs a diaphragm pump to remove (Section 6.1a). **Confirmed: it's the same AODD pump (IMG_2838) used for both the outdoor weir tank and the indoor weir tank / settling bins (Section 6.12)** — not a separate unit.
+- [ ] **🆕 Hose for the black "Patron" submersible pump (IMG_2830) — still needed.** Check the nameplate or measure the threaded outlet OD to get the right size (Section 6, Transfer Pumps). Buy once size is confirmed.
+- [ ] **🆕 Exact lime product to order — not a confirmed commercial product.** Brendan says the bag on site "just says lime" with no brand specifics, confirmed as quicklime (CaO). When ordering through SUMAS (1-250-374-4151), ask for quicklime/calcium oxide matching what's currently stocked at the C Can — there's no specific SKU/brand confirmed to give them beyond that. Bag quantity to order depends on actual usage rate (how often pH comes in under 8) — ask Brennan for a typical weekly/monthly bag count rather than guessing.
+- [ ] **🆕 NTU meter — no model confirmed for this site yet.** Needed to actually run the turbidity checks documented in Section 4.3/6.2. Ask SUMAS what model they supply/recommend, since they're the equipment supplier — no specific brand has been confirmed for this site.
+- [ ] **🆕 Intake pipe valve and storage tank pipe valve — exact physical identity/location not confirmed.** Brendan said to open these before running the intake pump / before water reaches the storage tank, to keep pressure from sitting on the pipes (Section 6, Transfer Pumps). Confirm exact valves with him on site.
+- [ ] **🆕 AODD pump brand/model (IMG_2838) — identified via image lookup only, NOT a confirmed nameplate read.** Possibly ARO 6662A3-344-C, 2" connections. Confirm against the actual nameplate (Section 6.12).
+- [ ] **🆕 Where does a tote of sucked-out sludge actually go?** Confirmed process for filter-press sludge is regulated waste via licensed contractor, NOT back into the Oil/Water Separation Cell ("the lagoon" — see Section I) (Section 6.11/6.12). If sludge is being pumped directly into a tote (bypassing the filter press), confirm with Brendan that it still goes the regulated-waste route and not back into the separation cell.
+- [ ] **🆕 Sludge removal frequency — not confirmed.** No fixed daily schedule established; ask Brendan how often he wants sludge actually pumped out (daily / weekly / visual-judgment).
+
+---
+
+## 🆕🆕🆕🆕🆕 New Open Items — Brennan's Blue Bin Description
+
+- [x] **Blue bins run in series, gravity-fed — confirmed by Brennan.** One bin sits higher (or equal), gravity-feeds the other via 4" hose; 2" pump flow can't overflow it.
+- [x] **"Sea can" (C Can) chemical dosing station — CONFIRMED physically present, photo IMG_2802.** Sits right next to the blue bin marked "NO GARBAGE."
+- [x] **C Can interior — CONFIRMED by photos IMG_2803, IMG_2805 and operator.** Two white drums (FLOCCULANT + PACl coagulant) + one blue drum (lime, NOT peroxide despite the colour match elsewhere on site), a dosing pump on a PVC manifold, and small tubing injection points tapping into the main pipe runs.
+- [x] **C Can inflow source confirmed (IMG_2806):** water enters the C Can from the frac tank via a check valve at the base — corrects earlier notes that read this hose as the C Can → blue bin discharge line.
+- [x] **C Can → blue bin (weir tank) discharge connection — RESOLVED BY OPERATOR.** Confirmed: dosed water from the C Can flows into the blue weir tank. The exact physical hose/fitting isn't traced in photos, but the connection and direction are confirmed (see Section 6.1b).
+- [ ] **"Weir tanks" — likely just the blue bins' internal baffle plates, not a 3rd structure.** Confirm this reading with Brennan rather than assuming a new piece of equipment.
+- [ ] **Open tote at blue bin 2 discharge — confirm it's physically present**, or if the submersible pump is still just dropped directly into blue bin 2 as earlier documented.
+
+---
+
+## What I Already Have ✅
+
+- All 8 chemicals: names, SDS, hazard classes, safety procedures
+- All major equipment: names, models, serials, operating procedures
+- Full treatment train sequence — **outdoor portion now confirmed by operator:** oil/water separation cell → frac tanks → 2 outdoor blue separator bins → submersible intake pump → two white indoor tanks
+- ~~**Flocculant (CL-200/Flopham polymer) dosing points confirmed by operator:** added at 4 separate points — the oil/water separation cell, the 2 outdoor blue bins, indoors near the white tanks, AND a small amount at the lagoon (final disposal point — not just one dosing point as previously documented).~~ **SUPERSEDED — see "'The lagoon' identity — RESOLVED" above.** "The lagoon" is just another name for the oil/water separation cell, not a separate dosing point/final destination. Current operator confirms only 2 dosing points: the oil/water separation cell and the C Can (Section 5).
+- **Transfer pumps confirmed by operator:** portable submersible pumps (not fixed installations) are moved between frac tanks and the 2 blue bins to perform each transfer
+- **PACl and flocculant stock solution ratios** (former operator): 2 bags dry PACl per 200L; ~100g flocculant per 200L, added slowly, mixed 1hr. Injected together right before the white settling tanks.
+- **Bag filter role clarified** (former operator): acts as a safety screen protecting the carbon vessel — sand filter → bag filter → carbon vessel, not sand → carbon → bag as earlier notes suggested.
+- ~~**Discharge destination clarified** (former operator): treated water → holding tanks → trucked/transferred to a lagoon for disposal (not necessarily a permitted point-source discharge — needs reconciling with the discharge permit question above).~~ **SUPERSEDED — see "'The lagoon' identity — RESOLVED" above.** Current operator confirms the job ends once treated water reaches the storage tank; there is no separate trucking-to-a-lagoon step.
+- Site: Kamloops BC, SUMAS Environmental Services (1-250-374-4151)
+- Key contacts: Brennan (supervisor), Rob, Glen
+- Shell Canada OWS weekly inspection procedure and log format
+- Safety equipment locations: fire extinguisher + air horn near sand filter
+- Emergency contacts: SUMAS, Air Liquide (1-800-817-7697), Poison Control, 911
+- H₂O₂ spill neutralization: sodium sulphite/bisulphite
+- CO₂ exposure limits and hazards
+- SRS-CV-15 max pressure: 75 PSIG
+- Filter press Kontek APC5: full operating sequence, manufacturer contact
+- pH meter calibration buffers (4.0/7.0/10.0) confirmed on site (lab equipment, not a process chemical)
+
+---
+
+## 🆕 New Open Items From Latest Photo/Video Batch
+
+- [x] **Wet Cell vs. Blue Bins** — **partially resolved (IMG_2741, IMG_2742):** photos show rusted, iron-stained, baffled steel compartments INDOORS (OSB stud-wall construction visible behind them) — rules out them being the outdoor blue bins (those sit outside on ecology blocks). Matches the Wet Cell description instead. Means there are likely 3 distinct settling structures on site (outdoor blue bins, indoor wet cell, indoor white cylindrical tanks), not 2. Still need a supervisor walkthrough to confirm exact names/IDs and confirm the dosing line physically feeds this structure.
+- [x] **Dry PACl bag (25kg, made in China)** — **resolved by a former operator:** yes, in active use, mixed 2 bags per 200L as a stock solution. Still need: confirm bag size matches the 25kg bags seen in photos, and confirm with current operators this is still the practice.
+- [x] **TEXLIME High Calcium Hydrated Lime — confirmed as the "3rd chemical" at the C Can, dosed first.** Still need exact dose, SDS, PPE.
+- [ ] **Chemicals next to the two white indoor tanks** — operator is sending these next; needed to finish updating Section 5 (Chemical Dosing) accurately for the indoor dosing stage.
+- [x] **Play Sand / Sakrete bags seen near H₂O₂ drums** — **largely resolved:** photo IMG_2777 shows a matching white bag sitting at the base of the green sand filter vessels, strongly suggesting this is filter media stock kept on hand. Still nice to have: direct confirmation from supervisor.
+- [ ] **Submersible intake pump spec** — model/capacity of the pump moving water from the blue bins into the building.
+
+---
+
+*Saved: 2026-06-06 | Updated: 2026-06-24 | Resume here when new information is available*
+
+---
+
+## 🆕🆕 New Open Items From Former Operator's Account (latest)
+
+- [ ] **Confirm with CURRENT operators (Brennan/Rob/Glen):** is ozone really first in the sequence, and is hydrogen peroxide / chlorination still used at all? This account didn't mention either. See 🔴 Critical section above.
+- [ ] **Sand filter repair/replacement status** — is this already scheduled? See 🔴 Critical section above.
+- [x] **Discharge to a lagoon, not a direct permitted outfall? — RESOLVED, CONFIRMED BY OPERATOR.** "The lagoon" is just another name for the oil/water separation cell (Section A) — there is no separate trucked-to-a-lagoon disposal step. The operator's job ends once treated water reaches the storage tank; see "'The lagoon' identity — RESOLVED" above and Section I.
+- [ ] **Bag size for dry PACl** — confirm the "2 bags per 200L" bags are the same 25kg bags seen in photos (this ratio would be very concentrated if so — worth double-checking the math with whoever currently mixes it).
+
+---
+
+## 🆕🆕🆕 New Open Items — Sand Filter Photos (IMG_2777, IMG_2778)
+
+- [x] **"The green one" is actually two vessels** — **resolved:** photo IMG_2777 confirms two green pressure vessels side by side, sharing a top pipe manifold, each with its own round inspection hatch — looks like a duplex (twin) sand filter setup.
+- [ ] **Which vessel is "broken"?** — Is it one specific vessel in this twin pair, or are both affected? Is this duplex arrangement intentional (one runs while the other backwashes/stands by), or did SUMAS just install two identical units over time?
+- [ ] **IMG_2778 close-up tag check** — this shot shows "SRS-SF-11" clearly on a green vessel with a multi-port control valve/actuator on top. Does this match one of the two vessels in IMG_2777, or is there a third sand filter vessel elsewhere on site?
+- [x] **Kontek filter press location confirmed** — visible right next to/behind the two green sand filter vessels in IMG_2777 (the blue/white finned unit). Matches the "lines like a piano" description and confirms physical layout, even though it's reportedly not used.
+
+---
+
+## 🆕🆕🆕🆕 New Open Items — Dosing Station & Wet Cell Photos (IMG_2741, IMG_2742, IMG_2758)
+
+- [x] **Dosing drum station physically confirmed** — IMG_2758 shows the flocculant drum + yellow LMI pump and a second blue drum side by side, sitting on a floor with heavy white crusting (consistent with PACl precipitate, distinct from iron staining elsewhere on site).
+- [ ] **Trace the actual discharge tubing** — photo doesn't show the line far enough to physically confirm which tank the dosing pumps inject into. Get a photo following the tube from the pump to its injection fitting.
+- [x] **Storage tanks vs. settling tanks — resolved by operator:** the two white cylindrical tanks (Section 6.2, IMG_2757) are STORAGE only, named **Tank 1** and **Tank 2**. The baffled steel compartments (Section 6.2a, IMG_2740/2741/2742/2745) are the actual SETTLING tanks, called the **"settling bins"** by operators (plural, 2 of them), used "in conjunction with the filters" — confirmed directly by the operator, and a white storage tank is visible right at the edge of the settling-tank photos, confirming they sit next to each other but are different equipment. Manual corrected throughout.
+- [x] **Wet cell construction material — resolved:** steel, not poured concrete as earlier notes assumed (per IMG_2740/2741/2742/2745).
+- [x] **Settling bins physical relationship to filters — resolved (IMG_2791, IMG_2792):** walkthrough videos confirm the settling bins, Kontek filter press, and SRS-SF-11 sand filter all sit in the same room a few steps apart, connected by pipe runs — consistent with operator's "used in conjunction with the filters." No new equipment found in these videos.
