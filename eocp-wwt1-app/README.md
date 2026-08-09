@@ -57,11 +57,11 @@ WPI pre-test policy — as **UNVERIFIED — CONFIRM WITH EOCP** rather than gues
 | `index.html` | Page shell and script loading |
 | `styles.css` | All styling; light/dark themes via CSS custom properties |
 | `app.js` | UI, routing, state, grading, readiness logic — **no study content** |
-| `curriculum.js` | 12 modules, 29 lessons, glossary source |
-| `questions.js` | 114 practice questions (also power the section tests) |
-| `flashcards.js` | 382 cards (auto-generated definitions + hand-written concept cards) |
-| `math.js` | 18 formula topics, 54 practice problems, conversion table |
-| `exams.js` | 108-question mock bank + the 5 exam definitions |
+| `curriculum.js` | 12 modules, 30 lessons, glossary source (215 terms) |
+| `questions.js` | 122 practice questions (also power the section tests) |
+| `flashcards.js` | 397 cards (auto-generated definitions + hand-written concept cards) |
+| `math.js` | 18 formula topics, 65 practice problems (metric + US), conversion tables |
+| `exams.js` | 125-question mock bank + the 5 exam definitions |
 | `references.js` | Exam requirements, reference library, 3 study plans |
 
 Study content is kept entirely separate from UI code, so you can add material without
@@ -97,8 +97,8 @@ so adding a term to a lesson also creates its flashcard and glossary entry.
 themselves from the bank using the real duty weighting.
 
 **A math topic** — append to `MATH_TOPICS` in `math.js`. Each needs a formula, variable
-table, a "when to use it" note, a worked example, and Easy/Medium/Hard practice problems
-with a numeric answer and tolerance.
+table, a "when to use it" note, a worked example, and Easy/Medium/Hard/US Units practice
+problems with a numeric answer and tolerance.
 
 ## How progress and readiness work
 
