@@ -14,6 +14,17 @@ const LEITNER_INTERVALS = { 1:0, 2:1, 3:3, 4:7, 5:16 };
 /* Extra cards beyond the auto-generated definitions.
    m = module id, q = question/front, a = answer/back, tag = card category */
 const EXTRA_CARDS = [
+  /* ---- Added in content audit ---- */
+  {m:'m2', tag:'concept', q:'What is the purpose of flow equalization?', a:'To dampen flow AND load peaks so downstream processes receive a steadier rate — protecting clarifiers, chemical dosing and disinfection contact time.'},
+  {m:'m2', tag:'trouble', q:'Equalization basin is odorous with solids on the bottom. Cause?', a:'Inadequate mixing/aeration. Without mixing, solids settle and the basin goes septic.'},
+  {m:'m2', tag:'concept', q:'In-line vs side-line equalization?', a:'In-line passes ALL flow through the basin, damping flow and concentration. Side-line diverts only flow above a set rate — smaller and cheaper, but shaves peaks only.'},
+  {m:'m2', tag:'concept', q:'Do grinders and comminutors remove solids?', a:'No. They shred solids and leave them in the flow. Only screens REMOVE material. Shredded rags can re-knit into ropes that bind pumps.'},
+  {m:'m12', tag:'formula', q:'US loading formula and the meaning of 8.34?', a:'lbs/day = mg/L x MGD x 8.34. The 8.34 is pounds per US gallon of water.'},
+  {m:'m12', tag:'formula', q:'How many US gallons in a cubic foot? Pounds per cubic foot of water?', a:'7.48 gallons per ft³; 62.4 lbs per ft³.'},
+  {m:'m12', tag:'formula', q:'1 MGD equals how many gpm?', a:'694.4 gpm (1,000,000 gal ÷ 1,440 min).'},
+  {m:'m12', tag:'concept', q:'In which units does the WPI exam present calculations?', a:'Both US Standard and Metric — US Standard first, metric in parentheses. Each item is solvable in either system independently.'},
+  {m:'m12', tag:'concept', q:'What calculator may you use on the EOCP exam?', a:'A basic four-function calculator. Programmable calculators are NOT permitted, and the exam is closed book.'},
+
   /* ---- Module 1 ---- */
   {m:'m1', tag:'number', q:'Typical raw domestic wastewater BOD₅?', a:'About 200 mg/L.'},
   {m:'m1', tag:'number', q:'Typical raw domestic wastewater TSS?', a:'About 200–250 mg/L.'},

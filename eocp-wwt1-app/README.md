@@ -26,15 +26,29 @@ The Class I Wastewater Treatment exam is **100 questions**:
 | Security, Safety and Administrative Procedures | 10 | |
 
 Roughly **40% recall / 60% application**, with about **14% of all questions** requiring
-calculations. A **formula and conversion table is provided at the exam** — the skill being
-tested is choosing the right formula and handling units, not memorising them.
+calculations.
+
+**Exam rules (OFFICIAL, verified against EOCP and WPI material):**
+
+| | |
+|---|---|
+| Format | 100 **scored** questions + up to 10 **unscored pre-test** questions, scattered and unidentified |
+| Duration | **3 hours** |
+| Passing standard | **70% scaled score units** |
+| Conditions | **Closed book** — no personal books, notes or **programmable calculators** |
+| Provided | **ABC Formula/Conversion Table**; a basic four-function calculator is sufficient |
+| Units | Calculations appear in **both US Standard and Metric** — US first, metric in parentheses |
 
 **EOCP Level I requirements:** 12 months / 1,800 hours of directly related hands-on
 experience, proof of high school completion, and employment (or an offer) with a BC or
 Yukon employer. Certification is renewed with CEUs.
 
-The in-app **Exam Requirements** page carries all of this with sources, and explicitly lists
-what could *not* be verified (exam duration, pass mark, fees) rather than guessing at it.
+Because the exam is dual-unit, **every math topic in this app carries a US Units practice
+problem alongside the metric ones.**
+
+The in-app **Exam Requirements** page carries all of this with sources, and flags what could
+*not* be verified — fees, the raw-to-scaled score conversion, and whether EOCP applies the
+WPI pre-test policy — as **UNVERIFIED — CONFIRM WITH EOCP** rather than guessing.
 
 ## Files
 
@@ -101,12 +115,39 @@ with a numeric answer and tolerance.
 
 Reset everything from the bottom of the navigation drawer.
 
+## Content audit (August 2026)
+
+A full exam-content audit was run against the current framework. Findings and fixes:
+
+- **Answer-position bias.** Every question was authored with the correct answer first, so
+  100% of answers were option A — trivially gameable. Options are now shuffled
+  deterministically from each question's id, so the correct answer moves but a review
+  screen still matches what you answered. Any question you add with `a:0` is handled
+  automatically.
+- **Dual units.** The exam is US + metric; the app was metric-only. Added US Standard
+  practice problems across all calculation topics, plus US conversion constants (7.48 gal/ft³,
+  62.4 lb/ft³, 8.34 lb/gal, 694.4 gpm/MGD).
+- **Flow equalization was missing** although the Need-to-Know Criteria names it as a
+  preliminary treatment process. Added a full lesson (with grinding/comminution), plus
+  flashcards, practice and mock questions.
+- **PRNG bug.** `seed * 1103515245` overflowed JavaScript's 2^53 exact-integer range, so
+  every seed collapsed to the same permutation. Fixed with `Math.imul`.
+- **Duplicate questions** between the practice and mock banks (11 exact or near-duplicate
+  stems) were rewritten so the two banks stay distinct.
+- **Length cues.** In 12 questions the correct option was far longer than the distractors.
+  Distractors were lengthened to remove the tell.
+- **Coverage:** 44/44 Need-to-Know areas have a lesson, flashcards and questions (100%).
+
 ## Honesty notes
 
 - The five mock exams are **original questions**, not real EOCP or WPI exam questions. They
   test the same knowledge areas as the published Need-to-Know Criteria.
-- The 80% readiness benchmark is this app's own standard. EOCP's official pass mark could not
-  be verified during research — **confirm it with EOCP directly**.
+- The 80% readiness benchmark is **this app's own internal study benchmark, NOT an EOCP
+  passing requirement**. It is set deliberately above the real standard to leave margin.
+  EOCP's official passing standard is **70% scaled score units**.
+- **Links could not be opened and confirmed live.** The network policy on the build machine
+  blocks eocp.ca and gowpi.org, so URLs were gathered from indexed search results. They are
+  best-known addresses, not verified-live links.
 - Where the official material doesn't state something, the app says so rather than inventing it.
 
 ## Sources

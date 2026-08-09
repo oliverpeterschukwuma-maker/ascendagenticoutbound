@@ -53,20 +53,46 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':
 const now = () => Date.now();
 const DAY = 86400000;
 
-/* Deterministic shuffle so exams are stable between visits but differ from each other */
+/* Deterministic shuffle so exams and option orders are stable between visits.
+ * Uses Math.imul for the LCG step: plain `s * 1103515245` exceeds JavaScript's
+ * 2^53 exact-integer range for large seeds, so the low bits — the ones the
+ * modulo actually uses — turn to garbage and every seed collapses to the same
+ * permutation. Math.imul keeps the arithmetic exact 32-bit. */
 function seededShuffle(arr, seed){
   const a = arr.slice();
-  let s = seed || 1;
+  let s = (seed | 0) || 1;
   for (let i = a.length - 1; i > 0; i--){
-    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    s = (Math.imul(s, 1103515245) + 12345) & 0x7fffffff;
     const j = s % (i + 1);
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
 }
 
+/* ---- Option-order presentation ----------------------------------------
+ * Questions are authored with the correct answer first (a:0) because that is
+ * far easier to write and review. Presenting them that way would make the app
+ * trivially gameable and nothing like a real exam, so every question's options
+ * are shuffled deterministically from its id: the same question always shows
+ * the same order (so a review screen matches what you answered), but the
+ * correct answer lands in a different position each time.
+ * This also means any question YOU add with a:0 is handled automatically. */
+const PRES = {};
+function hashId(str){
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++){ h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return Math.abs(h);
+}
+function present(q){
+  if (PRES[q.id]) return PRES[q.id];
+  const order = seededShuffle(q.o.map((_,i) => i), hashId(q.id));
+  const p = { o: order.map(i => q.o[i]), a: order.indexOf(q.a) };
+  PRES[q.id] = p;
+  return p;
+}
+
 function bandClass(p){ return p >= 80 ? 'good' : p >= 60 ? 'warn' : 'bad'; }
-function bandLabel(p){ return p >= 85 ? 'Exam Ready' : p >= 70 ? 'Strong' : p >= 50 ? 'Practising' : p > 0 ? 'Learning' : 'Not Started'; }
+function bandLabel(p){ return p >= 85 ? 'Exam Ready' : p >= 70 ? 'Nearly Ready' : p >= 50 ? 'Developing' : 'Not Ready'; }
 
 /* ============================== DERIVED METRICS ============================== */
 function courseProgress(){
@@ -125,10 +151,10 @@ function moduleStatus(m){
   const read = m.lessons.filter(l => S.lessonsRead[l.id]).length;
   const t = S.tests[m.id];
   if (t && t.pct >= 85 && read === lessons) return 'Exam Ready';
-  if (t && t.pct >= 70) return 'Strong';
-  if (t) return 'Practising';
-  if (read > 0) return 'Learning';
-  return 'Not Started';
+  if (t && t.pct >= 70) return 'Nearly Ready';
+  if (t) return 'Developing';
+  if (read > 0) return 'Developing';
+  return 'Not Ready';
 }
 
 /* Overall readiness — deliberately strict. Every pillar must hold up. */
@@ -154,10 +180,9 @@ function readiness(){
   const overall = pct(okCount, pillars.length);
   let verdict;
   if (okCount === pillars.length) verdict = 'Exam Ready';
-  else if (overall >= 70) verdict = 'Nearly there';
-  else if (overall >= 40) verdict = 'Practising';
-  else if (overall > 0) verdict = 'Learning';
-  else verdict = 'Not Started';
+  else if (overall >= 70) verdict = 'Nearly Ready';
+  else if (overall >= 35) verdict = 'Developing';
+  else verdict = 'Not Ready';
   return { pillars, okCount, overall, verdict };
 }
 
@@ -257,6 +282,15 @@ function vDashboard(app){
   app.appendChild(g);
 
   /* Duty-area weighting reminder */
+  const fmt = el('div','card');
+  fmt.appendChild(el('h3',null,'The exam, in one box'));
+  const fg = el('div','grid grid-2');
+  [['100','Scored questions'],['+10','Unscored pre-test'],['3 hrs','Time limit'],['70%','Pass (scaled)']]
+    .forEach(([v,l2]) => fg.appendChild(el('div','stat', `<b style="font-size:1.15rem">${v}</b><span>${l2}</span>`)));
+  fmt.appendChild(fg);
+  fmt.appendChild(el('p','muted xs','Closed book · no personal notes · no programmable calculators · ABC Formula/Conversion Table provided · calculations given in both US and metric units. <strong>OFFICIAL</strong> — see Exam Requirements for sources.'));
+  app.appendChild(fmt);
+
   const duty = el('div','card');
   duty.appendChild(el('h3',null,'Where the marks actually are'));
   duty.appendChild(el('p','muted small','Spend your study time in proportion to this. Equipment and Treatment Process together are 77 of the 100 questions.'));
@@ -395,7 +429,7 @@ function vCourse(app){
       `<span class="badge-line">
          <span class="pill accent">${DUTIES[m.duty].name.split(' ')[0]} · ${DUTIES[m.duty].q}q</span>
          <span class="pill">${read}/${m.lessons.length} lessons</span>
-         <span class="pill ${st==='Exam Ready'||st==='Strong'?'good':st==='Not Started'?'':'warn'}">${st}</span>
+         <span class="pill ${st==='Exam Ready'||st==='Nearly Ready'?'good':st==='Not Ready'?'':'warn'}">${st}</span>
        </span>`;
     b.onclick = () => go('course', m.id);
     app.appendChild(b);
@@ -452,6 +486,10 @@ function vLesson(app){
   c.appendChild(block('2 · Learn it', learn));
 
   c.appendChild(block('3 · Operator knowledge', el('p',null,l.operator)));
+  if (l.industrial){
+    c.appendChild(block('3b · Industrial wastewater example',
+      el('div','callout field','<span class="lbl">Industrial wastewater example — NOT typical municipal treatment</span>' + l.industrial)));
+  }
   c.appendChild(block('4 · Equipment', el('p',null,l.equipment)));
 
   const tw = el('div','scroll-x');
@@ -499,11 +537,12 @@ function vLesson(app){
 /* Reusable question card. immediate = reveal answer as soon as one is chosen. */
 function questionCard(q, n, immediate, state){
   const card = el('div','q');
+  const P = present(q);
   const typeLabel = q.t === 'calc' ? 'Calculation' : q.t === 'sc' ? 'Scenario' : 'Multiple choice';
   card.appendChild(el('div','q-n', `Question ${n} · ${typeLabel}`));
   card.appendChild(el('div','q-t', q.q));
   const opts = [];
-  q.o.forEach((o,i) => {
+  P.o.forEach((o,i) => {
     const b = el('button','opt', `<span class="k">${'ABCD'[i]}</span><span>${o}</span>`);
     b.onclick = () => {
       if (immediate){
@@ -511,13 +550,13 @@ function questionCard(q, n, immediate, state){
         card.dataset.answered = '1';
         opts.forEach((x,xi) => {
           x.disabled = true;
-          if (xi === q.a) x.classList.add('correct');
+          if (xi === P.a) x.classList.add('correct');
           else if (xi === i) x.classList.add('wrong');
         });
-        const ok = i === q.a;
+        const ok = i === P.a;
         S.practice[q.id] = { correct: ok, ts: now() };
         save();
-        const ex = el('div','expl', `<b>${ok ? 'Correct.' : 'Not quite — answer is ' + 'ABCD'[q.a] + '.'}</b> ${q.e}`);
+        const ex = el('div','expl', `<b>${ok ? 'Correct.' : 'Not quite — the answer is ' + 'ABCD'[P.a] + '.'}</b> ${q.e}`);
         card.appendChild(ex);
       } else {
         opts.forEach(x => x.classList.remove('sel'));
@@ -661,6 +700,7 @@ function vMath(app){
   const h = el('div','card');
   h.appendChild(el('h1',null,'Wastewater Mathematics'));
   h.appendChild(el('p','small','About <strong>14% of the exam</strong> requires calculations, and 9 of the calculation items sit in the Treatment Process duty area. You are given the ABC/EOCP formula sheet at the exam — so practise <em>choosing</em> formulas and handling units, not memorising.'));
+  h.appendChild(el('div','callout','<span class="lbl">Units — read this before you start</span>WPI presents calculation items in <strong>both US Standard and Metric units</strong>, US Standard first with metric in parentheses, and each item is solvable in either system independently. Every topic below has a <strong>US Units</strong> practice problem alongside the metric ones — do both. A basic four-function calculator is all you need; programmable calculators are not permitted.'));
   if (ma != null) h.appendChild(el('p','muted small',`Your math accuracy so far: <strong>${ma}%</strong>`));
   app.appendChild(h);
 
@@ -795,7 +835,7 @@ function runTest(app, moduleId){
     const answered = Object.keys(testState.answers).length;
     if (answered < qs.length && !confirm(`You have answered ${answered} of ${qs.length}. Submit anyway?`)) return;
     let score = 0; const wrong = [];
-    qs.forEach(q => { if (testState.answers[q.id] === q.a) score++; else wrong.push(q.id); });
+    qs.forEach(q => { if (testState.answers[q.id] === present(q).a) score++; else wrong.push(q.id); });
     const p = pct(score, qs.length);
     testState.submitted = true;
     testState.result = { score, total: qs.length, pct: p, wrong };
@@ -814,9 +854,9 @@ function showTestResult(app, m, qs){
   const bar = el('div','bar ' + bandClass(r.pct)); const i = el('i'); i.style.width = r.pct + '%'; bar.appendChild(i);
   c.appendChild(bar);
   const verdict = r.pct >= 85 ? 'Exam Ready on this module.'
-    : r.pct >= 70 ? 'Strong — review the misses and move on.'
-    : r.pct >= 50 ? 'Practising. Re-read the lessons behind your wrong answers before retesting.'
-    : 'This module needs real work. Go back through the lessons and flashcards before retaking.';
+    : r.pct >= 70 ? 'Nearly Ready — review the misses, then move on.'
+    : r.pct >= 50 ? 'Developing. Re-read the lessons behind your wrong answers before retesting.'
+    : 'Not Ready on this module. Work back through the lessons and flashcards before retaking.';
   c.appendChild(el('p','small center', verdict));
   app.appendChild(c);
 
@@ -829,10 +869,11 @@ function showTestResult(app, m, qs){
       lessons.add(q.l);
       const box = el('div','q');
       box.appendChild(el('div','q-t', q.q));
+      const Pq = present(q);
       const chosen = testState.answers[qid];
       box.appendChild(el('div','small muted',
-        `You chose: <strong>${chosen != null ? 'ABCD'[chosen] + ' — ' + q.o[chosen] : 'nothing'}</strong>`));
-      box.appendChild(el('div','small', `Correct answer: <strong>${'ABCD'[q.a]} — ${q.o[q.a]}</strong>`));
+        `You chose: <strong>${chosen != null ? 'ABCD'[chosen] + ' — ' + Pq.o[chosen] : 'nothing'}</strong>`));
+      box.appendChild(el('div','small', `Correct answer: <strong>${'ABCD'[Pq.a]} — ${Pq.o[Pq.a]}</strong>`));
       box.appendChild(el('div','expl', q.e));
       w.appendChild(box);
     });
@@ -940,7 +981,7 @@ function runMock(app, examId){
     mockState.qs.forEach(q => {
       byDuty[q.d] = byDuty[q.d] || {c:0,t:0};
       byDuty[q.d].t++;
-      if (mockState.answers[q.id] === q.a){ score++; byDuty[q.d].c++; }
+      if (mockState.answers[q.id] === present(q).a){ score++; byDuty[q.d].c++; }
       else wrong.push(q.id);
     });
     const p = pct(score, mockState.qs.length);
@@ -965,11 +1006,11 @@ function showMockResult(app, def){
   const minDuty = Math.min(...dutyPcts);
   let status, cls;
   if (r.pct >= 80 && minDuty >= 70){ status = 'Exam Ready on this exam'; cls = 'good'; }
-  else if (r.pct >= 70){ status = 'Close — tighten your weak duty areas'; cls = 'warn'; }
-  else if (r.pct >= 55){ status = 'Practising — keep studying'; cls = 'warn'; }
-  else { status = 'Not ready yet — go back to the lessons'; cls = 'bad'; }
+  else if (r.pct >= 70){ status = 'Nearly Ready — tighten your weak duty areas'; cls = 'warn'; }
+  else if (r.pct >= 55){ status = 'Developing — keep studying'; cls = 'warn'; }
+  else { status = 'Not Ready — go back to the lessons'; cls = 'bad'; }
   c.appendChild(el('div','center',`<span class="pill ${cls}" style="margin-top:10px">${status}</span>`));
-  c.appendChild(el('p','muted xs center','Readiness benchmark used here: 80% overall with no duty area below 70%. This app\'s benchmark — EOCP\'s official pass mark was not verifiable, so confirm it with EOCP.'));
+  c.appendChild(el('p','muted xs center','<strong>Internal study benchmark — NOT an EOCP passing requirement.</strong> This app uses 80% overall with no duty area below 70%, set above the real standard to leave margin. EOCP\'s official passing standard is 70% scaled score units.'));
   app.appendChild(c);
 
   const d = el('div','card');
@@ -1012,10 +1053,11 @@ function showMockResult(app, def){
       const box = el('div','q');
       box.appendChild(el('div','q-n', EXAM_INFO.outline.duties.find(x=>x.k===q.d).name));
       box.appendChild(el('div','q-t', q.q));
+      const Pq = present(q);
       const chosen = mockState.answers[qid];
       box.appendChild(el('div','small muted',
-        `You chose: <strong>${chosen != null ? 'ABCD'[chosen] + ' — ' + q.o[chosen] : 'nothing'}</strong>`));
-      box.appendChild(el('div','small',`Correct: <strong>${'ABCD'[q.a]} — ${q.o[q.a]}</strong>`));
+        `You chose: <strong>${chosen != null ? 'ABCD'[chosen] + ' — ' + Pq.o[chosen] : 'nothing'}</strong>`));
+      box.appendChild(el('div','small',`Correct: <strong>${'ABCD'[Pq.a]} — ${Pq.o[Pq.a]}</strong>`));
       box.appendChild(el('div','expl', q.e));
       w.appendChild(box);
     });
@@ -1183,7 +1225,11 @@ function vReady(app){
      <span class="pill ${bandClass(r.overall)}">${r.verdict}</span>`));
   const bar = el('div','bar ' + bandClass(r.overall)); const i = el('i'); i.style.width = r.overall + '%'; bar.appendChild(i);
   h.appendChild(bar);
-  h.appendChild(el('p','muted small center','You only get "Exam Ready" when every check below passes. It is deliberately hard to reach.'));
+  h.appendChild(el('div','callout field','<span class="lbl">Internal study benchmark — NOT an EOCP passing requirement</span>' +
+    'The 80% thresholds below are <strong>this app\'s own study benchmark</strong>, set deliberately above the real standard to leave you a margin. ' +
+    'EOCP\'s actual passing standard is <strong>70% scaled score units</strong> (OFFICIAL). ' +
+    'Scoring "Exam Ready" here does not guarantee a pass, and is not an EOCP assessment of any kind.'));
+  h.appendChild(el('p','muted small center','Readiness uses seven separate metrics, not one test score. Every check must pass.'));
   app.appendChild(h);
 
   const c = el('div','card');
@@ -1201,10 +1247,10 @@ function vReady(app){
 
   const m = el('div','card');
   m.appendChild(el('h3',null,'Module checklist'));
-  m.appendChild(el('p','muted small','Not Started → Learning → Practising → Strong → Exam Ready'));
+  m.appendChild(el('p','muted small','Not Ready → Developing → Nearly Ready → Exam Ready'));
   CURRICULUM.forEach(mod => {
     const st = moduleStatus(mod);
-    const cls = st === 'Exam Ready' ? 'good' : st === 'Strong' ? 'good' : st === 'Not Started' ? '' : 'warn';
+    const cls = st === 'Exam Ready' ? 'good' : st === 'Nearly Ready' ? 'good' : st === 'Not Ready' ? '' : 'warn';
     const row = el('button','item');
     row.innerHTML = `<span class="t">Module ${mod.n} — ${mod.title}</span>
       <span class="badge-line"><span class="pill ${cls}">${st}</span>

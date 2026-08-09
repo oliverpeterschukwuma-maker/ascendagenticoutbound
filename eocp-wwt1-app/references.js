@@ -12,57 +12,59 @@
  */
 
 const EXAM_INFO = {
-  updated: 'Researched August 2026',
+  updated: 'Researched and re-verified August 2026',
+  sourcingNote: 'Items tagged OFFICIAL come from EOCP or WPI/ABC published material. ' +
+    'Items tagged UNVERIFIED could not be confirmed from an authoritative current source and must be ' +
+    'confirmed with EOCP directly — they are flagged rather than guessed at. ' +
+    'NOTE ON LINK CHECKING: the network policy on the machine that built this app blocks direct access to ' +
+    'eocp.ca and gowpi.org, so links below were gathered from indexed search results and their URLs could ' +
+    'NOT be individually opened and confirmed live. Treat them as best-known addresses, not verified-live links.',
   official: [
-    {
-      k:'Certifying body',
-      v:'Environmental Operators Certification Program (EOCP) — certifies water and wastewater operators in British Columbia and Yukon.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Exam used',
-      v:'EOCP uses the current WPI (Water Professionals International / ABC) standardized Level I–IV exams. New standardized exams were introduced in <b>July 2025</b>, developed from job analyses conducted in 2022–2023 that evaluated over 700 industry job tasks.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Experience requirement (Level I)',
-      v:'<b>12 months / 1,800 hours</b> of hands-on, directly related experience. Only directly related experience in water treatment, water distribution, wastewater treatment or wastewater collection counts, and it must be verified in the Application for Certification.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Education requirement',
-      v:'Proof of high school completion — an official high school diploma or transcript issued by the Ministry of Education, an adult graduation diploma, or a post-secondary diploma.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Application requirement',
-      v:'You must be employed by, or hold an employment offer letter from, an employer in <b>British Columbia or Yukon</b>.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Certification renewal',
-      v:'Certification is maintained by accumulating <b>Continuing Education Units (CEUs)</b>.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Exam reference material',
-      v:'WPI standardized exams are administered <b>with a Formula/Conversion Table</b> containing the mathematical formulas and common abbreviations that may appear on the exam. You do not have to memorise formulas — you have to know which one to use.',
-      src:'OFFICIAL'
-    },
-    {
-      k:'Question sourcing',
-      v:'Every exam question is referenced to widely accepted peer-reviewed publications from California State University Office of Water Programs (CSUS/OWP), AWWA, or the Water Environment Federation (WEF).',
-      src:'OFFICIAL'
-    }
+    {k:'Certifying body',
+     v:'Environmental Operators Certification Program (EOCP) — certifies water and wastewater operators in British Columbia and Yukon. Operating in BC since 1966.',
+     src:'OFFICIAL'},
+    {k:'Exam used',
+     v:'EOCP administers the current WPI (Water Professionals International / ABC) standardized Level I–IV exams. New standardized exams were introduced <b>July 2025</b>, developed from job analyses conducted 2022–2023 that evaluated over 700 industry job tasks.',
+     src:'OFFICIAL'},
+    {k:'Exam format and length',
+     v:'<b>100 questions, multiple choice, to be completed within 3 hours.</b> The WPI standardized exam consists of <b>100 scored questions</b> plus <b>up to 10 additional unscored "pre-test" questions</b>. Pre-test questions are unidentified and scattered throughout the exam, so answer every question with equal care — you cannot tell which ones count.',
+     src:'OFFICIAL'},
+    {k:'Passing standard',
+     v:'A score of <b>70% scaled score units or higher</b> is required to pass. This represents the minimum standard of knowledge. Note this is a <b>scaled</b> score, not a raw percentage of questions answered correctly.',
+     src:'OFFICIAL'},
+    {k:'Exam conditions and allowed materials',
+     v:'<b>Closed book.</b> You may NOT use your own reference sources — no books, no notes, and <b>no programmable calculators</b>. The <b>ABC Formula/Conversion Table is provided</b> and should be used for calculations. Exam math can be solved with a <b>basic four-function calculator</b>.',
+     src:'OFFICIAL'},
+    {k:'Units used in calculations',
+     v:'Calculation items are presented in <b>both US Standard and Metric units</b> — US Standard first, with metric following in parentheses. Each item can be solved in either system independently. <b>Practise both.</b>',
+     src:'OFFICIAL'},
+    {k:'Experience requirement (Level I)',
+     v:'<b>12 months / 1,800 hours</b> of hands-on, directly related experience. Only directly related experience in water treatment, water distribution, wastewater treatment or wastewater collection counts, and it must be verified in the Application for Certification.',
+     src:'OFFICIAL'},
+    {k:'Education requirement',
+     v:'Proof of high school completion — an official high school diploma or transcript issued by the Ministry of Education, an adult graduation diploma, or a post-secondary diploma.',
+     src:'OFFICIAL'},
+    {k:'Application requirement',
+     v:'You must be employed by, or hold an employment offer letter from, an employer in <b>British Columbia or Yukon</b>.',
+     src:'OFFICIAL'},
+    {k:'Required documentation',
+     v:'Completed Application for Certification with verified experience, plus proof of education (diploma or official transcript), plus proof of BC/YT employment or an offer letter.',
+     src:'OFFICIAL'},
+    {k:'Certification renewal',
+     v:'Certification is maintained by accumulating <b>Continuing Education Units (CEUs)</b>.',
+     src:'OFFICIAL'},
+    {k:'Question sourcing',
+     v:'Exam questions are referenced to widely accepted peer-reviewed publications — California State University Sacramento Office of Water Programs (CSUS/OWP), the Water Environment Federation (WEF), and Standard Methods (APHA/AWWA/WEF).',
+     src:'OFFICIAL'}
   ],
   outline: {
     total: 100,
-    note:'Content outline for the WPI Wastewater Treatment Operator Class I certification exam. Cognitive mix is approximately 40% Recall and 60% Application, with roughly 14% of all questions requiring calculations.',
+    note:'Content outline for the WPI Wastewater Treatment Operator Class I certification exam (100 scored questions). Cognitive mix is approximately 40% Recall and 60% Application, with roughly 14% of all questions requiring calculations.',
     duties: [
       {k:'EQP', name:'Equipment Evaluation, Maintenance and/or Operation', q:39,
        detail:'13 Recall, 26 Application, 0 calculation items. Covers preliminary, primary, secondary, tertiary and disinfection equipment.'},
       {k:'TPE', name:'Treatment Process Evaluation and Adjustment', q:38,
-       detail:'6 Recall, 32 Application, 9 calculation items. Covers preliminary treatment (screening, grinding, grit, flow equalisation), primary treatment/clarification, secondary treatment, and disinfection including chlorination, dechlorination and UV.'},
+       detail:'6 Recall, 32 Application, 9 calculation items. Covers preliminary treatment (screening, grinding, grit, flow equalisation), primary treatment/clarification, secondary treatment including suspended growth (activated sludge), disinfection (chlorination, dechlorination, UV), and solids treatment processes.'},
       {k:'LAB', name:'Laboratory Analysis', q:13,
        detail:'Sampling, core analytical tests, and quality control.'},
       {k:'SSA', name:'Security, Safety and Administrative Procedures', q:10,
@@ -70,22 +72,32 @@ const EXAM_INFO = {
     ]
   },
   unverified: [
-    'Exact exam duration and the pass mark for the Level I exam could not be confirmed from official sources during research (eocp.ca was unreachable from this environment). <b>Confirm these directly with EOCP before your exam date.</b>',
-    'Current application and exam fees were not confirmed. Check the EOCP fees page.',
-    'The precise Recall/Application/calculation split within the Laboratory Analysis and Security/Safety/Administrative duties was not confirmed; the question counts shown are from the published content outline and searches of it.'
+    '<b>Current exam and application fees.</b> A $150 exam fee appears in EOCP material in connection with a 100-question / 3-hour exam, but this app could not confirm it is the current fee for Wastewater Treatment Level I specifically. <b>UNVERIFIED — CONFIRM WITH EOCP.</b>',
+    '<b>Exact scaled-score conversion.</b> EOCP states the pass standard as 70% scaled score units; the raw-to-scaled conversion method is not published. Do not assume 70 correct answers out of 100 equals a pass. <b>UNVERIFIED — CONFIRM WITH EOCP.</b>',
+    '<b>Precise Recall/Application/calculation split within the Laboratory Analysis and Security/Safety/Administrative duties.</b> The question counts shown above are from the published content outline; the internal cognitive split for these two duties was not confirmed. <b>UNVERIFIED — CONFIRM WITH EOCP.</b>',
+    '<b>Whether EOCP applies the WPI pre-test question policy.</b> The up-to-10 unscored pre-test questions are ABC/WPI standard practice; EOCP-specific confirmation was not obtained. <b>UNVERIFIED — CONFIRM WITH EOCP.</b>'
   ],
   links: [
     {t:'EOCP — main site', u:'https://eocp.ca/'},
     {t:'EOCP — How to Become an Operator', u:'https://eocp.ca/certified-operators/how-to-become-an-operator/'},
     {t:'EOCP — Exam Requirements', u:'https://eocp.ca/certified-operators/drc-requirements/'},
     {t:'EOCP — Exam Preparation', u:'https://eocp.ca/certified-operators/preparing-for-your-exam/'},
+    {t:'EOCP — Exam Schedule', u:'https://eocp.ca/certified-operators/exam-schedule/'},
+    {t:'EOCP — Fees', u:'https://eocp.ca/fees/'},
+    {t:'EOCP — Program Guide', u:'https://eocp.ca/about-us/program-guide/'},
     {t:'EOCP — CEU Requirements', u:'https://eocp.ca/certified-operators/ceu-requirements/'},
     {t:'EOCP — New Standardized Exams (July 2025)', u:'https://eocp.ca/operator-digest/new-standardized-exams-coming-in-july-2025/'},
-    {t:'WPI — Wastewater Treatment Class I Need-to-Know Criteria (PDF)', u:'https://www.gowpi.org/wp-content/uploads/2025/06/WastewaterTreatment-%E2%80%93-Class-1.pdf'},
+    {t:'EOCP — ABC Formula Sheet (wastewater treatment & collection) page', u:'https://eocp.ca/abc-formula-sheet-wwtwwc/'},
+    {t:'EOCP — ABC 2018 Wastewater Formula Sheet (PDF)', u:'https://eocp.ca/wp-content/uploads/2018/04/ABC-2018-Wastewater-Formula-Sheet.pdf'},
+    {t:'EOCP — Math for Operators, guide to the ABC/EOCP formulas (PDF)', u:'https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf'},
+    {t:'EOCP — Candidate Instructions for ABC Web-Based Examinations (PDF)', u:'https://eocp.ca/wp-content/uploads/2018/04/Examinee-Instructions-ABC-Web-Based-Examinee.pdf'},
+    {t:'EOCP — Small Wastewater Systems sample exam (PDF)', u:'https://eocp.ca/wp-content/uploads/2021/01/SWWS-Sample-Exam-2020-December.pdf'},
+    {t:'EOCP — Operator-in-Training sample exam (PDF)', u:'https://eocp.ca/wp-content/uploads/2021/01/OIT-Sample-Exam-2020-December.pdf'},
+    {t:'WPI — Wastewater Treatment Class I Need-to-Know Criteria (June 2025, PDF)', u:'https://www.gowpi.org/wp-content/uploads/2025/06/WastewaterTreatment-%E2%80%93-Class-1.pdf'},
     {t:'WPI — Need-to-Know Criteria (all levels)', u:'https://gowpi.org/services/abc-testing/need-to-know-criteria/'},
     {t:'WPI — Standardized Wastewater Treatment Exams', u:'https://gowpi.org/services/abc-testing/standardized-exams/standardized-wastewater-treatment-operator-exams/'},
-    {t:'WPI — Formula/Conversion Tables', u:'https://gowpi.org/services/abc-testing/formula-conversion-tables/'},
-    {t:'WPI — Wastewater Treatment Exam References', u:'https://www.gowpi.org/services/abc-testing/wastewater-treatment-operator-exam-references/'}
+    {t:'WPI — Wastewater Treatment Exam References', u:'https://www.gowpi.org/services/abc-testing/wastewater-treatment-operator-exam-references/'},
+    {t:'WPI — ABC Testing FAQ', u:'https://gowpi.org/services/abc-testing/faq/'}
   ]
 };
 
@@ -94,27 +106,27 @@ const REFERENCES = [
   tier:'ESSENTIAL',
   items:[
     {n:'Wastewater Treatment Operator Class I Need-to-Know Criteria',
-     o:'Water Professionals International (WPI / ABC Testing)', y:'June 2025 edition',
+     o:'Water Professionals International (WPI / ABC Testing)', y:'June 2025 edition', src:'OFFICIAL',
      w:'This IS the exam blueprint. It lists every duty area, the number of questions in each, the cognitive level split and the calculation count. Read it before you read anything else, and use it to decide where your study hours go.',
      u:'https://www.gowpi.org/wp-content/uploads/2025/06/WastewaterTreatment-%E2%80%93-Class-1.pdf'},
-    {n:'ABC/EOCP Canadian Formula & Conversion Table — Wastewater',
-     o:'EOCP / Association of Boards of Certification', y:'Current edition',
+    {n:'ABC/EOCP Canadian Formula & Conversion Table — Wastewater (2018 sheet)',
+     o:'EOCP / Association of Boards of Certification', y:'2018 edition, current as distributed by EOCP', src:'OFFICIAL',
      w:'This is the exact sheet you are handed at the exam. Print it and use it for every practice problem you do, so that on exam day you already know where each formula sits on the page.',
-     u:'https://eocp.ca/wp-content/uploads/2015/03/ABC-Formula-Sheet-WWTWWC.pdf'},
+     u:'https://eocp.ca/wp-content/uploads/2018/04/ABC-2018-Wastewater-Formula-Sheet.pdf'},
     {n:'Math for Operators — A Guide to Using the ABC/EOCP Canadian Standardized Formulas',
-     o:'G. Faris, published by EOCP', y:'2022',
+     o:'G. Faris, published by EOCP', y:'2022', src:'OFFICIAL',
      w:'Written specifically to teach operators how to use the EOCP/ABC formula sheet, with worked examples. The single most useful math resource for this exam because it is built around the sheet you will actually have.',
      u:'https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf'},
     {n:'EOCP Exam Preparation page',
-     o:'Environmental Operators Certification Program', y:'Current',
+     o:'Environmental Operators Certification Program', y:'Current', src:'OFFICIAL',
      w:'EOCP\'s own preparation guidance, sample material and current exam logistics. Check here for the pass mark, exam duration and booking process — details this app could not verify.',
      u:'https://eocp.ca/certified-operators/preparing-for-your-exam/'},
     {n:'Operation of Wastewater Treatment Plants, Volumes 1 & 2',
-     o:'California State University Sacramento — Office of Water Programs (CSUS/OWP)', y:'8th Edition',
+     o:'California State University Sacramento — Office of Water Programs (CSUS/OWP)', y:'8th Edition', src:'SUPPLEMENTAL (named exam reference)',
      w:'Named by WPI as a reference source for Class I exam questions. If a question is written from a book, it is likely this one. Volume 1 covers the fundamentals you need for Level I.',
      u:'https://www.owp.csus.edu/'},
     {n:'Wastewater Treatment Fundamentals I — Liquid Treatment',
-     o:'Water Environment Federation (WEF)', y:'Current edition',
+     o:'Water Environment Federation (WEF)', y:'Current edition', src:'SUPPLEMENTAL (named exam reference)',
      w:'The other reference WPI names for Class I questions. Written as an operator certification preparation text and mapped to the exam structure.',
      u:'https://www.wef.org/'}
   ]
@@ -123,23 +135,35 @@ const REFERENCES = [
   tier:'RECOMMENDED',
   items:[
     {n:'WPI Need-to-Know Criteria — all levels index',
-     o:'Water Professionals International', y:'Current',
+     o:'Water Professionals International', y:'Current', src:'OFFICIAL',
      w:'Useful for seeing what is NOT on the Level I exam. Comparing Class I against Class II tells you where to stop studying, which saves real time.',
      u:'https://gowpi.org/services/abc-testing/need-to-know-criteria/'},
     {n:'WPI Wastewater Treatment Operator Exam References (full list)',
-     o:'Water Professionals International', y:'Current',
+     o:'Water Professionals International', y:'Current', src:'OFFICIAL',
      w:'The complete list of publications WPI draws exam questions from. Worth a look so you know which texts are actually authoritative for this exam.',
      u:'https://www.gowpi.org/services/abc-testing/wastewater-treatment-operator-exam-references/'},
+    {n:'EOCP Sample Exams (Small Wastewater Systems and Operator-in-Training)',
+     o:'Environmental Operators Certification Program', y:'2020 edition', src:'OFFICIAL',
+     w:'EOCP publishes sample exams. These are for the SWWS and OIT certifications rather than Wastewater Treatment Level I, so treat them as format and style practice, not as a Level I content match. Still the closest thing to seeing EOCP question phrasing.',
+     u:'https://eocp.ca/wp-content/uploads/2021/01/SWWS-Sample-Exam-2020-December.pdf'},
+    {n:'Candidate Instructions for ABC Web-Based Examinations',
+     o:'EOCP / ABC', y:'Current', src:'OFFICIAL',
+     w:'What the exam day actually looks like: closed book, no personal references, no programmable calculators, and the provided ABC Formula/Conversion Table. Read it before exam day so nothing is a surprise.',
+     u:'https://eocp.ca/wp-content/uploads/2018/04/Examinee-Instructions-ABC-Web-Based-Examinee.pdf'},
+    {n:'WPI ABC Testing FAQ',
+     o:'Water Professionals International', y:'Current', src:'OFFICIAL',
+     w:'Explains scoring, the unscored pre-test questions, and how the standardized exams are built and maintained.',
+     u:'https://gowpi.org/services/abc-testing/faq/'},
     {n:'Metric Math for Wastewater Operators',
-     o:'Government of Manitoba', y:'Current',
+     o:'Government of Manitoba', y:'Current', src:'SUPPLEMENTAL',
      w:'A free, plain-language metric math workbook aimed squarely at operators. Good extra drilling if unit conversions are your weak point — and for most people they are.',
      u:'https://www.gov.mb.ca/sd/pubs/waste_management/wastewater/metric_math_for_wastewater_operators.pdf'},
     {n:'EOCP How to Become an Operator',
-     o:'Environmental Operators Certification Program', y:'Current',
+     o:'Environmental Operators Certification Program', y:'Current', src:'OFFICIAL',
      w:'The full application pathway: experience verification, education proof, employment requirement and the forms. Read this before you apply, not after.',
      u:'https://eocp.ca/certified-operators/how-to-become-an-operator/'},
     {n:'EOCP Continuing Education Requirements',
-     o:'Environmental Operators Certification Program', y:'Current',
+     o:'Environmental Operators Certification Program', y:'Current', src:'OFFICIAL',
      w:'What you will need to keep the certificate once you have earned it. Worth knowing early so you bank CEUs from your first year rather than scrambling at renewal.',
      u:'https://eocp.ca/certified-operators/ceu-requirements/'}
   ]
@@ -148,15 +172,15 @@ const REFERENCES = [
   tier:'OPTIONAL',
   items:[
     {n:'BC Municipal Wastewater Regulation',
-     o:'Government of British Columbia (under the Environmental Management Act)', y:'Current',
+     o:'Government of British Columbia (under the Environmental Management Act)', y:'Current', src:'OFFICIAL (regulation)',
      w:'The provincial regulation behind BC discharge requirements. Only a small slice of the exam touches regulations, so skim it for context rather than studying it in depth.',
      u:'https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/87_2012'},
     {n:'Wastewater Systems Effluent Regulations (WSER)',
-     o:'Government of Canada (under the Fisheries Act)', y:'Current',
+     o:'Government of Canada (under the Fisheries Act)', y:'Current', src:'OFFICIAL (regulation)',
      w:'The federal baseline effluent standards. Useful background for understanding why your permit says what it says.',
      u:'https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-139/'},
     {n:'BC Water & Waste Association (BCWWA)',
-     o:'BCWWA', y:'Current',
+     o:'BCWWA', y:'Current', src:'SUPPLEMENTAL',
      w:'Training courses and operator events in BC. A practical route to CEUs and to exam-prep courses taught by people who know the EOCP system.',
      u:'https://bcwwa.org/'}
   ]

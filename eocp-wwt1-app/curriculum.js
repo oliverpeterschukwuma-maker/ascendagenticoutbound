@@ -258,6 +258,42 @@ const CURRICULUM = [
         'A flume that is not level gives a wrong reading even if the sensor is perfect.'
       ]
     }
+,
+    {
+      id:'m2l4', title:'Flow Equalization &amp; Grinding',
+      need:'<b>Flow equalization</b> dampens peaks so downstream processes see a steadier hydraulic and organic load. <b>Grinders/comminutors</b> macerate solids and leave them in the flow — unlike screens, which remove them. Both are named preliminary-treatment processes in the Class I Need-to-Know Criteria.',
+      learn:[
+        'Wastewater flow is never steady — it follows the diurnal curve, spikes with rain, and jumps when an industry discharges. Every downstream process performs better on a steady load, so many plants insert an <b>equalization basin</b> to flatten the peaks.',
+        'The basin fills during high flow and draws down during the overnight low, releasing at a controlled rate. The benefits are real: clarifiers stop getting hydraulically overloaded at peak, chemical dosing becomes stable because flow is stable, biological processes stop being shocked, and disinfection contact time is protected.',
+        'Equalization can be <b>in-line</b> (all flow passes through the basin) or <b>side-line/off-line</b> (only flow above a set rate is diverted into it). In-line gives the best damping of both flow and concentration; side-line is smaller and cheaper but only shaves the peaks.',
+        'Equalization basins <b>must be mixed and usually aerated</b>. Without mixing, solids settle out and the basin goes septic, and you have simply built an odour generator that also needs cleaning out.',
+        '<b>Grinders and comminutors</b> are the alternative to screening. A <b>comminutor</b> sits in the channel and shreds solids as they pass. A <b>grinder or muffin monster</b> does the same in a pipe or channel. Critically, <b>they do not remove anything</b> — the shredded material stays in the flow and reports to downstream processes. Shredded rags are notorious for re-knitting into ropes that bind pump impellers and rake mechanisms, which is why many plants have replaced comminutors with fine screens.'
+      ],
+      operator:'On an equalization basin, watch the level trend and the mixing. Draw down fully during the overnight low so you have capacity for the next peak — a basin sitting full is a basin doing no work. Check for grit and solids accumulation and for odour, which tells you mixing is inadequate. On grinders, listen for changes in sound, watch motor amps, and inspect cutter stacks for wear on schedule: dull cutters pass material through whole.',
+      equipment:'Equalization basin with level sensors and variable-speed transfer pumps or a control valve; mixers or coarse-bubble diffusers; comminutors, in-channel grinders, in-line grinders (dual-shaft cutter stacks); flow control and level instrumentation.',
+      trouble:[
+        {p:'Equalization basin going septic and producing odours', c:'Inadequate mixing or aeration, or solids settling in dead zones. Increase mixing/air; check for grit accumulation and clean out.'},
+        {p:'Basin never draws down and stays near full', c:'Discharge rate set too low, or plant inflow exceeds the release rate. Increase the controlled release during low-flow hours or you lose all peak capacity.'},
+        {p:'Downstream processes still seeing peaks', c:'Basin undersized, side-line set point too high, or transfer pump control not modulating. Review the release control strategy.'},
+        {p:'Rags binding downstream pumps despite a comminutor', c:'Shredded rags re-knitting into ropes — a known limitation of comminution. Consider replacing with fine screening, which removes rather than shreds.'},
+        {p:'Grinder motor amps rising or material passing through whole', c:'Worn or dull cutter stacks, or an object jammed between cutters. Lock out and inspect; replace cutters on schedule.'}
+      ],
+      terms:[
+        {t:'Flow equalization', d:'Storing wastewater to dampen flow and load peaks so downstream processes receive a steadier rate.'},
+        {t:'Equalization basin', d:'The tank used for flow equalization; must be mixed (and usually aerated) to prevent settling and septicity.'},
+        {t:'In-line equalization', d:'Arrangement where all flow passes through the equalization basin, damping both flow and concentration.'},
+        {t:'Side-line equalization', d:'Arrangement where only flow above a set rate is diverted to the basin; smaller, but damps peaks only.'},
+        {t:'Comminutor', d:'In-channel device that shreds solids and leaves them in the flow; it does not remove them.'},
+        {t:'Grinder', d:'Device with cutter stacks that macerates solids in a pipe or channel; like a comminutor, it removes nothing.'}
+      ],
+      tips:[
+        'Flow equalization is a named Class I preliminary treatment process — know its purpose: damping flow AND load peaks.',
+        'Equalization basins MUST be mixed/aerated or they settle solids and go septic.',
+        'Grinders and comminutors SHRED solids and leave them in the flow. Screens REMOVE solids. This distinction is heavily tested.',
+        'Shredded rags can re-knit into ropes and bind downstream pumps — a real limitation of comminution.',
+        'Equalization improves clarifier performance, chemical dosing stability and disinfection contact time.'
+      ]
+    }
   ]
 },
 /* ============================ MODULE 3 ============================ */
@@ -507,6 +543,7 @@ const CURRICULUM = [
         '<b>Flocculation</b> is the opposite. Now that the particles no longer repel, you need them to bump into each other and stick, building up into large visible floc. That takes <b>gentle</b>, prolonged mixing — typically 15–45 minutes. Mix too hard here and you tear the floc apart, which is the single most common flocculation mistake.',
         '<b>pH is critical.</b> Every coagulant has an effective pH window. Alum works around 5.5–7.5; ferric a bit wider and lower; <b>PACl generally performs well around 6.5–7.5 and tolerates a wider range</b>. Outside the window, the coagulant simply does not work no matter how much you add. Metal-salt coagulants also <b>consume alkalinity and drive pH down</b>.'
       ],
+      industrial:'Your own train — oily wastewater lagoon → frac tank → coagulation → flocculation → outdoor weir/settling tanks → indoor weir/settling tanks → bag filter → carbon filter — is a <b>physical-chemical industrial</b> process, not a municipal one. The difference matters for the exam. A municipal plant relies on <b>biology</b> (activated sludge, fixed film, lagoons) to remove dissolved BOD, and uses coagulation only occasionally, usually for phosphorus removal or tertiary polishing. Your system has <b>no biological stage at all</b> — it removes oil and suspended solids by charge neutralisation, floc growth, gravity settling and filtration. Two consequences: (1) your coagulant/flocculant doses are far higher than a municipal plant would ever use, because you are treating the whole load chemically; (2) concepts like MLSS, F/M, SVI and sludge age <b>do not apply to your plant</b> — but they are heavily examined, so you must learn them from the municipal material rather than from your day job. Where your experience genuinely transfers is pH control, jar testing, coagulant and polymer behaviour, settling, and pump and chemical-feed operation.',
       operator:'Order of addition matters: <b>pH adjustment (if needed) → coagulant → rapid mix → polymer/flocculant → slow mix → settle.</b> Adding polymer before the coagulant wastes it. Dose by jar test, not by guess, and re-test whenever the influent changes. Watch the floc: good floc is visible, forms within a few minutes, and settles leaving clear water between the particles.',
       equipment:'Chemical storage tanks/totes, metering pumps (diaphragm/solenoid — note that viscous polymer generally needs a pump rated for it), rapid-mix basin with high-speed mixer or in-line static mixer, flocculation basin with slow paddle/vertical mixers, polymer make-down/aging system, calibration column, jar test apparatus.',
       trouble:[
@@ -577,6 +614,7 @@ const CURRICULUM = [
         'Biological processes eat alkalinity. <b>Nitrification consumes roughly 7.1 mg/L of alkalinity for every 1 mg/L of ammonia-nitrogen oxidised</b>, and metal-salt coagulants consume it too. A nitrifying plant with soft, low-alkalinity water can crash its own pH — you must monitor alkalinity, not just pH.',
         '<b>Chemical safety essentials:</b> every chemical has a <b>Safety Data Sheet (SDS)</b> that must be accessible. WHMIS 2015 uses standard <b>pictograms</b> and requires supplier and workplace labels. When diluting acid, <b>always add acid to water</b>, never water to acid, because the reaction is violently exothermic. <b>Never mix chlorine (hypochlorite) with acid</b> — it releases chlorine gas. <b>Never mix chlorine with ammonia</b> — it forms chloramine vapours.'
       ],
+      industrial:'On your system, pH control is the master variable — PACl needs roughly 6.5–7.5 to work, and running at pH 6 is the single most common reason floc will not form. That is a genuine industrial-operations insight and it maps directly onto the exam\'s coagulation/pH material. Be careful with one difference though: on a <b>municipal</b> plant the pH story the exam wants is usually about <b>nitrification destroying alkalinity</b> (about 7.1 mg/L alkalinity per mg/L of ammonia oxidised) and the resulting pH crash in the aeration basin. Your plant has no nitrification, so that mechanism will not appear in your daily work — learn it from the municipal material.',
       operator:'Test alkalinity regularly if you nitrify or use metal coagulants — a falling alkalinity trend predicts a pH crash days before it happens. When you change a pH chemical, start low: caustic soda is far more potent per litre than lime slurry, so a setting that was right for lime will badly overshoot on caustic. Always wear the PPE listed on the SDS — for caustic and acid that means goggles AND face shield, gloves, and an apron, plus a working eyewash within reach.',
       equipment:'Chemical storage tanks with secondary containment, day tanks, mixers, metering pumps, pH probes and controllers, alkalinity titration kit, lime slaker/slurry system with mixer, eyewash and safety shower, spill kit, SDS binder/station, ventilation.',
       trouble:[
@@ -620,6 +658,7 @@ const CURRICULUM = [
         'As the bed loads with solids, <b>headloss rises</b>. When it hits the set limit — or when solids start passing through, called <b>breakthrough</b>, or when a run-time limit is reached — you <b>backwash</b>: reverse clean water up through the bed to fluidise it, scour the media, and carry the trapped solids to waste. Backwash water goes back to the head of the plant.',
         '<b>Activated carbon</b> is different — it works by <b>adsorption</b>, not straining. Organic molecules stick to the enormous internal surface area of the carbon. It is excellent for dissolved organics, taste, odour and residual hydrocarbons, but it eventually <b>exhausts</b> and must be replaced or regenerated. It does not remove suspended solids well — always put a particle filter ahead of it, or you blind the carbon.'
       ],
+      industrial:'Your bag filter and carbon filter are the tertiary end of an <b>industrial</b> train. Sequence matters and your plant has it right: bag filtration removes suspended particles <b>before</b> the carbon, so the carbon is spent adsorbing dissolved hydrocarbons rather than being blinded by silt. On the exam, note that a municipal plant would normally use <b>granular media filtration</b> (sand/anthracite, backwashed) rather than disposable bag or cartridge filters — bags are practical at industrial flows but would be uneconomic at municipal scale. Also note carbon is an <b>adsorption</b> process with a finite capacity that exhausts, whereas a backwashed sand filter is regenerated in place every run. Expect exam questions about granular media, backwash triggers and mudballs, not about bag filters.',
       operator:'Trend headloss and effluent turbidity on every filter run. A run that suddenly gets much shorter means either the upstream process is passing more solids or the media is fouled/mudballed. Do not skip the backwash rate: too low and the bed does not fluidise (solids stay behind and form mudballs), too high and you wash media out of the filter. In an industrial oily-water train, always sequence <b>particle removal before carbon</b> so the carbon is spent on dissolved organics, not silt.',
       equipment:'Granular media filters (gravity or pressure), underdrain and support gravel, backwash pumps and blowers, surface wash/air scour, rate-of-flow controller, headloss gauges, turbidimeters; bag filter housings and bags (rated in micron), cartridge filters, activated carbon vessels (GAC), differential pressure gauges.',
       trouble:[

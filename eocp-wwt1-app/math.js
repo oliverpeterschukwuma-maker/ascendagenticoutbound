@@ -6,12 +6,20 @@
  *   vars      : [{s:symbol, m:meaning, u:units}],
  *   when      : when to use this formula (the judgement part)
  *   worked    : {q, steps:[], a}
- *   practice  : [{lvl:'Easy'|'Medium'|'Hard', q, a:number, tol:number, u:units, e:explanation}]
+ *   practice  : [{lvl:'Easy'|'Medium'|'Hard'|'US Units', q, a:number, tol:number, u:units, e:explanation}]
  * }
  * Answers are checked numerically against `a` within tolerance `tol`.
  *
- * Formula forms follow the ABC/EOCP Canadian Formula & Conversion Table conventions.
- * That table is PROVIDED at the exam — practise selecting and using formulas, not memorising them.
+ * UNITS — IMPORTANT: WPI presents calculation items in BOTH US Standard and Metric
+ * units, US Standard first with metric in parentheses, and each item is solvable in
+ * either system independently. Every topic below therefore carries a 'US Units'
+ * practice problem alongside the metric ones. Source: WPI standardized wastewater
+ * treatment operator exam documentation.
+ *
+ * Formula forms follow the CURRENT ABC/EOCP Canadian Formula & Conversion Table
+ * (ABC 2018 wastewater sheet as distributed by EOCP, and the 2022 EOCP guide to
+ * using those formulas). That table is PROVIDED at the exam — practise selecting
+ * and using formulas, not memorising them.
  */
 
 const CONVERSIONS = [
@@ -31,7 +39,13 @@ const CONVERSIONS = [
   {c:'Flow', a:'1 MGD (US)', b:'3,785 m³/day'},
   {c:'Pressure', a:'1 psi', b:'2.31 ft of water head = 6.895 kPa'},
   {c:'Pressure', a:'1 m of water head', b:'9.81 kPa'},
+  {c:'Volume', a:'1 US gallon', b:'3.785 L = 0.1337 ft³'},
+  {c:'Volume', a:'1 MG (million gallons)', b:'3,785 m³ = 133,681 ft³'},
+  {c:'Flow', a:'1 MGD', b:'694.4 gpm = 1.547 ft³/s'},
+  {c:'Flow', a:'1 gpm', b:'1,440 gpd'},
   {c:'Constant', a:'8.34', b:'lbs per US gallon of water (US loading formula)'},
+  {c:'Constant', a:'62.4', b:'lbs per ft³ of water'},
+  {c:'Constant', a:'7.48', b:'US gallons per ft³'},
   {c:'Constant', a:'π (pi)', b:'3.1416'},
   {c:'Temperature', a:'°C', b:'(°F − 32) × 5/9'},
   {c:'Temperature', a:'°F', b:'(°C × 9/5) + 32'}
@@ -64,7 +78,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'Convert 2,750 m³/day to ML/day.', a:2.75, tol:0.02, u:'ML/day',
      e:'1 ML = 1,000 m³, so 2,750 ÷ 1,000 = 2.75 ML/day.'},
     {lvl:'Hard', q:'A plant flow is 62 L/s. What is this in m³/day?', a:5356.8, tol:20, u:'m³/day',
-     e:'62 L/s × 86,400 s/day = 5,356,800 L/day. ÷ 1,000 = 5,356.8 m³/day.'}
+     e:'62 L/s × 86,400 s/day = 5,356,800 L/day. ÷ 1,000 = 5,356.8 m³/day.'},
+    {lvl:'US Units', q:'Convert 2.5 MGD to gallons per minute (gpm).', a:1736, tol:15, u:'gpm',
+     e:'2.5 MGD = 2,500,000 gal/day ÷ 1,440 min/day = 1,736 gpm. (Shortcut: 1 MGD = 694.4 gpm, so 2.5 x 694.4 = 1,736.)'}
   ]
 },
 {
@@ -92,7 +108,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'A circular clarifier is 24 m in diameter. What is its surface area in m²?', a:452.4, tol:3, u:'m²',
      e:'r = 24 ÷ 2 = 12 m. A = π × 12² = 3.1416 × 144 = 452.4 m².'},
     {lvl:'Hard', q:'A circular tank has a circumference of 47.1 m. What is its surface area in m²?', a:176.6, tol:3, u:'m²',
-     e:'Circumference = 2πr, so r = 47.1 ÷ (2 × 3.1416) = 7.5 m. A = π × 7.5² = 176.7 m².'}
+     e:'Circumference = 2πr, so r = 47.1 ÷ (2 × 3.1416) = 7.5 m. A = π × 7.5² = 176.7 m².'},
+    {lvl:'US Units', q:'A circular clarifier is 60 ft in diameter. What is its surface area in ft²?', a:2827, tol:25, u:'ft²',
+     e:'r = 60 ÷ 2 = 30 ft. A = pi x 30² = 3.1416 x 900 = 2,827 ft². Using diameter instead of radius is the classic trap.'}
   ]
 },
 {
@@ -120,7 +138,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'A circular tank is 10 m in diameter with water 3.5 m deep. What is the volume in m³?', a:274.9, tol:3, u:'m³',
      e:'r = 5 m. A = π × 5² = 78.54 m². V = 78.54 × 3.5 = 274.9 m³.'},
     {lvl:'Hard', q:'A circular tank 14 m in diameter holds water 4 m deep. What is the volume in LITRES?', a:615752, tol:5000, u:'L',
-     e:'r = 7 m. A = π × 49 = 153.9 m². V = 153.9 × 4 = 615.8 m³ × 1,000 = 615,752 L.'}
+     e:'r = 7 m. A = π × 49 = 153.9 m². V = 153.9 × 4 = 615.8 m³ × 1,000 = 615,752 L.'},
+    {lvl:'US Units', q:'A tank is 40 ft long, 20 ft wide with water 10 ft deep. What is the volume in GALLONS?', a:59840, tol:500, u:'gallons',
+     e:'V = 40 x 20 x 10 = 8,000 ft³. Convert: 8,000 x 7.48 gal/ft³ = 59,840 gallons.'}
   ]
 },
 {
@@ -177,7 +197,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'A chlorine contact chamber holds 75 m³ with flow of 3,600 m³/day. What is the contact time in MINUTES?', a:30, tol:0.5, u:'minutes',
      e:'DT = 75 ÷ 3,600 = 0.02083 days × 1,440 min/day = 30 minutes.'},
     {lvl:'Hard', q:'A circular clarifier 16 m in diameter with a 3 m side water depth treats 4,800 m³/day. Detention time in hours?', a:3.02, tol:0.15, u:'hours',
-     e:'r = 8 m. A = π × 64 = 201.1 m². V = 201.1 × 3 = 603.2 m³. DT = 603.2 ÷ 4,800 = 0.1257 days × 24 = 3.02 hours.'}
+     e:'r = 8 m. A = π × 64 = 201.1 m². V = 201.1 × 3 = 603.2 m³. DT = 603.2 ÷ 4,800 = 0.1257 days × 24 = 3.02 hours.'},
+    {lvl:'US Units', q:'A clarifier holds 90,000 gallons and treats 0.72 MGD. What is the detention time in hours?', a:3, tol:0.1, u:'hours',
+     e:'DT = V ÷ Q = 90,000 gal ÷ 720,000 gal/day = 0.125 days x 24 = 3.0 hours.'}
   ]
 },
 {
@@ -205,7 +227,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'A circular clarifier is 15 m in diameter and treats 2,400 m³/day. What is the SOR?', a:13.6, tol:0.4, u:'m³/m²·day',
      e:'r = 7.5 m. A = π × 56.25 = 176.7 m². SOR = 2,400 ÷ 176.7 = 13.6 m³/m²·day.'},
     {lvl:'Hard', q:'A rectangular clarifier 30 m × 8 m must not exceed an SOR of 25 m³/m²·day. What is the maximum flow in m³/day?', a:6000, tol:60, u:'m³/day',
-     e:'A = 30 × 8 = 240 m². Q = SOR × A = 25 × 240 = 6,000 m³/day.'}
+     e:'A = 30 × 8 = 240 m². Q = SOR × A = 25 × 240 = 6,000 m³/day.'},
+    {lvl:'US Units', q:'A circular clarifier 50 ft in diameter treats 0.55 MGD. What is the SOR in gpd/ft²?', a:280, tol:6, u:'gpd/ft²',
+     e:'r = 25 ft. A = pi x 625 = 1,963.5 ft². SOR = 550,000 gpd ÷ 1,963.5 = 280 gpd/ft².'}
   ]
 },
 {
@@ -233,7 +257,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'A circular clarifier 12 m in diameter with a peripheral weir treats 1,500 m³/day. Weir overflow rate?', a:39.8, tol:1.5, u:'m³/m·day',
      e:'L = π × 12 = 37.7 m. WOR = 1,500 ÷ 37.7 = 39.8 m³/m·day.'},
     {lvl:'Hard', q:'A circular clarifier 22 m in diameter has a peripheral weir. Maximum allowable WOR is 120 m³/m·day. What is the maximum flow in m³/day?', a:8294, tol:120, u:'m³/day',
-     e:'L = π × 22 = 69.1 m. Q = 120 × 69.1 = 8,294 m³/day.'}
+     e:'L = π × 22 = 69.1 m. Q = 120 × 69.1 = 8,294 m³/day.'},
+    {lvl:'US Units', q:'A circular clarifier 40 ft in diameter has a peripheral weir and treats 0.6 MGD. What is the weir overflow rate in gpd/ft?', a:4775, tol:60, u:'gpd/ft',
+     e:'Weir length = pi x 40 = 125.7 ft. WOR = 600,000 ÷ 125.7 = 4,775 gpd/ft.'}
   ]
 },
 {
@@ -261,7 +287,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'Flow is 3,200 m³/day with BOD of 175 mg/L. What is the BOD load in kg/day?', a:560, tol:6, u:'kg/day',
      e:'Convert flow: 3,200 m³/day = 3.2 ML/day. kg/day = 175 × 3.2 = 560 kg/day.'},
     {lvl:'Hard', q:'A plant removes 2,100 kg/day of BOD while treating 7.0 ML/day. Effluent BOD is 15 mg/L. What is the INFLUENT BOD in mg/L?', a:315, tol:4, u:'mg/L',
-     e:'BOD removed as concentration = 2,100 ÷ 7.0 = 300 mg/L. Influent = removed + effluent = 300 + 15 = 315 mg/L.'}
+     e:'BOD removed as concentration = 2,100 ÷ 7.0 = 300 mg/L. Influent = removed + effluent = 300 + 15 = 315 mg/L.'},
+    {lvl:'US Units', q:'A plant treats 1.8 MGD with an influent BOD of 210 mg/L. What is the BOD load in lbs/day?', a:3153, tol:30, u:'lbs/day',
+     e:'lbs/day = mg/L x MGD x 8.34 = 210 x 1.8 x 8.34 = 3,152.5 lbs/day.'}
   ]
 },
 {
@@ -317,7 +345,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'Dose 15 mg/L, flow 3,600 m³/day, product is a 60% solution. kg/day of product?', a:90, tol:1, u:'kg/day',
      e:'Flow = 3.6 ML/day. Active = 15 × 3.6 = 54 kg/day. Product = 54 ÷ 0.60 = 90 kg/day.'},
     {lvl:'Hard', q:'You are feeding 120 kg/day of a 40% polymer solution to a flow of 4.0 ML/day. What is the actual dose in mg/L of active polymer?', a:12, tol:0.3, u:'mg/L',
-     e:'Active chemical = 120 × 0.40 = 48 kg/day. Dose = 48 ÷ 4.0 ML/day = 12 mg/L.'}
+     e:'Active chemical = 120 × 0.40 = 48 kg/day. Dose = 48 ÷ 4.0 ML/day = 12 mg/L.'},
+    {lvl:'US Units', q:'A dose of 12 mg/L is needed at a flow of 2.2 MGD, using a pure chemical. How many lbs/day are required?', a:220, tol:3, u:'lbs/day',
+     e:'lbs/day = 12 x 2.2 x 8.34 = 220.2 lbs/day.'}
   ]
 },
 {
@@ -404,7 +434,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'Flow 2.5 ML/day, influent BOD 200 mg/L, aeration volume 1.0 ML, MLVSS 2,500 mg/L. F/M?', a:0.2, tol:0.02, u:'',
      e:'Food = 200 × 2.5 = 500 kg/day. M = 2,500 × 1.0 = 2,500 kg. F/M = 500 ÷ 2,500 = 0.20.'},
     {lvl:'Hard', q:'You want an F/M of 0.30. BOD load is 600 kg/day and aeration volume is 1.5 ML. What MLVSS in mg/L is required?', a:1333, tol:30, u:'mg/L',
-     e:'Required M = 600 ÷ 0.30 = 2,000 kg. MLVSS mg/L = 2,000 kg ÷ 1.5 ML = 1,333 mg/L.'}
+     e:'Required M = 600 ÷ 0.30 = 2,000 kg. MLVSS mg/L = 2,000 kg ÷ 1.5 ML = 1,333 mg/L.'},
+    {lvl:'US Units', q:'BOD load is 1,500 lbs/day and MLVSS under aeration is 5,000 lbs. What is the F/M ratio?', a:0.3, tol:0.02, u:'',
+     e:'F/M = 1,500 ÷ 5,000 = 0.30. F/M is a ratio, so it is the same number in either unit system provided both terms use the same units.'}
   ]
 },
 {
@@ -491,7 +523,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'Chlorine demand is 6.5 mg/L and you need a residual of 1.0 mg/L. Flow is 4.0 ML/day. How many kg/day of chlorine are needed?', a:30, tol:0.5, u:'kg/day',
      e:'Dose = Demand + Residual = 6.5 + 1.0 = 7.5 mg/L. kg/day = 7.5 × 4.0 = 30 kg/day.'},
     {lvl:'Hard', q:'You feed 45 kg/day of chlorine to 5.0 ML/day and measure a residual of 0.8 mg/L. What is the chlorine demand in mg/L?', a:8.2, tol:0.2, u:'mg/L',
-     e:'Dose = 45 kg/day ÷ 5.0 ML/day = 9.0 mg/L. Demand = 9.0 − 0.8 = 8.2 mg/L.'}
+     e:'Dose = 45 kg/day ÷ 5.0 ML/day = 9.0 mg/L. Demand = 9.0 − 0.8 = 8.2 mg/L.'},
+    {lvl:'US Units', q:'Chlorine demand is 7.0 mg/L and you want a 1.0 mg/L residual at 1.5 MGD. How many lbs/day of chlorine are needed?', a:100, tol:2, u:'lbs/day',
+     e:'Dose = 7.0 + 1.0 = 8.0 mg/L. lbs/day = 8.0 x 1.5 x 8.34 = 100.1 lbs/day.'}
   ]
 },
 {
@@ -545,7 +579,9 @@ const MATH_TOPICS = [
     {lvl:'Medium', q:'A wet well 3 m × 2 m drops 1.5 m in 6 minutes with inflow isolated. What is the pump rate in L/min?', a:1500, tol:30, u:'L/min',
      e:'Volume = 3 × 2 × 1.5 = 9 m³ = 9,000 L. Rate = 9,000 ÷ 6 = 1,500 L/min.'},
     {lvl:'Hard', q:'A circular wet well 2.4 m in diameter drops 0.9 m in 3 minutes. What is the pump rate in m³/h?', a:81.4, tol:2, u:'m³/h',
-     e:'r = 1.2 m. Area = π × 1.44 = 4.524 m². Volume = 4.524 × 0.9 = 4.07 m³ in 3 min. Rate = 4.07 × 20 = 81.4 m³/h.'}
+     e:'r = 1.2 m. Area = π × 1.44 = 4.524 m². Volume = 4.524 × 0.9 = 4.07 m³ in 3 min. Rate = 4.07 × 20 = 81.4 m³/h.'},
+    {lvl:'US Units', q:'A wet well 10 ft x 8 ft drops 4 ft in 5 minutes with inflow isolated. What is the pump rate in gpm?', a:478.7, tol:6, u:'gpm',
+     e:'Volume = 10 x 8 x 4 = 320 ft³ x 7.48 = 2,393.6 gal. Rate = 2,393.6 ÷ 5 = 478.7 gpm.'}
   ]
 }
 ];
