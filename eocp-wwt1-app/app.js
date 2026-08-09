@@ -9,7 +9,8 @@
 'use strict';
 
 /* ============================== STATE ============================== */
-const KEY = 'eocp_wwt1_v1';
+const KEY_BASE = 'eocp_study_v2';
+let KEY = KEY_BASE + '_OIT';   // set properly in load()
 
 const BLANK = {
   lessonsRead: {},     // lessonId -> true
@@ -20,19 +21,27 @@ const BLANK = {
   cards:       {},     // cardId -> {box:1-5, due: timestamp}
   weak:        {},     // topic key -> count of misses
   theme:       null,
-  plan:        null
+  plan:        null,
+  track:       'OIT'   // 'OIT' or 'WWT1' — which exam you are studying for
 };
 
 let S = load();
 
+function activeTrack(){
+  try { return localStorage.getItem(KEY_BASE + '_track') === 'WWT1' ? 'WWT1' : 'OIT'; }
+  catch(e){ return 'OIT'; }
+}
 function load(){
+  KEY = KEY_BASE + '_' + activeTrack();
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return JSON.parse(JSON.stringify(BLANK));
-    return Object.assign(JSON.parse(JSON.stringify(BLANK)), JSON.parse(raw));
+    if (!raw){ const b = JSON.parse(JSON.stringify(BLANK)); b.track = activeTrack(); return b; }
+    const st = Object.assign(JSON.parse(JSON.stringify(BLANK)), JSON.parse(raw));
+    st.track = activeTrack();
+    return st;
   } catch(e){
     console.warn('Could not read saved progress, starting fresh.', e);
-    return JSON.parse(JSON.stringify(BLANK));
+    const b = JSON.parse(JSON.stringify(BLANK)); b.track = activeTrack(); return b;
   }
 }
 function save(){
@@ -91,13 +100,51 @@ function present(q){
   return p;
 }
 
+/* ---- Exam track -------------------------------------------------------
+ * The app carries two separate exams:
+ *   OIT  — Operator-in-Training. ONE exam covering all four streams
+ *          (water treatment, water distribution, wastewater collection,
+ *          wastewater treatment). Broad and shallow.
+ *   WWT1 — Wastewater Treatment Level I. Wastewater treatment only, far deeper.
+ * They are different exams with different content, so every content accessor
+ * below filters by the active track. Progress is stored per track. */
+function track(){ return S.track === 'WWT1' ? 'WWT1' : 'OIT'; }
+function isOIT(){ return track() === 'OIT'; }
+function modules(){ return isOIT() ? OIT_MODULES : CURRICULUM; }
+function lessons(){
+  return modules().flatMap(m => m.lessons.map(l => ({...l, moduleId:m.id, moduleTitle:m.title, moduleN:m.n, duty:m.duty})));
+}
+function duties(){ return isOIT() ? OIT_DUTIES : DUTIES; }
+function questions(){ return isOIT() ? OIT_QUESTIONS : QUESTIONS; }
+function cards(){
+  const mids = new Set(modules().map(m => m.id));
+  const out = [];
+  lessons().forEach(l => (l.terms||[]).forEach((t,i) => out.push({
+    id:`${l.id}-t${i}`, m:l.moduleId, lesson:l.id, tag:'definition',
+    q:`Define: ${t.t}`, a:t.d })));
+  (isOIT() ? OIT_CARDS : FLASHCARDS.filter(c => !c.lesson)).forEach((c,i) => {
+    if (isOIT()) out.push({ id:`ox${i}`, m:c.m, lesson:null, tag:c.tag, q:c.q, a:c.a });
+    else if (mids.has(c.m)) out.push(c);
+  });
+  return out;
+}
+function cardsFor(mid){ return cards().filter(c => c.m === mid); }
+function glossary(){
+  const seen = new Map();
+  lessons().forEach(l => (l.terms||[]).forEach(t => {
+    if (!seen.has(t.t.toLowerCase())) seen.set(t.t.toLowerCase(), {...t, from:l.moduleTitle});
+  }));
+  return [...seen.values()].sort((a,b) => a.t.localeCompare(b.t));
+}
+
 function bandClass(p){ return p >= 80 ? 'good' : p >= 60 ? 'warn' : 'bad'; }
 function bandLabel(p){ return p >= 85 ? 'Exam Ready' : p >= 70 ? 'Nearly Ready' : p >= 50 ? 'Developing' : 'Not Ready'; }
 
 /* ============================== DERIVED METRICS ============================== */
 function courseProgress(){
-  const total = ALL_LESSONS.length;
-  const read = ALL_LESSONS.filter(l => S.lessonsRead[l.id]).length;
+  const L = lessons();
+  const total = L.length;
+  const read = L.filter(l => S.lessonsRead[l.id]).length;
   return { read, total, pct: pct(read, total) };
 }
 function testAverage(){
@@ -117,7 +164,7 @@ function mockAverage(){
 }
 function cardsDue(){
   const t = now();
-  return FLASHCARDS.filter(c => {
+  return cards().filter(c => {
     const st = S.cards[c.id];
     return !st || st.due <= t;
   }).length;
@@ -125,9 +172,9 @@ function cardsDue(){
 /* Weak areas: modules where the operator has demonstrably struggled */
 function weakAreas(){
   const out = [];
-  CURRICULUM.forEach(m => {
+  modules().forEach(m => {
     const t = S.tests[m.id];
-    const qs = QUESTIONS.filter(q => q.m === m.id);
+    const qs = questions().filter(q => q.m === m.id);
     const answered = qs.filter(q => S.practice[q.id]);
     const pracPct = answered.length ? pct(answered.filter(q => S.practice[q.id].correct).length, answered.length) : null;
     let score = null;
@@ -140,17 +187,17 @@ function weakAreas(){
 }
 function strongAreas(){
   const out = [];
-  CURRICULUM.forEach(m => {
+  modules().forEach(m => {
     const t = S.tests[m.id];
     if (t && t.pct >= 80) out.push({ m, score: t.pct });
   });
   return out.sort((a,b) => b.score - a.score);
 }
 function moduleStatus(m){
-  const lessons = m.lessons.length;
+  const lessonCount = m.lessons.length;
   const read = m.lessons.filter(l => S.lessonsRead[l.id]).length;
   const t = S.tests[m.id];
-  if (t && t.pct >= 85 && read === lessons) return 'Exam Ready';
+  if (t && t.pct >= 85 && read === lessonCount) return 'Exam Ready';
   if (t && t.pct >= 70) return 'Nearly Ready';
   if (t) return 'Developing';
   if (read > 0) return 'Developing';
@@ -169,7 +216,7 @@ function readiness(){
 
   const pillars = [
     {k:'Course lessons read', v:cp, need:100, ok:cp >= 100},
-    {k:'Section tests completed', v:tested, need:CURRICULUM.length, ok:tested >= CURRICULUM.length, raw:true},
+    {k:'Section tests completed', v:tested, need:modules().length, ok:tested >= modules().length, raw:true},
     {k:'Section test average', v:ta==null?0:ta, need:80, ok:ta != null && ta >= 80},
     {k:'Mathematics average', v:ma==null?0:ma, need:80, ok:ma != null && ma >= 80},
     {k:'Mock exams completed', v:mocksTaken, need:EXAM_DEFS.length, ok:mocksTaken >= EXAM_DEFS.length, raw:true},
@@ -257,9 +304,10 @@ function vDashboard(app){
   const due = cardsDue(), r = readiness();
 
   const hero = el('div','card');
-  hero.appendChild(el('h1', null, 'EOCP Wastewater Treatment Level I'));
-  hero.appendChild(el('p','muted small',
-    'Built to the WPI/ABC standardized Class I exam introduced July 2025 — 100 questions across four duty areas. Everything here is weighted the way the real exam is.'));
+  hero.appendChild(el('h1', null, isOIT() ? 'EOCP Operator-in-Training (OIT)' : 'EOCP Wastewater Treatment Level I'));
+  hero.appendChild(el('p','muted small', isOIT()
+    ? 'ONE exam covering all four streams — water treatment, water distribution, wastewater collection and wastewater treatment. Broad, practical and safety-heavy.'
+    : 'Built to the WPI/ABC standardized Class I exam introduced July 2025 — 100 questions across four duty areas. Everything here is weighted the way the real exam is.'));
   const rb = el('div','spread');
   rb.appendChild(el('div',null,`<strong>Overall readiness</strong><br><span class="muted small">${r.okCount} of ${r.pillars.length} readiness checks passed</span>`));
   rb.appendChild(el('span','pill ' + bandClass(r.overall), r.verdict));
@@ -285,13 +333,34 @@ function vDashboard(app){
   const fmt = el('div','card');
   fmt.appendChild(el('h3',null,'The exam, in one box'));
   const fg = el('div','grid grid-2');
-  [['100','Scored questions'],['+10','Unscored pre-test'],['3 hrs','Time limit'],['70%','Pass (scaled)']]
-    .forEach(([v,l2]) => fg.appendChild(el('div','stat', `<b style="font-size:1.15rem">${v}</b><span>${l2}</span>`)));
+  (isOIT()
+    ? [['100','Questions'],['4','Streams covered'],['4','Content areas'],['500 h','or 90 h training']]
+    : [['100','Scored questions'],['+10','Unscored pre-test'],['3 hrs','Time limit'],['70%','Pass (scaled)']]
+  ).forEach(([v,l2]) => fg.appendChild(el('div','stat', `<b style="font-size:1.15rem">${v}</b><span>${l2}</span>`)));
   fmt.appendChild(fg);
-  fmt.appendChild(el('p','muted xs','Closed book · no personal notes · no programmable calculators · ABC Formula/Conversion Table provided · calculations given in both US and metric units. <strong>OFFICIAL</strong> — see Exam Requirements for sources.'));
+  fmt.appendChild(el('p','muted xs', isOIT()
+    ? 'One exam covering water treatment, water distribution, wastewater collection AND wastewater treatment. Entry requirement: 3 months (500 h) experience OR 90 h (9.0 CEUs) approved training. <strong>OFFICIAL</strong> — see Exam Requirements.'
+    : 'Closed book · no personal notes · no programmable calculators · ABC Formula/Conversion Table provided · calculations given in both US and metric units. <strong>OFFICIAL</strong> — see Exam Requirements for sources.'));
   app.appendChild(fmt);
+  if (isOIT()){
+    const warn = el('div','callout field');
+    warn.innerHTML = '<span class="lbl">Studying for OIT, not Level I</span>' +
+      'The OIT exam covers <strong>all four streams</strong>. Wastewater Treatment Level I material alone will <strong>not</strong> cover it — half the OIT exam is water treatment and distribution. ' +
+      'Switch tracks with the <strong>OIT / WWT 1</strong> button at the top right when you move on to Level I; progress on each is saved separately.';
+    app.appendChild(warn);
+  }
 
   const duty = el('div','card');
+  if (isOIT()){
+    duty.appendChild(el('h3',null,'The four OIT content areas'));
+    duty.appendChild(el('p','muted small','EOCP tests these four areas. The exact split of the 100 questions is not published — this app assumes an even spread for planning only.'));
+    Object.values(OIT_DUTIES).forEach(d => {
+      const row = el('div','spread small'); row.style.padding='7px 0';
+      row.innerHTML = `<span>${d.name}</span><span class="pill">assumed ~${d.pct}%</span>`;
+      duty.appendChild(row);
+    });
+    app.appendChild(duty);
+  } else {
   duty.appendChild(el('h3',null,'Where the marks actually are'));
   duty.appendChild(el('p','muted small','Spend your study time in proportion to this. Equipment and Treatment Process together are 77 of the 100 questions.'));
   EXAM_INFO.outline.duties.forEach(d => {
@@ -303,20 +372,21 @@ function vDashboard(app){
     duty.appendChild(row);
   });
   app.appendChild(duty);
+  }
 
   /* Next actions */
   const next = el('div','card');
   next.appendChild(el('h3',null,'What to do next'));
   const acts = [];
   if (due > 0) acts.push(['Review ' + due + ' flashcard' + (due>1?'s':'') + ' due', () => go('flashcards')]);
-  const unread = ALL_LESSONS.find(l => !S.lessonsRead[l.id]);
+  const unread = lessons().find(l => !S.lessonsRead[l.id]);
   if (unread) acts.push([`Read: ${unread.moduleN}.${unread.title}`, () => go('course', unread.moduleId, unread.id)]);
-  const untested = CURRICULUM.find(m => !S.tests[m.id] && m.lessons.every(l => S.lessonsRead[l.id]));
+  const untested = modules().find(m => !S.tests[m.id] && m.lessons.every(l => S.lessonsRead[l.id]));
   if (untested) acts.push([`Take the Module ${untested.n} section test`, () => go('tests', untested.id)]);
   const w = weakAreas()[0];
   if (w) acts.push([`Work on your weakest area: ${w.m.title} (${w.score}%)`, () => go('weak')]);
-  if (!Object.keys(S.mocks).length) acts.push(['Try Mock Exam 1 to benchmark yourself', () => go('mock')]);
-  if (!acts.length) acts.push(['Everything is up to date — take a mock exam', () => go('mock')]);
+  if (!isOIT() && !Object.keys(S.mocks).length) acts.push(['Try Mock Exam 1 to benchmark yourself', () => go('mock')]);
+  if (!acts.length) acts.push([isOIT() ? 'Everything is up to date — review flashcards' : 'Everything is up to date — take a mock exam', () => go(isOIT() ? 'flashcards' : 'mock')]);
   acts.slice(0,4).forEach(([t,fn]) => {
     const b = el('button','item', `<span class="t">${t}</span>`);
     b.onclick = fn; next.appendChild(b);
@@ -346,7 +416,7 @@ function vDashboard(app){
   app.appendChild(ws);
 
   /* Mock scores */
-  if (Object.keys(S.mocks).length){
+  if (!isOIT() && Object.keys(S.mocks).length){
     const mc = el('div','card');
     mc.appendChild(el('h3',null,'Mock exam scores'));
     EXAM_DEFS.forEach(d => {
@@ -364,6 +434,7 @@ function vDashboard(app){
 
 /* ------------------------------ EXAM INFO ------------------------------ */
 function vExamInfo(app){
+  if (isOIT()) return vExamInfoOIT(app);
   const c = el('div','card');
   c.appendChild(el('h1',null,'EOCP Wastewater Treatment Level I — Exam Requirements'));
   c.appendChild(el('p','muted small', EXAM_INFO.updated +
@@ -413,13 +484,47 @@ function vExamInfo(app){
   app.appendChild(l);
 }
 
+function vExamInfoOIT(app){
+  const c = el('div','card');
+  c.appendChild(el('h1',null,'EOCP Operator-in-Training — Exam Requirements'));
+  c.appendChild(el('p','muted small','Items tagged OFFICIAL come from EOCP published material. Anything that could not be confirmed is flagged UNVERIFIED rather than guessed.'));
+  app.appendChild(c);
+
+  const o = el('div','card');
+  o.appendChild(el('h3',null,'Official requirements'));
+  OIT_INFO.official.forEach(x => {
+    const d = el('details');
+    d.appendChild(el('summary',null, x.k + ' <span class="pill accent" style="margin-left:6px">OFFICIAL</span>'));
+    d.appendChild(el('div','small', x.v));
+    o.appendChild(d);
+  });
+  app.appendChild(o);
+
+  const u = el('div','card');
+  u.appendChild(el('h3',null,'Not verified — confirm with EOCP'));
+  const ul = el('ul','small');
+  OIT_INFO.unverified.forEach(x => ul.appendChild(el('li',null,x)));
+  u.appendChild(ul);
+  app.appendChild(u);
+
+  const l = el('div','card');
+  l.appendChild(el('h3',null,'Official links'));
+  l.appendChild(el('p','muted xs','Links were gathered from indexed search results and could not be opened live from the machine that built this app. Treat them as best-known addresses.'));
+  OIT_INFO.links.forEach(x => {
+    const a = el('a','item', `<span class="t">${x.t}</span><span class="s">${x.u}</span>`);
+    a.href = x.u; a.target='_blank'; a.rel='noopener';
+    l.appendChild(a);
+  });
+  app.appendChild(l);
+}
+
 /* ------------------------------ COURSE ------------------------------ */
 function vCourse(app){
   if (route.b) return vLesson(app);
   if (route.a) return vModule(app);
 
   app.appendChild(el('p','muted small','Twelve modules mapped to the four exam duty areas. Read a lesson to mark it complete; each module ends with a section test.'));
-  CURRICULUM.forEach(m => {
+  modules().forEach(m => {
     const read = m.lessons.filter(l => S.lessonsRead[l.id]).length;
     const st = moduleStatus(m);
     const b = el('button','item');
@@ -427,7 +532,7 @@ function vCourse(app){
       `<span class="t">Module ${m.n} — ${m.title}</span>` +
       `<span class="s">${m.blurb}</span>` +
       `<span class="badge-line">
-         <span class="pill accent">${DUTIES[m.duty].name.split(' ')[0]} · ${DUTIES[m.duty].q}q</span>
+         <span class="pill accent">${duties()[m.duty].name}</span>
          <span class="pill">${read}/${m.lessons.length} lessons</span>
          <span class="pill ${st==='Exam Ready'||st==='Nearly Ready'?'good':st==='Not Ready'?'':'warn'}">${st}</span>
        </span>`;
@@ -437,13 +542,13 @@ function vCourse(app){
 }
 
 function vModule(app){
-  const m = CURRICULUM.find(x => x.id === route.a);
+  const m = modules().find(x => x.id === route.a);
   if (!m) return go('course');
   crumb(app,'All modules',() => go('course'));
   const h = el('div','card');
   h.appendChild(el('h1',null,`Module ${m.n} — ${m.title}`));
   h.appendChild(el('p','muted small', m.blurb));
-  h.appendChild(el('p','xs muted',`Exam duty area: <strong>${DUTIES[m.duty].name}</strong> — ${DUTIES[m.duty].q} of 100 questions.`));
+  h.appendChild(el('p','xs muted',`Exam area: <strong>${duties()[m.duty].name}</strong>${isOIT() ? '' : ` — ${duties()[m.duty].q} of 100 questions`}.`));
   app.appendChild(h);
 
   m.lessons.forEach((l,i) => {
@@ -464,7 +569,7 @@ function vModule(app){
 }
 
 function vLesson(app){
-  const m = CURRICULUM.find(x => x.id === route.a);
+  const m = modules().find(x => x.id === route.a);
   const l = m && m.lessons.find(x => x.id === route.b);
   if (!l) return go('course');
   crumb(app, `Module ${m.n}`, () => go('course', m.id));
@@ -519,7 +624,7 @@ function vLesson(app){
   app.appendChild(c);
 
   /* 8 & 9 — practice questions with hidden answers */
-  const qs = QUESTIONS.filter(q => q.l === l.id);
+  const qs = questions().filter(q => q.l === l.id);
   if (qs.length){
     const qc = el('div','card');
     qc.appendChild(el('h3',null,'8 · Practice questions'));
@@ -578,14 +683,15 @@ function vFlashcards(app){
     app.appendChild(el('p','muted small',
       'Leitner spaced repetition: cards you get right move up a box and come back later; cards you miss reset to box 1 and return immediately. Boxes review after 0, 1, 3, 7 and 16 days.'));
 
-    const due = FLASHCARDS.filter(c => { const s = S.cards[c.id]; return !s || s.due <= now(); });
+    const ALL = cards();
+    const due = ALL.filter(c => { const s = S.cards[c.id]; return !s || s.due <= now(); });
     const all = el('button','item');
-    all.innerHTML = `<span class="t">Review all due cards</span><span class="s">${due.length} card${due.length===1?'':'s'} ready now, out of ${FLASHCARDS.length} total</span>`;
-    all.onclick = () => { startCards(due.length ? due : FLASHCARDS); };
+    all.innerHTML = `<span class="t">Review all due cards</span><span class="s">${due.length} card${due.length===1?'':'s'} ready now, out of ${ALL.length} total</span>`;
+    all.onclick = () => { startCards(due.length ? due : ALL); };
     app.appendChild(all);
 
     const box = {1:0,2:0,3:0,4:0,5:0};
-    FLASHCARDS.forEach(c => { const s = S.cards[c.id]; box[s ? s.box : 1]++; });
+    ALL.forEach(c => { const s = S.cards[c.id]; box[s ? s.box : 1]++; });
     const bc = el('div','card');
     bc.appendChild(el('h3',null,'Your boxes'));
     const g = el('div','grid grid-3');
@@ -598,8 +704,8 @@ function vFlashcards(app){
 
     const dc = el('div','card');
     dc.appendChild(el('h3',null,'By module'));
-    CURRICULUM.forEach(m => {
-      const cards = FLASHCARDS.filter(c => c.m === m.id);
+    modules().forEach(m => {
+      const cards = cardsFor(m.id);
       if (!cards.length) return;
       const d = cards.filter(c => { const s = S.cards[c.id]; return !s || s.due <= now(); }).length;
       const b = el('button','item');
@@ -669,8 +775,8 @@ function renderCard(app){
 /* ------------------------------ PRACTICE ------------------------------ */
 function vPractice(app){
   if (route.a){
-    const m = CURRICULUM.find(x => x.id === route.a);
-    const qs = QUESTIONS.filter(q => q.m === route.a);
+    const m = modules().find(x => x.id === route.a);
+    const qs = questions().filter(q => q.m === route.a);
     crumb(app,'Practice',() => go('practice'));
     app.appendChild(el('h1',null,`Module ${m.n} — ${m.title}`));
     app.appendChild(el('p','muted small','Answers reveal as soon as you choose, with an explanation. Nothing is graded here — this is for learning.'));
@@ -680,8 +786,8 @@ function vPractice(app){
     return;
   }
   app.appendChild(el('p','muted small','Untimed practice by module, with immediate feedback and explanations.'));
-  CURRICULUM.forEach(m => {
-    const qs = QUESTIONS.filter(q => q.m === m.id);
+  modules().forEach(m => {
+    const qs = questions().filter(q => q.m === m.id);
     if (!qs.length) return;
     const ans = qs.filter(q => S.practice[q.id]);
     const right = ans.filter(q => S.practice[q.id].correct).length;
@@ -795,8 +901,8 @@ let testState = null;
 function vTests(app){
   if (route.a) return runTest(app, route.a);
   app.appendChild(el('p','muted small','Each section test draws from that module\'s question bank — multiple choice, operator scenarios and calculations where applicable. Answers stay hidden until you submit.'));
-  CURRICULUM.forEach(m => {
-    const qs = QUESTIONS.filter(q => q.m === m.id);
+  modules().forEach(m => {
+    const qs = questions().filter(q => q.m === m.id);
     const t = S.tests[m.id];
     const b = el('button','item');
     b.innerHTML = `<span class="t">Module ${m.n} — ${m.title}</span>` +
@@ -808,8 +914,8 @@ function vTests(app){
 }
 
 function runTest(app, moduleId){
-  const m = CURRICULUM.find(x => x.id === moduleId);
-  const qs = QUESTIONS.filter(q => q.m === moduleId);
+  const m = modules().find(x => x.id === moduleId);
+  const qs = questions().filter(q => q.m === moduleId);
   if (!m || !qs.length) return go('tests');
 
   if (!testState || testState.mid !== moduleId){
@@ -863,10 +969,10 @@ function showTestResult(app, m, qs){
   if (r.wrong.length){
     const w = el('div','card');
     w.appendChild(el('h3',null,'What you got wrong, and why'));
-    const lessons = new Set();
+    const lessonIds = new Set();
     r.wrong.forEach(qid => {
       const q = qs.find(x => x.id === qid);
-      lessons.add(q.l);
+      lessonIds.add(q.l);
       const box = el('div','q');
       box.appendChild(el('div','q-t', q.q));
       const Pq = present(q);
@@ -882,8 +988,8 @@ function showTestResult(app, m, qs){
     const rv = el('div','card');
     rv.appendChild(el('h3',null,'Lessons to review'));
     rv.appendChild(el('p','muted small','These are the topics behind your wrong answers.'));
-    [...lessons].forEach(lid => {
-      const l = ALL_LESSONS.find(x => x.id === lid);
+    [...lessonIds].forEach(lid => {
+      const l = lessons().find(x => x.id === lid);
       if (!l) return;
       const b = el('button','item', `<span class="t">${l.title}</span><span class="s">Module ${l.moduleN} — ${l.moduleTitle}</span>`);
       b.onclick = () => { testState = null; go('course', l.moduleId, l.id); };
@@ -1089,12 +1195,12 @@ function vWeak(app){
       c.appendChild(el('div','spread',`<strong>Module ${x.m.n} — ${x.m.title}</strong><span class="pill ${bandClass(x.score)}">${x.score}%</span>`));
       const b = el('div','bar ' + bandClass(x.score)); const i = el('i'); i.style.width = x.score + '%'; b.appendChild(i);
       c.appendChild(b);
-      c.appendChild(el('p','muted small',`Exam duty area: ${DUTIES[x.m.duty].name} — ${DUTIES[x.m.duty].q}/100 questions.`));
+      c.appendChild(el('p','muted small',`Exam area: ${duties()[x.m.duty].name}.`));
       const row = el('div','row');
       const l = el('button','btn btn-sm btn-quiet'); l.textContent = 'Review lessons';
       l.onclick = () => go('course', x.m.id);
       const f = el('button','btn btn-sm btn-quiet'); f.textContent = 'Flashcards';
-      f.onclick = () => startCards(FLASHCARDS.filter(c2 => c2.m === x.m.id));
+      f.onclick = () => startCards(cardsFor(x.m.id));
       const p = el('button','btn btn-sm'); p.textContent = 'Practice';
       p.onclick = () => go('practice', x.m.id);
       row.appendChild(l); row.appendChild(f); row.appendChild(p);
@@ -1122,7 +1228,8 @@ function vWeak(app){
 function vGlossary(app){
   const h = el('div','card');
   h.appendChild(el('h1',null,'Glossary'));
-  h.appendChild(el('p','muted small',`${GLOSSARY.length} terms, drawn from every lesson.`));
+  const G = glossary();
+  h.appendChild(el('p','muted small',`${G.length} terms, drawn from every lesson in this track.`));
   const s = el('input'); s.type = 'text'; s.placeholder = 'Search terms…';
   h.appendChild(s);
   app.appendChild(h);
@@ -1131,7 +1238,7 @@ function vGlossary(app){
   app.appendChild(list);
   const draw = (f) => {
     list.innerHTML = '';
-    const items = GLOSSARY.filter(g =>
+    const items = G.filter(g =>
       !f || g.t.toLowerCase().includes(f) || g.d.toLowerCase().includes(f));
     if (!items.length){ list.appendChild(el('div','empty','No matching terms.')); return; }
     items.forEach(g => {
@@ -1248,13 +1355,13 @@ function vReady(app){
   const m = el('div','card');
   m.appendChild(el('h3',null,'Module checklist'));
   m.appendChild(el('p','muted small','Not Ready → Developing → Nearly Ready → Exam Ready'));
-  CURRICULUM.forEach(mod => {
+  modules().forEach(mod => {
     const st = moduleStatus(mod);
     const cls = st === 'Exam Ready' ? 'good' : st === 'Nearly Ready' ? 'good' : st === 'Not Ready' ? '' : 'warn';
     const row = el('button','item');
     row.innerHTML = `<span class="t">Module ${mod.n} — ${mod.title}</span>
       <span class="badge-line"><span class="pill ${cls}">${st}</span>
-      <span class="pill">${DUTIES[mod.duty].q}/100 questions</span></span>`;
+      <span class="pill">${duties()[mod.duty].name}</span></span>`;
     row.onclick = () => go('course', mod.id);
     m.appendChild(row);
   });
@@ -1318,6 +1425,33 @@ function closeDrawer(){
 }
 function updateNav(){ /* placeholder for future live badges */ }
 
+function switchTrack(t){
+  try { localStorage.setItem(KEY_BASE + '_track', t); } catch(e){}
+  S = load();
+  testState = mockState = fcState = null;
+  for (const k in PRES) delete PRES[k];
+  updateChrome();
+  go('dashboard');
+}
+function updateChrome(){
+  const oit = isOIT();
+  const btn = document.getElementById('trackBtn');
+  if (btn) btn.textContent = oit ? 'OIT' : 'WWT 1';
+  const sub = document.querySelector('.topbar-title small');
+  if (sub) sub.textContent = oit ? 'EOCP Operator-in-Training' : 'EOCP Wastewater Treatment I';
+  const brand = document.querySelector('.brand');
+  if (brand) brand.textContent = oit ? 'OIT' : 'WWT I';
+  // math and mock exams are Level I material only
+  document.querySelectorAll('#navList button').forEach(b => {
+    const wwtOnly = ['math','mock','formulas'].includes(b.dataset.v);
+    b.style.display = (oit && wwtOnly) ? 'none' : '';
+  });
+  document.querySelectorAll('.tab').forEach(b => {
+    const wwtOnly = ['math','mock'].includes(b.dataset.goto);
+    b.style.display = (oit && wwtOnly) ? 'none' : '';
+  });
+}
+
 function applyTheme(){
   if (S.theme) document.documentElement.setAttribute('data-theme', S.theme);
   else document.documentElement.removeAttribute('data-theme');
@@ -1327,10 +1461,18 @@ function applyTheme(){
 function boot(){
   buildNav();
   applyTheme();
+  updateChrome();
   $('#menuBtn').onclick = () => {
     $('#drawer').classList.contains('open') ? closeDrawer() : openDrawer();
   };
   $('#scrim').onclick = closeDrawer;
+  $('#trackBtn').onclick = () => {
+    const next = isOIT() ? 'WWT1' : 'OIT';
+    const label = next === 'OIT' ? 'Operator-in-Training (OIT)' : 'Wastewater Treatment Level I';
+    if (confirm(`Switch to ${label}?\n\nThese are two different exams with different content. Your progress on each is saved separately, so nothing is lost.`)){
+      switchTrack(next);
+    }
+  };
   $('#themeBtn').onclick = () => {
     const cur = S.theme;
     S.theme = cur === 'dark' ? 'light' : cur === 'light' ? null : 'dark';

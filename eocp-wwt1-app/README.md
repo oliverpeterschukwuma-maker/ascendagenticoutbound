@@ -1,7 +1,29 @@
-# EOCP Wastewater Treatment Level I — Study & Exam Prep
+# EOCP Study App — Operator-in-Training (OIT) + Wastewater Treatment Level I
 
-A self-contained study application for the **EOCP Wastewater Treatment Level I** certification
-(British Columbia / Yukon), built around the current **WPI/ABC standardized Class I exam**
+A self-contained study application covering **two EOCP exams** (British Columbia / Yukon).
+Switch between them with the **OIT / WWT 1** button at the top right. Progress on each is
+saved separately.
+
+## The two tracks
+
+| | **OIT** (Operator-in-Training) | **WWT 1** (Wastewater Treatment Level I) |
+|---|---|---|
+| Scope | **All four streams** — water treatment, water distribution, wastewater collection, wastewater treatment | Wastewater treatment only |
+| Depth | Broad and shallow, practical, safety-heavy | Narrow and deep |
+| Questions | 100 | 100 scored + up to 10 unscored |
+| Entry | High school + 3 months (500 h) experience **or** 90 h (9.0 CEUs) training | High school + 12 months (1,800 h) experience |
+| Required? | **Optional** — not a prerequisite for Level I | — |
+| In this app | 8 modules, 12 lessons, 40 questions, 91 flashcards | 12 modules, 30 lessons, 128 questions, 402 flashcards, math, 5 mock exams |
+
+**Important:** studying the Level I material will NOT cover the OIT exam — half of OIT is
+water treatment and distribution, which Level I never touches. Do the OIT track for OIT.
+
+Math training, the formula sheet and the five mock exams are **Level I only** and are hidden
+in the OIT track, because OIT has no published formula sheet or calculation weighting.
+
+---
+
+The Level I track is built around the current **WPI/ABC standardized Class I exam**
 framework introduced in **July 2025**.
 
 ## Running it

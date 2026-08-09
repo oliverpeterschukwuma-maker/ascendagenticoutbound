@@ -231,3 +231,15 @@ input[type=number],input[type=text],select{
 .sticky-submit{position:sticky; bottom:calc(70px + env(safe-area-inset-bottom)); z-index:20; padding-top:6px}
 .timer{font-family:var(--mono); font-variant-numeric:tabular-nums}
 @media (prefers-reduced-motion:reduce){ *{transition:none !important; animation:none !important} }
+
+/* exam track switcher */
+.track-btn{
+  flex:none; padding:8px 11px; border-radius:10px; font:inherit; font-size:.74rem;
+  font-weight:800; letter-spacing:.05em; cursor:pointer;
+  background:var(--accent-soft); color:var(--accent); border:1px solid var(--accent);
+}
+.track-banner{
+  display:flex; align-items:center; gap:9px; padding:9px 12px; margin-bottom:12px;
+  border-radius:11px; background:var(--accent-soft); color:var(--accent);
+  font-size:.8rem; font-weight:600; border:1px solid var(--accent);
+}
