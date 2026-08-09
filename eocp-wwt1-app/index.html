@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1b2a">
+<title>EOCP Wastewater Treatment Level I — Study &amp; Exam Prep</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn" aria-label="Open menu" aria-expanded="false">
+    <span class="bars"></span>
+  </button>
+  <div class="topbar-title">
+    <strong id="viewTitle">Dashboard</strong>
+    <small>EOCP Wastewater Treatment I</small>
+  </div>
+  <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">◐</button>
+</header>
+
+<nav id="drawer" class="drawer" aria-label="Main navigation">
+  <div class="drawer-head">
+    <span class="brand">WWT&nbsp;I</span>
+    <span class="brand-sub">Study System</span>
+  </div>
+  <ul id="navList"></ul>
+  <div class="drawer-foot">
+    <button id="resetBtn" class="btn btn-ghost btn-sm">Reset all progress</button>
+  </div>
+</nav>
+<div id="scrim" class="scrim" hidden></div>
+
+<main id="app" class="app"></main>
+
+<nav class="tabbar" aria-label="Quick navigation">
+  <button data-goto="dashboard" class="tab"><span>▤</span>Home</button>
+  <button data-goto="course" class="tab"><span>▦</span>Course</button>
+  <button data-goto="flashcards" class="tab"><span>▣</span>Cards</button>
+  <button data-goto="math" class="tab"><span>∑</span>Math</button>
+  <button data-goto="mock" class="tab"><span>◈</span>Exams</button>
+</nav>
+
+<!-- Study content data (plain scripts so the app runs from file:// with no server) -->
+<script src="curriculum.js"></script>
+<script src="flashcards.js"></script>
+<script src="questions.js"></script>
+<script src="math.js"></script>
+<script src="exams.js"></script>
+<script src="references.js"></script>
+<!-- UI / logic -->
+<script src="app.js"></script>
+</body>
+</html>
