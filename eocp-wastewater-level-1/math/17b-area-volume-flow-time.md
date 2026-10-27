@@ -126,6 +126,19 @@ US: 100 ft × 25 ft × 12 ft = 30,000 ft³ × 7.48 = **224,400 gal**.
 
 **COMMON MISTAKE:** forgetting the depth, or using the radius with 0.785.
 
+### B5b. Cones, pipes and spheres (seen in the EOCP Math Test)
+
+**WHY IT WORKS (plain words):** a **cone** (like a hopper bottom) holds exactly **one-third** of a cylinder with the same base and height. A **pipe** is just a long, thin cylinder lying on its side — use its diameter **in metres** and its length as the "depth". A **sphere** (ball) fills about half (π/6 ≈ 0.52) of the cube it fits in.
+
+| Shape | Formula | Example |
+|---|---|---|
+| Cone | `⅓ × 0.785 × D² × H` | D 50 m, H 3 m → ⅓ × 0.785 × 2,500 × 3 = **1,962.5 m³** |
+| Tank with cone bottom | cylinder **+** cone | D 9 m, wall 12 m, cone 2.5 m → 763.0 + 53.0 = **816 m³** |
+| Pipe | `0.785 × D² × Length` (D in **m**) | 300 mm × 600 m → 0.785 × 0.3² × 600 = **42.4 m³ = 42,400 L** |
+| Sphere | `π × D³ ÷ 6` | D 45 cm → 3.14 × 91,125 ÷ 6 = 47,689 cm³ = **47.7 L** |
+
+**COMMON MISTAKE:** using pipe diameter in mm or cm with a length in metres. Convert first: 300 mm = 0.3 m; 20 cm = 0.2 m. And 1,000 cm³ = 1 L.
+
 ---
 
 ## B6. Flow from area and velocity

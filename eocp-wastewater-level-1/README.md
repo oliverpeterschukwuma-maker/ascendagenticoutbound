@@ -97,7 +97,8 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | [mixed-practice.md](practice/mixed-practice.md) | Phase 4: 60 shuffled questions from all modules |
 | [mock-exam-1.md](practice/mock-exam-1.md) | Full 100-question mock, weighted 39/38/13/10 like the real exam, with explanations and a score-by-area table |
 | [mock-exam-2.md](practice/mock-exam-2.md) | Second full 100-question mock, all-new questions |
-| [eocp-official-practice.md](practice/eocp-official-practice.md) | EOCP's own sample exams and math questions: links, how to use them, placeholder for adding them |
+| [eocp-official-practice.md](practice/eocp-official-practice.md) | ✅ **Official WPI/ABC Wastewater sample — all 20 questions with answers** + links to the other EOCP practice files |
+| [eocp-math-test-questions.md](practice/eocp-math-test-questions.md) | ✅ **EOCP Math Test Questions — all 50 solved step by step** (matches EOCP's answer sheet) |
 
 ### Part E — Review (`review/`)
 | File | What it is |
@@ -117,7 +118,7 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 | Type | Count |
 |---|---|
 | Module quiz questions (with explanations) | 304 |
-| Math practice problems (with worked answers) | 206 |
+| Math practice problems (with worked answers) | 256 (incl. 50 official EOCP) |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
 | Flashcards | 282 |

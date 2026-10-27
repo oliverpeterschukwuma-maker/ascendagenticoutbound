@@ -88,14 +88,14 @@ If your exam is **6–12 months away**, don't start the 6-week plan yet. Use the
 | 31 | [Module 16 — Troubleshooting](../modules/16-troubleshooting.md) + quiz | 17E #67–77 |
 | 32 | [Module 18 — Administration](../modules/18-administration.md) + quiz | 17E #78–88 |
 | 33 | **Phase 4:** [Mixed Practice (60 Qs)](../practice/mixed-practice.md), timed (~1 h 45 min) · score by area | (math is inside the mixed set) |
-| 34 | Review every mixed-practice mistake · re-read weak modules | EOCP Math Test Questions (if downloaded) |
+| 34 | Review every mixed-practice mistake · re-read weak modules | [EOCP Math Test Questions](../practice/eocp-math-test-questions.md) #1–25 |
 | 35 | **Phase 5:** [Mock Exam 1](../practice/mock-exam-1.md) — full 3 hours, exam conditions | — |
 
 ### WEEK 6 — Fix weak areas → Mock 2 → Exam
 | Day | Main topic | 🔢 Math |
 |---|---|---|
 | 36 | Review **every** Mock 1 mistake into the mistake notebook · score by content area | Redo the Mock 1 math questions |
-| 37 | Re-study your **weakest content area** (modules + quiz) | 15 problems from your weakest math topic |
+| 37 | Re-study your **weakest content area** (modules + quiz) | [EOCP Math Test](../practice/eocp-math-test-questions.md) #26–50 |
 | 38 | Re-study your **second-weakest area** · EOCP SWWS sample exam (if downloaded) | 10 mixed 17E problems |
 | 39 | **[Mock Exam 2](../practice/mock-exam-2.md)** — full 3 hours | — |
 | 40 | Review Mock 2 mistakes · [Troubleshooting](../modules/16-troubleshooting.md) "first suspect" table | 10 mixed problems |

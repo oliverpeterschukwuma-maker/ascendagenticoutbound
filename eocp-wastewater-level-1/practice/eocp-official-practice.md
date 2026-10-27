@@ -21,7 +21,7 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 
 | File | What it is | How useful for Level I Wastewater Treatment | Link |
 |---|---|---|---|
-| **EOCP Math Test Questions** | EOCP's math practice set | ★★★ — EOCP-style math in metric | https://eocp.ca/wp-content/uploads/2018/04/EOCP-Math-Test-Questions.pdf |
+| **EOCP Math Test Questions** | EOCP's math practice set — ✅ **all 50 solved step by step: [eocp-math-test-questions.md](eocp-math-test-questions.md)** | ★★★ — EOCP-style math in metric | https://eocp.ca/wp-content/uploads/2018/04/EOCP-Math-Test-Questions.pdf |
 | **Math for Operators — Wastewater Level I & II** | EOCP's metric math guide with worked examples | ★★★ — matches Module 17 | https://eocp.ca/wp-content/uploads/2020/09/Math-for-Operators-Wastewater-Level-I-and-II.pdf |
 | **Guide to the EOCP and ABC (Association of Boards of Certification) Formulas (2022)** | Every formula on the sheet, solved in US and metric | ★★★ | https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf |
 | **SWWS Sample Exam (Dec 2020)** | Small Wastewater Systems sample exam | ★★ — not Level I, but wastewater questions in EOCP's style (activated sludge, BOD (Biochemical Oxygen Demand), confined space, aeration) | https://eocp.ca/wp-content/uploads/2021/01/SWWS-Sample-Exam-2020-December.pdf |
