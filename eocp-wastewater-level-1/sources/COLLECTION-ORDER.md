@@ -22,8 +22,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 13 | "Experience ABC's Computerized Exams" — demo | ✅ Done — screens + **Help window** added to [ABC-candidate-instructions-summary.md](ABC-candidate-instructions-summary.md) |
 | 14 | EOCP SWWS Sample Exam (Small Wastewater Systems) | ✅ Received — all 25 with EOCP's key + explanations in [eocp-official-practice.md](../practice/eocp-official-practice.md) |
 | 15 | EOCP OIT Sample Exam | ✅ Received — all 25 with EOCP's key + explanations in [eocp-official-practice.md](../practice/eocp-official-practice.md) |
-| 16 | Newest EOCP Program Guide | ⏳ **Next** |
-| 17 | "That Four-Letter Word: EXAM!" Parts 1–3 (EOCP articles) | ☐ |
+| 16 | Newest EOCP Program Guide | ✅ Received (Apr 2021) — [EOCP-program-guide-summary.md](EOCP-program-guide-summary.md); checklist A6, A7, B1–B4, C2–C3, D1–D8 filled |
+| 17 | "That Four-Letter Word: EXAM!" Parts 1–3 (EOCP articles) | ⏳ **Next** |
 | 18 | EOCP answer: calculator rules (and exact exam length — the page uses "3-hour exam" as its example) | ☐ |
 | 19 | EOCP answer: fees and booking process | ☐ |
 | 20 | EOCP answer: can you write before having 1,800 hours? | ☐ |

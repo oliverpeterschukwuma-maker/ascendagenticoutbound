@@ -3,7 +3,7 @@
 ← [Course index](README.md) · Documents & links → [SOURCES-TO-GET.md](SOURCES-TO-GET.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BCWWA** = BC Water & Waste Association · **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **MCC** = Motor Control Centre · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **WET** = Whole Effluent Toxicity · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BCWWA** = BC Water & Waste Association · **CEU** = Continuing Education Unit · **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **MCC** = Motor Control Centre · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **WET** = Whole Effluent Toxicity · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **How to use this page:** work down the list. Items marked **✅ Confirmed** were confirmed through search results quoting EOCP/WPI. Items marked **❓ Find it** are **missing** — you need to look them up on the EOCP (Environmental Operators Certification Program) website (or email EOCP) and write the answer in the blank. Once you fill them in, tell Claude and the course will be updated.
@@ -23,18 +23,18 @@
 | A3 | Residency / employment | ✅ Confirmed | You **must be employed, or have an employment offer letter, with an employer in BC or Yukon** (EOCP "Exam Requirements" page) |
 | A4 | Can related experience count? | ✅ Confirmed | At the EOCP Board's discretion, related experience (maintenance, labs, other water/pollution-control jobs, allied trades such as plumber or millwright) can replace **up to half** of the Level I experience |
 | A5 | OIT (Operator in Training) option | ✅ Confirmed | Optional. 3 months (500 h) hands-on **or** 90 hours (9.0 CEUs — Continuing Education Units) of an approved course |
-| A6 | Does my facility's work count as "wastewater treatment" experience? Is my plant classified? | ❓ Find it | Ask your supervisor and EOCP. Find your facility's **EOCP classification level**: ________ |
-| A7 | Can I write the exam **before** I have all 1,800 hours? | 🔶 Very likely **no** | EOCP lists 12 months / 1,800 h as the requirement for "**eligibility to write the examinations**". If you're short, ask EOCP about OIT or related-experience credit: ________ |
+| A6 | Does my work count? Is my plant classified? | 🔶 Partly | ✅ Your **facility must be classified** with EOCP for you to be certified. Only **hands-on operating** work counts — single-task jobs (labourer, tradesperson, lab-only, truck driver) don't. A site with **only** screening, lift stations or chlorination counts as **collection**, not treatment. (EOCP Program Guide, Apr 2021) · Ask your supervisor your facility's **class**: ________ |
+| A7 | Can I write the exam **before** I have all 1,800 hours? | ✅ **No** | 1,800 h is required to be **eligible to write**, and for Level I **no substitution for operating experience is accepted** (training can't replace hours). The Board *may* count **related experience** (maintenance, lab, allied trades) for up to half. (EOCP Program Guide, Apr 2021) |
 | A8 | How are my hours verified? | ✅ Confirmed | **Supervisor Verification Form** (1 page, required for ALL exam applications) — signed by your **manager or supervisor** (not yourself, not a family member); EOCP **phones the supervisor** to confirm. It lists full-time/part-time/seasonal, years/months, **% of time and hours per year in each area** (wastewater treatment, collection, water, etc.) and whether you operate **regularly or only as backup**. [Details](sources/EOCP-exam-requirements-summary.md#supervisor-verification-form) · Apply through the **EOCP CRM** |
 
 ## B. Applying and booking
 
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
-| B1 | Application form (name, where to download/submit online) | 🔶 Partly | The Exam Preparation page links a **"guide for applying for an EOCP exam"** — download it (collection item #12): ________ |
-| B2 | Application and exam **fees** | ❓ Find it | ________ |
-| B3 | Processing time for applications | ❓ Find it | ________ |
-| B4 | How to **book** an exam; dates and **locations** | 🔶 Partly | Exam is **web-based (ABC web-based examination)**, written with an **invigilator** who checks ID. Booking process/locations: ________ |
+| B1 | How to apply | ✅ Confirmed | Online in the **EOCP CRM** (crm.eocp.ca): your profile → **ACTION → APPLY FOR EXAM**. Include **Supervisor Verification** + a **job description from your employer**, and link your **employer and facility** in your CRM profile. You must also **sign the Code of Ethics**. (EOCP Program Guide, Apr 2021) |
+| B2 | Application and exam **fees** | 🔶 Partly | Paid **online at the end of the application**. Current amounts: **eocp.ca/fees** — ________ (EOCP Program Guide, Apr 2021) |
+| B3 | Processing time / deadline | ✅ Confirmed | Apply **at least 3 weeks before** the exam session. EOCP reviews it and tells you if you're **eligible**. (EOCP Program Guide, Apr 2021) |
+| B4 | How to **book**; dates and **locations** | ✅ Confirmed | Exam schedule: **CRM → Career Management → Exams**. Sessions are set by EOCP; you can also write **at the EOCP office** or by special arrangement. Web-based ABC exam with an invigilator. (EOCP Program Guide, Apr 2021) |
 | B5 | **ID** you must bring | ✅ Confirmed | Valid **government-issued photo ID**: driver's licence, BC Services Card, or passport |
 | B6 | Cancellation / rescheduling rules | ✅ Confirmed | Contact the EOCP office; **fee if less than 7 days** before the exam. **Late:** up to 30 min late with a valid reason → write with remaining time only; **more than 30 min late → cannot write** (reschedule, fee) |
 | B7 | Exam **accommodations** (extra time, reader — e.g., for reading or math learning difficulties) and how to request them | ❓ Find it | ________ *(Worth asking about if math or reading is hard for you.)* |
@@ -44,8 +44,8 @@
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
 | C1 | Which exam | ✅ Confirmed | WPI standardized **Wastewater Treatment Class I** — in use at EOCP since **July 2025** |
-| C2 | Number of questions | ✅ Confirmed | **100 scored** + about **10 unscored pretest** (EOCP lists **110** total) |
-| C3 | Pass mark | ✅ Confirmed (2021 guide) | **70%** — confirm in the current Program Guide |
+| C2 | Number of questions | ✅ Confirmed | **110** multiple-choice = **100 scored + 10 unscored pretest** questions (hidden, scattered through the exam — answer every one carefully). (EOCP Program Guide, Apr 2021) + WPI NTK (Need-to-Know Criteria) |
+| C3 | Pass mark | ✅ Confirmed | **70%** (EOCP Program Guide, Apr 2021) |
 | C4 | Content areas & weights | ✅ Confirmed (official NTK (Need-to-Know Criteria) PDF) | Equipment 39 · Treatment Process 38 · Security/Safety/Admin 13 · Lab 10 · **~40% recall, ~60% application, 10 calculation questions (9 process, 1 lab)** |
 | C5 | Question style | ✅ Confirmed | Multiple choice, 4 options; recall, application and calculation items |
 | C6 | Units | ✅ Confirmed | **US units first, metric in brackets**; each calculation can be solved in either |
@@ -64,14 +64,14 @@
 
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
-| D1 | How/when results are released | 🔶 Partly | Per the ABC instructions, **your score is shown on screen** right after you click "Finish" → "Mastery". Ask EOCP when the official result/certificate follows: ________ |
-| D2 | Feedback | ✅ Confirmed | Individual **mastery report** by content area |
-| D3 | Rewrite rule | ✅ Confirmed (2021 guide) | Below 70% → may rewrite **30 days** after writing — confirm current rule and fee |
-| D4 | How the certificate is issued | ❓ Find it | ________ |
-| D5 | **Renewal** frequency and fee | ❓ Find it | ________ |
-| D6 | **CEUs** (Continuing Education Units) needed to keep certification | ❓ Find it | ________ |
-| D7 | EOCP code of ethics / conduct | ❓ Find it | ________ |
-| D8 | Rules about which operator level can be in **responsible charge** of a facility | ❓ Find it | EOCP Program Guide: ________ |
+| D1 | How/when results are released | ✅ Confirmed | Score shown **on screen** at the end (Finish → Mastery); exams are **computer-marked and grades are final**. (EOCP Program Guide, Apr 2021) + ABC instructions |
+| D2 | Feedback | ✅ Confirmed | Individual **mastery report**: number correct out of total + the **objectives to study** for weak areas. (EOCP Program Guide, Apr 2021) |
+| D3 | Rewrite rule | ✅ Confirmed | Below 70% → may **rewrite 30 days** after writing (use the mastery report to study). (EOCP Program Guide, Apr 2021) |
+| D4 | How the certificate is issued | ✅ Confirmed | Pass 70% → certificate with your **name, level and certification number**. (EOCP Program Guide, Apr 2021) |
+| D5 | **Renewal** | ✅ Confirmed | Certificate is valid **1 year** — pay **annual dues**. Dues or CEUs not done **within 90 days** of a new period → **Not Certified** (can't write exams). Lapsed ≤ 2 yrs: back dues + **$150**; > 2 yrs: back dues + **$300** and **drop one level**; **4+ yrs: start over**. (EOCP Program Guide, Apr 2021) |
+| D6 | **CEUs** to stay certified | ✅ Confirmed | Level I–IV: **2.4 CEUs (24 hours) every 2-year period**. **1 CEU (Continuing Education Unit) = 10 hours** of approved training. No CEUs for sessions < 0.5 h, conferences/trade shows, self-study, or unstructured on-the-job training. (EOCP Program Guide, Apr 2021) |
+| D7 | EOCP code of ethics | ✅ Confirmed | All applicants must **review and sign** the *Code of Ethics and Standards of Practice*; breaking it can lead to **suspension or revocation**. (EOCP Program Guide, Apr 2021) |
+| D8 | Who can be in **responsible charge** | ✅ Confirmed | Chief/senior operator should be certified **at the facility's class or higher**; the person in **Direct Responsible Charge** at least **one level below** the facility. **Class I facility → Level I or higher** operator in charge. DRC experience is only needed for Levels III–IV. (EOCP Program Guide, Apr 2021) |
 
 ## E. Contact
 
@@ -86,10 +86,10 @@
 
 | Missing / unverified item | Why it's missing | What you can do |
 |---|---|---|
-| **EOCP's official practice questions** (Math Test Questions, SWWS & OIT sample exams) | Couldn't open eocp.ca | Download them (links in [SOURCES-TO-GET.md](SOURCES-TO-GET.md)) and give them to Claude to add with worked answers |
+| ~~EOCP's official practice questions~~ | ✅ Received | WPI sample (20), SWWS (25), OIT (25), Math Test (50) + Math for Operators (20) — all in [practice/](practice/eocp-official-practice.md) |
 | ~~Exact NTK job-task list and reference books~~ | ✅ Received and cross-checked | Gaps filled: mixers, MCC (Motor Control Centre), conveyors, hoists/cranes, coagulation/flocculation, nutrient enhancement, WET (Whole Effluent Toxicity) testing, metals, vulnerability assessments, complaints |
-| **Official 2025 formula/conversion sheet** | Couldn't open EOCP/WPI | Download it; Claude will update the study sheet to match exactly |
-| Exam **time limit, calculator rules, computer format, fees** | Not in search results | Fill in Section C/B above |
+| ~~Official formula/conversion sheets~~ | ✅ Received all three | Course sheet matches them |
+| Exam **time limit, allowed calculator models, fee amounts** | Not in any document received | Ask EOCP when you apply (eocp.ca/fees for fees) |
 | **WorkSafeBC exposure limits** (exact H₂S (hydrogen sulphide), chlorine numbers) | Couldn't open worksafebc.com | Look up the WorkSafeBC "table of exposure limits" |
 | **BC spill reporting number and thresholds** | Not confirmed | Ask your employer; check the BC Spill Reporting Regulation |
 | **Your plant's** permit/registration limits, SOPs (Standard Operating Procedures), equipment | Specific to your workplace | Read your plant's O&M (Operations and Maintenance) manual and permit — use them as real-life examples while studying |

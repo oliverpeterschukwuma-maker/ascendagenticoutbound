@@ -160,7 +160,10 @@ As a certified operator, you are responsible to:
 - **EOCP** (Environmental Operators Certification Program) is the certification body for water and wastewater operators in **BC and Yukon**.
 - EOCP **classifies facilities** (Level I–IV, by complexity). The level of the operator responsible for a facility should match its classification.
 - **Operator levels:** OIT (optional), Level I, II, III, IV. Level I requires **12 months (1,800 h)** of hands-on experience + high school (or equivalent), and passing the exam (70%).
-- **Certificates must be renewed**, and operators must earn **continuing education (CEUs)** to stay certified — check the **current EOCP Program Guide** for the exact requirements and fees.
+- **Certificates must be renewed**: valid **1 year** (annual dues) and **2.4 CEUs (24 h) every 2 years** for Levels I–IV (**1 CEU (Continuing Education Unit) = 10 hours**). Miss them by 90 days → **Not Certified**. *(EOCP Program Guide)*
+- **Facility classification** is **required** under the **Municipal Wastewater Regulation**; facilities **reclassify every 5 years** or after a major process change. Classes run Small System (≤ 500 people) → Class I–IV by a **points system**. A site with only screening, lift stations or chlorination is part of the **collection** system.
+- **Who's in charge:** chief operator certified **at the facility's class**; the person in **Direct Responsible Charge (DRC)** no lower than **one level below**. A **Class I** plant needs a **Level I or higher** operator in charge.
+- **Reciprocity:** EOCP certification is recognized across Canada **except Quebec**.
 - Operators must **work within their certification level** and are expected to act **ethically** (honest data, safe practice, competence).
 
 ### 2.9 Professional responsibilities & ethics [GENERAL]
