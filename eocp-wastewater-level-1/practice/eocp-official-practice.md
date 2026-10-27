@@ -26,9 +26,12 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 | **Guide to the EOCP and ABC (Association of Boards of Certification) Formulas (2022)** | Every formula on the sheet, solved in US and metric | ★★★ | https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf |
 | **SWWS Sample Exam (Dec 2020)** | Small Wastewater Systems sample exam | ★★ — not Level I, but wastewater questions in EOCP's style (activated sludge, BOD (Biochemical Oxygen Demand), confined space, aeration) | https://eocp.ca/wp-content/uploads/2021/01/SWWS-Sample-Exam-2020-December.pdf |
 | **OIT (Operator in Training) Sample Exam (Dec 2020)** | Operator-in-Training sample exam | ★★ — good warm-up on basic terms | https://eocp.ca/wp-content/uploads/2021/01/OIT-Sample-Exam-2020-December.pdf |
-| **Sample questions / computer-based exam demo** (if listed) | Any current WPI/EOCP samples | ★★★ — closest to the real format | via https://eocp.ca/certified-operators/preparing-for-your-exam/ |
+| **WPI Wastewater Treatment Sample Questions** (online) | WPI's official sample questions, shown in the real web-based exam software | ★★★ — closest to the real format | http://abcwbt.abccert.org/lxrweb/online/samples/webtest2.asp (listed on https://gowpi.org/services/sample-exam-questions/) |
+| **WPI Computerized Exam Demo** | Practice clicking through the exam software | ★★ — learn the buttons before exam day | https://gowpi.org/services/sample-exam-questions/ |
 
 **What we know about the SWWS sample exam (from search results):** it includes questions such as classifying the activated sludge process by type of treatment, what the acronym BOD stands for, the most important safety concerns when entering a confined space, and what happens when the air supply to the process is insufficient. All of those topics are covered in Modules 2, 5 and 15 of this course.
+
+> ✅ **[OFFICIAL] What WPI says about its sample questions** (gowpi.org sample-questions page): they show the **style** of questions on WPI's Standardized Exams, but they are **not repeated on any exam** and **may not reflect current exam content**. Use them to get used to the format, not to memorize answers.
 
 ---
 
