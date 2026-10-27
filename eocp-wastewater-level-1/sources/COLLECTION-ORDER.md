@@ -12,14 +12,14 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 3 | EOCP Formulae, Conversions, and Abbreviations | ✅ Received — [EOCP-formula-sheet-summary.md](EOCP-formula-sheet-summary.md); 17F expanded |
 | 4 | EOCP Conversion Chart | ✅ Received — [EOCP-conversion-chart-summary.md](EOCP-conversion-chart-summary.md) |
 | 5 | Candidate Instructions for ABC Web-Based Examinations | ✅ Received — [ABC-candidate-instructions-summary.md](ABC-candidate-instructions-summary.md) |
-| 6 | Sample Exam Questions | 🔶 Got the WPI links page — still need the **Wastewater Treatment Sample Questions** themselves (open http://abcwbt.abccert.org/lxrweb/online/samples/webtest2.asp and screenshot each question + answer) · ⏳ **Next** |
+| 6 | Sample Exam Questions (WPI online Wastewater sample, 20 Qs) | 🔶 Q1–14 received and answered in [eocp-official-practice.md](../practice/eocp-official-practice.md) · ⏳ **Next: Q15–20 + check Q10** |
 | 7 | Sample Math Questions | ☐ |
 | 8 | Math for Operators – Wastewater Level I and II | ☐ |
 | 9 | 2022 Guide to the EOCP and ABC formulas | ☐ |
 | 10 | A Guide to Solving Math Problems | ☐ |
 | 11 | Math Illustrated | ☐ |
 | 12 | Guide for applying for an EOCP exam | ☐ |
-| 13 | "Experience ABC's Computerized Exams" — try the demo yourself; tell Claude what the screens/tools look like (calculator? flagging? going back?) | ☐ |
+| 13 | "Experience ABC's Computerized Exams" — demo | 🔶 Partly seen via the sample test screenshots (Cover, Help, !, Time, mark-for-review box, < >, >>; no on-screen calculator visible) |
 | 14 | EOCP SWWS Sample Exam (Small Wastewater Systems) | ☐ |
 | 15 | EOCP OIT Sample Exam | ☐ |
 | 16 | Newest EOCP Program Guide | ☐ |
