@@ -20,8 +20,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 11 | Math Illustrated | ✅ Received — [EOCP-math-illustrated-summary.md](EOCP-math-illustrated-summary.md); 17B §B5c shapes |
 | 12 | Guide for applying for an EOCP exam | 🔶 Got the *Exam Requirements* page + **Supervisor Verification Form** ([summary](EOCP-exam-requirements-summary.md)). **Skipped:** CRM booking guide & fee (EOCP site not mobile-friendly) — ask EOCP when applying |
 | 13 | "Experience ABC's Computerized Exams" — demo | ✅ Done — screens + **Help window** added to [ABC-candidate-instructions-summary.md](ABC-candidate-instructions-summary.md) |
-| 14 | EOCP SWWS Sample Exam (Small Wastewater Systems) | ⏳ **Next** |
-| 15 | EOCP OIT Sample Exam | ☐ |
+| 14 | EOCP SWWS Sample Exam (Small Wastewater Systems) | ✅ Received — all 25 with EOCP's key + explanations in [eocp-official-practice.md](../practice/eocp-official-practice.md) |
+| 15 | EOCP OIT Sample Exam | ⏳ **Next** |
 | 16 | Newest EOCP Program Guide | ☐ |
 | 17 | "That Four-Letter Word: EXAM!" Parts 1–3 (EOCP articles) | ☐ |
 | 18 | EOCP answer: calculator rules (and exact exam length — the page uses "3-hour exam" as its example) | ☐ |

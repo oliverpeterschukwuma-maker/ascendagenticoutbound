@@ -102,7 +102,7 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | [mixed-practice.md](practice/mixed-practice.md) | Phase 4: 60 shuffled questions from all modules |
 | [mock-exam-1.md](practice/mock-exam-1.md) | Full 100-question mock, weighted 39/38/13/10 like the real exam, with explanations and a score-by-area table |
 | [mock-exam-2.md](practice/mock-exam-2.md) | Second full 100-question mock, all-new questions |
-| [eocp-official-practice.md](practice/eocp-official-practice.md) | ✅ **Official WPI/ABC Wastewater sample — all 20 questions with answers** + links to the other EOCP practice files |
+| [eocp-official-practice.md](practice/eocp-official-practice.md) | ✅ **Official WPI/ABC Wastewater sample (20 Qs) + EOCP SWWS sample exam (25 Qs)** — all with answers and explanations |
 | [eocp-math-test-questions.md](practice/eocp-math-test-questions.md) | ✅ **EOCP Math Test (50) + Math for Operators Level I (20) — all solved step by step** |
 
 ### Part E — Review (`review/`)

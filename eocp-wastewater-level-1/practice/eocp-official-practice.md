@@ -3,7 +3,7 @@
 ← [Course index](../README.md) · [Exam Prep System](exam-prep-system.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **MCRT** = Mean Cell Residence Time · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MPN** = Most Probable Number · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **OUR** = Oxygen Uptake Rate · **RAS** = Return Activated Sludge · **SCADA** = Supervisory Control And Data Acquisition · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **CO** = carbon monoxide · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **LEL** = Lower Explosive Limit · **MCRT** = Mean Cell Residence Time · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MPN** = Most Probable Number · **m³/d** = cubic metres per day · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **OUR** = Oxygen Uptake Rate · **O₂** = oxygen · **RAS** = Return Activated Sludge · **RBCs** = Rotating Biological Contactors · **SCADA** = Supervisory Control And Data Acquisition · **UV** = Ultraviolet · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
 <!-- abbr-end -->
 
 ## About this page
@@ -121,3 +121,38 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 
 **Answer key note:** after you finish the online sample, the review screen marks the right answer with a green ✔ — Q10 was confirmed this way.
 
+---
+
+## ✅ EOCP SWWS Sample Exam (Small Wastewater Systems, Dec 2020) — 25 questions
+
+**Source:** EOCP *SWWS Sample Exam* (December 2020) with EOCP's answer key. Not a Level I exam, but every question is basic wastewater knowledge that **also fits Level I**. Answers below are **EOCP's official key**; explanations are this course's.
+
+| # | Question | Choices | Answer | Why | Module |
+|---|---|---|---|---|---|
+| 1 | The activated sludge process is an example of which type of treatment? | A. Primary · B. Secondary · C. Tertiary · D. Advanced | **B** | Activated sludge is **biological = secondary** treatment. | 5 |
+| 2 | Raw wastewater can contain: | A. Pathogens · B. Children's toys · C. Heavy metals · D. All of the above | **D** | Everything ends up in sewers — that's why screens come first. | 1, 3 |
+| 3 | BOD is the acronym for: | A. Biological oxygen demand · B. Biochemical oxygen demand · C. Bacteriological oxygen dissolved · D. Biochemical osmosis delivery | **B** | **Biochemical** Oxygen Demand. Trap: "Biological" sounds right but isn't the official name. | 15 |
+| 4 | When organic wastes are discharged to receiving waters, the oxygen is depleted by: | A. Algae · B. Bacteria · C. Sea life · D. Limestone | **B** | Bacteria eat the organics and use up dissolved oxygen — fish suffocate. That's why we remove BOD. | 1 |
+| 5 | Wastewater is acidic if the pH is: | A. 9 · B. 7 · C. 3 · D. None of the above | **C** | Below 7 = acidic; 7 = neutral; above 7 = basic. | 1 |
+| 6 | Motors in wastewater equipment can fail because of: | A. Dirt · B. Moisture · C. Friction · D. All of the above | **D** | Dirt blocks cooling, moisture shorts windings, friction overheats bearings. | 14 |
+| 7 | Two most important safety concerns when entering a confined space? | A. Lack of oxygen and hazardous gases · B. Chlorine residual and turbidity · C. Bad odours and claustrophobia · D. Very high or low temperatures | **A** | **Test the air**: O₂, flammables (LEL), H₂S (hydrogen sulphide), CO — before and during entry. | 2 |
+| 8 | Bacteriological samples are likely to be spoiled by: | A. No refrigeration in shipping · B. Warming to room temperature · C. Touching the inside of the bottle/cap · D. All of the above | **D** | Keep them cold (< 10 °C), sterile, and analyse fast. | 15 |
+| 9 | Which device is used for backflow prevention? | A. Double check valve · B. Aeration basin · C. Centrifuge · D. Butterfly valve | **A** | A **double check valve assembly** stops water flowing backwards into the potable supply. | 11 |
+| 10 | Trickling filters and RBCs (Rotating Biological Contactors) stabilize wastewater by which action? | A. Chemical · B. Biological · C. Filtering · D. Aerating | **B** | Biofilm ("slime") on the media eats the organics — they are **biological**, not filters. | 5 |
+| 11 | An emergency response plan should include: | A. Emergency phone numbers · B. System map · C. Recovery information · D. All of the above | **D** | An ERP covers who to call, where things are, and how to recover. | 18 |
+| 12 | Grease in sewer lines is most frequently removed by: | A. Shovelling · B. Flushing · C. Digestion · D. Aeration | **B** | **Flushing / jetting** with high-pressure water. | 1 |
+| 13 | What are 'combined sewers'? | A. Industrial + domestic in one sewer · B. Storm water + sewage in the same sewers · C. The main trunk sewer · D. Gravity + force main | **B** | Combined = **stormwater + sanitary**. Big storms can cause combined sewer overflows (CSOs). | 1 |
+| 14 | The two most common forms of wastewater disinfection are: | A. UV and chlorine · B. UV and chloramine · C. Chlorine and ozonation · D. Chlorine and aeration | **A** | **Chlorine** (often followed by dechlorination) and **UV**. | 8 |
+| 15 | Which is NOT a type of wastewater treatment lagoon? | A. Aerobic · B. Facultative · C. Anaerobic · D. Septic | **D** | Lagoons are aerobic, facultative or anaerobic. "Septic" is a tank / a condition, not a lagoon type. | 5 |
+| 16 | Most accidents in a treatment plant are caused by: | A. No safety program · B. Carelessness or negligence · C. Poor supervision · D. Unrecognized hazards | **B** | Most accidents come from **unsafe acts** — carelessness. | 2 |
+| 17 | A meter reads 5,678.6 m³ one Monday and 6,398.8 m³ the next. Average daily flow? | A. 51,500 L/d · B. 103,000 L/d · C. 183,000 L/d · D. 206,000 L/d | **B** | 720.2 m³ ÷ 7 days = 102.9 m³/d (cubic metres per day) × 1,000 = **≈103,000 L/d**. | 17B |
+| 18 | About how many litres does 200 m of 20 cm pipe hold? | A. 31,415 L · B. 80,000 L · C. 6,283 L · D. 10,531 L | **C** | 0.785 × 0.2² × 200 = 6.28 m³ = **6,280 L**. | 17B |
+| 19 | Explain why treating wastewater is important. *(long answer)* | — | **—** | Protects **public health** (kills pathogens) and the **environment** (removes oxygen-demanding organics, solids and nutrients that harm fish and receiving waters); required by law (permit / WSER (Wastewater Systems Effluent Regulations)). | 1 |
+| 20 | Every day the operator of a small plant should first: | A. Clean basins · B. Ensure all equipment is operational · C. Replenish chemicals · D. Test-start standby units | **B** | Daily rounds start with **checking that everything is running**. | 16, 18 |
+| 21 | Insufficient air supply will cause: | A. Better effluent · B. Excessive turbulence · C. Excessive foam · D. Turbidity in the final effluent | **D** | Low DO → bugs struggle, poor floc → **cloudy (turbid) effluent**. | 5 |
+| 22 | Wastewater should be pumped from a wet well: | A. Once daily · B. Four times a day · C. Often enough to prevent septic conditions · D. Long enough to settle solids | **C** | Wastewater held too long goes **septic** (H₂S, odour, corrosion). | 10 |
+| 23 | A good indication of quality activated sludge? | A. Black, septic odour · B. Brown, musty (earthy) odour · C. Brown with lots of dark foam · D. Settles to 900 mL/L in 30 min | **B** | Healthy mixed liquor = **chocolate brown, earthy/musty smell**. 900 mL/L settled = poor settling (bulking). | 5 |
+| 24 | Most common cause of hydrogen sulphide in sewers and plants? | A. Storm flows · B. Anaerobic conditions · C. High velocity · D. Fats and oils | **B** | No oxygen → bacteria turn sulphate into **H₂S**. | 1, 2 |
+| 25 | To ensure safety, what is done FIRST when taking a pump out of service? | A. Measure solids · B. Drain and disinfect · C. Lock out and tag the breaker OFF · D. Check voltage drop | **C** | **Lockout/tagout first** — always, before any work. | 2, 14 |
+
+**What this exam shows:** EOCP likes **basic definitions** (BOD, combined sewers, lagoon types), **safety-first answers** (confined space air, lockout first), and **"all of the above"** when every choice is a real cause.
