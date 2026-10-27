@@ -2,10 +2,14 @@
 
 ← [Course index](../README.md) · [Exam Prep System](exam-prep-system.md)
 
-A second full-length mock with **all-new questions**, using the same 2025 WPI weights: **39 Equipment · 38 Treatment Process · 13 Security/Safety/Admin · 10 Laboratory**. Take it at least one week after Mock 1, after reviewing your weak areas. Original practice items — **not** actual exam questions.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **APRs** = Air-Purifying Respirators · **BEP** = Best Efficiency Point · **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CO₂** = carbon dioxide · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **EQ** = Equalization (or Equipment area code) · **F/M** = Food-to-Microorganism ratio · **hp** = horsepower · **H₂S** = hydrogen sulphide · **IDLH** = Immediately Dangerous to Life or Health · **kW** = kilowatt · **kWh** = kilowatt-hour · **L/s** = litres per second · **LEL** = Lower Explosive Limit · **mA** = milliamps · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **mV** = millivolts · **m³/d** = cubic metres per day · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **ORP** = Oxidation-Reduction Potential · **O₂** = oxygen · **PD** = Positive Displacement · **RAS** = Return Activated Sludge · **SCADA** = Supervisory Control And Data Acquisition · **SCBA** = Self-Contained Breathing Apparatus · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **VFD** = Variable Frequency Drive · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **WPI** = Water Professionals International
+<!-- abbr-end -->
+
+A second full-length mock with **all-new questions**, using the same 2025 WPI (Water Professionals International) weights: **39 Equipment · 38 Treatment Process · 13 Security/Safety/Admin · 10 Laboratory**. Take it at least one week after Mock 1, after reviewing your weak areas. Original practice items — **not** actual exam questions.
 
 **Exam conditions:**
-- **Time:** 3 hours (check the current EOCP time limit) (practise under a timer).
+- **Time:** 3 hours (check the current EOCP (Environmental Operators Certification Program) time limit) (practise under a timer).
 - **Allowed:** calculator and the [formula/conversion sheet](../math/formula-and-conversion-sheet.md) (or better, the official WPI sheet). **Nothing else** — no notes.
 - **One best answer** per question. Answer every question (no penalty for guessing — confirm with EOCP).
 - Write your answers on paper (1–100), then check them against the key at the bottom.
@@ -15,14 +19,14 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
 
 ## Questions
 
-**1.** A rectangular tank is 60 ft long, 20 ft wide and 12 ft deep. Flow is 0.9 MGD. What is the detention time?
+**1.** A rectangular tank is 60 ft long, 20 ft wide and 12 ft deep. Flow is 0.9 MGD (Million Gallons per Day). What is the detention time?
 
    A. 28.7 hours  
    B. 2.9 hours  
    C. 0.38 hours  
    D. 0.12 hours  
 
-**2.** Compared with membrane-type DO probes, optical (luminescent) DO probes generally:
+**2.** Compared with membrane-type DO (Dissolved Oxygen) probes, optical (luminescent) DO probes generally:
 
    A. Measure pH as well  
    B. Need less maintenance (no membrane or electrolyte to replace)  
@@ -92,14 +96,14 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Class C (energized electrical)  
    D. Class A (wood, paper)  
 
-**12.** A level transmitter is ranged 0–8 m. Its output is 16 mA. What level does this represent?
+**12.** A level transmitter is ranged 0–8 m. Its output is 16 mA (milliamps). What level does this represent?
 
    A. 6 m  
    B. 2 m  
    C. 8 m  
    D. 6.4 m  
 
-**13.** For the same wastewater sample, COD is normally:
+**13.** For the same wastewater sample, COD (Chemical Oxygen Demand) is normally:
 
    A. Higher than BOD  
    B. Zero  
@@ -120,7 +124,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Grit  
    D. Screenings  
 
-**16.** Filters for the TSS test are dried at:
+**16.** Filters for the TSS (Total Suspended Solids) test are dried at:
 
    A. 550 °C  
    B. 103–105 °C  
@@ -155,7 +159,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Move to 50% open  
    D. Stay in its last position  
 
-**21.** A combustible gas meter reads 10% LEL for methane. This means the atmosphere contains approximately:
+**21.** A combustible gas meter reads 10% LEL (Lower Explosive Limit) for methane. This means the atmosphere contains approximately:
 
    A. 0.5% methane by volume  
    B. 15% methane  
@@ -211,7 +215,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. A larger fuse so it won't blow again  
    D. A piece of wire  
 
-**29.** In the DPD test for chlorine residual, chlorine causes the sample to turn:
+**29.** In the DPD (N,N-diethyl-p-phenylenediamine, chlorine test reagent) test for chlorine residual, chlorine causes the sample to turn:
 
    A. Black  
    B. Pink/red  
@@ -302,7 +306,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. High DO  
    D. Cold temperatures and low pH  
 
-**42.** Influent BOD is 195 mg/L and flow is 8,200 m³/d. What is the BOD load?
+**42.** Influent BOD (Biochemical Oxygen Demand) is 195 mg/L (milligrams per litre) and flow is 8,200 m³/d (cubic metres per day). What is the BOD load?
 
    A. 15,990 kg/d  
    B. 42 kg/d  
@@ -393,7 +397,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. 1 m out for every 4 m of height (4:1)  
    D. 1 m out for every 10 m of height  
 
-**55.** MLVSS is used in activated sludge control because it:
+**55.** MLVSS (Mixed Liquor Volatile Suspended Solids) is used in activated sludge control because it:
 
    A. Measures total dissolved salts  
    B. Measures grit content  
@@ -463,7 +467,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Rise  
    D. Fall  
 
-**65.** An 18.5 kW blower runs 20 hours per day. Electricity costs $0.09/kWh. What is the daily energy cost?
+**65.** An 18.5 kW (kilowatt) blower runs 20 hours per day. Electricity costs $0.09/kWh. What is the daily energy cost?
 
    A. $41.11  
    B. $33.30  
@@ -477,7 +481,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Too much polymer  
    D. Too little polymer (poor conditioning)  
 
-**67.** Increasing the RAS pumping rate will usually cause the secondary clarifier sludge blanket to:
+**67.** Increasing the RAS (Return Activated Sludge) pumping rate will usually cause the secondary clarifier sludge blanket to:
 
    A. Stay exactly the same  
    B. Rise  
@@ -512,7 +516,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. To cool the electrical panel  
    D. To reduce the discharge pressure  
 
-**72.** An ORP probe in a tank reads −300 mV. This indicates:
+**72.** An ORP (Oxidation-Reduction Potential) probe in a tank reads −300 mV (millivolts). This indicates:
 
    A. Alkaline pH  
    B. High dissolved oxygen  
@@ -547,14 +551,14 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Lose strength faster  
    D. Turn into calcium hypochlorite  
 
-**77.** A filter weighs 1.5240 g after drying at 103 °C and 1.5212 g after ignition at 550 °C. The sample volume was 100 mL. What is the VSS?
+**77.** A filter weighs 1.5240 g after drying at 103 °C and 1.5212 g after ignition at 550 °C. The sample volume was 100 mL. What is the VSS (Volatile Suspended Solids)?
 
    A. 28 mg/L  
    B. 2.8 mg/L  
    C. 0.0028 mg/L  
    D. 280 mg/L  
 
-**78.** An aeration tank has DO of 0.3 mg/L, the SVI is 280 mL/g, and the microscope shows long filaments extending from the floc. The most likely cause of the bulking is:
+**78.** An aeration tank has DO of 0.3 mg/L, the SVI (Sludge Volume Index) is 280 mL/g, and the microscope shows long filaments extending from the floc. The most likely cause of the bulking is:
 
    A. Excessive wasting  
    B. Low dissolved oxygen  
@@ -603,7 +607,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. It becomes weaker  
    D. It absorbs oil  
 
-**85.** A SCADA alarm shows a lift station wet well at high level. The operator's best FIRST step is to:
+**85.** A SCADA (Supervisory Control And Data Acquisition) alarm shows a lift station wet well at high level. The operator's best FIRST step is to:
 
    A. Acknowledge the alarm and verify the condition (trend, other indicators, site visit)  
    B. Shut down the treatment plant  
@@ -659,7 +663,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. Excess grit  
    D. Nitrification consuming alkalinity  
 
-**93.** A few days after doubling the WAS rate, the effluent becomes cloudy with light, fluffy particles. This most likely indicates:
+**93.** A few days after doubling the WAS (Waste Activated Sludge) rate, the effluent becomes cloudy with light, fluffy particles. This most likely indicates:
 
    A. Septic sludge  
    B. Old sludge and pin floc  
@@ -680,7 +684,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
    C. A screen disinfects the flow  
    D. A screen removes material from the flow; a comminutor shreds it and leaves it in  
 
-**96.** The settleometer reads 480 mL/L after 30 minutes and the MLSS is 3,200 mg/L. What is the SVI?
+**96.** The settleometer reads 480 mL/L after 30 minutes and the MLSS (Mixed Liquor Suspended Solids) is 3,200 mg/L. What is the SVI?
 
    A. 1,536 mL/g  
    B. 6.7 mL/g  
@@ -723,15 +727,15 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
 |---|---|---|---|
 | 1 | **B** | PR | V = 60 × 20 × 12 = 14,400 ft³ × 7.48 = 107,712 gal; DT = 107,712 ÷ 900,000 × 24 = 2.87 h. |
 | 2 | **B** | EQ | Optical sensors use a dye cap that is replaced occasionally; they are stable and low-maintenance. |
-| 3 | **B** | SA | Corrosion worsens the leak; leak repair needs SCBA and emergency kits. |
-| 4 | **C** | PR | Long detention lets wastewater and sludge turn septic, producing H₂S and floating sludge. |
+| 3 | **B** | SA | Corrosion worsens the leak; leak repair needs SCBA (Self-Contained Breathing Apparatus) and emergency kits. |
+| 4 | **C** | PR | Long detention lets wastewater and sludge turn septic, producing H₂S (hydrogen sulphide) and floating sludge. |
 | 5 | **C** | EQ | A physical air space can't fail mechanically. |
 | 6 | **D** | PR | Without light, algae can't produce oxygen, and the lagoon may turn anaerobic. |
-| 7 | **A** | EQ | On a centrifugal pump curve, more head means less flow. PD pumps give nearly constant flow. |
+| 7 | **A** | EQ | On a centrifugal pump curve, more head means less flow. PD (Positive Displacement) pumps give nearly constant flow. |
 | 8 | **C** | SA | Employers must have check-in procedures for workers alone or in isolation. |
-| 9 | **B** | SA | APRs filter air but don't supply oxygen. Use SCBA/supplied air for O₂-deficient or IDLH atmospheres. |
+| 9 | **B** | SA | APRs (Air-Purifying Respirators) filter air but don't supply oxygen. Use SCBA/supplied air for O₂-deficient or IDLH (Immediately Dangerous to Life or Health) atmospheres. |
 | 10 | **C** | EQ | 'Live–dead–live' proves the tester was working when it read 'dead'. |
-| 11 | **C** | SA | Water conducts electricity; use CO₂ or ABC dry chemical on electrical fires. |
+| 11 | **C** | SA | Water conducts electricity; use CO₂ (carbon dioxide) or ABC (Association of Boards of Certification) dry chemical on electrical fires. |
 | 12 | **A** | EQ | (16 − 4) ÷ 16 = 0.75 → 75% of 8 m = 6 m. (16 ÷ 20 × 8 = 6.4 forgets the 4 mA offset.) |
 | 13 | **A** | LB | The chemical oxidant oxidizes organics that bacteria can't, so COD ≥ BOD. |
 | 14 | **D** | PR | Grit wears equipment and takes up volume in downstream tanks. |
@@ -747,15 +751,15 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
 | 24 | **D** | EQ | Loose belts slip and squeal; too-tight belts overload bearings. |
 | 25 | **B** | SA | BC workers have the right to know, participate and refuse unsafe work. |
 | 26 | **A** | EQ | Globe valves are designed for flow control; gate valves are for isolation. |
-| 27 | **C** | SA | SOPs make sure tasks are done the same, safe, correct way every time. |
+| 27 | **C** | SA | SOPs (Standard Operating Procedures) make sure tasks are done the same, safe, correct way every time. |
 | 28 | **B** | EQ | Oversizing or bypassing removes protection and creates a fire/equipment hazard. |
 | 29 | **B** | LB | Darker pink = more chlorine. |
 | 30 | **C** | EQ | Recessed/vortex impellers sit out of the flow path and pass solids well. |
 | 31 | **C** | SA | Heavy chlorine gas collects at floor level. |
 | 32 | **A** | EQ | 4 mA is a valid 0%; 0 mA is outside the range and signals a fault. |
-| 33 | **A** | LB | Results are expressed as mg/L as CaCO₃. |
+| 33 | **A** | LB | Results are expressed as mg/L as CaCO₃ (calcium carbonate). |
 | 34 | **B** | EQ | The flume is the primary element; a level sensor reads depth, which is converted to flow. |
-| 35 | **C** | EQ | Drawdown = 3.5 × 3.5 × 0.5 = 6.125 m³ ÷ 4 = 1.53 m³/min; + inflow 0.4 = 1.93 m³/min × 1,000 ÷ 60 = 32.2 L/s. Forgetting inflow gives 25.5. |
+| 35 | **C** | EQ | Drawdown = 3.5 × 3.5 × 0.5 = 6.125 m³ ÷ 4 = 1.53 m³/min; + inflow 0.4 = 1.93 m³/min × 1,000 ÷ 60 = 32.2 L/s (litres per second). Forgetting inflow gives 25.5. |
 | 36 | **A** | EQ | A backward check valve blocks forward flow, so the pump dead-heads. Always match the flow arrow. |
 | 37 | **B** | PR | P is captured in cells or chemical precipitate and leaves only in the waste sludge. |
 | 38 | **C** | PR | 72 ÷ 4 = 18 m/min ÷ 60 = 0.3 m/s. |
@@ -766,7 +770,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
 | 43 | **D** | PR | V₂ = V₁ × %₁ ÷ %₂ = 60 × 3 ÷ 5 = 36 m³. |
 | 44 | **D** | EQ | Operating far from BEP (either side) increases vibration, heat and seal/bearing problems. |
 | 45 | **C** | EQ | It is the deliberate weak link that protects expensive gears. |
-| 46 | **B** | PR | Nitrite reacts with chlorine (about 5 mg Cl₂ per mg NO₂-N). |
+| 46 | **B** | PR | Nitrite reacts with chlorine (about 5 mg Cl₂ (chlorine gas) per mg NO₂-N (nitrite measured as nitrogen)). |
 | 47 | **A** | EQ | Valves that never move seize, and can't isolate equipment in an emergency. |
 | 48 | **B** | SA | Near-miss reporting prevents future injuries. |
 | 49 | **C** | PR | About 1–3 mg/L (commonly 2) supports treatment without wasting energy. |
@@ -785,7 +789,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
 | 62 | **D** | EQ | A foot valve is a check valve that keeps the suction line full when the pump stops. |
 | 63 | **B** | PR | Even low chlorine residuals harm fish; federal rules limit total residual chlorine. |
 | 64 | **C** | PR | Blinding increases headloss, so upstream level rises; differential-level controls use this to start the rake. |
-| 65 | **B** | EQ | 18.5 × 20 = 370 kWh × $0.09 = $33.30. |
+| 65 | **B** | EQ | 18.5 × 20 = 370 kWh (kilowatt-hour) × $0.09 = $33.30. |
 | 66 | **D** | PR | Under-conditioned sludge won't release water and solids pass through the belt. |
 | 67 | **C** | PR | More sludge is withdrawn, so the blanket lowers (and RAS gets thinner). |
 | 68 | **C** | EQ | Zero = bottom of range; span = top of range. |
@@ -795,7 +799,7 @@ A second full-length mock with **all-new questions**, using the same 2025 WPI we
 | 72 | **D** | EQ | Negative ORP = reducing; positive ORP = oxidizing (O₂, chlorine present). |
 | 73 | **B** | EQ | Packing needs a slight leak and seal water; too tight = friction, heat and sleeve damage. |
 | 74 | **C** | LB | Flow-proportional composites weight high-flow periods correctly. |
-| 75 | **D** | PR | Racetrack-shaped basins with long SRT and low F/M. |
+| 75 | **D** | PR | Racetrack-shaped basins with long SRT (Solids Retention Time) and low F/M (Food-to-Microorganism ratio). |
 | 76 | **C** | PR | Heat, sunlight and time degrade hypochlorite. |
 | 77 | **A** | LB | (1.5240 − 1.5212) = 0.0028 g × 1,000,000 ÷ 100 = 28 mg/L. |
 | 78 | **B** | PR | Low DO favours filamentous organisms. |

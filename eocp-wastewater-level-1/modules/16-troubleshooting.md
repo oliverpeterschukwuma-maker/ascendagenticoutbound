@@ -2,9 +2,19 @@
 
 ← [Module 15](15-laboratory-sampling.md) · [Course index](../README.md) · Next → [Math 17A](../math/17a-math-foundations.md)
 
-**NTK areas:** Treatment Process Evaluation & **Adjustment** (≈38%) and Equipment Evaluation (≈39%). WPI exam questions are mostly **application** questions — "what is the most likely cause?" and "what should the operator do?" This module trains exactly that.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **ATS** = Automatic Transfer Switch · **BOD** = Biochemical Oxygen Demand · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **CO₂** = carbon dioxide · **DO** = Dissolved Oxygen · **F/M** = Food-to-Microorganism ratio · **FOG** = Fats, Oils and Grease · **HOA** = Hand-Off-Auto (switch) · **HRT** = Hydraulic Retention Time · **H₂S** = hydrogen sulphide · **mg/L** = milligrams per litre · **MLSS** = Mixed Liquor Suspended Solids · **NH₃** = ammonia · **NH₃-N** = ammonia measured as nitrogen · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **OSHA** = Occupational Safety and Health Administration (US) · **OUR** = Oxygen Uptake Rate · **O₂** = oxygen · **ppm** = parts per million · **RAS** = Return Activated Sludge · **SCADA** = Supervisory Control And Data Acquisition · **SOP** = Standard Operating Procedure · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UPS** = Uninterruptible Power Supply · **UV** = Ultraviolet · **UVT** = Ultraviolet Transmittance · **VA/ALK** = Volatile Acids to Alkalinity ratio · **WAS** = Waste Activated Sludge · **WPI** = Water Professionals International
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) areas:** Treatment Process Evaluation & **Adjustment** (≈38%) and Equipment Evaluation (≈39%). WPI (Water Professionals International) exam questions are mostly **application** questions — "what is the most likely cause?" and "what should the operator do?" This module trains exactly that.
 
 **Do this module after Modules 1–15.** It pulls everything together.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Activated Sludge Process Control and Troubleshooting](https://www.youtube.com/watch?v=RmQZPD14EnU) · [How Secondary Clarifiers Work: RAS, WAS, and Sludge Age](https://www.youtube.com/watch?v=U_FKU05Sp6U)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -13,7 +23,7 @@
 - [ ] A step-by-step **troubleshooting method**
 - [ ] The "**first action**" rules the exam rewards
 - [ ] For each common problem: **symptoms → possible causes → checks → operator response**
-- [ ] How to tell similar problems apart (bulking vs rising sludge vs washout; low DO from overload vs equipment)
+- [ ] How to tell similar problems apart (bulking vs rising sludge vs washout; low DO (Dissolved Oxygen) from overload vs equipment)
 
 ---
 
@@ -45,18 +55,18 @@
 ### 3.1 High effluent TSS
 | | |
 |---|---|
-| **Symptoms** | Cloudy effluent; solids over secondary weirs; high lab TSS; often high BOD and P too |
-| **Possible causes** | Bulking sludge; rising sludge (denitrification); hydraulic overload (storm); high sludge blanket (RAS too low / RAS pump failed); pin floc (old sludge); straggler/dispersed floc (young sludge or toxicity); algae (lagoons/weirs); short-circuiting; collector failure |
-| **Checks** | Blanket depth; settleometer (slow? floats later? cloudy?); flow vs normal; RAS pump & flow; SVI; microscope; SRT trend; weirs level/clean; clarifier drive |
+| **Symptoms** | Cloudy effluent; solids over secondary weirs; high lab TSS (Total Suspended Solids); often high BOD (Biochemical Oxygen Demand) and P too |
+| **Possible causes** | Bulking sludge; rising sludge (denitrification); hydraulic overload (storm); high sludge blanket (RAS (Return Activated Sludge) too low / RAS pump failed); pin floc (old sludge); straggler/dispersed floc (young sludge or toxicity); algae (lagoons/weirs); short-circuiting; collector failure |
+| **Checks** | Blanket depth; settleometer (slow? floats later? cloudy?); flow vs normal; RAS pump & flow; SVI (Sludge Volume Index); microscope; SRT (Solids Retention Time) trend; weirs level/clean; clarifier drive |
 | **Response** | Fix the cause: restore/↑ RAS for high blanket; storm procedures for overload; ↑ RAS for rising sludge; adjust wasting for pin floc (↑) or young sludge (↓); bulking control (Module 5); clean/level weirs |
 
 ### 3.2 Poor settling / bulking sludge
 | | |
 |---|---|
-| **Symptoms** | Settleometer settles **slowly**; SSV₃₀ high; **SVI > ~150–200**; blanket high/rising; microscope shows many **filaments** extending out of the floc |
+| **Symptoms** | Settleometer settles **slowly**; SSV₃₀ (Settled Sludge Volume after 30 minutes) high; **SVI > ~150–200**; blanket high/rising; microscope shows many **filaments** extending out of the floc |
 | **Possible causes** | **Low DO**; **low F/M** (long SRT); **nutrient deficiency** (N or P — industrial wastes); **septic influent/sulphides**; **low pH**; **grease** |
-| **Checks** | DO profile; F/M & SRT; influent N and P vs BOD (100:5:1); septic odours/H₂S at headworks; pH; FOG; filament identification |
-| **Response** | **Short-term:** ↑ RAS to hold the blanket down; consider RAS chlorination or polymer (per SOP, carefully). **Long-term:** fix DO, adjust SRT/F/M, add nutrients, control septicity, control grease |
+| **Checks** | DO profile; F/M & SRT; influent N and P vs BOD (100:5:1); septic odours/H₂S at headworks; pH; FOG (Fats, Oils and Grease); filament identification |
+| **Response** | **Short-term:** ↑ RAS to hold the blanket down; consider RAS chlorination or polymer (per SOP (Standard Operating Procedure), carefully). **Long-term:** fix DO, adjust SRT/F/M, add nutrients, control septicity, control grease |
 
 ### 3.3 Rising sludge (denitrification)
 | | |
@@ -77,7 +87,7 @@
 ### 3.5 Excessive DO
 | | |
 |---|---|
-| **Symptoms** | DO well above target (e.g., > 4 mg/L) |
+| **Symptoms** | DO well above target (e.g., > 4 mg/L (milligrams per litre)) |
 | **Possible causes** | Over-aeration (wasted energy); **low load** (night, holiday); **toxic upset** (bugs not consuming O₂ — especially if DO **suddenly** rises with poor effluent); failed DO controller/probe |
 | **Checks** | Was air changed? Influent load? Effluent quality/turbidity (toxic?); microscope (dead/inactive protozoa?); probe calibration |
 | **Response** | Reduce air (energy savings, protect floc and anoxic zones); if **toxic upset** suspected: notify, sample influent, find the source, protect the biomass (reduce wasting, divert/hold the toxic flow if possible) |
@@ -85,7 +95,7 @@
 ### 3.6 High effluent ammonia
 | | |
 |---|---|
-| **Symptoms** | Effluent NH₃-N above normal/permit |
+| **Symptoms** | Effluent NH₃-N (ammonia measured as nitrogen) above normal/permit |
 | **Possible causes** | **Low SRT** (over-wasting); **low DO**; **cold temperature**; **low alkalinity/pH**; **toxic/inhibitory discharge**; ammonia overload (return streams, septage) |
 | **Checks** | SRT; DO (≥ 2 mg/L?); temperature; alkalinity and pH; influent ammonia/return streams; nitrite (partial nitrification?) |
 | **Response** | **↓ wasting** (↑ SRT); ↑ DO; **add alkalinity** if low; control return streams; investigate toxics |
@@ -94,7 +104,7 @@
 | | |
 |---|---|
 | **Symptoms** | Effluent BOD/CBOD above normal/permit |
-| **Possible causes** | **Solids carryover** (TSS contains BOD); organic overload; low DO; low MLSS (over-wasting/washout); toxic upset; short HRT (storms); short-circuiting; nitrification in BOD test (use CBOD) |
+| **Possible causes** | **Solids carryover** (TSS contains BOD); organic overload; low DO; low MLSS (over-wasting/washout); toxic upset; short HRT (storms); short-circuiting; nitrification in BOD test (use CBOD (Carbonaceous Biochemical Oxygen Demand)) |
 | **Checks** | Effluent TSS (often the real cause); DO; MLSS/F/M; influent load; flow; toxicity signs |
 | **Response** | Fix solids carryover first; restore DO; adjust biomass; manage loads |
 
@@ -102,7 +112,7 @@
 | | |
 |---|---|
 | **Symptoms** | Pump not running; wet-well level rising; alarm |
-| **Possible causes** | Power failure; tripped breaker/overload; blown fuse; HOA in Off/Hand; level control (float stuck/tangled); motor failure; seized pump (rags, bearings); moisture/thermal sensor trip (submersible) |
+| **Possible causes** | Power failure; tripped breaker/overload; blown fuse; HOA (Hand-Off-Auto, switch) in Off/Hand; level control (float stuck/tangled); motor failure; seized pump (rags, bearings); moisture/thermal sensor trip (submersible) |
 | **Checks** | Power present? Panel alarms/trips? HOA position? Floats/level sensor? Amps on restart attempt? |
 | **Response** | Start **standby pump**; protect against overflow (portable pump/vac truck if needed); **lock out** before any hands-on inspection; reset once only after finding/fixing the cause; call electrician/maintenance; **report any overflow** |
 
@@ -165,7 +175,7 @@
 | | |
 |---|---|
 | **Symptoms** | High *E. coli*/fecal coliform; low/no chlorine residual; UV alarms |
-| **Possible causes** | **Chlorine:** feed failure (empty cylinder/tank, airlocked pump, plugged ejector, frosted cylinder), increased **demand** (nitrite, ammonia, solids), high flow (less contact time), short-circuiting, weak/old hypochlorite. **UV:** fouled sleeves, failed lamps, low UVT, high TSS, high flow. **Both:** high effluent TSS shielding organisms |
+| **Possible causes** | **Chlorine:** feed failure (empty cylinder/tank, airlocked pump, plugged ejector, frosted cylinder), increased **demand** (nitrite, ammonia, solids), high flow (less contact time), short-circuiting, weak/old hypochlorite. **UV:** fouled sleeves, failed lamps, low UVT (Ultraviolet Transmittance), high TSS, high flow. **Both:** high effluent TSS shielding organisms |
 | **Checks** | Residual at contact chamber end; feed equipment; nitrite; TSS; flow; UV intensity, lamp status, sleeve condition |
 | **Response** | Restore feed/increase dose; fix upstream solids; clean sleeves/replace lamps; report permit exceedances |
 
@@ -182,21 +192,21 @@
 |---|---|
 | **Symptoms** | Black influent, **rotten-egg (H₂S)** odour at headworks, corrosion, gas detector alarms |
 | **Possible causes** | Long sewer travel times, low flows, warm weather, force mains, septage |
-| **Checks** | H₂S readings; influent ORP/DO; time of year |
+| **Checks** | H₂S (hydrogen sulphide) readings; influent ORP/DO; time of year |
 | **Response** | Gas safety precautions; pre-aeration; odour control chemicals in the collection system (per program); manage septage receiving |
 
 ### 3.19 Anaerobic digester upset (souring)
 | | |
 |---|---|
-| **Symptoms** | **VA/ALK ratio rising**, alkalinity falling, **pH falling (late)**, gas production falling, CO₂ % rising, odour/foam |
+| **Symptoms** | **VA/ALK (Volatile Acids to Alkalinity ratio) ratio rising**, alkalinity falling, **pH falling (late)**, gas production falling, CO₂ (carbon dioxide) % rising, odour/foam |
 | **Possible causes** | Overfeeding; temperature change; toxics; poor mixing; thin sludge (short SRT) |
 | **Response** | **Reduce feed**, add alkalinity (per SOP), stabilize temperature (≤ 1 °C/day changes), keep mixing; find the cause |
 
 ### 3.20 Power failure
 | | |
 |---|---|
-| **Symptoms** | Equipment down; generator should start; SCADA on UPS |
-| **Checks** | Generator running and ATS transferred? Fuel? Critical loads (pumps, blowers, disinfection) restored? Lift stations? |
+| **Symptoms** | Equipment down; generator should start; SCADA (Supervisory Control And Data Acquisition) on UPS (Uninterruptible Power Supply) |
+| **Checks** | Generator running and ATS (Automatic Transfer Switch) transferred? Fuel? Critical loads (pumps, blowers, disinfection) restored? Lift stations? |
 | **Response** | Confirm standby power; manually start/transfer if needed; prioritize pumping (prevent overflows) and disinfection; deploy portable generators; **report overflows/bypasses**; restart equipment in an orderly sequence when power returns |
 
 ---
@@ -333,7 +343,7 @@
     C. Increase feeding to "feed the bugs"
     D. Raise the temperature 8 °C immediately
 
-15. An operator smells rotten eggs at the headworks and the portable gas detector shows 15 ppm H₂S. The operator should:
+15. An operator smells rotten eggs at the headworks and the portable gas detector shows 15 ppm (parts per million) H₂S. The operator should:
     A. Continue working; the smell means the level is low
     B. Leave the area, ventilate, and follow the plant's H₂S procedure before continuing
     C. Put on a dust mask

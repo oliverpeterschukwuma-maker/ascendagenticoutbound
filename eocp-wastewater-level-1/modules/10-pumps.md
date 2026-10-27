@@ -2,7 +2,17 @@
 
 ← [Module 9](09-sludge-biosolids.md) · [Course index](../README.md) · Next → [Module 11 — Valves & Piping](11-valves-piping.md)
 
-**NTK area:** **Equipment Evaluation, Maintenance and/or Operation — the biggest part of the exam (≈39%).** Pumps are the most common piece of equipment at any plant, so expect many questions here. Math: head, pressure, pump power, pumping rate ([Math 17D](../math/17d-process-pumps-pressure-lab.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BEP** = Best Efficiency Point · **HOA** = Hand-Off-Auto (switch) · **I/I** = Infiltration and Inflow · **kPa** = kilopascal · **NPSH** = Net Positive Suction Head · **NPSHa** = Net Positive Suction Head available · **NPSHr** = Net Positive Suction Head required · **NTK** = Need-to-Know Criteria · **OSHA** = Occupational Safety and Health Administration (US) · **PC** = Progressive Cavity · **PD** = Positive Displacement · **PM** = Preventive Maintenance · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **SOP** = Standard Operating Procedure · **TDH** = Total Dynamic Head · **VFD** = Variable Frequency Drive
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** **Equipment Evaluation, Maintenance and/or Operation — the biggest part of the exam (≈39%).** Pumps are the most common piece of equipment at any plant, so expect many questions here. Math: head, pressure, pump power, pumping rate ([Math 17D](../math/17d-process-pumps-pressure-lab.md)).
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [How does a Centrifugal pump work? (animation; priming, cavitation, NPSH)](https://www.youtube.com/watch?v=BaEHVpKc-1Q) · [Pump Cavitation Explained: Top Causes and How to Avoid](https://www.youtube.com/watch?v=mkOfuZb1a2c) · [How to Read a Pump Curve: Simple Explanation](https://www.youtube.com/watch?v=VuD1yuvB5mg) · [What is the BEST EFFICIENCY POINT of a pump?](https://www.youtube.com/watch?v=no1ltcRCGgg) · [Packed Gland Sealing Explained](https://www.youtube.com/watch?v=l-vrE0NaV8k) · [Centrifugal Pump Gland Packing With a Lantern Ring](https://www.youtube.com/watch?v=UnNlBfv8p0k)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -10,7 +20,7 @@
 
 - [ ] Two families of pumps: **centrifugal (dynamic)** and **positive displacement** — how each works and where each is used
 - [ ] **Centrifugal pump parts**: impeller, volute/casing, shaft, sleeve, wear rings, stuffing box, packing, lantern ring, seal water, mechanical seal, bearings, coupling
-- [ ] **PD pump types**: plunger/piston, diaphragm, progressive cavity, lobe, peristaltic (hose); metering pumps
+- [ ] **PD (Positive Displacement) pump types**: plunger/piston, diaphragm, progressive cavity, lobe, peristaltic (hose); metering pumps
 - [ ] **Submersible pumps** and wet-well controls (floats, level sensors, lead/lag, alternation)
 - [ ] **Suction vs discharge**; **head** terms (static, friction, total dynamic head); suction lift vs suction head
 - [ ] **Priming**; **air locking / air binding**
@@ -37,7 +47,7 @@ There are two families:
 | How it works | A spinning **impeller** flings liquid outward (centrifugal force), building pressure in the casing | Traps a **fixed volume** of liquid and **pushes** it out — every stroke/turn moves the same amount |
 | Flow vs pressure | Flow **changes** a lot with pressure (more head → less flow) | Flow stays **nearly constant** no matter the pressure |
 | Closed discharge valve | Pump keeps spinning; flow stops; water **heats up** (don't run long — but won't instantly blow up) | **Pressure builds until something breaks** (pipe, pump, motor) — **NEVER run against a closed discharge.** Needs a **pressure relief valve** |
-| Good for | Large flows of water/wastewater: influent pumps, lift stations, RAS, effluent | **Thick sludge**, scum, **chemical metering** (exact amounts), polymer |
+| Good for | Large flows of water/wastewater: influent pumps, lift stations, RAS (Return Activated Sludge), effluent | **Thick sludge**, scum, **chemical metering** (exact amounts), polymer |
 | Self-priming? | Usually **no** (unless designed as self-priming) | Most are self-priming |
 | Examples | End-suction, split-case, vertical turbine, submersible, recessed-impeller | Plunger, piston, diaphragm, progressive cavity, lobe, gear, peristaltic (hose) |
 
@@ -153,7 +163,7 @@ SUCTION ─┼─►    │ IMPELLER │  ◄── spins; flings water outward
   ───────────── supply water surface (below pump = suction LIFT)
 ```
 
-**Pressure ↔ head (memorize for math):** **1 psi = 2.31 ft of water**; **1 ft = 0.433 psi**; **1 m of water ≈ 9.81 kPa**.
+**Pressure ↔ head (memorize for math):** **1 psi (pounds per square inch) = 2.31 ft of water**; **1 ft = 0.433 psi**; **1 m of water ≈ 9.81 kPa (kilopascal)**.
 
 ### 2.7 Priming, air locking and air binding
 
@@ -214,7 +224,7 @@ A **pump curve** (from the manufacturer) shows how a centrifugal pump performs:
 
 ### 2.10 Starting and stopping
 
-**Centrifugal pump (typical SOP — follow your plant's):**
+**Centrifugal pump (typical SOP (Standard Operating Procedure) — follow your plant's):**
 1. Check that it's safe (guards on, no lockout, people clear).
 2. **Open the suction valve fully.**
 3. Make sure the pump is **primed** (vent air).
@@ -311,7 +321,7 @@ A **pump curve** (from the manufacturer) shows how a centrifugal pump performs:
 
 | UNDERSTAND | MEMORIZE | RECOGNIZE |
 |---|---|---|
-| Why PD pumps break things against a closed valve | Packing drips / seal doesn't | NPSHa vs NPSHr |
+| Why PD pumps break things against a closed valve | Packing drips / seal doesn't | NPSHa (Net Positive Suction Head available) vs NPSHr (Net Positive Suction Head required) |
 | Why cavitation happens and how to stop it | Cavitation sound + fixes | Affinity laws |
 | How the pump curve trades head for flow | psi ↔ ft ↔ kPa | Vertical turbine, split-case, axial-flow pumps |
 | Why misalignment destroys bearings/seals | Lead/lag/alternation | Radial vs thrust bearings |
@@ -481,7 +491,7 @@ A **pump curve** (from the manufacturer) shows how a centrifugal pump performs:
 | 16 | **B** | Dry running burns the rubber stator. |
 | 17 | **B** | Sudden stop of moving water → pressure surge. |
 | 18 | **B** | Parallel adds flow; series adds head. |
-| 19 | **B** | Lockout and verify; HOA "Off" is a control, not isolation. |
+| 19 | **B** | Lockout and verify; HOA (Hand-Off-Auto, switch) "Off" is a control, not isolation. |
 | 20 | **B** | Slightly higher, so clean water flows in and grit stays out. |
 
 **Scoring:** 18–20 strong · 14–17 review cavitation and packing · < 14 redo sections 2.2–2.8.

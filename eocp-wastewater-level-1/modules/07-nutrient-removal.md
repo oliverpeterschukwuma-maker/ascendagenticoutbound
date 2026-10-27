@@ -2,16 +2,26 @@
 
 ← [Module 6](06-secondary-clarification.md) · [Course index](../README.md) · Next → [Module 8 — Disinfection](08-disinfection.md)
 
-**NTK area:** Treatment Process Evaluation & Adjustment. Level I tests the **basic ideas**: what nitrification and denitrification are, what conditions they need, why phosphorus matters, and the basics of chemical and biological phosphorus removal. Detailed BNR design is Level III–IV — not covered here.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **A2O** = Anaerobic-Anoxic-Oxic process · **BNR** = Biological Nutrient Removal · **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **DO** = Dissolved Oxygen · **EBPR** = Enhanced Biological Phosphorus Removal · **mg/L** = milligrams per litre · **MLE** = Modified Ludzack-Ettinger (anoxic-first nitrogen removal) · **mV** = millivolts · **NH₃** = ammonia · **NH₃-N** = ammonia measured as nitrogen · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NO₃** = nitrate · **NO₃-N** = nitrate measured as nitrogen · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **ORP** = Oxidation-Reduction Potential · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PAOs** = Phosphorus-Accumulating Organisms · **PPE** = Personal Protective Equipment · **RAS** = Return Activated Sludge · **SOP** = Standard Operating Procedure · **SRT** = Solids Retention Time · **TKN** = Total Kjeldahl Nitrogen · **TN** = Total Nitrogen · **TSS** = Total Suspended Solids · **VFAs** = Volatile Fatty Acids · **WAS** = Waste Activated Sludge
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Treatment Process Evaluation & Adjustment. Level I tests the **basic ideas**: what nitrification and denitrification are, what conditions they need, why phosphorus matters, and the basics of chemical and biological phosphorus removal. Detailed BNR (Biological Nutrient Removal) design is Level III–IV — not covered here.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Wastewater Instructional Video: Wastewater Nitrification](https://www.youtube.com/watch?v=ttNdhxw0Dcg) · [Wastewater Instructional Video: Wastewater DeNitrification](https://www.youtube.com/watch?v=Gma25jZ0lwI) · [Nitrogen Removal in Municipal Wastewater](https://www.youtube.com/watch?v=M3VDmhYQRrU)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
 ## 1. What you need to know (checklist)
 
 **Nitrogen**
-- [ ] Forms of nitrogen: organic N, ammonia, nitrite, nitrate, nitrogen gas; TKN
+- [ ] Forms of nitrogen: organic N, ammonia, nitrite, nitrate, nitrogen gas; TKN (Total Kjeldahl Nitrogen)
 - [ ] Why ammonia is a problem (toxic to fish, oxygen demand)
-- [ ] **Nitrification**: what it is, which bacteria, what it needs (DO, SRT, temperature, pH, alkalinity)
+- [ ] **Nitrification**: what it is, which bacteria, what it needs (DO (Dissolved Oxygen), SRT (Solids Retention Time), temperature, pH, alkalinity)
 - [ ] Nitrification uses **oxygen** and **alkalinity**
 - [ ] **Denitrification**: what it is, what it needs (anoxic, carbon/BOD, nitrate)
 - [ ] Denitrification in the wrong place → **rising sludge**
@@ -20,8 +30,8 @@
 **Phosphorus**
 - [ ] Why phosphorus matters (eutrophication)
 - [ ] **Chemical P removal** (alum, ferric): how, where, side effects
-- [ ] **Biological P removal**: anaerobic then aerobic; removed in WAS; secondary release
-- [ ] Basic operator monitoring (ammonia, nitrate, phosphate, alkalinity, ORP)
+- [ ] **Biological P removal**: anaerobic then aerobic; removed in WAS (Waste Activated Sludge); secondary release
+- [ ] Basic operator monitoring (ammonia, nitrate, phosphate, alkalinity, ORP (Oxidation-Reduction Potential))
 
 ---
 
@@ -66,7 +76,7 @@
 
 **Nitrifying bacteria are "fussy"** — they are:
 - **Slow-growing** → need a **long sludge age (SRT)**. If you waste too much, they wash out first.
-- **Aerobic only** → need DO (commonly **≥ 2 mg/L** in the aeration tank for good nitrification). **[SUPPLEMENTAL]**
+- **Aerobic only** → need DO (commonly **≥ 2 mg/L (milligrams per litre)** in the aeration tank for good nitrification). **[SUPPLEMENTAL]**
 - **Temperature-sensitive** → slow way down in cold water (BC winters!). Need an even longer SRT in winter.
 - **pH-sensitive** → like roughly **7.0–8.0**; slow down a lot below ~6.8. **[SUPPLEMENTAL]**
 - **Sensitive to toxics** (metals, solvents) — often the first thing to stop working after a toxic discharge.
@@ -88,11 +98,11 @@
 **What it needs:**
 1. **Nitrate** (from nitrification)
 2. **Anoxic conditions** — no DO (low, roughly < 0.3–0.5 mg/L), so bacteria "breathe" the oxygen in nitrate instead **[SUPPLEMENTAL]**
-3. **A carbon source ("food")** — BOD from the wastewater, or added carbon (e.g., methanol) at some plants
+3. **A carbon source ("food")** — BOD (Biochemical Oxygen Demand) from the wastewater, or added carbon (e.g., methanol) at some plants
 
 **Good side effects:** denitrification **gets back about half the alkalinity** lost in nitrification and reduces oxygen demand.
 
-**Where it happens (on purpose):** in an **anoxic zone/tank** — often at the **front** of the aeration basin, with **internal recycle** of nitrate-rich mixed liquor from the end of the aerobic zone. (A common layout is the "MLE" — recognize only.)
+**Where it happens (on purpose):** in an **anoxic zone/tank** — often at the **front** of the aeration basin, with **internal recycle** of nitrate-rich mixed liquor from the end of the aerobic zone. (A common layout is the "MLE (Modified Ludzack-Ettinger, anoxic-first nitrogen removal)" — recognize only.)
 
 ```
                         internal recycle (nitrate-rich mixed liquor)
@@ -105,7 +115,7 @@ Influent ─► ANOXIC zone ─────────► AEROBIC zone ──�
             └──────────────────────── RAS ──────────────────────────────┘
 ```
 
-**Where it happens by accident:** in the **secondary clarifier sludge blanket** if sludge sits too long → **N₂ bubbles float the sludge** → **rising sludge** (Module 6). Fix: increase RAS, lower the blanket.
+**Where it happens by accident:** in the **secondary clarifier sludge blanket** if sludge sits too long → **N₂ bubbles float the sludge** → **rising sludge** (Module 6). Fix: increase RAS (Return Activated Sludge), lower the blanket.
 
 ### 2.5 Partial nitrification and chlorine ("nitrite lock") [SUPPLEMENTAL]
 
@@ -135,7 +145,7 @@ If nitrification is only **partly** working (e.g., during start-up, cold weather
 - **Makes more sludge** (chemical sludge).
 - **Overdosing** wastes money and can depress pH; **underdosing** misses the limit.
 - Dose is set by **jar testing** and adjusted with flow and phosphorus load.
-- Chemicals are **corrosive** — PPE, eyewash, compatible storage (keep away from hypochlorite and strong bases).
+- Chemicals are **corrosive** — PPE (Personal Protective Equipment), eyewash, compatible storage (keep away from hypochlorite and strong bases).
 
 ### 2.8 Biological phosphorus removal (Bio-P / EBPR) — basic idea
 
@@ -170,7 +180,7 @@ Special bacteria called **PAOs (Phosphorus-Accumulating Organisms)** can store e
 | **Orthophosphate / total P** | Influent, anaerobic/aerobic zones, effluent | P release/uptake; removal |
 | **Temperature** | Aeration | Cold → slower nitrification |
 
-**ORP rough guide [SUPPLEMENTAL — ranges vary by probe/plant]:** aerobic = positive (about +100 mV and up); anoxic = around −50 to +50 mV; anaerobic = negative (below about −100 mV).
+**ORP rough guide [SUPPLEMENTAL — ranges vary by probe/plant]:** aerobic = positive (about +100 mV (millivolts) and up); anoxic = around −50 to +50 mV; anaerobic = negative (below about −100 mV).
 
 ---
 
@@ -180,13 +190,13 @@ Special bacteria called **PAOs (Phosphorus-Accumulating Organisms)** can store e
 Think: nitrifiers are slow in the cold → **reduce wasting** (raise SRT), keep **DO ≥ 2 mg/L**, check **alkalinity/pH**, check for toxic discharges.
 
 **Scenario: effluent pH is dropping and ammonia is rising.**
-Think: nitrification ate the **alkalinity** → **add alkalinity** (per SOP), check DO.
+Think: nitrification ate the **alkalinity** → **add alkalinity** (per SOP (Standard Operating Procedure)), check DO.
 
 **Scenario: chlorine residual suddenly disappears; dose unchanged.**
 Think: **nitrite** from partial nitrification (or a higher load) → test nitrite, increase dose temporarily, fix nitrification.
 
 **Scenario: effluent phosphorus is high at a chemical-P plant.**
-Think: check **chemical feed pump** (running? airlocked? empty tank?), dose vs flow, pH, mixing, and solids carryover (P is in the solids — TSS escaping = P escaping).
+Think: check **chemical feed pump** (running? airlocked? empty tank?), dose vs flow, pH, mixing, and solids carryover (P is in the solids — TSS (Total Suspended Solids) escaping = P escaping).
 
 **Scenario: bio-P plant losing phosphorus removal.**
 Think: **nitrate or DO** entering the anaerobic zone; not enough VFAs (food); **secondary release** from long sludge holding; wasting too little.
@@ -203,7 +213,7 @@ Think: **nitrate or DO** entering the anaerobic zone; not enough VFAs (food); **
 6. Nitrification uses **≈4.6 mg O₂** and **≈7.1 mg alkalinity** per mg ammonia-N.
 7. **Denitrification = nitrate → N₂ gas; anoxic (no DO); needs carbon (BOD).** Returns some alkalinity.
 8. Denitrification in the clarifier → **rising sludge**.
-9. **Nitrite** uses up chlorine (~5 mg Cl₂/mg NO₂-N) → disinfection failure.
+9. **Nitrite** uses up chlorine (~5 mg Cl₂/mg NO₂-N (nitrite measured as nitrogen)) → disinfection failure.
 10. Phosphorus is the **limiting nutrient** in fresh water; it can only be **moved into sludge** — removed by **wasting**.
 11. **Chemical P removal:** alum or ferric → precipitate; **lowers alkalinity/pH; more sludge**.
 12. **Bio-P:** **anaerobic (P release) → aerobic (P uptake)**; nitrate/DO in the anaerobic zone ruins it; **secondary release** from anaerobic sludge.
@@ -214,7 +224,7 @@ Think: **nitrate or DO** entering the anaerobic zone; not enough VFAs (food); **
 
 | UNDERSTAND | MEMORIZE | RECOGNIZE |
 |---|---|---|
-| Why nitrifiers wash out with low SRT | N pathway and order | MLE, A2O, Bardenpho, 4-stage/5-stage |
+| Why nitrifiers wash out with low SRT | N pathway and order | MLE, A2O (Anaerobic-Anoxic-Oxic process), Bardenpho, 4-stage/5-stage |
 | Why nitrification lowers pH | 4.6 O₂ / 7.1 alkalinity | *Nitrospira*, AOB/NOB |
 | Why denitrification needs no DO but needs BOD | Conditions for nitrification vs denitrification | Methanol as carbon source |
 | Why P can only leave in sludge | Alum/ferric; alkalinity loss | Struvite (scaling of pipes in digesters) |
@@ -335,7 +345,7 @@ Think: **nitrate or DO** entering the anaerobic zone; not enough VFAs (food); **
 | 3 | **B** | Longer SRT keeps slow-growing nitrifiers. A washes them out. C stops nitrification. D kills bugs. |
 | 4 | **A** | Nitrification consumed alkalinity → pH fell → add alkalinity. B lowers pH further. C stops nitrification. D lowers SRT. |
 | 5 | **B** | TKN = organic N + ammonia N. |
-| 6 | **C** | ≈4.57 mg O₂ per mg NH₃-N. |
+| 6 | **C** | ≈4.57 mg O₂ per mg NH₃-N (ammonia measured as nitrogen). |
 | 7 | **B** | Nitrite consumes chlorine (~5:1). A: nitrate doesn't consume chlorine. C would lower demand. |
 | 8 | **B** | Eutrophication. |
 | 9 | **C** | Metal salts consume alkalinity and add chemical sludge. |

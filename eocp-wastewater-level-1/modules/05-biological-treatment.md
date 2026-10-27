@@ -2,28 +2,38 @@
 
 ← [Module 4](04-primary-treatment.md) · [Course index](../README.md) · Next → [Module 6 — Secondary Clarification](06-secondary-clarification.md)
 
-**NTK area:** Treatment Process Evaluation & Adjustment (≈38% of the exam) — activated sludge is the core process topic for Level I. Math overlap: F/M, SRT, SVI, MLVSS, loading (see [Math 17D](../math/17d-process-pumps-pressure-lab.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **CO₂** = carbon dioxide · **DO** = Dissolved Oxygen · **F/M** = Food-to-Microorganism ratio · **FOG** = Fats, Oils and Grease · **HRT** = Hydraulic Retention Time · **H₂S** = hydrogen sulphide · **MBBR** = Moving Bed Biofilm Reactor · **MBR** = Membrane Bioreactor · **MCRT** = Mean Cell Residence Time · **mg/L** = milligrams per litre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PFD** = Personal Flotation Device · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RBCs** = Rotating Biological Contactors · **SBR** = Sequencing Batch Reactor · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **WAS** = Waste Activated Sludge · **WPI** = Water Professionals International
+<!-- abbr-end -->
 
-**Why this module includes lagoons and fixed-film:** Many BC Level I facilities are **lagoons**, **package extended-aeration plants**, **SBRs**, **oxidation ditches**, **RBCs** or **trickling filters**. The WPI treatment exams cover common biological processes, so you need basic operation of each (Part B and C below), with activated sludge as the core.
+**NTK (Need-to-Know Criteria) area:** Treatment Process Evaluation & Adjustment (≈38% of the exam) — activated sludge is the core process topic for Level I. Math overlap: F/M (Food-to-Microorganism ratio), SRT (Solids Retention Time), SVI (Sludge Volume Index), MLVSS (Mixed Liquor Volatile Suspended Solids), loading (see [Math 17D](../math/17d-process-pumps-pressure-lab.md)).
+
+**Why this module includes lagoons and fixed-film:** Many BC Level I facilities are **lagoons**, **package extended-aeration plants**, **SBRs**, **oxidation ditches**, **RBCs** (Rotating Biological Contactors) or **trickling filters**. The WPI (Water Professionals International) treatment exams cover common biological processes, so you need basic operation of each (Part B and C below), with activated sludge as the core.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Wastewater Instructional Video: Introduction to Activated Sludge](https://www.youtube.com/watch?v=0Zfj8Vg_3HM) · [Activated Sludge Process Explained in 2 Minutes](https://www.youtube.com/watch?v=DB39CO6DL3Q) · [9 Activated Sludge Configurations Every Wastewater Operator Should Know](https://www.youtube.com/watch?v=N8D9LvYURuI) · [Activated Sludge Process Control and Troubleshooting](https://www.youtube.com/watch?v=RmQZPD14EnU) · [What is SVI (sludge volume index)?](https://www.youtube.com/watch?v=7roYQ3jMVD4) · [Wastewater Treatment Ponds: Facultative, Aerobic & Anaerobic Lagoons Explained](https://www.youtube.com/watch?v=5Cvng9aJi_0) · [2.0 Facultative Lagoons (operator training)](https://www.youtube.com/watch?v=JDyrVHBUgtE) · [Wastewater Instructional Video: Trickling Filters and RBCs](https://www.youtube.com/watch?v=IA0Mwn8fpD0) · [Fixed-Film Secondary Treatment: Trickling Filters & RBCs Explained for Operators](https://www.youtube.com/watch?v=saWHYx8NnYE)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
 ## 1. What you need to know (checklist)
 
 **Biology basics**
-- [ ] What microorganisms do in treatment (eat organics → CO₂ + water + new cells)
+- [ ] What microorganisms do in treatment (eat organics → CO₂ (carbon dioxide) + water + new cells)
 - [ ] **Aerobic, anaerobic, anoxic, facultative** — definitions and where each occurs
 - [ ] Organisms seen under the microscope and what they indicate (flagellates, amoebae, ciliates, rotifers, filaments)
-- [ ] Oxygen requirement; why DO is controlled; typical DO range
+- [ ] Oxygen requirement; why DO (Dissolved Oxygen) is controlled; typical DO range
 - [ ] Factors affecting biology: food, DO, temperature, pH, nutrients, toxics, time
 
 **Activated sludge (Part A)**
 - [ ] Complete flow: influent → aeration → secondary clarifier → RAS/WAS → effluent
 - [ ] Aeration equipment: diffused (fine/coarse bubble), mechanical surface aerators, blowers
-- [ ] Define and use **MLSS, MLVSS, RAS, WAS, SRT/sludge age/MCRT, F/M, SVI, SSV₃₀ (settleometer)**
+- [ ] Define and use **MLSS (Mixed Liquor Suspended Solids), MLVSS, RAS (Return Activated Sludge), WAS (Waste Activated Sludge), SRT/sludge age/MCRT, F/M, SVI, SSV₃₀ (settleometer)**
 - [ ] Relationships: what happens to MLSS, F/M, SRT when you waste more or less
 - [ ] RAS controls **where** the sludge is; WAS controls **how much** sludge is in the system
-- [ ] Process variations: conventional, complete mix, extended aeration, oxidation ditch, contact stabilization, SBR
+- [ ] Process variations: conventional, complete mix, extended aeration, oxidation ditch, contact stabilization, SBR (Sequencing Batch Reactor)
 - [ ] Filamentous organisms & **bulking**; **foaming** (white vs brown vs dark); **rising sludge**; pin floc; dispersed growth
 - [ ] What to look for when the process is not performing
 
@@ -59,9 +69,9 @@ Secondary treatment uses **living microorganisms (mostly bacteria)** to **eat** 
 
 | Condition | Oxygen available | Where it happens | What happens |
 |---|---|---|---|
-| **Aerobic** | **Dissolved oxygen (O₂) present** | Aeration tanks, top of lagoons, trickling filters | Fast, odour-free breakdown of BOD; nitrification |
+| **Aerobic** | **Dissolved oxygen (O₂) present** | Aeration tanks, top of lagoons, trickling filters | Fast, odour-free breakdown of BOD (Biochemical Oxygen Demand); nitrification |
 | **Anoxic** | **No DO**, but **nitrate (NO₃⁻)** present (bound oxygen) | Anoxic zones, sludge blanket in clarifier | Bacteria "breathe" nitrate → **denitrification** (N₂ gas) |
-| **Anaerobic** | **No DO and no nitrate** | Digesters, bottom of lagoons, septic sewers, bio-P anaerobic zone | Slow breakdown; produces **methane, H₂S, CO₂**, odours |
+| **Anaerobic** | **No DO and no nitrate** | Digesters, bottom of lagoons, septic sewers, bio-P anaerobic zone | Slow breakdown; produces **methane, H₂S (hydrogen sulphide), CO₂**, odours |
 | **Facultative** (organism) | — | Everywhere | Bacteria that can live **with or without** oxygen (switch methods). Most treatment bacteria are facultative |
 
 **Memory trick:** **A-N-O-X-ic = "Aerobic? NO. But X (nitrate) is there."**
@@ -76,7 +86,7 @@ Secondary treatment uses **living microorganisms (mostly bacteria)** to **eat** 
 | **pH** | Bugs work best near neutral | ~**6.5–8.5** (nitrification best ~7–8) |
 | **Nutrients** | Needed for cell growth | BOD:N:P ≈ **100:5:1** |
 | **Toxics** | Metals, solvents, high chlorine, extreme pH kill/inhibit bugs | None |
-| **Time** | Contact time for bugs to work | Adequate HRT and SRT |
+| **Time** | Contact time for bugs to work | Adequate HRT (Hydraulic Retention Time) and SRT |
 | **Mixing** | Keep bugs in contact with food, prevent settling in the tank | Uniform suspension |
 
 ---
@@ -134,7 +144,7 @@ effluent ──►│          AERATION TANK               │──liquor ─�
 | **RAS** | Settled sludge returned to aeration | Keeps biomass in the system; controls clarifier **blanket** |
 | **WAS** | Sludge removed from the system | **Main control of sludge inventory, sludge age, F/M** |
 | **F/M ratio** (Food-to-Microorganism) | kg BOD entering per day ÷ kg MLVSS in aeration | Balance of food vs bugs |
-| **SRT / sludge age / MCRT** | Average time (days) bugs stay in the system | Determines the "age" and type of the biomass; nitrification needs a long enough SRT |
+| **SRT / sludge age / MCRT (Mean Cell Residence Time)** | Average time (days) bugs stay in the system | Determines the "age" and type of the biomass; nitrification needs a long enough SRT |
 | **HRT** (hydraulic retention time) | Tank volume ÷ flow (hours) | How long the **water** stays — *different* from how long the **bugs** stay |
 | **SSV₃₀** (settled sludge volume) | mL/L of sludge after 30 min settling in a settleometer | Shows settleability |
 | **SVI** (Sludge Volume Index, mL/g) | SSV₃₀ × 1000 ÷ MLSS | Volume 1 g of sludge occupies after settling. **Low = settles well; high = bulking** |
@@ -239,7 +249,7 @@ Protozoa and rotifers are **indicators** — they eat free bacteria, which helps
 | Foam | Likely cause | Action |
 |---|---|---|
 | **White, billowy, crisp** (soap-sud-like) | **Young sludge**: start-up, low MLSS, high F/M, low SRT; or surfactants/detergents; possible toxic upset | **Reduce wasting** (build MLSS/SRT); water sprays |
-| **Thick, dark tan/brown, greasy, stable (scummy)** | **Old sludge**, high SRT, low F/M; filamentous foaming organisms (e.g., *Nocardia/Gordonia*, *Microthrix*); grease | **Increase wasting** (lower SRT), remove foam from the system (don't recycle it), reduce FOG |
+| **Thick, dark tan/brown, greasy, stable (scummy)** | **Old sludge**, high SRT, low F/M; filamentous foaming organisms (e.g., *Nocardia/Gordonia*, *Microthrix*); grease | **Increase wasting** (lower SRT), remove foam from the system (don't recycle it), reduce FOG (Fats, Oils and Grease) |
 | **Very dark brown to black** | **Septic/anaerobic** conditions; low DO | Increase aeration, check for septic influent/recycle streams |
 
 **Rising sludge** (in the secondary clarifier) — sludge settles, then **clumps float back up** with tiny gas bubbles, often in **patches**. Caused by **denitrification**: nitrate in the settled sludge is converted by bacteria to **nitrogen gas** bubbles, which float the sludge. Happens when the plant **nitrifies** and sludge sits too long in the clarifier. Fix: **increase RAS rate** (shorter clarifier time), **lower blanket**, adjust SRT/DO (see Module 6 & 7).
@@ -332,7 +342,7 @@ Lagoons are large earthen basins where wastewater is held for **weeks to months*
 - Prevent **short-circuiting** (inlet/outlet placement, series operation).
 - Monitor DO, pH, temperature, colour, odours, freeboard, and effluent quality; some lagoons discharge only in certain seasons (per permit).
 - Remove accumulated sludge every several years.
-- **Drowning hazard** — never work alone near the water; PFD and life ring.
+- **Drowning hazard** — never work alone near the water; PFD (Personal Flotation Device) and life ring.
 
 ---
 
@@ -383,7 +393,7 @@ In fixed-film processes the bugs grow as a **slime layer (biofilm)** attached to
 2. **DO:** check readings; confirm with a portable meter; adjust air.
 3. **Settleometer (SSV₃₀):** read at 5, 10, 15, 20, 30, 60 min; watch supernatant clarity; check for floating after 1–2 h.
 4. **Clarifier blanket depth:** adjust RAS.
-5. **Lab data:** MLSS, MLVSS, RAS/WAS solids, influent/effluent BOD & TSS, ammonia → calculate F/M, SRT, SVI.
+5. **Lab data:** MLSS, MLVSS, RAS/WAS solids, influent/effluent BOD & TSS (Total Suspended Solids), ammonia → calculate F/M, SRT, SVI.
 6. **Decide wasting** (small changes), record everything.
 7. **Microscope** weekly or when things change.
 
@@ -416,7 +426,7 @@ In fixed-film processes the bugs grow as a **slime layer (biofilm)** attached to
 17. Lagoons: DO & pH **highest late afternoon**, **lowest before dawn**; algae make O₂.
 18. Lagoon **pink/red = purple sulphur bacteria (anaerobic/overloaded)**; **grey/black = septic**; **green = healthy**.
 19. Trickling filter problems: **ponding, filter flies, odours, icing, sloughing**; **recirculation** fixes many.
-20. RBC: ~**40% submerged**; **brown/grey shaggy = normal**; **white = sulphur bacteria (overload/H₂S/low DO)**.
+20. RBC (Rotating Biological Contactor): ~**40% submerged**; **brown/grey shaggy = normal**; **white = sulphur bacteria (overload/H₂S/low DO)**.
 21. Make process changes **gradually** (≈10–15%/day for wasting).
 
 ---

@@ -2,7 +2,17 @@
 
 ← [Module 2](02-safety.md) · [Course index](../README.md) · Next → [Module 4 — Primary Treatment](04-primary-treatment.md)
 
-**NTK area:** Treatment Process Evaluation & Adjustment (≈38%); Equipment Evaluation, Maintenance & Operation (≈39%).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **H₂S** = hydrogen sulphide · **NTK** = Need-to-Know Criteria · **OSHA** = Occupational Safety and Health Administration (US) · **SG** = Specific Gravity · **TSS** = Total Suspended Solids
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Treatment Process Evaluation & Adjustment (≈38%); Equipment Evaluation, Maintenance & Operation (≈39%).
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Wastewater treatment plant screens — Part 1 (hand-cleaned screens)](https://www.youtube.com/watch?v=-9Z-ID8VMWE) · [Grit removal at a wastewater treatment plant (aerated grit chamber)](https://www.youtube.com/watch?v=KsKAQyg_HEE) · [Wastewater Screens & Screenings Handling Equipment (vendor overview)](https://www.youtube.com/watch?v=DDkKpgEMdVo)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -20,7 +30,7 @@
 - [ ] **Comminutors/grinders** — purpose and problems
 - [ ] Hydraulic considerations: channel velocity, headloss, flow measurement (flumes/weirs), bypasses, overflows
 - [ ] Problems caused by poor screening or grit removal
-- [ ] Safety at the headworks (H₂S, moving rakes, lockout)
+- [ ] Safety at the headworks (H₂S (hydrogen sulphide), moving rakes, lockout)
 
 ---
 
@@ -34,7 +44,7 @@ Raw sewage contains things that **don't belong in a treatment plant's machinery*
 - fill up tanks and digesters,
 - jam clarifier mechanisms and sludge lines.
 
-**Preliminary treatment does NOT remove much BOD.** Its job is **protection**, not purification.
+**Preliminary treatment does NOT remove much BOD (Biochemical Oxygen Demand).** Its job is **protection**, not purification.
 
 ### 2.2 The headworks — typical layout
 
@@ -184,7 +194,7 @@ Details in Module 13.
 1. Preliminary treatment **protects downstream equipment**; removes **rags, debris, grit** (little BOD removal).
 2. **Screens remove** material. **Comminutors shred** and leave it in the flow.
 3. Comminuted rags can **re-form ("rope")** and clog equipment downstream.
-4. **Grit** = heavy inorganic particles (sand, gravel, eggshells, coffee grounds); SG ≈ **2.65**.
+4. **Grit** = heavy inorganic particles (sand, gravel, eggshells, coffee grounds); SG (Specific Gravity) ≈ **2.65**.
 5. Grit channel velocity ≈ **0.3 m/s (1 ft/s)** — settle grit, keep organics suspended.
 6. **Too slow → organics settle with grit** (smelly, high volatile grit). **Too fast → grit passes downstream.**
 7. **Aerated grit chamber:** more air = less grit captured; less air = more organics captured.

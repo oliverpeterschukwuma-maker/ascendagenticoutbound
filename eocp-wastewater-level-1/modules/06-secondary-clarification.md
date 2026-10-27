@@ -2,9 +2,19 @@
 
 ← [Module 5](05-biological-treatment.md) · [Course index](../README.md) · Next → [Module 7 — Nutrient Removal](07-nutrient-removal.md)
 
-**NTK areas:** Treatment Process Evaluation & Adjustment (38%) and Equipment (39%). Math overlap: surface overflow rate, solids loading, RAS rate, detention time ([Math 17B](../math/17b-area-volume-flow-time.md), [17D](../math/17d-process-pumps-pressure-lab.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **DO** = Dissolved Oxygen · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **I/I** = Infiltration and Inflow · **mg/L** = milligrams per litre · **MLSS** = Mixed Liquor Suspended Solids · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **O&M** = Operations and Maintenance · **OSHA** = Occupational Safety and Health Administration (US) · **RAS** = Return Activated Sludge · **SLR** = Solids Loading Rate · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SSV** = Settled Sludge Volume · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) areas:** Treatment Process Evaluation & Adjustment (38%) and Equipment (39%). Math overlap: surface overflow rate, solids loading, RAS (Return Activated Sludge) rate, detention time ([Math 17B](../math/17b-area-volume-flow-time.md), [17D](../math/17d-process-pumps-pressure-lab.md)).
 
 > **Big idea:** The aeration tank turns dissolved "food" into bugs. **The secondary clarifier is where you find out if the bugs settle.** If they don't settle, they leave in the effluent — and the whole biological process has failed. Most "activated sludge problems" show up first in the secondary clarifier.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [How Secondary Clarifiers Work: RAS, WAS, and Sludge Age](https://www.youtube.com/watch?v=U_FKU05Sp6U) · [Sludge Judge Demonstration (measuring the blanket)](https://www.youtube.com/watch?v=UgPwYjOsnFM) · [How to check your Blanket in a Secondary Clarifier](https://www.youtube.com/watch?v=vimNObTKXNA) · [The Art of Wasting — WAS (Waste Activated Sludge)](https://www.youtube.com/watch?v=PTSzZ7A7MgI)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -29,7 +39,7 @@
 
 ### 2.1 What a secondary clarifier does
 
-**Enters:** **mixed liquor** from the aeration tank (water + bug flocs, typically 1,500–4,000 mg/L of solids)
+**Enters:** **mixed liquor** from the aeration tank (water + bug flocs, typically 1,500–4,000 mg/L (milligrams per litre) of solids)
 **What happens:** the water slows down; **flocs settle** to the bottom and form a **sludge blanket**; clear water rises and flows over the weirs
 **Leaves:**
 - **Clear secondary effluent** (over the weirs) → disinfection
@@ -59,7 +69,7 @@
 | What settles | Raw organic and inorganic solids | **Biological floc** (light, fluffy, easily disturbed) |
 | Sludge goes to | Thickener/digester | **Mostly back to aeration (RAS)**; some wasted (WAS) |
 | Sludge is | Thick-ish, septic quickly | Light, **must be removed quickly** (stays alive; goes septic/denitrifies if held) |
-| Typical surface overflow rate | Higher (~30–50 m³/m²·d) | **Lower (~16–32 m³/m²·d, ≈ 400–800 gpd/ft²)** because floc settles slower **[SUPPLEMENTAL]** |
+| Typical surface overflow rate | Higher (~30–50 m³/m²·d (cubic metres per square metre per day)) | **Lower (~16–32 m³/m²·d, ≈ 400–800 gpd/ft²)** because floc settles slower **[SUPPLEMENTAL]** |
 | Extra concern | — | **Solids loading rate** — how many kg of solids per m² per day the clarifier must settle |
 
 ### 2.3 The sludge blanket
@@ -68,11 +78,11 @@ The **sludge blanket** is the layer of settled sludge on the clarifier floor. It
 
 **How to measure:** a **"sludge judge"** (clear core-sampler tube lowered to the bottom, closed, pulled up — you read the blanket depth on the tube) or an online **blanket level sensor** (ultrasonic/optical).
 
-**Target [SUPPLEMENTAL]:** keep the blanket **low and stable** — commonly around **0.3–0.9 m (1–3 ft)** deep, and well under a quarter of the tank's water depth. Your plant's O&M manual sets the real target.
+**Target [SUPPLEMENTAL]:** keep the blanket **low and stable** — commonly around **0.3–0.9 m (1–3 ft)** deep, and well under a quarter of the tank's water depth. Your plant's O&M (Operations and Maintenance) manual sets the real target.
 
 | Blanket | What can happen |
 |---|---|
-| **Too high / rising** | Solids **wash over the weirs** (high effluent TSS). Sludge sits too long → goes **septic** or **denitrifies** (rising sludge) |
+| **Too high / rising** | Solids **wash over the weirs** (high effluent TSS (Total Suspended Solids)). Sludge sits too long → goes **septic** or **denitrifies** (rising sludge) |
 | **Too low / almost none** | RAS is pumping **water** instead of sludge (thin RAS) → extra hydraulic load, less efficient |
 | **Stable, low** | Good |
 
@@ -82,7 +92,7 @@ The **sludge blanket** is the layer of settled sludge on the clarifier floor. It
 
 | RAS rate | Effect |
 |---|---|
-| **Increase RAS** | Pulls sludge out of the clarifier faster → **blanket drops**. RAS gets **thinner**. More flow goes through the clarifier (hydraulic load ↑). Moves more sludge into aeration (MLSS ↑ short-term) |
+| **Increase RAS** | Pulls sludge out of the clarifier faster → **blanket drops**. RAS gets **thinner**. More flow goes through the clarifier (hydraulic load ↑). Moves more sludge into aeration (MLSS (Mixed Liquor Suspended Solids) ↑ short-term) |
 | **Decrease RAS** | **Blanket rises**. RAS gets **thicker**. Sludge stays longer in the clarifier (risk of septic/denitrification/washout) |
 
 **RAS rate is usually expressed as a % of influent flow:**
@@ -95,7 +105,7 @@ Typical: about **25–100%** of influent flow for conventional plants, often hig
 ```
 RAS % ≈ SSV₃₀ ÷ (1,000 − SSV₃₀) × 100
 ```
-Example: SSV₃₀ = 300 mL/L → 300 ÷ 700 × 100 = **43%** of influent flow.
+Example: SSV₃₀ (Settled Sludge Volume after 30 minutes) = 300 mL/L → 300 ÷ 700 × 100 = **43%** of influent flow.
 *(This is a Level I "recognize" item — the exam is more likely to ask what happens when RAS changes.)*
 
 **Two RAS control approaches:**
@@ -104,7 +114,7 @@ Example: SSV₃₀ = 300 mL/L → 300 ÷ 700 × 100 = **43%** of influent flow.
 
 ### 2.5 WAS — Waste Activated Sludge
 
-**WAS controls how much sludge is in the whole system** (MLSS, SRT, F/M — Module 5).
+**WAS controls how much sludge is in the whole system** (MLSS, SRT (Solids Retention Time), F/M (Food-to-Microorganism ratio) — Module 5).
 - WAS may be taken from the RAS line or directly from the clarifier/aeration tank.
 - Waste in **small, steady amounts** (continuous or many short cycles), not huge slugs.
 
@@ -141,11 +151,11 @@ Five problems all "put solids in the effluent". Learn how to tell them apart:
 
 | Problem | What you see in the CLARIFIER | What you see in the SETTLEOMETER | Usual cause | Fix |
 |---|---|---|---|---|
-| **Filamentous bulking** | Blanket **high and rising**; solids flowing over weirs in large amounts; clear water above blanket at first | Settles **very slowly**; SSV₃₀ very high (e.g., 800+ mL/L); **high SVI (>150–200)** | Low DO, low F/M, nutrient deficiency, septic influent, low pH, grease | Short-term: ↑RAS, chlorinate RAS, polymer. Long-term: fix the cause (Module 5) |
+| **Filamentous bulking** | Blanket **high and rising**; solids flowing over weirs in large amounts; clear water above blanket at first | Settles **very slowly**; SSV₃₀ very high (e.g., 800+ mL/L); **high SVI (>150–200)** | Low DO (Dissolved Oxygen), low F/M, nutrient deficiency, septic influent, low pH, grease | Short-term: ↑RAS, chlorinate RAS, polymer. Long-term: fix the cause (Module 5) |
 | **Rising sludge (denitrification)** | **Clumps/rafts of sludge floating up**, often with **tiny gas bubbles**; patches all over the surface | Settles well, then **floats after ~1–2 hours** | Nitrate in sludge + sludge held too long → N₂ gas | **↑ RAS rate** (lower blanket/shorter time), consider ↓ SRT or add anoxic zone |
 | **Pin floc** | Effluent has **tiny pinpoint flocs**; clear-ish but with fine particles | Settles fast and compact, but **supernatant has fine particles (cloudy)** | **Old sludge** (long SRT), over-aeration/turbulence | ↑ wasting gradually (lower SRT), reduce excess turbulence |
 | **Straggler floc / dispersed growth** | **Cloudy / turbid** effluent; small, light, fluffy particles | Settles slowly, **cloudy/turbid** supernatant | **Young sludge** (high F/M, low SRT), toxic shock, start-up | ↓ wasting to build SRT; check for toxic discharge |
-| **Hydraulic washout (overload)** | Blanket gets pushed up during **high flow**; solids pour over weirs **during storm/peak** only | Normal settling | Storm flow, I/I, too few clarifiers online, high RAS during peak | Put all clarifiers online; adjust RAS; step-feed/storm mode; reduce flow (equalization) |
+| **Hydraulic washout (overload)** | Blanket gets pushed up during **high flow**; solids pour over weirs **during storm/peak** only | Normal settling | Storm flow, I/I (Infiltration and Inflow), too few clarifiers online, high RAS during peak | Put all clarifiers online; adjust RAS; step-feed/storm mode; reduce flow (equalization) |
 
 **Memory trick — "settles then floats" = Rising. "Won't settle" = Bulking. "Tiny dots" = Pin floc (old). "Cloudy fluff" = Straggler (young). "Only in storms" = Washout.**
 
@@ -153,7 +163,7 @@ Five problems all "put solids in the effluent". Learn how to tell them apart:
 
 | Problem | Cause | Response |
 |---|---|---|
-| **Septic sludge** (black, H₂S odour) | RAS pump down or too low; collector broken; sludge holding too long | Restore RAS; repair collector; lower blanket |
+| **Septic sludge** (black, H₂S (hydrogen sulphide) odour) | RAS pump down or too low; collector broken; sludge holding too long | Restore RAS; repair collector; lower blanket |
 | **Collector/rake stopped, drive tripped** | Heavy sludge, broken shear pin, ice, obstruction | Lock out; inspect; never put hands in while able to move |
 | **Uneven flow between clarifiers** | Unequal flow splitting, weir differences | Adjust splitter box gates; level weirs |
 | **Short-circuiting** | Un-level weirs, density currents, wind, damaged baffles | Dye test; level weirs; repair baffles |
@@ -216,7 +226,7 @@ Rising blanket / solids in effluent?
 | UNDERSTAND | MEMORIZE | RECOGNIZE |
 |---|---|---|
 | Why RAS ≠ WAS | The 5-problem table | Solids flux theory, state-point analysis |
-| Why sludge held too long rises | ↑RAS → ↓blanket | RAS % ≈ SSV/(1000−SSV) |
+| Why sludge held too long rises | ↑RAS → ↓blanket | RAS % ≈ SSV/(1000−SSV (Settled Sludge Volume)) |
 | Why storms wash out solids | Blanket target | Suction-header (organ-pipe) sludge removal |
 | Why high RAS increases solids loading | SOR formula | Density-current baffles (Stamford/McKinney) |
 | How to use the settleometer to predict the clarifier | Secondary SOR lower than primary | Sludge blanket ultrasonic sensors |
@@ -287,7 +297,7 @@ Rising blanket / solids in effluent?
    C. Not change
    D. Disappear
 
-9. RAS flow is 2,000 m³/d and influent flow is 5,000 m³/d. What is the RAS rate as a percentage of influent flow?
+9. RAS flow is 2,000 m³/d (cubic metres per day) and influent flow is 5,000 m³/d. What is the RAS rate as a percentage of influent flow?
    A. 2.5%
    B. 25%
    C. 40%

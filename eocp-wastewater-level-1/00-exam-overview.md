@@ -2,11 +2,15 @@
 
 ← [Back to course index](README.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BNR** = Biological Nutrient Removal · **CEUs** = Continuing Education Units · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **mg/L** = milligrams per litre · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **WPI** = Water Professionals International
+<!-- abbr-end -->
+
 ---
 
 ## 1. What exam you are taking
 
-**[OFFICIAL]** EOCP (the Environmental Operators Certification Program, BC's operator certification body) uses the **WPI (Water Professionals International, formerly ABC) standardized Level I–IV exams**. EOCP introduced the **new standardized WPI exams in July 2025**. These replaced older exam versions — so old "EOCP exam blueprints" or old practice exams may not match what you will see.
+**[OFFICIAL]** EOCP (the Environmental Operators Certification Program, BC's operator certification body) uses the **WPI (Water Professionals International, formerly ABC (Association of Boards of Certification)) standardized Level I–IV exams**. EOCP introduced the **new standardized WPI exams in July 2025**. These replaced older exam versions — so old "EOCP exam blueprints" or old practice exams may not match what you will see.
 
 **[OFFICIAL]** EOCP's exam-preparation guidance tells candidates to:
 1. Study the **Need-to-Know Criteria (NTK)** for their exam (for you: *WPI Wastewater Treatment Operator Class I*).
@@ -43,7 +47,7 @@
 - **Education:** High school diploma, GED, adult graduation diploma, or equivalent. No extra formal water/wastewater education is required.
 - **Location:** You must work or live in **BC or Yukon**.
 - **Related experience:** At the EOCP Board's discretion, related work (maintenance, labs, other water/pollution-control jobs, allied trades such as plumber or millwright) can count for **up to half** of the Level I experience.
-- **OIT (Operator in Training):** **Optional.** Needs 3 months (500 hours) of hands-on experience **or** 90 hours (9.0 CEUs) of an approved, directly applicable course. Useful if you're starting out before you have 1,800 hours.
+- **OIT (Operator in Training):** **Optional.** Needs 3 months (500 hours) of hands-on experience **or** 90 hours (9.0 CEUs (Continuing Education Units)) of an approved, directly applicable course. Useful if you're starting out before you have 1,800 hours.
 
 > **Planning tip for writing "next year":** count your hours now. If you won't have 1,800 hours by the exam date, ask EOCP whether OIT or partial related-experience credit fits your situation.
 
@@ -64,7 +68,7 @@
 
 **What this means for you:**
 - **Equipment is the largest area.** Many people study only the treatment process and lose easy marks on pumps, valves, motors and maintenance. Don't skip Modules 10–14.
-- **Math is spread through every area** — a detention time question counts as "process", a pump power question counts as "equipment", a TSS calculation counts as "lab". Expect math in roughly **1 of every 8–10 questions**.
+- **Math is spread through every area** — a detention time question counts as "process", a pump power question counts as "equipment", a TSS (Total Suspended Solids) calculation counts as "lab". Expect math in roughly **1 of every 8–10 questions**.
 - The NTK sorts questions by thinking level: **recall** (remember a fact), **application** (use knowledge in a situation) and **calculation**. Most questions are application — so don't just memorize; understand *why*.
 
 The NTK also lists the **reference books** questions are drawn from (commonly the California State University Sacramento *Operation of Wastewater Treatment Plants* manuals). Check the list when you get the PDF.
@@ -73,11 +77,11 @@ The NTK also lists the **reference books** questions are drawn from (commonly th
 Level I questions mostly test whether you can:
 - **Recognize** equipment and processes and state their purpose.
 - **Know** normal operating ranges and what "abnormal" looks like.
-- **Follow** safe procedures and SOPs.
+- **Follow** safe procedures and SOPs (Standard Operating Procedures).
 - **Do** basic calculations with the formula sheet (area, volume, flow, detention time, loading, dose, % removal, basic pump/pressure).
 - **Choose** the correct first response to a common problem.
 
-Level I does **not** expect you to design processes, do advanced kinetics, or manage complex BNR optimization. This course keeps Level II–IV material out unless you need it to understand a Level I idea (and flags it when it appears).
+Level I does **not** expect you to design processes, do advanced kinetics, or manage complex BNR (Biological Nutrient Removal) optimization. This course keeps Level II–IV material out unless you need it to understand a Level I idea (and flags it when it appears).
 
 ---
 
@@ -89,7 +93,7 @@ WPI questions are written from **job tasks**, so most questions are really askin
 | Style | Example stem | How to attack it |
 |---|---|---|
 | **Recall** | "What is the primary purpose of a grit chamber?" | Know the definition cold (flashcards) |
-| **Relationship** | "If the F/M ratio increases, the sludge age will most likely…" | Know which way things move together (see "relationships" tables in each module) |
+| **Relationship** | "If the F/M (Food-to-Microorganism ratio) ratio increases, the sludge age will most likely…" | Know which way things move together (see "relationships" tables in each module) |
 | **Scenario / troubleshooting** | "An operator observes billowing white foam on the aeration tank. The most likely cause is…" | Symptom → most likely cause for *that* symptom (Module 16) |
 | **Best action** | "What should the operator do FIRST?" | Safety first → verify the reading → least drastic effective action → notify/record |
 | **Calculation** | "A clarifier 18 m in diameter… calculate the surface overflow rate." | Formula sheet + units + sanity check (Module 17) |
@@ -114,7 +118,7 @@ WPI questions are written from **job tasks**, so most questions are really askin
 4. **Echelon Institute WPI-aligned material** — supplemental explanations, process guides, flashcards (independent provider — *not* the authority).
 5. **Standard operator references** that WPI lists for treatment exams (e.g., *Operation of Wastewater Treatment Plants* Vol. I & II, California State University Sacramento / Office of Water Programs) — used for typical values and troubleshooting logic.
 
-**Typical values warning [SUPPLEMENTAL]:** Operating ranges (e.g., "DO 1–3 mg/L in aeration", "SVI 80–150 mL/g") vary slightly between textbooks. Learn the *ranges and the direction of change*; an exam question will not hinge on 2.0 vs 2.2.
+**Typical values warning [SUPPLEMENTAL]:** Operating ranges (e.g., "DO (Dissolved Oxygen) 1–3 mg/L (milligrams per litre) in aeration", "SVI (Sludge Volume Index) 80–150 mL/g") vary slightly between textbooks. Learn the *ranges and the direction of change*; an exam question will not hinge on 2.0 vs 2.2.
 
 **BC-specific warning:** This course does **not** present Ontario, Alberta, or US rules as BC requirements. BC/federal legislation is identified by name in Module 18 and labelled **[BC-LAW]** or **[FEDERAL-LAW]**.
 

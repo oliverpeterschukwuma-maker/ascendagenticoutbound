@@ -2,7 +2,17 @@
 
 ← [Module 3](03-preliminary-treatment.md) · [Course index](../README.md) · Next → [Module 5 — Biological Treatment](05-biological-treatment.md)
 
-**NTK area:** Treatment Process Evaluation & Adjustment (≈38%); Equipment Evaluation, Maintenance & Operation (≈39%). Heavy math overlap (detention time, surface overflow rate, weir overflow rate, % removal — see [Math 17B](../math/17b-area-volume-flow-time.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **CEPT** = Chemically Enhanced Primary Treatment · **DO** = Dissolved Oxygen · **DT** = Detention Time · **FOG** = Fats, Oils and Grease · **H₂S** = hydrogen sulphide · **m³/m²·d** = cubic metres per square metre per day · **NTK** = Need-to-Know Criteria · **OSHA** = Occupational Safety and Health Administration (US) · **SOR** = Surface Overflow Rate · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge · **WOR** = Weir Overflow Rate
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Treatment Process Evaluation & Adjustment (≈38%); Equipment Evaluation, Maintenance & Operation (≈39%). Heavy math overlap (detention time, surface overflow rate, weir overflow rate, % removal — see [Math 17B](../math/17b-area-volume-flow-time.md)).
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Wastewater Instructional Video: Primary Treatment and Clarifiers](https://www.youtube.com/watch?v=wrXBYQI6dyQ) · [How a clarifier works — scraper, launder, weirs, bridge (plant footage)](https://www.youtube.com/watch?v=I7S2G_7tesQ) · [Primary clarification example: Detention time, hydraulic loading & weir loading](https://www.youtube.com/watch?v=3p476hJfoL0)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -48,12 +58,12 @@ A primary clarifier is a **big, quiet tank**. The water slows down so much that:
 **Enters:** degritted raw wastewater
 **What happens:** gravity settling (sinkers) + flotation (floaters) under quiet conditions
 **Leaves:** primary effluent (to secondary), primary sludge (to solids handling), scum (to scum handling/digester/disposal)
-**Why it matters:** removes a large share of the solids and some BOD **cheaply** (no air, no chemicals), reducing the load on the biological process.
+**Why it matters:** removes a large share of the solids and some BOD (Biochemical Oxygen Demand) **cheaply** (no air, no chemicals), reducing the load on the biological process.
 
 **Typical performance [SUPPLEMENTAL]:**
 | Parameter | Typical removal in primary clarification |
 |---|---|
-| TSS | **~50–70%** |
+| TSS (Total Suspended Solids) | **~50–70%** |
 | BOD | **~25–40%** |
 | Settleable solids | **~90–95%+** |
 
@@ -84,7 +94,7 @@ DT = Volume ÷ Flow
 ```
 - Typical primary clarifier DT ≈ **1.5–2.5 hours** (at average flow). **[SUPPLEMENTAL]**
 - **Too short** (high flow): solids don't have time to settle → carryover.
-- **Too long** (low flow, oversized tank): wastewater and sludge go **septic** → odours, H₂S, gasified floating sludge, more soluble BOD sent downstream.
+- **Too long** (low flow, oversized tank): wastewater and sludge go **septic** → odours, H₂S (hydrogen sulphide), gasified floating sludge, more soluble BOD sent downstream.
 
 **2) Surface overflow rate (SOR) / surface loading rate** — flow per unit of **surface area**.
 ```
@@ -303,6 +313,6 @@ WOR = Flow ÷ Weir length        units: m³/m·d   (US: gpd/ft)
 | 5 | **A** | Uneven weirs draw more flow from one side. B/C/D don't cause it (though *water temperature* differences can). |
 | 6 | **B** | Very thin sludge = over-pumping; reduce pumping. A worsens. C/D unrelated. |
 | 7 | **B** | 25–40%. |
-| 8 | **B** | Septic, odours, H₂S. A: primary doesn't remove dissolved BOD. C: DO drops. D: not the key effect. |
+| 8 | **B** | Septic, odours, H₂S. A: primary doesn't remove dissolved BOD. C: DO (Dissolved Oxygen) drops. D: not the key effect. |
 | 9 | **B** | Heavy accumulated sludge or obstruction raises torque. |
 | 10 | **A** | Storm flow → high SOR/WOR and short DT → carryover. B is a low-flow issue. C is the opposite. |

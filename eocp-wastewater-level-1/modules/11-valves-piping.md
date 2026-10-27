@@ -2,7 +2,17 @@
 
 ← [Module 10](10-pumps.md) · [Course index](../README.md) · Next → [Module 12 — Hydraulics](12-hydraulics.md)
 
-**NTK area:** Equipment Evaluation, Maintenance and/or Operation (≈39%). Valves appear in pump questions, safety (lockout of valves), and troubleshooting.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **DCVA** = Double Check Valve Assembly · **DO** = Dissolved Oxygen · **FC** = Fail-Closed · **FO** = Fail-Open · **MOV** = Motor-Operated Valve · **NTK** = Need-to-Know Criteria · **OS&Y** = Outside Screw and Yoke (rising-stem gate valve) · **OSHA** = Occupational Safety and Health Administration (US) · **PD** = Positive Displacement · **PLC** = Programmable Logic Controller · **PRV** = Pressure-Reducing Valve · **RP** = Reduced Pressure (backflow assembly) · **RPBA** = Reduced Pressure Backflow Assembly
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Equipment Evaluation, Maintenance and/or Operation (≈39%). Valves appear in pump questions, safety (lockout of valves), and troubleshooting.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [9 Different Types of Valves Used in Process Piping](https://www.youtube.com/watch?v=-46qco1KkI4) · [7 Industrial Valve Types Explained](https://www.youtube.com/watch?v=tSOwsIPU0l0) · [Types of check valves and their applications](https://www.youtube.com/watch?v=F3b3LF4owNQ)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -90,7 +100,7 @@ A **control valve** is any valve **moved automatically** by an **actuator** foll
 
 - **On/off** control valves are either open or closed; **modulating** valves can be positioned anywhere (e.g., 37% open) by a **positioner**.
 - **Fail-safe position:** what the valve does when it loses power/air — **fail-open (FO)**, **fail-closed (FC)**, or **fail-last-position**. Chosen for safety (e.g., a chemical feed valve may fail **closed**).
-- Example: **DO control** — the PLC opens/closes the **air butterfly valve** on an aeration header to hold the DO setpoint.
+- Example: **DO (Dissolved Oxygen) control** — the PLC (Programmable Logic Controller) opens/closes the **air butterfly valve** on an aeration header to hold the DO setpoint.
 - Most control valves have a **manual override** (handwheel) for emergencies.
 
 ### 2.6 Isolation valves and lockout
@@ -116,7 +126,7 @@ Many valves only work correctly in **one direction** and have an **arrow cast on
 | Method | Notes |
 |---|---|
 | **Air gap** | A physical **open air space** between the water outlet and the flood level of the receiving tank/sink — **the most reliable protection.** Commonly at least **2× the supply pipe diameter** (and not less than ~25 mm/1 inch) **[SUPPLEMENTAL — confirm with local code]** |
-| **Reduced Pressure Principle Backflow Assembly (RP / RPBA)** | Two check valves plus a relief valve between them that dumps water if backflow starts — **high hazard** protection |
+| **Reduced Pressure Principle Backflow Assembly (RP / RPBA (Reduced Pressure Backflow Assembly))** | Two check valves plus a relief valve between them that dumps water if backflow starts — **high hazard** protection |
 | **Double Check Valve Assembly (DCVA)** | Two independent check valves — lower hazard |
 | **Vacuum breakers** (atmospheric, pressure) | Back-siphonage only (e.g., hose bibs) |
 
@@ -163,7 +173,7 @@ Many valves only work correctly in **one direction** and have an **arrow cast on
 4. **Check valve = one-way; prevents backflow; flow arrow; slam → water hammer.** **Ball checks** common in lift stations.
 5. **Knife gate & pinch valves → sludge/slurries.** **Diaphragm valves → chemicals.** **Telescoping valve → sludge draw-off.**
 6. **Air release valves at high points** of force mains; **air/vacuum valves** prevent vacuum.
-7. **Pressure relief valve required on PD pump discharge.**
+7. **Pressure relief valve required on PD (Positive Displacement) pump discharge.**
 8. Control valves: actuator + positioner; **fail-open / fail-closed**.
 9. **Air gap = best backflow protection.** RP assembly = high hazard.
 10. **Backflow causes: back-pressure and back-siphonage.**
@@ -176,7 +186,7 @@ Many valves only work correctly in **one direction** and have an **arrow cast on
 
 | UNDERSTAND | MEMORIZE | RECOGNIZE |
 |---|---|---|
-| Why gates aren't used for throttling | Valve → use table | OS&Y vs non-rising stem |
+| Why gates aren't used for throttling | Valve → use table | OS&Y (Outside Screw and Yoke, rising-stem gate valve) vs non-rising stem |
 | Why quick-closing valves cause water hammer | Air gap = best | DCVA vs RPBA details |
 | Why air in force mains is a problem | Flow-direction valves | Ten States colour code |
 | Why valves need exercising | PD → relief valve | Specific fitting names (bushing, nipple) |

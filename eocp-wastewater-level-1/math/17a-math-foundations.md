@@ -2,11 +2,21 @@
 
 ← [Course index](../README.md) · Next → [17B — Area, Volume, Flow & Time](17b-area-volume-flow-time.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **kPa** = kilopascal · **L/s** = litres per second · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids
+<!-- abbr-end -->
+
 > **Read this first if math makes you nervous.** Wastewater math is **not** advanced math. It's the same few skills used over and over: multiply, divide, convert units, and plug numbers into a formula you're **given on the exam sheet**. This lesson teaches those skills from zero. Go slowly. Do every practice question. It gets easier every day.
 
 **How much math is on the exam?** Math is spread through all four content areas — roughly **1 in every 8–10 questions** involves a calculation. You get a **formula/conversion sheet** at the exam, so you don't have to memorize formulas — you have to **recognize which one to use** and **use it correctly**.
 
-**Calculator:** Use a basic or scientific calculator (check EOCP's current rules on which calculators are allowed). Practise with the **same calculator** you'll bring to the exam.
+**Calculator:** Use a basic or scientific calculator (check EOCP (Environmental Operators Certification Program)'s current rules on which calculators are allowed). Practise with the **same calculator** you'll bring to the exam.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Water Operator Math: The Pounds Formula Explained (lbs/day, Dose, Flow)](https://www.youtube.com/watch?v=SjajSl783jc) · [mg/L to lbs/day Explained](https://www.youtube.com/watch?v=vmCvSvYvACU) · [Problem Solved: Detention Time Problem — Wastewater Math](https://www.youtube.com/watch?v=QWpbTKUuBro) · [Problem Solved: Flow Rate Formula](https://www.youtube.com/watch?v=B1rjSaOIm-s) · [Surface overflow rate (SOR) / Surface loading rate](https://www.youtube.com/watch?v=-cHHc67usc0) · [Weir loading rate / Weir overflow rate](https://www.youtube.com/watch?v=IMX7zhQ7C6Y) · [MGD to GPM](https://www.youtube.com/watch?v=fgAcVOLyM4U) · [Activated Sludge Process Control Calculations (webinar)](https://www.youtube.com/watch?v=5OeIVQzEnkE)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -110,13 +120,13 @@ A fraction is just a **division**: the top **divided by** the bottom.
 ### 4.2 Three percent questions you'll see
 
 **(a) What is X% of a number?** → **number × (X ÷ 100)**
-- 75% of 2,400 mg/L = 2,400 × 0.75 = **1,800 mg/L**
+- 75% of 2,400 mg/L (milligrams per litre) = 2,400 × 0.75 = **1,800 mg/L**
 
 **(b) What percent is A of B?** → **(A ÷ B) × 100**
 - 1,950 mg/L is what % of 2,500 mg/L? 1,950 ÷ 2,500 × 100 = **78%**
 
 **(c) Percent removal / percent change** → **(Start − End) ÷ Start × 100**
-- BOD in 200, out 15: (200 − 15) ÷ 200 × 100 = 185 ÷ 200 × 100 = **92.5%**
+- BOD (Biochemical Oxygen Demand) in 200, out 15: (200 − 15) ÷ 200 × 100 = 185 ÷ 200 × 100 = **92.5%**
 
 ### 4.3 Percent concentration
 - **1% solution = 10,000 mg/L** (for water-like liquids).
@@ -164,7 +174,7 @@ The exam sheet gives formulas in one form, e.g. **DT = V ÷ Q**. But the questio
 | Q = A × V (flow) | Q | A, V |
 | V = DT × Q (volume, detention time) | Volume | DT, Flow |
 | Q = SOR × Area | Flow | SOR, Area |
-| kg/d = mg/L × m³/d ÷ 1,000 | (treat "mg/L × m³/d" carefully — see 17C) | |
+| kg/d = mg/L × m³/d (cubic metres per day) ÷ 1,000 | (treat "mg/L × m³/d" carefully — see 17C) | |
 | V = I × R (Ohm's law) | V | I, R |
 | Distance = velocity × time | Distance | V, t |
 
@@ -180,7 +190,7 @@ If **Dose = Demand + Residual** and you want **Demand**: subtract Residual from 
 | Prefix | Means | Example |
 |---|---|---|
 | **mega- (M)** | 1,000,000 | 1 ML = 1,000,000 L |
-| **kilo- (k)** | 1,000 | 1 kg = 1,000 g; 1 km = 1,000 m; 1 kPa = 1,000 Pa |
+| **kilo- (k)** | 1,000 | 1 kg = 1,000 g; 1 km = 1,000 m; 1 kPa (kilopascal) = 1,000 Pa |
 | (base unit) | 1 | gram, metre, litre |
 | **centi- (c)** | 1/100 | 1 m = 100 cm |
 | **milli- (m)** | 1/1,000 | 1 L = 1,000 mL; 1 g = 1,000 mg |
@@ -196,14 +206,14 @@ If **Dose = Demand + Residual** and you want **Demand**: subtract Residual from 
 ### 7.3 Key US facts (memorize — they're also on the sheet)
 - **1 ft³ = 7.48 gal**
 - **1 gal of water = 8.34 lb**
-- **1 MGD = 1,000,000 gal/day ≈ 694 gpm ≈ 1.55 cfs**
-- **1 psi = 2.31 ft of water**
+- **1 MGD (Million Gallons per Day) = 1,000,000 gal/day ≈ 694 gpm (gallons per minute) ≈ 1.55 cfs (cubic feet per second)**
+- **1 psi (pounds per square inch) = 2.31 ft of water**
 
 ### 7.4 Converting units with "unit fractions" (the safest method)
 
 A conversion factor written as a fraction is just **"1"** (top and bottom are the same amount), so multiplying by it doesn't change the value — only the units.
 
-**Example:** convert **4,500 m³/d to L/s**.
+**Example:** convert **4,500 m³/d to L/s (litres per second)**.
 ```
  4,500 m³    1,000 L      1 d        1 h        1 min
  ──────── × ───────── × ─────── × ──────── × ───────  = 52.08 L/s
@@ -218,7 +228,7 @@ A conversion factor written as a fraction is just **"1"** (top and bottom are th
 
 ### 7.6 Averages
 - **Mean (average)** = add all values ÷ number of values.
-  - Effluent TSS for 5 days: 12, 15, 9, 14, 10 → (12 + 15 + 9 + 14 + 10) ÷ 5 = 60 ÷ 5 = **12 mg/L**.
+  - Effluent TSS (Total Suspended Solids) for 5 days: 12, 15, 9, 14, 10 → (12 + 15 + 9 + 14 + 10) ÷ 5 = 60 ÷ 5 = **12 mg/L**.
 - **Median** = middle value when sorted (recognize).
 
 ---
@@ -244,9 +254,9 @@ A conversion factor written as a fraction is just **"1"** (top and bottom are th
 | Grit channel velocity | ~0.3 m/s (1 ft/s) |
 | Primary SOR | ~30–50 m³/m²·d (800–1,200 gpd/ft²) |
 | Secondary SOR | ~16–32 m³/m²·d (400–800 gpd/ft²) |
-| F/M | ~0.05–0.6 |
-| SVI | ~50–200 mL/g |
-| SRT | ~3–30+ days |
+| F/M (Food-to-Microorganism ratio) | ~0.05–0.6 |
+| SVI (Sludge Volume Index) | ~50–200 mL/g |
+| SRT (Solids Retention Time) | ~3–30+ days |
 | Chlorine dose | ~2–20 mg/L |
 | % removal | 0–100% (can't be over 100!) |
 

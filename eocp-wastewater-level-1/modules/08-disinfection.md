@@ -2,18 +2,28 @@
 
 ← [Module 7](07-nutrient-removal.md) · [Course index](../README.md) · Next → [Module 9 — Sludge & Biosolids](09-sludge-biosolids.md)
 
-**NTK areas:** Treatment Process (38%), Equipment (39% — chlorinators, feed pumps, UV systems), Safety (chlorine). Math: chlorine dose/demand/residual, kg/day, feed rates ([Math 17C](../math/17c-loading-dosage-concentration.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **Ca(OCl)₂** = calcium hypochlorite · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CT** = Concentration × Time · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **HOCl** = hypochlorous acid · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **mg/L** = milligrams per litre · **NaOCl** = sodium hypochlorite · **NTK** = Need-to-Know Criteria · **OCl⁻** = hypochlorite ion · **OSHA** = Occupational Safety and Health Administration (US) · **SCBA** = Self-Contained Breathing Apparatus · **SOP** = Standard Operating Procedure · **SO₂** = sulphur dioxide · **THMs** = Trihalomethanes (disinfection by-products) · **TRC** = Total Residual Chlorine · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **UVT** = Ultraviolet Transmittance
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) areas:** Treatment Process (38%), Equipment (39% — chlorinators, feed pumps, UV systems), Safety (chlorine). Math: chlorine dose/demand/residual, kg/day, feed rates ([Math 17C](../math/17c-loading-dosage-concentration.md)).
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Breakpoint Chlorination (combined, free and total residual; chlorine demand)](https://www.youtube.com/watch?v=Auz0cpObjI8) · [How Ultraviolet Light Treats Wastewater (city plant)](https://www.youtube.com/watch?v=Yc_BoxZh2M4) · [How UV Disinfection Works in Wastewater Treatment](https://www.youtube.com/watch?v=NaRJemsGfTI) · [Chlorine Safety Tour: A Training Guide for Chlorine Emergency Response](https://www.youtube.com/watch?v=S8uZ37ivX7c)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
 ## 1. What you need to know (checklist)
 
 - [ ] Purpose of disinfection; disinfection vs sterilization
-- [ ] Chlorine chemistry basics: HOCl vs OCl⁻, effect of pH; free vs combined chlorine
+- [ ] Chlorine chemistry basics: HOCl (hypochlorous acid) vs OCl⁻ (hypochlorite ion), effect of pH; free vs combined chlorine
 - [ ] **Chlorine dose, demand, residual** — and why **dose ≠ residual**
 - [ ] What creates chlorine demand
 - [ ] **Contact time** and **CT**; contact chamber design (baffles, short-circuiting)
-- [ ] Factors affecting disinfection (dose, time, temperature, pH, TSS, mixing, organisms)
+- [ ] Factors affecting disinfection (dose, time, temperature, pH, TSS (Total Suspended Solids), mixing, organisms)
 - [ ] Forms of chlorine: gas, sodium hypochlorite, calcium hypochlorite — pros, cons, % strength
 - [ ] Gas chlorination equipment basics (vacuum system, ejector, rotameter, scales, withdrawal rates)
 - [ ] **Dechlorination** (why and with what)
@@ -83,7 +93,7 @@ Chlorine needs **time** to kill germs.
 - **Contact chamber:** a tank, often with **baffles** in a back-and-forth (serpentine) pattern, so every bit of water stays long enough. **Short-circuiting = some water leaves too soon = germs survive.**
 - Typical design: about **15 minutes at peak hourly flow** (often ~30 minutes at average flow). **[SUPPLEMENTAL — design guidance; your permit/design governs]**
 - **CT = Concentration (mg/L) × Time (minutes).** More concentration **or** more time = more kill.
-  - Example: 1.5 mg/L residual × 20 min = **CT of 30 mg·min/L**.
+  - Example: 1.5 mg/L (milligrams per litre) residual × 20 min = **CT of 30 mg·min/L**.
 - **At high flow, contact time shrinks** (Time = Volume ÷ Flow) → you may need a higher dose.
 
 ### 2.5 Factors affecting disinfection
@@ -104,9 +114,9 @@ Chlorine needs **time** to kill germs.
 
 | Form | Strength (available chlorine) | Pros | Cons / safety |
 |---|---|---|---|
-| **Chlorine gas (Cl₂)** — 68 kg (150 lb) cylinders, 907 kg (1-ton) containers | **100%** | Cheapest per kg; very effective | **Toxic gas** — leak risk; strict safety programs; SCBA; leak detection |
+| **Chlorine gas (Cl₂)** — 68 kg (150 lb) cylinders, 907 kg (1-ton) containers | **100%** | Cheapest per kg; very effective | **Toxic gas** — leak risk; strict safety programs; SCBA (Self-Contained Breathing Apparatus); leak detection |
 | **Sodium hypochlorite (NaOCl)** — liquid "bleach" | **~10–15%** (commonly 12%) | Safer than gas; easy to feed with metering pumps | **Loses strength** over time (faster with heat and sunlight); corrosive; **off-gasses → airlocks metering pumps**; never mix with acids/ammonia |
-| **Calcium hypochlorite (Ca(OCl)₂, "HTH")** — granules/tablets | **~65–70%** | Easy storage for small plants; tablet feeders | **Strong oxidizer — fire risk** with oil, grease, organics; keep dry |
+| **Calcium hypochlorite (Ca(OCl)₂, "HTH (High-Test Hypochlorite, calcium hypochlorite)")** — granules/tablets | **~65–70%** | Easy storage for small plants; tablet feeders | **Strong oxidizer — fire risk** with oil, grease, organics; keep dry |
 
 ### 2.7 Gas chlorination equipment [SUPPLEMENTAL]
 
@@ -121,12 +131,12 @@ CYLINDER/TON ─► VACUUM REGULATOR ─► ROTAMETER ─► (vacuum line) ─�
 - **Scales** under cylinders track how much chlorine has been used (kg/day) and when to change containers.
 - **Maximum gas withdrawal** at room temperature (approximately): **~18 kg/day (40 lb/day) from a 68 kg cylinder**, **~180 kg/day (400 lb/day) from a ton container**. Withdrawing faster cools the container → **frost forms** → gas flow drops. Use more containers (manifold) or an evaporator — **never heat a container with a flame or direct heat**.
 - **Ton containers:** two valves — the **upper valve gives gas**, the **lower valve gives liquid**.
-- **Changing cylinders:** wear proper PPE/SCBA per SOP, new gasket (lead or fibre washer) every time, check for leaks with **ammonia vapour**.
+- **Changing cylinders:** wear proper PPE/SCBA per SOP (Standard Operating Procedure), new gasket (lead or fibre washer) every time, check for leaks with **ammonia vapour**.
 - Chlorine room: ventilation from **near the floor**; switch and detector display **outside**.
 
 ### 2.8 Measuring chlorine residual
 
-- **DPD method** (colorimetric): reagent turns the sample **pink**; darker = more chlorine. Measured with a colorimeter/comparator. Can measure **free** and **total** chlorine.
+- **DPD (N,N-diethyl-p-phenylenediamine, chlorine test reagent) method** (colorimetric): reagent turns the sample **pink**; darker = more chlorine. Measured with a colorimeter/comparator. Can measure **free** and **total** chlorine.
 - **Amperometric titration** (lab reference method) and **online analyzers**.
 - Test **immediately** — chlorine residual changes quickly (grab sample, no holding).
 - Proof of disinfection: ***E. coli*** or **fecal coliform** counts in the effluent (Module 15).
@@ -142,7 +152,7 @@ CYLINDER/TON ─► VACUUM REGULATOR ─► ROTAMETER ─► (vacuum line) ─�
 | **Sodium bisulphite / sodium metabisulphite** | Liquid/solid; common at small plants |
 | **Sodium thiosulphate** | Used in the lab (and some plants) — also added to sample bottles for bacteria testing to stop chlorine |
 
-Dechlorination happens **almost instantly**, so it needs good mixing but little contact time. **Overdosing** dechlorination chemical can **lower DO and pH** of the effluent.
+Dechlorination happens **almost instantly**, so it needs good mixing but little contact time. **Overdosing** dechlorination chemical can **lower DO (Dissolved Oxygen) and pH** of the effluent.
 
 ### 2.10 UV disinfection
 
@@ -156,7 +166,7 @@ Dechlorination happens **almost instantly**, so it needs good mixing but little 
 | Effective against *Cryptosporidium* and *Giardia* | Electrical system; power outage = no disinfection (needs backup) |
 
 **What affects UV:**
-- **UV transmittance (UVT)** — how easily UV passes through the water. **Lower UVT = less disinfection.**
+- **UV transmittance (UVT)** — how easily UV passes through the water. **Lower UVT (Ultraviolet Transmittance) = less disinfection.**
 - **TSS/turbidity** — particles shield organisms.
 - **Sleeve fouling** (iron, calcium/hardness, grease, algae) — blocks light. Cleaned by automatic **wipers** and/or chemical cleaning (e.g., mild acid).
 - **Lamp age** — output drops over time; replace at the manufacturer's rated hours.
@@ -206,7 +216,7 @@ Dechlorination happens **almost instantly**, so it needs good mixing but little 
 10. Gas withdrawal: **~18 kg/d per 68 kg cylinder; ~180 kg/d per ton container**; frost = too fast. **Never heat with flame.**
 11. Ton container: **top valve gas, bottom valve liquid.**
 12. Residual measured by **DPD** (pink colour); test **immediately**.
-13. **Dechlorinate** with **SO₂ / sodium bisulphite**; federal TRC limit **0.02 mg/L**.
+13. **Dechlorinate** with **SO₂ / sodium bisulphite**; federal TRC (Total Residual Chlorine) limit **0.02 mg/L**.
 14. **UV ≈ 254 nm; damages DNA; no residual; needs clear water; clean sleeves, replace lamps.**
 15. Indicator organisms for disinfection: ***E. coli* / fecal coliform**.
 

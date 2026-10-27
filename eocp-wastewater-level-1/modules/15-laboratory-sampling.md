@@ -2,9 +2,19 @@
 
 ← [Module 14](14-electrical-mechanical.md) · [Course index](../README.md) · Next → [Module 16 — Troubleshooting](16-troubleshooting.md)
 
-**NTK area:** Laboratory Analysis (≈10% of the exam) — plus lab results appear in many process questions. Math: BOD, TSS, VSS, % removal, SVI ([Math 17D](../math/17d-process-pumps-pressure-lab.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **COC** = Chain of Custody · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **F/M** = Food-to-Microorganism ratio · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **H₂SO₄** = sulphuric acid · **ISE** = Ion-Selective Electrode · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **MPN** = Most Probable Number · **NH₃** = ammonia · **NH₃-N** = ammonia measured as nitrogen · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NO₃** = nitrate · **NO₃-N** = nitrate measured as nitrogen · **NTK** = Need-to-Know Criteria · **NTU** = Nephelometric Turbidity Unit · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PPE** = Personal Protective Equipment · **QA** = Quality Assurance · **QC** = Quality Control · **RAS** = Return Activated Sludge · **SDS** = Safety Data Sheet · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Laboratory Analysis (≈10% of the exam) — plus lab results appear in many process questions. Math: BOD (Biochemical Oxygen Demand), TSS (Total Suspended Solids), VSS (Volatile Suspended Solids), % removal, SVI ([Math 17D](../math/17d-process-pumps-pressure-lab.md)).
 
 > **Why the lab matters:** you can't control what you don't measure. Lab results tell you how the process is working and prove to regulators that the effluent meets the permit. **A perfect test on a bad sample is still a bad result** — so sampling is just as important as testing.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Biochemical Oxygen Demand (BOD) test: How to do](https://www.youtube.com/watch?v=PnX83_d11GI) · [BOD Test Procedure Explained](https://www.youtube.com/watch?v=Q_1JTkhOGPY) · [Total Suspended Solids (TSS) Demonstration (Clemson University lab)](https://www.youtube.com/watch?v=K98KUOFrFpw) · [How to determine TS, TSS, TDS, TFS, TVS](https://www.youtube.com/watch?v=MicvXMlQ3es) · [How to Calibrate pH Sensors with Two Buffer Solutions](https://www.youtube.com/watch?v=wHTM3f-v-9I)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -20,7 +30,7 @@
 - [ ] **QA/QC**: calibration, blanks, duplicates, standards, records
 
 **Tests (for each: what it measures, why operators care, what high/low means)**
-- [ ] pH, temperature, DO, BOD/CBOD, COD, TSS, VSS, settleable solids, MLSS, MLVSS, settleometer/SVI
+- [ ] pH, temperature, DO (Dissolved Oxygen), BOD/CBOD, COD (Chemical Oxygen Demand), TSS, VSS, settleable solids, MLSS (Mixed Liquor Suspended Solids), MLVSS (Mixed Liquor Volatile Suspended Solids), settleometer/SVI
 - [ ] Ammonia, nitrite, nitrate, phosphorus, alkalinity
 - [ ] Chlorine residual, turbidity, *E. coli*/fecal coliform
 - [ ] Lab safety
@@ -63,7 +73,7 @@ A **representative sample** truly reflects the water you're trying to measure. A
 | **Influent** (raw) | Incoming load; % removal calculation. Usually after screening/grit, **before** return streams join (so you measure what the community sends) |
 | **Primary effluent** | Primary performance; load on secondary |
 | **Mixed liquor** (aeration tank) | MLSS, MLVSS, settleometer, DO, microscope |
-| **RAS / WAS** | Solids for wasting calculations |
+| **RAS (Return Activated Sludge) / WAS (Waste Activated Sludge)** | Solids for wasting calculations |
 | **Secondary/final effluent** | Process performance; permit compliance |
 | **After disinfection** | Bacteria, chlorine residual (after dechlorination too) |
 | **Digesters / sludge** | % solids, volatile solids, VA/alkalinity, pH |
@@ -79,17 +89,17 @@ A **representative sample** truly reflects the water you're trying to measure. A
 
 **Label every sample** with: location, date, time, sampler's name, sample type (grab/composite), preservative, tests required.
 
-**Preservation & holding times [SUPPLEMENTAL — common Standard Methods / regulatory values; your lab's SOP and permit govern]**
+**Preservation & holding times [SUPPLEMENTAL — common Standard Methods / regulatory values; your lab's SOP (Standard Operating Procedure) and permit govern]**
 | Test | Preservation | Max holding time |
 |---|---|---|
 | **pH** | None | **Analyze immediately** (~15 min) |
 | **Temperature** | None | **Immediately, on site** |
 | **DO** | None (probe) / fix on site (Winkler) | **Immediately** |
 | **Chlorine residual** | None | **Immediately** (~15 min) |
-| **BOD / CBOD** | **Cool ≤ 6 °C** | **48 h** (start as soon as possible) |
+| **BOD / CBOD (Carbonaceous Biochemical Oxygen Demand)** | **Cool ≤ 6 °C** | **48 h** (start as soon as possible) |
 | **TSS / VSS** | Cool ≤ 6 °C | 7 days |
-| **COD** | Cool; **H₂SO₄ to pH < 2** | 28 days |
-| **Ammonia, TKN** | Cool; **H₂SO₄ to pH < 2** | 28 days |
+| **COD** | Cool; **H₂SO₄ (sulphuric acid) to pH < 2** | 28 days |
+| **Ammonia, TKN (Total Kjeldahl Nitrogen)** | Cool; **H₂SO₄ to pH < 2** | 28 days |
 | **Nitrite, nitrate** (unpreserved) | Cool ≤ 6 °C | **48 h** |
 | **Total phosphorus** | Cool; H₂SO₄ to pH < 2 | 28 days |
 | **Orthophosphate** | Filter promptly; cool | 48 h |
@@ -105,13 +115,13 @@ Typical info: sample ID, location, date/time collected, collector, preservation,
 
 ### 2.6 QA/QC (Quality Assurance / Quality Control)
 
-**QA** = the overall program that makes results reliable (training, SOPs, documentation). **QC** = the specific checks done with the tests:
+**QA** (Quality Assurance) = the overall program that makes results reliable (training, SOPs (Standard Operating Procedures), documentation). **QC** (Quality Control) = the specific checks done with the tests:
 | QC check | Purpose |
 |---|---|
 | **Instrument calibration** (pH buffers, DO, balances, spectrophotometers) | Accurate readings |
 | **Blanks** (e.g., BOD dilution-water blank) | Detect contamination |
 | **Duplicates** (test the same sample twice) | Check **precision** (repeatability) |
-| **Standards / check samples** (e.g., GGA for BOD) | Check **accuracy** |
+| **Standards / check samples** (e.g., GGA (Glucose–Glutamic Acid, BOD check standard) for BOD) | Check **accuracy** |
 | **Spikes** (add known amount) | Check recovery/interference (recognize) |
 | **Control charts** | Spot drift and trends |
 | **Records**: bench sheets, logbooks, temperatures of fridges/incubators/ovens, reagent dates | Defensible data |
@@ -140,7 +150,7 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 ### 2.10 BOD (and CBOD)
 - **Measures:** oxygen used by bacteria to break down organics in **5 days at 20 °C** in the **dark**, in **300 mL BOD bottles**.
 - **Method summary [SUPPLEMENTAL]:** dilute sample with **dilution water** (nutrients + buffer, aerated); **seed** with bacteria if the sample is disinfected/industrial; **dechlorinate** chlorinated samples; adjust pH to ~6.5–7.5 if needed; measure **initial DO**; incubate 5 days at **20 ± 1 °C**; measure **final DO**.
-  - **Valid result:** DO **depletion of at least 2.0 mg/L** and **at least 1.0 mg/L DO left** at the end.
+  - **Valid result:** DO **depletion of at least 2.0 mg/L (milligrams per litre)** and **at least 1.0 mg/L DO left** at the end.
   - **Dilution water blank** should deplete **no more than ~0.2 mg/L**.
   - **GGA (glucose–glutamic acid) check standard** verifies the test (expected ~198 ± 30.5 mg/L).
   - **CBOD:** add a **nitrification inhibitor** so only carbonaceous demand is measured.
@@ -151,7 +161,7 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 ### 2.11 COD
 - **Measures:** oxygen equivalent of organics oxidized by **potassium dichromate** in hot **sulphuric acid** (with a silver catalyst; ~**2 hours at 150 °C**), read by colorimeter or titration. **[SUPPLEMENTAL]**
 - **Why:** **fast** (same day) estimate of organic load; tracks industrial waste. **COD ≥ BOD always.**
-- **Safety:** reagents contain **mercury, chromium, strong acid** → hazardous waste disposal, PPE.
+- **Safety:** reagents contain **mercury, chromium, strong acid** → hazardous waste disposal, PPE (Personal Protective Equipment).
 - **High:** strong/industrial influent, poor treatment. Watch the **COD:BOD ratio** — a jump can mean non-biodegradable (possibly toxic) industrial waste.
 
 ### 2.12 TSS (Total Suspended Solids)
@@ -172,11 +182,11 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 
 ### 2.15 MLSS and MLVSS
 - **Measures:** TSS and VSS of the **mixed liquor** (aeration tank).
-- **Why:** how much sludge/biomass you have → F/M, SRT, wasting decisions.
+- **Why:** how much sludge/biomass you have → F/M (Food-to-Microorganism ratio), SRT (Solids Retention Time), wasting decisions.
 - **High MLSS:** under-wasting, old sludge, solids overloading the clarifier. **Low:** over-wasting, washout, toxicity.
 
 ### 2.16 Settleometer (SSV₃₀) and SVI
-- **Measures:** sludge settled volume after **30 minutes** in a 1–2 L settleometer (mL/L); **SVI = SSV₃₀ × 1,000 ÷ MLSS**.
+- **Measures:** sludge settled volume after **30 minutes** in a 1–2 L settleometer (mL/L); **SVI = SSV₃₀ (Settled Sludge Volume after 30 minutes) × 1,000 ÷ MLSS**.
 - **Why:** predicts clarifier performance.
 - **High SVI (> ~150–200):** bulking. **Very low SVI** with cloudy supernatant: old sludge/pin floc. **Settles then floats:** denitrification.
 
@@ -196,17 +206,17 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 - **High effluent P:** chemical feed failure/underdose, solids carryover, bio-P upset (nitrate/DO in anaerobic zone), secondary release, P-rich return streams.
 
 ### 2.20 Alkalinity
-- **Measures:** buffering capacity, mg/L as CaCO₃. **Method:** **titration with acid** (e.g., sulphuric acid) to an endpoint around **pH 4.5**.
-- **Why:** nitrification consumes it; digesters depend on it (VA/ALK ratio); chemical P removal consumes it.
+- **Measures:** buffering capacity, mg/L as CaCO₃ (calcium carbonate). **Method:** **titration with acid** (e.g., sulphuric acid) to an endpoint around **pH 4.5**.
+- **Why:** nitrification consumes it; digesters depend on it (VA/ALK (Volatile Acids to Alkalinity ratio) ratio); chemical P removal consumes it.
 - **Low:** risk of pH crash and nitrification failure → add alkalinity.
 
 ### 2.21 Chlorine residual
-- **Measures:** free and/or total chlorine (mg/L). **Methods:** **DPD** colorimetric (pink), amperometric titration, online analyzers. **Immediately.**
+- **Measures:** free and/or total chlorine (mg/L). **Methods:** **DPD** (N,N-diethyl-p-phenylenediamine, chlorine test reagent) colorimetric (pink), amperometric titration, online analyzers. **Immediately.**
 - **Why:** disinfection control; effluent toxicity (after dechlorination).
 - **Low:** feed failure, high demand (nitrite, ammonia, solids). **High:** overdose; dechlorination failure → toxic to fish.
 
 ### 2.22 Turbidity
-- **Measures:** cloudiness by light scatter (**nephelometer**, **NTU**).
+- **Measures:** cloudiness by light scatter (**nephelometer**, **NTU** (Nephelometric Turbidity Unit)).
 - **Why:** quick indicator of effluent solids; UV performance.
 
 ### 2.23 Bacteria — *E. coli* / fecal coliform
@@ -223,7 +233,7 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 - **No food or drink** in the lab or lab fridges.
 - **COD waste (mercury, chromium)** and other reagents → **hazardous waste**, not the drain.
 - **Hot equipment:** muffle furnace (550 °C), drying oven, autoclave — tongs and heat-resistant gloves.
-- Know the **eyewash/shower** and **SDS** locations; label all reagents with dates.
+- Know the **eyewash/shower** and **SDS** (Safety Data Sheet) locations; label all reagents with dates.
 
 ---
 

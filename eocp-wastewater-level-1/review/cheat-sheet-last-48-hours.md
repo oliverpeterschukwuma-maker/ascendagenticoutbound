@@ -2,9 +2,13 @@
 
 ← [Course index](../README.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **ATS** = Automatic Transfer Switch · **BEP** = Best Efficiency Point · **BOD** = Biochemical Oxygen Demand · **Ca(OCl)₂** = calcium hypochlorite · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **cfs** = cubic feet per second · **CH₄** = methane · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **GFCI** = Ground-Fault Circuit Interrupter · **gpd** = gallons per day · **gpm** = gallons per minute · **HOA** = Hand-Off-Auto (switch) · **hp** = horsepower · **HRT** = Hydraulic Retention Time · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **kW** = kilowatt · **kWh** = kilowatt-hour · **L/s** = litres per second · **LEL** = Lower Explosive Limit · **mA** = milliamps · **MCRT** = Mean Cell Residence Time · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **MWR** = Municipal Wastewater Regulation · **m³/d** = cubic metres per day · **NaOCl** = sodium hypochlorite · **NH₃** = ammonia · **NO₂** = nitrite · **NO₃** = nitrate · **N₂** = nitrogen gas · **O₂** = oxygen · **PD** = Positive Displacement · **PPE** = Personal Protective Equipment · **ppm** = parts per million · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **SBR** = Sequencing Batch Reactor · **SCBA** = Self-Contained Breathing Apparatus · **SDS** = Safety Data Sheet · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDS** = Total Dissolved Solids · **TRC** = Total Residual Chlorine · **TSS** = Total Suspended Solids · **UEL** = Upper Explosive Limit · **UPS** = Uninterruptible Power Supply · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VFD** = Variable Frequency Drive · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
+<!-- abbr-end -->
+
 > **In the last 48 hours: don't learn new material.** Read this sheet twice, flip through your flashcards and your mistake notebook, do 10 math problems to stay warm, and **sleep**.
 
-**The exam:** WPI Wastewater Treatment Class I (EOCP Level I) · ~100 scored questions (+ unscored pretest items) · 4 options, one best answer · **70% to pass** · formula/conversion sheet provided · **π = 3.14** · weights ≈ **Equipment 39% · Process 38% · Safety/Admin 13% · Lab 10%**.
+**The exam:** WPI (Water Professionals International) Wastewater Treatment Class I (EOCP (Environmental Operators Certification Program) Level I) · ~100 scored questions (+ unscored pretest items) · 4 options, one best answer · **70% to pass** · formula/conversion sheet provided · **π = 3.14** · weights ≈ **Equipment 39% · Process 38% · Safety/Admin 13% · Lab 10%**.
 
 ---
 
@@ -13,21 +17,21 @@
 | Term | Meaning |
 |---|---|
 | Influent / Effluent | Flowing in / flowing out |
-| BOD | O₂ used by bacteria in 5 d at 20 °C — organic strength |
-| CBOD | BOD with nitrification inhibited |
-| COD | O₂ equivalent by chemical (dichromate) — always ≥ BOD |
-| TSS / TDS | Caught on filter (103–105 °C) / passes filter |
-| VSS | Burns off at 550 °C = organic |
-| DO | Dissolved oxygen (aeration target ~2 mg/L) |
-| Alkalinity | Buffering capacity, as CaCO₃ |
-| MLSS / MLVSS | Solids in aeration / organic (living) part (~70–80%) |
-| RAS / WAS | Returned to aeration / removed from system |
-| F/M | Food per bug: kg BOD/d ÷ kg MLVSS |
-| SRT (sludge age, MCRT) | Days bugs stay in system |
-| SVI | mL occupied by 1 g sludge after 30 min |
+| BOD (Biochemical Oxygen Demand) | O₂ used by bacteria in 5 d at 20 °C — organic strength |
+| CBOD (Carbonaceous Biochemical Oxygen Demand) | BOD with nitrification inhibited |
+| COD (Chemical Oxygen Demand) | O₂ equivalent by chemical (dichromate) — always ≥ BOD |
+| TSS (Total Suspended Solids) / TDS (Total Dissolved Solids) | Caught on filter (103–105 °C) / passes filter |
+| VSS (Volatile Suspended Solids) | Burns off at 550 °C = organic |
+| DO | Dissolved oxygen (aeration target ~2 mg/L (milligrams per litre)) |
+| Alkalinity | Buffering capacity, as CaCO₃ (calcium carbonate) |
+| MLSS (Mixed Liquor Suspended Solids) / MLVSS (Mixed Liquor Volatile Suspended Solids) | Solids in aeration / organic (living) part (~70–80%) |
+| RAS (Return Activated Sludge) / WAS (Waste Activated Sludge) | Returned to aeration / removed from system |
+| F/M (Food-to-Microorganism ratio) | Food per bug: kg BOD/d ÷ kg MLVSS |
+| SRT (sludge age, MCRT (Mean Cell Residence Time)) | Days bugs stay in system |
+| SVI (Sludge Volume Index) | mL occupied by 1 g sludge after 30 min |
 | Aerobic / Anoxic / Anaerobic | DO / no DO + nitrate / neither |
 | Facultative | Lives with or without O₂ |
-| Nitrification / Denitrification | NH₃ → NO₂ → NO₃ (aerobic) / NO₃ → N₂ (anoxic) |
+| Nitrification / Denitrification | NH₃ (ammonia) → NO₂ → NO₃ (aerobic) / NO₃ → N₂ (anoxic) |
 | Pathogen / Indicator | Disease organism / E. coli & fecal coliform |
 | Dose / Demand / Residual | Added / used up / left over |
 | Confined space | Not for continuous occupancy + restricted entry/exit |
@@ -44,22 +48,22 @@ Influent → SCREENS (remove rags) → GRIT (0.3 m/s) → PRIMARY (settle + skim
 ```
 - **Waste more → MLSS ↓ · SRT ↓ · F/M ↑ (young).** Waste less → the opposite (old).
 - **RAS ↑ → blanket ↓.** Change wasting ≤ ~10–15%/day.
-- **Extended aeration:** F/M 0.05–0.15, SRT 20–30+ d, HRT 18–36 h.
-- **SBR:** Fill, React, Settle, Decant, Idle.
+- **Extended aeration:** F/M 0.05–0.15, SRT 20–30+ d, HRT (Hydraulic Retention Time) 18–36 h.
+- **SBR (Sequencing Batch Reactor):** Fill, React, Settle, Decant, Idle.
 - **Lagoons:** DO & pH highest late afternoon, lowest at dawn. Pink/red = anaerobic overload. Green = good.
-- **Trickling filter:** ponding, flies, odours → recirculate/flush. **RBC:** ~40% submerged; white growth = overload/H₂S.
+- **Trickling filter:** ponding, flies, odours → recirculate/flush. **RBC (Rotating Biological Contactor):** ~40% submerged; white growth = overload/H₂S.
 - **Nitrification:** needs DO ≥ 2, long SRT, warm, pH 7–8, alkalinity (uses ~4.6 O₂ & ~7.1 alk per mg N).
 - **Bio-P:** anaerobic (release) → aerobic (uptake) → leaves in WAS. **Chem-P:** alum/ferric → lowers pH, more sludge.
-- **Anaerobic digester:** 35 °C, pH 6.8–7.2, VA/ALK < 0.1–0.2, gas 60–70% CH₄. **Upset: VA/ALK ↑ first, pH ↓ last** → cut feed, add alkalinity.
+- **Anaerobic digester:** 35 °C, pH 6.8–7.2, VA/ALK (Volatile Acids to Alkalinity ratio) < 0.1–0.2, gas 60–70% CH₄ (methane). **Upset: VA/ALK ↑ first, pH ↓ last** → cut feed, add alkalinity.
 - **Aerobic digester:** DO ≥ 1; pH drops (nitrification).
-- **Thickening:** gravity → primary; DAF → WAS. **Belt press:** gravity → wedge → pressure.
+- **Thickening:** gravity → primary; DAF (Dissolved Air Flotation) → WAS. **Belt press:** gravity → wedge → pressure.
 
 ## 3. MUST-KNOW EQUIPMENT (39% of the exam!)
 
 | Item | Key fact |
 |---|---|
-| Centrifugal pump | Head ↑ → flow ↓; must be primed; run near BEP |
-| PD pump | Constant flow; **never against closed discharge**; relief valve |
+| Centrifugal pump | Head ↑ → flow ↓; must be primed; run near BEP (Best Efficiency Point) |
+| PD (Positive Displacement) pump | Constant flow; **never against closed discharge**; relief valve |
 | Packing | **Slight drip**; tighten evenly, a little at a time |
 | Mechanical seal | **No leak**; never run dry |
 | Wear rings worn | Less flow & pressure |
@@ -72,28 +76,28 @@ Influent → SCREENS (remove rags) → GRIT (0.3 m/s) → PRIMARY (settle + skim
 | Air gap | Best backflow protection |
 | Mag meter | Full pipe + conductive liquid |
 | Parshall flume | Open channel; level → flow |
-| 4–20 mA | 4 = 0%, 20 = 100%, 0 mA = fault |
+| 4–20 mA (milliamps) | 4 = 0%, 20 = 100%, 0 mA = fault |
 | DO probe fouled | Reads LOW → over-aeration |
 | pH meter | Buffers 7 then 4/10; store wet |
-| HOA | Hand bypasses auto; **Off ≠ lockout** |
-| Fuse/breaker · Overload · GFCI | Wires · Motor · People |
-| VFD | Changes speed |
-| Generator | Exercise regularly under load; ATS transfers; UPS for PLC/SCADA |
+| HOA (Hand-Off-Auto, switch) | Hand bypasses auto; **Off ≠ lockout** |
+| Fuse/breaker · Overload · GFCI (Ground-Fault Circuit Interrupter) | Wires · Motor · People |
+| VFD (Variable Frequency Drive) | Changes speed |
+| Generator | Exercise regularly under load; ATS (Automatic Transfer Switch) transfers; UPS (Uninterruptible Power Supply) for PLC/SCADA |
 | Grease | Over-greasing = heat |
 | Misalignment | Vibration, bearing & seal failure |
 | Maintenance | Preventive (scheduled), predictive, corrective, emergency |
 
 ## 4. MUST-KNOW SAFETY
 
-- **Hierarchy:** eliminate → substitute → engineer → administrate → **PPE last**.
-- **H₂S:** heavier (low), rotten eggs, **deadens smell**, toxic, flammable.
+- **Hierarchy:** eliminate → substitute → engineer → administrate → **PPE (Personal Protective Equipment) last**.
+- **H₂S (hydrogen sulphide):** heavier (low), rotten eggs, **deadens smell**, toxic, flammable.
 - **Methane:** lighter (high), odourless, **5–15%** explosive.
-- **Chlorine:** **2.5× heavier**, vents low, ammonia → white cloud for leaks, **never water**, SCBA.
-- **O₂ 19.5–23%** · **flammables < 10% LEL** · test **O₂ → LEL → toxics**, top/middle/bottom.
+- **Chlorine:** **2.5× heavier**, vents low, ammonia → white cloud for leaks, **never water**, SCBA (Self-Contained Breathing Apparatus).
+- **O₂ 19.5–23%** · **flammables < 10% LEL (Lower Explosive Limit)** · test **O₂ → LEL → toxics**, top/middle/bottom.
 - **Attendant never enters.** Non-entry rescue.
 - **Lockout:** own lock, release stored energy, **verify (try)**.
-- **Eyewash ≥ 15 min.** **SDS:** 2 hazards · 4 first aid · 6 spills · 7 storage · 8 PPE.
-- **Hypochlorite + acid → Cl₂ gas; + ammonia → chloramines.** **HTH + oil → fire.** **Acid into water.**
+- **Eyewash ≥ 15 min.** **SDS (Safety Data Sheet):** 2 hazards · 4 first aid · 6 spills · 7 storage · 8 PPE.
+- **Hypochlorite + acid → Cl₂ (chlorine gas) gas; + ammonia → chloramines.** **HTH (High-Test Hypochlorite, calcium hypochlorite) + oil → fire.** **Acid into water.**
 - Cartridge respirator **≠ oxygen**. Fire C = electrical (no water). Ladder 4:1. BC right to refuse.
 
 ## 5. MUST-KNOW PARAMETERS (typical values)
@@ -110,11 +114,11 @@ Influent → SCREENS (remove rags) → GRIT (0.3 m/s) → PRIMARY (settle + skim
 | Sewer self-cleansing | 0.6 m/s (2 ft/s) |
 | Primary DT | 1.5–2.5 h |
 | Chlorine contact | ~15 min at peak flow |
-| Hypochlorite strengths | NaOCl ~12%; Ca(OCl)₂ ~65% |
+| Hypochlorite strengths | NaOCl (sodium hypochlorite) ~12%; Ca(OCl)₂ (calcium hypochlorite) ~65% |
 | Digester | 35 °C; pH 6.8–7.2; 60–70% CH₄ |
 | Sludge solids | Primary 2–6%; WAS 0.5–1.5%; cake 15–30% |
 | BOD test valid | Depletion ≥ 2.0, residual ≥ 1.0 mg/L |
-| Federal WSER | CBOD 25, SS 25, TRC 0.02 mg/L |
+| Federal WSER (Wastewater Systems Effluent Regulations) | CBOD 25, SS 25, TRC (Total Residual Chlorine) 0.02 mg/L |
 
 ## 6. MUST-KNOW FORMULAS
 
@@ -137,16 +141,16 @@ TSS = Δg × 1,000,000 ÷ mL   ·   BOD = (DOi − DOf) × 300 ÷ mL   ·   °F 
 | | |
 |---|---|
 | 1 m³ = 1,000 L · 1 ML = 1,000 m³ | 1 L water = 1 kg |
-| 1 L/s = 86.4 m³/d · 1 m³/s = 86,400 m³/d | 1 day = 24 h = 1,440 min = 86,400 s |
-| 1% = 10,000 mg/L · 1 mg/L = 1 ppm = 1 kg/ML | 1 ft³ = 7.48 gal · 1 gal = 8.34 lb |
-| 1 MGD = 694.4 gpm = 1.55 cfs · 1 cfs = 448.8 gpm | 1 gal = 3.785 L · 1 kg = 2.205 lb |
-| 1 psi = 2.31 ft = 6.895 kPa · 1 m ≈ 9.81 kPa | 1 hp = 0.746 kW · 1 m = 3.281 ft |
+| 1 L/s (litres per second) = 86.4 m³/d (cubic metres per day) · 1 m³/s = 86,400 m³/d | 1 day = 24 h = 1,440 min = 86,400 s |
+| 1% = 10,000 mg/L · 1 mg/L = 1 ppm (parts per million) = 1 kg/ML | 1 ft³ = 7.48 gal · 1 gal = 8.34 lb |
+| 1 MGD (Million Gallons per Day) = 694.4 gpm (gallons per minute) = 1.55 cfs (cubic feet per second) · 1 cfs = 448.8 gpm | 1 gal = 3.785 L · 1 kg = 2.205 lb |
+| 1 psi (pounds per square inch) = 2.31 ft = 6.895 kPa (kilopascal) · 1 m ≈ 9.81 kPa | 1 hp = 0.746 kW (kilowatt) · 1 m = 3.281 ft |
 
 ## 8. COMMON EXAM TRAPS
 
 1. **"FIRST" questions** → safety, then **verify**, then **check equipment**, then a small process change.
 2. **NOT / EXCEPT** questions — reverse your thinking.
-3. **Forgetting × 24** in detention time; using **gpd instead of MGD**; forgetting **÷ 1,000** in kg/d.
+3. **Forgetting × 24** in detention time; using **gpd (gallons per day) instead of MGD**; forgetting **÷ 1,000** in kg/d.
 4. **Using 65 instead of 0.65**; **multiplying** by purity/efficiency instead of **dividing**.
 5. **psi ↔ ft mixed up** (feet is the bigger number).
 6. **0.785 with radius** (use D²) or **area instead of circumference** for weirs.
@@ -186,9 +190,9 @@ TSS = Δg × 1,000,000 ÷ mL   ·   BOD = (DOi − DOf) × 300 ÷ mL   ·   °F 
 | Preventive vs corrective maintenance | Before vs after failure |
 | Grab vs composite | One moment vs mixed over time |
 | Duplicate vs blank vs standard | Precision vs contamination vs accuracy |
-| SOR vs WOR | ÷ area vs ÷ weir length |
-| LEL vs UEL | Too lean below vs too rich above |
-| WorkSafeBC vs EOCP vs MWR | Worker safety vs operator certification vs discharge rules |
+| SOR (Surface Overflow Rate) vs WOR (Weir Overflow Rate) | ÷ area vs ÷ weir length |
+| LEL vs UEL (Upper Explosive Limit) | Too lean below vs too rich above |
+| WorkSafeBC vs EOCP vs MWR (Municipal Wastewater Regulation) | Worker safety vs operator certification vs discharge rules |
 
 ---
 

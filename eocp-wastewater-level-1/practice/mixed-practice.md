@@ -2,12 +2,16 @@
 
 ← [Course index](../README.md) · [Exam Prep System](exam-prep-system.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **EQ** = Equalization (or Equipment area code) · **FLA** = Full-Load Amps · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **gpm** = gallons per minute · **HMI** = Human-Machine Interface · **H₂S** = hydrogen sulphide · **I/I** = Infiltration and Inflow · **L/s** = litres per second · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MWR** = Municipal Wastewater Regulation · **OHS** = Occupational Health and Safety · **OMRR** = Organic Matter Recycling Regulation · **PLC** = Programmable Logic Controller · **PLCs** = Programmable Logic Controllers · **PPE** = Personal Protective Equipment · **RBCs** = Rotating Biological Contactors · **RP** = Reduced Pressure (backflow assembly) · **SCADA** = Supervisory Control And Data Acquisition · **SG** = Specific Gravity · **SOP** = Standard Operating Procedure · **SRT** = Solids Retention Time · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge · **WPI** = Water Professionals International
+<!-- abbr-end -->
+
 Questions from **every** module, shuffled so you can't predict the topic. Weighted roughly like the real exam (23 Equipment · 23 Process · 8 Safety/Admin · 6 Lab). Includes BC-specific items from Module 18. Original practice items — **not** actual exam questions.
 
 **Exam conditions:**
 - **Time:** about 1 hour 45 minutes (practise under a timer).
-- **Allowed:** calculator and the [formula/conversion sheet](../math/formula-and-conversion-sheet.md) (or better, the official WPI sheet). **Nothing else** — no notes.
-- **One best answer** per question. Answer every question (no penalty for guessing — confirm with EOCP).
+- **Allowed:** calculator and the [formula/conversion sheet](../math/formula-and-conversion-sheet.md) (or better, the official WPI (Water Professionals International) sheet). **Nothing else** — no notes.
+- **One best answer** per question. Answer every question (no penalty for guessing — confirm with EOCP (Environmental Operators Certification Program)).
 - Write your answers on paper (1–60), then check them against the key at the bottom.
 - **π = 3.14.**
 
@@ -85,7 +89,7 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
    C. 24-hour BOD  
    D. 24-hour TSS  
 
-**11.** When adjusting the WAS rate, a good practice is to change it by no more than about:
+**11.** When adjusting the WAS (Waste Activated Sludge) rate, a good practice is to change it by no more than about:
 
    A. 50% per day  
    B. It doesn't matter  
@@ -253,7 +257,7 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
    C. Measure chlorine  
    D. Preserve ammonia samples  
 
-**35.** The BOD dilution water blank should deplete no more than about:
+**35.** The BOD (Biochemical Oxygen Demand) dilution water blank should deplete no more than about:
 
    A. 8.0 mg/L  
    B. 5.0 mg/L  
@@ -267,7 +271,7 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
    C. Correct operation  
    D. Bearing failure or lubrication problem  
 
-**37.** Influent TSS is 260 mg/L, effluent TSS is 18 mg/L, and flow is 5.5 ML/d. How many kg/d of TSS are removed?
+**37.** Influent TSS (Total Suspended Solids) is 260 mg/L (milligrams per litre), effluent TSS is 18 mg/L, and flow is 5.5 ML/d. How many kg/d of TSS are removed?
 
    A. 1,430 kg/d  
    B. 242 kg/d  
@@ -351,7 +355,7 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
    C. Harmless steam  
    D. Toxic chloramine gases  
 
-**49.** If the SCADA computer at the plant fails, the pumps at a lift station will usually keep operating because:
+**49.** If the SCADA (Supervisory Control And Data Acquisition) computer at the plant fails, the pumps at a lift station will usually keep operating because:
 
    A. The local PLC continues to run the control logic  
    B. The pumps run on telemetry  
@@ -393,7 +397,7 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
    C. Always toxic  
    D. Cleaner than normal wastewater  
 
-**55.** A plant flow of 2.2 MGD is equal to approximately:
+**55.** A plant flow of 2.2 MGD (Million Gallons per Day) is equal to approximately:
 
    A. 1,528 gpm  
    B. 317 gpm  
@@ -447,25 +451,25 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
 | 4 | **A** | SA | Never rely on smell; use a calibrated detector. |
 | 5 | **B** | EQ | Unions let equipment be removed without cutting pipe. |
 | 6 | **D** | EQ | Staggering joints prevents a straight leak path. |
-| 7 | **D** | PR | Alternating contact with water (food) and air (oxygen) is how RBCs work. |
-| 8 | **A** | EQ | A = 0.785 × 0.15 × 0.15 = 0.01766 m²; × 0.75 = 0.01325 m³/s × 1,000 = 13.2 L/s. |
+| 7 | **D** | PR | Alternating contact with water (food) and air (oxygen) is how RBCs (Rotating Biological Contactors) work. |
+| 8 | **A** | EQ | A = 0.785 × 0.15 × 0.15 = 0.01766 m²; × 0.75 = 0.01325 m³/s × 1,000 = 13.2 L/s (litres per second). |
 | 9 | **D** | SA | Never fabricate data. |
-| 10 | **A** | LB | DO changes quickly and can't be composited. |
+| 10 | **A** | LB | DO (Dissolved Oxygen) changes quickly and can't be composited. |
 | 11 | **C** | PR | Gradual changes avoid process upsets. |
-| 12 | **C** | EQ | Arc flash causes severe burns; panels should be worked on only by qualified persons with proper PPE. |
-| 13 | **B** | PR | I/I adds clean water, raising flow and lowering concentration. |
+| 12 | **C** | EQ | Arc flash causes severe burns; panels should be worked on only by qualified persons with proper PPE (Personal Protective Equipment). |
+| 13 | **B** | PR | I/I (Infiltration and Inflow) adds clean water, raising flow and lowering concentration. |
 | 14 | **D** | EQ | A diaphragm seal keeps solids and corrosive liquids out of the gauge. |
 | 15 | **C** | EQ | Snubbers smooth pulsations so the gauge can be read and isn't damaged. |
 | 16 | **A** | PR | Adding air helps oxidize sulphides and improve grease separation. |
 | 17 | **C** | EQ | Debris changes the effective notch shape and the water level reading. |
 | 18 | **D** | PR | After winter ice cover, anaerobic products are released at turnover. |
-| 19 | **C** | SA | Methane SG ≈ 0.55. |
-| 20 | **D** | PR | Septic sewage has no DO and produces H₂S — a process and safety concern. |
+| 19 | **C** | SA | Methane SG (Specific Gravity) ≈ 0.55. |
+| 20 | **D** | PR | Septic sewage has no DO and produces H₂S (hydrogen sulphide) — a process and safety concern. |
 | 21 | **D** | PR | Biological floc settles more slowly than raw solids. |
 | 22 | **B** | PR | Nitrifying bacteria in the river use oxygen to convert ammonia. |
 | 23 | **B** | PR | 907 ÷ 55 = 16.5 days. |
 | 24 | **A** | SA | Each person controls their own protection. |
-| 25 | **D** | EQ | Running above FLA overheats the motor; look for a clog, binding, runout, or voltage problem. |
+| 25 | **D** | EQ | Running above FLA (Full-Load Amps) overheats the motor; look for a clog, binding, runout, or voltage problem. |
 | 26 | **C** | EQ | Milky oil = water contamination (condensation, seal leak); change oil and find the source. |
 | 27 | **C** | EQ | Torque alarms protect the mechanism; find the cause safely. |
 | 28 | **A** | PR | Safety first; unknown chemicals may be toxic/flammable. Save samples for source tracing. |
@@ -487,15 +491,15 @@ Questions from **every** module, shuffled so you can't predict the topic. Weight
 | 44 | **D** | LB | 0.0036 g × 1,000,000 ÷ 40 = 90 mg/L. |
 | 45 | **C** | EQ | The volute converts the water's velocity into pressure. |
 | 46 | **B** | EQ | Water changing direction pushes on fittings; restraints hold the pipe. |
-| 47 | **A** | PR | Wasting a set fraction of the inventory each day holds the SRT. |
+| 47 | **A** | PR | Wasting a set fraction of the inventory each day holds the SRT (Solids Retention Time). |
 | 48 | **D** | SA | Never mix bleach with ammonia or acids. |
-| 49 | **A** | EQ | PLCs control equipment locally; SCADA supervises. |
+| 49 | **A** | EQ | PLCs (Programmable Logic Controllers) control equipment locally; SCADA supervises. |
 | 50 | **B** | PR | Recycling foam re-seeds the organisms. |
-| 51 | **D** | SA | OMRR sets quality and land-application requirements. |
+| 51 | **D** | SA | OMRR (Organic Matter Recycling Regulation) sets quality and land-application requirements. |
 | 52 | **B** | SA | Section 47 of the MWR (under the Environmental Management Act). |
 | 53 | **D** | EQ | Gentler starting reduces inrush current and hydraulic surges. |
 | 54 | **B** | PR | Screen, meter and control the discharge rate of septage. |
-| 55 | **A** | EQ | 2.2 × 694.4 = 1,527.7 gpm. |
+| 55 | **A** | EQ | 2.2 × 694.4 = 1,527.7 gpm (gallons per minute). |
 | 56 | **D** | PR | Combined chlorine is weaker but lasts longer than free chlorine. |
 | 57 | **B** | LB | The intensity of the blue colour is proportional to phosphate. |
 | 58 | **A** | PR | Nitrification has used the alkalinity; restore it to protect pH and nitrification. |

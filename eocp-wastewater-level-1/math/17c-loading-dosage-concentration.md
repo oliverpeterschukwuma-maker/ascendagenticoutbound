@@ -2,11 +2,23 @@
 
 ← [17B](17b-area-volume-flow-time.md) · [Course index](../README.md) · Next → [17D — Process, Pumps, Pressure & Lab](17d-process-pumps-pressure-lab.md)
 
-> **The single most important formula in wastewater math is the "pounds formula" (US) / "kilograms formula" (metric).** It converts a **concentration** (mg/L) into a **mass per day** (kg/d or lb/d). Once you understand it, half the exam math becomes easy: BOD loading, solids loading, chlorine feed, chemical feed, sludge wasting, solids inventory.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **F/M** = Food-to-Microorganism ratio · **gpd** = gallons per day · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLSS** = Mixed Liquor Suspended Solids · **m³/d** = cubic metres per day · **OSHA** = Occupational Safety and Health Administration (US) · **ppm** = parts per million · **SG** = Specific Gravity · **SRT** = Solids Retention Time · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge
+<!-- abbr-end -->
+
+> **The single most important formula in wastewater math is the "pounds formula" (US) / "kilograms formula" (metric).** It converts a **concentration** (mg/L) into a **mass per day** (kg/d or lb/d). Once you understand it, half the exam math becomes easy: BOD (Biochemical Oxygen Demand) loading, solids loading, chlorine feed, chemical feed, sludge wasting, solids inventory.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Water Operator Math: The Pounds Formula Explained (lbs/day, Dose, Flow)](https://www.youtube.com/watch?v=SjajSl783jc) · [mg/L to lbs/day Explained](https://www.youtube.com/watch?v=vmCvSvYvACU)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
 ## C1. Concentration units
+
+**WHY IT WORKS (plain words):** mg/L (milligrams per litre) tells you how many milligrams of stuff are in each litre. Because 1 m³ holds 1,000 L and 1 g = 1,000 mg, 1 mg in every litre = 1 g in every m³ — so mg/L and g/m³ are the same number. And 1 ML has a million litres, so 1 mg/L = 1 kg per ML. A 1% solution has 1 part in 100 → 10,000 parts per million → 10,000 mg/L.
 
 | Unit | Meaning | Equivalent |
 |---|---|---|
@@ -34,7 +46,9 @@ lb/day = Concentration (mg/L) × Flow (MGD) × 8.34
 
 **WHAT IT MEANS:** concentration tells you how *strong* the water is; flow tells you how *much* water. Multiply them to get the *total mass* of stuff arriving each day.
 
-**WHEN TO USE IT:** whenever the question asks for **kg/d or lb/d** of anything — BOD, TSS, ammonia, chlorine, chemical, solids wasted, solids removed.
+**WHY IT WORKS (plain words):** Think of the stuff in wastewater as sugar dissolved in water. **Concentration** tells you how much sugar is in each litre. **Flow** tells you how many litres arrive each day. Total sugar per day = sugar per litre × litres per day. The ÷ 1,000 just converts grams into kilograms (mg/L × m³ = g, because 1 mg/L = 1 g/m³). In US units, the 8.34 converts "million gallons" of water into pounds (1 gallon weighs 8.34 lb).
+
+**WHEN TO USE IT:** whenever the question asks for **kg/d or lb/d** of anything — BOD, TSS (Total Suspended Solids), ammonia, chlorine, chemical, solids wasted, solids removed.
 
 **VARIABLES & UNITS:**
 | Variable | Metric | US |
@@ -55,7 +69,7 @@ US: 220 mg/L × 1.2 MGD × 8.34 = **2,201.8 lb/d**.
 
 **COMMON MISTAKES:**
 - Using m³/d **without** ÷ 1,000 (answer 1,000× too big).
-- In US problems, using **gpd** instead of **MGD** (1,500,000 gpd = **1.5** MGD).
+- In US problems, using **gpd** (gallons per day) instead of **MGD** (1,500,000 gpd = **1.5** MGD).
 - Forgetting 8.34 in US problems.
 
 ---
@@ -66,7 +80,9 @@ US: 220 mg/L × 1.2 MGD × 8.34 = **2,201.8 lb/d**.
 
 **WHAT IT MEANS:** the total mass of solids (or chemical) **sitting in** a tank right now (not per day).
 
-**WHEN TO USE IT:** solids inventory for SRT and F/M (MLSS/MLVSS in the aeration tank), chemical needed to dose a tank.
+**WHY IT WORKS (plain words):** Same as the kg/day formula, but instead of litres **per day** you use the litres **sitting in the tank**. So you get a mass (kg), not a mass per day. Use it whenever the question is about what's *in* a tank (MLSS (Mixed Liquor Suspended Solids) inventory) rather than what flows *through* it.
+
+**WHEN TO USE IT:** solids inventory for SRT (Solids Retention Time) and F/M (MLSS/MLVSS in the aeration tank), chemical needed to dose a tank.
 
 **EASY EXAMPLE:** 1,000 mg/L in 1 m³ → 1,000 × 1 ÷ 1,000 = **1 kg**.
 
@@ -90,13 +106,15 @@ US: lb/day of product     = Dose (mg/L) × Flow (MGD) × 8.34 ÷ purity
 
 **WHAT IT MEANS:** if the product isn't 100% active (e.g., calcium hypochlorite is 65% available chlorine), you need **more product** to deliver the same amount of active chemical.
 
+**WHY IT WORKS (plain words):** If a product is only 65% chlorine, every 1 kg of product delivers only 0.65 kg of chlorine. To get the chlorine you need, you must use more product — so you **divide** by 0.65, which makes the number bigger. (Multiplying by 0.65 would make it smaller — the opposite of what you need.)
+
 **WHEN TO USE IT:** chlorine, hypochlorite, alum, ferric, lime, polymer.
 
 **EASY EXAMPLE:** 10 kg/d of chlorine needed, using a 50% product → 10 ÷ 0.5 = **20 kg/d** of product.
 
 **LEVEL I EXAMPLE:** chlorine dose 6 mg/L, flow 3,000 m³/d → 6 × 3,000 ÷ 1,000 = **18 kg/d** of chlorine.
-With **65% calcium hypochlorite (HTH)** → 18 ÷ 0.65 = **27.7 kg/d** of HTH.
-US: 5 mg/L × 0.8 MGD × 8.34 = 33.36 lb/d Cl₂ → with 65% HTH: 33.36 ÷ 0.65 = **51.3 lb/d**.
+With **65% calcium hypochlorite (HTH)** → 18 ÷ 0.65 = **27.7 kg/d** of HTH (High-Test Hypochlorite, calcium hypochlorite).
+US: 5 mg/L × 0.8 MGD × 8.34 = 33.36 lb/d Cl₂ (chlorine gas) → with 65% HTH: 33.36 ÷ 0.65 = **51.3 lb/d**.
 
 **EXAM QUESTION:** *How many kg/d of liquid alum (48% strength) are needed to dose 30 mg/L into 2,000 m³/d?*
 → 30 × 2,000 ÷ 1,000 = 60 kg/d of alum ÷ 0.48 = **125 kg/d** of product.
@@ -108,6 +126,8 @@ US: 5 mg/L × 0.8 MGD × 8.34 = 33.36 lb/d Cl₂ → with 65% HTH: 33.36 ÷ 0.65
 ---
 
 ## C5. Dose from a feed rate (working backwards)
+
+**WHY IT WORKS (plain words):** This is the kg/day formula turned around. If you know how many kg per day you're feeding and how much water it's mixed into, then the dose (concentration) = mass ÷ water. The 1,000 converts kg back to grams so the units come out in mg/L.
 
 **FORMULA:** `Dose (mg/L) = Feed (kg/d) × 1,000 ÷ Flow (m³/d)` · US: `Dose = lb/d ÷ (MGD × 8.34)`
 
@@ -124,6 +144,8 @@ US: 40 lb/d into 1.0 MGD → 40 ÷ (1.0 × 8.34) = **4.8 mg/L**.
 
 **WHAT IT MEANS:** what you add (dose) = what gets used up (demand) + what's left (residual). (Module 8.)
 
+**WHY IT WORKS (plain words):** Chlorine is like money paying bills. The water has "bills" (ammonia, organics, iron, H₂S (hydrogen sulphide)) that use up chlorine first — that's the demand. Whatever is left over is the residual that keeps protecting the water. What you put in (dose) must cover the bills plus leave something over: dose = demand + residual.
+
 **LEVEL I EXAMPLE:** demand 6.5 mg/L, desired residual 0.5 mg/L → dose = **7.0 mg/L**. At 4,000 m³/d → 7 × 4,000 ÷ 1,000 = **28 kg/d**.
 **How long will a 68 kg cylinder last?** 68 ÷ 28 = **2.4 days**.
 
@@ -138,6 +160,8 @@ US: 40 lb/d into 1.0 MGD → 40 ÷ (1.0 × 8.34) = **4.8 mg/L**.
 **FORMULA:** `% Removal = (In − Out) ÷ In × 100`
 
 **WHAT IT MEANS:** what fraction of the incoming stuff the process took out.
+
+**WHY IT WORKS (plain words):** You're asking "out of what came in, what fraction did we take out?" The amount taken out is In − Out. Dividing by In gives the fraction removed, and × 100 turns the fraction into a percent. It's always divided by **In**, because "percent removed" is a percent of what arrived.
 
 **WHEN TO USE IT:** BOD, TSS, ammonia, phosphorus removal for a unit or the whole plant.
 
@@ -161,6 +185,8 @@ For water-based solutions: **1 L ≈ 1 kg**, so **1% ≈ 10 g per litre ≈ 10 k
 
 **WHAT IT MEANS:** how concentrated a solution is.
 
+**WHY IT WORKS (plain words):** Percent means "parts per hundred" by weight. Because 1 L of water weighs about 1 kg, 1,000 L of solution weighs about 1,000 kg — so a 0.25% solution contains 0.25 kg of chemical in every 100 kg, i.e., 2.5 kg in 1,000 kg.
+
 **EASY EXAMPLE:** 1 kg of polymer in 100 kg of solution = **1%**.
 
 **LEVEL I EXAMPLE:** make 1,000 L of 0.25% polymer → 1,000 kg × 0.0025 = **2.5 kg** of polymer.
@@ -181,6 +207,8 @@ US: 500 gal of 0.5% solution → 500 × 8.34 × 0.005 = **20.85 lb** of chemical
 - V₂ = final volume you want
 
 **WHAT IT MEANS:** the amount of chemical doesn't change when you add water — only the volume does.
+
+**WHY IT WORKS (plain words):** When you add water to a chemical, the **amount** of chemical doesn't change — it just spreads out into more water. Amount = strength × volume. So (strength × volume) before = (strength × volume) after: C₁V₁ = C₂V₂.
 
 **EASY EXAMPLE:** dilute 10% to 5% to make 10 L → V₁ = 5 × 10 ÷ 10 = **5 L** of stock + 5 L water.
 
@@ -208,6 +236,8 @@ Feed (gpd) = lb/day of active chemical ÷ (8.34 × specific gravity × active st
 
 **WHAT IT MEANS:** how fast a metering pump must deliver a liquid product to give the target dose.
 
+**WHY IT WORKS (plain words):** Step by step: flow (m³/d) × dose (mg/L) = grams per day of pure chemical needed. The product is only partly active and each mL weighs a certain amount (density), so dividing by (density × active fraction) turns grams of pure chemical into mL of product per day. Dividing by 1,440 (minutes in a day) gives mL per minute for the pump.
+
 **WHY IT WORKS:** m³/d × mg/L = g/d of active chemical → ÷ (g/mL × fraction active) = mL/d of product → ÷ 1,440 min/d = mL/min.
 
 **LEVEL I EXAMPLE:** flow 3,000 m³/d, dose 10 mg/L, sodium hypochlorite 12% with density 1.2 g/mL →
@@ -216,7 +246,7 @@ Feed (gpd) = lb/day of active chemical ÷ (8.34 × specific gravity × active st
 1.2 × 0.12 × 1,440 = 207.36
 30,000 ÷ 207.36 = 144.7 mL/min
 ```
-US: 33.36 lb/d of chlorine from 12.5% hypochlorite (SG 1.2) → 33.36 ÷ (8.34 × 1.2 × 0.125) = 33.36 ÷ 1.251 = **26.7 gpd**.
+US: 33.36 lb/d of chlorine from 12.5% hypochlorite (SG (Specific Gravity) 1.2) → 33.36 ÷ (8.34 × 1.2 × 0.125) = 33.36 ÷ 1.251 = **26.7 gpd**.
 
 **EXAM QUESTION:** *Flow 5,000 m³/d, dose 4 mg/L, 12% hypochlorite (density 1.2 g/mL). Pump setting?* → 20,000 ÷ 207.36 = **96.5 mL/min**.
 
@@ -226,17 +256,21 @@ US: 33.36 lb/d of chlorine from 12.5% hypochlorite (SG 1.2) → 33.36 ÷ (8.34 �
 
 ## C11. Sludge volume reduction when thickening
 
+**WHY IT WORKS (plain words):** Thickening only removes water — the dry solids stay the same. If sludge goes from 2% to 4% solids, the same solids now sit in half as much water. So volume shrinks in the same ratio that % solids grows: V₂ = V₁ × (old % ÷ new %).
+
 **FORMULA:** `V₂ = V₁ × (%₁ ÷ %₂)` (the dry solids stay the same; only the water changes)
 
 **LEVEL I EXAMPLE:** 50 m³ of sludge at 2% thickened to 4% → 50 × 2 ÷ 4 = **25 m³** (half the volume).
 
-**EXAM QUESTION:** *80 m³ of WAS at 1.5% is thickened to 5%. New volume?* → 80 × 1.5 ÷ 5 = **24 m³**.
+**EXAM QUESTION:** *80 m³ of WAS (Waste Activated Sludge) at 1.5% is thickened to 5%. New volume?* → 80 × 1.5 ÷ 5 = **24 m³**.
 
 **COMMON MISTAKE:** flipping the fraction — thicker sludge must have **less** volume.
 
 ---
 
 ## C12. Dry solids in a sludge flow
+
+**WHY IT WORKS (plain words):** 1% solids = 10,000 mg/L = 10 kg of dry solids in every m³ of sludge. So each 1% gives 10 kg per m³. Multiply by the % and by the m³ per day pumped, and you get kg of dry solids per day.
 
 **FORMULA (metric):** `kg/d dry solids = Sludge flow (m³/d) × % solids × 10`
 *(Because 1% = 10,000 mg/L = 10 kg/m³.)*
@@ -250,6 +284,8 @@ US: 6,000 gpd at 4% → 6,000 × 8.34 × 0.04 = **2,001.6 lb/d**.
 ---
 
 ## C13. Converting mg/L ↔ %
+
+**WHY IT WORKS (plain words):** 1% = 10,000 mg/L, so to go from mg/L to % divide by 10,000; to go from % to mg/L multiply by 10,000.
 
 - **% = mg/L ÷ 10,000** → 25,000 mg/L = **2.5%**
 - **mg/L = % × 10,000** → 0.8% = **8,000 mg/L**

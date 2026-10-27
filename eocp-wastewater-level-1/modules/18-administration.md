@@ -1,13 +1,17 @@
 # Module 18 — Administration, Records & the BC Regulatory Framework
 
-← [Module 16](16-troubleshooting.md) · [Course index](../README.md) · Next → [Exam Prep System](../practice/exam-prep-system.md)
+← [Module 16](16-troubleshooting.md) · [Course index](../README.md) · Next → [Module 19 — Tertiary, Effluent & Odour](19-tertiary-effluent-odour.md)
 
-**NTK area:** **Security, Safety and Administrative Procedures (≈13%)** — shared with Module 2 (Safety) and the security part of Module 13.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BCWWA** = BC Water & Waste Association · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **CEU** = Continuing Education Unit · **CEUs** = Continuing Education Units · **CMMS** = Computerized Maintenance Management System · **ECCC** = Environment and Climate Change Canada · **EMA** = Environmental Management Act · **ENV** = BC Ministry of Environment · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **FOG** = Fats, Oils and Grease · **mg/L** = milligrams per litre · **MWR** = Municipal Wastewater Regulation · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OHS** = Occupational Health and Safety · **OIT** = Operator in Training · **OMRR** = Organic Matter Recycling Regulation · **PM** = Preventive Maintenance · **PPE** = Personal Protective Equipment · **QC** = Quality Control · **SCADA** = Supervisory Control And Data Acquisition · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SS** = Suspended Solids · **TDG** = Transportation of Dangerous Goods · **TRC** = Total Residual Chlorine · **WHMIS** = Workplace Hazardous Materials Information System · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** **Security, Safety and Administrative Procedures (≈13%)** — shared with Module 2 (Safety) and the security part of Module 13.
 
 **Important note on labels:**
 - **[BC-LAW]** / **[FEDERAL-LAW]** = an actual statute or regulation (named so you can look it up).
 - **[GENERAL]** = good operator practice, not a specific law.
-- The WPI exam is used across Canada and the US, so it tests **general operator responsibilities**, not BC section numbers. Know the **ideas**; use the BC names so you understand your real job.
+- The WPI (Water Professionals International) exam is used across Canada and the US, so it tests **general operator responsibilities**, not BC section numbers. Know the **ideas**; use the BC names so you understand your real job.
 - **Nothing here is Ontario- or US-specific.** If a detail matters for your job, confirm it in the current regulation or your facility's permit/authorization.
 
 ---
@@ -18,10 +22,10 @@
 - [ ] Why records matter; **types of records** operators keep
 - [ ] **Good record-keeping rules** (accurate, legible, timely, permanent ink, never falsify)
 - [ ] **Reporting**: routine (monthly/annual), **non-compliance**, **spills/overflows/bypasses**, incidents/injuries, near misses
-- [ ] **SOPs**, O&M manuals, **emergency response plans**
+- [ ] **SOPs** (Standard Operating Procedures), O&M (Operations and Maintenance) manuals, **emergency response plans**
 - [ ] **Preventive maintenance records** and work orders
 - [ ] **Communication**: shift handover, supervisors, public, regulators
-- [ ] The **BC regulatory framework**: who regulates what (EOCP, ENV, WorkSafeBC, federal ECCC, local government)
+- [ ] The **BC regulatory framework**: who regulates what (EOCP (Environmental Operators Certification Program), ENV (BC Ministry of Environment), WorkSafeBC, federal ECCC (Environment and Climate Change Canada), local government)
 - [ ] **EOCP certification**: facility classification, operator levels, renewal and continuing education
 - [ ] Professional and ethical conduct
 
@@ -55,7 +59,7 @@ As a certified operator, you are responsible to:
 |---|---|
 | **Operating logs / daily logbook** | Rounds observations, flows, setpoint changes, equipment started/stopped, unusual events, weather |
 | **Lab records** | Bench sheets, results, QC (blanks, duplicates, standards), calibrations, chain-of-custody forms |
-| **Flow and process data** | Flow totalizer readings, SCADA trends, chemical use |
+| **Flow and process data** | Flow totalizer readings, SCADA (Supervisory Control And Data Acquisition) trends, chemical use |
 | **Maintenance records** | **Work orders**, PM checklists, equipment history, lubrication logs, run hours, parts used |
 | **Calibration records** | Instruments, gas detectors (bump tests and calibration), meters |
 | **Safety records** | Training, confined-space entry permits, lockout records, inspections, **incident/near-miss reports**, first-aid records |
@@ -144,11 +148,11 @@ As a certified operator, you are responsible to:
 | **Permits / approvals / authorizations under EMA** | Some facilities operate under site-specific permits instead of (or in addition to) MWR registration — your facility's document sets its limits | [BC-LAW] |
 | **Organic Matter Recycling Regulation (OMRR)** | Production and land application of **biosolids** and compost | [BC-LAW] |
 | **Spill Reporting Regulation** (under EMA) | Requires reporting of spills of specified substances (which can include wastewater) to the provincial emergency reporting line | [BC-LAW — confirm the current reporting number and thresholds with your employer; BC's 24-h emergency line has been **1-800-663-3456**] |
-| **Wastewater Systems Effluent Regulations (WSER), SOR/2012-139** (federal, under the *Fisheries Act*) | National minimum effluent standards for systems that collect **≥ 100 m³/day** — e.g., CBOD **≤ 25 mg/L**, suspended solids **≤ 25 mg/L** (averages), **total residual chlorine ≤ 0.02 mg/L**, un-ionized ammonia **≤ 1.25 mg/L** (as N at 15 °C), plus monitoring, record-keeping and reporting | [FEDERAL-LAW — confirm details] |
-| **Workers Compensation Act + OHS Regulation (WorkSafeBC)** | Worker health and safety: confined space (Part 9), lockout (Part 10), WHMIS (Part 5), PPE (Part 8), fall protection (Part 11), working alone, right to refuse | [BC-LAW] |
+| **Wastewater Systems Effluent Regulations (WSER), SOR/2012-139** (federal, under the *Fisheries Act*) | National minimum effluent standards for systems that collect **≥ 100 m³/day** — e.g., CBOD (Carbonaceous Biochemical Oxygen Demand) **≤ 25 mg/L (milligrams per litre)**, suspended solids **≤ 25 mg/L** (averages), **total residual chlorine ≤ 0.02 mg/L**, un-ionized ammonia **≤ 1.25 mg/L** (as N at 15 °C), plus monitoring, record-keeping and reporting | [FEDERAL-LAW — confirm details] |
+| **Workers Compensation Act + OHS (Occupational Health and Safety) Regulation (WorkSafeBC)** | Worker health and safety: confined space (Part 9), lockout (Part 10), WHMIS (Part 5), PPE (Part 8), fall protection (Part 11), working alone, right to refuse | [BC-LAW] |
 | **WHMIS 2015** (federal *Hazardous Products Act* + WorkSafeBC) | Chemical labels, SDSs, training | [FEDERAL/BC-LAW] |
 | **Transportation of Dangerous Goods (TDG)** | Shipping hazardous materials (chlorine, samples sometimes) — recognize | [FEDERAL-LAW] |
-| **Local sewer-use bylaws** | What businesses can discharge to the sewer (limits on FOG, metals, pH, etc.); enforcement against illegal discharges | [Local] |
+| **Local sewer-use bylaws** | What businesses can discharge to the sewer (limits on FOG (Fats, Oils and Grease), metals, pH, etc.); enforcement against illegal discharges | [Local] |
 | **Public Health Act — Sewerage System Regulation** | Applies to **on-site** (septic) systems, not municipal treatment plants — **don't confuse them** | [BC-LAW] |
 
 ### 2.8 EOCP certification basics [OFFICIAL — EOCP]
@@ -164,7 +168,7 @@ As a certified operator, you are responsible to:
 - **Honesty:** never falsify data or records; report mistakes.
 - **Competence:** work within your knowledge and certification; ask when unsure.
 - **Safety:** never take shortcuts that put people at risk; use your right to refuse unsafe work.
-- **Continuing education:** keep learning (CEUs, courses, conferences, BCWWA training).
+- **Continuing education:** keep learning (CEUs (Continuing Education Units), courses, conferences, BCWWA (BC Water & Waste Association) training).
 - **Confidentiality:** follow employer policies on information, security and media.
 - **Public trust:** you protect public health — take it seriously.
 
@@ -187,7 +191,7 @@ As a certified operator, you are responsible to:
 3. **SOP** = step-by-step instructions; **O&M manual** = how the plant works and is maintained; **ERP** = emergency procedures and contacts.
 4. **Preventive maintenance** uses schedules and **work orders**; equipment history reveals repeat failures.
 5. **BC:** **Environmental Management Act → Municipal Wastewater Regulation** (discharges; **s.47 requires EOCP-certified operators**), **OMRR** (biosolids), **Spill Reporting Regulation**.
-6. **Federal:** **Fisheries Act → Wastewater Systems Effluent Regulations** (e.g., CBOD 25, SS 25, TRC 0.02 mg/L).
+6. **Federal:** **Fisheries Act → Wastewater Systems Effluent Regulations** (e.g., CBOD 25, SS 25, TRC (Total Residual Chlorine) 0.02 mg/L).
 7. **WorkSafeBC OHS Regulation** = worker safety (confined space Part 9, lockout Part 10).
 8. **EOCP** certifies operators and classifies facilities in **BC & Yukon**; Level I = **1,800 h**, **70%** pass; renew with **CEUs**.
 9. **Sewer-use bylaws** = local control of industrial/commercial discharges.
@@ -201,7 +205,7 @@ As a certified operator, you are responsible to:
 |---|---|---|
 | Why records are legal documents | Record-keeping rules | Exact section numbers of regulations |
 | Why near misses are reported | Which body regulates what | TDG |
-| Why SOPs matter | WSER key limits | CEU details (check EOCP) |
+| Why SOPs matter | WSER key limits | CEU (Continuing Education Unit) details (check EOCP) |
 | Shift handover purpose | EOCP basics | CMMS software |
 
 ---

@@ -1,5 +1,9 @@
 # BC EOCP / WPI Wastewater Treatment Level I — Master Course
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **mg/L** = milligrams per litre · **OHS** = Occupational Health and Safety · **RAS** = Return Activated Sludge · **RBCs** = Rotating Biological Contactors · **SCADA** = Supervisory Control And Data Acquisition · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
+<!-- abbr-end -->
+
 A complete self-study textbook and practice system for the **current (July 2025 onward) EOCP/WPI standardized Wastewater Treatment Level I exam** in British Columbia — written for someone starting from zero, with extra help for math.
 
 ---
@@ -8,7 +12,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 
 | | |
 |---|---|
-| **Exam** | WPI Wastewater Treatment Class I (EOCP Level I) — EOCP switched to the new WPI exams in **July 2025** |
+| **Exam** | WPI (Water Professionals International) Wastewater Treatment Class I (EOCP (Environmental Operators Certification Program) Level I) — EOCP switched to the new WPI exams in **July 2025** |
 | **Format** | Multiple choice, 4 options, one best answer · **100 scored questions** (+ about 10 unscored pretest questions; EOCP lists 110 in total) |
 | **Pass mark** | **70%** (rewrite allowed 30 days after a failed attempt — EOCP Program Guide, April 2021; confirm the current guide) |
 | **Provided** | Formula/conversion table · **π = 3.14** · math appears in **both metric and US units** |
@@ -22,10 +26,11 @@ A complete self-study textbook and practice system for the **current (July 2025 
 
 1. Read **[00 — Exam Overview](00-exam-overview.md)** (20 min): what the exam is, how questions are built, how facts are labelled.
 2. Read **[SOURCES-TO-GET.md](SOURCES-TO-GET.md)**: the official EOCP/WPI documents this course couldn't open, and how you can get them.
-3. Pick your schedule in **[review/study-schedule-6-weeks.md](review/study-schedule-6-weeks.md)**. Writing next year? Start with the **long-runway plan** at the top.
-4. Begin with **[Module 0 — Starter Vocabulary](modules/00-starter-vocabulary.md)**. Learn the words first and everything else gets easier.
-5. Work through the modules **in order**. Do the quiz at the end of each one, and log your score in the **[progress tracker](practice/progress-tracker.csv)**.
-6. Do **math every day**, even on days when the main topic isn't math.
+3. Go through **[EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md)** and fill in the missing (❓) items from the EOCP website.
+4. Pick your schedule in **[review/study-schedule-6-weeks.md](review/study-schedule-6-weeks.md)**. Writing next year? Start with the **long-runway plan** at the top.
+5. Begin with **[Module 0 — Starter Vocabulary](modules/00-starter-vocabulary.md)**. Learn the words first and everything else gets easier.
+6. Work through the modules **in order**. Do the quiz at the end of each one, and log your score in the **[progress tracker](practice/progress-tracker.csv)**.
+7. Do **math every day**, even on days when the main topic isn't math.
 
 ---
 
@@ -35,6 +40,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | File | What it is |
 |---|---|
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
+| [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
 | [SOURCES-TO-GET.md](SOURCES-TO-GET.md) | Every official document (with links) to download yourself, plus questions to ask EOCP |
 
 ### Part B — Teaching modules (`modules/`)
@@ -47,7 +53,7 @@ Each module has the same 8 sections: **checklist → plain-English teaching → 
 | 2 | [Safety](modules/02-safety.md) ★ heavily tested | Safety/Admin | 20 |
 | 3 | [Preliminary Treatment](modules/03-preliminary-treatment.md) | Process/Equipment | 12 |
 | 4 | [Primary Treatment](modules/04-primary-treatment.md) | Process | 10 |
-| 5 | [Biological Treatment](modules/05-biological-treatment.md): activated sludge, lagoons, trickling filters, RBCs ★ major | Process | 20 |
+| 5 | [Biological Treatment](modules/05-biological-treatment.md): activated sludge, lagoons, trickling filters, RBCs (Rotating Biological Contactors) ★ major | Process | 20 |
 | 6 | [Secondary Clarification](modules/06-secondary-clarification.md) | Process | 15 |
 | 7 | [Nutrient Removal](modules/07-nutrient-removal.md) | Process | 14 |
 | 8 | [Disinfection](modules/08-disinfection.md) | Process/Equipment | 15 |
@@ -61,18 +67,19 @@ Each module has the same 8 sections: **checklist → plain-English teaching → 
 | 16 | [Troubleshooting](modules/16-troubleshooting.md): 20 scenarios | Process/Equipment | 15 |
 | 17 | **MATH** — see Part C | All | — |
 | 18 | [Administration & BC Regulatory Framework](modules/18-administration.md) | Safety/Admin | 12 |
+| 19 | [Tertiary Filtration, Flow Equalization, Odour Control & Effluent/Residuals Disposal](modules/19-tertiary-effluent-odour.md) | Process/Equipment | 12 |
 
 ### Part C — Math (`math/`): Module 17, from absolute beginner
 | Lesson | Topic | Practice |
 |---|---|---|
 | [17A](math/17a-math-foundations.md) | Calculator, decimals, fractions, percent, ratios, rearranging formulas, units, the 8-step word-problem method | 26 |
-| [17B](math/17b-area-volume-flow-time.md) | Area, volume, flow, velocity, conversions, detention time, SOR, WOR, pumping from level changes | 24 |
-| [17C](math/17c-loading-dosage-concentration.md) | mg/L ↔ kg/d ↔ lb/d, chemical dose & purity, chlorine, % removal, solutions, dilution, feed pumps, sludge | 20 |
-| [17D](math/17d-process-pumps-pressure-lab.md) | F/M, SRT, SVI, RAS, pressure/head, pump power, electricity, lab calculations, temperature | 24 |
+| [17B](math/17b-area-volume-flow-time.md) | Area, volume, flow, velocity, conversions, detention time, SOR (Surface Overflow Rate), WOR (Weir Overflow Rate), pumping from level changes | 24 |
+| [17C](math/17c-loading-dosage-concentration.md) | mg/L (milligrams per litre) ↔ kg/d ↔ lb/d, chemical dose & purity, chlorine, % removal, solutions, dilution, feed pumps, sludge | 20 |
+| [17D](math/17d-process-pumps-pressure-lab.md) | F/M (Food-to-Microorganism ratio), SRT (Solids Retention Time), SVI (Sludge Volume Index), RAS (Return Activated Sludge), pressure/head, pump power, electricity, lab calculations, temperature | 24 |
 | [17E](math/17e-math-practice-bank.md) | **88 mixed problems** with full worked answers | 88 |
 | [Formula & Conversion Sheet](math/formula-and-conversion-sheet.md) | Study version of the formulas and conversions | — |
 
-Every formula follows the same layout: **formula → what it means → when to use it → variables & units → easy example → Level I example → exam question → common mistake.** Every worked answer was checked by calculation.
+Every formula follows the same layout: **formula → what it means → WHY IT WORKS (plain words) → when to use it → variables & units → easy example → Level I example → exam question → common mistake.** Every worked answer was checked by calculation.
 
 ### Part D — Practice & exam system (`practice/`)
 | File | What it is |
@@ -87,7 +94,8 @@ Every formula follows the same layout: **formula → what it means → when to u
 ### Part E — Review (`review/`)
 | File | What it is |
 |---|---|
-| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **250 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [video-library.md](review/video-library.md) | **YouTube videos for the harder topics**, by module (also linked at the top of each module) |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **258 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
 | [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
 | [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
 
@@ -100,20 +108,27 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 
 | Type | Count |
 |---|---|
-| Module quiz questions (with explanations) | 281 |
+| Module quiz questions (with explanations) | 293 |
 | Math practice problems (with worked answers) | 182 |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
-| Flashcards | 250 |
+| Flashcards | 258 |
+| YouTube videos linked | 60+ |
 
 ---
+
+## Reading aids in every file
+
+- 🔤 **Abbreviations box** at the top of each file lists every abbreviation used there with its full name, and the first time an abbreviation appears in the text its full name follows in brackets — e.g., *RAS (Return Activated Sludge)*.
+- 🎥 **Watch** box at the top of each module links short YouTube videos for the harder ideas.
+- **WHY IT WORKS** paragraphs explain the reasoning behind every math formula in plain words.
 
 ## The source-label system
 
 | Label | Meaning | Trust for the exam |
 |---|---|---|
 | **[OFFICIAL]** | EOCP or WPI (exam format, content areas, formula sheets, π = 3.14, eligibility) | Defines what's tested |
-| **[BC-LAW] / [FEDERAL-LAW]** | Named legislation (e.g., BC Municipal Wastewater Regulation, WorkSafeBC OHS Regulation, federal WSER) | Legally binding; the exam tests the ideas, not section numbers |
+| **[BC-LAW] / [FEDERAL-LAW]** | Named legislation (e.g., BC Municipal Wastewater Regulation, WorkSafeBC OHS (Occupational Health and Safety) Regulation, federal WSER (Wastewater Systems Effluent Regulations)) | Legally binding; the exam tests the ideas, not section numbers |
 | **[SUPPLEMENTAL]** | Standard operator-training references (Sacramento State manuals, WEF, Echelon) | Typical values may vary a little between references |
 | **[GENERAL]** | Widely accepted operator practice | Use it for "what should the operator do?" reasoning |
 

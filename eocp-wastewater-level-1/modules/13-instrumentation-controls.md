@@ -2,25 +2,35 @@
 
 ← [Module 12](12-hydraulics.md) · [Course index](../README.md) · Next → [Module 14 — Electrical & Mechanical Basics](14-electrical-mechanical.md)
 
-**NTK areas:** Equipment (≈39%) — the 2025 WPI Need-to-Know specifically mentions **online analyzers** and **SCADA/telemetry**. Also Security, Safety & Administration (≈13%) — **SCADA/plant security**.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **DO** = Dissolved Oxygen · **HMI** = Human-Machine Interface · **HOA** = Hand-Off-Auto (switch) · **H₂S** = hydrogen sulphide · **ISE** = Ion-Selective Electrode · **LDO** = Luminescent Dissolved Oxygen (optical probe) · **LEL** = Lower Explosive Limit · **mA** = milliamps · **mg/L** = milligrams per litre · **MLSS** = Mixed Liquor Suspended Solids · **mV** = millivolts · **NTK** = Need-to-Know Criteria · **NTU** = Nephelometric Turbidity Unit · **ORP** = Oxidation-Reduction Potential · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PD** = Positive Displacement · **PID** = Proportional-Integral-Derivative (control) · **PLC** = Programmable Logic Controller · **PV** = Process Variable · **RAS** = Return Activated Sludge · **RTU** = Remote Terminal Unit · **SCADA** = Supervisory Control And Data Acquisition · **SOP** = Standard Operating Procedure · **SP** = Setpoint · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **UVT** = Ultraviolet Transmittance · **VFD** = Variable Frequency Drive · **WAS** = Waste Activated Sludge · **WPI** = Water Professionals International
+<!-- abbr-end -->
 
-> **Instruments are the plant's eyes and ears.** Controls are its hands. **SCADA** is the brain you look at on a screen. But instruments **can be wrong** — a big part of an operator's job is knowing **when not to trust a reading**.
+**NTK (Need-to-Know Criteria) areas:** Equipment (≈39%) — the 2025 WPI (Water Professionals International) Need-to-Know specifically mentions **online analyzers** and **SCADA/telemetry**. Also Security, Safety & Administration (≈13%) — **SCADA/plant security**.
+
+> **Instruments are the plant's eyes and ears.** Controls are its hands. **SCADA** (Supervisory Control And Data Acquisition) is the brain you look at on a screen. But instruments **can be wrong** — a big part of an operator's job is knowing **when not to trust a reading**.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Introduction to 4-20 mA Signals](https://www.youtube.com/watch?v=qK_8xvI9j9Y) · [4-20mA Current Loop Explained with Animation](https://www.youtube.com/watch?v=sdfQnR19nqs) · [PLC vs SCADA vs HMI vs RTU](https://www.youtube.com/watch?v=4-ZBgLEDB7E) · [How to: Understand the Open Flow Science of Parshall Flumes](https://www.youtube.com/watch?v=ivfN4-_-wnc) · [How to Calibrate pH Sensors with Two Buffer Solutions](https://www.youtube.com/watch?v=wHTM3f-v-9I)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
 ## 1. What you need to know (checklist)
 
-- [ ] The measurement-and-control chain: **sensor → transmitter → signal → controller (PLC) → final element (valve, VFD, pump)**
-- [ ] **4–20 mA** signals; what 4 mA and 20 mA mean; what 0 mA means
+- [ ] The measurement-and-control chain: **sensor → transmitter → signal → controller (PLC) → final element (valve, VFD (Variable Frequency Drive), pump)**
+- [ ] **4–20 mA (milliamps)** signals; what 4 mA and 20 mA mean; what 0 mA means
 - [ ] **Flow meters**: Parshall flume, weirs, magnetic, ultrasonic (transit-time, Doppler), differential pressure (recognize); totalizers
 - [ ] **Level sensors**: floats, ultrasonic/radar, pressure transducers, bubblers; sludge blanket sensors
 - [ ] **Pressure gauges**: Bourdon tube, diaphragm seals, snubbers
 - [ ] **pH meters** — calibration with buffers, care of electrodes
-- [ ] **DO meters** — membrane vs optical (luminescent); calibration; fouling
-- [ ] **ORP** — what it tells you
+- [ ] **DO (Dissolved Oxygen) meters** — membrane vs optical (luminescent); calibration; fouling
+- [ ] **ORP** (Oxidation-Reduction Potential) — what it tells you
 - [ ] Other **online analyzers**: turbidity/TSS, ammonia, nitrate, chlorine residual, UV transmittance
-- [ ] Control types: manual, on/off, automatic (setpoint/feedback), **flow-paced** dosing; **HOA switch**; interlocks
-- [ ] **SCADA**, PLC, HMI, RTU, telemetry, historian; **alarms** and alarm response
+- [ ] Control types: manual, on/off, automatic (setpoint/feedback), **flow-paced** dosing; **HOA (Hand-Off-Auto, switch) switch**; interlocks
+- [ ] **SCADA**, PLC (Programmable Logic Controller), HMI (Human-Machine Interface), RTU (Remote Terminal Unit), telemetry, historian; **alarms** and alarm response
 - [ ] **Calibration** (zero and span), verification against lab/portable results
 - [ ] Recognizing **instrument failure** and the correct operator response
 - [ ] **Security**: physical and cyber security of the plant and SCADA
@@ -46,9 +56,9 @@
 | **Indicator** | Shows the value | Local display, gauge |
 | **Recorder / historian** | Records values over time | Chart recorder; SCADA historian |
 | **Totalizer** | Adds up total volume over time | Total m³ today |
-| **Controller** | Compares the measurement to a **setpoint** and adjusts output | PLC, PID loop |
+| **Controller** | Compares the measurement to a **setpoint** and adjusts output | PLC, PID (Proportional-Integral-Derivative, control) loop |
 | **Final control element** | The thing that physically changes the process | Air valve, VFD, chemical pump |
-| **Setpoint (SP)** | The target value | DO = 2.0 mg/L |
+| **Setpoint (SP)** | The target value | DO = 2.0 mg/L (milligrams per litre) |
 | **Process variable (PV)** | The actual measured value | DO now = 1.6 mg/L |
 
 ### 2.2 4–20 mA signals
@@ -95,7 +105,7 @@ Most analog instruments send a **4–20 milliamp** signal:
 ### 2.5 Pressure gauges
 - **Bourdon tube** gauges: a curved tube straightens slightly as pressure rises, moving the needle. Most common.
 - **Diaphragm seal (gauge isolator)**: a flexible diaphragm keeps **sludge, grit or corrosive chemicals** out of the gauge.
-- **Snubber / liquid-filled gauge**: dampens **pulsation** (e.g., on PD pumps) so the needle doesn't bounce.
+- **Snubber / liquid-filled gauge**: dampens **pulsation** (e.g., on PD (Positive Displacement) pumps) so the needle doesn't bounce.
 - An isolation valve (gauge cock) lets you remove the gauge. A gauge that doesn't return to **zero** when isolated needs replacement/calibration.
 
 ### 2.6 pH meters
@@ -129,11 +139,11 @@ Most analog instruments send a **4–20 milliamp** signal:
 | Analyzer | Measures | Typical location |
 |---|---|---|
 | **Turbidity** (NTU) | Cloudiness | Secondary/final effluent, filters |
-| **TSS / MLSS (optical)** | Solids concentration | Aeration tank, RAS, WAS |
-| **Ammonia, nitrate (ISE or colorimetric)** | Nutrients | Aeration, effluent |
+| **TSS (Total Suspended Solids) / MLSS (optical)** | Solids concentration | Aeration tank, RAS (Return Activated Sludge), WAS (Waste Activated Sludge) |
+| **Ammonia, nitrate (ISE (Ion-Selective Electrode) or colorimetric)** | Nutrients | Aeration, effluent |
 | **Chlorine residual** (amperometric or colorimetric) | Free/total chlorine | After contact chamber; after dechlorination |
 | **UVT (UV transmittance)** | How easily UV passes through water | Ahead of UV system |
-| **Fixed gas detectors** | H₂S, methane (LEL), O₂, chlorine | Headworks, wet wells, digesters, chlorine rooms |
+| **Fixed gas detectors** | H₂S (hydrogen sulphide), methane (LEL), O₂, chlorine | Headworks, wet wells, digesters, chlorine rooms |
 | **Conductivity** | Dissolved salts | Influent (industrial or seawater intrusion) |
 
 **All online analyzers need:** regular **cleaning**, **calibration**, and **verification against lab or portable results**. Never run the plant blindly on an unverified analyzer.
@@ -181,7 +191,7 @@ The controller keeps comparing the **measured value** to the **setpoint** and ad
 **Alarm response (good practice) [GENERAL]:**
 1. **Acknowledge** the alarm.
 2. **Verify** — is it real? (Check the trend, a second instrument, go look.)
-3. **Respond** per SOP — protect people first, then the process and equipment.
+3. **Respond** per SOP (Standard Operating Procedure) — protect people first, then the process and equipment.
 4. **Record** what happened and what you did.
 5. **Never permanently silence, bypass or disable** an alarm instead of fixing the cause (without authorization and a documented reason).
 

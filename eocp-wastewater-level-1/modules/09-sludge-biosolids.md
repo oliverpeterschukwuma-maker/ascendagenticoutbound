@@ -2,7 +2,17 @@
 
 ← [Module 8](08-disinfection.md) · [Course index](../README.md) · Next → [Module 10 — Pumps](10-pumps.md)
 
-**NTK areas:** Treatment Process (solids handling, dewatering, disposal) and Equipment (thickeners, digesters, presses, centrifuges, sludge pumps). Math: % solids, kg/day of solids, volume reduction ([Math 17C](../math/17c-loading-dosage-concentration.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CH₄** = methane · **CO₂** = carbon dioxide · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **GBT** = Gravity Belt Thickener · **H₂S** = hydrogen sulphide · **mg/L** = milligrams per litre · **NTK** = Need-to-Know Criteria · **OMRR** = Organic Matter Recycling Regulation · **OSHA** = Occupational Safety and Health Administration (US) · **PC** = Progressive Cavity · **PD** = Positive Displacement · **RDT** = Rotary Drum Thickener · **SOP** = Standard Operating Procedure · **TSS** = Total Suspended Solids · **VA** = Volatile Acids · **VA/ALK** = Volatile Acids to Alkalinity ratio · **WAS** = Waste Activated Sludge
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) areas:** Treatment Process (solids handling, dewatering, disposal) and Equipment (thickeners, digesters, presses, centrifuges, sludge pumps). Math: % solids, kg/day of solids, volume reduction ([Math 17C](../math/17c-loading-dosage-concentration.md)).
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Anaerobic Digestion Wastewater Treatment Explained](https://www.youtube.com/watch?v=QAyJS7ZH4PA) · [How Anaerobic Digestion Works: Complete Guide](https://www.youtube.com/watch?v=IJUr-2708yA) · [Working of Belt Filter Press](https://www.youtube.com/watch?v=8Yp2El8zsOU) · [Belt Press — Working principle (Alfa Laval)](https://www.youtube.com/watch?v=076HPlJpp5s)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -17,7 +27,7 @@
 - [ ] Return streams (supernatant, filtrate, centrate) and their impact on the plant
 - [ ] **Biosolids**: what they are, BC regulation (Organic Matter Recycling Regulation), basic uses
 - [ ] Sludge pumps and equipment
-- [ ] Safety: methane, H₂S, confined space, polymer slips, pinch points, pathogens
+- [ ] Safety: methane, H₂S (hydrogen sulphide), confined space, polymer slips, pinch points, pathogens
 
 ---
 
@@ -50,7 +60,7 @@ Treating water creates **sludge** — and sludge is mostly **water** (often 95�
 | **Dewatered cake** | **~15–30%** | Belt press/centrifuge; feels like moist soil |
 | **Dried (drying beds, dryers)** | 40–90% | |
 
-**Remember:** **1% solids = 10,000 mg/L.**
+**Remember:** **1% solids = 10,000 mg/L (milligrams per litre).**
 
 **Volume shrinks a lot as % solids rises:** going from **2% to 4%** solids cuts the sludge volume **in half**. (Formula in 17C.)
 
@@ -87,21 +97,21 @@ Treating water creates **sludge** — and sludge is mostly **water** (often 95�
 | **Temperature** | **Mesophilic ~35 °C (95 °F)** (range ~30–38 °C). Thermophilic ~50–57 °C (recognize) | Methane formers are very sensitive to temperature **changes** — change no more than about **1 °C per day** |
 | **pH** | **~6.8–7.2** (roughly 6.8–7.4) | Methane formers stop below ~6.5 |
 | **Volatile acids / alkalinity ratio (VA/ALK)** | **Below ~0.1–0.2** is healthy; a **rising trend** is the early warning | Acids building faster than methane formers can use them |
-| **Alkalinity** | High (often 2,000–5,000 mg/L as CaCO₃) | Buffers the acids |
-| **Gas composition** | **~60–70% methane, ~30–35% CO₂**, trace H₂S | CO₂ rising above normal = trouble |
+| **Alkalinity** | High (often 2,000–5,000 mg/L as CaCO₃ (calcium carbonate)) | Buffers the acids |
+| **Gas composition** | **~60–70% methane, ~30–35% CO₂ (carbon dioxide)**, trace H₂S | CO₂ rising above normal = trouble |
 | **Solids retention time** | ~15–30 days (heated, mixed "high-rate") | Methane formers grow slowly |
 | **Mixing** | Continuous/regular (gas mixing, pumps, mechanical) | Keeps food, bugs and heat even; prevents scum/grit layers |
 | **Feeding** | **Small, frequent, consistent** feedings | Big slugs overload the acid stage |
 
 **The "sour" (upset) digester — know these signs:**
-1. **Volatile acids rising** and **VA/ALK ratio rising** (first sign)
+1. **Volatile acids rising** and **VA/ALK (Volatile Acids to Alkalinity ratio) ratio rising** (first sign)
 2. **Alkalinity dropping**
 3. **pH dropping** (a **late** sign — by the time pH drops, it's serious)
 4. **Gas production dropping**, **CO₂ % rising**, methane % falling
 5. Sour odour; foaming
 
 **Causes:** overfeeding (organic overload), temperature change, toxic substances, poor mixing, too much thin (watery) sludge (short detention time).
-**Response:** **reduce or stop feeding**, **add alkalinity** (e.g., sodium bicarbonate, lime — per SOP), keep temperature steady, keep mixing, find the cause. **[SUPPLEMENTAL]**
+**Response:** **reduce or stop feeding**, **add alkalinity** (e.g., sodium bicarbonate, lime — per SOP (Standard Operating Procedure)), keep temperature steady, keep mixing, find the cause. **[SUPPLEMENTAL]**
 
 **Memory trick: "Acids up, alkalinity down, pH last to frown."**
 
@@ -113,13 +123,13 @@ Treating water creates **sludge** — and sludge is mostly **water** (often 95�
 - **Floating covers** rise and fall with the volume. Never let a digester go under vacuum — the cover can collapse.
 - Digesters are **confined spaces**; H₂S and methane; draining and cleaning is a major, planned job.
 
-**Supernatant:** liquid drawn off the top of the secondary digester — **very strong** (high BOD, TSS, ammonia, phosphorus). Return it to the plant **slowly** and at low-load times, or it can upset the liquid process.
+**Supernatant:** liquid drawn off the top of the secondary digester — **very strong** (high BOD (Biochemical Oxygen Demand), TSS (Total Suspended Solids), ammonia, phosphorus). Return it to the plant **slowly** and at low-load times, or it can upset the liquid process.
 
 ### 2.5 Aerobic digestion (with air)
 
 Common at small and extended-aeration plants.
 - Sludge is **aerated** for a long time; bugs run out of outside food and **eat themselves** ("endogenous respiration"). Volatile solids drop (~35–50%).
-- Keep **DO ≥ ~1 mg/L** (often 1–2 mg/L) to avoid odours. **[SUPPLEMENTAL]**
+- Keep **DO (Dissolved Oxygen) ≥ ~1 mg/L** (often 1–2 mg/L) to avoid odours. **[SUPPLEMENTAL]**
 - **pH drops** over time because of **nitrification** (alkalinity consumed) — may need alkalinity addition or anoxic cycles (turning air off periodically to denitrify and recover alkalinity).
 - **Decanting supernatant:** turn off air, let solids settle, draw off the clear liquid (return to plant) → thickens the sludge.
 - Cold weather slows aerobic digestion.
@@ -203,7 +213,7 @@ Sludge lines can **plug** — flush with water after pumping thick sludge, and k
 10. Aerobic digestion: **DO ≥ ~1 mg/L**; **pH drops** (nitrification); decant supernatant.
 11. Belt press zones: **gravity → wedge → pressure**; polymer too low = dirty filtrate; too much = blinding/slimy.
 12. Return streams (supernatant, filtrate, centrate) are **strong** — return slowly.
-13. **PC pumps must never run dry**; PD pumps never against a closed valve.
+13. **PC pumps must never run dry**; PD (Positive Displacement) pumps never against a closed valve.
 14. BC biosolids rules: **Organic Matter Recycling Regulation (OMRR)**.
 
 ---
@@ -329,7 +339,7 @@ Sludge lines can **plug** — flush with water after pumping thick sludge, and k
 |---|---|---|
 | 1 | **B** | VA/ALK rises first; pH drops last. |
 | 2 | **B** | Mesophilic ≈ 35 °C. C is thermophilic. |
-| 3 | **B** | ~60–70% CH₄, ~30–35% CO₂. |
+| 3 | **B** | ~60–70% CH₄ (methane), ~30–35% CO₂. |
 | 4 | **B** | Reduce feed, stabilize conditions, add alkalinity. A worsens. C stops mixing. D shocks methane formers. |
 | 5 | **B** | DAF. |
 | 6 | **B** | Under-conditioned sludge doesn't release water; solids escape in filtrate. A → slimy/blinding. |

@@ -2,6 +2,10 @@
 
 ← [Course index](../README.md) · How to study → [Exam Prep System](../practice/exam-prep-system.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **RAS** = Return Activated Sludge · **SCADA** = Supervisory Control And Data Acquisition · **SOPs** = Standard Operating Procedures · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **WOR** = Weir Overflow Rate
+<!-- abbr-end -->
+
 **Assumes:** 1–2 hours per day, 6 study days per week + 1 light day. **Math every single day** (marked 🔢), because math improves with daily repetition, not cramming.
 
 **Daily session pattern (≈ 90 min):**
@@ -21,12 +25,12 @@ If your exam is **6–12 months away**, don't start the 6-week plan yet. Use the
 
 | Stage | When | What to do | Time |
 |---|---|---|---|
-| **Stage 0 — Set up** | Now | Do the [verification checklist](../00-exam-overview.md#5-verification-checklist--do-this-once-early-on-45-min) · download the EOCP/WPI files ([SOURCES-TO-GET.md](../SOURCES-TO-GET.md)) · **count your operating hours toward 1,800** · ask EOCP the questions on that page | 1–2 sessions |
-| **Stage 1 — First slow pass** | Months 1–3 | Read Module 0, then one module per week (Modules 1–18) · 15 min of flashcards daily · Math 17A in month 1, 17B in month 2, 17C in month 3 · **connect each module to your real plant** (find the equipment, read the SOPs) | 3–4 sessions/week |
+| **Stage 0 — Set up** | Now | Do the [verification checklist](../00-exam-overview.md#5-verification-checklist--do-this-once-early-on-45-min) · download the EOCP/WPI files ([SOURCES-TO-GET.md](../SOURCES-TO-GET.md)) · **count your operating hours toward 1,800** · ask EOCP (Environmental Operators Certification Program) the questions on that page | 1–2 sessions |
+| **Stage 1 — First slow pass** | Months 1–3 | Read Module 0, then one module per week (Modules 1–18) · 15 min of flashcards daily · Math 17A in month 1, 17B in month 2, 17C in month 3 · **connect each module to your real plant** (find the equipment, read the SOPs (Standard Operating Procedures)) | 3–4 sessions/week |
 | **Stage 2 — Second pass + quizzes** | Months 4–5 | Re-read each module's MUST MEMORIZE + traps · do every module quiz (log scores) · Math 17D and 17E · start the mistake notebook | 4–5 sessions/week |
 | **Stage 3 — Final sprint** | Last 6 weeks | **Follow the 6-week plan below** | 6 days/week |
 
-**Learning on the job is the best study tool.** Ask senior operators to explain equipment during rounds, read your plant's O&M manual, and watch the lab tests being done. You need 1,800 hours anyway — make them count.
+**Learning on the job is the best study tool.** Ask senior operators to explain equipment during rounds, read your plant's O&M (Operations and Maintenance) manual, and watch the lab tests being done. You need 1,800 hours anyway — make them count.
 
 ---
 
@@ -41,7 +45,7 @@ If your exam is **6–12 months away**, don't start the 6-week plan yet. Use the
 | 4 | [Module 1 — Fundamentals](../modules/01-wastewater-fundamentals.md) + quiz | 17A Lesson 7 (units) |
 | 5 | [Module 2 — Safety](../modules/02-safety.md) sections 2.1–2.9 | 17A Lesson 8 + practice set 17A #1–13 |
 | 6 | Module 2 sections 2.10–2.16 + quiz | 17A practice #14–26 |
-| 7 | *Light day:* flashcards (Modules 1–2) · mistake notebook · (optional) EOCP OIT sample exam to see the style | Redo any 17A questions you missed |
+| 7 | *Light day:* flashcards (Modules 1–2) · mistake notebook · (optional) EOCP OIT (Operator in Training) sample exam to see the style | Redo any 17A questions you missed |
 
 ### WEEK 2 — Headworks, Primary, Biology
 | Day | Main topic | 🔢 Math |
@@ -49,8 +53,8 @@ If your exam is **6–12 months away**, don't start the 6-week plan yet. Use the
 | 8 | [Module 3 — Preliminary](../modules/03-preliminary-treatment.md) + quiz | 17B: B1–B3 (area, circumference) |
 | 9 | [Module 4 — Primary](../modules/04-primary-treatment.md) + quiz | 17B: B4–B5 (volume) |
 | 10 | [Module 5 — Biology](../modules/05-biological-treatment.md) 2.1–2.8 (activated sludge, relationships table) | 17B: B6–B8 (flow, conversions, velocity) |
-| 11 | Module 5 2.9–2.13 (variations, DO, bulking, foam, process control) | 17B: B9 (detention time) — do every example twice |
-| 12 | Module 5 Parts B & C (lagoons, fixed film) + quiz | 17B: B10–B13 (SOR, WOR, levels) |
+| 11 | Module 5 2.9–2.13 (variations, DO (Dissolved Oxygen), bulking, foam, process control) | 17B: B9 (detention time) — do every example twice |
+| 12 | Module 5 Parts B & C (lagoons, fixed film) + quiz | 17B: B10–B13 (SOR (Surface Overflow Rate), WOR (Weir Overflow Rate), levels) |
 | 13 | Review Modules 3–5 MUST MEMORIZE + flashcards | 17B practice set (all 24) |
 | 14 | *Light day:* flashcards · mistake notebook | Redo missed 17B problems |
 
@@ -68,8 +72,8 @@ If your exam is **6–12 months away**, don't start the 6-week plan yet. Use the
 ### WEEK 4 — EQUIPMENT (39% of the exam — the biggest area)
 | Day | Main topic | 🔢 Math |
 |---|---|---|
-| 22 | [Module 10 — Pumps](../modules/10-pumps.md) 2.1–2.7 | 17D: D1–D3 (MLVSS, F/M, SRT) |
-| 23 | Module 10 2.8–2.13 (cavitation, curves, troubleshooting) + quiz | 17D: D4–D5 (SVI, RAS) |
+| 22 | [Module 10 — Pumps](../modules/10-pumps.md) 2.1–2.7 | 17D: D1–D3 (MLVSS (Mixed Liquor Volatile Suspended Solids), F/M (Food-to-Microorganism ratio), SRT (Solids Retention Time)) |
+| 23 | Module 10 2.8–2.13 (cavitation, curves, troubleshooting) + quiz | 17D: D4–D5 (SVI (Sludge Volume Index), RAS (Return Activated Sludge)) |
 | 24 | [Module 11 — Valves & Piping](../modules/11-valves-piping.md) + quiz | 17D: D6 (pressure & head) |
 | 25 | [Module 12 — Hydraulics](../modules/12-hydraulics.md) + quiz | 17D: D7–D8 (pump power, energy) |
 | 26 | [Module 13 — Instrumentation & SCADA](../modules/13-instrumentation-controls.md) + quiz | 17D: D9–D12 (lab math, temperature) |

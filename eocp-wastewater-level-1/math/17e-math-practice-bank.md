@@ -2,6 +2,10 @@
 
 ← [17D](17d-process-pumps-pressure-lab.md) · [Course index](../README.md) · Formula help → [Formula & Conversion Sheet](formula-and-conversion-sheet.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **F/M** = Food-to-Microorganism ratio · **gpd** = gallons per day · **gpm** = gallons per minute · **HLR** = Hydraulic Loading Rate · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower · **WOR** = Weir Overflow Rate
+<!-- abbr-end -->
+
 **How to use:** do 10–15 problems per session. Use the 8-step method from [17A](17a-math-foundations.md). Write down your work. Check answers only after finishing a block. Log your score in the [progress tracker](../practice/progress-tracker.csv) under "Math". Use **π = 3.14**.
 
 Problems are mixed on purpose — part of the skill is **recognizing which formula** to use. The topic label is listed in the answer key, not with the question.
@@ -19,19 +23,19 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 7. A basin is 120 ft long, 30 ft wide and 10 ft deep. Volume in gallons?
 8. A round tank is 40 ft in diameter with 14 ft of water. Gallons?
 9. A lagoon is 180 m × 120 m with 1.8 m average depth. Volume?
-10. A channel 0.9 m wide carries water 0.5 m deep at 0.35 m/s. Flow in m³/s and L/s?
+10. A channel 0.9 m wide carries water 0.5 m deep at 0.35 m/s. Flow in m³/s and L/s (litres per second)?
 11. A 200 mm pipe flows full at 1.1 m/s. Flow in L/s?
-12. An 8-inch pipe flows full at 2.5 ft/s. Flow in cfs and gpm?
+12. An 8-inch pipe flows full at 2.5 ft/s. Flow in cfs (cubic feet per second) and gpm (gallons per minute)?
 
 *— checkpoint: take a short break, then continue —*
 
 13. A float travels 54 m in 3 minutes. Velocity in m/s?
 14. A grit channel 0.75 m wide carries 0.135 m³/s at 0.6 m depth. Velocity?
 15. A channel 3 ft wide carries 4.5 cfs at 1.5 ft depth. Velocity?
-16. Convert 65 L/s to m³/d.
+16. Convert 65 L/s to m³/d (cubic metres per day).
 17. Convert 9,500 m³/d to L/s.
 18. Convert 12.6 ML/d to m³/h.
-19. Convert 3.2 MGD to gpm.
+19. Convert 3.2 MGD (Million Gallons per Day) to gpm.
 20. Convert 1,500 gpm to MGD.
 21. Convert 2.5 cfs to gpm.
 22. A 420 m³ tank receives 3,600 m³/d. Detention time in hours?
@@ -45,9 +49,9 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 27. A chlorine contact tank 8 m in diameter and 3 m deep receives 75 L/s. Contact time in minutes?
 28. A clarifier must have at least 2 h detention. Its volume is 600 m³. Maximum flow in m³/d?
 29. A 26 m clarifier receives 13,000 m³/d. Surface overflow rate?
-30. A 45-ft clarifier receives 1.2 MGD. SOR in gpd/ft²?
+30. A 45-ft clarifier receives 1.2 MGD. SOR (Surface Overflow Rate) in gpd/ft²?
 31. A rectangular clarifier is 30 m × 6 m and receives 5,400 m³/d. SOR?
-32. The 26 m clarifier above (13,000 m³/d) has a peripheral weir. WOR?
+32. The 26 m clarifier above (13,000 m³/d) has a peripheral weir. WOR (Weir Overflow Rate)?
 33. A 45-ft clarifier receives 1.2 MGD. WOR in gpd/ft?
 34. A 15 m trickling filter receives 1,800 m³/d plus 900 m³/d recirculation. Hydraulic loading rate?
 35. An influent tank 11.6 m × 7.5 m has a level that drops 0.3 m per hour. Flow out in m³/h?
@@ -58,12 +62,12 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 37. Same wet well: with one pump on, the level falls 0.4 m in 5 min. Pump rate in L/s?
 38. How long does it take a 25 L/s pump to empty a 45 m³ wet well (no inflow)?
 39. A tank holds 2,200 m³. How many hours to fill at 550 m³/h?
-40. Influent BOD 240 mg/L at 7,500 m³/d. BOD load (kg/d)?
-41. TSS 190 mg/L at 3.8 ML/d. kg/d?
+40. Influent BOD (Biochemical Oxygen Demand) 240 mg/L (milligrams per litre) at 7,500 m³/d. BOD load (kg/d)?
+41. TSS (Total Suspended Solids) 190 mg/L at 3.8 ML/d. kg/d?
 42. BOD 210 mg/L at 2.2 MGD. lb/d?
 43. Influent ammonia 32 mg/L at 4,000 m³/d. kg/d of ammonia-N?
 44. TSS in 230 mg/L, out 15 mg/L, flow 6,000 m³/d. kg/d removed?
-45. How many kg of MLSS are in a 2,500 m³ aeration tank at 3,200 mg/L?
+45. How many kg of MLSS (Mixed Liquor Suspended Solids) are in a 2,500 m³ aeration tank at 3,200 mg/L?
 46. US: How many lb of MLSS are in a 0.5 MG tank at 2,800 mg/L?
 47. Chlorine dose 8 mg/L at 5,500 m³/d. kg/d?
 48. Chlorine dose 6 mg/L at 2.4 MGD. lb/d?
@@ -89,25 +93,25 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 62. Influent TSS 300 mg/L, plant removes 95%. Effluent TSS?
 63. 120 m³ of sludge at 2.5% thickened to 6%. New volume?
 64. 40 m³/d of sludge at 4.5% solids. kg/d dry solids?
-65. US: 10,000 gpd of sludge at 3%. lb/d dry solids?
+65. US: 10,000 gpd (gallons per day) of sludge at 3%. lb/d dry solids?
 66. Express 42,000 mg/L as % solids.
-67. Primary effluent BOD 170 mg/L at 6,000 m³/d; aeration 1,800 m³; MLVSS 2,400 mg/L. F/M?
+67. Primary effluent BOD 170 mg/L at 6,000 m³/d; aeration 1,800 m³; MLVSS (Mixed Liquor Volatile Suspended Solids) 2,400 mg/L. F/M (Food-to-Microorganism ratio)?
 68. US: BOD 200 mg/L at 1.0 MGD; aeration 0.5 MG; MLVSS 2,000 mg/L. F/M?
 69. MLSS 3,100 mg/L, 74% volatile. MLVSS?
-70. SSV₃₀ = 350 mL/L, MLSS = 2,500 mg/L. SVI?
+70. SSV₃₀ (Settled Sludge Volume after 30 minutes) = 350 mL/L, MLSS = 2,500 mg/L. SVI (Sludge Volume Index)?
 71. SSV₃₀ = 900 mL/L, MLSS = 3,000 mg/L. SVI? What does it suggest?
-72. Aeration 2,500 m³ at 3,200 mg/L MLSS; WAS 500 kg/d; effluent TSS 12 mg/L at 7,000 m³/d. SRT?
+72. Aeration 2,500 m³ at 3,200 mg/L MLSS; WAS (Waste Activated Sludge) 500 kg/d; effluent TSS 12 mg/L at 7,000 m³/d. SRT (Solids Retention Time)?
 
 *— checkpoint: take a short break, then continue —*
 
 73. Inventory 8,000 kg; target SRT 20 d; effluent loss 60 kg/d; WAS concentration 8,000 mg/L. WAS in m³/d?
-74. RAS 3,000 m³/d; influent 7,500 m³/d. RAS %?
-75. A gauge reads 42 psi. Head in feet?
+74. RAS (Return Activated Sludge) 3,000 m³/d; influent 7,500 m³/d. RAS %?
+75. A gauge reads 42 psi (pounds per square inch). Head in feet?
 76. Pressure at the bottom of a 5.5 m deep tank (kPa)?
-77. A pump discharge gauge reads 196 kPa. Head in m?
+77. A pump discharge gauge reads 196 kPa (kilopascal). Head in m?
 78. Pressure (psi) at the bottom of a 24 ft deep wet well?
 79. 1,200 gpm against 60 ft; pump 75%, motor 90%. Motor hp?
-80. 0.04 m³/s against 25 m; pump 72%, motor 92%. Motor input kW?
+80. 0.04 m³/s against 25 m; pump 72%, motor 92%. Motor input kW (kilowatt)?
 81. Convert a 40 hp motor to kW.
 82. A 30 kW blower runs 24 h/d at $0.11/kWh. Daily cost?
 83. A 120 V circuit has 8 Ω resistance. Current?
@@ -115,7 +119,7 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 
 *— checkpoint: take a short break, then continue —*
 
-85. Same filter after 550 °C: 1.3029 g. VSS and % volatile?
+85. Same filter after 550 °C: 1.3029 g. VSS (Volatile Suspended Solids) and % volatile?
 86. DOi 8.4, DOf 3.9, 6 mL sample in a 300 mL bottle. BOD? Valid?
 87. Convert 4 °C to °F.
 88. Convert 59 °F to °C.
@@ -154,12 +158,12 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 | 26 | Detention time | **54 d** | 38,880 ÷ 720 |
 | 27 | Detention time | **33.49 min** | V = 0.785 × 64 × 3 = 150.72 m³; Q = 0.075 m³/s × 60 = 4.5 m³/min; 150.72 ÷ 4.5 |
 | 28 | Detention time | **7,200 m³/d** | 600 ÷ 2 = 300 m³/h × 24 |
-| 29 | SOR | **24.5 m³/m²·d** | area = 530.66 m²; 13,000 ÷ 530.66 |
+| 29 | SOR | **24.5 m³/m²·d (cubic metres per square metre per day)** | area = 530.66 m²; 13,000 ÷ 530.66 |
 | 30 | SOR | **755 gpd/ft²** | area = 1,589.6 ft²; 1,200,000 ÷ 1,589.6 |
 | 31 | SOR | **30 m³/m²·d** | 5,400 ÷ 180 |
 | 32 | WOR | **159.2 m³/m·d** | weir = 81.64 m; 13,000 ÷ 81.64 |
 | 33 | WOR | **8,493 gpd/ft** | weir = 141.3 ft; 1,200,000 ÷ 141.3 |
-| 34 | HLR | **15.3 m³/m²·d** | area = 176.63 m²; (1,800 + 900) ÷ 176.63 |
+| 34 | HLR (Hydraulic Loading Rate) | **15.3 m³/m²·d** | area = 176.63 m²; (1,800 + 900) ÷ 176.63 |
 | 35 | Pumping | **26.1 m³/h** | 11.6 × 7.5 × 0.3 |
 | 36 | Pumping | **20 L/s** | 4 × 4 × 0.6 = 9.6 m³ ÷ 8 min = 1.2 m³/min × 1,000 ÷ 60 |
 | 37 | Pumping | **41.33 L/s** | drawdown 6.4 m³ ÷ 5 = 1.28 m³/min; + inflow 1.2 = 2.48 m³/min × 1,000 ÷ 60 |
@@ -204,7 +208,7 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 | 76 | Pressure | **54 kPa** | 5.5 × 9.81 |
 | 77 | Pressure | **20 m** | 196 ÷ 9.81 |
 | 78 | Pressure | **10.4 psi** | 24 × 0.433 |
-| 79 | Pump power | **26.9 hp** | whp = 18.18; ÷ 0.75 = 24.24; ÷ 0.90 |
+| 79 | Pump power | **26.9 hp** | whp (water horsepower) = 18.18; ÷ 0.75 = 24.24; ÷ 0.90 |
 | 80 | Pump power | **14.8 kW** | water power = 9.81 × 0.04 × 25 = 9.81 kW; ÷ 0.72 = 13.63; ÷ 0.92 |
 | 81 | Pump power | **29.8 kW** | 40 × 0.746 |
 | 82 | Electrical | **$79.2** | 30 × 24 × 0.11 |

@@ -2,18 +2,28 @@
 
 ← [Module 1](01-wastewater-fundamentals.md) · [Course index](../README.md) · Next → [Module 3 — Preliminary Treatment](03-preliminary-treatment.md)
 
-**NTK area:** Security, Safety & Administrative Procedures (≈13%). Safety questions also appear inside every other area ("what should the operator do FIRST?").
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **AAA** = Always Add Acid (to water) · **ABC** = Association of Boards of Certification · **ANSI** = American National Standards Institute · **APR** = Air-Purifying Respirator · **APRs** = Air-Purifying Respirators · **CH₄** = methane · **Cl₂** = chlorine gas · **CO** = carbon monoxide · **CO₂** = carbon dioxide · **dBA** = A-weighted decibels · **GFCI** = Ground-Fault Circuit Interrupter · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **IDLH** = Immediately Dangerous to Life or Health · **LEL** = Lower Explosive Limit · **NH₃** = ammonia · **NTK** = Need-to-Know Criteria · **OHS** = Occupational Health and Safety · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PASS** = Pull, Aim, Squeeze, Sweep (fire extinguisher use) · **PFD** = Personal Flotation Device · **PPE** = Personal Protective Equipment · **ppm** = parts per million · **SCADA** = Supervisory Control And Data Acquisition · **SCBA** = Self-Contained Breathing Apparatus · **SDS** = Safety Data Sheet · **SG** = Specific Gravity · **SO₂** = sulphur dioxide · **UEL** = Upper Explosive Limit · **WHMIS** = Workplace Hazardous Materials Information System
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Security, Safety & Administrative Procedures (≈13%). Safety questions also appear inside every other area ("what should the operator do FIRST?").
 
 > **The #1 exam rule:** When a question involves a person's life or health, the answer that **protects people first** is almost always correct. Process second. Paperwork third.
 
-**BC legal framework for safety [BC-LAW]:** The *Workers Compensation Act* and the **WorkSafeBC Occupational Health and Safety (OHS) Regulation**. Key parts for operators: Part 3 (rights & responsibilities, right to refuse), Part 4 (general conditions incl. working alone), Part 5 (chemical & biological substances, WHMIS), Part 7 (noise), Part 8 (PPE), **Part 9 (confined spaces)**, **Part 10 (de-energization & lockout)**, Part 11 (fall protection), Part 20 (construction/excavation), and the exposure-limit tables. **WHMIS 2015** comes from the federal *Hazardous Products Act* + WorkSafeBC Part 5. The exam tests operator safety knowledge; you don't need section numbers.
+**BC legal framework for safety [BC-LAW]:** The *Workers Compensation Act* and the **WorkSafeBC Occupational Health and Safety (OHS) Regulation**. Key parts for operators: Part 3 (rights & responsibilities, right to refuse), Part 4 (general conditions incl. working alone), Part 5 (chemical & biological substances, WHMIS (Workplace Hazardous Materials Information System)), Part 7 (noise), Part 8 (PPE), **Part 9 (confined spaces)**, **Part 10 (de-energization & lockout)**, Part 11 (fall protection), Part 20 (construction/excavation), and the exposure-limit tables. **WHMIS 2015** comes from the federal *Hazardous Products Act* + WorkSafeBC Part 5. The exam tests operator safety knowledge; you don't need section numbers.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Confined Space Atmospheric Testing: Oxygen, Flammables & Toxics](https://www.youtube.com/watch?v=nmqdyg4SKWI) · [2 Minute Toolbox Talk: Confined Space Entry — Atmospheric Monitoring](https://www.youtube.com/watch?v=isEwYxnQWNI) · [The Invisible Gas That Can Kill Wastewater Operators — H₂S Risks Explained](https://www.youtube.com/watch?v=36p96qM4CF0) · [The Hidden Danger Behind Sewer Smells: Hydrogen Sulfide Explained](https://www.youtube.com/watch?v=PiVZ0DBm6VQ) · [The Lockout/Tagout Procedure (seven steps)](https://www.youtube.com/watch?v=I2W8vTOOZCc) · [Incident Investigation: Failure to Lock Out Injures Sawmill Workers](https://www.youtube.com/watch?v=SZG4n1S7n2k) · [Chlorine Safety Tour: A Training Guide for Chlorine Emergency Response](https://www.youtube.com/watch?v=S8uZ37ivX7c) · [How to Use the Chlorine Institute Emergency Kit "B" for Ton Containers](https://www.youtube.com/watch?v=fid3eEh-COI)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
 ## 1. What you need to know (checklist)
 
-- [ ] Choose correct PPE for a task and explain its limits (PPE is the **last** line of defence)
-- [ ] State the hazards, properties and warning signs of **H₂S, methane, oxygen deficiency, chlorine, CO₂, CO**
+- [ ] Choose correct PPE (Personal Protective Equipment) for a task and explain its limits (PPE is the **last** line of defence)
+- [ ] State the hazards, properties and warning signs of **H₂S (hydrogen sulphide), methane, oxygen deficiency, chlorine, CO₂ (carbon dioxide), CO**
 - [ ] Explain why gases collect **low** (heavier than air) or **high** (lighter than air)
 - [ ] Describe biological hazards and hygiene practices
 - [ ] Use WHMIS 2015: labels, pictograms, **SDS (16 sections)**
@@ -22,7 +32,7 @@
 - [ ] Use an eyewash/shower correctly (**15 minutes minimum**)
 - [ ] Follow **lockout/tagout** steps including verifying zero energy and releasing stored energy
 - [ ] Define a **confined space**; list entry requirements (hazard assessment, permit/entry procedures, testing, ventilation, isolation, standby/attendant, rescue plan)
-- [ ] Perform atmospheric testing in the right **order** (O₂ → LEL → toxics) and at **multiple levels**
+- [ ] Perform atmospheric testing in the right **order** (O₂ → LEL (Lower Explosive Limit) → toxics) and at **multiple levels**
 - [ ] Know acceptable atmosphere limits (O₂ 19.5–23%, flammables < 10% LEL)
 - [ ] Explain rescue principles (no unplanned entry rescue; non-entry retrieval preferred)
 - [ ] Control slips/trips/falls, work safely around open tanks, pumps and rotating machinery
@@ -55,12 +65,12 @@ If an exam asks for the **best** way to control a hazard, higher on this list is
 | Eye splash/particles | Safety glasses; **chemical goggles** for liquids; **face shield over goggles** for corrosives |
 | Hands (chemicals/sewage) | Chemical-resistant gloves (nitrile, neoprene, etc. — match to SDS) |
 | Feet | Steel/composite toe, slip-resistant boots |
-| Noise | Ear plugs/muffs (BC: hearing protection needed above the **85 dBA** 8-hour exposure limit) |
+| Noise | Ear plugs/muffs (BC: hearing protection needed above the **85 dBA (A-weighted decibels)** 8-hour exposure limit) |
 | Falls | Full-body harness + lanyard/lifeline, anchor |
 | Drowning (open tanks/lagoons) | Personal flotation device (PFD) / life ring nearby |
 | Traffic | High-visibility vest |
 | Airborne contaminants | Respirator (air-purifying) — **only if oxygen is adequate and the contaminant is known** |
-| IDLH atmospheres / O₂ deficiency / chlorine leak | **SCBA** (self-contained breathing apparatus) or supplied-air with escape bottle |
+| IDLH (Immediately Dangerous to Life or Health) atmospheres / O₂ deficiency / chlorine leak | **SCBA** (self-contained breathing apparatus) or supplied-air with escape bottle |
 
 **Key PPE rules**
 - An **air-purifying respirator (APR, cartridge mask) does NOT supply oxygen.** Never use it in an oxygen-deficient atmosphere or for unknown/IDLH atmospheres.
@@ -75,7 +85,7 @@ If an exam asks for the **best** way to control a hazard, higher on this list is
 
 | Gas | Source in a plant | Properties | Main hazard |
 |---|---|---|---|
-| **Hydrogen sulphide (H₂S)** | Septic wastewater, wet wells, sludge, digesters, headworks | Colourless; **rotten-egg odour** at low levels; **SG ≈ 1.19 (heavier → low)**; flammable (LEL ≈ 4%); corrosive | **Toxic** — paralyses breathing. **Olfactory fatigue:** at ~100 ppm and above it can **deaden your sense of smell** quickly, so "I can't smell it anymore" may mean it's *worse*. ~100 ppm is IDLH; several hundred ppm can cause collapse in minutes |
+| **Hydrogen sulphide (H₂S)** | Septic wastewater, wet wells, sludge, digesters, headworks | Colourless; **rotten-egg odour** at low levels; **SG ≈ 1.19 (heavier → low)**; flammable (LEL ≈ 4%); corrosive | **Toxic** — paralyses breathing. **Olfactory fatigue:** at ~100 ppm (parts per million) and above it can **deaden your sense of smell** quickly, so "I can't smell it anymore" may mean it's *worse*. ~100 ppm is IDLH; several hundred ppm can cause collapse in minutes |
 | **Methane (CH₄)** | Anaerobic decomposition: digesters, sewers, wet wells, sludge storage | Colourless, **odourless**; **SG ≈ 0.55 (lighter → high)**; **explosive range 5–15% in air** | **Explosion/fire**; also asphyxiant (displaces O₂) |
 | **Oxygen deficiency** | Oxygen displaced by other gases or consumed by bacteria/rust/decay in enclosed spaces | Normal air = **20.9% O₂** | Below **19.5%** = deficient → impaired judgement, collapse, death. **You cannot sense it.** |
 | **Oxygen enrichment** | Leaking O₂ systems, pure-oxygen processes | Above **23%** | Greatly increased fire/explosion risk |
@@ -133,7 +143,7 @@ Wastewater contains pathogens (Module 1). Routes of infection: **ingestion** (ha
 |---|---|---|---|
 | Chlorine gas | Disinfection | Toxic, corrosive, supports combustion | Ammonia, organics, oils, grease |
 | Sodium hypochlorite (liquid bleach, ~10–15%) | Disinfection, odour | Corrosive; **loses strength** with heat, sunlight, and time | **Acids → release chlorine gas**; **ammonia → chloramine gas** |
-| Calcium hypochlorite (HTH, ~65% available Cl₂, granules/tablets) | Disinfection | **Strong oxidizer — fire/explosion** risk with organics (oil, grease, rags, sawdust) | Organics, fuels, acids |
+| Calcium hypochlorite (HTH (High-Test Hypochlorite, calcium hypochlorite), ~65% available Cl₂ (chlorine gas), granules/tablets) | Disinfection | **Strong oxidizer — fire/explosion** risk with organics (oil, grease, rags, sawdust) | Organics, fuels, acids |
 | Sodium bisulphite / sulphur dioxide | Dechlorination | SO₂ is toxic; bisulphite releases SO₂ with acid | Acids, oxidizers |
 | Alum, ferric chloride, ferric sulphate | Phosphorus removal, coagulation | Acidic/corrosive; ferric stains | Strong bases; hypochlorite |
 | Sodium hydroxide (caustic), lime | pH/alkalinity adjustment | **Very corrosive** (caustic burns can be worse than acid burns — no immediate pain); lime dust irritant; heat when mixed with water | **Acids** (violent heat) |
@@ -179,7 +189,7 @@ Wastewater contains pathogens (Module 1). Routes of infection: **ingestion** (ha
 ### 2.9 Eyewash stations & emergency showers
 
 - Flush eyes/skin for **at least 15 minutes** (longer for some chemicals, e.g., caustics — follow the SDS), holding eyelids open, then get medical attention.
-- Stations must be **reachable quickly and without obstruction** (industry standard ANSI Z358.1 uses ~10 seconds travel). **[SUPPLEMENTAL]**
+- Stations must be **reachable quickly and without obstruction** (industry standard ANSI (American National Standards Institute) Z358.1 uses ~10 seconds travel). **[SUPPLEMENTAL]**
 - Activate/test **weekly** to flush lines and confirm operation; keep the path clear.
 - Tempered (lukewarm) water is preferred.
 
@@ -253,7 +263,7 @@ and it's big enough for a worker to enter. **[BC-LAW — WorkSafeBC Part 9 has t
 | Flammable gas | **Below 10% of the LEL** (alarms commonly set at 10% LEL) |
 | Toxic gases | Below the applicable exposure limit (H₂S: WorkSafeBC lists a ceiling limit — commonly **10 ppm**; confirm in the WorkSafeBC exposure limit table) |
 
-**LEL / UEL explained:** A flammable gas only burns when mixed with air within a certain range.
+**LEL / UEL (Upper Explosive Limit) explained:** A flammable gas only burns when mixed with air within a certain range.
 - **LEL (Lower Explosive Limit)** — too little fuel below this ("too lean"). Methane LEL = 5%.
 - **UEL (Upper Explosive Limit)** — too much fuel above this ("too rich"). Methane UEL = 15%.
 - A meter reading "**10% LEL**" methane means 10% **of** the 5% → **0.5% methane by volume** — **not** 10% methane.
@@ -269,7 +279,7 @@ and it's big enough for a worker to enter. **[BC-LAW — WorkSafeBC Part 9 has t
 - **Guardrails**, covers and grating must be in place; replace immediately after work.
 - **Open tanks and lagoons:** life rings, PFDs, never work alone near open water without a plan; **aerated water is less dense — a person may not float well in aerated tanks**. **[SUPPLEMENTAL]**
 - **Rotating equipment:** guards on couplings, belts, chains, shafts. No loose clothing, long hair, jewellery. Never reach around guards.
-- **Automatic equipment can start without warning** (float-controlled pumps, timers, SCADA). Lock out before touching.
+- **Automatic equipment can start without warning** (float-controlled pumps, timers, SCADA (Supervisory Control And Data Acquisition)). Lock out before touching.
 - **Clarifier mechanisms, bar screen rakes, grit collectors** — high torque, pinch points.
 
 ### 2.13 Slips, trips and falls
@@ -292,7 +302,7 @@ and it's big enough for a worker to enter. **[BC-LAW — WorkSafeBC Part 9 has t
 
 | Class | Fuel | Extinguisher |
 |---|---|---|
-| **A** | Ordinary combustibles: wood, paper, rags ("A = Ash") | Water, ABC dry chemical |
+| **A** | Ordinary combustibles: wood, paper, rags ("A = Ash") | Water, ABC (Association of Boards of Certification) dry chemical |
 | **B** | Flammable liquids/gases: fuel, oil, solvents ("B = Barrel") | CO₂, ABC dry chemical, foam |
 | **C** | Energized electrical ("C = Current") | CO₂, ABC dry chemical — **never water** |
 | **D** | Combustible metals | Special dry powder |
@@ -373,7 +383,7 @@ and it's big enough for a worker to enter. **[BC-LAW — WorkSafeBC Part 9 has t
 | "Methane collects at the bottom of a wet well" | Methane is **lighter** than air → rises. H₂S and chlorine sink. |
 | "Test for toxic gases first" | **Oxygen first**, then flammables, then toxics. |
 | "The attendant should enter immediately to help a collapsed worker" | **Never.** Call for help and use non-entry rescue. |
-| "A cartridge respirator is fine in a wet well" | APRs don't supply oxygen; not for O₂-deficient/unknown atmospheres. |
+| "A cartridge respirator is fine in a wet well" | APRs (Air-Purifying Respirators) don't supply oxygen; not for O₂-deficient/unknown atmospheres. |
 | "10% LEL means 10% methane" | 10% **of** the LEL = 0.5% methane. |
 | "Spray water on a chlorine leak to knock it down" | **Never** — makes the leak worse (corrosion). |
 | "Pressing the stop button is lockout" | Control devices are not isolation. Lock the disconnect, then **verify**. |

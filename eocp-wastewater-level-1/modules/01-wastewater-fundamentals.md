@@ -2,7 +2,17 @@
 
 ← [Module 0 — Vocabulary](00-starter-vocabulary.md) · [Course index](../README.md) · Next → [Module 2 — Safety](02-safety.md)
 
-**NTK area:** Treatment Process Evaluation & Adjustment (≈38% — wastewater characteristics underpin every process) and Laboratory Analysis (≈10%).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **F/M** = Food-to-Microorganism ratio · **FOG** = Fats, Oils and Grease · **H₂S** = hydrogen sulphide · **I/I** = Infiltration and Inflow · **mg/L** = milligrams per litre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **NTK** = Need-to-Know Criteria · **NTU** = Nephelometric Turbidity Unit · **OSHA** = Occupational Safety and Health Administration (US) · **RAS** = Return Activated Sludge · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Treatment Process Evaluation & Adjustment (≈38% — wastewater characteristics underpin every process) and Laboratory Analysis (≈10%).
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [The Wastewater Whiteboard: BOD vs COD](https://www.youtube.com/watch?v=saOLucSjO2U) · [BOD (biological oxygen demand) — the water quality indicator](https://www.youtube.com/watch?v=v33CgWJ2TZ0) · [What are Total Suspended Solids (TSS)?](https://www.youtube.com/watch?v=_fKGM040wvI)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -13,10 +23,10 @@ Tick each item when you can explain it out loud without notes.
 - [ ] Define wastewater, sewage, influent, effluent, and the difference between domestic, industrial, commercial, and infiltration/inflow (I/I) flows
 - [ ] Explain why a treatment plant exists (protect public health + protect the receiving environment)
 - [ ] List the **physical** characteristics: colour, odour, temperature, solids (total, suspended, dissolved, settleable, volatile, fixed), turbidity
-- [ ] List the **chemical** characteristics: pH, alkalinity, organic matter (BOD, COD), nutrients (N, P), DO, toxic substances, FOG (fats/oils/grease)
+- [ ] List the **chemical** characteristics: pH, alkalinity, organic matter (BOD (Biochemical Oxygen Demand), COD), nutrients (N, P), DO (Dissolved Oxygen), toxic substances, FOG (fats/oils/grease)
 - [ ] List the **biological** characteristics: bacteria, viruses, protozoa, helminths (worms); pathogens vs indicator organisms (coliforms / *E. coli*)
-- [ ] Define BOD, CBOD, COD, TSS, TDS, VSS, DO, pH and say **why each matters** to an operator
-- [ ] Describe fresh vs septic wastewater (colour, odour, H₂S)
+- [ ] Define BOD, CBOD (Carbonaceous Biochemical Oxygen Demand), COD, TSS, TDS (Total Dissolved Solids), VSS (Volatile Suspended Solids), DO, pH and say **why each matters** to an operator
+- [ ] Describe fresh vs septic wastewater (colour, odour, H₂S (hydrogen sulphide))
 - [ ] Know typical raw domestic wastewater strength (order of magnitude)
 - [ ] Explain the effect of temperature on biological activity and on DO saturation
 - [ ] Explain the "solids family tree" (TS = TSS + TDS; each split into volatile + fixed)
@@ -38,7 +48,7 @@ Tick each item when you can explain it out loud without notes.
 | **Industrial wastewater** | From factories/processing (food, dairy, metal plating, breweries). Can be very strong, hot, acidic/basic, or toxic. Often controlled by a **sewer-use bylaw** and pre-treatment |
 | **Infiltration** | Groundwater leaking **into** sewers through cracks and bad joints |
 | **Inflow** | Rain/surface water **entering directly** (roof drains, manhole lids, illegal storm connections) |
-| **I/I** | Infiltration + inflow together. Dilutes wastewater, raises flow, can overload the plant in wet weather |
+| **I/I** (Infiltration and Inflow) | Infiltration + inflow together. Dilutes wastewater, raises flow, can overload the plant in wet weather |
 | **Influent** | What **flows in** to the plant (or into any one process) |
 | **Effluent** | What **flows out** of the plant (or out of any one process) |
 | **Receiving water / receiving environment** | Where the final effluent goes (river, lake, ocean, ground) |
@@ -112,7 +122,7 @@ Tick each item when you can explain it out loud without notes.
 
 - **Volatile** = burns away at **550 °C** → organic (made of carbon — food, paper, microorganisms).
 - **Fixed** = what's left (ash) → inorganic (sand, grit, minerals).
-- Operators use **VSS** to estimate how much of the mixed liquor is actually *living organisms* (MLVSS, Module 5).
+- Operators use **VSS** to estimate how much of the mixed liquor is actually *living organisms* (MLVSS (Mixed Liquor Volatile Suspended Solids), Module 5).
 
 **Turbidity** — cloudiness caused by fine suspended particles. High effluent turbidity usually means solids are escaping (and interferes with UV disinfection).
 
@@ -128,7 +138,7 @@ Tick each item when you can explain it out loud without notes.
 - Microorganisms work best near **neutral (≈6.5–8.5)**. Nitrifiers prefer the upper part of that range.
 - Sudden pH swings (e.g., pH 3 or pH 11 at the headworks) = likely industrial discharge → can kill the biology.
 
-**Alkalinity** — the water's **buffering capacity**: its ability to *resist* a change in pH. Measured as mg/L as CaCO₃ (calcium carbonate).
+**Alkalinity** — the water's **buffering capacity**: its ability to *resist* a change in pH. Measured as mg/L (milligrams per litre) as CaCO₃ (calcium carbonate).
 - Think of alkalinity as the **"pH shock absorber."**
 - Nitrification **uses up alkalinity** (Module 7). If alkalinity runs out, pH crashes and nitrification stops.
 - Anaerobic digesters also depend on alkalinity (Module 9).
@@ -188,7 +198,7 @@ Tick each item when you can explain it out loud without notes.
 
 | Parameter | Typical raw domestic (medium strength) |
 |---|---|
-| BOD₅ | ~200 mg/L (range roughly 100–400) |
+| BOD₅ (5-day Biochemical Oxygen Demand) | ~200 mg/L (range roughly 100–400) |
 | TSS | ~200 mg/L (range roughly 100–400) |
 | COD | ~400–500 mg/L (about 2× BOD) |
 | TKN | ~40 mg/L as N |
@@ -241,9 +251,9 @@ What an operator actually does with this knowledge:
 
 1. **Reads the influent every day.** Colour, odour, and flow at the headworks are the first warning of trouble. A black, rotten-egg-smelling influent tells you the collection system is septic (long travel times, low flows, warm weather) → H₂S hazards, corrosion, and harder treatment.
 2. **Watches for industrial slugs.** Sudden pH change, unusual colour/odour, oil sheen, or foaming at the headworks → notify supervisor, sample immediately, protect the biology (Module 16), and follow the sewer-use bylaw / source-control procedure.
-3. **Uses BOD/TSS loading to run the biology.** The "food" coming in determines how much biomass you need (F/M, Module 5) and how much air you need.
-4. **Uses temperature to anticipate.** Cold weather → slower biology, especially nitrification → keep more biomass (longer SRT). Warm weather → more oxygen demand, lower DO saturation, more septic odours.
-5. **Uses solids tests to track the process:** TSS in/out for removal efficiency, MLSS for biomass inventory, VSS to see how much is organic.
+3. **Uses BOD/TSS loading to run the biology.** The "food" coming in determines how much biomass you need (F/M (Food-to-Microorganism ratio), Module 5) and how much air you need.
+4. **Uses temperature to anticipate.** Cold weather → slower biology, especially nitrification → keep more biomass (longer SRT (Solids Retention Time)). Warm weather → more oxygen demand, lower DO saturation, more septic odours.
+5. **Uses solids tests to track the process:** TSS in/out for removal efficiency, MLSS (Mixed Liquor Suspended Solids) for biomass inventory, VSS to see how much is organic.
 6. **Uses indicator bacteria to prove disinfection** is working.
 7. **Knows wet-weather behaviour.** High flows → watch clarifier blankets, bypasses, grit, and screen blinding.
 

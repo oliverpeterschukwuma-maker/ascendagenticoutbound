@@ -2,6 +2,10 @@
 
 ← [Course index](../README.md) · Schedule → [6-Week Study Schedule](../review/study-schedule-6-weeks.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **EOCP** = Environmental Operators Certification Program · **WPI** = Water Professionals International
+<!-- abbr-end -->
+
 This is **how** to study. The [schedule](../review/study-schedule-6-weeks.md) tells you **when**.
 
 ```
@@ -50,7 +54,7 @@ Use the **[progress tracker](progress-tracker.csv)** (opens in Excel, Google She
 | Phase | 2, 4 or 5 |
 | Source | e.g., "Module 6 quiz", "17E #1–15", "Mock 1" |
 | Topic / Module | e.g., "Secondary clarification" |
-| WPI Content Area | Equipment / Process / Safety-Admin / Lab / Math |
+| WPI (Water Professionals International) Content Area | Equipment / Process / Safety-Admin / Lab / Math |
 | Attempted | number of questions |
 | Correct | number right |
 | Incorrect | calculates automatically |
@@ -88,7 +92,7 @@ Once you've finished all modules:
 
 - **[Mock Exam 1](mock-exam-1.md)** — 100 questions, weighted like the real WPI exam (39/38/13/10).
 - **[Mock Exam 2](mock-exam-2.md)** — 100 **different** questions, same weights.
-- **[EOCP official practice material](eocp-official-practice.md)** — the EOCP sample exams and math questions (download them yourself; links on that page).
+- **[EOCP official practice material](eocp-official-practice.md)** — the EOCP (Environmental Operators Certification Program) sample exams and math questions (download them yourself; links on that page).
 
 **How to take a mock properly:**
 1. **Same conditions as the real exam:** quiet room, timer (3 hours — confirm the real limit), calculator, formula sheet only.

@@ -2,7 +2,17 @@
 
 ← [Module 13](13-instrumentation-controls.md) · [Course index](../README.md) · Next → [Module 15 — Laboratory & Sampling](15-laboratory-sampling.md)
 
-**NTK area:** Equipment Evaluation, Maintenance and/or Operation (≈39%) — including **auxiliary (standby) power** and **ancillary equipment**, which are named in the 2025 Need-to-Know. Level I operators **are not electricians** — you need to understand the basics, recognize problems, operate safely, and know when to call a qualified person.
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **AC** = Alternating Current · **ATS** = Automatic Transfer Switch · **CMMS** = Computerized Maintenance Management System · **CSA** = Canadian Standards Association · **DC** = Direct Current · **FLA** = Full-Load Amps · **GFCI** = Ground-Fault Circuit Interrupter · **GFCIs** = Ground-Fault Circuit Interrupters · **hp** = horsepower · **kW** = kilowatt · **kWh** = kilowatt-hour · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **ODP** = Open Drip-Proof (motor) · **OSHA** = Occupational Safety and Health Administration (US) · **PD** = Positive Displacement · **PLCs** = Programmable Logic Controllers · **PM** = Preventive Maintenance · **SCADA** = Supervisory Control And Data Acquisition · **SF** = Service Factor · **TEFC** = Totally Enclosed Fan-Cooled (motor) · **UPS** = Uninterruptible Power Supply · **VFD** = Variable Frequency Drive · **VFDs** = Variable Frequency Drives
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) area:** Equipment Evaluation, Maintenance and/or Operation (≈39%) — including **auxiliary (standby) power** and **ancillary equipment**, which are named in the 2025 Need-to-Know. Level I operators **are not electricians** — you need to understand the basics, recognize problems, operate safely, and know when to call a qualified person.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Ohm's Law Explained with Water Analogy](https://www.youtube.com/watch?v=_DvELHA1jzM) · [Basics of Ohm's Law, Volts, Amps, Ohms, and Watts Explained](https://www.youtube.com/watch?v=sILl7p_J1UU)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -12,11 +22,11 @@
 - [ ] **Voltage, current, resistance, power** — plain meaning and units
 - [ ] **Ohm's law** (V = I × R) and power (P = V × I) — basic use
 - [ ] AC vs DC; single-phase vs three-phase (recognize)
-- [ ] **Motors**: nameplate information, starters, VFDs, why motors overheat, single-phasing
-- [ ] **Fuses, circuit breakers, overload relays, GFCI** — what each protects
+- [ ] **Motors**: nameplate information, starters, VFDs (Variable Frequency Drives), why motors overheat, single-phasing
+- [ ] **Fuses, circuit breakers, overload relays, GFCI (Ground-Fault Circuit Interrupter)** — what each protects
 - [ ] **Grounding** — why it matters
 - [ ] **Electrical hazards**: shock, arc flash, burns; safe practices; testing for absence of voltage
-- [ ] **Standby generators / auxiliary power**: automatic transfer switch, testing, fuel, UPS
+- [ ] **Standby generators / auxiliary power**: automatic transfer switch, testing, fuel, UPS (Uninterruptible Power Supply)
 
 **Mechanical**
 - [ ] **Lubrication**: oil vs grease, right type/amount/interval, over-greasing
@@ -152,7 +162,7 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 | **Standby generator** (diesel, natural gas, propane) | Runs critical loads during an outage | **Exercise regularly** — commonly **weekly**, and **under load** periodically (per manufacturer/SOP); check **fuel level and quality**, **oil, coolant**, **battery** (and charger), **block heater** (cold weather), belts, exhaust leaks; keep a log |
 | **Automatic Transfer Switch (ATS)** | Senses power loss, starts the generator, and switches loads to it; switches back when utility power returns | Test transfer during exercises |
 | **Portable generator** + quick-connect | Backup for remote lift stations | Keep fuelled and tested; know how to connect |
-| **UPS (Uninterruptible Power Supply)** | Battery backup for **PLCs, SCADA, alarms, instruments** — keeps them running during the gap before the generator starts | Test and replace batteries per schedule |
+| **UPS (Uninterruptible Power Supply)** | Battery backup for **PLCs (Programmable Logic Controllers), SCADA (Supervisory Control And Data Acquisition), alarms, instruments** — keeps them running during the gap before the generator starts | Test and replace batteries per schedule |
 | **Dual power feeds** | Two utility supplies | Recognize |
 
 **Safety:** generator **exhaust contains carbon monoxide** — never run in enclosed spaces without proper exhaust; refuel only when cool/off; hearing protection.
@@ -194,7 +204,7 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 ### 2.12 Blowers and compressors
 
 - **Blowers** supply low-pressure air to aeration diffusers, grit chambers, channels. Types: **positive displacement (rotary lobe)** and **centrifugal** (single-stage/multistage, turbo). **[SUPPLEMENTAL]**
-- Checks: **inlet filters** (dirty → less air, more power), discharge pressure (**rising pressure → fouled diffusers** or closed valves), temperature, oil levels, belts, vibration, noise; **pressure relief valves** on PD blowers; **hearing protection**.
+- Checks: **inlet filters** (dirty → less air, more power), discharge pressure (**rising pressure → fouled diffusers** or closed valves), temperature, oil levels, belts, vibration, noise; **pressure relief valves** on PD (Positive Displacement) blowers; **hearing protection**.
 - **Compressors** supply higher-pressure air for tools, instruments, pneumatic valves — drain **condensate** (water) from receivers regularly; check pressure relief valves.
 
 ### 2.13 Vibration, heat and noise — your senses as tools
@@ -216,7 +226,7 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 | **Corrective** | **Repair after** something breaks or is found defective | Replace a failed seal |
 | **Emergency** | Urgent corrective work to protect people, environment, or critical equipment | Repair a failed lift-station pump during a storm |
 
-**Good maintenance programs** use **work orders**, a **CMMS** (Computerized Maintenance Management System) or card system, **equipment history records**, **manufacturers' O&M manuals**, **spare parts inventory**, and **run-hour tracking**. Good PM **reduces** corrective and emergency work.
+**Good maintenance programs** use **work orders**, a **CMMS** (Computerized Maintenance Management System) or card system, **equipment history records**, **manufacturers' O&M (Operations and Maintenance) manuals**, **spare parts inventory**, and **run-hour tracking**. Good PM **reduces** corrective and emergency work.
 
 ---
 
@@ -257,7 +267,7 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 |---|---|---|
 | Water analogy for V/I/R | Ohm's law, P = VI | 3-phase power formula, power factor |
 | Fuse vs overload vs GFCI | hp ↔ kW | Insulation class, megger testing |
-| Why single-phasing burns motors | Live–dead–live | Arc-flash boundaries, CSA Z462 |
+| Why single-phasing burns motors | Live–dead–live | Arc-flash boundaries, CSA (Canadian Standards Association) Z462 |
 | Why over-greasing harms bearings | Generator checks | Soft starter vs VFD details |
 | Why PM reduces breakdowns | Maintenance types | Laser alignment, thermography |
 
@@ -267,7 +277,7 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 
 | Trap | Truth |
 |---|---|
-| "Overloads protect people" | Overloads protect **motors**. **GFCIs** protect people. |
+| "Overloads protect people" | Overloads protect **motors**. **GFCIs** (Ground-Fault Circuit Interrupters) protect people. |
 | "If a fuse keeps blowing, install a bigger one" | **Never** — find the fault. |
 | "A breaker that trips can be reset over and over" | Repeated trips = a real problem → investigate. |
 | "More grease = better" | Over-greasing **overheats** bearings. |

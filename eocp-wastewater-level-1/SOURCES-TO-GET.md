@@ -2,6 +2,10 @@
 
 ← [Course index](README.md)
 
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **NTK** = Need-to-Know Criteria · **OHS** = Occupational Health and Safety · **OIT** = Operator in Training · **WPI** = Water Professionals International
+<!-- abbr-end -->
+
 ## Why this list exists
 
 This course was built in a cloud workspace whose network blocks these websites:
@@ -20,11 +24,11 @@ Then ask Claude to "check the course against the sources folder". It will correc
 
 | # | Document | What's in it | Link |
 |---|---|---|---|
-| 1 | **WPI Wastewater Treatment Class I Need-to-Know (2025)** | The official list of everything that can be tested, the % of the exam for each area, and the reference books | https://www.gowpi.org/wp-content/uploads/2025/06/WastewaterTreatment-%E2%80%93-Class-1.pdf |
-| 2 | **EOCP Exam Preparation page** (a web page) | EOCP's current advice, time limit, calculator rules, links to sample questions and formula sheets | https://eocp.ca/certified-operators/preparing-for-your-exam/ |
-| 3 | **WPI Formula/Conversion Table (2025)** — the sheet you get at the exam | The exact formulas and conversions you'll be given | Find it linked on the EOCP Exam Preparation page (#2) or on WPI's NTK page: https://gowpi.org/services/2025-need-to-know-criteria/ |
+| 1 | **WPI (Water Professionals International) Wastewater Treatment Class I Need-to-Know (2025)** | The official list of everything that can be tested, the % of the exam for each area, and the reference books | https://www.gowpi.org/wp-content/uploads/2025/06/WastewaterTreatment-%E2%80%93-Class-1.pdf |
+| 2 | **EOCP (Environmental Operators Certification Program) Exam Preparation page** (a web page) | EOCP's current advice, time limit, calculator rules, links to sample questions and formula sheets | https://eocp.ca/certified-operators/preparing-for-your-exam/ |
+| 3 | **WPI Formula/Conversion Table (2025)** — the sheet you get at the exam | The exact formulas and conversions you'll be given | Find it linked on the EOCP Exam Preparation page (#2) or on WPI's NTK (Need-to-Know Criteria) page: https://gowpi.org/services/2025-need-to-know-criteria/ |
 | 4 | **EOCP Math for Operators — Wastewater Level I & II** | EOCP's own worked math examples (metric) | https://eocp.ca/wp-content/uploads/2020/09/Math-for-Operators-Wastewater-Level-I-and-II.pdf |
-| 5 | **Guide to the EOCP and ABC Formulas (2022, G. Faris)** | Every formula on the sheet, explained with US and metric examples | https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf |
+| 5 | **Guide to the EOCP and ABC (Association of Boards of Certification) Formulas (2022, G. Faris)** | Every formula on the sheet, explained with US and metric examples | https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf |
 | 6 | **EOCP Program Guide (newest version)** | Exam rules, pass mark, rewrite rules, certification rules | Older version: https://eocp.ca/wp-content/uploads/2021/05/EOCP-Program-Guide-April-2021.pdf — check eocp.ca for a newer one |
 
 ## Priority 2 — Official EOCP practice material (to add as practice questions)
@@ -33,7 +37,7 @@ Then ask Claude to "check the course against the sources folder". It will correc
 |---|---|---|---|
 | 7 | **EOCP Math Test Questions** | EOCP's math practice set | https://eocp.ca/wp-content/uploads/2018/04/EOCP-Math-Test-Questions.pdf |
 | 8 | **EOCP SWWS Sample Exam (Dec 2020)** | Small Wastewater Systems sample — not Level I, but EOCP-style wastewater questions | https://eocp.ca/wp-content/uploads/2021/01/SWWS-Sample-Exam-2020-December.pdf |
-| 9 | **EOCP OIT Sample Exam (Dec 2020)** | Operator-in-Training sample — basic-level questions | https://eocp.ca/wp-content/uploads/2021/01/OIT-Sample-Exam-2020-December.pdf |
+| 9 | **EOCP OIT (Operator in Training) Sample Exam (Dec 2020)** | Operator-in-Training sample — basic-level questions | https://eocp.ca/wp-content/uploads/2021/01/OIT-Sample-Exam-2020-December.pdf |
 | 10 | **ABC 2018 Wastewater Formula Sheet** (older) | Good for comparison | https://eocp.ca/wp-content/uploads/2018/04/ABC-2018-Wastewater-Formula-Sheet.pdf |
 | 11 | **EOCP Formula Sheet** (older) | Good for comparison | https://eocp.ca/wp-content/uploads/2018/04/EOCP-Formula-Sheet.pdf |
 | 12 | **2022 Guide to the EOCP and ABC Formulas** (May 2022 upload — may be same as #5) | | https://eocp.ca/wp-content/uploads/2022/05/2022-Guide-to-the-EOCP-and-ABC-formulas.pdf |
@@ -57,9 +61,9 @@ Then ask Claude to "check the course against the sources folder". It will correc
 | # | Source | Link |
 |---|---|---|
 | 20 | **BC Municipal Wastewater Regulation** (B.C. Reg. 87/2012) — section 47 requires EOCP-certified operators | https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/87_2012 |
-| 21 | **WorkSafeBC OHS Regulation Part 9 — Confined Spaces** | https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-09-confined-spaces |
+| 21 | **WorkSafeBC OHS (Occupational Health and Safety) Regulation Part 9 — Confined Spaces** | https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-09-confined-spaces |
 | 22 | **WorkSafeBC OHS Regulation Part 10 — De-energization and Lockout** | Search "WorkSafeBC Part 10 lockout" |
-| 23 | **WorkSafeBC exposure limits table (Guideline 5.48-1)** — to confirm the H₂S, chlorine limits | Search "WorkSafeBC table of exposure limits" |
+| 23 | **WorkSafeBC exposure limits table (Guideline 5.48-1)** — to confirm the H₂S (hydrogen sulphide), chlorine limits | Search "WorkSafeBC table of exposure limits" |
 | 24 | **Federal Wastewater Systems Effluent Regulations (SOR/2012-139)** | https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-139/ |
 | 25 | **BC Organic Matter Recycling Regulation** (biosolids) | Search "BC Organic Matter Recycling Regulation" on bclaws.gov.bc.ca |
 

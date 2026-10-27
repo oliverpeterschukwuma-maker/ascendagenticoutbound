@@ -2,9 +2,19 @@
 
 ← [Module 11](11-valves-piping.md) · [Course index](../README.md) · Next → [Module 13 — Instrumentation & Controls](13-instrumentation-controls.md)
 
-**NTK areas:** Equipment (pumps, pipes, pressure) and Treatment Process (flow through the plant). Math: flow, velocity, pressure, head ([Math 17B](../math/17b-area-volume-flow-time.md), [17D](../math/17d-process-pumps-pressure-lab.md)).
+<!-- abbr-start -->
+> 🔤 **Abbreviations in this file:** **cfs** = cubic feet per second · **gpm** = gallons per minute · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **L/s** = litres per second · **MGD** = Million Gallons per Day · **m³/d** = cubic metres per day · **NTK** = Need-to-Know Criteria · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **TDH** = Total Dynamic Head
+<!-- abbr-end -->
+
+**NTK (Need-to-Know Criteria) areas:** Equipment (pumps, pipes, pressure) and Treatment Process (flow through the plant). Math: flow, velocity, pressure, head ([Math 17B](../math/17b-area-volume-flow-time.md), [17D](../math/17d-process-pumps-pressure-lab.md)).
 
 > **Hydraulics** just means **how water moves and pushes**. You already know a lot of it from daily life: water runs downhill, a garden hose sprays faster when you squeeze the end, and your ears hurt at the bottom of a pool. This module puts names on those ideas.
+
+<!-- videos-start -->
+> 🎥 **Watch (optional, helps with harder ideas):** [Problem Solved: Flow Rate Formula (Q = A × V)](https://www.youtube.com/watch?v=B1rjSaOIm-s) · [Pump Curve vs System Curve — Example Problem](https://www.youtube.com/watch?v=MffwvbGMgJk)
+> 
+> *Videos were found by search, not watched in full. Many are American — they may use US units and OSHA (Occupational Safety and Health Administration, US) rules. In BC, **WorkSafeBC** rules apply and the exam uses **both metric and US units**. If a link is dead, search YouTube for the title.*
+<!-- videos-end -->
 
 ---
 
@@ -12,7 +22,7 @@
 
 - [ ] **Flow (Q)**, **velocity (V)**, **area (A)** and how they connect: **Q = A × V**
 - [ ] **Continuity**: when a pipe gets smaller, water speeds up
-- [ ] **Pressure**: what it is, units (kPa, psi), gauge vs absolute (recognize)
+- [ ] **Pressure**: what it is, units (kPa (kilopascal), psi (pounds per square inch)), gauge vs absolute (recognize)
 - [ ] **Head**: pressure expressed as a height of water; converting pressure ↔ head
 - [ ] Pressure depends on **depth only** (not tank shape or width)
 - [ ] **Friction / headloss**: what increases it (length, smaller diameter, rough pipe, higher velocity, fittings/valves)
@@ -31,7 +41,7 @@
 
 | Word | Symbol | Meaning | Units |
 |---|---|---|---|
-| **Flow** | Q | **How much** water passes per unit time | m³/s, m³/d, L/s, ML/d · US: cfs, gpm, MGD |
+| **Flow** | Q | **How much** water passes per unit time | m³/s, m³/d (cubic metres per day), L/s (litres per second), ML/d · US: cfs (cubic feet per second), gpm (gallons per minute), MGD (Million Gallons per Day) |
 | **Velocity** | V | **How fast** the water is moving | m/s · US: ft/s (fps) |
 | **Area** | A | Cross-sectional area the water flows through (the "opening") | m² · US: ft² |
 
@@ -121,7 +131,7 @@ As water moves through pipes, it rubs against the walls and swirls through fitti
 | Pipe full? | Usually **partly full**, with a free water surface | **Completely full**, under pressure |
 | Measuring flow | Flumes/weirs + level | Magnetic flow meters, etc. |
 
-**Self-cleansing velocity [SUPPLEMENTAL]:** gravity sewers are designed for at least about **0.6 m/s (2 ft/s)** so solids don't settle in the pipe. Too slow → solids settle → septic conditions, H₂S, blockages. (Grit channels are deliberately run slower — ~0.3 m/s — to drop grit.)
+**Self-cleansing velocity [SUPPLEMENTAL]:** gravity sewers are designed for at least about **0.6 m/s (2 ft/s)** so solids don't settle in the pipe. Too slow → solids settle → septic conditions, H₂S (hydrogen sulphide), blockages. (Grit channels are deliberately run slower — ~0.3 m/s — to drop grit.)
 
 ### 2.8 Elevation and the plant's hydraulic profile
 
