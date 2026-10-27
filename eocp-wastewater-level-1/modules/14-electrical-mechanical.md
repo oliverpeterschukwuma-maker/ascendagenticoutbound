@@ -3,7 +3,7 @@
 ← [Module 13](13-instrumentation-controls.md) · [Course index](../README.md) · Next → [Module 15 — Laboratory & Sampling](15-laboratory-sampling.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **AC** = Alternating Current · **ATS** = Automatic Transfer Switch · **CMMS** = Computerized Maintenance Management System · **CSA** = Canadian Standards Association · **DC** = Direct Current · **FLA** = Full-Load Amps · **GFCI** = Ground-Fault Circuit Interrupter · **GFCIs** = Ground-Fault Circuit Interrupters · **hp** = horsepower · **kW** = kilowatt · **kWh** = kilowatt-hour · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **ODP** = Open Drip-Proof (motor) · **OSHA** = Occupational Safety and Health Administration (US) · **PD** = Positive Displacement · **PLCs** = Programmable Logic Controllers · **PM** = Preventive Maintenance · **SCADA** = Supervisory Control And Data Acquisition · **SF** = Service Factor · **TEFC** = Totally Enclosed Fan-Cooled (motor) · **UPS** = Uninterruptible Power Supply · **VFD** = Variable Frequency Drive · **VFDs** = Variable Frequency Drives
+> 🔤 **Abbreviations in this file:** **AC** = Alternating Current · **ATS** = Automatic Transfer Switch · **CMMS** = Computerized Maintenance Management System · **CSA** = Canadian Standards Association · **DC** = Direct Current · **EQ** = Equalization (or Equipment area code) · **FLA** = Full-Load Amps · **GFCI** = Ground-Fault Circuit Interrupter · **GFCIs** = Ground-Fault Circuit Interrupters · **HOA** = Hand-Off-Auto (switch) · **hp** = horsepower · **kW** = kilowatt · **kWh** = kilowatt-hour · **MCC** = Motor Control Centre · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **ODP** = Open Drip-Proof (motor) · **OSHA** = Occupational Safety and Health Administration (US) · **PD** = Positive Displacement · **PLCs** = Programmable Logic Controllers · **PM** = Preventive Maintenance · **SCADA** = Supervisory Control And Data Acquisition · **SF** = Service Factor · **TEFC** = Totally Enclosed Fan-Cooled (motor) · **UPS** = Uninterruptible Power Supply · **VFD** = Variable Frequency Drive · **VFDs** = Variable Frequency Drives
 <!-- abbr-end -->
 
 **NTK (Need-to-Know Criteria) area:** Equipment Evaluation, Maintenance and/or Operation (≈39%) — including **auxiliary (standby) power** and **ancillary equipment**, which are named in the 2025 Need-to-Know. Level I operators **are not electricians** — you need to understand the basics, recognize problems, operate safely, and know when to call a qualified person.
@@ -228,6 +228,38 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 
 **Good maintenance programs** use **work orders**, a **CMMS** (Computerized Maintenance Management System) or card system, **equipment history records**, **manufacturers' O&M (Operations and Maintenance) manuals**, **spare parts inventory**, and **run-hour tracking**. Good PM **reduces** corrective and emergency work.
 
+### 2.15 Mixers *(listed in the 2025 NTK)*
+
+Mixers keep solids **suspended** and contents **uniform** without adding much oxygen.
+| Where | Type | Why |
+|---|---|---|
+| **Anoxic / anaerobic zones** (nutrient removal) | **Submersible propeller mixers** | Mix without adding air (air would ruin anoxic/anaerobic conditions) |
+| **Flow equalization basins** | Submersible or floating mixers / aeration | Prevent settling and septic conditions |
+| **Digesters** | Gas mixing, pumped recirculation, mechanical mixers | Even temperature and food distribution; prevent scum/grit layers |
+| **Chemical rapid (flash) mix** | High-speed mixers at the dosing point | Spread coagulant/chlorine instantly through the water |
+| **Flocculation** | Slow, gentle paddle mixers | Grow flocs without breaking them |
+| **Chemical/polymer make-down tanks** | Tank mixers | Dissolve and age polymer properly |
+
+**Operator checks:** running and visible surface movement, **ragging** (rags wrapped on propellers → vibration, higher amps), noise/vibration, **seal-leak and thermal sensors** on submersible mixers, guide-rail lifting system, oil changes per schedule. **Lock out** before lifting or clearing a mixer.
+
+### 2.16 Motor Control Center (MCC) *(listed in the 2025 NTK)*
+
+An **MCC** (Motor Control Centre) is a large cabinet with many **"buckets"** (compartments) — one for each motor. Each bucket usually holds the motor's:
+- **disconnect / circuit breaker** (isolation and short-circuit protection),
+- **starter or contactor** (turns the motor on/off), sometimes a soft starter or VFD,
+- **overload relay** (motor protection),
+- control devices (HOA (Hand-Off-Auto, switch) switch, run/stop indicator lights).
+
+**Operator points:** the MCC bucket disconnect is a common **lockout point** — lock the handle in OFF, then **verify** at the motor. Keep MCC doors **closed** and the area **clear**. Opening or racking buckets is work for **qualified electrical staff** (arc flash hazard). Labels on each bucket must match the equipment.
+
+### 2.17 Conveyors, hoists and cranes *(ancillary equipment listed in the 2025 NTK)*
+
+| Equipment | Where | Operator points |
+|---|---|---|
+| **Screw (auger) conveyors** | Moving screenings, grit, dewatered cake | Jams from rags/large objects; **pull-cord / emergency-stop** switches; **never** reach into a screw conveyor — lock out first; check gearbox oil and drive |
+| **Belt conveyors** | Cake from belt presses/centrifuges | Belt tracking, pinch points at pulleys, **guards** in place, emergency pull-cords |
+| **Hoists and cranes** (monorails, jib cranes, bridge cranes, portable davits) | Lifting pumps, motors, mixers, valves | Use only if **trained**; check the **rated capacity** (never exceed it); **inspect** slings, hooks, chains and the hoist before use; **never stand or walk under a load**; use tag lines; keep annual inspection records current |
+
 ---
 
 ## 3. Operator-level understanding
@@ -258,6 +290,10 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 14. **Belts:** correct tension and alignment; guards on.
 15. **Shear pins** protect drives from jams.
 16. Maintenance types: **preventive, predictive, corrective, emergency**.
+
+17. **Mixers** keep solids suspended without adding air (anoxic zones, EQ basins, digesters); watch for **ragging** and seal/thermal alarms.
+18. **MCC** = cabinet of motor "buckets" (disconnect, starter, overload) — a common **lockout point**.
+19. **Screw/belt conveyors:** guards, pull-cords; **lock out before clearing jams**. **Hoists/cranes:** trained users, **rated capacity**, inspect rigging, **never stand under a load**.
 
 ---
 
@@ -385,6 +421,24 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
     C. Correct tension
     D. New bearings
 
+17. A submersible mixer in an anoxic zone is vibrating and drawing higher amps than normal. The most likely cause is:
+    A. Too much dissolved oxygen
+    B. Correct operation
+    C. Rags wrapped around the propeller
+    D. Low wastewater temperature
+
+18. The compartment in a motor control center that holds a pump's disconnect, starter and overload is commonly called a:
+    A. Volute
+    B. Bucket
+    C. Launder
+    D. Wet well
+
+19. Before lifting a pump with a jib crane, the operator should FIRST:
+    A. Stand under the load to guide it
+    B. Remove the pump's lockout
+    C. Use the longest available chain
+    D. Confirm the load is within the crane's rated capacity and inspect the rigging
+
 ---
 
 ## 8. Answers & explanations
@@ -407,3 +461,6 @@ Power failures stop pumps and blowers → **overflows**, **septic** conditions, 
 | 14 | **B** | Shear pin. |
 | 15 | **A** | Fouled diffusers raise back-pressure, reducing airflow. |
 | 16 | **A** | Loose belts slip and squeal. |
+| 17 | **C** | Ragging unbalances the propeller → vibration and higher amps. |
+| 18 | **B** | MCC "buckets" hold each motor's disconnect, starter and overload. |
+| 19 | **D** | Check rated capacity and inspect slings/hooks; never stand under a load. |

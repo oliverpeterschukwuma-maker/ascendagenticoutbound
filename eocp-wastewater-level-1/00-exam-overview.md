@@ -3,7 +3,7 @@
 ← [Back to course index](README.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BNR** = Biological Nutrient Removal · **CEUs** = Continuing Education Units · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **mg/L** = milligrams per litre · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BNR** = Biological Nutrient Removal · **CEUs** = Continuing Education Units · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **mg/L** = milligrams per litre · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **SVI** = Sludge Volume Index · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 ---
@@ -21,7 +21,7 @@
    - *Guide to the EOCP and ABC Formulas* (G. Faris, 2022)
    - The **Formula/Conversion Table** supplied with the exam.
 
-**[OFFICIAL]** WPI publishes a Need-to-Know document for Wastewater Treatment Class I (2025 version), which lists the **content areas** and the **job tasks** tested, plus the reference books the questions are drawn from.
+**[OFFICIAL]** WPI publishes a Need-to-Know document for Wastewater Treatment Class I (2025 version), which lists the **content areas** and the **job tasks** tested, plus the reference books the questions are drawn from. **✅ Received and incorporated** (see the table in section 2).
 
 **[OFFICIAL]** WPI exams are designed for use in both Canada and the US, so **calculation questions are presented in both US customary and metric units**. You must be comfortable with both.
 
@@ -68,10 +68,30 @@
 
 **What this means for you:**
 - **Equipment is the largest area.** Many people study only the treatment process and lose easy marks on pumps, valves, motors and maintenance. Don't skip Modules 10–14.
-- **Math is spread through every area** — a detention time question counts as "process", a pump power question counts as "equipment", a TSS (Total Suspended Solids) calculation counts as "lab". Expect math in roughly **1 of every 8–10 questions**.
+- **Math is only about 10% of the exam** — **10 calculation questions**: **9 in Treatment Process** (detention time, loading, dosage, SVI (Sludge Volume Index), F/M (Food-to-Microorganism ratio) and similar) and **1 in Laboratory**. Equipment and Safety/Admin have **no** calculation questions. Calculations show **US units first, metric in brackets**, and each is solvable in either system.
 - The NTK sorts questions by thinking level: **recall** (remember a fact), **application** (use knowledge in a situation) and **calculation**. Most questions are application — so don't just memorize; understand *why*.
 
-The NTK also lists the **reference books** questions are drawn from (commonly the California State University Sacramento *Operation of Wastewater Treatment Plants* manuals). Check the list when you get the PDF.
+### ✅ Confirmed from the official 2025 NTK (Need-to-Know Criteria) PDF
+
+| Content area | Questions | Recall | Application | **Calculation** | Primary reference | Secondary reference |
+|---|---|---|---|---|---|---|
+| Equipment Evaluation, Maintenance and/or Operation | **39** | 13 | 26 | **0** | CSUS *Operation of Wastewater Treatment Plants* Vol. 1, 8th ed. | CSUS Vol. 2, 8th ed. |
+| Treatment Process Evaluation and Adjustment | **38** | 6 | 32 | **9** | CSUS Vol. 1, 8th ed. | WEF *Wastewater Treatment Fundamentals I – Liquid Treatment* |
+| Laboratory Analysis | **10** | 4 | 6 | **1** | CSUS Vol. 1, 8th ed. | WEF *Fundamentals I – Liquid Treatment* |
+| Security, Safety and Administrative Procedures | **13** | 8 | 5 | **0** | CSUS Vol. 2, 8th ed. | CSUS Vol. 1, 8th ed. |
+| **Total** | **100** (+ up to 10 unscored pretest) | **≈40% recall** | **≈60% application** | **≈10% calculation** | | |
+
+*(CSUS = California State University, Sacramento — Office of Water Programs. WEF = Water Environment Federation. The full WPI reference list is at gowpi.org → ABC Testing → Exam References.)*
+
+**What this means for you:**
+- **60% of questions are "application"** — they describe a situation and ask you to choose, compare, explain or calculate. Understanding *why* matters more than memorizing.
+- **Calculation questions are only ~10%**, and almost all of them are in treatment process (detention time, loading, dosage, SVI, F/M and similar) — plus one lab calculation.
+- **Calculation questions give US units first, then metric in brackets** — e.g., "12 ft (4 m)". You can solve with **either** set; pick the one you're most comfortable with (for most Canadians, metric).
+- **Pre-test questions** (up to 10) are unmarked and mixed in — treat every question seriously.
+- **Watch for extra information.** WPI's own sample calculation gives a tank's **diameter** and **water depth** and asks for the pressure at the bottom — the diameter is a distractor, because pressure depends only on depth (Module 12).
+- WPI's own sample recall question gives **30 minutes** as the typical chlorine contact time, and its sample application question tests **why activated sludge must be wasted** (to prevent excessive solids build-up).
+
+See [sources/NTK-2025-summary.md](sources/NTK-2025-summary.md) for every job task in the NTK and the module that covers it.
 
 ### Level I vs higher levels — what "Level I depth" means
 Level I questions mostly test whether you can:

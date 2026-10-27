@@ -1,15 +1,15 @@
-# Flashcards — 258 cards
+# Flashcards — 267 cards
 
 ← [Course index](../README.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **AAA** = Always Add Acid (to water) · **ATS** = Automatic Transfer Switch · **BEP** = Best Efficiency Point · **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CO₂** = carbon dioxide · **CT** = Concentration × Time · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **GFCI** = Ground-Fault Circuit Interrupter · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **gpm** = gallons per minute · **HMI** = Human-Machine Interface · **HOA** = Hand-Off-Auto (switch) · **HOCl** = hypochlorous acid · **hp** = horsepower · **HRT** = Hydraulic Retention Time · **H₂S** = hydrogen sulphide · **H₂SO₄** = sulphuric acid · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **LEL** = Lower Explosive Limit · **mA** = milliamps · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **mV** = millivolts · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **N₂** = nitrogen gas · **O&M** = Operations and Maintenance · **OCl⁻** = hypochlorite ion · **OHS** = Occupational Health and Safety · **OMRR** = Organic Matter Recycling Regulation · **ORP** = Oxidation-Reduction Potential · **O₂** = oxygen · **PAOs** = Phosphorus-Accumulating Organisms · **PD** = Positive Displacement · **PLC** = Programmable Logic Controller · **PPE** = Personal Protective Equipment · **ppm** = parts per million · **psi** = pounds per square inch · **QC** = Quality Control · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RP** = Reduced Pressure (backflow assembly) · **SBR** = Sequencing Batch Reactor · **SCADA** = Supervisory Control And Data Acquisition · **SDS** = Safety Data Sheet · **SG** = Specific Gravity · **SOP** = Standard Operating Procedure · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDH** = Total Dynamic Head · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TRC** = Total Residual Chlorine · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UPS** = Uninterruptible Power Supply · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VFAs** = Volatile Fatty Acids · **VFD** = Variable Frequency Drive · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **AAA** = Always Add Acid (to water) · **ATS** = Automatic Transfer Switch · **BEP** = Best Efficiency Point · **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CO₂** = carbon dioxide · **CT** = Concentration × Time · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **EQ** = Equalization (or Equipment area code) · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **GFCI** = Ground-Fault Circuit Interrupter · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **gpm** = gallons per minute · **HMI** = Human-Machine Interface · **HOA** = Hand-Off-Auto (switch) · **HOCl** = hypochlorous acid · **hp** = horsepower · **HRT** = Hydraulic Retention Time · **H₂S** = hydrogen sulphide · **H₂SO₄** = sulphuric acid · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **LEL** = Lower Explosive Limit · **mA** = milliamps · **MCC** = Motor Control Centre · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **mV** = millivolts · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **O&M** = Operations and Maintenance · **OCl⁻** = hypochlorite ion · **OHS** = Occupational Health and Safety · **OMRR** = Organic Matter Recycling Regulation · **ORP** = Oxidation-Reduction Potential · **O₂** = oxygen · **PAOs** = Phosphorus-Accumulating Organisms · **PD** = Positive Displacement · **PLC** = Programmable Logic Controller · **PPE** = Personal Protective Equipment · **ppm** = parts per million · **psi** = pounds per square inch · **QC** = Quality Control · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RP** = Reduced Pressure (backflow assembly) · **SBR** = Sequencing Batch Reactor · **SCADA** = Supervisory Control And Data Acquisition · **SDS** = Safety Data Sheet · **SG** = Specific Gravity · **SOP** = Standard Operating Procedure · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDH** = Total Dynamic Head · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TRC** = Total Residual Chlorine · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UPS** = Uninterruptible Power Supply · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VFAs** = Volatile Fatty Acids · **VFD** = Variable Frequency Drive · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **How to use:**
 - Cover the **BACK** and say the answer out loud before reading it.
 - Mark cards you miss; review them again tomorrow, then in 3 days, then in a week (spaced repetition).
-- **Prefer an app?** Import [flashcards.csv](flashcards.csv) into **Anki** (File → Import, comma-separated, field 1 = Front, field 2 = Back, field 3 = Tag) or **Quizlet** (Create → Import, choose comma between term and definition). All 258 cards will load, tagged by module.
+- **Prefer an app?** Import [flashcards.csv](flashcards.csv) into **Anki** (File → Import, comma-separated, field 1 = Front, field 2 = Back, field 3 = Tag) or **Quizlet** (Create → Import, choose comma between term and definition). All 267 cards will load, tagged by module.
 
 ## Sections
 
@@ -26,11 +26,11 @@
 - [Valves & piping (Module 11)](#valves--piping-module-11) — 12 cards
 - [Hydraulics (Module 12)](#hydraulics-module-12) — 8 cards
 - [Instrumentation & SCADA (Module 13)](#instrumentation--scada-module-13) — 15 cards
-- [Electrical & mechanical (Module 14)](#electrical--mechanical-module-14) — 14 cards
-- [Laboratory & sampling (Module 15)](#laboratory--sampling-module-15) — 16 cards
+- [Electrical & mechanical (Module 14)](#electrical--mechanical-module-14) — 17 cards
+- [Laboratory & sampling (Module 15)](#laboratory--sampling-module-15) — 18 cards
 - [Troubleshooting (Module 16)](#troubleshooting-module-16) — 6 cards
-- [Administration & BC regulations (Module 18)](#administration--bc-regulations-module-18) — 10 cards
-- [Tertiary, effluent & odour (Module 19)](#tertiary-effluent--odour-module-19) — 8 cards
+- [Administration & BC regulations (Module 18)](#administration--bc-regulations-module-18) — 12 cards
+- [Tertiary, effluent & odour (Module 19)](#tertiary-effluent--odour-module-19) — 10 cards
 - [Math formulas (Module 17)](#math-formulas-module-17) — 15 cards
 
 ---
@@ -515,7 +515,7 @@
 
 **113. FRONT:** Typical chlorine contact time?
 
-> **BACK:** About 15 min at peak hourly flow (~30 min at average); baffled tank prevents short-circuiting.
+> **BACK:** 30 minutes is the typical industry standard (WPI (Water Professionals International)'s own sample answer); baffled tank prevents short-circuiting.
 
 **114. FRONT:** Chlorine product strengths?
 
@@ -893,11 +893,23 @@
 
 > **BACK:** Breaks to protect a drive when jammed.
 
-**202. FRONT:** Maintenance types?
+**202. FRONT:** Mixers — where and why?
+
+> **BACK:** Anoxic zones, EQ basins, digesters, chemical flash/flocculation mixing. Keep solids suspended without adding air; watch for ragging.
+
+**203. FRONT:** What is an MCC (Motor Control Centre)?
+
+> **BACK:** Motor Control Center — cabinet of 'buckets', each with a motor's disconnect, starter and overload. Common lockout point.
+
+**204. FRONT:** Conveyor and hoist safety?
+
+> **BACK:** Lock out conveyors before clearing jams (pull-cords are e-stops, not lockout). Hoists: rated capacity, inspect rigging, never stand under a load.
+
+**205. FRONT:** Maintenance types?
 
 > **BACK:** Preventive (scheduled), predictive (condition-based), corrective (after failure), emergency.
 
-**203. FRONT:** Rising blower pressure + falling airflow?
+**206. FRONT:** Rising blower pressure + falling airflow?
 
 > **BACK:** Fouled/clogged diffusers.
 
@@ -905,67 +917,75 @@
 
 ## Laboratory & sampling (Module 15)
 
-**204. FRONT:** Representative sample?
+**207. FRONT:** Representative sample?
 
 > **BACK:** Well-mixed location, consistent time/place, avoid scum and deposits, clean equipment.
 
-**205. FRONT:** Grab-only tests?
+**208. FRONT:** Grab-only tests?
 
 > **BACK:** pH, temperature, DO, chlorine residual, bacteria, oil & grease, sulphide.
 
-**206. FRONT:** Best composite for loads?
+**209. FRONT:** Best composite for loads?
 
 > **BACK:** Flow-proportional, kept ≤ 6 °C.
 
-**207. FRONT:** Preservation: cool vs acid?
+**210. FRONT:** Preservation: cool vs acid?
 
 > **BACK:** Cool most samples. H₂SO₄ (sulphuric acid) to pH < 2 for COD, ammonia, TKN, total P.
 
-**208. FRONT:** Holding times to remember?
+**211. FRONT:** Holding times to remember?
 
 > **BACK:** pH, temp, DO, Cl₂ (chlorine gas) residual: immediately. BOD: 48 h. Bacteria: ~8 h.
 
-**209. FRONT:** Bacteria bottle contents?
+**212. FRONT:** Bacteria bottle contents?
 
 > **BACK:** Sterile with sodium thiosulphate (neutralizes chlorine). Don't rinse.
 
-**210. FRONT:** Chain of custody?
+**213. FRONT:** Chain of custody?
 
 > **BACK:** Signed record of everyone who handled a sample from collection to analysis.
 
-**211. FRONT:** QC (Quality Control) checks?
+**214. FRONT:** QC (Quality Control) checks?
 
 > **BACK:** Calibration, blanks (contamination), duplicates (precision), standards (accuracy), control charts, records.
 
-**212. FRONT:** BOD validity rules?
+**215. FRONT:** BOD validity rules?
 
 > **BACK:** Depletion ≥ 2.0 mg/L; residual ≥ 1.0 mg/L; blank ≤ 0.2 mg/L; GGA (Glucose–Glutamic Acid, BOD check standard) check standard.
 
-**213. FRONT:** BOD formula?
+**216. FRONT:** BOD formula?
 
 > **BACK:** (DOi − DOf) × 300 ÷ mL sample.
 
-**214. FRONT:** TSS formula?
+**217. FRONT:** TSS formula?
 
 > **BACK:** (dry wt − filter wt, g) × 1,000,000 ÷ mL sample.
 
-**215. FRONT:** TSS vs VSS (Volatile Suspended Solids) temperatures?
+**218. FRONT:** TSS vs VSS (Volatile Suspended Solids) temperatures?
 
 > **BACK:** TSS dried at 103–105 °C; VSS burned at 550 °C.
 
-**216. FRONT:** Settleable solids test?
+**219. FRONT:** Settleable solids test?
 
 > **BACK:** Imhoff cone, 60 minutes, mL/L.
 
-**217. FRONT:** Alkalinity test?
+**220. FRONT:** Alkalinity test?
 
 > **BACK:** Acid titration to ~pH 4.5; as CaCO₃.
 
-**218. FRONT:** Phosphate colour test?
+**221. FRONT:** Phosphate colour test?
 
 > **BACK:** Ascorbic acid method — blue.
 
-**219. FRONT:** Lab safety basics?
+**222. FRONT:** WET test?
+
+> **BACK:** Whole Effluent Toxicity — test organisms exposed to effluent; acute = survival over a short time. Failures often from chlorine residual or ammonia.
+
+**223. FRONT:** Metals sample preservation?
+
+> **BACK:** Nitric acid to pH < 2 in clean plastic; metals inhibit biology and accumulate in biosolids.
+
+**224. FRONT:** Lab safety basics?
 
 > **BACK:** PPE, acid to water, fume hood, never mouth-pipette, no food, COD waste is hazardous (mercury/chromium).
 
@@ -973,27 +993,27 @@
 
 ## Troubleshooting (Module 16)
 
-**220. FRONT:** Troubleshooting order?
+**225. FRONT:** Troubleshooting order?
 
 > **BACK:** Safety → verify → gather info → list causes → check equipment first → small change → notify → monitor & record.
 
-**221. FRONT:** High effluent TSS first checks?
+**226. FRONT:** High effluent TSS first checks?
 
 > **BACK:** Blanket, settleometer pattern, flow, RAS pump, SVI, weirs.
 
-**222. FRONT:** High effluent ammonia in winter?
+**227. FRONT:** High effluent ammonia in winter?
 
 > **BACK:** Reduce wasting (↑ SRT); keep DO ≥ 2; check alkalinity/pH; toxics.
 
-**223. FRONT:** Low DO even with all blowers on?
+**228. FRONT:** Low DO even with all blowers on?
 
 > **BACK:** Verify probe; check diffusers (fouling), overload, blower/valve problems.
 
-**224. FRONT:** Chlorine residual suddenly zero?
+**229. FRONT:** Chlorine residual suddenly zero?
 
 > **BACK:** Feed failure (empty cylinder, airlock, ejector) or demand spike (nitrite, solids).
 
-**225. FRONT:** Lift station pump tripped at night?
+**230. FRONT:** Lift station pump tripped at night?
 
 > **BACK:** Run standby pump to control level, then investigate safely; reset once only; report overflows.
 
@@ -1001,43 +1021,51 @@
 
 ## Administration & BC regulations (Module 18)
 
-**226. FRONT:** Correcting a logbook error?
+**231. FRONT:** Exam breakdown (2025 NTK (Need-to-Know Criteria))?
+
+> **BACK:** 100 Qs: Equipment 39, Process 38, Safety/Admin 13, Lab 10. ~40% recall, ~60% application, 10 calculation Qs (9 process, 1 lab). US units first, metric in brackets.
+
+**232. FRONT:** Vulnerability assessment?
+
+> **BACK:** Identify threats (natural, accidental, deliberate/cyber) to critical assets and plan protections; feeds the ERP (Emergency Response Plan).
+
+**233. FRONT:** Correcting a logbook error?
 
 > **BACK:** Single line through it, write correction, initial and date. Never erase or falsify.
 
-**227. FRONT:** What must be reported?
+**234. FRONT:** What must be reported?
 
 > **BACK:** Spills, overflows, bypasses, permit exceedances, injuries and near misses — per procedure/regulation.
 
-**228. FRONT:** SOP vs O&M (Operations and Maintenance) manual vs ERP (Emergency Response Plan)?
+**235. FRONT:** SOP vs O&M (Operations and Maintenance) manual vs ERP?
 
 > **BACK:** SOP = step-by-step task. O&M = how the plant works/maintained. ERP = emergency procedures and contacts.
 
-**229. FRONT:** BC law requiring EOCP (Environmental Operators Certification Program)-certified operators?
+**236. FRONT:** BC law requiring EOCP (Environmental Operators Certification Program)-certified operators?
 
 > **BACK:** Municipal Wastewater Regulation (B.C. Reg. 87/2012), s.47, under the Environmental Management Act.
 
-**230. FRONT:** Federal effluent regulation?
+**237. FRONT:** Federal effluent regulation?
 
 > **BACK:** Wastewater Systems Effluent Regulations (Fisheries Act): e.g., CBOD 25, SS 25, TRC 0.02 mg/L, un-ionized ammonia 1.25 mg/L.
 
-**231. FRONT:** Who regulates worker safety in BC?
+**238. FRONT:** Who regulates worker safety in BC?
 
 > **BACK:** WorkSafeBC (Workers Compensation Act + OHS (Occupational Health and Safety) Regulation).
 
-**232. FRONT:** What is EOCP?
+**239. FRONT:** What is EOCP?
 
 > **BACK:** Environmental Operators Certification Program — certifies operators and classifies facilities in BC and Yukon.
 
-**233. FRONT:** Level I requirements?
+**240. FRONT:** Level I requirements?
 
-> **BACK:** ~12 months (1,800 h) experience, high school or equivalent, pass the WPI (Water Professionals International) exam (70%), live/work in BC or Yukon.
+> **BACK:** ~12 months (1,800 h) experience, high school or equivalent, pass the WPI exam (70%), live/work in BC or Yukon.
 
-**234. FRONT:** Sewer-use bylaw?
+**241. FRONT:** Sewer-use bylaw?
 
 > **BACK:** Local rule controlling what businesses/industries can discharge to sewers (source control).
 
-**235. FRONT:** Media asks about an incident?
+**242. FRONT:** Media asks about an incident?
 
 > **BACK:** Refer to the designated spokesperson.
 
@@ -1045,35 +1073,43 @@
 
 ## Tertiary, effluent & odour (Module 19)
 
-**236. FRONT:** When is a tertiary filter backwashed?
+**243. FRONT:** Coagulation vs flocculation?
+
+> **BACK:** Coagulation: coagulant (alum/ferric) neutralizes particle charges — rapid mix. Flocculation: polymer bridges particles into flocs — slow mix. Dose by jar test.
+
+**244. FRONT:** Nutrient enhancement?
+
+> **BACK:** Adding N or P when wastewater is short of nutrients (BOD:N:P ≈ 100:5:1), e.g., food-processing waste.
+
+**245. FRONT:** When is a tertiary filter backwashed?
 
 > **BACK:** When headloss reaches the set point, turbidity breaks through, or the run time ends. Backwash water returns to the plant.
 
-**237. FRONT:** Filters backwashing far too often?
+**246. FRONT:** Filters backwashing far too often?
 
 > **BACK:** Too many solids coming from upstream (bulking/carryover) — fix the clarifier.
 
-**238. FRONT:** Purpose of a flow equalization basin?
+**247. FRONT:** Purpose of a flow equalization basin?
 
 > **BACK:** Store peak flows and release an even flow/load; keep it mixed/aerated so it doesn't go septic.
 
-**239. FRONT:** Main cause of odours at plants?
+**248. FRONT:** Main cause of odours at plants?
 
 > **BACK:** Hydrogen sulphide (H₂S) from septic wastewater — toxic and corrosive.
 
-**240. FRONT:** Odour control methods?
+**249. FRONT:** Odour control methods?
 
 > **BACK:** Covers + biofilters (keep moist), chemical scrubbers (caustic/hypochlorite), activated carbon, chemical addition (iron salts, nitrate, peroxide), pre-aeration.
 
-**241. FRONT:** Rapid infiltration basin care?
+**250. FRONT:** Rapid infiltration basin care?
 
 > **BACK:** Alternate loading and resting; let dry and scarify the surface to restore infiltration.
 
-**242. FRONT:** Reclaimed water rules of thumb?
+**251. FRONT:** Reclaimed water rules of thumb?
 
 > **BACK:** Higher treatment/disinfection; never cross-connect to drinking water; commonly purple pipe.
 
-**243. FRONT:** Where do screenings and grit go?
+**252. FRONT:** Where do screenings and grit go?
 
 > **BACK:** Landfill (per local rules). Sludge → biosolids (OMRR) or landfill. Side-streams → back to the plant.
 
@@ -1081,63 +1117,63 @@
 
 ## Math formulas (Module 17)
 
-**244. FRONT:** Area of a circle?
+**253. FRONT:** Area of a circle?
 
 > **BACK:** 0.785 × D² (= 3.14 × r²). π = 3.14 on EOCP exams.
 
-**245. FRONT:** Circumference?
+**254. FRONT:** Circumference?
 
 > **BACK:** 3.14 × D (use for circular weir length).
 
-**246. FRONT:** Volume of a cylinder?
+**255. FRONT:** Volume of a cylinder?
 
 > **BACK:** 0.785 × D² × depth.
 
-**247. FRONT:** Detention time?
+**256. FRONT:** Detention time?
 
 > **BACK:** Volume ÷ Flow (× 24 if flow is per day and you want hours).
 
-**248. FRONT:** SOR / WOR?
+**257. FRONT:** SOR / WOR?
 
 > **BACK:** SOR = Flow ÷ surface area. WOR = Flow ÷ weir length.
 
-**249. FRONT:** kg/day formula?
+**258. FRONT:** kg/day formula?
 
 > **BACK:** mg/L × m³/d (cubic metres per day) ÷ 1,000 (= mg/L × ML/d).
 
-**250. FRONT:** lb/day formula?
+**259. FRONT:** lb/day formula?
 
 > **BACK:** mg/L × MGD (Million Gallons per Day) × 8.34.
 
-**251. FRONT:** Chemical with purity?
+**260. FRONT:** Chemical with purity?
 
 > **BACK:** kg/d of product = kg/d active ÷ purity (decimal) — answer gets bigger.
 
-**252. FRONT:** % removal?
+**261. FRONT:** % removal?
 
 > **BACK:** (In − Out) ÷ In × 100.
 
-**253. FRONT:** Dilution?
+**262. FRONT:** Dilution?
 
 > **BACK:** C₁V₁ = C₂V₂.
 
-**254. FRONT:** Thickening volume?
+**263. FRONT:** Thickening volume?
 
 > **BACK:** V₂ = V₁ × %₁ ÷ %₂.
 
-**255. FRONT:** Dry solids in sludge (metric)?
+**264. FRONT:** Dry solids in sludge (metric)?
 
 > **BACK:** kg/d = m³/d × % × 10.
 
-**256. FRONT:** Pump water power?
+**265. FRONT:** Pump water power?
 
 > **BACK:** Metric: 9.81 × Q(m³/s) × H(m) kW. US: gpm (gallons per minute) × ft ÷ 3,960 whp (water horsepower). Divide by efficiencies for brake/motor.
 
-**257. FRONT:** Key conversions?
+**266. FRONT:** Key conversions?
 
 > **BACK:** 1 m³ = 1,000 L; 1 L/s (litres per second) = 86.4 m³/d; 1 ft³ = 7.48 gal; 1 gal = 8.34 lb; 1 MGD = 694.4 gpm; 1 day = 1,440 min.
 
-**258. FRONT:** Temperature conversion?
+**267. FRONT:** Temperature conversion?
 
 > **BACK:** °F = °C × 1.8 + 32; °C = (°F − 32) ÷ 1.8.
 

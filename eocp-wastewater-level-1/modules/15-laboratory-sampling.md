@@ -3,7 +3,7 @@
 ← [Module 14](14-electrical-mechanical.md) · [Course index](../README.md) · Next → [Module 16 — Troubleshooting](16-troubleshooting.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **COC** = Chain of Custody · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **F/M** = Food-to-Microorganism ratio · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **H₂SO₄** = sulphuric acid · **ISE** = Ion-Selective Electrode · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **MPN** = Most Probable Number · **NH₃** = ammonia · **NH₃-N** = ammonia measured as nitrogen · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NO₃** = nitrate · **NO₃-N** = nitrate measured as nitrogen · **NTK** = Need-to-Know Criteria · **NTU** = Nephelometric Turbidity Unit · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PPE** = Personal Protective Equipment · **QA** = Quality Assurance · **QC** = Quality Control · **RAS** = Return Activated Sludge · **SDS** = Safety Data Sheet · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **COC** = Chain of Custody · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **F/M** = Food-to-Microorganism ratio · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **H₂S** = hydrogen sulphide · **H₂SO₄** = sulphuric acid · **ISE** = Ion-Selective Electrode · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **MPN** = Most Probable Number · **NH₃** = ammonia · **NH₃-N** = ammonia measured as nitrogen · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NO₃** = nitrate · **NO₃-N** = nitrate measured as nitrogen · **NTK** = Need-to-Know Criteria · **NTU** = Nephelometric Turbidity Unit · **OMRR** = Organic Matter Recycling Regulation · **OSHA** = Occupational Safety and Health Administration (US) · **O₂** = oxygen · **PPE** = Personal Protective Equipment · **QA** = Quality Assurance · **QC** = Quality Control · **RAS** = Return Activated Sludge · **SDS** = Safety Data Sheet · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **WSER** = Wastewater Systems Effluent Regulations
 <!-- abbr-end -->
 
 **NTK (Need-to-Know Criteria) area:** Laboratory Analysis (≈10% of the exam) — plus lab results appear in many process questions. Math: BOD (Biochemical Oxygen Demand), TSS (Total Suspended Solids), VSS (Volatile Suspended Solids), % removal, SVI ([Math 17D](../math/17d-process-pumps-pressure-lab.md)).
@@ -105,6 +105,8 @@ A **representative sample** truly reflects the water you're trying to measure. A
 | **Orthophosphate** | Filter promptly; cool | 48 h |
 | ***E. coli* / fecal coliform** | Cool (< 10 °C), sterile bottle with thiosulphate | **About 8 hours** (start incubation ASAP) |
 | **Oil & grease** | Glass; acid; cool | 28 days |
+| **Metals** | Plastic (acid-washed); **nitric acid (HNO₃) to pH < 2** | 6 months (mercury shorter) |
+| **WET (toxicity) samples** | Cool ≤ 6 °C, no headspace, no preservative chemicals | Start the test within about 36 h |
 
 **Main ideas:** **Cool** almost everything; **acid** for nutrients/COD; **analyze immediately**: pH, temp, DO, chlorine residual; **bacteria within hours**.
 
@@ -235,6 +237,23 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 - **Hot equipment:** muffle furnace (550 °C), drying oven, autoclave — tongs and heat-resistant gloves.
 - Know the **eyewash/shower** and **SDS** (Safety Data Sheet) locations; label all reagents with dates.
 
+### 2.25 WET testing, metals and H₂S meters *(listed in the 2025 NTK)*
+
+**WET (Whole Effluent Toxicity) testing**
+- **Measures:** whether the **whole effluent** (everything in it together) harms aquatic life — test organisms (e.g., rainbow trout, *Daphnia magna*, small fish or invertebrates) are exposed to effluent, and their survival (or growth/reproduction) is compared with clean water.
+- **Acute** test = short exposure, measures **death** (e.g., 96-hour trout test; the federal WSER (Wastewater Systems Effluent Regulations) requires effluent **not be acutely lethal**). **Chronic** test = longer, measures effects on growth/reproduction.
+- **Results:** e.g., "% survival" or **LC50** (the effluent concentration that kills 50% of the organisms).
+- **Why operators care:** a failed WET test means something in the effluent is toxic — common causes are **chlorine residual** (poor dechlorination), **ammonia** (especially un-ionized ammonia at high pH and temperature), metals, or industrial chemicals.
+- **Sampling:** usually done by an **accredited outside lab** — operators collect the sample (cool, full bottle, no preservative, fast delivery with chain of custody).
+
+**Metals**
+- Sources: industrial discharges, corrosion of plumbing (copper, lead, zinc). Metals can **inhibit nitrification**, harm fish, and **accumulate in biosolids** (OMRR (Organic Matter Recycling Regulation) limits).
+- Sample in clean, acid-washed plastic bottles, preserve with **nitric acid to pH < 2**; analyzed by an outside lab.
+
+**H₂S (hydrogen sulphide) meters (lab and portable)**
+- Portable gas detectors measure H₂S in **air** (safety, Module 2) — bump-test before use and calibrate on schedule.
+- Dissolved sulphide in **water** can be measured by lab methods or probes to track septicity and odour-control chemical dosing.
+
 ---
 
 ## 3. Operator-level understanding
@@ -267,6 +286,8 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 16. **Chlorine residual: DPD (pink)**. **Phosphorus: ascorbic acid (blue)**.
 17. **Bacteria: per 100 mL**; membrane filtration or MPN.
 18. **Never pipette by mouth; add acid to water.**
+19. **WET** = Whole Effluent Toxicity — test organisms exposed to effluent; failures often from **chlorine residual** or **ammonia**.
+20. **Metals:** nitric acid to pH < 2; inhibit biology, accumulate in biosolids.
 
 ---
 
@@ -395,6 +416,17 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
     C. Muffle furnace
     D. DPD comparator
 
+17. A Whole Effluent Toxicity (WET) test on final effluent fails. Which is a common plant-related cause?
+    A. Low turbidity
+    B. High dissolved oxygen
+    C. Correct UV dose
+    D. Chlorine residual remaining after poor dechlorination
+18. Samples for metals analysis are normally preserved with:
+    A. Sodium thiosulphate
+    B. Nitric acid to pH < 2
+    C. Freezing
+    D. Nothing — analyze within 15 minutes
+
 ---
 
 ## 8. Answers & explanations
@@ -417,3 +449,5 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 | 14 | **B** | DPD turns pink. |
 | 15 | **C** | Never mouth pipette. |
 | 16 | **A** | Imhoff cone, 60 min. |
+| 17 | **D** | Residual chlorine (and ammonia) are common causes of effluent toxicity. |
+| 18 | **B** | Nitric acid keeps metals dissolved for analysis. |

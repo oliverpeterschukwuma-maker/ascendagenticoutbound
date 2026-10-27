@@ -3,7 +3,7 @@
 ← [Module 16](16-troubleshooting.md) · [Course index](../README.md) · Next → [Module 19 — Tertiary, Effluent & Odour](19-tertiary-effluent-odour.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BCWWA** = BC Water & Waste Association · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **CEU** = Continuing Education Unit · **CEUs** = Continuing Education Units · **CMMS** = Computerized Maintenance Management System · **ECCC** = Environment and Climate Change Canada · **EMA** = Environmental Management Act · **ENV** = BC Ministry of Environment · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **FOG** = Fats, Oils and Grease · **mg/L** = milligrams per litre · **MWR** = Municipal Wastewater Regulation · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OHS** = Occupational Health and Safety · **OIT** = Operator in Training · **OMRR** = Organic Matter Recycling Regulation · **PM** = Preventive Maintenance · **PPE** = Personal Protective Equipment · **QC** = Quality Control · **SCADA** = Supervisory Control And Data Acquisition · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SS** = Suspended Solids · **TDG** = Transportation of Dangerous Goods · **TRC** = Total Residual Chlorine · **WHMIS** = Workplace Hazardous Materials Information System · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
+> 🔤 **Abbreviations in this file:** **BCWWA** = BC Water & Waste Association · **BOD** = Biochemical Oxygen Demand · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **CEU** = Continuing Education Unit · **CEUs** = Continuing Education Units · **CMMS** = Computerized Maintenance Management System · **ECCC** = Environment and Climate Change Canada · **EMA** = Environmental Management Act · **ENV** = BC Ministry of Environment · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **FOG** = Fats, Oils and Grease · **mg/L** = milligrams per litre · **MWR** = Municipal Wastewater Regulation · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OHS** = Occupational Health and Safety · **OIT** = Operator in Training · **OMRR** = Organic Matter Recycling Regulation · **PM** = Preventive Maintenance · **PPE** = Personal Protective Equipment · **QC** = Quality Control · **SCADA** = Supervisory Control And Data Acquisition · **SOP** = Standard Operating Procedure · **SOPs** = Standard Operating Procedures · **SS** = Suspended Solids · **TDG** = Transportation of Dangerous Goods · **TRC** = Total Residual Chlorine · **WHMIS** = Workplace Hazardous Materials Information System · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
 <!-- abbr-end -->
 
 **NTK (Need-to-Know Criteria) area:** **Security, Safety and Administrative Procedures (≈13%)** — shared with Module 2 (Safety) and the security part of Module 13.
@@ -172,6 +172,24 @@ As a certified operator, you are responsible to:
 - **Confidentiality:** follow employer policies on information, security and media.
 - **Public trust:** you protect public health — take it seriously.
 
+### 2.10 Vulnerability assessments, customer complaints and equipment selection *(listed in the 2025 NTK)*
+
+**Vulnerability assessment** — a structured review of **what could go wrong** and **how badly**, so the facility can protect itself:
+- Threats: natural (flood, wildfire, earthquake, extreme cold), accidental (chemical spill, power failure, equipment failure), and deliberate (vandalism, theft, intrusion, **cyber attack on SCADA**).
+- For each critical asset (influent pumps, disinfection, power supply, SCADA, chemical storage): how likely is the threat, what would the consequence be, and what protects it now?
+- Results feed the **Emergency Response Plan**, security upgrades (fences, locks, lighting, alarms, cameras, cybersecurity), backup equipment and staff training.
+- Operators help by reporting weak spots, doing **routine security checks** (locks, fences, signs of tampering), and keeping the ERP and contact lists current.
+
+**Customer service requests and complaints** (odour, noise, sewer backup, trucks, appearance):
+1. Be **courteous**; listen and take the person seriously.
+2. **Record** the details — name/contact, date, time, location, what they noticed, weather/wind.
+3. **Check** plant operations at that time (e.g., sludge hauling, a tank out of service).
+4. **Respond** per procedure; refer media or legal questions to the designated person.
+5. **Follow up** and keep records — complaint logs help find patterns and may be required by the permit.
+A sewer **backup into a home** is urgent — follow the emergency procedure and notify the supervisor immediately.
+
+**Assisting in equipment selection:** operators know what fails, what's hard to maintain, and what's unsafe. When new equipment is chosen, operators contribute: **reliability and maintenance history**, **parts availability**, **ease and safety of maintenance** (lifting points, access, lockout points), **standardizing** with existing equipment, energy use, and suitability for the job (e.g., solids-handling pumps for raw sludge).
+
 ---
 
 ## 3. Operator-level understanding
@@ -196,6 +214,9 @@ As a certified operator, you are responsible to:
 8. **EOCP** certifies operators and classifies facilities in **BC & Yukon**; Level I = **1,800 h**, **70%** pass; renew with **CEUs**.
 9. **Sewer-use bylaws** = local control of industrial/commercial discharges.
 10. On-site septic systems fall under **public health** rules — a different system from municipal plants.
+
+11. **Vulnerability assessment** = identify threats (natural, accidental, deliberate/cyber) to critical assets → feeds ERP and security upgrades.
+12. **Complaints:** courteous → record details → check operations → respond per procedure → follow up and log.
 
 ---
 
@@ -297,6 +318,17 @@ As a certified operator, you are responsible to:
     C. Regulate drinking water
     D. Set WorkSafeBC exposure limits
 
+13. The main purpose of a vulnerability assessment at a wastewater facility is to:
+    A. Measure effluent BOD
+    B. Calibrate instruments
+    C. Identify threats to critical assets and plan protections
+    D. Train operators on math
+14. A resident calls to complain about a strong odour near the plant. The operator should FIRST:
+    A. Tell the caller odours are normal and hang up
+    B. Politely record the details (time, location, description) and follow the complaint procedure
+    C. Ignore it unless more people call
+    D. Give an interview to the local newspaper
+
 ---
 
 ## 8. Answers & explanations
@@ -315,3 +347,5 @@ As a certified operator, you are responsible to:
 | 10 | **B** | Continuity and safety. |
 | 11 | **B** | Designated spokesperson. |
 | 12 | **B** | Source control. |
+| 13 | **C** | It finds weak spots (natural, accidental, deliberate/cyber) so they can be protected. |
+| 14 | **B** | Courteous, documented response per procedure. |

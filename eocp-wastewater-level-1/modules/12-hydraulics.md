@@ -3,7 +3,7 @@
 ← [Module 11](11-valves-piping.md) · [Course index](../README.md) · Next → [Module 13 — Instrumentation & Controls](13-instrumentation-controls.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **cfs** = cubic feet per second · **gpm** = gallons per minute · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **L/s** = litres per second · **MGD** = Million Gallons per Day · **m³/d** = cubic metres per day · **NTK** = Need-to-Know Criteria · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **TDH** = Total Dynamic Head
+> 🔤 **Abbreviations in this file:** **cfs** = cubic feet per second · **gpm** = gallons per minute · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **L/s** = litres per second · **MGD** = Million Gallons per Day · **m³/d** = cubic metres per day · **NTK** = Need-to-Know Criteria · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **TDH** = Total Dynamic Head · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **NTK (Need-to-Know Criteria) areas:** Equipment (pumps, pipes, pressure) and Treatment Process (flow through the plant). Math: flow, velocity, pressure, head ([Math 17B](../math/17b-area-volume-flow-time.md), [17D](../math/17d-process-pumps-pressure-lab.md)).
@@ -103,6 +103,8 @@ The **same flow** must pass through every section of a pipe (water doesn't disap
 ### 2.5 Pressure depends on DEPTH only
 
 A tall skinny pipe 5 m deep and a huge wide tank 5 m deep have the **same pressure at the bottom**. Width and shape don't matter — **only the vertical depth of water** does.
+
+**Exam-style example (the same type WPI (Water Professionals International) uses in its official sample):** *A reservoir 15 ft (5 m) in diameter holds 18 ft (5.5 m) of water. What is the pressure at the bottom?* → The **diameter doesn't matter**. 18 × 0.433 = **7.8 psi**; 5.5 × 9.81 = **54 kPa**. The question gives US units first and metric in brackets — solve with whichever you prefer.
 
 *This is why a pressure transducer at the bottom of a wet well can measure the water level: pressure ÷ 9.81 = depth in metres.*
 

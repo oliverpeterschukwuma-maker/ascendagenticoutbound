@@ -103,6 +103,30 @@
 | **Sludge / dewatered cake** | Stabilize (digestion, lime, composting) → **beneficial use as biosolids** (land application, compost, land reclamation — under BC's **Organic Matter Recycling Regulation**) or **landfill** |
 | **Backwash water, filtrate, supernatant** | **Returned to the head of the plant** (not discharged) |
 
+### 2.6 Chemical dosing: coagulation/flocculation, nutrient enhancement and pH adjustment *(listed in the 2025 NTK)*
+
+**Coagulation and flocculation — making tiny particles clump**
+| Step | What happens | Chemicals | Mixing |
+|---|---|---|---|
+| **Coagulation** | Very fine particles carry small electrical charges that make them **repel** each other. A **coagulant** neutralizes those charges so they can stick together | **Alum** (aluminum sulphate), **ferric chloride**, ferric sulphate, PACl (polyaluminum chloride) | **Rapid (flash) mix** — seconds |
+| **Flocculation** | The destabilized particles collide and grow into larger, heavier **flocs** that settle or filter out | **Flocculant** = **polymer** (long-chain molecule that bridges particles) | **Slow, gentle mix** — minutes (fast mixing breaks flocs) |
+
+- Uses: chemically enhanced primary treatment, **chemical phosphorus removal** (Module 7), helping tertiary filters, thickening/dewatering (polymer — Module 9).
+- **The right dose is found by a jar test**: several beakers of the same water dosed at different rates, mixed fast then slow, then settled — pick the dose that gives the clearest water with the least chemical.
+- **Overdosing** wastes chemical, can **re-stabilize** particles (poorer results), and lowers pH. **Underdosing** = pin-sized flocs that don't settle.
+- Metal coagulants **consume alkalinity and lower pH**.
+
+**Nutrient enhancement (nutrient addition)**
+Some industrial wastes (e.g., food processing) are rich in BOD but **short of nitrogen or phosphorus**. Bugs need about **BOD:N:P = 100:5:1** — if N or P is missing, treatment and settling suffer (bulking). Operators may **add nutrients** (e.g., urea or ammonium compounds for N; phosphoric acid or phosphate for P) to restore the balance.
+
+**pH adjustment**
+| Need | Chemicals | Notes |
+|---|---|---|
+| **Raise pH / add alkalinity** (nitrification ate the alkalinity, acidic waste) | **Lime**, **caustic soda** (sodium hydroxide), **sodium bicarbonate**, magnesium hydroxide, soda ash | Caustic is very corrosive; lime is dusty; bicarbonate is the safest/gentlest |
+| **Lower pH** (alkaline industrial waste) | Sulphuric acid, carbon dioxide | Add acid to water; corrosive |
+
+**Chemical dosing equipment:** storage tanks with **secondary containment**, **metering pumps** (diaphragm, peristaltic, progressive cavity — Module 10), day tanks, **calibration columns** (to check the pump's actual feed rate), injection quills/diffusers, flow-pacing controls (Module 13). Check feed rates daily, look for leaks and airlocks, and keep incompatible chemicals apart (Module 2).
+
 ---
 
 ## 3. Operator-level understanding
@@ -125,6 +149,11 @@
 6. Odour control: covers + **biofilters** (keep moist), **chemical scrubbers** (caustic/hypochlorite), **activated carbon**, chemical addition (iron salts, nitrate, peroxide), pre-aeration.
 7. Effluent disposal: **surface outfall/diffuser**, **rapid infiltration basins (alternate wet/dry, scarify)**, exfiltration fields, irrigation, **reclaimed water** (purple pipe, cross-connection control).
 8. Screenings & grit → **landfill**; sludge → **biosolids** (OMRR) or landfill; liquid side-streams → **back to the plant**.
+
+9. **Coagulation** (alum/ferric, **rapid mix**) neutralizes particle charges; **flocculation** (polymer, **slow mix**) grows flocs. Dose by **jar test**.
+10. **Nutrient enhancement** = add N or P when BOD:N:P is out of balance (≈100:5:1).
+11. **pH adjustment:** raise with lime, caustic, sodium bicarbonate; metal coagulants and nitrification **lower** pH.
+12. Check metering pump rates with a **calibration column**.
 
 ---
 
@@ -226,6 +255,27 @@
     C. It removes the need for disinfection
     D. It increases turbidity
 
+13. In chemical treatment, coagulation is followed by flocculation. Flocculation requires:
+    A. Very fast mixing for several hours
+    B. Slow, gentle mixing so flocs can grow without breaking
+    C. No mixing at all
+    D. Adding chlorine
+14. The best way to find the right coagulant dose for a particular wastewater is a:
+    A. BOD test
+    B. Dye test
+    C. Settleometer test only
+    D. Jar test
+15. A food-processing wastewater has BOD 800 mg/L, ammonia 5 mg/L and phosphorus 1 mg/L. The plant may need to:
+    A. Remove more phosphorus
+    B. Add chlorine to the aeration tank
+    C. Add nitrogen and phosphorus (nutrient enhancement)
+    D. Stop aeration
+16. Which chemical would be used to RAISE the pH and alkalinity of a nitrifying plant?
+    A. Alum
+    B. Sodium bicarbonate
+    C. Ferric chloride
+    D. Sulphuric acid
+
 ---
 
 ## 8. Answers & explanations
@@ -244,3 +294,7 @@
 | 10 | **B** | Landfill (per local rules). |
 | 11 | **A** | Caustic and/or hypochlorite absorb and oxidize odorous gases. |
 | 12 | **B** | Particles shield organisms from UV; filtration improves UV performance. |
+| 13 | **B** | Flocs need gentle mixing; fast mixing tears them apart. |
+| 14 | **D** | A jar test compares doses side by side. |
+| 15 | **C** | Needed N ≈ 40 mg/L and P ≈ 8 mg/L for 800 mg/L BOD (100:5:1). |
+| 16 | **B** | Bicarbonate (or lime/caustic) adds alkalinity; alum, ferric and acid lower pH. |

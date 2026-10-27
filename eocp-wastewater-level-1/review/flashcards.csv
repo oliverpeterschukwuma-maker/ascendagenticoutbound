@@ -110,7 +110,7 @@ Why dose ≠ residual?,"Ammonia, nitrite, organics, solids, H₂S, iron and mang
 HOCl vs OCl⁻?,HOCl (hypochlorous acid) ~80–100× stronger. Lower pH → more HOCl → better disinfection.,Disinfection
 Free vs combined chlorine?,"Free = HOCl + OCl⁻. Combined = chloramines (weaker, longer-lasting). Total = free + combined.",Disinfection
 CT?,Concentration (mg/L) × contact time (min).,Disinfection
-Typical chlorine contact time?,About 15 min at peak hourly flow (~30 min at average); baffled tank prevents short-circuiting.,Disinfection
+Typical chlorine contact time?,30 minutes is the typical industry standard (WPI's own sample answer); baffled tank prevents short-circuiting.,Disinfection
 Chlorine product strengths?,Gas 100%; calcium hypochlorite ~65–70%; sodium hypochlorite ~10–15% (commonly 12%).,Disinfection
 Sodium hypochlorite storage?,"Loses strength with heat, sunlight, time; off-gasses (pump airlock).",Disinfection
 Chlorine withdrawal limits?,~18 kg/d from 68 kg cylinder; ~180 kg/d from ton. Frost = too fast. Never heat with flame.,Disinfection
@@ -199,6 +199,9 @@ Test for absence of voltage?,"Live–dead–live (test tester, test circuit, tes
 Standby generator care?,"Exercise regularly under load; check fuel, oil, coolant, battery, block heater; ATS transfers load; UPS keeps PLC/SCADA alive.",Electrical_and_mechanical
 5 rights of lubrication?,"Right lubricant, amount, place, time, method.",Electrical_and_mechanical
 Shear pin?,Breaks to protect a drive when jammed.,Electrical_and_mechanical
+Mixers — where and why?,"Anoxic zones, EQ basins, digesters, chemical flash/flocculation mixing. Keep solids suspended without adding air; watch for ragging.",Electrical_and_mechanical
+What is an MCC?,"Motor Control Center — cabinet of 'buckets', each with a motor's disconnect, starter and overload. Common lockout point.",Electrical_and_mechanical
+Conveyor and hoist safety?,"Lock out conveyors before clearing jams (pull-cords are e-stops, not lockout). Hoists: rated capacity, inspect rigging, never stand under a load.",Electrical_and_mechanical
 Maintenance types?,"Preventive (scheduled), predictive (condition-based), corrective (after failure), emergency.",Electrical_and_mechanical
 Rising blower pressure + falling airflow?,Fouled/clogged diffusers.,Electrical_and_mechanical
 Representative sample?,"Well-mixed location, consistent time/place, avoid scum and deposits, clean equipment.",Laboratory_and_sampling
@@ -216,6 +219,8 @@ TSS vs VSS temperatures?,TSS dried at 103–105 °C; VSS burned at 550 °C.,Labo
 Settleable solids test?,"Imhoff cone, 60 minutes, mL/L.",Laboratory_and_sampling
 Alkalinity test?,Acid titration to ~pH 4.5; as CaCO₃.,Laboratory_and_sampling
 Phosphate colour test?,Ascorbic acid method — blue.,Laboratory_and_sampling
+WET test?,Whole Effluent Toxicity — test organisms exposed to effluent; acute = survival over a short time. Failures often from chlorine residual or ammonia.,Laboratory_and_sampling
+Metals sample preservation?,Nitric acid to pH < 2 in clean plastic; metals inhibit biology and accumulate in biosolids.,Laboratory_and_sampling
 Lab safety basics?,"PPE, acid to water, fume hood, never mouth-pipette, no food, COD waste is hazardous (mercury/chromium).",Laboratory_and_sampling
 Troubleshooting order?,Safety → verify → gather info → list causes → check equipment first → small change → notify → monitor & record.,Troubleshooting
 High effluent TSS first checks?,"Blanket, settleometer pattern, flow, RAS pump, SVI, weirs.",Troubleshooting
@@ -223,6 +228,8 @@ High effluent ammonia in winter?,Reduce wasting (↑ SRT); keep DO ≥ 2; check 
 Low DO even with all blowers on?,"Verify probe; check diffusers (fouling), overload, blower/valve problems.",Troubleshooting
 Chlorine residual suddenly zero?,"Feed failure (empty cylinder, airlock, ejector) or demand spike (nitrite, solids).",Troubleshooting
 Lift station pump tripped at night?,"Run standby pump to control level, then investigate safely; reset once only; report overflows.",Troubleshooting
+Exam breakdown (2025 NTK)?,"100 Qs: Equipment 39, Process 38, Safety/Admin 13, Lab 10. ~40% recall, ~60% application, 10 calculation Qs (9 process, 1 lab). US units first, metric in brackets.",Administration_and_BC_regulations
+Vulnerability assessment?,"Identify threats (natural, accidental, deliberate/cyber) to critical assets and plan protections; feeds the ERP.",Administration_and_BC_regulations
 Correcting a logbook error?,"Single line through it, write correction, initial and date. Never erase or falsify.",Administration_and_BC_regulations
 What must be reported?,"Spills, overflows, bypasses, permit exceedances, injuries and near misses — per procedure/regulation.",Administration_and_BC_regulations
 SOP vs O&M manual vs ERP?,SOP = step-by-step task. O&M = how the plant works/maintained. ERP = emergency procedures and contacts.,Administration_and_BC_regulations
@@ -233,6 +240,8 @@ What is EOCP?,Environmental Operators Certification Program — certifies operat
 Level I requirements?,"~12 months (1,800 h) experience, high school or equivalent, pass the WPI exam (70%), live/work in BC or Yukon.",Administration_and_BC_regulations
 Sewer-use bylaw?,Local rule controlling what businesses/industries can discharge to sewers (source control).,Administration_and_BC_regulations
 Media asks about an incident?,Refer to the designated spokesperson.,Administration_and_BC_regulations
+Coagulation vs flocculation?,Coagulation: coagulant (alum/ferric) neutralizes particle charges — rapid mix. Flocculation: polymer bridges particles into flocs — slow mix. Dose by jar test.,"Tertiary,_effluent_and_odour"
+Nutrient enhancement?,"Adding N or P when wastewater is short of nutrients (BOD:N:P ≈ 100:5:1), e.g., food-processing waste.","Tertiary,_effluent_and_odour"
 When is a tertiary filter backwashed?,"When headloss reaches the set point, turbidity breaks through, or the run time ends. Backwash water returns to the plant.","Tertiary,_effluent_and_odour"
 Filters backwashing far too often?,Too many solids coming from upstream (bulking/carryover) — fix the clarifier.,"Tertiary,_effluent_and_odour"
 Purpose of a flow equalization basin?,Store peak flows and release an even flow/load; keep it mixed/aerated so it doesn't go septic.,"Tertiary,_effluent_and_odour"

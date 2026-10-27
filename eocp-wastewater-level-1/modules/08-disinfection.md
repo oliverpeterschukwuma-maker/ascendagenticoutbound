@@ -3,7 +3,7 @@
 ← [Module 7](07-nutrient-removal.md) · [Course index](../README.md) · Next → [Module 9 — Sludge & Biosolids](09-sludge-biosolids.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **Ca(OCl)₂** = calcium hypochlorite · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CT** = Concentration × Time · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **HOCl** = hypochlorous acid · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **mg/L** = milligrams per litre · **NaOCl** = sodium hypochlorite · **NTK** = Need-to-Know Criteria · **OCl⁻** = hypochlorite ion · **OSHA** = Occupational Safety and Health Administration (US) · **SCBA** = Self-Contained Breathing Apparatus · **SOP** = Standard Operating Procedure · **SO₂** = sulphur dioxide · **THMs** = Trihalomethanes (disinfection by-products) · **TRC** = Total Residual Chlorine · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **UVT** = Ultraviolet Transmittance
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **Ca(OCl)₂** = calcium hypochlorite · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CT** = Concentration × Time · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **HOCl** = hypochlorous acid · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **mg/L** = milligrams per litre · **NaOCl** = sodium hypochlorite · **NTK** = Need-to-Know Criteria · **OCl⁻** = hypochlorite ion · **OSHA** = Occupational Safety and Health Administration (US) · **SCBA** = Self-Contained Breathing Apparatus · **SOP** = Standard Operating Procedure · **SO₂** = sulphur dioxide · **THMs** = Trihalomethanes (disinfection by-products) · **TRC** = Total Residual Chlorine · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **UVT** = Ultraviolet Transmittance · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **NTK (Need-to-Know Criteria) areas:** Treatment Process (38%), Equipment (39% — chlorinators, feed pumps, UV systems), Safety (chlorine). Math: chlorine dose/demand/residual, kg/day, feed rates ([Math 17C](../math/17c-loading-dosage-concentration.md)).
@@ -91,7 +91,7 @@ HOCl  ⇌  H⁺  +  OCl⁻
 
 Chlorine needs **time** to kill germs.
 - **Contact chamber:** a tank, often with **baffles** in a back-and-forth (serpentine) pattern, so every bit of water stays long enough. **Short-circuiting = some water leaves too soon = germs survive.**
-- Typical design: about **15 minutes at peak hourly flow** (often ~30 minutes at average flow). **[SUPPLEMENTAL — design guidance; your permit/design governs]**
+- **Typical industry standard contact time: 30 minutes.** This is the answer WPI (Water Professionals International) itself uses in the sample question printed in the 2025 Need-to-Know. **[OFFICIAL — WPI NTK sample item]** (Design rules may also require a minimum time at *peak* flow, often about 15 minutes — your permit/design governs. On the exam, if asked for the *typical standard*, answer **30 minutes**.)
 - **CT = Concentration (mg/L) × Time (minutes).** More concentration **or** more time = more kill.
   - Example: 1.5 mg/L (milligrams per litre) residual × 20 min = **CT of 30 mg·min/L**.
 - **At high flow, contact time shrinks** (Time = Volume ÷ Flow) → you may need a higher dose.
@@ -209,7 +209,7 @@ Dechlorination happens **almost instantly**, so it needs good mixing but little 
 3. **HOCl** (hypochlorous acid) is the strong disinfectant; **lower pH → more HOCl**.
 4. **Free** = HOCl + OCl⁻. **Combined** = chloramines. **Total** = free + combined.
 5. **CT = concentration × time.**
-6. Typical chlorine contact ≈ **15 min at peak flow** (~30 min at average).
+6. Typical chlorine contact time = **30 minutes** (WPI's own sample answer).
 7. Factors: dose, time, mixing, temperature, pH, TSS, demand, organism type, short-circuiting.
 8. Strengths: **gas 100%, calcium hypochlorite ~65–70%, sodium hypochlorite ~10–15% (commonly 12%)**.
 9. Sodium hypochlorite **loses strength** with time, heat, sunlight.
