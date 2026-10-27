@@ -31,8 +31,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 22 | EOCP answer: renewal and CEU requirements | ✅ Answered by Program Guide — annual dues, 2.4 CEUs / 2 yrs; dues amount in the email |
 | 23 | EOCP answer: accommodations (extra time etc.) | 📧 In the EOCP email (pending reply) |
 | 24 | Your plant's EOCP classification level | 🔜 You'll check it in the CRM |
-| 25 | Your plant's permit/registration limits | ☐ |
-| 26 | Your plant's processes, equipment list, shareable SOPs | ⏳ **Next** |
+| 25 | Your plant's permit/registration limits (sewer-use permit) | ⏳ **Next** — ask your supervisor |
+| 26 | Your plant's processes, equipment list, shareable SOPs | ✅ Process received → [MY-PLANT.md](../MY-PLANT.md) |
 | 27 | (Optional) WorkSafeBC exposure limits table (H₂S, chlorine) | ☐ |
 | 28 | (Optional) BC spill-reporting number your employer uses | ☐ |
 | 29 | (Optional) Useful Reddit posts (r/Wastewater) | ☐ |

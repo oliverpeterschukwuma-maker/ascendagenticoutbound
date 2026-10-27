@@ -41,6 +41,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | File | What it is |
 |---|---|
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
+| [MY-PLANT.md](MY-PLANT.md) | ⭐ **Your plant** (hydrovac liquid-waste, physical-chemical) mapped step by step to the modules, plant-based math practice, and the exam topics you **don't** see at work |
 | [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
 | [sources/EOCP-exam-prep-page-summary.md](sources/EOCP-exam-prep-page-summary.md) | ✅ **EOCP Exam Preparation page**: documents given at the exam, ID, late/reschedule rules, contacts |
 | [sources/EOCP-four-letter-word-exam-summary.md](sources/EOCP-four-letter-word-exam-summary.md) | ✅ **EOCP exam articles** — WWT I pass rate ~64–68%, exam-day rules, tips from operators who passed |
