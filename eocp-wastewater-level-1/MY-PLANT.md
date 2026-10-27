@@ -1,6 +1,6 @@
 # My Plant — Study Using What You See at Work
 
-← [Course index](README.md) · [Checklist](EOCP (Environmental Operators Certification Program)-LEVEL-1-CHECKLIST.md)
+← [Course index](README.md) · [Checklist](EOCP-LEVEL-1-CHECKLIST.md)
 
 <!-- abbr-start -->
 > 🔤 **Abbreviations in this file:** **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
@@ -8,7 +8,7 @@
 
 **What it is:** an **industrial liquid-waste treatment facility** that treats **hydrovac truck loads**: oily water, fairly clean water, mud and "whatever comes in". It uses **physical and chemical** treatment rather than biological, then polishes the water and sends it to the **sanitary sewer** or a **lagoon**.
 
-> ⚠ **Do this first: check in the CRM** that your facility is **classified with EOCP as a wastewater treatment facility**, and note its **class** (checklist A6, collection item #24). Ask your supervisor to confirm that your hours count toward **Wastewater Treatment Level I**. EOCP only counts hours at a **classified** facility.
+> ⚠ **Do this first: check in the CRM** that your facility is **classified with EOCP (Environmental Operators Certification Program) as a wastewater treatment facility**, and note its **class** (checklist A6, collection item #24). Ask your supervisor to confirm that your hours count toward **Wastewater Treatment Level I**. EOCP only counts hours at a **classified** facility.
 
 ---
 
