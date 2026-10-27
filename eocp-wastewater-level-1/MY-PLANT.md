@@ -106,6 +106,13 @@ Your plant is **physical-chemical**, but the Level I exam is mostly about **muni
 
 ---
 
+## What "classified facility" means *(EOCP Program Guide)*
+- **Classified** = EOCP has scored the facility's **complexity** and given it a class: **Small System**, or **Class I–IV**. The score uses **infrastructure points** (what equipment and processes it has) plus **"influencer" points** (how variable the incoming waste is, how strict the discharge requirements are, and how much lab control is done).
+- The **chief operator / person in charge** submits it through the **EOCP CRM**. It is **redone every 5 years** or after a major process change. There's an **annual facility fee** ($100/year for Class I in 2021).
+- **Counts as a wastewater *treatment* facility** if it **changes the physical, chemical or biological quality** of the water. Only screening, grinding, lift stations or chlorination doesn't count; that's "collection". **Your plant does chemical treatment, settling, ozone and filtration, so it fits the treatment definition.**
+- Classification is **mandatory for municipal** plants (Municipal Wastewater Regulation). **Industrial** plants *can* be classified too, but it may not be required, so **don't assume yours is**.
+- **How to check:** in the CRM, look at the facility linked to your profile (it shows the facility **type and class**), or ask your supervisor or chief operator. If it's **not classified**, ask your employer about getting it classified, and email EOCP about whether your hours can count. EOCP may consider your situation **case by case**, and the Board can count **related experience for up to half** of the hours.
+
 ## 5. Still to fill in
 
 - [ ] Facility **class** (from the CRM): ____ · counts toward WWT Level I? ☐ yes ☐ ask EOCP
