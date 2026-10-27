@@ -43,6 +43,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
 | [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
 | [sources/EOCP-exam-prep-page-summary.md](sources/EOCP-exam-prep-page-summary.md) | ✅ **EOCP Exam Preparation page**: documents given at the exam, ID, late/reschedule rules, contacts |
+| [sources/EOCP-guide-to-solving-math-problems-summary.md](sources/EOCP-guide-to-solving-math-problems-summary.md) | ✅ **Guide to Solving Math Problems** — work backwards from the question |
 | [sources/EOCP-2022-formula-guide-summary.md](sources/EOCP-2022-formula-guide-summary.md) | ✅ **EOCP 2022 formula guide** — US/metric format, dilution box, feed-pump formula warning |
 | [sources/EOCP-math-for-operators-summary.md](sources/EOCP-math-for-operators-summary.md) | ✅ **EOCP Math for Operators guide** — π = 3.14 confirmed, MCRT/SRT/sludge age, key errors found |
 | [sources/ABC-candidate-instructions-summary.md](sources/ABC-candidate-instructions-summary.md) | ✅ **ABC (Association of Boards of Certification) exam-room rules & software** — closed book, blank = wrong, Cover not Exit |

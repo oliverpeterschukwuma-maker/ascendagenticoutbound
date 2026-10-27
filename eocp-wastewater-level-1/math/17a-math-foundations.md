@@ -3,7 +3,7 @@
 ← [Course index](../README.md) · Next → [17B — Area, Volume, Flow & Time](17b-area-volume-flow-time.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **kPa** = kilopascal · **L/s** = litres per second · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **kPa** = kilopascal · **L/s** = litres per second · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **ML** = megalitre (1,000 m³) · **mL** = millilitre · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids
 <!-- abbr-end -->
 
 > **Read this first if math makes you nervous.** Wastewater math is **not** advanced math. It's the same few skills used over and over: multiply, divide, convert units, and plug numbers into a formula you're **given on the exam sheet**. This lesson teaches those skills from zero. Go slowly. Do every practice question. It gets easier every day.
@@ -278,6 +278,28 @@ The chart shows units in circles joined by arrows with a number on each arrow.
 | SRT (Solids Retention Time) | ~3–30+ days |
 | Chlorine dose | ~2–20 mg/L |
 | % removal | 0–100% (can't be over 100!) |
+
+### Lesson 8b — Long word problems: work BACKWARDS (EOCP's *Guide to Solving Math Problems*)
+
+Long questions give you a whole story — most of it is **chaff** (extra details). Don't start calculating from the first number you see. Instead:
+
+1. **Start from the question.** What do they want, and in what **units**? (e.g., "hours per week")
+2. **Hunt for numbers with matching units.** Need hours? Look for anything "per hour" or "per day".
+3. **Ask what you need to use that number.** A rate in **kg per hour** → you need **kg** → that's the **kg formula** (concentration × flow).
+4. **"Per" means divide.** m³ per hour = m³ ÷ hours.
+5. **Then write it out forwards**, step by step, each answer feeding the next.
+
+**EOCP's example (short version):** a plant sends **227 m³/day** of mixed sludge at **2.5% solids** to **two centrifuges** running together, each rated at **272 kg/hour**. (The story also gives polymer bag sizes, prices, hopper sizes and landfill costs — **all chaff**.) *If one centrifuge breaks down, how many more hours per week must the other run?*
+| Step | Work | Result |
+|---|---|---|
+| 1. % → mg/L | 2.5% × 10,000 | 25,000 mg/L (= 25 kg/m³) |
+| 2. kg per day | 25 kg/m³ × 227 m³/d | 5,675 kg/d |
+| 3. Hours per day (one machine does it all) | 5,675 ÷ 272 | 20.86 h/d |
+| 4. Each machine's share now | 20.86 ÷ 2 | 10.43 h/d each |
+| 5. Extra hours per week for the survivor | 10.43 × 7 | **≈ 73 hours/week** |
+
+**Why it works:** the broken machine's 10.43 h/d of work moves to the other one, every day of the week.
+*"How do you eat an elephant? One bite at a time."*
 
 ---
 
