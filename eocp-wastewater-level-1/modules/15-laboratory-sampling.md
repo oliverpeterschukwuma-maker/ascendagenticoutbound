@@ -151,7 +151,7 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 
 ### 2.10 BOD (and CBOD)
 - **Measures:** oxygen used by bacteria to break down organics in **5 days at 20 °C** in the **dark**, in **300 mL BOD bottles**.
-- **Method summary [SUPPLEMENTAL]:** dilute sample with **dilution water** (nutrients + buffer, aerated); **seed** with bacteria if the sample is disinfected/industrial; **dechlorinate** chlorinated samples; adjust pH to ~6.5–7.5 if needed; measure **initial DO**; incubate 5 days at **20 ± 1 °C**; measure **final DO**.
+- **Method summary [SUPPLEMENTAL]:** dilute sample with **dilution water** (nutrients + buffer, aerated); **seed** with bacteria if the sample is disinfected/industrial; **dechlorinate** chlorinated samples; adjust pH to ~6.5–7.5 if needed; measure **initial DO**; incubate 5 days (**± 3 hours** — ✅ confirmed by the official ABC sample question) at **20 ± 1 °C**; measure **final DO**.
   - **Valid result:** DO **depletion of at least 2.0 mg/L (milligrams per litre)** and **at least 1.0 mg/L DO left** at the end.
   - **Dilution water blank** should deplete **no more than ~0.2 mg/L**.
   - **GGA (glucose–glutamic acid) check standard** verifies the test (expected ~198 ± 30.5 mg/L).

@@ -52,7 +52,7 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 
 **What the software looks like (from your screenshots):** you type a name to log on → a **Cover** page ("0 of 20 questions answered", **Begin** / **Exit**) → one question per screen. Bottom bar: **Cover · Help · (answer box) · ! · Time · ☐ (mark for review) · < · question-number dropdown · > · >>**. **No on-screen calculator was visible** — bring your own non-programmable one.
 
-**How to use:** cover the answers, do all 14, then check. Answers are this course's, checked against the modules (the online sample does not show an answer key).
+**How to use:** cover the answers, do all 20, then check. Answers are this course's, checked against the modules; Q10 is confirmed from the official review screen.
 
 1. The **best** way for a manager to transmit information that is very important to employees is by
    A. Having a face-to-face meeting  B. Sending a memorandum  C. Sending an email  D. Placing a notice on the plant's website
@@ -107,7 +107,7 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 | 7 | **C** | SCADA = Supervisory Control And Data Acquisition — **control** equipment remotely and **collect** data. | 13 · Equipment |
 | 8 | **D** | Air in the liquid reaches the impeller and causes noisy, damaging **cavitation**-like conditions and lost capacity (air binding). | 10 · Equipment |
 | 9 | **D** | A tube is positive when coliforms make **gas**, which collects as a bubble in the small upside-down **Durham tube**. | 15 · Lab |
-| 10 | **⚠ Not confirmed yet** | The course could not confirm the official time window. Current Standard Methods 5210B allows a wider window than any choice here, so this question follows an older reference. **See "How to check Q10" below.** | 15 · Lab |
+| 10 | **C** ✅ *confirmed by the official answer screen* | The ABC sample marks **5 days ± 3 hours** as correct. (Standard Methods also requires 20 ± 1 °C, dark, 300 mL bottles.) | 15 · Lab |
 | 11 | **C** | Bacteria results (MPN or colonies) are always reported **per 100 mL**. | 15 · Lab |
 | 12 | **A** | COD takes about **2–3 hours**; BOD takes **5 days**. | 15 · Lab |
 | 13 | **B** | Alkalinity is the **buffer** — it neutralizes acid and stops pH from dropping (important in nitrification and digesters). | 5, 7 · Process |
@@ -119,5 +119,5 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 | 19 | **A** | Digesters like a **steady diet**: small, frequent feedings keep the acid-formers and methane-formers in balance. Big slugs can sour the digester. | 9 · Process |
 | 20 | **A** | Bugs keep growing; if you don't waste the extra, solids build up until the clarifier blanket overflows. (Same idea as the official 2025 NTK (Need-to-Know Criteria) sample question.) | 5 · Process |
 
-**How to check Q10 using the sample test itself:** start the online test fresh, answer **only Q10** (pick **A**), then Cover → Finish → Mastery. If the score is 1 of 20, A is right; if 0, start again and try **B**, and so on. Send Claude the result.
+**Answer key note:** after you finish the online sample, the review screen marks the right answer with a green ✔ — Q10 was confirmed this way.
 

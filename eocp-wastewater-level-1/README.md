@@ -103,7 +103,7 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | File | What it is |
 |---|---|
 | [video-library.md](review/video-library.md) | **YouTube videos for the harder topics**, by module (also linked at the top of each module) |
-| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **281 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **282 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
 | [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
 | [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
 
@@ -120,7 +120,7 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 | Math practice problems (with worked answers) | 206 |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
-| Flashcards | 281 |
+| Flashcards | 282 |
 | YouTube videos linked | 60+ |
 
 ---

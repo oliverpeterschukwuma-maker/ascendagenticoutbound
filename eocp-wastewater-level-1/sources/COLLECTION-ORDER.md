@@ -12,7 +12,7 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 3 | EOCP Formulae, Conversions, and Abbreviations | ✅ Received — [EOCP-formula-sheet-summary.md](EOCP-formula-sheet-summary.md); 17F expanded |
 | 4 | EOCP Conversion Chart | ✅ Received — [EOCP-conversion-chart-summary.md](EOCP-conversion-chart-summary.md) |
 | 5 | Candidate Instructions for ABC Web-Based Examinations | ✅ Received — [ABC-candidate-instructions-summary.md](ABC-candidate-instructions-summary.md) |
-| 6 | Sample Exam Questions (WPI online Wastewater sample, 20 Qs) | ✅ All 20 answered in [eocp-official-practice.md](../practice/eocp-official-practice.md) — only **Q10** (BOD ± hours) awaits the score check |
+| 6 | Sample Exam Questions (WPI online Wastewater sample, 20 Qs) | ✅ Received — all 20 answered in [eocp-official-practice.md](../practice/eocp-official-practice.md); Q10 = **± 3 h** confirmed |
 | 7 | Sample Math Questions | ⏳ **Next** |
 | 8 | Math for Operators – Wastewater Level I and II | ☐ |
 | 9 | 2022 Guide to the EOCP and ABC formulas | ☐ |
