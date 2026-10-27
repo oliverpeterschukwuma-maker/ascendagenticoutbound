@@ -3,7 +3,7 @@
 ← [Course index](../README.md) · Schedule → [6-Week Study Schedule](../review/study-schedule-6-weeks.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **EOCP** = Environmental Operators Certification Program · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **EOCP** = Environmental Operators Certification Program · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 This is **how** to study. The [schedule](../review/study-schedule-6-weeks.md) tells you **when**.
@@ -108,7 +108,11 @@ Once you've finished all modules:
 
 ## Exam-day checklist
 
-- [ ] Confirmed time, location (or online/computer-based instructions), ID requirements with EOCP
+- [ ] Confirmed time and location with EOCP; tried **"Experience ABC (Association of Boards of Certification)'s Computerized Exams"** demo beforehand
+- [ ] **Government photo ID**: driver's licence, BC Services Card, or passport (checked before you get the exam)
+- [ ] **Arrive early** — more than 30 minutes late = you can't write (and late arrivals lose time)
+- [ ] Need to reschedule? Do it **more than 7 days ahead** to avoid a fee (EOCP: 1-866-552-3627, eocp@eocp.ca)
+- [ ] At the exam you'll receive the **ABC Canadian Formula/Conversion Table (Wastewater)**, **EOCP Formulae, Conversions & Abbreviations**, **EOCP Conversion Chart** and **candidate instructions** — you've practised with copies of these
 - [ ] Approved calculator (fresh battery) — the same one you practised with
 - [ ] Slept well; ate; water
 - [ ] Arrive early

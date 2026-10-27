@@ -40,7 +40,12 @@
 | Units | Math questions appear in **both metric and US units** | [OFFICIAL] WPI |
 | π (pi) | **3.14** | [OFFICIAL] EOCP math guides |
 | Formula/conversion table | Provided at the exam (WPI revised its Formula/Conversion Tables for the 2025 exams) | [OFFICIAL] WPI |
-| Time limit, calculator rules, ID, booking, computer vs paper | **Not confirmed** — check the EOCP Exam Preparation page / your booking confirmation (WPI-format exams are commonly about 3 hours) | Verify |
+| Format | **Web-based (computer) ABC examination**, written with an **invigilator** | [OFFICIAL] EOCP Exam Preparation page |
+| Time | EOCP's own page uses a **"3-hour exam"** as its example — confirm on your booking | [OFFICIAL — example] |
+| Documents given to you at the exam | **ABC Canadian Formula/Conversion Table for Wastewater Treatment, Industrial, Collection and Laboratory Exams**, **EOCP Formulae, Conversions, and Abbreviations**, **EOCP Conversion Chart**, **Candidate Instructions for ABC Web-Based Examinations** | [OFFICIAL] EOCP Exam Preparation page |
+| ID | Valid government photo ID: **driver's licence, BC Services Card, or passport** | [OFFICIAL] |
+| Late arrival | Up to 30 min late (valid reason) → write with remaining time; **over 30 min → cannot write** | [OFFICIAL] |
+| Still to confirm | **Calculator rules**, fees, booking process | Ask EOCP: eocp@eocp.ca · 1-866-552-3627 |
 
 ### Who can write Level I (EOCP eligibility) [OFFICIAL — EOCP "How to Become an Operator"]
 - **Level I:** 12 months (**1,800 hours**) of hands-on operating experience, verified on your Application for Certification.

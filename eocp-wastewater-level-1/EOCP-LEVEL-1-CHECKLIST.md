@@ -31,12 +31,12 @@
 
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
-| B1 | Application form (name, where to download/submit online) | ❓ Find it | eocp.ca → Certified Operators: ________ |
+| B1 | Application form (name, where to download/submit online) | 🔶 Partly | The Exam Preparation page links a **"guide for applying for an EOCP exam"** — download it (collection item #12): ________ |
 | B2 | Application and exam **fees** | ❓ Find it | ________ |
 | B3 | Processing time for applications | ❓ Find it | ________ |
-| B4 | How to **book** an exam; dates and **locations** (in-person sessions? testing centres? online?) | ❓ Find it | The 2021 Program Guide says sessions are held at times/locations EOCP organizes — **check what applies to the new computer-based WPI exams**: ________ |
-| B5 | **ID** you must bring | ❓ Find it | ________ |
-| B6 | Cancellation / rescheduling rules | ❓ Find it | ________ |
+| B4 | How to **book** an exam; dates and **locations** | 🔶 Partly | Exam is **web-based (ABC web-based examination)**, written with an **invigilator** who checks ID. Booking process/locations: ________ |
+| B5 | **ID** you must bring | ✅ Confirmed | Valid **government-issued photo ID**: driver's licence, BC Services Card, or passport |
+| B6 | Cancellation / rescheduling rules | ✅ Confirmed | Contact the EOCP office; **fee if less than 7 days** before the exam. **Late:** up to 30 min late with a valid reason → write with remaining time only; **more than 30 min late → cannot write** (reschedule, fee) |
 | B7 | Exam **accommodations** (extra time, reader — e.g., for reading or math learning difficulties) and how to request them | ❓ Find it | ________ *(Worth asking about if math or reading is hard for you.)* |
 
 ## C. The exam itself
@@ -51,14 +51,14 @@
 | C6 | Units | ✅ Confirmed | **US units first, metric in brackets**; each calculation can be solved in either |
 | C7 | π value | ✅ Confirmed | **3.14** |
 | C8 | Formula/conversion table provided | ✅ Confirmed | Yes — **get a copy to practise with** (C9) |
-| C9 | A copy of the **2025 WPI formula/conversion table** | ❓ Find it | EOCP Exam Preparation page or WPI's Need-to-Know page |
-| C10 | **Time limit** | ❓ Find it | ________ (WPI-format exams are commonly about 3 hours) |
+| C9 | A copy of the exam formula sheet | 🔶 Name confirmed | **"ABC Canadian Formula/Conversion Table for Wastewater Treatment, Industrial, Collection and Laboratory Exams"** + **EOCP Formulae, Conversions, and Abbreviations** + **EOCP Conversion Chart** — all **provided at every exam session**. Download copies to practise (collection items #2–4) |
+| C10 | **Time limit** | 🔶 Very likely 3 h | EOCP's own page uses a **"3-hour exam"** as its example — confirm on your booking |
 | C11 | **Calculator** rules (which models allowed; on-screen calculator?) | ❓ Find it | ________ |
-| C12 | **Computer-based** format details (practice tutorial, flagging questions, going back) | ❓ Find it | ________ |
+| C12 | **Computer-based** format details | 🔶 Partly | Exam is **web-based**; EOCP provides **"Candidate Instructions for ABC Web-Based Examinations"** at the exam and links **"Experience ABC's Computerized Exams"** (practice demo) — try it (collection items #5, #13) |
 | C13 | Scratch paper allowed? | ❓ Find it | ________ |
 | C14 | The **Need-to-Know (NTK)** job-task list | ✅ Received | Summary and module map: [sources/NTK-2025-summary.md](sources/NTK-2025-summary.md) |
 | C15 | The NTK's **reference book list** | ✅ Confirmed | CSUS *Operation of Wastewater Treatment Plants* Vol. 1 & 2 (8th ed.) and WEF *Wastewater Treatment Fundamentals I – Liquid Treatment*; full list at gowpi.org → ABC Testing → Exam References |
-| C16 | Official **sample questions** for the new exams | ❓ Find it | EOCP Exam Preparation page / WPI: ________ |
+| C16 | Official **sample questions** | 🔶 Located | Linked on the Exam Preparation page: **Sample Exam Questions** and **Sample Math Questions** (collection items #6–7) |
 
 ## D. After the exam
 
@@ -77,8 +77,8 @@
 
 | # | Item | Status | Answer |
 |---|---|---|---|
-| E1 | EOCP email | ❓ Confirm | eocp@eocp.ca (confirm on eocp.ca) |
-| E2 | EOCP phone and office hours | ❓ Find it | ________ |
+| E1 | EOCP email | ✅ Confirmed | **eocp@eocp.ca** |
+| E2 | EOCP phone and address | ✅ Confirmed | (604) 874-4784 · toll-free 1-866-552-3627 · fax (604) 874-4794 · #201 – 3833 Henning Drive, Burnaby, BC V5C 6N5 |
 
 ---
 
