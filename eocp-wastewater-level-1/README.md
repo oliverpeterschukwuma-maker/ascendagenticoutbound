@@ -19,7 +19,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | **What's tested (official 2025 WPI Need-to-Know ✅)** | **Equipment 39 · Treatment Process 38 · Security/Safety/Admin 13 · Laboratory 10** · ~40% recall / ~60% application · **only 10 calculation questions** (9 process, 1 lab) · US units first, metric in brackets |
 | **To be eligible** | ~**12 months (1,800 h)** operating experience · high school or equivalent · live/work in BC or Yukon |
 | **Exam day (EOCP)** | Web-based exam with an invigilator · likely **3 hours** · bring **government photo ID** · over 30 min late = can't write |
-| **Still to confirm with EOCP** | Calculator rules, fees, booking → see [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) |
+| **Still to confirm with EOCP** | Allowed calculator models (must be non-programmable), fees, booking → see [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) |
 
 ---
 
@@ -43,6 +43,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
 | [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
 | [sources/EOCP-exam-prep-page-summary.md](sources/EOCP-exam-prep-page-summary.md) | ✅ **EOCP Exam Preparation page**: documents given at the exam, ID, late/reschedule rules, contacts |
+| [sources/ABC-candidate-instructions-summary.md](sources/ABC-candidate-instructions-summary.md) | ✅ **ABC (Association of Boards of Certification) exam-room rules & software** — closed book, blank = wrong, Cover not Exit |
 | [sources/EOCP-conversion-chart-summary.md](sources/EOCP-conversion-chart-summary.md) | ✅ **EOCP Conversion Chart** — arrow rule, Imperial vs US gallons |
 | [sources/EOCP-formula-sheet-summary.md](sources/EOCP-formula-sheet-summary.md) | ✅ **EOCP Formulae, Conversions & Abbreviations** sheet — symbols, extra formulas, 9.81 |
 | [sources/ABC-formula-sheet-summary.md](sources/ABC-formula-sheet-summary.md) | ✅ **Official exam formula sheet** — what's on it and what changed in the course |
@@ -102,7 +103,7 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | File | What it is |
 |---|---|
 | [video-library.md](review/video-library.md) | **YouTube videos for the harder topics**, by module (also linked at the top of each module) |
-| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **279 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **281 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
 | [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
 | [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
 
@@ -119,7 +120,7 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 | Math practice problems (with worked answers) | 206 |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
-| Flashcards | 279 |
+| Flashcards | 281 |
 | YouTube videos linked | 60+ |
 
 ---

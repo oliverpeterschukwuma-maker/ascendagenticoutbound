@@ -113,7 +113,10 @@ Once you've finished all modules:
 - [ ] **Arrive early** — more than 30 minutes late = you can't write (and late arrivals lose time)
 - [ ] Need to reschedule? Do it **more than 7 days ahead** to avoid a fee (EOCP: 1-866-552-3627, eocp@eocp.ca)
 - [ ] At the exam you'll receive the **ABC Canadian Formula/Conversion Table (Wastewater)**, **EOCP Formulae, Conversions & Abbreviations**, **EOCP Conversion Chart** and **candidate instructions** — you've practised with copies of these
-- [ ] Approved calculator (fresh battery) — the same one you practised with
+- [ ] **Non-programmable** calculator (fresh battery) — the same one you practised with. **Closed book**: no notes; scratch paper is provided
+- [ ] Read the **Help** window first · `>>` = next unanswered · flag questions and come back · **blank = wrong**
+- [ ] Need a break? Click **"Cover"** (never "Exit") → "Resume" when back — the clock keeps running
+- [ ] Finish: **Cover** → check all answered → **Finish and display results** → **Mastery** (your score shows) → **Exit**
 - [ ] Slept well; ate; water
 - [ ] Arrive early
 - [ ] Read the **last line** of each question first; watch **NOT / EXCEPT / FIRST / MOST LIKELY**

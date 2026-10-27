@@ -45,7 +45,8 @@
 | Documents given to you at the exam | **ABC Canadian Formula/Conversion Table for Wastewater Treatment, Industrial, Collection and Laboratory Exams**, **EOCP Formulae, Conversions, and Abbreviations**, **EOCP Conversion Chart**, **Candidate Instructions for ABC Web-Based Examinations** | [OFFICIAL] EOCP Exam Preparation page |
 | ID | Valid government photo ID: **driver's licence, BC Services Card, or passport** | [OFFICIAL] |
 | Late arrival | Up to 30 min late (valid reason) → write with remaining time; **over 30 min → cannot write** | [OFFICIAL] |
-| Still to confirm | **Calculator rules**, fees, booking process | Ask EOCP: eocp@eocp.ca · 1-866-552-3627 |
+| Exam rules | **Closed book** · **non-programmable calculator** only · **scratch paper provided** (handed back at the end) · **unanswered = wrong** · you can flag, jump between and change answers · score shown on screen when you finish ([summary](sources/ABC-candidate-instructions-summary.md)) | [OFFICIAL] ABC Candidate Instructions |
+| Still to confirm | **Exact list of allowed calculator models**, fees, booking process | Ask EOCP: eocp@eocp.ca · 1-866-552-3627 |
 
 ### Who can write Level I (EOCP eligibility) [OFFICIAL — EOCP "How to Become an Operator"]
 - **Level I:** 12 months (**1,800 hours**) of hands-on operating experience, verified on your Application for Certification.
@@ -130,8 +131,8 @@ WPI questions are written from **job tasks**, so most questions are really askin
 4. **Verify before you adjust.** When an instrument reads something strange, the first step is usually to *confirm the reading* (check the instrument, take a manual sample) — not to make a big process change.
 5. **Make one change at a time, and make small changes.** Large sudden changes are rarely the "best" operator answer.
 6. **For math: estimate first.** If a detention time comes out as 400 hours or a flow velocity of 90 m/s, you made a unit error.
-7. **Never leave a question blank.** There is no penalty for guessing (confirm with EOCP).
-8. **Flag and move on.** Computer exams let you mark questions for review. Do easy questions first, return to long math at the end.
+7. **Never leave a question blank.** [OFFICIAL] The ABC candidate instructions say **unanswered questions are counted wrong** — so a guess can only help.
+8. **Flag and move on.** [OFFICIAL] The ABC exam lets you **mark questions for review, jump to any question, and change answers** until you finish. Do easy questions first, return to long math at the end.
 
 ---
 

@@ -260,6 +260,8 @@ Sludge wasting volume to lower MLSS?,Q_W = (MLSS initial − MLSS final) × aera
 Chlorine dose for a tank?,"kg of chlorine × 1,000 ÷ m³ of water = mg/L.",Math_formulas
 How to use the EOCP Conversion Chart?,"Multiply going WITH the arrow; divide going AGAINST it. E.g., psi → kPa × 6.895, so kPa → psi ÷ 6.895.",Math_formulas
 US vs Imperial gallon?,US gal = 3.785 L (used on the exam). Imperial gal = 4.54 L = 1.201 US gal. MGD/gpm/gpd are US.,Math_formulas
+ABC exam: what happens to unanswered questions?,They are counted WRONG — answer every question (flag and return if unsure).,Math_formulas
+ABC exam: how do you take a break?,"Click COVER (never Exit), then Resume when back. The clock keeps running.",Math_formulas
 Pump cycle time?,Storage volume ÷ (pump capacity − inflow).,Math_formulas
 Alkalinity formula?,"Titrant mL × normality × 50,000 ÷ sample mL (mg/L as CaCO₃).",Math_formulas
 Area of a circle?,0.785 × D² (= 3.14 × r²). π = 3.14 on EOCP exams.,Math_formulas

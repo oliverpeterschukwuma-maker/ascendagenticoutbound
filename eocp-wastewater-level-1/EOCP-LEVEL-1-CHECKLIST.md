@@ -53,9 +53,9 @@
 | C8 | Formula/conversion table provided | ✅ Confirmed | Yes — **get a copy to practise with** (C9) |
 | C9 | Copies of the exam reference sheets | ✅ Received all three | **ABC Formula/Conversion Table — Wastewater**, **EOCP Formulae, Conversions & Abbreviations**, **EOCP Conversion Chart** — course sheet matches all: [math/formula-and-conversion-sheet.md](math/formula-and-conversion-sheet.md) |
 | C10 | **Time limit** | 🔶 Very likely 3 h | EOCP's own page uses a **"3-hour exam"** as its example — confirm on your booking |
-| C11 | **Calculator** rules (which models allowed; on-screen calculator?) | ❓ Find it | ________ |
-| C12 | **Computer-based** format details | 🔶 Partly | Exam is **web-based**; EOCP provides **"Candidate Instructions for ABC Web-Based Examinations"** at the exam and links **"Experience ABC's Computerized Exams"** (practice demo) — try it (collection items #5, #13) |
-| C13 | Scratch paper allowed? | ❓ Find it | ________ |
+| C11 | **Calculator** rules (which models allowed; on-screen calculator?) | 🔶 Partly | ✅ **Non-programmable only** (ABC Candidate Instructions). Still ask EOCP which models are allowed: ________ |
+| C12 | **Computer-based** format details | ✅ Confirmed | Web-based ABC exam: Help button, `>>` = next unanswered, mark for review, change answers anytime, "!" = comment, **Cover → Finish and display results → Mastery → Exit**; breaks = **Cover**, never Exit; no extra time — [summary](sources/ABC-candidate-instructions-summary.md). Try the demo (item #13) |
+| C13 | Scratch paper allowed? | ✅ Confirmed | **Provided** at the exam; you hand it back (with the formula table) at the end. **Closed book** — no own notes |
 | C14 | The **Need-to-Know (NTK)** job-task list | ✅ Received | Summary and module map: [sources/NTK-2025-summary.md](sources/NTK-2025-summary.md) |
 | C15 | The NTK's **reference book list** | ✅ Confirmed | CSUS *Operation of Wastewater Treatment Plants* Vol. 1 & 2 (8th ed.) and WEF *Wastewater Treatment Fundamentals I – Liquid Treatment*; full list at gowpi.org → ABC Testing → Exam References |
 | C16 | Official **sample questions** | 🔶 Located | Linked on the Exam Preparation page: **Sample Exam Questions** and **Sample Math Questions** (collection items #6–7) |
@@ -64,7 +64,7 @@
 
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
-| D1 | How/when results are released | ❓ Find it | ________ |
+| D1 | How/when results are released | 🔶 Partly | Per the ABC instructions, **your score is shown on screen** right after you click "Finish" → "Mastery". Ask EOCP when the official result/certificate follows: ________ |
 | D2 | Feedback | ✅ Confirmed | Individual **mastery report** by content area |
 | D3 | Rewrite rule | ✅ Confirmed (2021 guide) | Below 70% → may rewrite **30 days** after writing — confirm current rule and fee |
 | D4 | How the certificate is issued | ❓ Find it | ________ |

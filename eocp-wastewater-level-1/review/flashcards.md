@@ -1,4 +1,4 @@
-# Flashcards — 279 cards
+# Flashcards — 281 cards
 
 ← [Course index](../README.md)
 
@@ -9,7 +9,7 @@
 **How to use:**
 - Cover the **BACK** and say the answer out loud before reading it.
 - Mark cards you miss; review them again tomorrow, then in 3 days, then in a week (spaced repetition).
-- **Prefer an app?** Import [flashcards.csv](flashcards.csv) into **Anki** (File → Import, comma-separated, field 1 = Front, field 2 = Back, field 3 = Tag) or **Quizlet** (Create → Import, choose comma between term and definition). All 279 cards will load, tagged by module.
+- **Prefer an app?** Import [flashcards.csv](flashcards.csv) into **Anki** (File → Import, comma-separated, field 1 = Front, field 2 = Back, field 3 = Tag) or **Quizlet** (Create → Import, choose comma between term and definition). All 281 cards will load, tagged by module.
 
 ## Sections
 
@@ -31,7 +31,7 @@
 - [Troubleshooting (Module 16)](#troubleshooting-module-16) — 6 cards
 - [Administration & BC regulations (Module 18)](#administration--bc-regulations-module-18) — 12 cards
 - [Tertiary, effluent & odour (Module 19)](#tertiary-effluent--odour-module-19) — 10 cards
-- [Math formulas (Module 17)](#math-formulas-module-17) — 27 cards
+- [Math formulas (Module 17)](#math-formulas-module-17) — 29 cards
 
 ---
 
@@ -1157,71 +1157,79 @@
 
 > **BACK:** US gal = 3.785 L (used on the exam). Imperial gal = 4.54 L = 1.201 US gal. MGD/gpm/gpd are US.
 
-**263. FRONT:** Pump cycle time?
+**263. FRONT:** ABC exam: what happens to unanswered questions?
+
+> **BACK:** They are counted WRONG — answer every question (flag and return if unsure).
+
+**264. FRONT:** ABC exam: how do you take a break?
+
+> **BACK:** Click COVER (never Exit), then Resume when back. The clock keeps running.
+
+**265. FRONT:** Pump cycle time?
 
 > **BACK:** Storage volume ÷ (pump capacity − inflow).
 
-**264. FRONT:** Alkalinity formula?
+**266. FRONT:** Alkalinity formula?
 
 > **BACK:** Titrant mL × normality × 50,000 ÷ sample mL (mg/L as CaCO₃).
 
-**265. FRONT:** Area of a circle?
+**267. FRONT:** Area of a circle?
 
 > **BACK:** 0.785 × D² (= 3.14 × r²). π = 3.14 on EOCP exams.
 
-**266. FRONT:** Circumference?
+**268. FRONT:** Circumference?
 
 > **BACK:** 3.14 × D (use for circular weir length).
 
-**267. FRONT:** Volume of a cylinder?
+**269. FRONT:** Volume of a cylinder?
 
 > **BACK:** 0.785 × D² × depth.
 
-**268. FRONT:** Detention time?
+**270. FRONT:** Detention time?
 
 > **BACK:** Volume ÷ Flow (× 24 if flow is per day and you want hours).
 
-**269. FRONT:** SOR / WOR?
+**271. FRONT:** SOR / WOR?
 
 > **BACK:** SOR = Flow ÷ surface area. WOR = Flow ÷ weir length.
 
-**270. FRONT:** kg/day formula?
+**272. FRONT:** kg/day formula?
 
 > **BACK:** mg/L × m³/d (cubic metres per day) ÷ 1,000 (= mg/L × ML/d).
 
-**271. FRONT:** lb/day formula?
+**273. FRONT:** lb/day formula?
 
 > **BACK:** mg/L × MGD (Million Gallons per Day) × 8.34.
 
-**272. FRONT:** Chemical with purity?
+**274. FRONT:** Chemical with purity?
 
 > **BACK:** kg/d of product = kg/d active ÷ purity (decimal) — answer gets bigger.
 
-**273. FRONT:** % removal?
+**275. FRONT:** % removal?
 
 > **BACK:** (In − Out) ÷ In × 100.
 
-**274. FRONT:** Dilution?
+**276. FRONT:** Dilution?
 
 > **BACK:** C₁V₁ = C₂V₂.
 
-**275. FRONT:** Thickening volume?
+**277. FRONT:** Thickening volume?
 
 > **BACK:** V₂ = V₁ × %₁ ÷ %₂.
 
-**276. FRONT:** Dry solids in sludge (metric)?
+**278. FRONT:** Dry solids in sludge (metric)?
 
 > **BACK:** kg/d = m³/d × % × 10.
 
-**277. FRONT:** Pump water power?
+**279. FRONT:** Pump water power?
 
 > **BACK:** Metric: 9.8 × Q(m³/s) × H(m) kW. US: gpm (gallons per minute) × ft ÷ 3,960 whp (water horsepower). Divide by efficiencies for brake/motor.
 
-**278. FRONT:** Key conversions?
+**280. FRONT:** Key conversions?
 
 > **BACK:** 1 m³ = 1,000 L; 1 L/s (litres per second) = 86.4 m³/d; 1 ft³ = 7.48 gal; 1 gal = 8.34 lb; 1 MGD = 694.4 gpm; 1 day = 1,440 min.
 
-**279. FRONT:** Temperature conversion?
+**281. FRONT:** Temperature conversion?
 
 > **BACK:** °F = °C × 1.8 + 32; °C = (°F − 32) ÷ 1.8.
 
