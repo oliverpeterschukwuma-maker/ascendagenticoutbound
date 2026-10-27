@@ -30,6 +30,7 @@ Each formula below: **FORMULA → WHAT IT MEANS → WHY IT WORKS → WHEN TO USE
 **FORMULA:** `CFU/100 mL = Colonies on plate × 100 ÷ mL of sample filtered`
 **WHAT/WHY:** bacteria results are always reported "per 100 mL". If you filtered 50 mL and counted 42 colonies, 100 mL would have twice as many.
 **EXAMPLE:** 42 colonies from 50 mL → 42 × 100 ÷ 50 = **84 CFU/100 mL** (CFU = colony-forming units).
+**Valid plate (EOCP 2022 math guide):** count only filters with **20–60 colonies**; outside that range, the plate is not used.
 **MISTAKE:** forgetting to scale to 100 mL.
 
 ## F3. Composite sample — size of each portion

@@ -93,6 +93,7 @@
 - **60% of questions are "application"** — they describe a situation and ask you to choose, compare, explain or calculate. Understanding *why* matters more than memorizing.
 - **Calculation questions are only ~10%**, and almost all of them are in treatment process (detention time, loading, dosage, SVI, F/M and similar) — plus one lab calculation.
 - **Calculation questions give US units first, then metric in brackets** — e.g., "12 ft (4 m)". You can solve with **either** set; pick the one you're most comfortable with (for most Canadians, metric).
+- **[OFFICIAL — EOCP 2022 math guide]** The metric values in brackets are **rounded to one decimal**, so metric and US answers can differ slightly. Example from the guide: *"A clarifier is 100 feet (30.5 m) in diameter and 15 feet (4.8 m) deep"* → *117,750 cubic feet (3,505.2 cubic metres)*. (15 ft is really 4.57 m — so even official brackets can be a little off.) **Stay in one unit system for the whole question** and pick the closest answer.
 - **Pre-test questions** (up to 10) are unmarked and mixed in — treat every question seriously.
 - **Watch for extra information.** WPI's own sample calculation gives a tank's **diameter** and **water depth** and asks for the pressure at the bottom — the diameter is a distractor, because pressure depends only on depth (Module 12).
 - WPI's own sample recall question gives **30 minutes** as the typical chlorine contact time, and its sample application question tests **why activated sludge must be wasted** (to prevent excessive solids build-up).

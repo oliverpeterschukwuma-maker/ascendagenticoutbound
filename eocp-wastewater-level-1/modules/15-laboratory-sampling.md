@@ -223,7 +223,7 @@ Permit/compliance testing may need to be done by an **accredited laboratory** (c
 
 ### 2.23 Bacteria — *E. coli* / fecal coliform
 - **Measures:** indicator bacteria count, reported **per 100 mL** (CFU/100 mL (colony-forming units per 100 mL) or MPN/100 mL).
-- **Methods:** **membrane filtration** (count colonies on a filter), **MPN** (Most Probable Number — multiple tubes), **enzyme substrate** tests (e.g., colour/fluorescence). Fecal coliforms are incubated at **44.5 °C**; total coliforms at **35 °C** (recognize). **[SUPPLEMENTAL]**
+- **Methods:** **membrane filtration** (count colonies on a filter — a valid plate has **20–60 colonies**; result = colonies × 100 ÷ mL filtered), **MPN** (Most Probable Number — multiple tubes), **enzyme substrate** tests (e.g., colour/fluorescence). Fecal coliforms are incubated at **44.5 °C**; total coliforms at **35 °C** (recognize). **[SUPPLEMENTAL]**
 - **Aseptic technique:** sterile bottles, don't touch inside, flame/sterilize tools as required.
 - **Why:** proves disinfection works.
 - **High:** disinfection failure (low residual, fouled UV, high TSS, short-circuiting) or contaminated sample.

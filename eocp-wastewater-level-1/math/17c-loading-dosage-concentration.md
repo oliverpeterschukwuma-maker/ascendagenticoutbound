@@ -3,7 +3,7 @@
 ← [17B](17b-area-volume-flow-time.md) · [Course index](../README.md) · Next → [17D — Process, Pumps, Pressure & Lab](17d-process-pumps-pressure-lab.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **F/M** = Food-to-Microorganism ratio · **gpd** = gallons per day · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLSS** = Mixed Liquor Suspended Solids · **m³/d** = cubic metres per day · **OSHA** = Occupational Safety and Health Administration (US) · **ppm** = parts per million · **SG** = Specific Gravity · **SRT** = Solids Retention Time · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpd** = gallons per day · **HTH** = High-Test Hypochlorite (calcium hypochlorite) · **H₂S** = hydrogen sulphide · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLSS** = Mixed Liquor Suspended Solids · **m³/d** = cubic metres per day · **OSHA** = Occupational Safety and Health Administration (US) · **ppm** = parts per million · **SG** = Specific Gravity · **SRT** = Solids Retention Time · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge
 <!-- abbr-end -->
 
 > **The single most important formula in wastewater math is the "pounds formula" (US) / "kilograms formula" (metric).** It converts a **concentration** (mg/L) into a **mass per day** (kg/d or lb/d). Once you understand it, half the exam math becomes easy: BOD (Biochemical Oxygen Demand) loading, solids loading, chlorine feed, chemical feed, sludge wasting, solids inventory.
@@ -219,6 +219,17 @@ US: make 50 gal of 2% from 15% → V₁ = 2 × 50 ÷ 15 = **6.67 gal** of 15%.
 
 **COMMON MISTAKE:** putting the numbers in the wrong spots. Check: the stock volume (V₁) must be **smaller** than the final volume (V₂).
 
+### C9b. The dilution box — mixing two solutions (from EOCP's 2022 math guide)
+Use it when you mix a **strong** solution with a **weak** one (not plain water) to get a strength in between.
+```
+ Strong  15% ─┐        ┌─  8 − 2.1 = 5.9 parts of the 15%
+              ├─  8% ──┤
+ Weak   2.1% ─┘        └─ 15 − 8  = 7.0 parts of the 2.1%
+                              total = 12.9 parts
+```
+Subtract **diagonally** (ignore minus signs). *Make 2,500 L of 8%:* 15% → 5.9 ÷ 12.9 × 2,500 = **1,143 L**; 2.1% → 7.0 ÷ 12.9 × 2,500 = **1,357 L**. Check: 1,143 + 1,357 = 2,500 ✔.
+**WHY IT WORKS:** the closer the target is to one solution, the more of that solution you need — so each side gets the "distance" from the *other* side.
+
 ---
 
 ## C10. Chemical feed pump setting (mL/min) — liquid chemicals
@@ -237,6 +248,8 @@ Feed (gpd) = lb/day of active chemical ÷ (8.34 × specific gravity × active st
 **WHAT IT MEANS:** how fast a metering pump must deliver a liquid product to give the target dose.
 
 **WHY IT WORKS (plain words):** Step by step: flow (m³/d) × dose (mg/L) = grams per day of pure chemical needed. The product is only partly active and each mL weighs a certain amount (density), so dividing by (density × active fraction) turns grams of pure chemical into mL of product per day. Dividing by 1,440 (minutes in a day) gives mL per minute for the pump.
+
+> ⚠ **EOCP (Environmental Operators Certification Program)'s 2022 math guide notes the two sheet formulas don't match:** the metric version divides by the chemical's **% strength (as a decimal)** but the US version (MGD × mg/L × 3.785 × 1,000,000 ÷ (density mg/mL × 1,440)) does **not**. The guide says this is "under review by ABC/EOCP" and to **use the formula exactly as printed on the handout** for the units you choose. So: if the question gives a % strength, use the **metric** formula (or divide your US answer by the strength).
 
 **WHY IT WORKS:** m³/d × mg/L = g/d of active chemical → ÷ (g/mL × fraction active) = mL/d of product → ÷ 1,440 min/d = mL/min.
 
