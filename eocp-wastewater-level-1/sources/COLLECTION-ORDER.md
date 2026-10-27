@@ -14,8 +14,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 5 | Candidate Instructions for ABC Web-Based Examinations | ✅ Received — [ABC-candidate-instructions-summary.md](ABC-candidate-instructions-summary.md) |
 | 6 | Sample Exam Questions (WPI online Wastewater sample, 20 Qs) | ✅ Received — all 20 answered in [eocp-official-practice.md](../practice/eocp-official-practice.md); Q10 = **± 3 h** confirmed |
 | 7 | Sample Math Questions (EOCP Math Test Questions, 50 Qs) | ✅ Received — all 50 solved in [eocp-math-test-questions.md](../practice/eocp-math-test-questions.md); cone/pipe/sphere lesson added to 17B |
-| 8 | Math for Operators – Wastewater Level I and II | ⏳ **Next** |
-| 9 | 2022 Guide to the EOCP and ABC formulas | ☐ |
+| 8 | Math for Operators – Wastewater Level I and II | ✅ Received — [EOCP-math-for-operators-summary.md](EOCP-math-for-operators-summary.md); 20 Level I questions solved |
+| 9 | 2022 Guide to the EOCP and ABC formulas | ⏳ **Next** |
 | 10 | A Guide to Solving Math Problems | ☐ |
 | 11 | Math Illustrated | ☐ |
 | 12 | Guide for applying for an EOCP exam | ☐ |

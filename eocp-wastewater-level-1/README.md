@@ -43,6 +43,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
 | [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
 | [sources/EOCP-exam-prep-page-summary.md](sources/EOCP-exam-prep-page-summary.md) | ✅ **EOCP Exam Preparation page**: documents given at the exam, ID, late/reschedule rules, contacts |
+| [sources/EOCP-math-for-operators-summary.md](sources/EOCP-math-for-operators-summary.md) | ✅ **EOCP Math for Operators guide** — π = 3.14 confirmed, MCRT/SRT/sludge age, key errors found |
 | [sources/ABC-candidate-instructions-summary.md](sources/ABC-candidate-instructions-summary.md) | ✅ **ABC (Association of Boards of Certification) exam-room rules & software** — closed book, blank = wrong, Cover not Exit |
 | [sources/EOCP-conversion-chart-summary.md](sources/EOCP-conversion-chart-summary.md) | ✅ **EOCP Conversion Chart** — arrow rule, Imperial vs US gallons |
 | [sources/EOCP-formula-sheet-summary.md](sources/EOCP-formula-sheet-summary.md) | ✅ **EOCP Formulae, Conversions & Abbreviations** sheet — symbols, extra formulas, 9.81 |
@@ -98,13 +99,13 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | [mock-exam-1.md](practice/mock-exam-1.md) | Full 100-question mock, weighted 39/38/13/10 like the real exam, with explanations and a score-by-area table |
 | [mock-exam-2.md](practice/mock-exam-2.md) | Second full 100-question mock, all-new questions |
 | [eocp-official-practice.md](practice/eocp-official-practice.md) | ✅ **Official WPI/ABC Wastewater sample — all 20 questions with answers** + links to the other EOCP practice files |
-| [eocp-math-test-questions.md](practice/eocp-math-test-questions.md) | ✅ **EOCP Math Test Questions — all 50 solved step by step** (matches EOCP's answer sheet) |
+| [eocp-math-test-questions.md](practice/eocp-math-test-questions.md) | ✅ **EOCP Math Test (50) + Math for Operators Level I (20) — all solved step by step** |
 
 ### Part E — Review (`review/`)
 | File | What it is |
 |---|---|
 | [video-library.md](review/video-library.md) | **YouTube videos for the harder topics**, by module (also linked at the top of each module) |
-| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **282 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **284 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
 | [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
 | [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
 
@@ -118,10 +119,10 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 | Type | Count |
 |---|---|
 | Module quiz questions (with explanations) | 304 |
-| Math practice problems (with worked answers) | 256 (incl. 50 official EOCP) |
+| Math practice problems (with worked answers) | 276 (incl. 70 official EOCP) |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
-| Flashcards | 282 |
+| Flashcards | 284 |
 | YouTube videos linked | 60+ |
 
 ---

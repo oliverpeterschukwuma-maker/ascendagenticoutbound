@@ -3,7 +3,7 @@
 ← [17C](17c-loading-dosage-concentration.md) · [Course index](../README.md) · Next → [17E — Math Practice Bank](17e-math-practice-bank.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **bhp** = brake horsepower · **BOD** = Biochemical Oxygen Demand · **DO** = Dissolved Oxygen · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **kWh** = kilowatt-hour · **L/s** = litres per second · **MCRT** = Mean Cell Residence Time · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mhp** = motor horsepower · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **bhp** = brake horsepower · **BOD** = Biochemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **kWh** = kilowatt-hour · **L/s** = litres per second · **MCRT** = Mean Cell Residence Time · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mhp** = motor horsepower · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower
 <!-- abbr-end -->
 
 > These formulas build on 17C (the kg/day formula). If F/M (Food-to-Microorganism ratio) or SRT (Solids Retention Time) looks scary, notice that **every one of them is just "kg ÷ kg" or "kg ÷ kg/day"** — you calculate two masses with the kg formula, then divide.
@@ -112,6 +112,14 @@ Sludge age (days) = kg of MLSS in aeration ÷ kg/d of TSS entering the aeration 
 ```
 *MLSS 2,400 mg/L in 1,800 m³ = 4,320 kg; primary effluent TSS 80 mg/L at 6,000 m³/d = 480 kg/d → sludge age = 9 days.*
 **Read the question carefully** — "sludge age" (solids **in**) and "SRT/MCRT" (solids **out**) use different denominators.
+
+**✅ How EOCP (Environmental Operators Certification Program)'s own math guide (*Math for Operators*) separates the three:**
+| Name | Solids in the system (top) | Divided by (bottom) |
+|---|---|---|
+| **MCRT** (Mean Cell Residence Time) | MLSS × (**aeration + clarifier** volume) | WAS kg/d **+ effluent** SS kg/d |
+| **SRT** | MLSS × **aeration** volume only | WAS kg/d only |
+| **Sludge age** | MLSS × aeration volume | solids **added** per day (influent) |
+*EOCP example: aeration + clarifier 1,800 m³, MLSS 2,625 mg/L → 4,725 kg; WAS 750 + effluent 15 = 765 kg/d → MCRT = **6.2 days** (the guide rounds to 6).* So if a question gives a clarifier volume and says **MCRT**, add it in.
 
 **COMMON MISTAKES:** forgetting effluent solids; mixing MLSS and MLVSS; using flow instead of volume for the inventory.
 

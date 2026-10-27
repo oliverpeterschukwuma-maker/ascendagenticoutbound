@@ -1,9 +1,9 @@
-# EOCP Math Test Questions — all 50, solved
+# EOCP Official Math Practice — 50 Math Test Questions + 20 *Math for Operators* questions, solved
 
 ← [Course index](../README.md) · [EOCP official practice](eocp-official-practice.md) · [Formula sheet](../math/formula-and-conversion-sheet.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **kPa** = kilopascal · **L/s** = litres per second · **mg/L** = milligrams per litre · **mL** = millilitre · **m³/d** = cubic metres per day · **SS** = Suspended Solids
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DAF** = Dissolved Air Flotation · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **kPa** = kilopascal · **L/s** = litres per second · **MCRT** = Mean Cell Residence Time · **mg/L** = milligrams per litre · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **SS** = Suspended Solids · **WAS** = Waste Activated Sludge
 <!-- abbr-end -->
 
 **Source:** *EOCP (Environmental Operators Certification Program) Math Test Questions* (9 pages, 50 multiple-choice questions + answer sheet), from the EOCP *Preparing for Your Exam* page. Questions are written here in short form; **every answer below matches EOCP's own answer sheet** and was re-checked by calculation.
@@ -192,3 +192,34 @@
 | Pressure | 1 |
 
 **Matching course lessons:** unit conversions & percent → [17A](../math/17a-math-foundations.md) · area, volume, flow, fill time, detention time → [17B](../math/17b-area-volume-flow-time.md) · kg/day, chlorine demand, % strength → [17C](../math/17c-loading-dosage-concentration.md) · pressure → [17D](../math/17d-process-pumps-pressure-lab.md).
+
+---
+
+## Part 2 — EOCP *Math for Operators* guide: Level I practice questions (20)
+
+**Source:** *Metric Math for Operators — Wastewater Treatment Levels I and II* (G. Faris, EOCP, 2017), "Typical Certification Questions for Level 1" with the guide's answer key. Every answer below was re-calculated. **3 answers in EOCP's printed key are wrong** (Q8, Q15, Q19) — the correct working is shown and marked ⚠.
+
+| # | Question | EOCP key | Correct answer | How to solve it |
+|---|---|---|---|---|
+| 1 | Daily concentrations Mon–Fri: 0.0069, 0.0085, 0.0094, 0.0079, 0.0052 mg/L. Daily average? | 0.0076 mg/L | **0.0076 mg/L** | Add all 5 = 0.0379, ÷ 5 = **0.0076 mg/L**. |
+| 2 | Area of a tank 14 m in diameter? | 153.9 m² | **153.9 m²** | r = 7 m → 3.14 × 7 × 7 = **153.9 m²** (same as 0.785 × 14²). |
+| 3 | Pressure (kPa) at the bottom of a tank with 11.67 m of water? | 114.4 kPa | **114.4 kPa** | 11.67 × 9.8 = **114.4 kPa**. |
+| 4 | Trench 50 m long, 1.2 m wide, 1.8 m deep. m³ of soil dug out? | 108 m³ | **108 m³** | 50 × 1.2 × 1.8 = **108 m³**. |
+| 5 | 375 L of polymer cost $22.50. What do 19,000 L cost? | $1,140.00 | **$1,140** | Cost per litre = 22.50 ÷ 375 = $0.06. × 19,000 = **$1,140**. |
+| 6 | Velocity (m/s) in a 250 mm pipe carrying 35.5 L/s? | 0.72 m/s | **0.72 m/s** | Convert: 250 mm = 0.25 m (r = 0.125 m); 35.5 L/s = 0.0355 m³/s. Area = 3.14 × 0.125² = 0.0491 m². V = Q ÷ A = 0.0355 ÷ 0.0491 = **0.72 m/s**. |
+| 7 | Chlorinator setting (kg/d) for 3 mg/L at a flow of 55 L/s? | 14.27 kg/day | **14.3 kg/d** | 55 L/s × 86,400 s/d = 4,752,000 L/d = **4.752 ML/d**. kg/d = 3 × 4.752 = **14.26 kg/d**. |
+| 8 | A plant uses 68 kg/d of chlorine gas. Demand 1.85 mg/L, residual 0.2 mg/L. Flow in ML/d? | 36.4 ML/day | **33.2 ML/d** ⚠ | Dose = demand + residual = 1.85 + 0.2 = 2.05 mg/L. Flow = kg/d ÷ mg/L = 68 ÷ 2.05 = **33.2 ML/d**. ⚠ **EOCP's key says 36.4 — that appears to be an error** (36.4 would need a dose of 1.87 mg/L). Trust the method. |
+| 9 | 45 kg of Mg(OH)₂ is dissolved in 750 L of water. Percent strength? | 5.6% | **5.7%** | 750 L of water = 750 kg. % = chemical ÷ (chemical + water) × 100 = 45 ÷ 795 × 100 = **5.66%** (key rounds to 5.6%). Trap: 45 ÷ 750 = 6% forgets to add the chemical's own weight. |
+| 10 | Volume (m³) of a pipeline 760 mm in diameter and 4.5 km long? | 2,040 m³ | **2,040 m³** | r = 0.38 m; length = 4,500 m. V = 3.14 × 0.38² × 4,500 = **2,040 m³**. |
+| 11 | Secondary clarifier: diameter 30 m, flow 9,200 m³/d, MLSS (Mixed Liquor Suspended Solids) 2,560 mg/L. Solids loading rate? | 33 kg/m²/day | **33.3 kg/m²·d** | Solids = 2,560 × 9.2 ML = 23,552 kg/d. Area = 3.14 × 15² = 706.5 m². Loading = 23,552 ÷ 706.5 = **33.3 kg/m²·d**. |
+| 12 | WAS (Waste Activated Sludge) pumping rate (L/s) to waste 1,800 kg/d at a WAS concentration of 4,610 mg/L? | 4.5 L/s | **4.5 L/s** | ML/d = kg/d ÷ mg/L = 1,800 ÷ 4,610 = 0.3905 ML/d = 390,500 L/d. ÷ 86,400 s/d = **4.5 L/s**. |
+| 13 | Flow 14,000 m³/d; primary influent SS 225 mg/L, effluent SS 98 mg/L. kg/d of dry solids produced? | 1,778 kg | **1,778 kg/d** | Removed = 225 − 98 = 127 mg/L. kg/d = 127 × 14 ML/d = **1,778 kg/d**. |
+| 14 | Lagoon: 1,200 m³/d, BOD (Biochemical Oxygen Demand) 212 mg/L, 3.5 ha. Organic loading in kg BOD/ha/day? | 72.7 | **72.7 kg BOD/ha·d** | BOD = 212 × 1.2 ML/d = 254.4 kg/d. ÷ 3.5 ha = **72.7 kg/ha·d**. |
+| 15 | Flow 6,965 m³/d with a COD (Chemical Oxygen Demand) loading of 1,200 kg/d. COD concentration in mg/L? | 8,358 kg/day | **172 mg/L** ⚠ | mg/L = kg/d ÷ ML/d = 1,200 ÷ 6.965 = **172 mg/L**. ⚠ **EOCP's key (8,358 kg/day) is wrong** — it multiplied instead of dividing, and the question asks for mg/L. |
+| 16 | MCRT (Mean Cell Residence Time): aeration 2,900 m³, clarifier 900 m³, MLSS 2,475 mg/L, WAS 1,100 kg/d, effluent SS 18 kg/d. | 8.4 days | **8.4 days** | Solids in system = 2,475 × (2,900 + 900 = 3.8 ML) = 9,405 kg. Lost = 1,100 + 18 = 1,118 kg/d. MCRT = 9,405 ÷ 1,118 = **8.4 days**. (EOCP's MCRT **includes the clarifier volume**.) |
+| 17 | F:M: primary effluent 10,939 m³/d, BOD 190 mg/L, aeration 1,200 m³, MLVSS (Mixed Liquor Volatile Suspended Solids) 2,270 mg/L. | 0.76 | **0.76** | Food = 190 × 10.939 = 2,078 kg BOD/d. Bugs = 2,270 × 1.2 = 2,724 kg MLVSS. F:M = 2,078 ÷ 2,724 = **0.76**. |
+| 18 | DAF (Dissolved Air Flotation) thickener 19 m × 4 m receives 600 m³/d of WAS at 4,200 mg/L. Solids loading in kg/hr/m²? | 1.4 | **1.4 kg/h·m²** | Solids = 4,200 × 0.6 ML = 2,520 kg/d ÷ 24 = 105 kg/h. Area = 76 m². 105 ÷ 76 = **1.4 kg/h·m²**. |
+| 19 | A drying bed 90 m × 15 m gets sludge 120 mm deep. How many litres? | 16,000 L | **162,000 L** ⚠ | 120 mm = 0.12 m. V = 90 × 15 × 0.12 = 162 m³ × 1,000 = **162,000 L**. ⚠ **EOCP's key (16,000 L) is off by 10×** — it matches a 12 mm depth, not 120 mm. |
+| 20 | A 90 m² filter receives 320 L/s. Filtration rate in L/min/m²? | 213 | **213 L/min·m²** | 320 L/s × 60 = 19,200 L/min ÷ 90 m² = **213 L/min·m²**. |
+
+*(The guide also has 20 Level II questions — not needed for Level I.)*
