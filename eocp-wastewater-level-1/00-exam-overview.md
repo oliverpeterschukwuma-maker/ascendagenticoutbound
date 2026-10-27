@@ -49,8 +49,9 @@
 | Still to confirm | **Exact list of allowed calculator models**, fees, booking process | Ask EOCP: eocp@eocp.ca · 1-866-552-3627 |
 
 ### Who can write Level I (EOCP eligibility) [OFFICIAL — EOCP "How to Become an Operator"]
-- **Level I:** 12 months (**1,800 hours**) of hands-on operating experience, verified on your Application for Certification.
-- **Education:** High school diploma, GED, adult graduation diploma, or equivalent. No extra formal water/wastewater education is required.
+- **Level I:** 12 months (**1,800 hours**) of hands-on operating experience **at a Class I or higher facility** — this is the requirement to be **eligible to write** the exam. Hours are verified with the **Supervisor Verification Form** (required for every exam application).
+- **Employment:** you must be **employed, or have an employment offer letter, with an employer in BC or Yukon**.
+- **Education:** High school — diploma/transcript, BC Adult Graduation Diploma, Red Seal certificate, post-secondary diploma requiring high school, or **CAEC** (replaced the GED in 2024). No extra formal water/wastewater education is required.
 - **Location:** You must work or live in **BC or Yukon**.
 - **Related experience:** At the EOCP Board's discretion, related work (maintenance, labs, other water/pollution-control jobs, allied trades such as plumber or millwright) can count for **up to half** of the Level I experience.
 - **OIT (Operator in Training):** **Optional.** Needs 3 months (500 hours) of hands-on experience **or** 90 hours (9.0 CEUs (Continuing Education Units)) of an approved, directly applicable course. Useful if you're starting out before you have 1,800 hours.

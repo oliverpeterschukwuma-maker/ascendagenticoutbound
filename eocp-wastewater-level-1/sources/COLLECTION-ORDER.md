@@ -18,7 +18,7 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 9 | 2022 Guide to the EOCP and ABC formulas | ✅ Received — [EOCP-2022-formula-guide-summary.md](EOCP-2022-formula-guide-summary.md) |
 | 10 | A Guide to Solving Math Problems | ✅ Received — [EOCP-guide-to-solving-math-problems-summary.md](EOCP-guide-to-solving-math-problems-summary.md); 17A Lesson 8b |
 | 11 | Math Illustrated | ✅ Received — [EOCP-math-illustrated-summary.md](EOCP-math-illustrated-summary.md); 17B §B5c shapes |
-| 12 | Guide for applying for an EOCP exam | ⏳ **Next** |
+| 12 | Guide for applying for an EOCP exam | 🔶 Got the *Exam Requirements* page ([summary](EOCP-exam-requirements-summary.md)) — still need the **CRM walk-through guide** ("click here" link on that page) · ⏳ **Next** |
 | 13 | "Experience ABC's Computerized Exams" — demo | 🔶 Partly seen via the sample test screenshots (Cover, Help, !, Time, mark-for-review box, < >, >>; no on-screen calculator visible) |
 | 14 | EOCP SWWS Sample Exam (Small Wastewater Systems) | ☐ |
 | 15 | EOCP OIT Sample Exam | ☐ |

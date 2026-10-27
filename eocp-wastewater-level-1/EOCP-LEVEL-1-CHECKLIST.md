@@ -18,14 +18,14 @@
 
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
-| A1 | Experience required for Level I | ✅ Confirmed | **12 months / 1,800 hours** of hands-on operating experience (EOCP "How to Become an Operator") |
-| A2 | Education required | ✅ Confirmed | High school diploma, GED, adult graduation diploma, or post-secondary diploma where high school was required |
-| A3 | Residency | ✅ Confirmed | Must work or live in **BC or Yukon** |
+| A1 | Experience required for Level I | ✅ Confirmed | **12 months (1,800 hours) at a Class I or higher facility** (EOCP "Exam Requirements" page) |
+| A2 | Education required | ✅ Confirmed | **High school** — proof by: official diploma/transcript (Ministry of Education) · BC Adult Graduation Diploma · Red Seal Certificate of Qualification · post-secondary diploma that required high school · **CAEC** (Canadian Adult Education Credential — replaced the GED in 2024) |
+| A3 | Residency / employment | ✅ Confirmed | You **must be employed, or have an employment offer letter, with an employer in BC or Yukon** (EOCP "Exam Requirements" page) |
 | A4 | Can related experience count? | ✅ Confirmed | At the EOCP Board's discretion, related experience (maintenance, labs, other water/pollution-control jobs, allied trades such as plumber or millwright) can replace **up to half** of the Level I experience |
 | A5 | OIT (Operator in Training) option | ✅ Confirmed | Optional. 3 months (500 h) hands-on **or** 90 hours (9.0 CEUs — Continuing Education Units) of an approved course |
 | A6 | Does my facility's work count as "wastewater treatment" experience? Is my plant classified? | ❓ Find it | Ask your supervisor and EOCP. Find your facility's **EOCP classification level**: ________ |
-| A7 | Can I write the exam **before** I have all 1,800 hours (e.g., exam now, certificate later)? | ❓ Find it | EOCP "Exam Requirements" page / email EOCP: ________ |
-| A8 | How are my hours verified? (form, supervisor signature) | ❓ Find it | Application for Certification form: ________ |
+| A7 | Can I write the exam **before** I have all 1,800 hours? | 🔶 Very likely **no** | EOCP lists 12 months / 1,800 h as the requirement for "**eligibility to write the examinations**". If you're short, ask EOCP about OIT or related-experience credit: ________ |
+| A8 | How are my hours verified? | ✅ Confirmed | **Supervisor Verification Form — required for ALL exam applications** (download from the EOCP Exam Requirements page). Apply through the **EOCP CRM** (online portal) |
 
 ## B. Applying and booking
 
