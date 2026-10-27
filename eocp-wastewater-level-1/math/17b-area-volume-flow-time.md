@@ -3,7 +3,7 @@
 ← [17A — Foundations](17a-math-foundations.md) · [Course index](../README.md) · Next → [17C — Loading, Dosage & Concentration](17c-loading-dosage-concentration.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **gpd** = gallons per day · **gpm** = gallons per minute · **HRT** = Hydraulic Retention Time · **L/s** = litres per second · **MGD** = Million Gallons per Day · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **RAS** = Return Activated Sludge · **SOR** = Surface Overflow Rate · **WOR** = Weir Overflow Rate
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **gpd** = gallons per day · **gpm** = gallons per minute · **HRT** = Hydraulic Retention Time · **L/s** = litres per second · **MGD** = Million Gallons per Day · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **RAS** = Return Activated Sludge · **SOR** = Surface Overflow Rate · **WOR** = Weir Overflow Rate
 <!-- abbr-end -->
 
 **Use π = 3.14** (the EOCP (Environmental Operators Certification Program) exam value) and **0.785** for circle areas (0.785 = π ÷ 4).
@@ -138,6 +138,22 @@ US: 100 ft × 25 ft × 12 ft = 30,000 ft³ × 7.48 = **224,400 gal**.
 | Sphere | `π × D³ ÷ 6` | D 45 cm → 3.14 × 91,125 ÷ 6 = 47,689 cm³ = **47.7 L** |
 
 **COMMON MISTAKE:** using pipe diameter in mm or cm with a length in metres. Convert first: 300 mm = 0.3 m; 20 cm = 0.2 m. And 1,000 cm³ = 1 L.
+
+### B5c. Other shapes on the formula sheets (EOCP *Math Illustrated*)
+
+| Shape | Where you see it | Formula | EOCP example |
+|---|---|---|---|
+| **Perimeter** (rectangle) | fencing | `2 × (L + W)` | 45 m × 18 m lot → 2 × 63 = **126 m** |
+| **Triangle** area | cross-section of a pile | `Base × Height ÷ 2` | 7 m wide, 3 m high → **10.5 m²** |
+| **Trapezoid** area | trench or pile cross-section | `(side 1 + side 2) ÷ 2 × height` | base 5 m, top 2.5 m, 2 m high → 3.75 × 2 = **7.5 m²** |
+| **Prism** (triangle × length) | compost or spoil pile, hopper-bottom tank | `Base × Height ÷ 2 × Length` | 6 m × 3 m ÷ 2 × 30 m = **270 m³** |
+| **Lagoon** (sloped sides) | lagoons | `avg length × avg width × depth` = `(L_top + L_bot) ÷ 2 × (W_top + W_bot) ÷ 2 × D` | top 300 × 100 m, bottom 280 × 80 m, 2.5 m deep → 290 × 90 × 2.5 = **65,250 m³** |
+| **Pipe/tank outside surface** (for paint) | coating | `π × D × length` | 600 mm × 1.2 km → 3.14 × 0.6 × 1,200 = **2,260.8 m²** |
+| **Sphere** surface | air bubble, gas holder | `4 × π × r²` | (recognize) |
+
+**WHY the lagoon formula works:** sloped sides make the lagoon wider at the top than the bottom, so you use the **average** length and **average** width — like straightening the slopes into a box.
+
+> **Calculator note (EOCP *Math Illustrated*):** "it is generally accepted that the math questions on a certification exam can be solved with a **basic four-function calculator**" — so **square roots are unlikely** (e.g., the cone surface-area formula is on the ABC (Association of Boards of Certification) sheet, but don't expect to need it).
 
 ---
 
