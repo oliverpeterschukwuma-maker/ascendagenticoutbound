@@ -3,7 +3,7 @@
 ← [Course index](README.md) · Documents & links → [SOURCES-TO-GET.md](SOURCES-TO-GET.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BCWWA** = BC Water & Waste Association · **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BCWWA** = BC Water & Waste Association · **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **MCC** = Motor Control Centre · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **How to use this page:** work down the list. Items marked **✅ Confirmed** were confirmed through search results quoting EOCP/WPI. Items marked **❓ Find it** are **missing** — you need to look them up on the EOCP (Environmental Operators Certification Program) website (or email EOCP) and write the answer in the blank. Once you fill them in, tell Claude and the course will be updated.
@@ -46,9 +46,9 @@
 | C1 | Which exam | ✅ Confirmed | WPI standardized **Wastewater Treatment Class I** — in use at EOCP since **July 2025** |
 | C2 | Number of questions | ✅ Confirmed | **100 scored** + about **10 unscored pretest** (EOCP lists **110** total) |
 | C3 | Pass mark | ✅ Confirmed (2021 guide) | **70%** — confirm in the current Program Guide |
-| C4 | Content areas & weights | ✅ Confirmed (via search) | Equipment ≈ 39% · Treatment Process ≈ 38% · Security/Safety/Admin ≈ 13% · Lab ≈ 10% — **double-check in the NTK (Need-to-Know Criteria) PDF** |
+| C4 | Content areas & weights | ✅ Confirmed (official NTK (Need-to-Know Criteria) PDF) | Equipment 39 · Treatment Process 38 · Security/Safety/Admin 13 · Lab 10 · **~40% recall, ~60% application, 10 calculation questions (9 process, 1 lab)** |
 | C5 | Question style | ✅ Confirmed | Multiple choice, 4 options; recall, application and calculation items |
-| C6 | Units | ✅ Confirmed | Math in both **metric and US** units |
+| C6 | Units | ✅ Confirmed | **US units first, metric in brackets**; each calculation can be solved in either |
 | C7 | π value | ✅ Confirmed | **3.14** |
 | C8 | Formula/conversion table provided | ✅ Confirmed | Yes — **get a copy to practise with** (C9) |
 | C9 | A copy of the **2025 WPI formula/conversion table** | ❓ Find it | EOCP Exam Preparation page or WPI's Need-to-Know page |
@@ -56,8 +56,8 @@
 | C11 | **Calculator** rules (which models allowed; on-screen calculator?) | ❓ Find it | ________ |
 | C12 | **Computer-based** format details (practice tutorial, flagging questions, going back) | ❓ Find it | ________ |
 | C13 | Scratch paper allowed? | ❓ Find it | ________ |
-| C14 | The **Need-to-Know (NTK)** job-task list | ❓ Find it | Download the 2025 WPI Wastewater Treatment Class I NTK (link in SOURCES-TO-GET) |
-| C15 | The NTK's **reference book list** | ❓ Find it | Inside the NTK PDF: ________ |
+| C14 | The **Need-to-Know (NTK)** job-task list | ✅ Received | Summary and module map: [sources/NTK-2025-summary.md](sources/NTK-2025-summary.md) |
+| C15 | The NTK's **reference book list** | ✅ Confirmed | CSUS *Operation of Wastewater Treatment Plants* Vol. 1 & 2 (8th ed.) and WEF *Wastewater Treatment Fundamentals I – Liquid Treatment*; full list at gowpi.org → ABC Testing → Exam References |
 | C16 | Official **sample questions** for the new exams | ❓ Find it | EOCP Exam Preparation page / WPI: ________ |
 
 ## D. After the exam
@@ -87,7 +87,7 @@
 | Missing / unverified item | Why it's missing | What you can do |
 |---|---|---|
 | **EOCP's official practice questions** (Math Test Questions, SWWS & OIT sample exams) | Couldn't open eocp.ca | Download them (links in [SOURCES-TO-GET.md](SOURCES-TO-GET.md)) and give them to Claude to add with worked answers |
-| **Exact NTK job-task list** and reference books | Couldn't open gowpi.org | Download the NTK PDF; Claude will cross-check every module |
+| ~~Exact NTK job-task list and reference books~~ | ✅ Received and cross-checked | Gaps filled: mixers, MCC (Motor Control Centre), conveyors, hoists/cranes, coagulation/flocculation, nutrient enhancement, WET testing, metals, vulnerability assessments, complaints |
 | **Official 2025 formula/conversion sheet** | Couldn't open EOCP/WPI | Download it; Claude will update the study sheet to match exactly |
 | Exam **time limit, calculator rules, computer format, fees** | Not in search results | Fill in Section C/B above |
 | **WorkSafeBC exposure limits** (exact H₂S (hydrogen sulphide), chlorine numbers) | Couldn't open worksafebc.com | Look up the WorkSafeBC "table of exposure limits" |

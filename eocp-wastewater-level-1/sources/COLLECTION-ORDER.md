@@ -4,8 +4,8 @@ Send each item in order. When one arrives, Claude saves it here in `sources/`, u
 
 | # | Item | Status |
 |---|---|---|
-| 1 | WPI Wastewater Treatment Class I Need-to-Know (2025) PDF — https://www.gowpi.org/wp-content/uploads/2025/06/WastewaterTreatment-%E2%80%93-Class-1.pdf | ⏳ **Next** |
-| 2 | 2025 WPI formula/conversion sheet (linked from EOCP exam-prep page or https://gowpi.org/services/2025-need-to-know-criteria/) | ☐ |
+| 1 | WPI Wastewater Treatment Class I Need-to-Know (2025) PDF | ✅ Received — summarized in [NTK-2025-summary.md](NTK-2025-summary.md); course updated |
+| 2 | 2025 WPI formula/conversion sheet (linked from EOCP exam-prep page or https://gowpi.org/services/2025-need-to-know-criteria/) | ⏳ **Next** |
 | 3 | EOCP Exam Preparation page (PDF or copied text) — https://eocp.ca/certified-operators/preparing-for-your-exam/ | ☐ |
 | 4 | EOCP Math for Operators — Wastewater Level I & II — https://eocp.ca/wp-content/uploads/2020/09/Math-for-Operators-Wastewater-Level-I-and-II.pdf | ☐ |
 | 5 | Guide to the EOCP and ABC Formulas (2022) — https://eocp.ca/wp-content/uploads/2023/06/2022-EOCP-Guide-to-the-EOCP-and-ABC-formulas-G.Faris_.pdf | ☐ |

@@ -16,7 +16,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | **Format** | Multiple choice, 4 options, one best answer · **100 scored questions** (+ about 10 unscored pretest questions; EOCP lists 110 in total) |
 | **Pass mark** | **70%** (rewrite allowed 30 days after a failed attempt — EOCP Program Guide, April 2021; confirm the current guide) |
 | **Provided** | Formula/conversion table · **π = 3.14** · math appears in **both metric and US units** |
-| **What's tested (2025 WPI Need-to-Know)** | **Equipment ≈ 39% · Treatment Process ≈ 38% · Security/Safety/Admin ≈ 13% · Laboratory ≈ 10%** |
+| **What's tested (official 2025 WPI Need-to-Know ✅)** | **Equipment 39 · Treatment Process 38 · Security/Safety/Admin 13 · Laboratory 10** · ~40% recall / ~60% application · **only 10 calculation questions** (9 process, 1 lab) · US units first, metric in brackets |
 | **To be eligible** | ~**12 months (1,800 h)** operating experience · high school or equivalent · live/work in BC or Yukon |
 | **Still to confirm with EOCP** | Time limit, calculator rules, computer-based format details → see [00-exam-overview.md](00-exam-overview.md) |
 
@@ -41,6 +41,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 |---|---|
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
 | [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
+| [sources/NTK-2025-summary.md](sources/NTK-2025-summary.md) | ✅ **Official 2025 Need-to-Know**: exam breakdown and every job task mapped to its module |
 | [SOURCES-TO-GET.md](SOURCES-TO-GET.md) | Every official document (with links) to download yourself, plus questions to ask EOCP |
 
 ### Part B — Teaching modules (`modules/`)
@@ -67,7 +68,7 @@ Each module has the same 8 sections: **checklist → plain-English teaching → 
 | 16 | [Troubleshooting](modules/16-troubleshooting.md): 20 scenarios | Process/Equipment | 15 |
 | 17 | **MATH** — see Part C | All | — |
 | 18 | [Administration & BC Regulatory Framework](modules/18-administration.md) | Safety/Admin | 12 |
-| 19 | [Tertiary Filtration, Flow Equalization, Odour Control & Effluent/Residuals Disposal](modules/19-tertiary-effluent-odour.md) | Process/Equipment | 12 |
+| 19 | [Tertiary Filtration, Flow Equalization, Odour Control, Chemical Dosing & Effluent/Residuals Disposal](modules/19-tertiary-effluent-odour.md) | Process/Equipment | 16 |
 
 ### Part C — Math (`math/`): Module 17, from absolute beginner
 | Lesson | Topic | Practice |
@@ -95,7 +96,7 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | File | What it is |
 |---|---|
 | [video-library.md](review/video-library.md) | **YouTube videos for the harder topics**, by module (also linked at the top of each module) |
-| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **258 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **267 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
 | [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
 | [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
 
@@ -108,11 +109,11 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 
 | Type | Count |
 |---|---|
-| Module quiz questions (with explanations) | 293 |
+| Module quiz questions (with explanations) | 304 |
 | Math practice problems (with worked answers) | 182 |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
-| Flashcards | 258 |
+| Flashcards | 267 |
 | YouTube videos linked | 60+ |
 
 ---
