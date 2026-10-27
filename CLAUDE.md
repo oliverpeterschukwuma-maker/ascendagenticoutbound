@@ -102,6 +102,10 @@ python execution/run_deep_enrich.py --input .tmp/plumbing_canada__enriched.json 
 
 # Run the full 3-industry Canadian campaign (HVAC + Roofing + Plumbing, multi-tab sheet)
 python execution/run_canadian_campaign.py --count 100
+
+# Save any web page as a PDF (paste URLs interactively if none given; --serve = local web UI)
+python execution/url_to_pdf.py https://example.com/article [--mode article] [--out DIR]
+python execution/url_to_pdf.py --serve   # http://127.0.0.1:8765
 ```
 
 Exit codes for `scrape_leads.py`: `0` = success, `2` = quality gate failed (< 80% in-scope leads).
