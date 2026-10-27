@@ -23,8 +23,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 14 | EOCP SWWS Sample Exam (Small Wastewater Systems) | ✅ Received — all 25 with EOCP's key + explanations in [eocp-official-practice.md](../practice/eocp-official-practice.md) |
 | 15 | EOCP OIT Sample Exam | ✅ Received — all 25 with EOCP's key + explanations in [eocp-official-practice.md](../practice/eocp-official-practice.md) |
 | 16 | Newest EOCP Program Guide | ✅ Received (Apr 2021) — [EOCP-program-guide-summary.md](EOCP-program-guide-summary.md); checklist A6, A7, B1–B4, C2–C3, D1–D8 filled |
-| 17 | "That Four-Letter Word: EXAM!" Parts 1–3 (EOCP articles) | ⏳ **Next** |
-| 18 | EOCP answer: calculator rules (and exact exam length — the page uses "3-hour exam" as its example) | ☐ |
+| 17 | "That Four-Letter Word: EXAM!" Parts 1–3 | ✅ Received — [EOCP-four-letter-word-exam-summary.md](EOCP-four-letter-word-exam-summary.md) |
+| 18 | EOCP answer: calculator rules (and exact exam length — the page uses "3-hour exam" as its example) | ⏳ **Next** (one email covers #18–23) |
 | 19 | EOCP answer: fees and booking process | ☐ |
 | 20 | EOCP answer: can you write before having 1,800 hours? | ☐ |
 | 21 | EOCP answer: results and current rewrite rule | ☐ |

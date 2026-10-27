@@ -126,6 +126,14 @@ WPI questions are written from **job tasks**, so most questions are really askin
 | **Best action** | "What should the operator do FIRST?" | Safety first → verify the reading → least drastic effective action → notify/record |
 | **Calculation** | "A clarifier 18 m in diameter… calculate the surface overflow rate." | Formula sheet + units + sanity check (Module 17) |
 
+### How hard is it? [OFFICIAL — EOCP *Operator Digest*]
+| Year | Wastewater Treatment **Level I** pass rate |
+|---|---|
+| 2018 | **64%** |
+| 2020 | **68%** |
+
+WWT I has one of the **lowest Level I pass rates** (Water Treatment I was 91–95%). EOCP says operators struggle most with **math**, and that taking only a prep course isn't enough — **lots of practice questions** is what passing operators did. One operator who passed said there was **ample time**: they finished, reviewed everything and left after **2.5 hours**.
+
 ### Universal test-taking rules
 1. **Read the last line first.** Know what is being asked (units? first action? most likely cause?).
 2. **Watch qualifier words:** *most likely, first, best, NOT, EXCEPT, least, primary.* "NOT/EXCEPT" questions flip the logic — mark them mentally.
@@ -135,6 +143,8 @@ WPI questions are written from **job tasks**, so most questions are really askin
 6. **For math: estimate first.** If a detention time comes out as 400 hours or a flow velocity of 90 m/s, you made a unit error.
 7. **Never leave a question blank.** [OFFICIAL] The ABC candidate instructions say **unanswered questions are counted wrong** — so a guess can only help.
 8. **Flag and move on.** [OFFICIAL] The ABC exam lets you **mark questions for review, jump to any question, and change answers** until you finish. Do easy questions first, return to long math at the end.
+9. **Read every word.** EOCP's example: *"two clarifiers 30 m wide…"* — speed-readers miss "two" and get half the volume.
+10. **Trust your first answer.** Change it only when you spot a real mistake.
 
 ---
 

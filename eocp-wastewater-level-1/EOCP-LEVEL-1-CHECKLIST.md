@@ -52,7 +52,7 @@
 | C7 | π value | ✅ Confirmed | **3.14** |
 | C8 | Formula/conversion table provided | ✅ Confirmed | Yes — **get a copy to practise with** (C9) |
 | C9 | Copies of the exam reference sheets | ✅ Received all three | **ABC Formula/Conversion Table — Wastewater**, **EOCP Formulae, Conversions & Abbreviations**, **EOCP Conversion Chart** — course sheet matches all: [math/formula-and-conversion-sheet.md](math/formula-and-conversion-sheet.md) |
-| C10 | **Time limit** | 🔶 Very likely 3 h | EOCP's own page uses a **"3-hour exam"** as its example — confirm on your booking |
+| C10 | **Time limit** | 🔶 Very likely 3 h | EOCP's page uses a **"3-hour exam"** example; an operator who passed said there was **ample time** (left after 2.5 h) — confirm on your booking |
 | C11 | **Calculator** rules (which models allowed; on-screen calculator?) | 🔶 Partly | ✅ **Non-programmable only** (ABC Candidate Instructions). EOCP's math guide: exam math is solvable with a **basic four-function calculator** (no square roots expected). Still ask EOCP which models are allowed: ________ |
 | C12 | **Computer-based** format details | ✅ Confirmed | Web-based ABC exam: Help button, `>>` = next unanswered, mark for review, change answers anytime, "!" = comment, **Cover → Finish and display results → Mastery → Exit**; breaks = **Cover**, never Exit; no extra time — [summary](sources/ABC-candidate-instructions-summary.md). Try the demo (item #13) |
 | C13 | Scratch paper allowed? | ✅ Confirmed | **Provided** at the exam; you hand it back (with the formula table) at the end. **Closed book** — no own notes |

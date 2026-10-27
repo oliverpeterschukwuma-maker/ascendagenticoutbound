@@ -29,6 +29,8 @@ For **every module**, in order (Module 0 first):
 6. **Make or review the flashcards** for that module ([flashcards](../review/flashcards.md)).
 7. **Read the "Common exam traps"** — these are where most marks are lost.
 
+**Quiz yourself instead of re-reading** (EOCP (Environmental Operators Certification Program) *Operator Digest*): testing yourself — flashcards, practice questions, **fill-in-the-blank** notes like *"The radius is one-half the ______"* — sticks far better than reading the same page again.
+
 **Memory method — spaced repetition:** review new flashcards **the same day**, then **1 day later**, **3 days later**, **1 week later**, **2 weeks later**. Cards you get wrong go back to "tomorrow".
 
 ---
@@ -118,9 +120,13 @@ Once you've finished all modules:
 - [ ] Read the **Help** window first · `>>` = next unanswered · flag questions and come back · **blank = wrong**
 - [ ] Need a break? Click **"Cover"** (never "Exit") → "Resume" when back — the clock keeps running
 - [ ] Finish: **Cover** → check all answered → **Finish and display results** → **Mastery** (your score shows) → **Exit**
-- [ ] Slept well; ate; water
+- [ ] Slept well; ate; **drank water before** — ✅ EOCP: **no food or drinks (not even water), no hats, no electronics** (phones, **smart watches**, tablets) in the exam room
+- [ ] Pen/pencil for working out math (scratch paper is provided)
 - [ ] Arrive early
 - [ ] Read the **last line** of each question first; watch **NOT / EXCEPT / FIRST / MOST LIKELY**
 - [ ] **Safety first → verify → check equipment → small change** for "what should the operator do" questions
 - [ ] **π = 3.14**; units checked; answers sanity-checked
 - [ ] Flag and return; answer everything
+- [ ] **Read every word** — e.g., "**two** clarifiers" doubles the volume (EOCP's own example of a missed word)
+- [ ] **Trust your first answer** — only change it if you find a clear mistake (EOCP trainers: people who fail by 2–3 questions often changed right answers to wrong ones)
+- [ ] Review at the end for blanks or double answers
