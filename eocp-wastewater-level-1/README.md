@@ -43,6 +43,7 @@ A complete self-study textbook and practice system for the **current (July 2025 
 | [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
 | [EOCP-LEVEL-1-CHECKLIST.md](EOCP-LEVEL-1-CHECKLIST.md) | **Everything EOCP-related you need for Level I**: confirmed facts ✅ and the missing items ❓ for you to look up (fees, booking, time limit, calculator, renewal, CEUs (Continuing Education Units)) |
 | [sources/EOCP-exam-prep-page-summary.md](sources/EOCP-exam-prep-page-summary.md) | ✅ **EOCP Exam Preparation page**: documents given at the exam, ID, late/reschedule rules, contacts |
+| [sources/EOCP-conversion-chart-summary.md](sources/EOCP-conversion-chart-summary.md) | ✅ **EOCP Conversion Chart** — arrow rule, Imperial vs US gallons |
 | [sources/EOCP-formula-sheet-summary.md](sources/EOCP-formula-sheet-summary.md) | ✅ **EOCP Formulae, Conversions & Abbreviations** sheet — symbols, extra formulas, 9.81 |
 | [sources/ABC-formula-sheet-summary.md](sources/ABC-formula-sheet-summary.md) | ✅ **Official exam formula sheet** — what's on it and what changed in the course |
 | [sources/NTK-2025-summary.md](sources/NTK-2025-summary.md) | ✅ **Official 2025 Need-to-Know**: exam breakdown and every job task mapped to its module |
@@ -77,7 +78,7 @@ Each module has the same 8 sections: **checklist → plain-English teaching → 
 ### Part C — Math (`math/`): Module 17, from absolute beginner
 | Lesson | Topic | Practice |
 |---|---|---|
-| [17A](math/17a-math-foundations.md) | Calculator, decimals, fractions, percent, ratios, rearranging formulas, units, the 8-step word-problem method | 26 |
+| [17A](math/17a-math-foundations.md) | Calculator, decimals, fractions, percent, ratios, rearranging formulas, units, **the EOCP conversion chart**, the 8-step word-problem method | 29 |
 | [17B](math/17b-area-volume-flow-time.md) | Area, volume, flow, velocity, conversions, detention time, SOR (Surface Overflow Rate), WOR (Weir Overflow Rate), pumping from level changes | 24 |
 | [17C](math/17c-loading-dosage-concentration.md) | mg/L (milligrams per litre) ↔ kg/d ↔ lb/d, chemical dose & purity, chlorine, % removal, solutions, dilution, feed pumps, sludge | 20 |
 | [17D](math/17d-process-pumps-pressure-lab.md) | F/M (Food-to-Microorganism ratio), SRT (Solids Retention Time), SVI (Sludge Volume Index), RAS (Return Activated Sludge), pressure/head, pump power, electricity, lab calculations, temperature | 24 |
@@ -101,7 +102,7 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | File | What it is |
 |---|---|
 | [video-library.md](review/video-library.md) | **YouTube videos for the harder topics**, by module (also linked at the top of each module) |
-| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **277 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **279 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
 | [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
 | [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
 
@@ -115,10 +116,10 @@ Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude
 | Type | Count |
 |---|---|
 | Module quiz questions (with explanations) | 304 |
-| Math practice problems (with worked answers) | 203 |
+| Math practice problems (with worked answers) | 206 |
 | Mixed practice questions | 60 |
 | Mock exam questions (2 × 100) | 200 |
-| Flashcards | 277 |
+| Flashcards | 279 |
 | YouTube videos linked | 60+ |
 
 ---

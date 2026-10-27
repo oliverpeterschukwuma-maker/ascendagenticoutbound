@@ -10,8 +10,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | — | EOCP Exam Preparation page | ✅ Received — [EOCP-exam-prep-page-summary.md](EOCP-exam-prep-page-summary.md) |
 | 2 | ABC Formula/Conversion Table — Wastewater (exam formula sheet) | ✅ Received — [ABC-formula-sheet-summary.md](ABC-formula-sheet-summary.md); course formula sheet matched; new lesson 17F |
 | 3 | EOCP Formulae, Conversions, and Abbreviations | ✅ Received — [EOCP-formula-sheet-summary.md](EOCP-formula-sheet-summary.md); 17F expanded |
-| 4 | EOCP Conversion Chart | ⏳ **Next** |
-| 5 | Candidate Instructions for ABC Web-Based Examinations | ☐ |
+| 4 | EOCP Conversion Chart | ✅ Received — [EOCP-conversion-chart-summary.md](EOCP-conversion-chart-summary.md) |
+| 5 | Candidate Instructions for ABC Web-Based Examinations | ⏳ **Next** |
 | 6 | Sample Exam Questions (Levels I–IV link) | ☐ |
 | 7 | Sample Math Questions | ☐ |
 | 8 | Math for Operators – Wastewater Level I and II | ☐ |

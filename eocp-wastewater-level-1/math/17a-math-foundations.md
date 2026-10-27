@@ -223,6 +223,23 @@ A conversion factor written as a fraction is just **"1"** (top and bottom are th
 ```
 **Cancel units that appear on top and bottom.** What's left (L/s) is your answer unit. If the units don't cancel to what you want, the setup is wrong — that's your **built-in error check**.
 
+### 7.4b Using the EOCP Conversion Chart (given at the exam)
+The chart shows units in circles joined by arrows with a number on each arrow.
+- **Going the same way as the arrow → MULTIPLY** by the number.
+- **Going against the arrow → DIVIDE** by the number.
+
+| Question | Arrow on the chart | Direction | Work |
+|---|---|---|---|
+| 5 psi = ? kPa | psi → kPa (6.895) | with the arrow | 5 × 6.895 = **34.5 kPa** |
+| 150 kPa = ? psi | psi → kPa (6.895) | against | 150 ÷ 6.895 = **21.8 psi** |
+| 2 m³ = ? US gal | m³ → US gal (264.2) | with | 2 × 264.2 = **528 gal** |
+| 500 US gal = ? m³ | m³ → US gal (264.2) | against | 500 ÷ 264.2 = **1.89 m³** |
+| 10 ft = ? m | m → ft (3.28) | against | 10 ÷ 3.28 = **3.05 m** |
+| 2.5 kg = ? lb | kg → lb (2.205) | with | 2.5 × 2.205 = **5.5 lb** |
+
+**Check:** converting to a **smaller** unit (m → cm, kg → g) should give a **bigger** number. If it doesn't, you went the wrong way.
+**Trap:** the chart also lists **Imperial gallons** (4.54 L). Exam gallons are **US gallons** (3.785 L).
+
 ### 7.5 Squares and square roots
 - **D² ("D squared")** = D × D. If D = 18 m, D² = 18 × 18 = **324 m²**.
 - **Square root (√)** undoes a square: √324 = 18. (Rare at Level I — e.g., finding diameter from area.)
@@ -299,6 +316,9 @@ A conversion factor written as a fraction is just **"1"** (top and bottom are th
 24. How many pounds does 500 gallons of water weigh?
 25. Calculate 22².
 26. Find the average of: 8.2, 7.6, 7.9, 8.1, 7.7.
+27. Using the conversion chart rule, convert 40 m³ to ft³ (arrow: m³ → ft³ × 35.31).
+28. Convert 12 L to US gallons (arrow: US gal → L × 3.785).
+29. A gauge reads 30 m of water. Convert to psi (arrow: m → psi × 1.42).
 
 ---
 
@@ -331,3 +351,6 @@ A conversion factor written as a fraction is just **"1"** (top and bottom are th
 | 24 | **4,170 lb** | 500 × 8.34 |
 | 25 | **484** | 22 × 22 |
 | 26 | **7.9** | (8.2 + 7.6 + 7.9 + 8.1 + 7.7) = 39.5 ÷ 5 |
+| 27 | **1,412 ft³** | 40 × 35.31 (with the arrow) |
+| 28 | **3.17 US gal** | 12 ÷ 3.785 (against the arrow) |
+| 29 | **42.6 psi** | 30 × 1.42 (with the arrow) |

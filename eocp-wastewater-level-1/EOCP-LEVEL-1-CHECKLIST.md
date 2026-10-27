@@ -51,7 +51,7 @@
 | C6 | Units | ✅ Confirmed | **US units first, metric in brackets**; each calculation can be solved in either |
 | C7 | π value | ✅ Confirmed | **3.14** |
 | C8 | Formula/conversion table provided | ✅ Confirmed | Yes — **get a copy to practise with** (C9) |
-| C9 | A copy of the exam formula sheets | ✅ Received both | **ABC Formula/Conversion Table — Wastewater** (uses 9.8) and **EOCP Formulae, Conversions & Abbreviations** (uses 9.81/9.807). Course sheet matches both: [math/formula-and-conversion-sheet.md](math/formula-and-conversion-sheet.md) |
+| C9 | Copies of the exam reference sheets | ✅ Received all three | **ABC Formula/Conversion Table — Wastewater**, **EOCP Formulae, Conversions & Abbreviations**, **EOCP Conversion Chart** — course sheet matches all: [math/formula-and-conversion-sheet.md](math/formula-and-conversion-sheet.md) |
 | C10 | **Time limit** | 🔶 Very likely 3 h | EOCP's own page uses a **"3-hour exam"** as its example — confirm on your booking |
 | C11 | **Calculator** rules (which models allowed; on-screen calculator?) | ❓ Find it | ________ |
 | C12 | **Computer-based** format details | 🔶 Partly | Exam is **web-based**; EOCP provides **"Candidate Instructions for ABC Web-Based Examinations"** at the exam and links **"Experience ABC's Computerized Exams"** (practice demo) — try it (collection items #5, #13) |

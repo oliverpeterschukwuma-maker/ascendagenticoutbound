@@ -146,6 +146,8 @@ TSS = Δg × 1,000,000 ÷ mL   ·   BOD = (DOi − DOf) × 300 ÷ mL   ·   °F 
 | 1 MGD (Million Gallons per Day) = 694.4 gpm (gallons per minute) = 1.55 cfs (cubic feet per second) · 1 cfs = 448.8 gpm | 1 gal = 3.785 L · 1 kg = 2.205 lb |
 | 1 psi (pounds per square inch) = 2.31 ft = 6.895 kPa (kilopascal) · 1 m ≈ 9.8 kPa | 1 hp = 0.746 kW (kilowatt) · 1 m = 3.281 ft |
 
+**Conversion Chart rule:** multiply **with** the arrow, divide **against** it. Exam gallons = **US** (3.785 L), not Imperial (4.54 L).
+
 ## 8. COMMON EXAM TRAPS
 
 1. **"FIRST" questions** → safety, then **verify**, then **check equipment**, then a small process change.
