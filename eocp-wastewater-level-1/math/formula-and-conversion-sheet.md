@@ -3,10 +3,10 @@
 ← [Course index](../README.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **AC** = Alternating Current · **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CFU/100 mL** = colony-forming units per 100 mL · **CT** = Concentration × Time · **DC** = Direct Current · **DO** = Dissolved Oxygen · **EDTA** = ethylenediaminetetraacetic acid (titrant) · **EOCP** = Environmental Operators Certification Program · **gpd** = gallons per day · **gpm** = gallons per minute · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **Lpd** = litres per day · **LSI** = Langelier Saturation Index · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLD** = million litres per day · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OUR** = Oxygen Uptake Rate · **PE** = Population Equivalent · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **SBOD₅** = soluble 5-day BOD · **SDI** = Sludge Density Index · **SOUR** = Specific Oxygen Uptake Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TOC** = Total Organic Carbon · **TSS** = Total Suspended Solids · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **AC** = Alternating Current · **bhp** = brake horsepower · **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **BTU** = British Thermal Unit · **CaCO₃** = calcium carbonate · **CFU/100 mL** = colony-forming units per 100 mL · **CT** = Concentration × Time · **DC** = Direct Current · **DO** = Dissolved Oxygen · **EDTA** = ethylenediaminetetraacetic acid (titrant) · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpd** = gallons per day · **gpm** = gallons per minute · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **Lpd** = litres per day · **LSI** = Langelier Saturation Index · **MCRT** = Mean Cell Residence Time · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mhp** = motor horsepower · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLD** = million litres per day · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OUR** = Oxygen Uptake Rate · **PE** = Population Equivalent · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **RASS** = Return Activated Suspended Solids · **RBC** = Rotating Biological Contactor · **SBOD₅** = soluble 5-day BOD · **SDI** = Sludge Density Index · **SG** = Specific Gravity · **SOUR** = Specific Oxygen Uptake Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV** = Settled Sludge Volume · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SV-30** = Settled sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TOC** = Total Organic Carbon · **TSS** = Total Suspended Solids · **WAS** = Waste Activated Sludge · **WASS** = Waste Activated Suspended Solids · **whp** = water horsepower · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
-> ✅ **Checked against the official sheet:** *ABC (Association of Boards of Certification) Formula/Conversion Table — Wastewater Treatment, Collection, Industrial Waste & Wastewater Laboratory Exams* (© 2017 ABC; the version EOCP (Environmental Operators Certification Program) hosts and provides at exam sessions). The formulas below follow the **same names and order** as the official sheet, rewritten in plain text, with the lesson where each is taught.
+> ✅ **Checked against BOTH official sheets given at the exam** — the ABC wastewater table (main list below) and the EOCP Formulae sheet ([section below](#the-second-sheet-eocp-formulae-conversions-and-abbreviations-also-given-at-the-exam)). ABC sheet: *ABC (Association of Boards of Certification) Formula/Conversion Table — Wastewater Treatment, Collection, Industrial Waste & Wastewater Laboratory Exams* (© 2017 ABC; the version EOCP (Environmental Operators Certification Program) hosts and provides at exam sessions). The formulas below follow the **same names and order** as the official sheet, rewritten in plain text, with the lesson where each is taught.
 > You **get the official sheet at the exam** — you don't need to memorize formulas. You need to **find** the right one quickly and **use** it correctly. Practise with your own printed copy.
 > **Key constants on the official sheet:** **π = 3.14** · **1 m of water = 9.8 kPa (kilopascal)** · power uses **9.8** · **8.34 lb/gal**.
 > WPI (Water Professionals International) revised its formula tables for the 2025 exams — if EOCP posts a newer wastewater table, compare it with this page.
@@ -118,6 +118,50 @@
 - **MG = million US gallons**; **MGD = million US gallons per day**; **gpd/gpm** = US gallons per day/minute.
 - **SS = settleable solids** on this sheet (elsewhere, e.g. federal effluent rules, SS means *suspended* solids — read the context).
 - **SBOD₅ = soluble BOD**; **SDI = sludge density index**; **PE = population equivalent**; **OUR/SOUR = (specific) oxygen uptake rate**; **TOC = total organic carbon**; **LSI = Langelier Saturation Index**.
+
+## The second sheet: EOCP Formulae, Conversions, and Abbreviations (also given at the exam)
+
+✅ Checked against *EOCP Formulae, Conversions, and Abbreviations* (4 pages, dated Sept 2006). Same ideas as the ABC sheet, written with **symbols** — learn them:
+
+| Symbol | Means | Symbol | Means |
+|---|---|---|---|
+| A, B, C, D, H, L, P, W | Area, Base, Circumference, Depth, Height, Length, Perimeter, Width | d / r | diameter / radius |
+| Q | flow | Q_B | filter backwash flow |
+| Q_int | internal flow within the plant | Q_W | sludge wasting flow |
+| Q_R | sludge recycle (RAS) flow | DR | dose (mg/L) |
+| Conc | concentration (mg/L, %, or decimal) | Den | density (g/cm³) |
+| % Chem | percentage of active ingredient | SG | specific gravity |
+| BOD_I / BOD_E | BOD of influent / effluent | TSS_E | TSS in effluent |
+| MLSS_I / MLSS_F | MLSS initial / final | MLSS% | MLSS as a percentage |
+| RASS (RAS) | return activated suspended solids | WASS (WAS) | waste activated suspended solids |
+| V_AT / V_C | volume of aeration tank / clarifier | Vol_W | volume of water |
+| SSV or SV-30 (Settled sludge Volume after 30 minutes) | settled sludge volume after 30 min | BHP/WHP/MHP | brake / water / motor horsepower |
+
+**Formulas on the EOCP sheet that differ from or add to the ABC sheet** (all taught in [17F](17f-more-official-formulas.md#formulas-from-the-eocp-formulae-conversions--abbreviations-sheet)):
+| EOCP formula | Plain text |
+|---|---|
+| Perimeter | 2 × (L + W) |
+| Surface area / volume of a sphere (air bubble) | 4πr² · 4/3 × πr³ (recognize) |
+| Volume of a pipe | π × r² × L |
+| **Volume of a lagoon** | [(L_top + L_bottom) ÷ 2] × [(W_top + W_bottom) ÷ 2] × D |
+| Flow in an open channel / pipe | Q = W × D × Vel · Q = π × r² × Vel (usually L/s or m³/h) |
+| Detention time in a pipe / tank | π r² L ÷ Q · (L × W × H) ÷ Q or (π r² H) ÷ Q |
+| **Hydraulic loading — RBC** | Q ÷ (2 × π × r² × N), N = number of discs |
+| Hydraulic loading — aeration tank | Q ÷ volume |
+| Filter flow rate / backwash | Q ÷ area · Q_B ÷ area (m³/h/m², also m/h or L/s/m²) |
+| **Chemical feed rate, L/day** | DR × Q ÷ (Conc decimal × Den × 1,000) |
+| **Chlorine dosage (batch)** | Conc × Vol (L) × 1,000 ÷ Vol_W (m³) · or kg × 1,000 ÷ Vol_W (m³) |
+| Organic/solids loading | (Q × TSS) ÷ clarifier area · (Q × BOD) ÷ AT volume · (Q × BOD) ÷ (2πr²N) for RBC · (Q × TSS) ÷ filter area · (Q_int × MLSS) ÷ clarifier area |
+| **F/M** (Food-to-Microorganism ratio) | Q × BOD ÷ [MLVSS × (V_AT + V_C)] — includes clarifier volume |
+| **Sludge recycle rate** | Q_R = Q × MLSS ÷ (RASS − MLSS) · or Q_R = Q ÷ [(100 ÷ (MLSS% × SVI)) − 1] |
+| **Sludge wasting rate** | Q_W = (MLSS_I − MLSS_F) × V_AT ÷ RASS |
+| MCRT (aka sludge age) | MLSS × (V_AT + V_C) ÷ [(Q × TSS_E) + (Q_W × WASS)] |
+| **Brake horsepower with SG** | Q (US gpm) × H (ft) × SG ÷ (3,960 × pump eff.) · 9.81 × Q (m³/s) × H (m) × SG ÷ pump eff. (kW) |
+| Efficiency | treatment = 100 × (BOD_I − BOD_E) ÷ BOD_I · motor = 100 × bhp (brake horsepower) ÷ mhp (motor horsepower) · pump = 100 × whp (water horsepower) ÷ bhp · overall = 100 × whp ÷ mhp |
+
+**EOCP sheet constants:** π = 3.14 · 1 m of water = **9.807 kPa** · 1 kPa = 0.102 m of water = 0.145 psi · 1 psi = 6.895 kPa · 1 inch of water = 0.249 kPa · 1 kPa = 4.015 in of water · 1 hp = 0.746 kW · 1 kW = 1.34 hp · 1 L of water = 1 kg · 1 m³ = 1,000 L · 1 ha = 10,000 m² · 1 BTU (British Thermal Unit) = 1.055 kJ · 1 kJ = 0.9478 BTU · 1 joule = 0.738 ft·lb · 1 ft·lb = 1.356 J.
+
+> **9.8 vs 9.81:** the ABC sheet uses 9.8; the EOCP sheet uses 9.81/9.807. Either is fine — the difference never changes which answer choice is correct.
 
 ## Pie wheels (last page of the official sheet)
 - The quantity **above** the line = the wedges **below** the line **multiplied** together.

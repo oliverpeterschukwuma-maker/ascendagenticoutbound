@@ -253,6 +253,11 @@ Where do screenings and grit go?,Landfill (per local rules). Sludge → biosolid
 Official sheet constants?,π = 3.14; 1 m of water = 9.8 kPa; power kW = 9.8 × Q(m³/s) × H(m); 8.34 lb/gal; 1 ft³ = 7.48 gal.,Math_formulas
 Metric SOR/WOR units on the official sheet?,"Litres per day: Lpd/m² and Lpd/m. 1 m³/m²·d = 1,000 Lpd/m².",Math_formulas
 How to read a pie wheel?,Top = bottom wedges multiplied. Cover the wedge you want and divide the top by the others. Metric in brackets.,Math_formulas
+Two formula sheets at the exam?,"ABC wastewater Formula/Conversion Table (uses 9.8) AND EOCP Formulae, Conversions & Abbreviations (uses 9.81/9.807, symbols like Q_R, V_AT, RASS). Both are provided.",Math_formulas
+Lagoon volume (EOCP sheet)?,Average length × average width × depth: [(L_top + L_bottom)/2] × [(W_top + W_bottom)/2] × D.,Math_formulas
+RBC media area?,2 × π × r² × number of discs (both faces of every disc).,Math_formulas
+Sludge wasting volume to lower MLSS?,Q_W = (MLSS initial − MLSS final) × aeration volume ÷ RAS SS.,Math_formulas
+Chlorine dose for a tank?,"kg of chlorine × 1,000 ÷ m³ of water = mg/L.",Math_formulas
 Pump cycle time?,Storage volume ÷ (pump capacity − inflow).,Math_formulas
 Alkalinity formula?,"Titrant mL × normality × 50,000 ÷ sample mL (mg/L as CaCO₃).",Math_formulas
 Area of a circle?,0.785 × D² (= 3.14 × r²). π = 3.14 on EOCP exams.,Math_formulas
