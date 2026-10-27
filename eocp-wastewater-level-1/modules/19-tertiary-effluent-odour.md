@@ -3,7 +3,7 @@
 ← [Module 18](18-administration.md) · [Course index](../README.md) · Next → [Exam Prep System](../practice/exam-prep-system.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **EQ** = Equalization (or Equipment area code) · **H₂S** = hydrogen sulphide · **I/I** = Infiltration and Inflow · **mg/L** = milligrams per litre · **NTK** = Need-to-Know Criteria · **OMRR** = Organic Matter Recycling Regulation · **ORP** = Oxidation-Reduction Potential · **RIBs** = Rapid Infiltration Basins · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **EQ** = Equalization (or Equipment area code) · **H₂S** = hydrogen sulphide · **I/I** = Infiltration and Inflow · **mg/L** = milligrams per litre · **NTK** = Need-to-Know Criteria · **OMRR** = Organic Matter Recycling Regulation · **ORP** = Oxidation-Reduction Potential · **PACl** = polyaluminum chloride · **RIBs** = Rapid Infiltration Basins · **TSS** = Total Suspended Solids · **UV** = Ultraviolet · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **NTK (Need-to-Know Criteria) area:** Treatment Process Evaluation & Adjustment (≈38%) and Equipment (≈39%). The 2025 WPI (Water Professionals International) Need-to-Know lists **effluent and residuals disposal** (such as surface water discharge, rapid infiltration, dewatering and landfill). This module fills the remaining gaps: things many small BC plants have but that don't fit neatly into Modules 3–9.

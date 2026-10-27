@@ -205,11 +205,11 @@ Problems are mixed on purpose — part of the skill is **recognizing which formu
 | 73 | SRT | **42.5 m³/d** | 8,000 ÷ 20 = 400 − 60 = 340 kg/d × 1,000 ÷ 8,000 |
 | 74 | RAS | **40%** | 3,000 ÷ 7,500 × 100 |
 | 75 | Pressure | **97 ft** | 42 × 2.31 |
-| 76 | Pressure | **54 kPa** | 5.5 × 9.81 |
-| 77 | Pressure | **20 m** | 196 ÷ 9.81 |
+| 76 | Pressure | **53.9 kPa** | 5.5 × 9.8 |
+| 77 | Pressure | **20 m** | 196 ÷ 9.8 |
 | 78 | Pressure | **10.4 psi** | 24 × 0.433 |
 | 79 | Pump power | **26.9 hp** | whp (water horsepower) = 18.18; ÷ 0.75 = 24.24; ÷ 0.90 |
-| 80 | Pump power | **14.8 kW** | water power = 9.81 × 0.04 × 25 = 9.81 kW; ÷ 0.72 = 13.63; ÷ 0.92 |
+| 80 | Pump power | **14.8 kW** | water power = 9.8 × 0.04 × 25 = 9.8 kW; ÷ 0.72 = 13.61; ÷ 0.92 |
 | 81 | Pump power | **29.8 kW** | 40 × 0.746 |
 | 82 | Electrical | **$79.2** | 30 × 24 × 0.11 |
 | 83 | Electrical | **15 A** | I = V ÷ R = 120 ÷ 8 |

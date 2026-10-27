@@ -97,7 +97,7 @@ Most analog instruments send a **4–20 milliamp** signal:
 |---|---|---|
 | **Float switch** | Floating switch tilts at a set level (on/off) | Tangled cords, grease buildup, sticking; gives **points**, not continuous level |
 | **Ultrasonic / radar (non-contact)** | Sends a pulse down; time to echo = distance to surface | **Foam, condensation, spider webs, ice, obstructions in the beam, turbulence** cause false readings |
-| **Pressure transducer (submersible)** | Measures water pressure at the bottom → depth (pressure ÷ 9.81 = m) | Grease/ragging over the sensor, damaged vent tube |
+| **Pressure transducer (submersible)** | Measures water pressure at the bottom → depth (pressure ÷ 9.8 = m) | Grease/ragging over the sensor, damaged vent tube |
 | **Bubbler** | Air is bubbled slowly out of a tube at the bottom; the air pressure needed = water depth | **Tube plugging** (reads high), air supply failure (reads low/zero), leaks |
 | **Conductance / capacitance probes** | Detect liquid touching electrodes | Coating/fouling |
 | **Sludge blanket sensor** | Optical/ultrasonic detection of the blanket | Calibrate against a sludge judge |

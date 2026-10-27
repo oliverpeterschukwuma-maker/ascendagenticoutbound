@@ -262,6 +262,8 @@ US: 2.0 MGD to a 60-ft clarifier (2,826 ft²) → 2,000,000 ÷ 2,826 = **708 gpd
 
 **EXAM QUESTION:** *A 22 m diameter secondary clarifier receives 7,600 m³/d. What is the SOR?* → area = 0.785 × 484 = 379.94 m² → 7,600 ÷ 379.94 = **20.0 m³/m²·d**.
 
+**⚠ OFFICIAL SHEET UNITS:** the exam sheet writes metric SOR as **Lpd/m²** (litres per day per m²). 1 m³ = 1,000 L, so **25.6 m³/m²·d = 25,600 Lpd/m²**. If the answer choices are ~1,000× bigger than yours, convert.
+
 **COMMON MISTAKES:** dividing by **volume** instead of area; using MGD without converting to gpd.
 *(For secondary clarifiers, SOR is normally based on influent flow only — not including RAS (Return Activated Sludge) — unless the question says otherwise.)*
 
@@ -285,6 +287,8 @@ US: 2.0 MGD to a 60-ft clarifier (2,826 ft²) → 2,000,000 ÷ 2,826 = **708 gpd
 US: 2,000,000 gpd ÷ 188.4 ft = **10,616 gpd/ft**.
 
 **EXAM QUESTION:** *Calculate the WOR (Weir Overflow Rate) for a 22 m clarifier receiving 7,600 m³/d.* → weir = 3.14 × 22 = 69.08 m → 7,600 ÷ 69.08 = **110 m³/m·d**.
+
+**⚠ OFFICIAL SHEET UNITS:** metric WOR is written as **Lpd/m** on the exam sheet → 115 m³/m·d = **115,000 Lpd/m**.
 
 **COMMON MISTAKE:** using area (0.785 D²) instead of **circumference** (3.14 × D). For **rectangular** tanks, add up the length of **every** weir edge given.
 

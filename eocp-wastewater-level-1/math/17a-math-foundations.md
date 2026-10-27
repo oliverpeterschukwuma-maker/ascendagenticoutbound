@@ -3,7 +3,7 @@
 ← [Course index](../README.md) · Next → [17B — Area, Volume, Flow & Time](17b-area-volume-flow-time.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **kPa** = kilopascal · **L/s** = litres per second · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **ML** = megalitre (1,000 m³) · **mL** = millilitre · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpm** = gallons per minute · **kPa** = kilopascal · **L/s** = litres per second · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OSHA** = Occupational Safety and Health Administration (US) · **psi** = pounds per square inch · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids
 <!-- abbr-end -->
 
 > **Read this first if math makes you nervous.** Wastewater math is **not** advanced math. It's the same few skills used over and over: multiply, divide, convert units, and plug numbers into a formula you're **given on the exam sheet**. This lesson teaches those skills from zero. Go slowly. Do every practice question. It gets easier every day.
@@ -177,6 +177,8 @@ The exam sheet gives formulas in one form, e.g. **DT = V ÷ Q**. But the questio
 | kg/d = mg/L × m³/d (cubic metres per day) ÷ 1,000 | (treat "mg/L × m³/d" carefully — see 17C) | |
 | V = I × R (Ohm's law) | V | I, R |
 | Distance = velocity × time | Distance | V, t |
+
+> **On the official exam sheet these triangles are drawn as "pie wheels"** (circles split into wedges). Same rule: the top = the bottom wedges multiplied; cover the one you want and divide. See [the formula sheet page](formula-and-conversion-sheet.md#pie-wheels-last-page-of-the-official-sheet).
 
 ### 6.2 The "do the same to both sides" method
 If **DT = V ÷ Q** and you want **V**: multiply both sides by Q → **V = DT × Q**.

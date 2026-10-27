@@ -1,15 +1,15 @@
-# Flashcards — 267 cards
+# Flashcards — 272 cards
 
 ← [Course index](../README.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **AAA** = Always Add Acid (to water) · **ATS** = Automatic Transfer Switch · **BEP** = Best Efficiency Point · **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CO₂** = carbon dioxide · **CT** = Concentration × Time · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **EQ** = Equalization (or Equipment area code) · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **GFCI** = Ground-Fault Circuit Interrupter · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **gpm** = gallons per minute · **HMI** = Human-Machine Interface · **HOA** = Hand-Off-Auto (switch) · **HOCl** = hypochlorous acid · **hp** = horsepower · **HRT** = Hydraulic Retention Time · **H₂S** = hydrogen sulphide · **H₂SO₄** = sulphuric acid · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **LEL** = Lower Explosive Limit · **mA** = milliamps · **MCC** = Motor Control Centre · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **mV** = millivolts · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **O&M** = Operations and Maintenance · **OCl⁻** = hypochlorite ion · **OHS** = Occupational Health and Safety · **OMRR** = Organic Matter Recycling Regulation · **ORP** = Oxidation-Reduction Potential · **O₂** = oxygen · **PAOs** = Phosphorus-Accumulating Organisms · **PD** = Positive Displacement · **PLC** = Programmable Logic Controller · **PPE** = Personal Protective Equipment · **ppm** = parts per million · **psi** = pounds per square inch · **QC** = Quality Control · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RP** = Reduced Pressure (backflow assembly) · **SBR** = Sequencing Batch Reactor · **SCADA** = Supervisory Control And Data Acquisition · **SDS** = Safety Data Sheet · **SG** = Specific Gravity · **SOP** = Standard Operating Procedure · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDH** = Total Dynamic Head · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TRC** = Total Residual Chlorine · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UPS** = Uninterruptible Power Supply · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VFAs** = Volatile Fatty Acids · **VFD** = Variable Frequency Drive · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **AAA** = Always Add Acid (to water) · **ATS** = Automatic Transfer Switch · **BEP** = Best Efficiency Point · **BOD** = Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CBOD** = Carbonaceous Biochemical Oxygen Demand · **Cl₂** = chlorine gas · **COD** = Chemical Oxygen Demand · **CO₂** = carbon dioxide · **CT** = Concentration × Time · **DAF** = Dissolved Air Flotation · **DO** = Dissolved Oxygen · **DPD** = N,N-diethyl-p-phenylenediamine (chlorine test reagent) · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **EQ** = Equalization (or Equipment area code) · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **GFCI** = Ground-Fault Circuit Interrupter · **GGA** = Glucose–Glutamic Acid (BOD check standard) · **gpm** = gallons per minute · **HMI** = Human-Machine Interface · **HOA** = Hand-Off-Auto (switch) · **HOCl** = hypochlorous acid · **hp** = horsepower · **HRT** = Hydraulic Retention Time · **H₂S** = hydrogen sulphide · **H₂SO₄** = sulphuric acid · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **LEL** = Lower Explosive Limit · **mA** = milliamps · **MCC** = Motor Control Centre · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **mV** = millivolts · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **NO₂** = nitrite · **NO₂-N** = nitrite measured as nitrogen · **NTK** = Need-to-Know Criteria · **N₂** = nitrogen gas · **O&M** = Operations and Maintenance · **OCl⁻** = hypochlorite ion · **OHS** = Occupational Health and Safety · **OMRR** = Organic Matter Recycling Regulation · **ORP** = Oxidation-Reduction Potential · **O₂** = oxygen · **PAOs** = Phosphorus-Accumulating Organisms · **PD** = Positive Displacement · **PLC** = Programmable Logic Controller · **PPE** = Personal Protective Equipment · **ppm** = parts per million · **psi** = pounds per square inch · **QC** = Quality Control · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RP** = Reduced Pressure (backflow assembly) · **SBR** = Sequencing Batch Reactor · **SCADA** = Supervisory Control And Data Acquisition · **SDS** = Safety Data Sheet · **SG** = Specific Gravity · **SOP** = Standard Operating Procedure · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TDH** = Total Dynamic Head · **TDS** = Total Dissolved Solids · **TKN** = Total Kjeldahl Nitrogen · **TRC** = Total Residual Chlorine · **TS** = Total Solids · **TSS** = Total Suspended Solids · **UPS** = Uninterruptible Power Supply · **UV** = Ultraviolet · **VA/ALK** = Volatile Acids to Alkalinity ratio · **VFAs** = Volatile Fatty Acids · **VFD** = Variable Frequency Drive · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **WET** = Whole Effluent Toxicity · **whp** = water horsepower · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **How to use:**
 - Cover the **BACK** and say the answer out loud before reading it.
 - Mark cards you miss; review them again tomorrow, then in 3 days, then in a week (spaced repetition).
-- **Prefer an app?** Import [flashcards.csv](flashcards.csv) into **Anki** (File → Import, comma-separated, field 1 = Front, field 2 = Back, field 3 = Tag) or **Quizlet** (Create → Import, choose comma between term and definition). All 267 cards will load, tagged by module.
+- **Prefer an app?** Import [flashcards.csv](flashcards.csv) into **Anki** (File → Import, comma-separated, field 1 = Front, field 2 = Back, field 3 = Tag) or **Quizlet** (Create → Import, choose comma between term and definition). All 272 cards will load, tagged by module.
 
 ## Sections
 
@@ -31,7 +31,7 @@
 - [Troubleshooting (Module 16)](#troubleshooting-module-16) — 6 cards
 - [Administration & BC regulations (Module 18)](#administration--bc-regulations-module-18) — 12 cards
 - [Tertiary, effluent & odour (Module 19)](#tertiary-effluent--odour-module-19) — 10 cards
-- [Math formulas (Module 17)](#math-formulas-module-17) — 15 cards
+- [Math formulas (Module 17)](#math-formulas-module-17) — 20 cards
 
 ---
 
@@ -755,7 +755,7 @@
 
 **169. FRONT:** Pressure–head conversions?
 
-> **BACK:** 1 m ≈ 9.81 kPa (kilopascal); 1 psi (pounds per square inch) = 2.31 ft; 1 ft = 0.433 psi.
+> **BACK:** 1 m ≈ 9.8 kPa (kilopascal); 1 psi (pounds per square inch) = 2.31 ft; 1 ft = 0.433 psi.
 
 **170. FRONT:** What sets pressure at a tank bottom?
 
@@ -977,7 +977,7 @@
 
 > **BACK:** Ascorbic acid method — blue.
 
-**222. FRONT:** WET test?
+**222. FRONT:** WET (Whole Effluent Toxicity) test?
 
 > **BACK:** Whole Effluent Toxicity — test organisms exposed to effluent; acute = survival over a short time. Failures often from chlorine residual or ammonia.
 
@@ -1117,63 +1117,83 @@
 
 ## Math formulas (Module 17)
 
-**253. FRONT:** Area of a circle?
+**253. FRONT:** Official sheet constants?
+
+> **BACK:** π = 3.14; 1 m of water = 9.8 kPa; power kW = 9.8 × Q(m³/s) × H(m); 8.34 lb/gal; 1 ft³ = 7.48 gal.
+
+**254. FRONT:** Metric SOR/WOR units on the official sheet?
+
+> **BACK:** Litres per day: Lpd/m² and Lpd/m. 1 m³/m²·d = 1,000 Lpd/m².
+
+**255. FRONT:** How to read a pie wheel?
+
+> **BACK:** Top = bottom wedges multiplied. Cover the wedge you want and divide the top by the others. Metric in brackets.
+
+**256. FRONT:** Pump cycle time?
+
+> **BACK:** Storage volume ÷ (pump capacity − inflow).
+
+**257. FRONT:** Alkalinity formula?
+
+> **BACK:** Titrant mL × normality × 50,000 ÷ sample mL (mg/L as CaCO₃).
+
+**258. FRONT:** Area of a circle?
 
 > **BACK:** 0.785 × D² (= 3.14 × r²). π = 3.14 on EOCP exams.
 
-**254. FRONT:** Circumference?
+**259. FRONT:** Circumference?
 
 > **BACK:** 3.14 × D (use for circular weir length).
 
-**255. FRONT:** Volume of a cylinder?
+**260. FRONT:** Volume of a cylinder?
 
 > **BACK:** 0.785 × D² × depth.
 
-**256. FRONT:** Detention time?
+**261. FRONT:** Detention time?
 
 > **BACK:** Volume ÷ Flow (× 24 if flow is per day and you want hours).
 
-**257. FRONT:** SOR / WOR?
+**262. FRONT:** SOR / WOR?
 
 > **BACK:** SOR = Flow ÷ surface area. WOR = Flow ÷ weir length.
 
-**258. FRONT:** kg/day formula?
+**263. FRONT:** kg/day formula?
 
 > **BACK:** mg/L × m³/d (cubic metres per day) ÷ 1,000 (= mg/L × ML/d).
 
-**259. FRONT:** lb/day formula?
+**264. FRONT:** lb/day formula?
 
 > **BACK:** mg/L × MGD (Million Gallons per Day) × 8.34.
 
-**260. FRONT:** Chemical with purity?
+**265. FRONT:** Chemical with purity?
 
 > **BACK:** kg/d of product = kg/d active ÷ purity (decimal) — answer gets bigger.
 
-**261. FRONT:** % removal?
+**266. FRONT:** % removal?
 
 > **BACK:** (In − Out) ÷ In × 100.
 
-**262. FRONT:** Dilution?
+**267. FRONT:** Dilution?
 
 > **BACK:** C₁V₁ = C₂V₂.
 
-**263. FRONT:** Thickening volume?
+**268. FRONT:** Thickening volume?
 
 > **BACK:** V₂ = V₁ × %₁ ÷ %₂.
 
-**264. FRONT:** Dry solids in sludge (metric)?
+**269. FRONT:** Dry solids in sludge (metric)?
 
 > **BACK:** kg/d = m³/d × % × 10.
 
-**265. FRONT:** Pump water power?
+**270. FRONT:** Pump water power?
 
-> **BACK:** Metric: 9.81 × Q(m³/s) × H(m) kW. US: gpm (gallons per minute) × ft ÷ 3,960 whp (water horsepower). Divide by efficiencies for brake/motor.
+> **BACK:** Metric: 9.8 × Q(m³/s) × H(m) kW. US: gpm (gallons per minute) × ft ÷ 3,960 whp (water horsepower). Divide by efficiencies for brake/motor.
 
-**266. FRONT:** Key conversions?
+**271. FRONT:** Key conversions?
 
 > **BACK:** 1 m³ = 1,000 L; 1 L/s (litres per second) = 86.4 m³/d; 1 ft³ = 7.48 gal; 1 gal = 8.34 lb; 1 MGD = 694.4 gpm; 1 day = 1,440 min.
 
-**267. FRONT:** Temperature conversion?
+**272. FRONT:** Temperature conversion?
 
 > **BACK:** °F = °C × 1.8 + 32; °C = (°F − 32) ÷ 1.8.
 

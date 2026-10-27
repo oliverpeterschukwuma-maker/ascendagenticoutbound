@@ -3,7 +3,7 @@
 ← [Course index](README.md) · Documents & links → [SOURCES-TO-GET.md](SOURCES-TO-GET.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BCWWA** = BC Water & Waste Association · **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **MCC** = Motor Control Centre · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BCWWA** = BC Water & Waste Association · **CEUs** = Continuing Education Units · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **MCC** = Motor Control Centre · **NTK** = Need-to-Know Criteria · **O&M** = Operations and Maintenance · **OIT** = Operator in Training · **SOPs** = Standard Operating Procedures · **SOR** = Surface Overflow Rate · **WET** = Whole Effluent Toxicity · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 **How to use this page:** work down the list. Items marked **✅ Confirmed** were confirmed through search results quoting EOCP/WPI. Items marked **❓ Find it** are **missing** — you need to look them up on the EOCP (Environmental Operators Certification Program) website (or email EOCP) and write the answer in the blank. Once you fill them in, tell Claude and the course will be updated.
@@ -51,7 +51,7 @@
 | C6 | Units | ✅ Confirmed | **US units first, metric in brackets**; each calculation can be solved in either |
 | C7 | π value | ✅ Confirmed | **3.14** |
 | C8 | Formula/conversion table provided | ✅ Confirmed | Yes — **get a copy to practise with** (C9) |
-| C9 | A copy of the exam formula sheet | 🔶 Name confirmed | **"ABC Canadian Formula/Conversion Table for Wastewater Treatment, Industrial, Collection and Laboratory Exams"** + **EOCP Formulae, Conversions, and Abbreviations** + **EOCP Conversion Chart** — all **provided at every exam session**. Download copies to practise (collection items #2–4) |
+| C9 | A copy of the exam formula sheet | ✅ Received | **ABC Formula/Conversion Table — Wastewater** (© 2017; EOCP-hosted). Course formula sheet now matches it: [math/formula-and-conversion-sheet.md](math/formula-and-conversion-sheet.md). Uses **9.8** (not 9.81) and **Lpd/m²** for metric SOR (Surface Overflow Rate) |
 | C10 | **Time limit** | 🔶 Very likely 3 h | EOCP's own page uses a **"3-hour exam"** as its example — confirm on your booking |
 | C11 | **Calculator** rules (which models allowed; on-screen calculator?) | ❓ Find it | ________ |
 | C12 | **Computer-based** format details | 🔶 Partly | Exam is **web-based**; EOCP provides **"Candidate Instructions for ABC Web-Based Examinations"** at the exam and links **"Experience ABC's Computerized Exams"** (practice demo) — try it (collection items #5, #13) |
@@ -87,7 +87,7 @@
 | Missing / unverified item | Why it's missing | What you can do |
 |---|---|---|
 | **EOCP's official practice questions** (Math Test Questions, SWWS & OIT sample exams) | Couldn't open eocp.ca | Download them (links in [SOURCES-TO-GET.md](SOURCES-TO-GET.md)) and give them to Claude to add with worked answers |
-| ~~Exact NTK job-task list and reference books~~ | ✅ Received and cross-checked | Gaps filled: mixers, MCC (Motor Control Centre), conveyors, hoists/cranes, coagulation/flocculation, nutrient enhancement, WET testing, metals, vulnerability assessments, complaints |
+| ~~Exact NTK job-task list and reference books~~ | ✅ Received and cross-checked | Gaps filled: mixers, MCC (Motor Control Centre), conveyors, hoists/cranes, coagulation/flocculation, nutrient enhancement, WET (Whole Effluent Toxicity) testing, metals, vulnerability assessments, complaints |
 | **Official 2025 formula/conversion sheet** | Couldn't open EOCP/WPI | Download it; Claude will update the study sheet to match exactly |
 | Exam **time limit, calculator rules, computer format, fees** | Not in search results | Fill in Section C/B above |
 | **WorkSafeBC exposure limits** (exact H₂S (hydrogen sulphide), chlorine numbers) | Couldn't open worksafebc.com | Look up the WorkSafeBC "table of exposure limits" |

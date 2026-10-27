@@ -82,7 +82,7 @@ food = 180 × 1.5 × 8.34 = 2,251.8 lb/d; bugs = 2,000 × 0.75 × 8.34 = 12,510 
 SRT (days) = ───────────────────────────────────────────────────
                kg/d solids wasted (WAS) + kg/d solids lost in effluent
 ```
-(Some formulas include solids in the clarifier too — use what the question gives. Many Level I problems use only the aeration tank inventory.)
+(The **official exam sheet** writes it as **(Aeration tank TSS (Total Suspended Solids) + Clarifier TSS) ÷ (TSS wasted per day + Effluent TSS per day)**. If the question gives clarifier solids, add them to the inventory; if not, use the aeration tank only.)
 
 **WHAT IT MEANS:** the average number of **days** a bug stays in the system before it's wasted or lost. Longer SRT = older sludge.
 
@@ -157,23 +157,23 @@ Sludge age (days) = kg of MLSS in aeration ÷ kg/d of TSS entering the aeration 
 
 **FORMULAS:**
 ```
-Metric:  Pressure (kPa) = Head (m) × 9.81          Head (m) = Pressure (kPa) ÷ 9.81
+Metric:  Pressure (kPa) = Head (m) × 9.8          Head (m) = Pressure (kPa) ÷ 9.8
 US:      Pressure (psi) = Head (ft) × 0.433        Head (ft) = Pressure (psi) × 2.31
 ```
 
 **WHAT IT MEANS:** water pressure and height of water are two ways to say the same thing (Module 12).
 
-**WHY IT WORKS (plain words):** Water pressure comes from the weight of the water above. One metre of water presses down with about 9.81 kPa (one foot presses with 0.433 psi (pounds per square inch)). Two metres presses twice as hard, and so on — so pressure = depth × 9.81. Going the other way, 1 psi holds up a column of water 2.31 ft tall.
+**WHY IT WORKS (plain words):** Water pressure comes from the weight of the water above. One metre of water presses down with about 9.8 kPa (one foot presses with 0.433 psi (pounds per square inch)). Two metres presses twice as hard, and so on — so pressure = depth × 9.8. Going the other way, 1 psi holds up a column of water 2.31 ft tall.
 
 **WHEN TO USE IT:** pressure gauges, tank depths, pump head, transducer levels.
 
-**EASY EXAMPLE:** 1 m of water ≈ 9.81 kPa; 10 m ≈ **98.1 kPa**. 1 psi = 2.31 ft.
+**EASY EXAMPLE:** 1 m of water ≈ 9.8 kPa; 10 m ≈ **98 kPa**. 1 psi = 2.31 ft.
 
-**LEVEL I EXAMPLE:** a pump gauge reads 50 psi → 50 × 2.31 = **115.5 ft** of head. A pump develops 30 m of head → 30 × 9.81 = **294.3 kPa**.
+**LEVEL I EXAMPLE:** a pump gauge reads 50 psi → 50 × 2.31 = **115.5 ft** of head. A pump develops 30 m of head → 30 × 9.8 = **294 kPa**.
 
 **EXAM QUESTIONS:**
 - *Pressure at the bottom of a tank with 18 ft of water?* → 18 × 0.433 = **7.79 psi**.
-- *A gauge reads 400 kPa. Head in metres?* → 400 ÷ 9.81 = **40.8 m**.
+- *A gauge reads 400 kPa. Head in metres?* → 400 ÷ 9.8 = **40.8 m**.
 - *65 psi = how many feet of head?* → 65 × 2.31 = **150.2 ft**.
 
 **COMMON MISTAKES:** mixing 2.31 and 0.433 (**psi → ft: × 2.31**; **ft → psi: × 0.433**). Sanity check: feet are always a **bigger** number than psi.
@@ -191,14 +191,14 @@ kW = hp × 0.746
 ```
 **FORMULAS (Metric — kilowatts):**
 ```
-Water power (kW)        = 9.81 × Flow (m³/s) × Head (m)
+Water power (kW)        = 9.8 × Flow (m³/s) × Head (m)
 Pump input power (kW)   = Water power ÷ Pump efficiency
 Motor input power (kW)  = Pump input ÷ Motor efficiency
 ```
 
 **WHAT IT MEANS:**
 
-**WHY IT WORKS (plain words):** Lifting water takes energy: the more water you lift and the higher you lift it, the more power you need — so power = flow × head (× a constant for the units: 9.81 in metric, ÷ 3,960 in US). No machine is perfect: a 75% efficient pump wastes 25% as heat and noise, so the motor must supply **more** than the water receives. That's why you **divide** by each efficiency — each step back toward the electrical supply needs more power.
+**WHY IT WORKS (plain words):** Lifting water takes energy: the more water you lift and the higher you lift it, the more power you need — so power = flow × head (× a constant for the units: 9.8 in metric, ÷ 3,960 in US). No machine is perfect: a 75% efficient pump wastes 25% as heat and noise, so the motor must supply **more** than the water receives. That's why you **divide** by each efficiency — each step back toward the electrical supply needs more power.
 - **Water power** = the useful work done on the water.
 - **Brake power** = what the pump shaft needs (more, because the pump isn't 100% efficient).
 - **Motor power** = what the motor draws from the wires (more again, because the motor isn't 100% efficient).
@@ -212,11 +212,11 @@ Motor input power (kW)  = Pump input ÷ Motor efficiency
 3. mhp (motor horsepower) = 16.84 ÷ 0.90 = **18.7 hp**  (= 18.7 × 0.746 ≈ **14.0 kW (kilowatt)**)
 
 **LEVEL I EXAMPLE (metric):** 0.03 m³/s (30 L/s (litres per second)) against 30 m; pump 75%; motor 90%.
-1. Water power = 9.81 × 0.03 × 30 = **8.83 kW**
-2. Pump input = 8.83 ÷ 0.75 = **11.77 kW**
-3. Motor input = 11.77 ÷ 0.90 = **13.08 kW**
+1. Water power = 9.8 × 0.03 × 30 = **8.82 kW**
+2. Pump input = 8.82 ÷ 0.75 = **11.76 kW**
+3. Motor input = 11.76 ÷ 0.90 = **13.07 kW**
 
-**EXAM QUESTION:** *A pump delivers 0.05 m³/s against 20 m. Pump efficiency 70%, motor 90%. Motor input power?* → 9.81 × 0.05 × 20 = 9.81 kW ÷ 0.7 = 14.01 ÷ 0.9 = **15.6 kW**.
+**EXAM QUESTION:** *A pump delivers 0.05 m³/s against 20 m. Pump efficiency 70%, motor 90%. Motor input power?* → 9.8 × 0.05 × 20 = 9.8 kW ÷ 0.7 = 14.0 ÷ 0.9 = **15.6 kW**.
 
 **Wire-to-water efficiency** = pump eff × motor eff → 0.78 × 0.92 = **0.718 = 71.8%**.
 
@@ -341,11 +341,11 @@ Motor input power (kW)  = Pump input ÷ Motor efficiency
 | 8 | **9 d** | 4,320 kg ÷ 480 kg/d |
 | 9 | **40%** | 1,800 ÷ 4,500 × 100 |
 | 10 | **150.2 ft** | 65 × 2.31 |
-| 11 | **245.3 kPa** | 25 × 9.81 |
+| 11 | **245 kPa** | 25 × 9.8 |
 | 12 | **7.79 psi** | 18 × 0.433 |
-| 13 | **40.8 m** | 400 ÷ 9.81 |
+| 13 | **40.8 m** | 400 ÷ 9.8 |
 | 14 | **15.2 whp; 18.9 bhp; 20.6 mhp; 11.3 kW water power** | 800 × 75 ÷ 3,960 = 15.15; ÷ 0.8; ÷ 0.92; 15.15 × 0.746 |
-| 15 | **9.81 kW; 14.0 kW; 15.6 kW** | 9.81 × 0.05 × 20; ÷ 0.7; ÷ 0.9 |
+| 15 | **9.8 kW; 14.0 kW; 15.6 kW** | 9.8 × 0.05 × 20; ÷ 0.7; ÷ 0.9 |
 | 16 | **$47.52** | 22 × 18 × 0.12 |
 | 17 | **84 mg/L** | 0.0042 × 1,000,000 ÷ 50 |
 | 18 | **66 mg/L; 78.6%** | 0.0033 × 1,000,000 ÷ 50; 66 ÷ 84 |

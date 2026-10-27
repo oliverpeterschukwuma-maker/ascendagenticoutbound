@@ -163,7 +163,7 @@ SUCTION ─┼─►    │ IMPELLER │  ◄── spins; flings water outward
   ───────────── supply water surface (below pump = suction LIFT)
 ```
 
-**Pressure ↔ head (memorize for math):** **1 psi (pounds per square inch) = 2.31 ft of water**; **1 ft = 0.433 psi**; **1 m of water ≈ 9.81 kPa (kilopascal)**.
+**Pressure ↔ head (memorize for math):** **1 psi (pounds per square inch) = 2.31 ft of water**; **1 ft = 0.433 psi**; **1 m of water ≈ 9.8 kPa (kilopascal)**.
 
 ### 2.7 Priming, air locking and air binding
 
@@ -306,7 +306,7 @@ A **pump curve** (from the manufacturer) shows how a centrifugal pump performs:
 10. **Air binding** → vent air; fix suction leaks.
 11. **Suction lift** = source below pump; **suction head** = source above pump.
 12. **TDH = static head + friction losses.**
-13. **1 psi = 2.31 ft; 1 ft = 0.433 psi; 1 m ≈ 9.81 kPa.**
+13. **1 psi = 2.31 ft; 1 ft = 0.433 psi; 1 m ≈ 9.8 kPa.**
 14. **Check valves** prevent backflow; sudden closure → **water hammer**.
 15. **Misalignment** → vibration, bearing and seal failure.
 16. **Over-greasing** bearings causes overheating.

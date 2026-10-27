@@ -1,128 +1,126 @@
-# Formula & Conversion Study Sheet (Level I)
+# Formula & Conversion Sheet — matched to the official exam sheet
 
 ← [Course index](../README.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **bhp** = brake horsepower · **BOD** = Biochemical Oxygen Demand · **cfs** = cubic feet per second · **CT** = Concentration × Time · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **gpd** = gallons per day · **gpm** = gallons per minute · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **kWh** = kilowatt-hour · **L/s** = litres per second · **MCRT** = Mean Cell Residence Time · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mhp** = motor horsepower · **ML** = megalitre (1,000 m³) · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **ppm** = parts per million · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **SG** = Specific Gravity · **SRT** = Solids Retention Time · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **VSS** = Volatile Suspended Solids · **WAS** = Waste Activated Sludge · **whp** = water horsepower · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **AC** = Alternating Current · **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **CaCO₃** = calcium carbonate · **CFU/100 mL** = colony-forming units per 100 mL · **CT** = Concentration × Time · **DC** = Direct Current · **DO** = Dissolved Oxygen · **EDTA** = ethylenediaminetetraacetic acid (titrant) · **EOCP** = Environmental Operators Certification Program · **gpd** = gallons per day · **gpm** = gallons per minute · **hp** = horsepower · **kPa** = kilopascal · **kW** = kilowatt · **L/s** = litres per second · **Lpd** = litres per day · **LSI** = Langelier Saturation Index · **MG** = million gallons · **mg/L** = milligrams per litre · **MGD** = Million Gallons per Day · **mL** = millilitre · **ML** = megalitre (1,000 m³) · **MLD** = million litres per day · **MLSS** = Mixed Liquor Suspended Solids · **MLVSS** = Mixed Liquor Volatile Suspended Solids · **m³/d** = cubic metres per day · **m³/m²·d** = cubic metres per square metre per day · **OUR** = Oxygen Uptake Rate · **PE** = Population Equivalent · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **SBOD₅** = soluble 5-day BOD · **SDI** = Sludge Density Index · **SOUR** = Specific Oxygen Uptake Rate · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SSV₃₀** = Settled Sludge Volume after 30 minutes · **SVI** = Sludge Volume Index · **TOC** = Total Organic Carbon · **TSS** = Total Suspended Solids · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
-> **This is a study version, not the official exam sheet.** At the exam you receive the **WPI (Water Professionals International) Formula/Conversion Table** (revised for the 2025 exams). Download the official sheet (see [SOURCES-TO-GET.md](../SOURCES-TO-GET.md)) and compare it line by line with this page. If the official sheet writes a formula differently, **practise with the official version**.
-> **π = 3.14** on EOCP (Environmental Operators Certification Program) exams.
+> ✅ **Checked against the official sheet:** *ABC (Association of Boards of Certification) Formula/Conversion Table — Wastewater Treatment, Collection, Industrial Waste & Wastewater Laboratory Exams* (© 2017 ABC; the version EOCP (Environmental Operators Certification Program) hosts and provides at exam sessions). The formulas below follow the **same names and order** as the official sheet, rewritten in plain text, with the lesson where each is taught.
+> You **get the official sheet at the exam** — you don't need to memorize formulas. You need to **find** the right one quickly and **use** it correctly. Practise with your own printed copy.
+> **Key constants on the official sheet:** **π = 3.14** · **1 m of water = 9.8 kPa (kilopascal)** · power uses **9.8** · **8.34 lb/gal**.
+> WPI (Water Professionals International) revised its formula tables for the 2025 exams — if EOCP posts a newer wastewater table, compare it with this page.
 
 ---
 
-## Geometry
-| Find | Formula |
-|---|---|
-| Area — rectangle | L × W |
-| Area — circle | 0.785 × D²  (= π × r²) |
-| Area — triangle | 0.5 × base × height |
-| Circumference | π × D = 3.14 × D |
-| Volume — rectangular tank | L × W × D(depth) |
-| Volume — cylinder | 0.785 × D² × depth |
-| Volume — cone | (1/3) × 0.785 × D² × height |
-| Volume — trough/trapezoid channel (recognize) | ((top width + bottom width) ÷ 2) × depth × length |
+## Formulas (in the official sheet's order)
 
-## Flow, velocity, time
-| Find | Formula |
-|---|---|
-| Flow | Q = A × V |
-| Velocity | V = Q ÷ A  ·  V = distance ÷ time |
-| Detention time | DT = Volume ÷ Flow |
-| Fill/empty time | Time = Volume ÷ Flow |
-| Flow from level change | (L × W × level change) ÷ time |
-| Pump rate (with inflow) | (volume drawn down ÷ time) + inflow |
-
-## Loading rates
-| Find | Formula | Units |
+| Formula (official name) | Plain-text formula | Taught in |
 |---|---|---|
-| Surface overflow rate | Flow ÷ surface area | m³/m²·d (cubic metres per square metre per day) · gpd/ft² |
-| Weir overflow rate | Flow ÷ weir length | m³/m·d · gpd/ft |
-| Hydraulic loading rate | Flow ÷ area | m³/m²·d · gpd/ft² |
-| Solids loading rate | kg/d solids ÷ area | kg/m²·d · lb/ft²·d |
-| Organic loading (recognize) | kg/d BOD (Biochemical Oxygen Demand) ÷ volume | kg/m³·d |
+| Alkalinity, mg/L (milligrams per litre) as CaCO₃ (calcium carbonate) | Titrant mL × acid normality × 50,000 ÷ sample mL | 17F |
+| Amps | Volts ÷ Ohms | M14 |
+| Area of circle | 0.785 × Diameter² · or 3.14 × Radius² | 17B |
+| Area of cone / cylinder surfaces | (recognize) | 17F |
+| Area of rectangle | Length × Width | 17B |
+| Area of right triangle | Base × Height ÷ 2 | 17B |
+| Average (arithmetic mean) | Sum of all terms ÷ number of terms | 17D |
+| Average (geometric mean) | nth root of the product of n numbers (recognize) | 17F |
+| BOD (seeded), mg/L | [(Initial DO (Dissolved Oxygen) − Final DO − Seed correction) × 300 mL] ÷ mL of sample | 17D |
+| BOD (unseeded), mg/L | (Initial DO − Final DO) × 300 mL ÷ mL of sample | 17D |
+| CFU/100 mL (colony-forming units per 100 mL) | Colonies × 100 ÷ mL of sample | 17F |
+| Chemical feed pump setting, % stroke | Desired flow ÷ Maximum flow × 100 | 17F |
+| Chemical feed pump setting, mL/min (US) | MGD (Million Gallons per Day) × mg/L × 3.785 × 1,000,000 ÷ (feed chemical density mg/mL × 1,440) | 17F |
+| Chemical feed pump setting, mL/min (metric) | m³/day × mg/L ÷ (density g/cm³ × active chemical decimal × 1,440) | 17C |
+| Circumference of circle | 3.14 × Diameter | 17B |
+| Composite sample single portion | Instantaneous flow × total sample volume ÷ (number of portions × average flow) | 17F |
+| Cycle time, min | Storage volume ÷ (pump capacity − wet-well inflow) | 17F |
+| Degrees Celsius | (°F − 32) ÷ 1.8 | 17D |
+| Degrees Fahrenheit | °C × 1.8 + 32 | 17D |
+| Detention time | Volume ÷ Flow (**units must be compatible**) | 17B |
+| Electromotive force, volts | Current (amps) × Resistance (ohms) | M14 |
+| Feed rate, lb/day | Dose mg/L × Flow MGD × 8.34 ÷ purity (decimal) | 17C |
+| Feed rate, kg/day | Dose mg/L × Flow m³/day ÷ (purity decimal × 1,000) | 17C |
+| Filter backwash rate | gpm (gallons per minute) ÷ ft² · L/s (litres per second) ÷ m² | 17F |
+| Filter backwash rise rate | (gpm/ft² × 12) ÷ 7.48 = in/min · water rise cm ÷ min | 17F |
+| Filter yield | (recognize) | 17F |
+| Flow rate | Area × Velocity (ft³/s or m³/s) | 17B |
+| Food/Microorganism ratio | BOD₅ (5-day Biochemical Oxygen Demand) lb/day ÷ MLVSS (Mixed Liquor Volatile Suspended Solids) lb · BOD₅ kg/day ÷ MLVSS kg | 17D |
+| Force | Pressure × Area (recognize) | 17F |
+| Hardness, mg/L as CaCO₃ | Titrant mL × 1,000 ÷ sample mL (EDTA (ethylenediaminetetraacetic acid, titrant) factor 1.00) (recognize) | 17F |
+| Horsepower, brake | gpm × ft ÷ (3,960 × pump eff.) · kW (kilowatt) = 9.8 × m³/s × m ÷ pump eff. | 17D |
+| Horsepower, motor | gpm × ft ÷ (3,960 × pump eff. × motor eff.) · kW = 9.8 × m³/s × m ÷ (pump eff. × motor eff.) | 17D |
+| Horsepower, water | gpm × ft ÷ 3,960 · kW = 9.8 × m³/s × m | 17D |
+| Hydraulic loading rate | Total flow applied (gpd) ÷ ft² · m³/day ÷ m² | 17B |
+| Loading rate | lb/day = MGD × mg/L × 8.34 · kg/day = m³/day × mg/L ÷ 1,000 | 17C |
+| Mass | lb = MG × mg/L × 8.34 · kg = m³ × mg/L ÷ 1,000 | 17C |
+| Mean cell residence time / SRT (Solids Retention Time), days | (Aeration tank TSS (Total Suspended Solids) + Clarifier TSS) ÷ (TSS wasted/day + Effluent TSS/day) | 17D |
+| Milliequivalent; molarity; normality; moles | (recognize — lab chemistry) | 17F |
+| Motor efficiency, % | Brake hp ÷ Motor hp × 100 | 17F |
+| Organic loading rate — RBC (Rotating Biological Contactor) | SBOD₅ (soluble 5-day BOD) per day ÷ media surface area | 17F |
+| Organic loading rate — trickling filter | BOD₅ per day ÷ media volume | 17F |
+| Oxygen uptake rate (OUR) | Oxygen usage mg/L ÷ time min (recognize) | 17F |
+| Population equivalent, organic | MGD × BOD × 8.34 ÷ 0.17 lb/person/d · m³/d (cubic metres per day) × BOD ÷ (1,000 × 0.077 kg/person/d) | 17F |
+| Power, kW | L/s × Head m × 9.8 ÷ 1,000 | 17F |
+| Recirculation ratio — trickling filter | Recirculated flow ÷ Primary effluent flow | 17F |
+| Reduction of volatile solids, % | (In − Out) ÷ [In − (In × Out)] × 100 — **decimals** | 17F |
+| Removal, % | (In − Out) ÷ In × 100 | 17C |
+| Return rate, % | Return flow ÷ Influent flow × 100 | 17D |
+| Return sludge rate — solids balance | MLSS (Mixed Liquor Suspended Solids) × Flow ÷ (RAS (Return Activated Sludge) SS − MLSS) | 17F |
+| Slope, % | Drop or rise ÷ Distance × 100 | 17F |
+| Sludge density index | 100 ÷ SVI (Sludge Volume Index) | 17F |
+| Sludge volume index, mL/g | SSV₃₀ (Settled Sludge Volume after 30 minutes) mL/L × 1,000 ÷ MLSS mg/L | 17D |
+| Solids, mg/L | Dry solids g × 1,000,000 ÷ sample mL | 17D |
+| Solids capture (centrifuges) | (recognize) | 17F |
+| Solids concentration, mg/L | Weight mg ÷ Volume L | 17C |
+| Solids loading rate | Solids applied per day ÷ surface area | M6 |
+| Specific gravity | lb/gal ÷ 8.34 · kg/L ÷ 1.0 | 17F |
+| Specific oxygen uptake rate (SOUR) | (recognize) | 17F |
+| Surface loading / overflow rate | gpd (gallons per day) ÷ ft² · **Lpd (litres per day) ÷ m²** (litres!) | 17B, 17F |
+| Three normal equation (blending) | C₁V₁ + C₂V₂ = C₃V₃ | 17F |
+| Total solids, % | (Dried g − Tare g) × 100 ÷ (Wet g − Tare g) | 17F |
+| Two normal equation (dilution) | C₁V₁ = C₂V₂ | 17C |
+| Velocity | Flow ÷ Area · Distance ÷ Time | 17B |
+| Volatile solids, % | (Dry solids − Fixed solids) ÷ Dry solids × 100 | 17D, 17F |
+| Volume of cone | ⅓ × 0.785 × Diameter² × Height | 17B |
+| Volume of cylinder | 0.785 × Diameter² × Height | 17B |
+| Volume of rectangular tank | Length × Width × Height | 17B |
+| Water use per capita | gpd (Lpd) ÷ population | 17F |
+| Watts | AC: Volts × Amps × Power factor · DC: Volts × Amps | 17F |
+| Weir overflow rate | gpd ÷ ft · **Lpd ÷ m** (litres!) | 17B |
+| Wire-to-water efficiency, % | Water hp ÷ Motor hp × 100 | 17F |
 
-## Mass ("kilograms / pounds formula")
-| Find | Metric | US |
-|---|---|---|
-| Mass per day | **kg/d = mg/L (milligrams per litre) × m³/d (cubic metres per day) ÷ 1,000** (= mg/L × ML/d) | **lb/d = mg/L × MGD (Million Gallons per Day) × 8.34** |
-| Mass in a tank | kg = mg/L × m³ ÷ 1,000 | lb = mg/L × MG × 8.34 |
-| Chemical with purity | kg/d product = kg/d active ÷ purity (decimal) | lb/d product = lb/d active ÷ purity |
-| Dose from feed | mg/L = kg/d × 1,000 ÷ m³/d | mg/L = lb/d ÷ (MGD × 8.34) |
-| Liquid feed pump | mL/min = (m³/d × mg/L) ÷ (density g/mL × active decimal × 1,440) | gpd (gallons per day) = lb/d ÷ (8.34 × SG (Specific Gravity) × active decimal) |
-| Dry solids in sludge | kg/d = m³/d × % × 10 | lb/d = gpd × 8.34 × % (decimal) |
-
-## Chemistry & efficiency
-| Find | Formula |
-|---|---|
-| Chlorine dose | Dose = Demand + Residual |
-| % removal | (In − Out) ÷ In × 100 |
-| % strength | mass chemical ÷ mass solution × 100 |
-| Dilution | C₁V₁ = C₂V₂ |
-| Thickening volume | V₂ = V₁ × %₁ ÷ %₂ |
-| CT | Concentration (mg/L) × time (min) |
-
-## Activated sludge
-| Find | Formula |
-|---|---|
-| MLVSS (Mixed Liquor Volatile Suspended Solids) | MLSS (Mixed Liquor Suspended Solids) × % volatile (decimal) |
-| F/M (Food-to-Microorganism ratio) | kg/d BOD to aeration ÷ kg MLVSS in aeration |
-| SRT (Solids Retention Time) / MCRT (Mean Cell Residence Time) | kg solids in system ÷ (kg/d WAS (Waste Activated Sludge) + kg/d effluent solids) |
-| Sludge age | kg MLSS in aeration ÷ kg/d TSS (Total Suspended Solids) entering aeration |
-| SVI (Sludge Volume Index) | SSV₃₀ (mL/L) × 1,000 ÷ MLSS (mg/L) |
-| RAS (Return Activated Sludge) % | RAS flow ÷ influent flow × 100 |
-| WAS needed (kg/d) | (kg inventory ÷ target SRT) − kg/d effluent solids |
-
-## Pressure, pumps, electricity
-| Find | Metric | US |
-|---|---|---|
-| Pressure from head | kPa (kilopascal) = m × 9.81 | psi (pounds per square inch) = ft × 0.433 |
-| Head from pressure | m = kPa ÷ 9.81 | ft = psi × 2.31 |
-| Water power | kW (kilowatt) = 9.81 × Q (m³/s) × H (m) | whp (water horsepower) = gpm (gallons per minute) × ft ÷ 3,960 |
-| Brake/pump input | ÷ pump efficiency | bhp (brake horsepower) = whp ÷ pump eff. |
-| Motor input | ÷ motor efficiency | mhp (motor horsepower) = bhp ÷ motor eff. |
-| Ohm's law | V = I × R | |
-| Power (simple) | P = V × I | |
-| Energy | kWh (kilowatt-hour) = kW × h | |
-
-## Lab
-| Find | Formula |
-|---|---|
-| TSS (mg/L) | (dry wt − filter wt, g) × 1,000,000 ÷ mL |
-| VSS (mg/L) | (dry wt − ignited wt, g) × 1,000,000 ÷ mL |
-| % volatile | VSS ÷ TSS × 100 |
-| BOD (unseeded) | (DOi − DOf) × 300 ÷ mL sample |
-| Temperature | °F = °C × 1.8 + 32 · °C = (°F − 32) ÷ 1.8 |
+**Formulas in this course that are NOT on the official sheet** (learn the idea; you must know them yourself): **dose = demand + residual** (memorize it); CT = concentration × time; sludge age based on solids entering the aeration tank; thickening volume V₂ = V₁ × %₁ ÷ %₂; kg/d of dry sludge = m³/d × % × 10.
 
 ---
 
-## Conversions
+## Conversion factors (as on the official sheet)
 
-### Metric
 | | |
 |---|---|
-| 1 m³ = 1,000 L | 1 ML = 1,000 m³ = 1,000,000 L |
-| 1 L water = 1 kg | 1 m³ water = 1,000 kg = 1 tonne |
-| 1 mg/L = 1 g/m³ = 1 kg/ML = 1 ppm (parts per million) | 1% = 10,000 mg/L |
-| 1 m = 100 cm = 1,000 mm | 1 km = 1,000 m |
-| 1 ha = 10,000 m² | 1 kg = 1,000 g = 1,000,000 mg |
-| 1 m³/s = 1,000 L/s (litres per second) = 86,400 m³/d | 1 L/s = 86.4 m³/d |
-| 1 day = 24 h = 1,440 min = 86,400 s | 1 m water ≈ 9.81 kPa |
+| 1 acre = 43,560 ft² = 4,046.9 m² | 1 inch = 2.54 cm |
+| 1 acre-foot of water = 326,000 gal | 1 litre per second = 0.0864 MLD (million litres per day) |
+| 1 atm = 33.9 ft of water = 10.3 m of water = 14.7 psi (pounds per square inch) = 101.3 kPa | **1 metre of water = 9.8 kPa** |
+| **1 ft³ of water = 7.48 gal = 62.4 lb** | 1 metric ton = 2,205 lb = 1,000 kg |
+| 1 ft³/s = 0.646 MGD = 448.8 gpm | 1 mile = 5,280 ft = 1.61 km |
+| **1 m³ of water = 1,000 kg = 1,000 L = 264 gal** | **1 MGD = 694 gpm = 1.55 ft³/s** |
+| 1 foot = 0.305 m | **1 pound = 0.454 kg** |
+| **1 foot of water = 0.433 psi** | **1 psi = 2.31 ft of water = 6.89 kPa** |
+| **1 gallon (US) = 3.785 L = 8.34 lb of water** | 1 square metre = 1.19 yd² |
+| 1 grain per US gallon = 17.1 mg/L | 1 ton = 2,000 lb |
+| 1 hectare = 10,000 m² | **1% = 10,000 mg/L** |
+| **1 horsepower = 0.746 kW = 746 W = 33,000 ft·lb/min** | **π = 3.14** |
+| Population equivalent, hydraulic = 100 gal (378.5 L) per person per day | Population equivalent, organic = 0.17 lb (0.077 kg) BOD per person per day |
 
-### US
-| | |
-|---|---|
-| 1 ft³ = 7.48 gal | 1 gal water = 8.34 lb |
-| 1 ft³ water = 62.4 lb | 1 MGD = 694.4 gpm = 1.547 cfs (cubic feet per second) |
-| 1 cfs = 448.8 gpm | 1 psi = 2.31 ft · 1 ft = 0.433 psi |
-| 1 acre = 43,560 ft² | 1 mile = 5,280 ft |
-| 1 hp = 0.746 kW = 33,000 ft·lb/min | 1 ton = 2,000 lb |
+**Not on the official sheet but you'll need them (memorize):** 1 m³ = 1,000 L · 1 ML = 1,000 m³ · 1 day = 24 h = 1,440 min = 86,400 s · 1 L/s = 86.4 m³/d · 1 mg/L = 1 g/m³ · 1 m³/m²·d (cubic metres per square metre per day) = 1,000 Lpd/m².
 
-### Metric ↔ US
-| | |
-|---|---|
-| 1 gal (US) = 3.785 L | 1 m³ = 264.2 gal |
-| 1 m = 3.281 ft | 1 in = 2.54 cm |
-| 1 kg = 2.205 lb | 1 lb = 0.4536 kg (453.6 g) |
-| 1 psi = 6.895 kPa | 1 kW = 1.34 hp |
-| 1 ha = 2.47 acres | 1 m³/d = 264.2 gpd |
+## Abbreviations on the official sheet worth noticing
+- **ML = million litres** and **MLD = million litres per day** (1 ML = 1,000 m³).
+- **MG = million US gallons**; **MGD = million US gallons per day**; **gpd/gpm** = US gallons per day/minute.
+- **SS = settleable solids** on this sheet (elsewhere, e.g. federal effluent rules, SS means *suspended* solids — read the context).
+- **SBOD₅ = soluble BOD**; **SDI = sludge density index**; **PE = population equivalent**; **OUR/SOUR = (specific) oxygen uptake rate**; **TOC = total organic carbon**; **LSI = Langelier Saturation Index**.
+
+## Pie wheels (last page of the official sheet)
+- The quantity **above** the line = the wedges **below** the line **multiplied** together.
+- To find a wedge below the line: **cover it**, then **divide** the top by the remaining wedge(s).
+- Units given must match the wheel; **metric is shown in brackets**.
+- Wheels shown: area of circle (0.785 × D²), rectangle, right triangle (½ × base × height), EMF (current × resistance), feed rate (flow × dose × 8.34 [0.001]), flow rate (area × velocity), force (pressure × area), loading rate, mass, and volumes of cone, cylinder and rectangular tank.

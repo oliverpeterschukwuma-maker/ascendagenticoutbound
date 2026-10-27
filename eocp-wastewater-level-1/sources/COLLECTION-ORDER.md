@@ -8,8 +8,8 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 |---|---|---|
 | 1 | WPI Wastewater Treatment Class I Need-to-Know (2025) | ✅ Received — [NTK-2025-summary.md](NTK-2025-summary.md) |
 | — | EOCP Exam Preparation page | ✅ Received — [EOCP-exam-prep-page-summary.md](EOCP-exam-prep-page-summary.md) |
-| 2 | **ABC Canadian Formula/Conversion Table for Wastewater Treatment, Industrial, Collection and Laboratory Exams** (your actual exam formula sheet) | ⏳ **Next** |
-| 3 | EOCP Formulae, Conversions, and Abbreviations | ☐ |
+| 2 | ABC Formula/Conversion Table — Wastewater (exam formula sheet) | ✅ Received — [ABC-formula-sheet-summary.md](ABC-formula-sheet-summary.md); course formula sheet matched; new lesson 17F |
+| 3 | EOCP Formulae, Conversions, and Abbreviations | ⏳ **Next** |
 | 4 | EOCP Conversion Chart | ☐ |
 | 5 | Candidate Instructions for ABC Web-Based Examinations | ☐ |
 | 6 | Sample Exam Questions (Levels I–IV link) | ☐ |

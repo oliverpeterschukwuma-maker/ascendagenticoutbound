@@ -91,22 +91,22 @@ The **same flow** must pass through every section of a pipe (water doesn't disap
 **The conversions (MEMORIZE):**
 | Metric | US |
 |---|---|
-| **1 m of water ≈ 9.81 kPa** | **1 ft of water = 0.433 psi** |
+| **1 m of water ≈ 9.8 kPa** | **1 ft of water = 0.433 psi** |
 | **1 kPa ≈ 0.102 m of water** | **1 psi = 2.31 ft of water** |
 
 **Examples:**
-- Pressure at the bottom of a tank with **4 m** of water: 4 × 9.81 = **39.2 kPa**.
+- Pressure at the bottom of a tank with **4 m** of water: 4 × 9.8 = **39.2 kPa**.
 - Pressure at the bottom of a tank with **10 ft** of water: 10 × 0.433 = **4.33 psi**.
 - A pressure gauge on a pump discharge reads **50 psi**: head = 50 × 2.31 = **115.5 ft**.
-- A gauge reads **300 kPa**: head = 300 ÷ 9.81 = **30.6 m**.
+- A gauge reads **300 kPa**: head = 300 ÷ 9.8 = **30.6 m**.
 
 ### 2.5 Pressure depends on DEPTH only
 
 A tall skinny pipe 5 m deep and a huge wide tank 5 m deep have the **same pressure at the bottom**. Width and shape don't matter — **only the vertical depth of water** does.
 
-**Exam-style example (the same type WPI (Water Professionals International) uses in its official sample):** *A reservoir 15 ft (5 m) in diameter holds 18 ft (5.5 m) of water. What is the pressure at the bottom?* → The **diameter doesn't matter**. 18 × 0.433 = **7.8 psi**; 5.5 × 9.81 = **54 kPa**. The question gives US units first and metric in brackets — solve with whichever you prefer.
+**Exam-style example (the same type WPI (Water Professionals International) uses in its official sample):** *A reservoir 15 ft (5 m) in diameter holds 18 ft (5.5 m) of water. What is the pressure at the bottom?* → The **diameter doesn't matter**. 18 × 0.433 = **7.8 psi**; 5.5 × 9.8 = **54 kPa**. The question gives US units first and metric in brackets — solve with whichever you prefer.
 
-*This is why a pressure transducer at the bottom of a wet well can measure the water level: pressure ÷ 9.81 = depth in metres.*
+*This is why a pressure transducer at the bottom of a wet well can measure the water level: pressure ÷ 9.8 = depth in metres.*
 
 ### 2.6 Friction and headloss
 
@@ -177,7 +177,7 @@ Most plants are built so water flows from unit to unit **by gravity**: the headw
 - When a pump's discharge **pressure goes up** but **flow goes down**, think **more resistance downstream** (closed/partly closed valve, plugged line, scaled force main).
 - When **pressure goes down and flow goes down**, think **pump problem** (worn impeller/rings, air binding, clogged suction, wrong rotation).
 - **Rising upstream levels** in channels/tanks point to a **restriction downstream** (blinded screen, stuck gate, plugged pipe, too much flow).
-- A **pressure gauge is a level gauge** for water: pressure ÷ 9.81 = metres of water (or psi × 2.31 = feet).
+- A **pressure gauge is a level gauge** for water: pressure ÷ 9.8 = metres of water (or psi × 2.31 = feet).
 - **Uneven flow split** between parallel units (two clarifiers) is usually a weir/gate level problem — fix the splitter box.
 
 ---
@@ -187,7 +187,7 @@ Most plants are built so water flows from unit to unit **by gravity**: the headw
 1. **Q = A × V** (flow = area × velocity). V = Q ÷ A. A = Q ÷ V.
 2. **Continuity: A₁V₁ = A₂V₂** — smaller area → faster.
 3. Halving pipe **diameter** → **¼ the area** → **4× the velocity** (same flow).
-4. **1 m of water ≈ 9.81 kPa**; **1 psi = 2.31 ft**; **1 ft = 0.433 psi**; 1 psi ≈ 6.9 kPa.
+4. **1 m of water ≈ 9.8 kPa**; **1 psi = 2.31 ft**; **1 ft = 0.433 psi**; 1 psi ≈ 6.9 kPa.
 5. **Pressure depends only on depth**, not on tank shape or width.
 6. **Headloss increases** with longer pipe, smaller diameter, higher velocity, rougher pipe, more fittings, partly closed valves.
 7. **Gravity flow** = slope, partly full; **pressure flow** = pump/force main, full pipe.
@@ -217,7 +217,7 @@ Most plants are built so water flows from unit to unit **by gravity**: the headw
 | "A wider tank has more pressure at the bottom" | Pressure depends on **depth only**. |
 | "Halving the diameter doubles the velocity" | Halving diameter → **¼ area → 4×** velocity. |
 | "Smaller pipe = less friction" | Smaller pipe = **more** friction. |
-| "1 psi = 2.31 m" | **1 psi = 2.31 FEET.** 1 m ≈ 9.81 kPa. |
+| "1 psi = 2.31 m" | **1 psi = 2.31 FEET.** 1 m ≈ 9.8 kPa. |
 | "Adding a parallel channel speeds up the water" | More area → **slower**. |
 | "Velocity and flow are the same thing" | Flow = **how much**; velocity = **how fast**. |
 
@@ -240,7 +240,7 @@ Most plants are built so water flows from unit to unit **by gravity**: the headw
 3. The pressure at the bottom of a tank filled with 6 m of water is approximately:
    A. 6 kPa
    B. 0.6 kPa
-   C. 58.9 kPa
+   C. 58.8 kPa
    D. 600 kPa
 
 4. A discharge pressure gauge reads 40 psi. This is equal to a head of approximately:
@@ -305,7 +305,7 @@ Most plants are built so water flows from unit to unit **by gravity**: the headw
 |---|---|---|
 | 1 | **B** | A = 0.8 × 0.5 = 0.4 m²; Q = 0.4 × 0.3 = **0.12 m³/s**. D is the area, not flow. |
 | 2 | **C** | Half the diameter → ¼ the area → 4× velocity: 0.5 × 4 = **2.0 m/s**. |
-| 3 | **C** | 6 × 9.81 = **58.9 kPa**. |
+| 3 | **C** | 6 × 9.8 = **58.8 kPa**. |
 | 4 | **C** | 40 × 2.31 = **92.4 ft**. A used 0.433 incorrectly. |
 | 5 | **B** | Depth only. |
 | 6 | **C** | Fittings and a partly closed valve add friction. A/B/D reduce it. |
