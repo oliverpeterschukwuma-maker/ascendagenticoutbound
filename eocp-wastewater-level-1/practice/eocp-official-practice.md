@@ -3,7 +3,7 @@
 ← [Course index](../README.md) · [Exam Prep System](exam-prep-system.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **CO** = carbon monoxide · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **LEL** = Lower Explosive Limit · **MCRT** = Mean Cell Residence Time · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MPN** = Most Probable Number · **m³/d** = cubic metres per day · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **OUR** = Oxygen Uptake Rate · **O₂** = oxygen · **RAS** = Return Activated Sludge · **RBCs** = Rotating Biological Contactors · **SCADA** = Supervisory Control And Data Acquisition · **UV** = Ultraviolet · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **CO** = carbon monoxide · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **ERP** = Emergency Response Plan · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **MCRT** = Mean Cell Residence Time · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MPN** = Most Probable Number · **m³/d** = cubic metres per day · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **OUR** = Oxygen Uptake Rate · **O₂** = oxygen · **psi** = pounds per square inch · **RAS** = Return Activated Sludge · **RBCs** = Rotating Biological Contactors · **SCADA** = Supervisory Control And Data Acquisition · **SDS** = Safety Data Sheet · **UV** = Ultraviolet · **WHMIS** = Workplace Hazardous Materials Information System · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
 <!-- abbr-end -->
 
 ## About this page
@@ -156,3 +156,39 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 | 25 | To ensure safety, what is done FIRST when taking a pump out of service? | A. Measure solids · B. Drain and disinfect · C. Lock out and tag the breaker OFF · D. Check voltage drop | **C** | **Lockout/tagout first** — always, before any work. | 2, 14 |
 
 **What this exam shows:** EOCP likes **basic definitions** (BOD, combined sewers, lagoon types), **safety-first answers** (confined space air, lockout first), and **"all of the above"** when every choice is a real cause.
+
+---
+
+## ✅ EOCP OIT Sample Exam (Operator in Training, Dec 2020) — 25 questions
+
+**Source:** EOCP *OIT Sample Exam* (December 2020) with EOCP's answer key. The OIT exam covers **all utilities** (water and wastewater), so some questions are about drinking water — they're marked so you can see which ones matter most for Level I Wastewater. Answers are **EOCP's official key**.
+
+| # | Question (short form) | Answer | Why | Module | Area |
+|---|---|---|---|---|---|
+| 1 | Two most important safety concerns when entering a confined space? | **A** | Low oxygen + hazardous gases — **test the air first**. | 2 | WW |
+| 2 | Impact of lead in drinking water? | **C** | Lead is **harmful to human health** (toxic, especially to children). | — | Water |
+| 3 | Most important reason to maintain drinking-water quality? | **D** | **Safeguard public health** — always the top reason. | — | Water |
+| 4 | Reservoir 6 m × 18 m. Floor area? | **B** | 6 × 18 = **108 m²**. | 17B | Math |
+| 5 | Chlorine demand in a well jumps from 0.9 to 3.0 mg/L (milligrams per litre). What does it mean? | **C** | Demand rises when there's more stuff for chlorine to react with → **possible contamination**. | 8 | Both |
+| 6 | What must aerobic organisms have to live? | **A** | Aerobic = needs **oxygen**. | 5 | WW |
+| 7 | Check valves are used to: | **D** | Allow flow in **one direction only**. | 11 | Both |
+| 8 | Where are chemical safe-handling and first-aid instructions found? | **A** | The **(Material) Safety Data Sheet** — now called **SDS** under WHMIS (Workplace Hazardous Materials Information System) 2015. | 2 | Both |
+| 9 | The inlet of a pump is called the: | **B** | **Suction** (outlet = discharge). | 10 | WW |
+| 10 | Best indication of a sewer pipe's condition? | **B** | **CCTV (closed-circuit camera) inspection** lets you see inside. | — | Collection |
+| 11 | Cross-connections must be prevented by: | **D** | An **approved backflow prevention device**. | 11 | Both |
+| 12 | What is static head? | **C** | Pressure due to the **elevation (height) of the water** — no flow, no friction. | 12 | WW |
+| 13 | Most common test for organic strength of wastewater? | **A** | The **BOD** test. | 15 | WW |
+| 14 | In 24 hours, minimum wastewater flow is usually around: | **B** | **About 04:00** — everyone is asleep. (Peaks are morning and evening.) | 1 | WW |
+| 15 | Level drops 0.3 m/h in a tank 9.6 m × 7.6 m (4.6 m high). Litres out per hour? | **D** | 9.6 × 7.6 × 0.3 = 21.888 m³ = **21,888 L**. The 4.6 m height is a distractor. | 17B | Math |
+| 16 | Most commonly used chemical for disinfecting water? | **C** | **Sodium hypochlorite** (liquid chlorine/bleach). | 8 | Both |
+| 17 | Chlorine dose 8.0 mg/L, demand 4.3 mg/L. Residual? | **C** | Residual = dose − demand = **3.7 mg/L**. | 17C | Math |
+| 18 | An organic pollutant discharged to a river depletes: | **C** | Bacteria use up the **dissolved oxygen**. | 1 | WW |
+| 19 | Chlorine gas is: | **C** | **Heavier than air** (about 2.5×) — it sinks into low areas. (It's greenish-yellow.) | 8 | Both |
+| 20 | Pressure is usually measured in: | **D** | **psi** (or kPa (kilopascal) in metric). | 12 | Both |
+| 21 | Which provincial ministry covers drinking-water regulations? | **B** | **Health** (BC Drinking Water Protection Act). Wastewater falls under **Environment**. | 18 | Water |
+| 22 | Watermains should be flushed: | **A** | **Often enough to maintain water quality**. | — | Water |
+| 23 | A water purveyor must have what plan under provincial regulations? | **A** | An **emergency response plan**. | 18 | Water |
+| 24 | Why not use water on electrical fires? | **B** | Water conducts — it can **shock the operator**. Use a **Class C** (CO₂/dry chemical) extinguisher. | 2, 14 | Both |
+| 25 | Km driven: 66.9, 18, 77.7, 0, 39.9 over 5 days. Average? | **A** | 202.5 ÷ **5** (Thursday's 0 still counts) = **40.5 km**. | 17A | Math |
+
+**Good warm-up for Week 1:** about half of these are general operator knowledge (safety, valves, pumps, basic math) that appears on every EOCP exam.

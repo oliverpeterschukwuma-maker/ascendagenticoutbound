@@ -1,7 +1,7 @@
 # BC EOCP / WPI Wastewater Treatment Level I — Master Course
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **CEUs** = Continuing Education Units · **CFU** = Colony-Forming Units · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **mg/L** = milligrams per litre · **OHS** = Occupational Health and Safety · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RBCs** = Rotating Biological Contactors · **SCADA** = Supervisory Control And Data Acquisition · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **CEUs** = Continuing Education Units · **CFU** = Colony-Forming Units · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **mg/L** = milligrams per litre · **OHS** = Occupational Health and Safety · **OIT** = Operator in Training · **RAS** = Return Activated Sludge · **RBC** = Rotating Biological Contactor · **RBCs** = Rotating Biological Contactors · **SCADA** = Supervisory Control And Data Acquisition · **SOR** = Surface Overflow Rate · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **WOR** = Weir Overflow Rate · **WPI** = Water Professionals International · **WSER** = Wastewater Systems Effluent Regulations
 <!-- abbr-end -->
 
 A complete self-study textbook and practice system for the **current (July 2025 onward) EOCP/WPI standardized Wastewater Treatment Level I exam** in British Columbia — written for someone starting from zero, with extra help for math.
@@ -102,7 +102,7 @@ Every formula follows the same layout: **formula → what it means → WHY IT WO
 | [mixed-practice.md](practice/mixed-practice.md) | Phase 4: 60 shuffled questions from all modules |
 | [mock-exam-1.md](practice/mock-exam-1.md) | Full 100-question mock, weighted 39/38/13/10 like the real exam, with explanations and a score-by-area table |
 | [mock-exam-2.md](practice/mock-exam-2.md) | Second full 100-question mock, all-new questions |
-| [eocp-official-practice.md](practice/eocp-official-practice.md) | ✅ **Official WPI/ABC Wastewater sample (20 Qs) + EOCP SWWS sample exam (25 Qs)** — all with answers and explanations |
+| [eocp-official-practice.md](practice/eocp-official-practice.md) | ✅ **Official WPI/ABC Wastewater sample (20 Qs) + EOCP SWWS (25 Qs) + EOCP OIT (25 Qs) sample exams** — all with answers and explanations |
 | [eocp-math-test-questions.md](practice/eocp-math-test-questions.md) | ✅ **EOCP Math Test (50) + Math for Operators Level I (20) — all solved step by step** |
 
 ### Part E — Review (`review/`)
