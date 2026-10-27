@@ -3,7 +3,7 @@
 ← [Course index](../README.md) · [Exam Prep System](exam-prep-system.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **EOCP** = Environmental Operators Certification Program · **H₂S** = hydrogen sulphide · **mL** = millilitre · **MPN** = Most Probable Number · **OIT** = Operator in Training · **SCADA** = Supervisory Control And Data Acquisition · **WPI** = Water Professionals International
+> 🔤 **Abbreviations in this file:** **ABC** = Association of Boards of Certification · **BOD** = Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **MCRT** = Mean Cell Residence Time · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **MPN** = Most Probable Number · **NTK** = Need-to-Know Criteria · **OIT** = Operator in Training · **OUR** = Oxygen Uptake Rate · **RAS** = Return Activated Sludge · **SCADA** = Supervisory Control And Data Acquisition · **WPI** = Water Professionals International
 <!-- abbr-end -->
 
 ## About this page
@@ -48,7 +48,7 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 
 ## ✅ WPI/ABC Wastewater Treatment Sample Questions (official — 20 questions online)
 
-**Source:** *ABC Wastewater Treatment Sample Questions* — WPI's online sample test, run in the **real exam software** ([link](http://abcwbt.abccert.org/lxrweb/online/samples/webtest2.asp)). Questions 1–14 received so far; **15–20 still needed**.
+**Source:** *ABC Wastewater Treatment Sample Questions* — WPI's online sample test, run in the **real exam software** ([link](http://abcwbt.abccert.org/lxrweb/online/samples/webtest2.asp)). All **20** questions received (from your screenshots). **Area split of this sample:** Safety/Admin 3 · Process 10 · Equipment 3 · Lab 4.
 
 **What the software looks like (from your screenshots):** you type a name to log on → a **Cover** page ("0 of 20 questions answered", **Begin** / **Exit**) → one question per screen. Bottom bar: **Cover · Help · (answer box) · ! · Time · ☐ (mark for review) · < · question-number dropdown · > · >>**. **No on-screen calculator was visible** — bring your own non-programmable one.
 
@@ -82,7 +82,18 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
     A. Neutralize base  B. Neutralize acid  C. Dissolve organics  D. Maintain constant temperature
 14. In a healthy activated sludge process which of the following organisms will most likely be found in the greatest numbers?
     A. Stalked ciliates  B. Amoebas  C. Free swimming ciliates  D. Nymphs
-15–20. *(screenshots still needed)*
+15. Since reaction rates are lower during the winter, the operator of an activated sludge plant will usually
+    A. Increase dissolved oxygen levels  B. Decrease MCRT  C. Decrease wasting  D. Increase MCRT
+16. Filamentous bulking of activated sludge may be controlled temporarily by
+    A. Adding sodium chloride to the aeration tank  B. Spraying water on the aeration tank surface  C. Carefully chlorinating the return sludge or mixed liquor  D. Aerating the final settling tank
+17. Which of the following tests would give the fastest indication of toxicity in an activated sludge process?
+    A. Oxygen Uptake Rate (OUR)  B. Settleometer  C. MLSS  D. Microscopic Observation
+18. Why is scum skimmed from the liquid surface of a primary settling tank?
+    A. To reduce the load on the digester  B. To eliminate interference with sludge removal  C. To allow aeration of the tank contents  D. To reduce odor and insect nuisance
+19. The best operating strategy for feeding primary sludge to an anaerobic digester is to feed
+    A. Several times a day  B. Large quantities once or twice a day  C. Once a day  D. When the volatile solids drop below 60%
+20. In the activated sludge process, some of the activated sludge must be wasted to
+    A. Prevent excessive solids buildup  B. Prevent clogging of the sludge return line  C. Prevent overloading of the sludge return pumps  D. Increase digester gas production
 
 ### Answers and explanations
 | # | Answer | Why | Module · Area |
@@ -101,6 +112,12 @@ EOCP (Environmental Operators Certification Program) publishes some practice mat
 | 12 | **A** | COD takes about **2–3 hours**; BOD takes **5 days**. | 15 · Lab |
 | 13 | **B** | Alkalinity is the **buffer** — it neutralizes acid and stops pH from dropping (important in nitrification and digesters). | 5, 7 · Process |
 | 14 | **A** | **Stalked ciliates** dominate a healthy, stable, well-aged sludge. Lots of amoebas/flagellates = young or upset sludge. | 5 · Process |
+| 15 | **D** | Cold bugs work slower, so keep them **longer** — a higher MCRT (mean cell residence time = sludge age) means more organisms to do the same work. (Decreasing wasting is *how* you raise MCRT, but D is the operating goal the question asks for.) | 5 · Process |
+| 16 | **C** | Careful **chlorination of RAS (Return Activated Sludge)** kills the exposed filaments sticking out of the floc — a **temporary** fix. The real fix is finding the cause (low DO (Dissolved Oxygen), low F/M (Food-to-Microorganism ratio), nutrients, septic feed). | 5 · Process |
+| 17 | **A** | **OUR** (Oxygen Uptake Rate) shows in minutes whether the bugs are still breathing. A sudden OUR drop = toxicity. | 5, 15 · Process |
+| 18 | **D** | Floating scum (grease, oil, plastics) rots, smells and attracts flies — skimming prevents **odours and insects** (and keeps it out of the effluent). | 4 · Process |
+| 19 | **A** | Digesters like a **steady diet**: small, frequent feedings keep the acid-formers and methane-formers in balance. Big slugs can sour the digester. | 9 · Process |
+| 20 | **A** | Bugs keep growing; if you don't waste the extra, solids build up until the clarifier blanket overflows. (Same idea as the official 2025 NTK (Need-to-Know Criteria) sample question.) | 5 · Process |
 
 **How to check Q10 using the sample test itself:** start the online test fresh, answer **only Q10** (pick **A**), then Cover → Finish → Mastery. If the score is 1 of 20, A is right; if 0, start again and try **B**, and so on. Send Claude the result.
 
