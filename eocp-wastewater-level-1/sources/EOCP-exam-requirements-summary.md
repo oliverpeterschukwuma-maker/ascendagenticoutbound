@@ -21,4 +21,19 @@
 | Level III | 4 years (7,200 h) at Class II+ · 2 years post-secondary or 90 CEUs · 2 years Direct Responsible Charge |
 | Level IV | 4 years (7,200 h) at Class III+ · 4 years post-secondary or 180 CEUs · 2 years Direct Responsible Charge |
 
+## Supervisor Verification Form
+**Source:** *Supervisor Verification Page* (1 page, from the Exam Requirements page). **Required for every exam application.**
+
+| Section | What goes in it |
+|---|---|
+| Who signs | Your **manager or supervisor** — **not** you, and **not a family member**. EOCP **will contact the supervisor** to confirm. |
+| Your work | Full time / part time / seasonal, and for how many **years / months** |
+| Each area worked | **% of time per year** and **number of hours per year** for: water distribution, water treatment, **wastewater treatment**, wastewater collection, stormwater collection |
+| Two yes/no questions per area | Do you operate the system **regularly, like other operators**? Do you operate **mainly as a backup** (vacation, sick leave, on call)? |
+| Facility | Facility/system **name and city** |
+| Supervisor | Printed name, phone number, **certification number** (if certified), signature, date |
+| Other experience | Not in those five areas? Attach a **reference letter from your employer**. |
+
+**Tips:** keep your own running log of hours (date, hours, tasks, facility) so your numbers are ready; for Level I you need **1,800 hours in wastewater treatment** at a Class I+ facility — make sure the wastewater treatment row adds up.
+
 **Still needed:** the **walk-through guide to applying in the EOCP CRM** (the "click here" link on this page) — for booking steps and fees.
