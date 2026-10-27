@@ -1,0 +1,250 @@
+What is influent?,"Water flowing INTO the plant or a process. Operators watch its flow, colour, odour and strength — the first warning of trouble.",Fundamentals
+What is effluent?,Water flowing OUT of the plant or a process. Final effluent must meet permit limits.,Fundamentals
+What is BOD?,"Biochemical Oxygen Demand — oxygen used by bacteria to break down organics in 5 days at 20 °C. Measures wastewater 'strength'; used for loading, F/M and permit compliance.",Fundamentals
+What is CBOD?,"Carbonaceous BOD — BOD with nitrification inhibited, so only carbon-based demand is measured. Many permits use CBOD.",Fundamentals
+What is COD?,Chemical Oxygen Demand — oxygen equivalent of organics oxidized by a strong chemical (dichromate) in ~2 h. Fast; always ≥ BOD.,Fundamentals
+What is TSS?,"Total Suspended Solids — solids caught on a glass-fibre filter, dried at 103–105 °C. Shows solids removal and effluent quality.",Fundamentals
+What is TDS?,"Total Dissolved Solids — solids that pass through the filter (salts, minerals). Not removed by clarifiers.",Fundamentals
+TS = ?,TS = TSS + TDS.,Fundamentals
+Volatile vs fixed solids?,Volatile = burns off at 550 °C = organic. Fixed = ash left = inorganic.,Fundamentals
+What is DO?,Dissolved Oxygen (mg/L). Aerobic bugs and fish need it. ~9 mg/L saturation at 20 °C; warm water holds less.,Fundamentals
+Fresh vs septic wastewater?,"Fresh: grey, musty. Septic: black, rotten-egg (H₂S) odour — safety and treatment problem.",Fundamentals
+What is pH and why care?,Acidity scale 0–14 (7 neutral; each unit = 10×). Bugs like ~6.5–8.5; sudden swings may mean industrial discharge.,Fundamentals
+What is alkalinity?,"Buffering capacity ('pH shock absorber'), mg/L as CaCO₃. Nitrification and chemical P removal use it up.",Fundamentals
+Typical raw domestic BOD and TSS?,About 200 mg/L each (medium strength). COD about twice BOD.,Fundamentals
+What is a pathogen?,"A disease-causing organism: bacteria, viruses, protozoa (Giardia, Cryptosporidium), helminths.",Fundamentals
+Why test for E. coli / fecal coliform?,They are indicator organisms — their presence shows fecal contamination and possible pathogens. Used to check disinfection.,Fundamentals
+Nutrient ratio for biology?,BOD : N : P ≈ 100 : 5 : 1.,Fundamentals
+What is eutrophication?,Excess nutrients (especially P) → algae blooms → oxygen depletion when algae die → fish kills.,Fundamentals
+Infiltration vs inflow?,"Infiltration = groundwater leaking in through cracks. Inflow = direct connections (roof drains, manhole lids).",Fundamentals
+Effect of temperature on biology and DO?,"Warmer → faster biology but LESS DO saturation. Colder → slower biology (nitrification!), more DO.",Fundamentals
+Hierarchy of controls (best → worst)?,Elimination → Substitution → Engineering → Administrative → PPE (last line of defence).,Safety
+H₂S key facts?,Rotten eggs; heavier than air (SG ~1.19) — collects low; toxic; flammable; deadens smell (olfactory fatigue ~100 ppm).,Safety
+Methane key facts?,Odourless; lighter than air (SG ~0.55) — collects high; explosive 5–15% in air.,Safety
+Chlorine gas key facts?,Greenish-yellow; ~2.5× heavier than air; toxic/corrosive; supports combustion; liquid expands ~460× to gas.,Safety
+Acceptable oxygen range for entry?,19.5% to 23%. Normal air = 20.9%. Below 19.5% = deficient.,Safety
+Flammable gas limit for entry?,Below 10% of the LEL. 10% LEL methane = 0.5% methane by volume.,Safety
+Gas testing order?,"Oxygen → Flammables (LEL) → Toxics. Test top, middle and bottom. ('Only Fools Trust')",Safety
+Confined space?,"Enclosed/partly enclosed, not designed for continuous occupancy, restricted entry/exit. E.g., wet wells, digesters, manholes.",Safety
+Attendant's role?,"Stays OUTSIDE, monitors entrant, summons help, performs non-entry rescue. NEVER enters.",Safety
+Lockout key steps?,Notify → shut down → isolate → each worker applies own lock → release stored energy → VERIFY (try to start) → work → remove own lock.,Safety
+Is a stop button or HOA 'Off' lockout?,No. Control devices are not energy isolation. Lock the disconnect and verify.,Safety
+How to find a small chlorine leak?,Hold ammonia vapour near fittings — a white cloud shows the leak. Never put water on a leak.,Safety
+Eyewash/shower flush time?,"At least 15 minutes (longer for caustics per SDS), then medical attention. Test stations weekly.",Safety
+SDS key sections?,"2 hazards, 4 first aid, 6 spills, 7 storage, 8 PPE/exposure, 10 reactivity. 16 sections total.",Safety
+Never mix hypochlorite with…?,Acids (→ chlorine gas) or ammonia (→ chloramine gases).,Safety
+Calcium hypochlorite storage hazard?,"Strong oxidizer — fire/explosion with oil, grease, rags or other organics. Keep dry and separate.",Safety
+Mixing acid and water?,Always add Acid to water (AAA).,Safety
+Can a cartridge respirator be used in a wet well?,Not if O₂ is low or contaminants are unknown/IDLH — air-purifying respirators don't supply oxygen. Use SCBA/supplied air.,Safety
+Fire extinguisher classes?,A = ordinary combustibles (ash); B = flammable liquids (barrel); C = energized electrical (current — no water); D = metals; K = kitchen.,Safety
+Ladder rule?,4:1 angle; extend ~1 m above landing; 3 points of contact.,Safety
+BC worker rights?,"Right to know, right to participate, right to refuse unsafe work (report to supervisor).",Safety
+Main route of biological infection for operators?,"Ingestion (hand-to-mouth). Wash hands before eating, drinking or smoking.",Safety
+Purpose of preliminary treatment?,"Protect downstream equipment by removing rags, debris and grit. Removes little BOD.",Preliminary_treatment
+Screen vs comminutor?,Screen REMOVES material. Comminutor SHREDS it and leaves it in the flow (rags can re-form mats downstream).,Preliminary_treatment
+What starts a mechanical bar screen rake?,A timer and/or differential level (headloss) across the screen; high level override.,Preliminary_treatment
+Blinded screen symptom?,Upstream water level rises; headloss/differential increases.,Preliminary_treatment
+What is grit?,"Heavy inorganic particles (sand, gravel, eggshells, coffee grounds), SG ~2.65. Causes abrasion and accumulation.",Preliminary_treatment
+Grit channel target velocity?,About 0.3 m/s (1 ft/s).,Preliminary_treatment
+Grit is greasy and septic-smelling — why?,Velocity too low (or air too low in aerated chamber) — organics settling with grit.,Preliminary_treatment
+Aerated grit chamber: effect of more air?,More air = stronger roll = less grit captured (and fewer organics). Less air = more organics settle.,Preliminary_treatment
+Adding a second grit channel does what to velocity?,"Lowers it (more area, same flow: V = Q ÷ A).",Preliminary_treatment
+Screenings handling?,"Wash/compact, store covered, dispose (usually landfill). Watch for odours, flies, sharps.",Preliminary_treatment
+What does a primary clarifier remove?,Settleable solids (sludge) and floatables (scum) by gravity.,Primary_treatment
+Typical primary removals?,"TSS ~50–70%, BOD ~25–40%.",Primary_treatment
+Detention time formula and typical primary DT?,DT = Volume ÷ Flow. Primary ~1.5–2.5 h.,Primary_treatment
+Surface overflow rate?,Flow ÷ surface area. Higher SOR = poorer settling.,Primary_treatment
+Weir overflow rate?,Flow ÷ weir length (circular weir = 3.14 × D). High WOR pulls solids over weirs.,Primary_treatment
+Too little primary sludge pumping causes?,"Septic, gasified floating sludge; carryover; high collector torque.",Primary_treatment
+Too much primary sludge pumping causes?,"Thin, watery sludge; hydraulic overload of thickeners/digesters ('coning').",Primary_treatment
+Short-circuiting causes?,"Un-level weirs, damaged baffles, temperature/density currents, wind. Detect with a dye test.",Primary_treatment
+Typical primary sludge solids?,About 2–6%.,Primary_treatment
+Aerobic / anoxic / anaerobic?,"Aerobic: DO present. Anoxic: no DO, nitrate present. Anaerobic: no DO, no nitrate.",Biological_treatment
+Facultative bacteria?,Can live with or without oxygen.,Biological_treatment
+Activated sludge flow?,Influent → aeration (mixed liquor) → secondary clarifier → RAS back / WAS out → effluent.,Biological_treatment
+Target aeration DO?,About 1–3 mg/L (2 mg/L common).,Biological_treatment
+MLSS vs MLVSS?,"MLSS = total solids in aeration. MLVSS = volatile (organic) part ≈ living biomass, ~70–80% of MLSS.",Biological_treatment
+RAS vs WAS?,"RAS returns sludge to aeration (controls WHERE sludge is/blanket). WAS removes sludge (controls HOW MUCH — MLSS, SRT, F/M).",Biological_treatment
+Waste MORE sludge →?,"MLSS ↓, SRT ↓, F/M ↑ (younger sludge).",Biological_treatment
+Waste LESS sludge →?,"MLSS ↑, SRT ↑, F/M ↓ (older sludge).",Biological_treatment
+F/M ratio?,kg BOD/d entering aeration ÷ kg MLVSS in aeration. High = young; low = old.,Biological_treatment
+SRT / sludge age?,Average days bugs stay in the system = kg solids in system ÷ kg/d leaving (WAS + effluent).,Biological_treatment
+SVI?,"SSV₃₀ × 1,000 ÷ MLSS. ~50–150 good; >150–200 bulking.",Biological_treatment
+Extended aeration features?,"Low F/M (~0.05–0.15), long SRT (20–30+ d), long HRT (18–36 h), little sludge. Includes oxidation ditches/package plants.",Biological_treatment
+SBR steps?,"Fill, React, Settle, Decant, Idle ('Fat Rats Sit Down Inside').",Biological_treatment
+Causes of filamentous bulking?,"Low DO, low F/M, nutrient deficiency, septic/sulphides, low pH, grease.",Biological_treatment
+White billowy foam means?,Young sludge / low MLSS / start-up (or detergents/toxicity) → reduce wasting.,Biological_treatment
+Thick brown greasy foam means?,Old sludge / foaming organisms (Nocardia) / grease → increase wasting; remove foam from system.,Biological_treatment
+"Black mixed liquor, rotten-egg odour?",Septic/anaerobic — not enough DO.,Biological_treatment
+Rising sludge?,Sludge settles then floats with N₂ bubbles — denitrification in clarifier. Increase RAS.,Biological_treatment
+Pin floc indicates?,Old sludge (long SRT) or over-aeration.,Biological_treatment
+Straggler/dispersed floc indicates?,"Young sludge (high F/M), toxicity or start-up.",Biological_treatment
+Microorganism progression young → old?,Amoebae/flagellates → free-swimming ciliates → stalked ciliates → rotifers → nematodes.,Biological_treatment
+Sudden DO rise with no air change + worse effluent?,Possible toxic upset — bugs stopped using oxygen.,Biological_treatment
+How fast to change wasting?,Gradually — about 10–15% per day; one change at a time.,Biological_treatment
+Lagoon DO/pH daily pattern?,Highest late afternoon (photosynthesis); lowest just before dawn.,Biological_treatment
+Lagoon colours?,Green = healthy; pink/red = purple sulphur bacteria (anaerobic/overloaded); grey/black = septic; blue-green scum = cyanobacteria.,Biological_treatment
+Trickling filter problems?,"Ponding, filter flies, odours, icing, sloughing. Recirculation helps many.",Biological_treatment
+RBC normal vs white biomass?,"~40% submerged. Brown/grey shaggy = normal. White = sulphur bacteria (overload, H₂S, low DO).",Biological_treatment
+Secondary clarifier purpose?,"Settle biological floc: clear effluent out, RAS back, WAS out.",Secondary_clarification
+Effect of increasing RAS?,Blanket drops; RAS thinner; more hydraulic and solids load on clarifier.,Secondary_clarification
+RAS %?,RAS flow ÷ influent flow × 100.,Secondary_clarification
+Target blanket?,Low and stable — commonly ~0.3–0.9 m (1–3 ft).,Secondary_clarification
+Bulking vs rising vs washout?,Bulking: settles slowly (high SVI). Rising: settles then floats. Washout: only during storms; settleometer normal.,Secondary_clarification
+"Rising blanket, thin RAS, normal settleometer?",RAS pump/line or collector failure — check equipment first.,Secondary_clarification
+Secondary vs primary SOR?,Secondary is lower (~16–32 m³/m²·d) because floc settles slower.,Secondary_clarification
+Algae on weirs problem?,Breaks off → higher TSS; uneven weirs → short-circuiting.,Secondary_clarification
+Nitrogen pathway?,Organic N → ammonia → nitrite → nitrate → N₂ gas.,Nutrient_removal
+TKN?,Organic N + ammonia N.,Nutrient_removal
+Nitrification?,Ammonia → nitrite (Nitrosomonas) → nitrate (Nitrobacter). Aerobic.,Nutrient_removal
+Nitrifier needs?,"DO ≥ ~2 mg/L, long SRT, adequate alkalinity, pH ~7–8, warm temps, no toxics.",Nutrient_removal
+Nitrification costs?,≈4.6 mg O₂ and ≈7.1 mg alkalinity (as CaCO₃) per mg ammonia-N.,Nutrient_removal
+Denitrification?,"Nitrate → N₂ gas. Needs anoxic (no DO), nitrate, carbon (BOD). Recovers some alkalinity.",Nutrient_removal
+Nitrite and chlorine?,"Nitrite consumes chlorine (~5 mg Cl₂/mg NO₂-N) → residual disappears, disinfection fails.",Nutrient_removal
+How is phosphorus removed from the system?,Only by wasting sludge (bio-P or chemical precipitate).,Nutrient_removal
+Chemical P removal chemicals and side effects?,"Alum, ferric chloride/sulphate. Consume alkalinity (lower pH), make more sludge.",Nutrient_removal
+Bio-P zones?,"Anaerobic (PAOs release P, take up VFAs) → aerobic (luxury P uptake) → removed in WAS. Nitrate in anaerobic zone ruins it.",Nutrient_removal
+Secondary phosphorus release?,"P-rich sludge going anaerobic (blankets, digesters, storage) releases P back to water and recycle streams.",Nutrient_removal
+"Dose, demand, residual?",Dose = Demand + Residual. Residual is what's left after the water 'uses up' chlorine.,Disinfection
+Why dose ≠ residual?,"Ammonia, nitrite, organics, solids, H₂S, iron and manganese consume chlorine first.",Disinfection
+HOCl vs OCl⁻?,HOCl (hypochlorous acid) ~80–100× stronger. Lower pH → more HOCl → better disinfection.,Disinfection
+Free vs combined chlorine?,"Free = HOCl + OCl⁻. Combined = chloramines (weaker, longer-lasting). Total = free + combined.",Disinfection
+CT?,Concentration (mg/L) × contact time (min).,Disinfection
+Typical chlorine contact time?,About 15 min at peak hourly flow (~30 min at average); baffled tank prevents short-circuiting.,Disinfection
+Chlorine product strengths?,Gas 100%; calcium hypochlorite ~65–70%; sodium hypochlorite ~10–15% (commonly 12%).,Disinfection
+Sodium hypochlorite storage?,"Loses strength with heat, sunlight, time; off-gasses (pump airlock).",Disinfection
+Chlorine withdrawal limits?,~18 kg/d from 68 kg cylinder; ~180 kg/d from ton. Frost = too fast. Never heat with flame.,Disinfection
+Ton container valves?,Top valve = gas; bottom valve = liquid.,Disinfection
+Why dechlorinate and with what?,Residual chlorine is toxic to fish. Use sulphur dioxide or sodium bisulphite. Federal TRC limit 0.02 mg/L.,Disinfection
+UV disinfection basics?,"~254 nm damages DNA; no residual; needs clear water; clean sleeves, replace lamps; low UVT/TSS reduce effect.",Disinfection
+Chlorine residual test?,DPD — turns pink. Test immediately.,Disinfection
+Solids handling goals?,"Reduce volume (remove water), stabilize (odour, pathogens, vectors), dispose/beneficially use.",Sludge_and_biosolids
+1% solids = ? mg/L,"10,000 mg/L.",Sludge_and_biosolids
+"Typical solids: primary, WAS, cake?",Primary ~2–6%; WAS ~0.5–1.5%; dewatered cake ~15–30%.,Sludge_and_biosolids
+Gravity thickener vs DAF?,Gravity thickener → primary sludge. DAF (tiny bubbles float solids) → WAS.,Sludge_and_biosolids
+Anaerobic digestion two stages?,"Acid formers (fast, tough) → methane formers (slow, sensitive).",Sludge_and_biosolids
+Mesophilic digester temperature?,~35 °C (95 °F); change ≤ ~1 °C/day.,Sludge_and_biosolids
+Healthy digester indicators?,"pH ~6.8–7.2; VA/ALK < ~0.1–0.2; gas ~60–70% methane, ~30–35% CO₂.",Sludge_and_biosolids
+Sour digester sequence?,"VA/ALK rises → alkalinity drops → pH drops (last) → gas drops, CO₂ rises. Cut feed; add alkalinity.",Sludge_and_biosolids
+Digester gas safety devices?,"Flame arrestors, pressure/vacuum relief valves, drip traps, waste gas burner.",Sludge_and_biosolids
+Aerobic digester pH drop?,Nitrification consumes alkalinity. Keep DO ≥ ~1 mg/L.,Sludge_and_biosolids
+Belt press zones?,Gravity drainage → wedge → pressure/shear.,Sludge_and_biosolids
+Polymer dose too low / too high?,"Too low: dirty filtrate, wet cake. Too high: slimy sludge, blinded belts, wasted money.",Sludge_and_biosolids
+Return streams?,"Supernatant, filtrate, centrate — strong in BOD/TSS/NH₃/P. Return slowly.",Sludge_and_biosolids
+BC biosolids regulation?,Organic Matter Recycling Regulation (OMRR).,Sludge_and_biosolids
+Centrifugal vs PD pumps?,Centrifugal: spinning impeller; flow drops as head rises. PD: fixed volume per stroke/turn; nearly constant flow.,Pumps
+PD pump with closed discharge?,Pressure builds until something breaks — never do it; relief valve required.,Pumps
+Impeller?,Spinning part that throws water outward; enters at the eye. Clogging/wear reduce flow.,Pumps
+Wear rings?,Keep tight clearance between impeller and casing; worn → internal recirculation → less flow/pressure.,Pumps
+Packing leakage?,"Slow steady drip (~20–60 drops/min). Too tight = burned packing, scored sleeve.",Pumps
+Mechanical seal leakage?,None. A leaking seal has failed. Never run dry.,Pumps
+Lantern ring and seal water?,Lantern ring distributes seal water; seal water slightly above stuffing box pressure.,Pumps
+Cavitation (simple)?,"Low suction pressure → water boils into vapour bubbles → bubbles collapse violently → gravel sound, pitting.",Pumps
+Fix cavitation?,"Fully open/clear suction, raise wet-well level, reduce suction lift, reduce speed. Never throttle suction.",Pumps
+Priming?,Filling pump/suction with liquid; centrifugal pumps can't pump air. Foot valve holds prime.,Pumps
+Air binding fix?,Vent air; fix suction leaks; raise level (prevent vortexing).,Pumps
+Suction lift vs suction head?,Lift: source below pump. Head (flooded): source above pump.,Pumps
+TDH?,Total dynamic head = static head + friction losses (+ velocity head).,Pumps
+Pump curve basics?,Head ↑ → flow ↓. Shutoff head at zero flow. Run near BEP.,Pumps
+Parallel vs series pumps?,Parallel adds flow; series adds head.,Pumps
+Wrong rotation (3-phase)?,Pump gives low flow; swap any two leads.,Pumps
+Pump spins backward after stopping?,Leaking/failed check valve.,Pumps
+Short cycling causes?,"Float settings too close, leaking check valve, oversized pump. Overheats motor.",Pumps
+Misalignment results?,"Vibration, bearing and seal failure.",Pumps
+Over-greasing?,Overheats bearings and can damage seals.,Pumps
+Gate valve use?,Isolation — fully open or fully closed. Don't throttle.,Valves_and_piping
+Globe valve use?,Throttling; high headloss; flow arrow.,Valves_and_piping
+Quarter-turn valves?,"Ball, butterfly, plug. Butterfly common on air headers; eccentric plug common for sludge.",Valves_and_piping
+Check valve?,One-way flow; prevents backflow; watch flow arrow; slam → water hammer. Ball checks common in lift stations.,Valves_and_piping
+Knife gate / pinch / diaphragm valves?,Knife gate & pinch → sludge/slurries. Diaphragm → chemicals.,Valves_and_piping
+Telescoping valve?,Adjustable-level gravity draw-off of sludge or supernatant.,Valves_and_piping
+Air release valve location?,High points of force mains (air rises).,Valves_and_piping
+Pressure relief valve required on?,Positive displacement pump discharges.,Valves_and_piping
+Fail-open / fail-closed?,Position a control valve goes to on loss of power/air.,Valves_and_piping
+Best backflow protection?,Air gap. RP assembly for high hazard where no air gap.,Valves_and_piping
+Back-pressure vs back-siphonage?,Back-pressure: downstream pressure higher than supply. Back-siphonage: supply pressure drops.,Valves_and_piping
+Why exercise valves?,So they don't seize and will work in an emergency; count turns.,Valves_and_piping
+Q = A × V?,Flow = area × velocity. V = Q ÷ A; A = Q ÷ V.,Hydraulics
+Continuity?,"A₁V₁ = A₂V₂ — smaller area, faster water. Half diameter → ¼ area → 4× velocity.",Hydraulics
+Pressure–head conversions?,1 m ≈ 9.81 kPa; 1 psi = 2.31 ft; 1 ft = 0.433 psi.,Hydraulics
+What sets pressure at a tank bottom?,Depth only — not width or shape.,Hydraulics
+What increases friction headloss?,"Longer pipe, smaller diameter, higher velocity, rougher pipe, more fittings, partly closed valves.",Hydraulics
+Self-cleansing sewer velocity?,About 0.6 m/s (2 ft/s).,Hydraulics
+"Pressure up, flow down at a pump?","Restriction downstream (closed valve, plugged/scaled force main).",Hydraulics
+Water hammer?,Pressure spike from suddenly stopping moving water. Close valves slowly.,Hydraulics
+4–20 mA meaning?,"4 mA = 0%, 20 mA = 100%, 12 mA = 50%. 0 mA = fault (broken wire/power).",Instrumentation_and_SCADA
+Mag meter needs?,"Full pipe, conductive liquid. No moving parts, no headloss.",Instrumentation_and_SCADA
+Doppler vs transit-time ultrasonic?,Doppler needs particles/bubbles (sludge). Transit-time for clean liquids.,Instrumentation_and_SCADA
+Parshall flume?,Open-channel primary device; upstream level gives flow; self-cleaning.,Instrumentation_and_SCADA
+Ultrasonic level errors?,"Foam, condensation, obstructions, turbulence.",Instrumentation_and_SCADA
+Bubbler errors?,Plugged tube reads HIGH; lost air reads low/zero.,Instrumentation_and_SCADA
+pH calibration and storage?,Buffers 7 then 4/10 bracketing sample; store wet in storage solution.,Instrumentation_and_SCADA
+Fouled DO probe reads?,Low → controller over-aerates (wastes energy). Verify with portable meter.,Instrumentation_and_SCADA
+ORP?,"mV; + oxidizing (O₂, chlorine); − reducing (anoxic/anaerobic).",Instrumentation_and_SCADA
+HOA switch?,Hand = manual (may bypass controls); Off = stopped but NOT lockout; Auto = automatic control.,Instrumentation_and_SCADA
+"SCADA, PLC, HMI, telemetry?",SCADA supervises; PLC runs local logic; HMI = screens; telemetry = remote communication.,Instrumentation_and_SCADA
+Alarm response?,Acknowledge → verify → respond per SOP → record. Never just silence.,Instrumentation_and_SCADA
+Calibration zero and span?,Zero = bottom of range; span = top of range. Record as-found/as-left.,Instrumentation_and_SCADA
+Suspect instrument reading?,Verify independently before changing the process.,Instrumentation_and_SCADA
+SCADA security?,"Own login, never share passwords, lock screens, no personal USBs, report odd behaviour.",Instrumentation_and_SCADA
+Voltage / current / resistance / power?,Voltage = push (V); current = flow (A); resistance = opposition (Ω); power = rate of work (W).,Electrical_and_mechanical
+Ohm's law and power?,V = I × R; P = V × I.,Electrical_and_mechanical
+hp ↔ kW?,1 hp = 0.746 kW; 1 kW = 1.34 hp.,Electrical_and_mechanical
+Fuse/breaker vs overload vs GFCI?,Fuse/breaker protect wiring (short circuits). Overload protects motor (sustained over-current). GFCI protects people.,Electrical_and_mechanical
+Replacing a blown fuse?,"Same type and rating, after finding the cause. Never oversize or bypass.",Electrical_and_mechanical
+Single-phasing?,Loss of one of three phases → motor overheats/burns out.,Electrical_and_mechanical
+VFD?,Variable frequency drive — changes motor speed.,Electrical_and_mechanical
+Grounding purpose?,Safe path for fault current so protection trips.,Electrical_and_mechanical
+Test for absence of voltage?,"Live–dead–live (test tester, test circuit, test tester).",Electrical_and_mechanical
+Standby generator care?,"Exercise regularly under load; check fuel, oil, coolant, battery, block heater; ATS transfers load; UPS keeps PLC/SCADA alive.",Electrical_and_mechanical
+5 rights of lubrication?,"Right lubricant, amount, place, time, method.",Electrical_and_mechanical
+Shear pin?,Breaks to protect a drive when jammed.,Electrical_and_mechanical
+Maintenance types?,"Preventive (scheduled), predictive (condition-based), corrective (after failure), emergency.",Electrical_and_mechanical
+Rising blower pressure + falling airflow?,Fouled/clogged diffusers.,Electrical_and_mechanical
+Representative sample?,"Well-mixed location, consistent time/place, avoid scum and deposits, clean equipment.",Laboratory_and_sampling
+Grab-only tests?,"pH, temperature, DO, chlorine residual, bacteria, oil & grease, sulphide.",Laboratory_and_sampling
+Best composite for loads?,"Flow-proportional, kept ≤ 6 °C.",Laboratory_and_sampling
+Preservation: cool vs acid?,"Cool most samples. H₂SO₄ to pH < 2 for COD, ammonia, TKN, total P.",Laboratory_and_sampling
+Holding times to remember?,"pH, temp, DO, Cl₂ residual: immediately. BOD: 48 h. Bacteria: ~8 h.",Laboratory_and_sampling
+Bacteria bottle contents?,Sterile with sodium thiosulphate (neutralizes chlorine). Don't rinse.,Laboratory_and_sampling
+Chain of custody?,Signed record of everyone who handled a sample from collection to analysis.,Laboratory_and_sampling
+QC checks?,"Calibration, blanks (contamination), duplicates (precision), standards (accuracy), control charts, records.",Laboratory_and_sampling
+BOD validity rules?,Depletion ≥ 2.0 mg/L; residual ≥ 1.0 mg/L; blank ≤ 0.2 mg/L; GGA check standard.,Laboratory_and_sampling
+BOD formula?,(DOi − DOf) × 300 ÷ mL sample.,Laboratory_and_sampling
+TSS formula?,"(dry wt − filter wt, g) × 1,000,000 ÷ mL sample.",Laboratory_and_sampling
+TSS vs VSS temperatures?,TSS dried at 103–105 °C; VSS burned at 550 °C.,Laboratory_and_sampling
+Settleable solids test?,"Imhoff cone, 60 minutes, mL/L.",Laboratory_and_sampling
+Alkalinity test?,Acid titration to ~pH 4.5; as CaCO₃.,Laboratory_and_sampling
+Phosphate colour test?,Ascorbic acid method — blue.,Laboratory_and_sampling
+Lab safety basics?,"PPE, acid to water, fume hood, never mouth-pipette, no food, COD waste is hazardous (mercury/chromium).",Laboratory_and_sampling
+Troubleshooting order?,Safety → verify → gather info → list causes → check equipment first → small change → notify → monitor & record.,Troubleshooting
+High effluent TSS first checks?,"Blanket, settleometer pattern, flow, RAS pump, SVI, weirs.",Troubleshooting
+High effluent ammonia in winter?,Reduce wasting (↑ SRT); keep DO ≥ 2; check alkalinity/pH; toxics.,Troubleshooting
+Low DO even with all blowers on?,"Verify probe; check diffusers (fouling), overload, blower/valve problems.",Troubleshooting
+Chlorine residual suddenly zero?,"Feed failure (empty cylinder, airlock, ejector) or demand spike (nitrite, solids).",Troubleshooting
+Lift station pump tripped at night?,"Run standby pump to control level, then investigate safely; reset once only; report overflows.",Troubleshooting
+Correcting a logbook error?,"Single line through it, write correction, initial and date. Never erase or falsify.",Administration_and_BC_regulations
+What must be reported?,"Spills, overflows, bypasses, permit exceedances, injuries and near misses — per procedure/regulation.",Administration_and_BC_regulations
+SOP vs O&M manual vs ERP?,SOP = step-by-step task. O&M = how the plant works/maintained. ERP = emergency procedures and contacts.,Administration_and_BC_regulations
+BC law requiring EOCP-certified operators?,"Municipal Wastewater Regulation (B.C. Reg. 87/2012), s.47, under the Environmental Management Act.",Administration_and_BC_regulations
+Federal effluent regulation?,"Wastewater Systems Effluent Regulations (Fisheries Act): e.g., CBOD 25, SS 25, TRC 0.02 mg/L, un-ionized ammonia 1.25 mg/L.",Administration_and_BC_regulations
+Who regulates worker safety in BC?,WorkSafeBC (Workers Compensation Act + OHS Regulation).,Administration_and_BC_regulations
+What is EOCP?,Environmental Operators Certification Program — certifies operators and classifies facilities in BC and Yukon.,Administration_and_BC_regulations
+Level I requirements?,"~12 months (1,800 h) experience, high school or equivalent, pass the WPI exam (70%), live/work in BC or Yukon.",Administration_and_BC_regulations
+Sewer-use bylaw?,Local rule controlling what businesses/industries can discharge to sewers (source control).,Administration_and_BC_regulations
+Media asks about an incident?,Refer to the designated spokesperson.,Administration_and_BC_regulations
+Area of a circle?,0.785 × D² (= 3.14 × r²). π = 3.14 on EOCP exams.,Math_formulas
+Circumference?,3.14 × D (use for circular weir length).,Math_formulas
+Volume of a cylinder?,0.785 × D² × depth.,Math_formulas
+Detention time?,Volume ÷ Flow (× 24 if flow is per day and you want hours).,Math_formulas
+SOR / WOR?,SOR = Flow ÷ surface area. WOR = Flow ÷ weir length.,Math_formulas
+kg/day formula?,"mg/L × m³/d ÷ 1,000 (= mg/L × ML/d).",Math_formulas
+lb/day formula?,mg/L × MGD × 8.34.,Math_formulas
+Chemical with purity?,kg/d of product = kg/d active ÷ purity (decimal) — answer gets bigger.,Math_formulas
+% removal?,(In − Out) ÷ In × 100.,Math_formulas
+Dilution?,C₁V₁ = C₂V₂.,Math_formulas
+Thickening volume?,V₂ = V₁ × %₁ ÷ %₂.,Math_formulas
+Dry solids in sludge (metric)?,kg/d = m³/d × % × 10.,Math_formulas
+Pump water power?,"Metric: 9.81 × Q(m³/s) × H(m) kW. US: gpm × ft ÷ 3,960 whp. Divide by efficiencies for brake/motor.",Math_formulas
+Key conversions?,"1 m³ = 1,000 L; 1 L/s = 86.4 m³/d; 1 ft³ = 7.48 gal; 1 gal = 8.34 lb; 1 MGD = 694.4 gpm; 1 day = 1,440 min.",Math_formulas
+Temperature conversion?,°F = °C × 1.8 + 32; °C = (°F − 32) ÷ 1.8.,Math_formulas

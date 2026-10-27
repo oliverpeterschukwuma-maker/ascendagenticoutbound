@@ -2,7 +2,7 @@
 
 ← [Module 3](03-preliminary-treatment.md) · [Course index](../README.md) · Next → [Module 5 — Biological Treatment](05-biological-treatment.md)
 
-**NTK area:** Monitor, Evaluate & Adjust Treatment Processes; Operate & Maintain Equipment. Heavy math overlap (detention time, surface overflow rate, weir overflow rate, % removal — see [Math 17B](../math/17b-area-volume-flow-time.md)).
+**NTK area:** Treatment Process Evaluation & Adjustment (≈38%); Equipment Evaluation, Maintenance & Operation (≈39%). Heavy math overlap (detention time, surface overflow rate, weir overflow rate, % removal — see [Math 17B](../math/17b-area-volume-flow-time.md)).
 
 ---
 

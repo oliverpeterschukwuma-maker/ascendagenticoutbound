@@ -2,7 +2,7 @@
 
 ← [Module 2](02-safety.md) · [Course index](../README.md) · Next → [Module 4 — Primary Treatment](04-primary-treatment.md)
 
-**NTK area:** Monitor, Evaluate & Adjust Treatment Processes; Operate & Maintain Equipment.
+**NTK area:** Treatment Process Evaluation & Adjustment (≈38%); Equipment Evaluation, Maintenance & Operation (≈39%).
 
 ---
 

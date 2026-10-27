@@ -1,8 +1,8 @@
 # Module 1 — Wastewater Fundamentals
 
-← [Course index](../README.md) · Next → [Module 2 — Safety](02-safety.md)
+← [Module 0 — Vocabulary](00-starter-vocabulary.md) · [Course index](../README.md) · Next → [Module 2 — Safety](02-safety.md)
 
-**NTK area:** Monitor, Evaluate & Adjust Treatment Processes (wastewater characteristics underpin every process) and Laboratory Analysis.
+**NTK area:** Treatment Process Evaluation & Adjustment (≈38% — wastewater characteristics underpin every process) and Laboratory Analysis (≈10%).
 
 ---
 

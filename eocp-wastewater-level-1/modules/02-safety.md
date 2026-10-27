@@ -2,7 +2,7 @@
 
 ← [Module 1](01-wastewater-fundamentals.md) · [Course index](../README.md) · Next → [Module 3 — Preliminary Treatment](03-preliminary-treatment.md)
 
-**NTK area:** Perform Security, Safety & Administrative Procedures. Safety questions also appear inside every other area ("what should the operator do FIRST?").
+**NTK area:** Security, Safety & Administrative Procedures (≈13%). Safety questions also appear inside every other area ("what should the operator do FIRST?").
 
 > **The #1 exam rule:** When a question involves a person's life or health, the answer that **protects people first** is almost always correct. Process second. Paperwork third.
 

@@ -1,88 +1,122 @@
 # BC EOCP / WPI Wastewater Treatment Level I — Master Course
 
-A self-study textbook and practice system for the **current (July 2025 onward) EOCP/WPI standardized Wastewater Treatment Level I exam** in British Columbia.
+A complete self-study textbook and practice system for the **current (July 2025 onward) EOCP/WPI standardized Wastewater Treatment Level I exam** in British Columbia — written for someone starting from zero, with extra help for math.
 
 ---
 
-## START HERE — how to use this course
+## The exam at a glance
 
-1. Read **[00 — Exam Overview & Source Rules](00-exam-overview.md)** first (≈20 min). It explains what the exam is, how questions are built, and how every fact in this course is labelled.
-2. Follow the **[6-Week Study Schedule](review/study-schedule-6-weeks.md)**. It tells you exactly what to read each day.
-3. Work through the modules **in order**. Every module has the same 8 sections, so you always know where you are.
-4. Do math **every day**, even on non-math days (the schedule builds this in).
-5. Log every practice set in the **[Progress Tracker](practice/progress-tracker.csv)** (instructions in the [Exam Prep System](practice/exam-prep-system.md)).
-6. In the last two days, use only the **[Last 48 Hours Cheat Sheet](review/cheat-sheet-last-48-hours.md)** and the **[Flashcards](review/flashcards.md)**.
+| | |
+|---|---|
+| **Exam** | WPI Wastewater Treatment Class I (EOCP Level I) — EOCP switched to the new WPI exams in **July 2025** |
+| **Format** | Multiple choice, 4 options, one best answer · **100 scored questions** (+ about 10 unscored pretest questions; EOCP lists 110 in total) |
+| **Pass mark** | **70%** (rewrite allowed 30 days after a failed attempt — EOCP Program Guide, April 2021; confirm the current guide) |
+| **Provided** | Formula/conversion table · **π = 3.14** · math appears in **both metric and US units** |
+| **What's tested (2025 WPI Need-to-Know)** | **Equipment ≈ 39% · Treatment Process ≈ 38% · Security/Safety/Admin ≈ 13% · Laboratory ≈ 10%** |
+| **To be eligible** | ~**12 months (1,800 h)** operating experience · high school or equivalent · live/work in BC or Yukon |
+| **Still to confirm with EOCP** | Time limit, calculator rules, computer-based format details → see [00-exam-overview.md](00-exam-overview.md) |
 
 ---
 
-## Course map
+## START HERE
+
+1. Read **[00 — Exam Overview](00-exam-overview.md)** (20 min): what the exam is, how questions are built, how facts are labelled.
+2. Read **[SOURCES-TO-GET.md](SOURCES-TO-GET.md)**: the official EOCP/WPI documents this course couldn't open, and how you can get them.
+3. Pick your schedule in **[review/study-schedule-6-weeks.md](review/study-schedule-6-weeks.md)**. Writing next year? Start with the **long-runway plan** at the top.
+4. Begin with **[Module 0 — Starter Vocabulary](modules/00-starter-vocabulary.md)**. Learn the words first and everything else gets easier.
+5. Work through the modules **in order**. Do the quiz at the end of each one, and log your score in the **[progress tracker](practice/progress-tracker.csv)**.
+6. Do **math every day**, even on days when the main topic isn't math.
+
+---
+
+## Course map (in learning order)
 
 ### Part A — Orientation
 | File | What it is |
 |---|---|
-| [00-exam-overview.md](00-exam-overview.md) | The current exam, how it's built, source-label system, verification checklist |
+| [00-exam-overview.md](00-exam-overview.md) | Current exam facts, WPI content areas, question styles, test-taking rules, verification checklist |
+| [SOURCES-TO-GET.md](SOURCES-TO-GET.md) | Every official document (with links) to download yourself, plus questions to ask EOCP |
 
 ### Part B — Teaching modules (`modules/`)
-| # | Module | Weight in your study time |
-|---|---|---|
-| 1 | [Wastewater Fundamentals](modules/01-wastewater-fundamentals.md) | ★★ |
-| 2 | [Safety](modules/02-safety.md) | ★★★ (heavily tested) |
-| 3 | [Preliminary Treatment](modules/03-preliminary-treatment.md) | ★★ |
-| 4 | [Primary Treatment](modules/04-primary-treatment.md) | ★★ |
-| 5 | [Biological Treatment](modules/05-biological-treatment.md) (activated sludge, lagoons, fixed film) | ★★★ (major) |
-| 6 | [Secondary Clarification](modules/06-secondary-clarification.md) | ★★★ |
-| 7 | [Nutrient Removal](modules/07-nutrient-removal.md) | ★★ |
-| 8 | [Disinfection](modules/08-disinfection.md) | ★★★ |
-| 9 | [Sludge & Biosolids](modules/09-sludge-biosolids.md) | ★★ |
-| 10 | [Pumps](modules/10-pumps.md) | ★★★ |
-| 11 | [Valves & Piping](modules/11-valves-piping.md) | ★★ |
-| 12 | [Hydraulics](modules/12-hydraulics.md) | ★★ |
-| 13 | [Instrumentation & Controls](modules/13-instrumentation-controls.md) | ★★ |
-| 14 | [Electrical & Mechanical Basics](modules/14-electrical-mechanical.md) | ★★ |
-| 15 | [Laboratory & Sampling](modules/15-laboratory-sampling.md) | ★★★ |
-| 16 | [Troubleshooting](modules/16-troubleshooting.md) | ★★★ |
-| 17 | **MATH** — see Part C | ★★★★ |
-| 18 | [Administration & BC Regulatory Framework](modules/18-administration.md) | ★★ |
+Each module has the same 8 sections: **checklist → plain-English teaching → operator-level understanding → MUST MEMORIZE → understand vs memorize vs recognize → exam traps → quiz → answers with explanations**.
 
-### Part C — Math (`math/`) — Module 17, split into 5 lessons
-| Lesson | Topic |
-|---|---|
-| [17A](math/17a-math-foundations.md) | Absolute-beginner math: arithmetic, decimals, fractions, percent, ratios, rearranging formulas, units |
-| [17B](math/17b-area-volume-flow-time.md) | Area, volume, flow, velocity, detention time, surface/weir/hydraulic loading |
-| [17C](math/17c-loading-dosage-concentration.md) | mg/L ↔ kg/day ↔ lb/day, chemical dose, chlorine, % removal, dilution, solutions, feed pumps |
-| [17D](math/17d-process-pumps-pressure-lab.md) | F/M, SRT/sludge age, SVI, MLVSS, pressure/head, pump power, pumping rates, lab calcs |
-| [17E](math/17e-math-practice-bank.md) | 80 mixed math practice problems + separate full worked answers |
-| [Conversions & Formula Sheet](math/formula-and-conversion-sheet.md) | One-page study version of the formulas and conversions |
+| # | Module | WPI area | Quiz Qs |
+|---|---|---|---|
+| 0 | [Starter Vocabulary](modules/00-starter-vocabulary.md): word parts, ~200 terms, abbreviation decoder | All | 25 |
+| 1 | [Wastewater Fundamentals](modules/01-wastewater-fundamentals.md) | Process | 15 |
+| 2 | [Safety](modules/02-safety.md) ★ heavily tested | Safety/Admin | 20 |
+| 3 | [Preliminary Treatment](modules/03-preliminary-treatment.md) | Process/Equipment | 12 |
+| 4 | [Primary Treatment](modules/04-primary-treatment.md) | Process | 10 |
+| 5 | [Biological Treatment](modules/05-biological-treatment.md): activated sludge, lagoons, trickling filters, RBCs ★ major | Process | 20 |
+| 6 | [Secondary Clarification](modules/06-secondary-clarification.md) | Process | 15 |
+| 7 | [Nutrient Removal](modules/07-nutrient-removal.md) | Process | 14 |
+| 8 | [Disinfection](modules/08-disinfection.md) | Process/Equipment | 15 |
+| 9 | [Sludge & Biosolids](modules/09-sludge-biosolids.md) | Process/Equipment | 14 |
+| 10 | [Pumps](modules/10-pumps.md) ★ equipment = biggest exam area | Equipment | 20 |
+| 11 | [Valves & Piping](modules/11-valves-piping.md) | Equipment | 15 |
+| 12 | [Hydraulics](modules/12-hydraulics.md) | Equipment | 12 |
+| 13 | [Instrumentation, Controls & SCADA](modules/13-instrumentation-controls.md) | Equipment + Security | 15 |
+| 14 | [Electrical & Mechanical Basics](modules/14-electrical-mechanical.md) (incl. standby power) | Equipment | 16 |
+| 15 | [Laboratory & Sampling](modules/15-laboratory-sampling.md) | Lab | 16 |
+| 16 | [Troubleshooting](modules/16-troubleshooting.md): 20 scenarios | Process/Equipment | 15 |
+| 17 | **MATH** — see Part C | All | — |
+| 18 | [Administration & BC Regulatory Framework](modules/18-administration.md) | Safety/Admin | 12 |
+
+### Part C — Math (`math/`): Module 17, from absolute beginner
+| Lesson | Topic | Practice |
+|---|---|---|
+| [17A](math/17a-math-foundations.md) | Calculator, decimals, fractions, percent, ratios, rearranging formulas, units, the 8-step word-problem method | 26 |
+| [17B](math/17b-area-volume-flow-time.md) | Area, volume, flow, velocity, conversions, detention time, SOR, WOR, pumping from level changes | 24 |
+| [17C](math/17c-loading-dosage-concentration.md) | mg/L ↔ kg/d ↔ lb/d, chemical dose & purity, chlorine, % removal, solutions, dilution, feed pumps, sludge | 20 |
+| [17D](math/17d-process-pumps-pressure-lab.md) | F/M, SRT, SVI, RAS, pressure/head, pump power, electricity, lab calculations, temperature | 24 |
+| [17E](math/17e-math-practice-bank.md) | **88 mixed problems** with full worked answers | 88 |
+| [Formula & Conversion Sheet](math/formula-and-conversion-sheet.md) | Study version of the formulas and conversions | — |
+
+Every formula follows the same layout: **formula → what it means → when to use it → variables & units → easy example → Level I example → exam question → common mistake.** Every worked answer was checked by calculation.
 
 ### Part D — Practice & exam system (`practice/`)
 | File | What it is |
 |---|---|
-| [exam-prep-system.md](practice/exam-prep-system.md) | Phases 1–5, how to track weak areas, how to review mistakes |
-| [progress-tracker.csv](practice/progress-tracker.csv) | Open in Excel / Google Sheets — auto-calculating tracker template |
-| [mixed-practice.md](practice/mixed-practice.md) | Phase 4 — 60 shuffled questions from all modules |
-| [mock-exam-1.md](practice/mock-exam-1.md) | Full-length 100-question mock exam + answer key with explanations |
-| [mock-exam-2.md](practice/mock-exam-2.md) | Second full-length 100-question mock exam + answer key with explanations |
+| [exam-prep-system.md](practice/exam-prep-system.md) | Phases 1–5 (Learn → Practice → Weakness tracking → Mixed → Mocks), mistake notebook, exam-day checklist |
+| [progress-tracker.csv](practice/progress-tracker.csv) | Open in Excel/Google Sheets. Rows for every quiz, mock and math set; incorrect count, % and per-area summary calculate automatically |
+| [mixed-practice.md](practice/mixed-practice.md) | Phase 4: 60 shuffled questions from all modules |
+| [mock-exam-1.md](practice/mock-exam-1.md) | Full 100-question mock, weighted 39/38/13/10 like the real exam, with explanations and a score-by-area table |
+| [mock-exam-2.md](practice/mock-exam-2.md) | Second full 100-question mock, all-new questions |
+| [eocp-official-practice.md](practice/eocp-official-practice.md) | EOCP's own sample exams and math questions: links, how to use them, placeholder for adding them |
 
 ### Part E — Review (`review/`)
 | File | What it is |
 |---|---|
-| [flashcards.md](review/flashcards.md) | ~260 FRONT/BACK flashcards (definitions, processes, equipment, formulas, safety, troubleshooting) |
-| [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Condensed "Last 48 Hours" guide |
-| [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan at 1–2 h/day, with extra math |
+| [flashcards.md](review/flashcards.md) + [flashcards.csv](review/flashcards.csv) | **250 FRONT/BACK cards** by module. The CSV imports into Anki or Quizlet |
+| [cheat-sheet-last-48-hours.md](review/cheat-sheet-last-48-hours.md) | Must-know definitions, processes, equipment, safety, parameters, formulas, conversions, traps, confused terms |
+| [study-schedule-6-weeks.md](review/study-schedule-6-weeks.md) | Day-by-day 6-week plan (1–2 h/day, daily math) **plus** a long-runway plan for writing next year |
+
+### `sources/`
+Drop the official PDFs here (see [SOURCES-TO-GET.md](SOURCES-TO-GET.md)). Claude can then check the whole course against them and add EOCP's official practice questions.
 
 ---
 
-## The source-label system (important)
+## How much practice is in this course?
 
-Every major fact in this course carries one of these labels:
+| Type | Count |
+|---|---|
+| Module quiz questions (with explanations) | 281 |
+| Math practice problems (with worked answers) | 182 |
+| Mixed practice questions | 60 |
+| Mock exam questions (2 × 100) | 200 |
+| Flashcards | 250 |
 
-| Label | Meaning | How much to trust it for the exam |
+---
+
+## The source-label system
+
+| Label | Meaning | Trust for the exam |
 |---|---|---|
-| **[OFFICIAL]** | Comes from EOCP or WPI (exam format, Need-to-Know content areas, the EOCP/ABC formula sheets, π = 3.14 rule) | This defines what can be tested |
-| **[BC-LAW]** | Comes from BC or federal legislation / regulation (e.g., BC Municipal Wastewater Regulation, WorkSafeBC OHS Regulation) | Legally binding — but the exam tests *operator knowledge*, not legal citations |
-| **[SUPPLEMENTAL]** | Standard operator-training references (e.g., Sacramento State "Operation of Wastewater Treatment Plants" Vol. I & II, WEF manuals, Echelon Institute study material) | Commonly the basis of exam questions; typical values can vary between references |
-| **[GENERAL]** | Widely accepted operator practice / good judgement | Use it to reason through "what should the operator do?" questions |
+| **[OFFICIAL]** | EOCP or WPI (exam format, content areas, formula sheets, π = 3.14, eligibility) | Defines what's tested |
+| **[BC-LAW] / [FEDERAL-LAW]** | Named legislation (e.g., BC Municipal Wastewater Regulation, WorkSafeBC OHS Regulation, federal WSER) | Legally binding; the exam tests the ideas, not section numbers |
+| **[SUPPLEMENTAL]** | Standard operator-training references (Sacramento State manuals, WEF, Echelon) | Typical values may vary a little between references |
+| **[GENERAL]** | Widely accepted operator practice | Use it for "what should the operator do?" reasoning |
 
-> **Rule:** If anything in this course conflicts with the current EOCP/WPI documents, **EOCP/WPI wins.** Echelon is an independent prep provider, not the certifying authority.
+> **Rule:** if anything here conflicts with the current EOCP/WPI documents, **EOCP/WPI wins.** Echelon Institute is an independent prep provider, not the certifying body.
 
-See [00-exam-overview.md](00-exam-overview.md) → *"Verification checklist"* for the short list of things you should confirm yourself on eocp.ca before exam day.
+> **Honesty note:** this course was built in a workspace that **could not open eocp.ca, gowpi.org, echeloninstitute.ca or Reddit**. Official facts (content-area weights, pass mark, eligibility, the July 2025 change) were confirmed through search results that quote those sites. Everything else is standard operator knowledge, labelled as above. All practice questions are **original** and written in the WPI style. They are **not** real exam questions.

@@ -2,7 +2,7 @@
 
 ← [Module 4](04-primary-treatment.md) · [Course index](../README.md) · Next → [Module 6 — Secondary Clarification](06-secondary-clarification.md)
 
-**NTK area:** Monitor, Evaluate & Adjust Treatment Processes — the single most important process area for Level I. Math overlap: F/M, SRT, SVI, MLVSS, loading (see [Math 17D](../math/17d-process-pumps-pressure-lab.md)).
+**NTK area:** Treatment Process Evaluation & Adjustment (≈38% of the exam) — activated sludge is the core process topic for Level I. Math overlap: F/M, SRT, SVI, MLVSS, loading (see [Math 17D](../math/17d-process-pumps-pressure-lab.md)).
 
 **Why this module includes lagoons and fixed-film:** Many BC Level I facilities are **lagoons**, **package extended-aeration plants**, **SBRs**, **oxidation ditches**, **RBCs** or **trickling filters**. The WPI treatment exams cover common biological processes, so you need basic operation of each (Part B and C below), with activated sludge as the core.
 
