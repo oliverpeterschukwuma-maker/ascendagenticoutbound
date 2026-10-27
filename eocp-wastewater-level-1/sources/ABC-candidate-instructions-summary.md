@@ -23,6 +23,24 @@
 | **Mark for review** | You can **flag** questions, jump to any question number, and **change any answer** at any time before you finish. |
 | **"!" button** | Leave a comment on a question you think is flawed. It **won't change your score** and nobody contacts you about it — it's only used to improve future exams. |
 
+### The Help window (✅ from the official sample test)
+The bottom bar, left to right:
+| Button | What it does |
+|---|---|
+| **Cover** | When you're finished, click Cover to leave the questions (then Finish → Mastery → Exit). Also use it for breaks. |
+| **Help** | Shows this guide. |
+| **Answer box** | Shows your answer — you can **click** the choice **or type** the letter (A–D). |
+| **Grade** | *Some* tests let you grade each item as you go; the real exam may not show it. |
+| **!** | Leave a comment on a question (doesn't change your score). |
+| **Time** | Shows the **time left** (timed test) or the current time. |
+| **☐ checkbox** | **Mark** the question to come back to later. |
+| **< · number list · >** | Go to the previous question, jump to a specific number, or go to the next. |
+| **>>** | Jump to the next **unanswered** question **or** next **marked** question. |
+
+**No calculator button** — bring your own non-programmable calculator.
+
+**Exam-day strategy using these buttons:** go through all questions once → **mark** (☐) anything long or unsure → use **>>** to sweep back through marked/unanswered ones → check **Time** at the halfway point → **Cover** to confirm all are answered.
+
 ## Finishing
 1. Click **"Cover"** → check that **every question is answered**.
 2. Click **"Finish and display results"**.

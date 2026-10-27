@@ -114,6 +114,7 @@ Once you've finished all modules:
 - [ ] Need to reschedule? Do it **more than 7 days ahead** to avoid a fee (EOCP: 1-866-552-3627, eocp@eocp.ca)
 - [ ] At the exam you'll receive the **ABC Canadian Formula/Conversion Table (Wastewater)**, **EOCP Formulae, Conversions & Abbreviations**, **EOCP Conversion Chart** and **candidate instructions** — you've practised with copies of these
 - [ ] **Non-programmable** calculator (fresh battery) — the same one you practised with. **Closed book**: no notes; scratch paper is provided
+- [ ] Know the buttons ([Help window](../sources/ABC-candidate-instructions-summary.md#the-help-window--from-the-official-sample-test)): ☐ = mark · `>>` = next unanswered/marked · Time = time left
 - [ ] Read the **Help** window first · `>>` = next unanswered · flag questions and come back · **blank = wrong**
 - [ ] Need a break? Click **"Cover"** (never "Exit") → "Resume" when back — the clock keeps running
 - [ ] Finish: **Cover** → check all answered → **Finish and display results** → **Mastery** (your score shows) → **Exit**
