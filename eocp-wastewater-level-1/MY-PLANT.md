@@ -74,6 +74,12 @@
 
 ---
 
+## Lagoon oil skimming setup
+
+![Lagoon oil-skimming setup](images/lagoon-oil-skimming.png)
+
+**Plan:** a **containment boom** funnels the oil to the **downwind corner**; a **floating tube (oleophilic) skimmer** there pulls oil into a drum; **absorbent booms** catch the sheen. Don't bubble air from the bottom, because that mixes the oil back into the water.
+
 ## 3. Use your plant as math practice
 
 Measure these at work and fill in the blanks. Each one is a real exam formula.

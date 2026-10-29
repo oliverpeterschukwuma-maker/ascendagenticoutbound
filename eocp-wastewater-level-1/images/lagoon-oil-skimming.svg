@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1060" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arr" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="14" refY="9" orient="auto">
+      <path d="M0,0 L18,9 L0,18 z" fill="#1f4e79"/>
+    </marker>
+    <marker id="arrO" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M0,0 L16,8 L0,16 z" fill="#7a4a00"/>
+    </marker>
+    <pattern id="sheen" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#3b2a12" opacity="0.55"/>
+      <path d="M0,8 Q4,4 8,8 T16,8" stroke="#c9a35a" stroke-width="1.2" fill="none" opacity="0.8"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="1060" fill="#ffffff"/>
+  <text x="450" y="38" text-anchor="middle" font-size="26" font-weight="bold" fill="#1a1a1a">Lagoon Oil Skimming Setup — Top View</text>
+  <text x="450" y="64" text-anchor="middle" font-size="15" fill="#444">Containment boom funnels oil downwind → floating tube skimmer in the corner → absorbent booms catch sheen</text>
+
+  <!-- Lagoon berm -->
+  <rect x="60" y="90" width="780" height="520" rx="18" fill="#c8b48a"/>
+  <rect x="85" y="115" width="730" height="470" rx="12" fill="#7fb3d5"/>
+
+  <!-- Wind -->
+  <g>
+    <text x="115" y="215" font-size="18" font-weight="bold" fill="#1f4e79">WIND</text>
+    <line x1="110" y1="235" x2="250" y2="235" stroke="#1f4e79" stroke-width="4" marker-end="url(#arr)"/>
+    <line x1="110" y1="265" x2="250" y2="265" stroke="#1f4e79" stroke-width="4" marker-end="url(#arr)"/>
+    <line x1="110" y1="295" x2="250" y2="295" stroke="#1f4e79" stroke-width="4" marker-end="url(#arr)"/>
+  </g>
+
+  <!-- Oil drift arrows -->
+  <g stroke="#7a4a00" stroke-width="3" fill="none" stroke-dasharray="8 6">
+    <path d="M290,340 Q450,335 600,360" marker-end="url(#arrO)"/>
+    <path d="M200,470 Q420,470 600,435" marker-end="url(#arrO)"/>
+    <path d="M330,250 Q500,270 605,335" marker-end="url(#arrO)"/>
+  </g>
+  <text x="250" y="400" font-size="15" fill="#7a4a00" font-weight="bold">floating oil drifts downwind</text>
+
+  <!-- Oil collected in corner -->
+  <path d="M640,300 L815,190 L815,585 L640,480 Z" fill="url(#sheen)"/>
+
+  <!-- Containment boom (funnel) -->
+  <g>
+    <path d="M500,130 Q600,220 645,300" stroke="#f2c200" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M500,570 Q600,500 645,480" stroke="#f2c200" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M500,130 Q600,220 645,300" stroke="#b38f00" stroke-width="2" fill="none" stroke-dasharray="4 10"/>
+    <path d="M500,570 Q600,500 645,480" stroke="#b38f00" stroke-width="2" fill="none" stroke-dasharray="4 10"/>
+    <circle cx="500" cy="130" r="8" fill="#555"/>
+    <circle cx="500" cy="570" r="8" fill="#555"/>
+  </g>
+  <text x="430" y="150" font-size="15" font-weight="bold" fill="#8a6d00" text-anchor="end">CONTAINMENT BOOM</text>
+  <text x="430" y="168" font-size="13" fill="#8a6d00" text-anchor="end">(anchored to berm, forms a funnel)</text>
+
+  <!-- Absorbent booms along edges in corner -->
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round">
+    <line x1="660" y1="128" x2="800" y2="128"/>
+    <line x1="660" y1="572" x2="800" y2="572"/>
+  </g>
+  <g stroke="#bbbbbb" stroke-width="2" stroke-dasharray="3 5">
+    <line x1="660" y1="128" x2="800" y2="128"/>
+    <line x1="660" y1="572" x2="800" y2="572"/>
+  </g>
+  <text x="730" y="108" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">ABSORBENT BOOM</text>
+  <text x="730" y="603" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">ABSORBENT BOOM</text>
+
+  <!-- Tube skimmer: drive unit on berm + floating tube loop -->
+  <rect x="840" y="345" width="50" height="70" rx="6" fill="#d9534f" stroke="#7a1f1c" stroke-width="2"/>
+  <text x="865" y="372" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">DRIVE</text>
+  <text x="865" y="386" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">UNIT</text>
+  <path d="M842,360 C760,330 690,300 680,380 C670,460 760,430 842,400" stroke="#222" stroke-width="5" fill="none"/>
+  <text x="690" y="530" font-size="15" font-weight="bold" fill="#111">FLOATING TUBE</text>
+  <text x="690" y="548" font-size="15" font-weight="bold" fill="#111">SKIMMER</text>
+  <line x1="720" y1="515" x2="700" y2="440" stroke="#111" stroke-width="1.5"/>
+  <!-- oil drum -->
+  <rect x="845" y="440" width="40" height="55" rx="5" fill="#3b3b3b"/>
+  <text x="865" y="470" font-size="10" fill="#fff" text-anchor="middle">OIL</text>
+  <text x="865" y="482" font-size="10" fill="#fff" text-anchor="middle">DRUM</text>
+  <line x1="865" y1="415" x2="865" y2="440" stroke="#7a4a00" stroke-width="3" marker-end="url(#arrO)"/>
+
+  <!-- Pump intake note -->
+  <circle cx="230" cy="545" r="12" fill="#2e7d32"/>
+  <text x="250" y="540" font-size="14" font-weight="bold" fill="#2e7d32">Water pump intake</text>
+  <text x="250" y="557" font-size="13" fill="#2e7d32">upwind side, below the oil layer</text>
+
+  <!-- SIDE VIEW -->
+  <text x="450" y="665" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">Side View — How the Tube Skimmer Works</text>
+  <rect x="60" y="690" width="780" height="230" fill="#f4f8fb" stroke="#ccc"/>
+  <!-- water -->
+  <rect x="60" y="800" width="560" height="120" fill="#7fb3d5"/>
+  <rect x="60" y="790" width="560" height="12" fill="url(#sheen)"/>
+  <text x="80" y="785" font-size="14" fill="#7a4a00" font-weight="bold">oil layer on surface</text>
+  <!-- berm -->
+  <path d="M620,800 L700,740 L840,740 L840,920 L620,920 Z" fill="#c8b48a"/>
+  <!-- drive unit -->
+  <rect x="700" y="700" width="90" height="60" rx="6" fill="#d9534f" stroke="#7a1f1c" stroke-width="2"/>
+  <text x="745" y="726" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">DRIVE UNIT</text>
+  <text x="745" y="742" font-size="11" fill="#fff" text-anchor="middle">wipers scrape oil</text>
+  <!-- tube -->
+  <path d="M705,730 C600,760 420,790 300,796 C250,798 250,796 300,794" stroke="#222" stroke-width="5" fill="none"/>
+  <path d="M705,745 C600,775 450,800 300,800" stroke="#222" stroke-width="5" fill="none"/>
+  <text x="330" y="830" font-size="14" fill="#111">tube floats on the surface — oil sticks to it, water doesn't</text>
+  <!-- collection -->
+  <rect x="800" y="770" width="34" height="60" rx="4" fill="#3b3b3b"/>
+  <line x1="770" y1="760" x2="812" y2="772" stroke="#7a4a00" stroke-width="3" marker-end="url(#arrO)"/>
+  <text x="817" y="850" font-size="12" fill="#333" text-anchor="middle">oil drum</text>
+  <text x="250" y="895" font-size="14" fill="#1f4e79">✔ Tube moves over a wide area and rises and falls with the water level</text>
+
+  <!-- Tips -->
+  <text x="60" y="960" font-size="16" font-weight="bold" fill="#1a1a1a">Keys to success</text>
+  <text x="60" y="985" font-size="14" fill="#333">• Put the skimmer in the DOWNWIND corner — let the wind do the herding.</text>
+  <text x="60" y="1007" font-size="14" fill="#333">• Never bubble air from the bottom — it mixes oil into the water. Sweep the surface only.</text>
+  <text x="60" y="1029" font-size="14" fill="#333">• Skim often; milky (emulsified) oil won't skim — treat it with coagulant / organoclay.</text>
+</svg>
