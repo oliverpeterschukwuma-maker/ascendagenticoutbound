@@ -3,7 +3,7 @@
 ← [Course index](README.md) · [Checklist](EOCP-LEVEL-1-CHECKLIST.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **NTU** = Nephelometric Turbidity Unit · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
 <!-- abbr-end -->
 
 **What it is:** an **industrial liquid-waste treatment facility** that treats **hydrovac truck loads**: oily water, fairly clean water, mud and "whatever comes in". It uses **physical and chemical** treatment rather than biological, then polishes the water and sends it to the **sanitary sewer** or a **lagoon**.
@@ -160,6 +160,20 @@ Your plant is **physical-chemical**, but the Level I exam is mostly about **muni
 > [Name · title · company · facility name · phone]
 
 ⚠ Describe the plant **accurately**. EOCP says a certificate isn't valid if it's obtained using **inaccurate information**, and EOCP makes the final call on the type and class anyway.
+
+## Discharge to the City of Kamloops sewer — the bylaw *(researched Oct 2026; confirm the current version)*
+**City of Kamloops Sanitary Sewer Bylaw No. 32-35** (1983, amended many times):
+- **Industrial wastewater needs a Sanitary Sewer Discharge Permit** before you discharge (s.27(b)). Your **permit** may set **stricter or extra** limits, and the permit wins.
+- **No stormwater, surface water, groundwater or cooling water** into the sanitary sewer without the City Engineer's approval (s.27(a)). This matters for hydrovac loads that are mostly groundwater or rainwater.
+
+| Parameter | Bylaw limit (older text found online) | How you'd check it |
+|---|---|---|
+| **pH** | **6.0 – 9.5** | pH meter (watch this after adding **caustic**) |
+| **BOD₅** (5-day Biochemical Oxygen Demand) | **≤ 300 mg/L** | BOD test (5 days); COD as a quick daily check |
+| **Suspended solids** | **≤ 400 mg/L** | TSS; **turbidity (NTU)** as a quick daily check |
+| **Oil & grease** | **≤ 50 mg/L** | Oil & grease lab test |
+
+**Get from your boss:** the plant's actual **discharge permit**, which may add metals, temperature, sampling frequency and reporting.
 
 ## 5. Still to fill in
 
