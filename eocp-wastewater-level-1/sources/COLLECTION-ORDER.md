@@ -31,7 +31,7 @@ Send each item in order. When one arrives, Claude summarizes it in `sources/`, u
 | 22 | EOCP answer: renewal and CEU requirements | ✅ Answered by Program Guide — annual dues, 2.4 CEUs / 2 yrs; dues amount in the email |
 | 23 | EOCP answer: accommodations (extra time etc.) | 📧 In the EOCP email (pending reply) |
 | 24 | Your plant's EOCP classification level | 🔜 You'll check it in the CRM |
-| 25 | Your plant's permit/registration limits | 🔶 City of Kamloops bylaw limits found online (pH 6.0–9.5, BOD 300, SS 400, O&G 50 mg/L) → [MY-PLANT.md](../MY-PLANT.md). **Still need:** the plant's own **discharge permit** |
+| 25 | Your plant's permit/registration limits | 🔶 ✅ **Kamloops Sanitary Sewer Bylaw 32-35** received — all limits in [MY-PLANT.md](../MY-PLANT.md). **Still need:** the plant's own **discharge permit** |
 | 26 | Your plant's processes, equipment list, shareable SOPs | ✅ Process received → [MY-PLANT.md](../MY-PLANT.md) |
 | 27 | (Optional) WorkSafeBC exposure limits table (H₂S, chlorine) | ☐ |
 | 28 | (Optional) BC spill-reporting number your employer uses | ☐ |

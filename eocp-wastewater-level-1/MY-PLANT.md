@@ -3,7 +3,7 @@
 ← [Course index](README.md) · [Checklist](EOCP-LEVEL-1-CHECKLIST.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **NTU** = Nephelometric Turbidity Unit · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
 <!-- abbr-end -->
 
 **What it is:** an **industrial liquid-waste treatment facility** that treats **hydrovac truck loads**: oily water, fairly clean water, mud and "whatever comes in". It uses **physical and chemical** treatment rather than biological, then polishes the water and sends it to the **sanitary sewer** or a **lagoon**.
@@ -161,19 +161,38 @@ Your plant is **physical-chemical**, but the Level I exam is mostly about **muni
 
 ⚠ Describe the plant **accurately**. EOCP says a certificate isn't valid if it's obtained using **inaccurate information**, and EOCP makes the final call on the type and class anyway.
 
-## Discharge to the City of Kamloops sewer — the bylaw *(researched Oct 2026; confirm the current version)*
-**City of Kamloops Sanitary Sewer Bylaw No. 32-35** (1983, amended many times):
-- **Industrial wastewater needs a Sanitary Sewer Discharge Permit** before you discharge (s.27(b)). Your **permit** may set **stricter or extra** limits, and the permit wins.
-- **No stormwater, surface water, groundwater or cooling water** into the sanitary sewer without the City Engineer's approval (s.27(a)). This matters for hydrovac loads that are mostly groundwater or rainwater.
+## Discharge to the City of Kamloops sewer — Sanitary Sewer Bylaw No. 32-35 ✅
+**Source:** the City's consolidated Bylaw 32-35 (1983, amended to Bylaw 32-84, Dec 2023). This is the City's "for convenience" copy, so your **permit** is the legal document you must meet.
 
-| Parameter | Bylaw limit (older text found online) | How you'd check it |
+### The rules that apply to you
+| Section | Rule | What it means here |
 |---|---|---|
-| **pH** | **6.0 – 9.5** | pH meter (watch this after adding **caustic**) |
-| **BOD₅** (5-day Biochemical Oxygen Demand) | **≤ 300 mg/L** | BOD test (5 days); COD as a quick daily check |
-| **Suspended solids** | **≤ 400 mg/L** | TSS; **turbidity (NTU)** as a quick daily check |
-| **Oil & grease** | **≤ 50 mg/L** | Oil & grease lab test |
+| **27(b)** | **No industrial wastewater into the sanitary sewer without a Sanitary Sewer Discharge Permit** | The plant must have this permit. Ask your boss for a copy. |
+| **27(a)** | No **storm, surface, ground or cooling water** into the sewer unless the City Engineer approves | Some hydrovac loads are mostly groundwater or rainwater, so check that your permit covers them |
+| **29** | **Grease, oil and sand interceptors** are required for vehicle/equipment washing and similar sites; the owner keeps them working | Your **separation cell and oil skimmer** do this job |
+| **30(a)–(h)** | **Permit needed** for: more than **3,000 m³/month**; liquid hotter than **50 °C**; **flammable or explosive** material; solids that can block the sewer; **noxious gases** | Hydrovac waste can carry **fuel/solvents** (flammable) and **H₂S**, so never discharge these |
+| **30(i)** | **pH 6.0 – 9.5** | Check after **caustic** is added. **Too much NaOH pushes pH above 9.5.** |
+| **35–36** | City can require a **sampling point (control structure)**; tests must follow **standard methods** | Samples come from your control structure, or the first City manhole downstream |
+| **37** | You must provide and **keep pretreatment working continuously**, at your cost | That's your whole plant |
+| **39** | City staff can **enter, inspect and sample** at any time | Keep logs and lab results ready |
+| **40** | Fines of **$25–$2,000 per offence, and each day counts separately** | |
 
-**Get from your boss:** the plant's actual **discharge permit**, which may add metals, temperature, sampling frequency and reporting.
+### Discharge limits, section 30(j): the maximum allowed
+| Parameter | Limit (mg/L) | Where it comes from in hydrovac waste | How you control or check it |
+|---|---|---|---|
+| **BOD₅** (5-day Biochemical Oxygen Demand) | **300** | organics, food/grease waste | ozone + carbon; BOD test (COD as a quick check) |
+| **Suspended solids** | **400** | mud, silt | coag/floc, settling, sand/bag filters; **turbidity** daily, TSS lab |
+| **Oil & grease** | **50** | fuel, motor oil, grease | separation cell, **skimmer**, carbon |
+| **Total sulphide** (as H₂S) | **5** | septic sludge, sewer cleaning | ozone (oxidizes sulphide) |
+| **Phenolic compounds** | **2** | oils, industrial residues | ozone + carbon |
+| **Total cyanide** (as HCN) | **0.2** | rare (industrial sites) | ozone; lab test if suspected |
+| **Copper, chromium, nickel, lead, zinc, cadmium** | **1.0 each** | soil, road and industrial sites | **pH adjustment + coagulation** (metals drop out as solids) + settling + filters |
+| **Total phosphorus** | **8.0** | soaps, organics | coagulant (metal salts remove P) |
+| **pH** | **6.0 – 9.5** | caustic dose, acidic loads | pH meter **before every discharge** |
+
+**Fees, if you haul to the City instead (Schedule C):** Mission Flats **$53.84/m³**; Kamloops Sewage Treatment Centre **$55.19/m³** (billed on full truck capacity), plus **$220.76/load** after hours. *(These are the rates in this copy; the 2024 amendment raised them slightly.)*
+
+**Still need:** the plant's own **discharge permit**. It may set **stricter** limits, sampling frequency and reporting rules.
 
 ## 5. Still to fill in
 
