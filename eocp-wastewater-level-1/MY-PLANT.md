@@ -113,6 +113,20 @@ Your plant is **physical-chemical**, but the Level I exam is mostly about **muni
 - Classification is **mandatory for municipal** plants (Municipal Wastewater Regulation). **Industrial** plants *can* be classified too, but it may not be required, so **don't assume yours is**.
 - **How to check:** in the CRM, look at the facility linked to your profile (it shows the facility **type and class**), or ask your supervisor or chief operator. If it's **not classified**, ask your employer about getting it classified, and email EOCP about whether your hours can count. EOCP may consider your situation **case by case**, and the Board can count **related experience for up to half** of the hours.
 
+## Reclassifying from "Collection" to "Wastewater Treatment" — the rundown
+**Status (Oct 2026):** the facility is registered with EOCP as **collection**. Your employer is willing to change it.
+
+1. **Who does it:** the **Chief Operator / Person in Charge** (your boss) logs into **crm.eocp.ca** → the **facility details page** → **Action → Request Re-classification**. *(EOCP Program Guide)*
+2. **The form scores the plant honestly:** infrastructure points (separation, chemical feed, settling, ozone, filters, carbon) plus influencer points (variable hydrovac loads, discharge limits, lab testing). **EOCP decides the type and class**, and can adjust it up or down. It's not "whatever we want".
+3. **Why it's legitimate here:** EOCP defines a wastewater **treatment** facility as one that **changes the physical, chemical or biological quality** of the water. Collection is only screening, lift stations or chlorination. This plant does chemical treatment, settling, ozone and filtration, so **treatment describes it accurately**.
+4. **What comes with it:** an **annual facility fee** ($100/yr for Class I in 2021); reclassification **every 5 years**; and EOCP expects the facility to have an operator **certified to match its class** (Level I WWT for a Class I plant). Ask EOCP how they handle a plant that doesn't have a certified WWT operator yet.
+5. **Ask EOCP before submitting:**
+   - Should the facility be **changed** to treatment, or **added** as a separate treatment facility?
+   - Will the **hours already worked** here count toward WWT Level I once it's reclassified?
+   - What class would a plant like this likely get? (It must be **Class I or higher** for Level I hours.)
+
+⚠ Fill in the form **accurately**. EOCP says a certificate isn't valid if it's obtained with **inaccurate information**.
+
 ## 5. Still to fill in
 
 - [ ] Facility **class** (from the CRM): ____ · counts toward WWT Level I? ☐ yes ☐ ask EOCP
