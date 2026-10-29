@@ -32,7 +32,7 @@
 | # | Item | Status | Answer / where to find |
 |---|---|---|---|
 | B1 | How to apply | ✅ Confirmed | Online in the **EOCP CRM** (crm.eocp.ca): your profile → **ACTION → APPLY FOR EXAM**. Include **Supervisor Verification** + a **job description from your employer**, and link your **employer and facility** in your CRM profile. You must also **sign the Code of Ethics**. (EOCP Program Guide, Apr 2021) |
-| B2 | Application and exam **fees** | 🔶 Partly | Paid **online at the end of the application**. Current amounts: **eocp.ca/fees** — ________ (EOCP Program Guide, Apr 2021) |
+| B2 | Application and exam **fees** | 🔶 Likely | EOCP fees page (eocp.ca/fees): **$150** for any Level I–IV exam + **$25** application fee, **plus GST**; **$75** to cancel/reschedule less than 7 days before. Paid online at the end of the application. *(Page date unclear; confirm before paying)* |
 | B3 | Processing time / deadline | ✅ Confirmed | Apply **at least 3 weeks before** the exam session. EOCP reviews it and tells you if you're **eligible**. (EOCP Program Guide, Apr 2021) |
 | B4 | How to **book**; dates and **locations** | ✅ Confirmed | Exam schedule: **CRM → Career Management → Exams**. Sessions are set by EOCP; you can also write **at the EOCP office** or by special arrangement. Web-based ABC exam with an invigilator. (EOCP Program Guide, Apr 2021) |
 | B5 | **ID** you must bring | ✅ Confirmed | Valid **government-issued photo ID**: driver's licence, BC Services Card, or passport |

@@ -148,7 +148,7 @@ Common at small and extended-aeration plants.
 | **Centrifuge** | High-speed bowl spins solids to the wall; scroll pushes them out | Vibration, bearing temperature, torque, polymer, centrate clarity |
 | **Screw press** | Slow screw squeezes sludge inside a screen | Polymer, screen cleaning |
 | **Sand drying beds** | Sludge spread on sand; water drains and evaporates | Weather-dependent; needs space; good for small plants |
-| **Plate-and-frame press** | Batch high-pressure press | Recognize |
+| **Plate-and-frame (filter) press** | **Batch** press: a feed pump pushes sludge into chambers between **cloth-covered plates**; water (**filtrate**) passes through and the solids build up as a **cake**. When it's full, the plates are opened and the **cake drops out**. It makes a **drier cake** than a belt press. | Cycle time, feed pressure, **cloth blinding** (needs washing), torn cloths (dirty filtrate), wet cake (stopped too soon or poor conditioning), leaks between plates. **High hydraulic closing force**: lockout, never reach between plates. |
 
 **Polymer — get the dose right:**
 | Polymer dose | Result |

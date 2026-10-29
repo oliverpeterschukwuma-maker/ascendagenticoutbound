@@ -3,7 +3,7 @@
 ← [Course index](README.md) · [Checklist](EOCP-LEVEL-1-CHECKLIST.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
+> 🔤 **Abbreviations in this file:** **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
 <!-- abbr-end -->
 
 **What it is:** an **industrial liquid-waste treatment facility** that treats **hydrovac truck loads**: oily water, fairly clean water, mud and "whatever comes in". It uses **physical and chemical** treatment rather than biological, then polishes the water and sends it to the **sanitary sewer** or a **lagoon**.
@@ -29,6 +29,11 @@
         │
         ▼
  WEIR TANK #1 (baffles) ──► WEIR TANK #2   (floc settles → sludge on bottom)
+        │                                       │ settled sludge
+        │                                       ▼
+        │                     SLUDGE (FILTER) PRESS — Kontek Ecology Systems
+        │                       ├─► dry CAKE → bin → disposal
+        │                       └─► FILTRATE (squeezed-out water) → back to the start for re-treatment
         │  submersible pump takes CLEAR water from the top
         ▼
  OZONE (O₃) — oxidizes/breaks down organic & inorganic contaminants (also disinfects)
@@ -58,7 +63,7 @@
 | **③ Flocculant (polymer)** | Long-chain polymer **bridges** small clumps into big, heavy **floc** (**flocculation**) | Needs **gentle mixing**, because hard mixing breaks the floc; overdose = sticky, slimy floc that floats or plugs filters | [Module 19 §2.6](modules/19-tertiary-effluent-odour.md) |
 | **Injection (metering) pumps** | Add an exact dose of each chemical | **Calibrate** them (timed draw-down); check for air in lines, empty tanks and plugged injection points | [Module 10 §2.4](modules/10-pumps.md) · [Math 17C §C10 feed pump](math/17c-loading-dosage-concentration.md) |
 | **Weir tanks with baffles** | **Settling (sedimentation)** — floc sinks, clear water flows over the weir. Baffles slow the water and stop **short-circuiting** | Floc carry-over (sludge too deep, flow too fast); remove settled **sludge** regularly | [Module 4 §2.1–2.7](modules/04-primary-treatment.md) · [Module 6 §2.7 weirs](modules/06-secondary-clarification.md) |
-| **Settled sludge** | The solids removed from the water | Store, dewater and dispose of it properly; keep records | [Module 9 §2.6](modules/09-sludge-biosolids.md) · [Module 19 §2.5](modules/19-tertiary-effluent-odour.md) |
+| **Sludge (filter) press — Kontek Ecology Systems** | **Dewatering**: a feed pump pushes the wet sludge between **filter plates covered with cloth**. Water (**filtrate**) passes through the cloth and solids stay behind as a **cake**. When the chambers are full, the press is opened and the **cake drops out** for disposal. Kontek lists its presses as turning a **2–5% solids** slurry into a **30–35% solids** cake, at up to about **80 psi** (≈ 550 kPa (kilopascal)). *(Third-party product listings; check your unit's manual.)* | **Batch cycle:** fill → press until filtrate slows → open → drop cake → wash cloths. Watch for **wet or sloppy cake** (stopped too early, poor flocculation upstream, or blinded cloths), **cloudy filtrate** (torn cloth, bad gasket), and leaks between plates. **Hydraulic closing pressure and pinch points**: lockout, guards, never reach between plates. **Filtrate goes back to the front of the plant** (a **return stream**). Keep **disposal records** (manifests). | [Module 9 §2.6 dewatering, §2.7 return streams](modules/09-sludge-biosolids.md) · [Module 2 §2.10, 2.12](modules/02-safety.md) · [Module 19 §2.5](modules/19-tertiary-effluent-odour.md) |
 | **Ozone (O₃)** | Very strong **oxidizer**: breaks down organics, odour, colour and some dissolved contaminants; also **disinfects** | **Toxic gas** — ozone room monitor, ventilation, off-gas destruct unit; leaves **no lasting residual** | [Module 8 §2.11](modules/08-disinfection.md) · [Module 2 §2.3](modules/02-safety.md) |
 | **Sand filter** | Traps fine particles left after settling | **Backwash** when headloss (pressure drop) climbs or the water turns cloudy; mudballs and channelling | [Module 19 §2.1](modules/19-tertiary-effluent-odour.md) |
 | **Bag filter** | Catches finer particles; protects the carbon | Change the bag when **differential pressure** rises | [Module 19 §2.1](modules/19-tertiary-effluent-odour.md) |
@@ -113,19 +118,48 @@ Your plant is **physical-chemical**, but the Level I exam is mostly about **muni
 - Classification is **mandatory for municipal** plants (Municipal Wastewater Regulation). **Industrial** plants *can* be classified too, but it may not be required, so **don't assume yours is**.
 - **How to check:** in the CRM, look at the facility linked to your profile (it shows the facility **type and class**), or ask your supervisor or chief operator. If it's **not classified**, ask your employer about getting it classified, and email EOCP about whether your hours can count. EOCP may consider your situation **case by case**, and the Board can count **related experience for up to half** of the hours.
 
-## Reclassifying from "Collection" to "Wastewater Treatment" — the rundown
-**Status (Oct 2026):** the facility is registered with EOCP as **collection**. Your employer is willing to change it.
+## Reclassifying from "Collection" to "Wastewater Treatment" — full rundown
 
-1. **Who does it:** the **Chief Operator / Person in Charge** (your boss) logs into **crm.eocp.ca** → the **facility details page** → **Action → Request Re-classification**. *(EOCP Program Guide)*
-2. **The form scores the plant honestly:** infrastructure points (separation, chemical feed, settling, ozone, filters, carbon) plus influencer points (variable hydrovac loads, discharge limits, lab testing). **EOCP decides the type and class**, and can adjust it up or down. It's not "whatever we want".
-3. **Why it's legitimate here:** EOCP defines a wastewater **treatment** facility as one that **changes the physical, chemical or biological quality** of the water. Collection is only screening, lift stations or chlorination. This plant does chemical treatment, settling, ozone and filtration, so **treatment describes it accurately**.
-4. **What comes with it:** an **annual facility fee** ($100/yr for Class I in 2021); reclassification **every 5 years**; and EOCP expects the facility to have an operator **certified to match its class** (Level I WWT for a Class I plant). Ask EOCP how they handle a plant that doesn't have a certified WWT operator yet.
-5. **Ask EOCP before submitting:**
-   - Should the facility be **changed** to treatment, or **added** as a separate treatment facility?
-   - Will the **hours already worked** here count toward WWT Level I once it's reclassified?
-   - What class would a plant like this likely get? (It must be **Class I or higher** for Level I hours.)
+**Status (Oct 2026):** the facility is registered with EOCP as **wastewater collection**. Your employer is willing to change it.
 
-⚠ Fill in the form **accurately**. EOCP says a certificate isn't valid if it's obtained with **inaccurate information**.
+### Why "treatment" is the correct type
+- EOCP's **wastewater treatment** category covers **municipal and industrial** facilities. A treatment facility is one that **changes the physical, chemical or biological quality** of the wastewater.
+- A site doing **only** screening/grinding, lift stations, chlorination or odour control counts as **collection**. *(EOCP Program Guide)*
+- This plant does oil separation, pH adjustment, coagulation/flocculation, settling, **sludge dewatering (filter press)**, ozone and sand/bag/carbon filtration, so **"treatment" is the accurate type**.
+
+### Step by step
+1. **Confirm who can do it.** Only the person listed as **Chief Operator or Person in Charge** for the facility can request (re)classification. Check this in the CRM under the **Relationships** tab. If your boss isn't listed, or has lost the login, EOCP can fix it.
+2. **Email EOCP first** (facilities@eocp.ca or eocp@eocp.ca). EOCP doesn't publish steps for changing a facility's **type**; the CRM button is for re-classifying. Ask whether to **change** the existing facility or **add** a new treatment facility (email below).
+3. **Do the classification in the CRM** (crm.eocp.ca): **Relationships** tab → open the facility → **Classifications** tab (shows status), or **facility details → Action → Request Re-classification**.
+4. **Answer the form accurately.** EOCP scores **physical infrastructure** (what equipment and processes you have) plus **operational influencers** (how variable the incoming loads are, discharge requirements, lab testing). It adds the two to set the class: Small System or **Class I–IV**. EOCP can **adjust the class up or down**.
+5. **EOCP reviews it and assigns the class.** Then you and the other operators **link yourselves** to the facility in your own CRM profiles.
+
+### What comes with it
+| Item | Detail |
+|---|---|
+| **Annual facility fee** | **$100 Class I · $200 Class II · $300 Class III · $400 Class IV**, plus GST, invoiced **July 1** each year *(EOCP fees/FAQ pages; confirm current amounts)* |
+| **Reclassify** | Every **5 years**, or after a **major process change** (e.g., adding new treatment equipment) |
+| **Certified operator** | EOCP expects a facility to have an operator **certified to match its class** (a **Class I** plant → **Level I WWT** or higher in charge). Ask EOCP how they handle a plant that doesn't have one yet. |
+| **Your eligibility** | Level I needs **1,800 h at a Class I or higher** facility. EOCP doesn't say publicly whether hours worked **before** the change count, so **ask**. |
+
+### Email to EOCP
+> **To:** facilities@eocp.ca, eocp@eocp.ca
+> **Subject:** Changing our facility from wastewater collection to wastewater treatment
+>
+> Hello,
+>
+> Our facility is registered with EOCP as **wastewater collection**, but it treats hydrovac liquid waste: oil/water separation and skimming, pH adjustment (sodium hydroxide), coagulation and flocculation, settling in baffled weir tanks, sludge dewatering in a filter press, ozone, and sand, bag and activated-carbon filtration, before discharge to sanitary sewer or a lagoon. We'd like it classified correctly as **wastewater treatment (industrial)**.
+>
+> 1. Should we **change** the existing facility's type, or **add** a new treatment facility in the CRM?
+> 2. Will operating hours **already worked** here count toward **Wastewater Treatment Level I** once it's classified as treatment?
+> 3. Roughly what class would a facility like ours be?
+> 4. Is the annual fee still $100 for a Class I facility?
+> 5. What applies if the facility doesn't yet have a Level I WWT certified operator?
+>
+> Thank you,
+> [Name · title · company · facility name · phone]
+
+⚠ Describe the plant **accurately**. EOCP says a certificate isn't valid if it's obtained using **inaccurate information**, and EOCP makes the final call on the type and class anyway.
 
 ## 5. Still to fill in
 
