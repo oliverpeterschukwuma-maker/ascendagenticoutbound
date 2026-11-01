@@ -3,7 +3,7 @@
 ← [Course index](README.md) · [Checklist](EOCP-LEVEL-1-CHECKLIST.md)
 
 <!-- abbr-start -->
-> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SRT** = Solids Retention Time · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
+> 🔤 **Abbreviations in this file:** **BOD** = Biochemical Oxygen Demand · **BOD₅** = 5-day Biochemical Oxygen Demand · **COD** = Chemical Oxygen Demand · **DO** = Dissolved Oxygen · **DT** = Detention Time · **EOCP** = Environmental Operators Certification Program · **F/M** = Food-to-Microorganism ratio · **H₂S** = hydrogen sulphide · **kPa** = kilopascal · **LEL** = Lower Explosive Limit · **mg/L** = milligrams per litre · **mL** = millilitre · **MLSS** = Mixed Liquor Suspended Solids · **NTU** = Nephelometric Turbidity Unit · **psi** = pounds per square inch · **RBCs** = Rotating Biological Contactors · **SDS** = Safety Data Sheet · **SOP** = Standard Operating Procedure · **SRT** = Solids Retention Time · **SS** = Suspended Solids · **SVI** = Sludge Volume Index · **TSS** = Total Suspended Solids · **UV** = Ultraviolet
 <!-- abbr-end -->
 
 **What it is:** an **industrial liquid-waste treatment facility** that treats **hydrovac truck loads**: oily water, fairly clean water, mud and "whatever comes in". It uses **physical and chemical** treatment rather than biological, then polishes the water and sends it to the **sanitary sewer** or a **lagoon**.
@@ -79,6 +79,34 @@
 ![Lagoon oil-skimming setup](images/lagoon-oil-skimming.png)
 
 **Plan:** a **containment boom** funnels the oil to the **downwind corner**; a **floating tube (oleophilic) skimmer** there pulls oil into a drum; **absorbent booms** catch the sheen. Don't bubble air from the bottom, because that mixes the oil back into the water.
+
+## Second-pass polish: direct filtration SOP
+
+**When to use:** water that has **already been treated once** but you want it **cleaner** (lower turbidity, less colour and organics).
+
+```
+NTU/pH check ─► OZONE port ─► contact time + gas release ─► COAGULANT port ─► mix
+   ─► BAFFLED WEIR TANK (settle) ─► NTU check ─► SAND FILTER ─► BAG FILTER ─► CARBON ─► NTU/pH check ─► discharge
+```
+
+| Step | Do this | Why |
+|---|---|---|
+| 1 | **Measure NTU (Nephelometric Turbidity Unit) and pH** of the water going in | Low NTU (roughly < 10–15) → polish works; higher → treat with full coag/floc and settling first |
+| 2 | **Jar test** small coagulant doses (e.g., 5 / 10 / 15 / 20 mg/L (milligrams per litre)) on **ozonated** water | Lowest dose giving the clearest water; overdosing makes it cloudier |
+| 3 | **Ozone first** (upstream port) | Breaks down organics; often means less coagulant is needed |
+| 4 | **Let the gas escape** before the coagulant (contact time + air-release valve to ozone destruct) | Bubbles float the floc and air-bind the sand |
+| 5 | **Coagulant second** (downstream port), injected where flow is turbulent | Fast mixing is what makes coagulant work |
+| 6 | **Baffled weir tank** | Contact time + settles the bigger clumps, which takes load off the sand |
+| 7 | **Measure NTU** after the weir tank | Shows how much settled out |
+| 8 | **Sand filter** catches the fine clumps (pin floc) | If the sand plugs fast, add a small flocculant dose after the coagulant |
+| 9 | **Bag filter → carbon** | Bag protects the carbon; carbon removes dissolved organics and leftover ozone |
+| 10 | **Measure NTU and pH out** | Prove it worked; pH must be **6.0–9.5** for discharge |
+| 11 | **Backwash the sand** when outlet NTU or pressure difference rises | Return backwash water to the start; sludge goes to the press |
+| 12 | **Pull sludge** from the weir tank bottom regularly | To the filter press |
+
+**Use an inorganic coagulant** (alum, ferric chloride, PAC). Ozone can break down organic-polymer coagulants. Fittings at the injection points should be **ozone-resistant** (316 SS, PVDF, PTFE).
+
+**Log each run:** NTU in · pH in · coagulant dose · NTU after weir tank · NTU out · pressure in/out of each filter · pH out.
 
 ## 3. Use your plant as math practice
 
