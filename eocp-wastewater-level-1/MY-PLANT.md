@@ -104,6 +104,11 @@ NTU/pH check ─► OZONE port ─► contact time + gas release ─► COAGULAN
 | 11 | **Backwash the sand** when outlet NTU or pressure difference rises | Return backwash water to the start; sludge goes to the press |
 | 12 | **Pull sludge** from the weir tank bottom regularly | To the filter press |
 
+**Your actual layout (confirmed Nov 2026):** outdoor blue weir tanks → pump → **wall-mounted PVC loop** (ozone injected on the bottom pipe; the loop gives ozone contact time) → **indoor white weir tank** → sand → bag → carbon.
+- **Coagulant goes in at the END of the loop**, in the pipe just before the white weir tank inlet (add a new injection tee there). It should **not** go in the capped tees upstream of the ozone port, because ozone bubbles would float and break the floc.
+- The **white weir tank** lets the gas escape and settles the clumps. **Ozone off-gas indoors:** keep the room ventilated and use an **ozone monitor**.
+- Replace the clear vinyl ozone hose with **PTFE or PVDF** tubing, because ozone makes vinyl brittle.
+
 **Use an inorganic coagulant** (alum, ferric chloride, PAC). Ozone can break down organic-polymer coagulants. Fittings at the injection points should be **ozone-resistant** (316 SS, PVDF, PTFE).
 
 **Log each run:** NTU in · pH in · coagulant dose · NTU after weir tank · NTU out · pressure in/out of each filter · pH out.
